@@ -1,0 +1,16 @@
+{
+    "First Name":"Vorname",
+    "Last Name":"Nachname",
+    "Firma":"Firma",
+    "Street":"Straße",
+    "House Number":"Hausnummer",
+    "City":"Stadt",
+    "Zip Code":"Postleitzahl",
+    "Phone Number":"Telefonnummer",
+    "Add":"Hinzufügen",
+    "title":"Anschrift Hinzufügen",
+    "plase enter street":"Bitte tragen Sie Eine Straße ein",
+    "plase enter housenumber":"Bitte tragen Sie Eine Hausenummer ein, und dann wählen Sie die gewünschte Adresse",
+    "plase enter strezipcet":"Bitte tragen Sie Ein PostLeitzahl ein",
+    "your distance more":"Die eingetragene Adresse hat mehr als 4km abstand, Tragen Sie bitte eine andere Adresse"
+}

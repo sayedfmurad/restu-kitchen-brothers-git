@@ -1,0 +1,7 @@
+{
+    "title":"Bestellungen",
+    "amount":"Betrag",
+    "ordertime":"Lieferzeit",
+    "no orders":"Es gibt keine Bestellung",
+    "delivery cost":"Lieferung Kosten"
+}

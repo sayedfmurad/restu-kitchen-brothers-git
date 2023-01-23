@@ -1,0 +1,13 @@
+.cosrow{
+    background-color:rgb(158 126 35 / 88%);
+    color: white !important;   
+}
+.container{
+    font-size: 1rem;
+    color: rgb(155, 155, 155);
+    margin-bottom: 5rem;
+}
+.btn-danger{
+    font-size: 0.5rem !important;
+    margin-right:0.5rem ;
+}

@@ -1,0 +1,15 @@
+.selecteddd{
+    background-color: rgba(22, 112, 248, 0.63) !important;
+}
+.row{
+    background-color: rgba(0, 0, 0, 0.63);
+    border: 1px solid;
+    border-color: white;
+    border-radius: 1px;
+}
+h2{
+    color: rgb(143, 139, 139);
+}
+.text{
+    color: white;
+}

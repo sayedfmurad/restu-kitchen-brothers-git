@@ -1,0 +1,13 @@
+label{
+    color: rgb(204, 204, 204);
+}
+input{
+    background-color: #503e3e !important;
+    color: white !important;
+}
+::placeholder{
+    color: rgb(177, 173, 173) !important;
+}
+.row{
+background-color: rgba(0, 0, 0, 0.432);
+}

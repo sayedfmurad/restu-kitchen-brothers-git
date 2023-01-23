@@ -1,0 +1,9 @@
+.hide{
+    display: none;
+}
+.navbar button{
+    border: none;
+}
+.nav-item p{
+    color:rgba(255, 254, 254, 0.924)!important;
+}

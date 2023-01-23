@@ -1,0 +1,11 @@
+.myfooter{
+    background-color: rgb(169 3 3) !important;
+    font-size: 0.8rem;
+    color: white;
+}
+button{
+    color: white;
+}
+.myfooter .subprice{
+    font-size: 0.5rem;
+}

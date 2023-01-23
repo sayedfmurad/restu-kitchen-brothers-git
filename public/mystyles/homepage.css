@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+.btn{
+ background-color: #d90419c2;   
+}
+.textcos{
+    font-size: 1rem;
+    background-color: rgba(212, 3, 3, 0.76);
+    color: white;
+    border-color: violet;
+    font-family: "Roboto",sans-serif;
+}
+p, .rounded{
+font-size: 1rem;  
+color: white;  
+}
+.mfooter{
+    position: fixed !important ;
+    left: 0 !important ;
+    bottom: 0 !important ;
+    width: 100% !important ;
+}
+@font-face {
+    font-family:"Roboto-lite";
+    src: url("Fonts/Roboto-Light.ttf") format("truetype");
+  }
