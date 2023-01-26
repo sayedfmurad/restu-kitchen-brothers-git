@@ -40,16 +40,19 @@ export default function Addaddress() {
             obj['lng'] = place.geometry.location.lng();
             obj['lat'] = place.geometry.location.lat();
             obj['distance'] = calculateDistance(menu['staticValue']['latlng']['lat'],menu['staticValue']['latlng']['lng'],obj['lat'],obj['lng']);                        
-            obj['kosten'] = obj['distance']<=2?0:2;
+
             var isAllowedDistance = false;
             for(var ddd in menu["staticValue"]["minpriceorder"])
             {
                 if(obj['distance']>=menu["staticValue"]["minpriceorder"][ddd]["distance"]["min"]&&
                 obj['distance']<menu["staticValue"]["minpriceorder"][ddd]["distance"]["max"])
                 {
-                
+                    obj['kosten'] = menu["staticValue"]["minpriceorder"][ddd]["lieferkosten"]
                     obj['minpriceorder'] = menu["staticValue"]["minpriceorder"][ddd]["price"]
-                isAllowedDistance= true;break;}
+                    isAllowedDistance= true;
+
+                    break;
+            }
             }
             if(obj["street"]==""||obj["housenumber"]==""||obj["zipc"]==""||!isAllowedDistance)    
             {

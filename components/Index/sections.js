@@ -14,12 +14,10 @@ export default ()=>
     var fontsize = sections[key]
     fontsize = fontsize.length>=16?"0.8rem":"1rem"
     rows.push(
-      <div className='col-6 col-md-3 col-sm-4 col-xs-6'>
-        <a className='col-12 btn btn-danger text-center'
-         style={{"height":"100%","fontSize":fontsize}} 
-         href={`${langswitch.RouteP("sectionmenu?section="+sections[key])}`}>
-        {sections[key]}
-      </a>
+      <div className='col-lg-3 col-md-4 col-sm-6 col-xs-6' id={sections[key]}>
+        <a class="a-item a-item-2" style={{"backgroundImage":`url(Images/${sections[key].toUpperCase().replace(" ","_")}.jpeg)`}}  href={langswitch.RouteP("sectionmenu?section="+sections[key])}>
+           <div class="a-sub">{sections[key]}</div>
+        </a>        
       </div>
       );
   }
@@ -28,14 +26,9 @@ export default ()=>
             {/* <div className="row ">
               <img className="col-12 mb-3"  src="./Images/rabatt.jpeg" />
             </div> */}
-
-            <div className='row g-2' >
-              <div className="col-12 text-white">
-                <h5>SpeiseKarte:</h5>
-              </div>
-            </div>
             <div className='row g-2' >
             {rows}  
             </div>
             </div>
+            
 }

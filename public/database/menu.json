@@ -506,6 +506,91 @@
             "zusatz":"1,7",
             "section": "PIZZEN"
         }
+        ,
+        "P1": {
+            "name": "Pasta Bolognese",
+            "price": {
+                "stand":"8,30"
+            },
+            "desO": "Rinderhackfleischsoße, fr. Parmsesan",
+            "desT": "",
+            "zusatz":"1,7,9",
+            "section": "Pasta"
+        }
+        ,
+        "P2": {
+            "name": "Pasta Carbonara",
+            "price": {
+                "stand":"8,30"
+            },
+            "desO": "Putenschicken, Sahnesauce",
+            "desT": "",
+            "zusatz":"1,7,B",
+            "section": "Pasta"
+        }
+        ,
+        "P3": {
+            "name": "Pasta Chickasta",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Hähnchenbrust, Champignons, Zwiebeln, Sahnesauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "Pasta"
+        }
+        ,
+        "P4": {
+            "name": "Pasta Mumbai",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Hähnchenbrust, Zwiebeln, Möhren, Brokkoli, Curry, Sahnesauce",
+            "desT": "",
+            "zusatz":"1,7,A,E",
+            "section": "Pasta"
+        }
+        ,
+        "P5": {
+            "name": "Pasta Verdura",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Auberginen, Zuccini, Brokkoli, fr. Paprika, Knoblauch, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,9",
+            "section": "Pasta"
+        },
+        "P6": {
+            "name": "Pasta Scampi",
+            "price": {
+                "stand":"9,00"
+            },
+            "desO": "Krabben, Knoblauch, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,9",
+            "section": "Pasta"
+        },
+        "P7": {
+            "name": "Pasta Napoli",
+            "price": {
+                "stand":"7,50"
+            },
+            "desO": "Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,9",
+            "section": "Pasta"
+        },
+        "P8": {
+            "name": "Pasta Fruttie De Mare",
+            "price": {
+                "stand":"9,50"
+            },
+            "desO": "Meerfrüchte, Knoblauch, Tomatensauce",
+            "desT": "",
+            "zusatz":"",
+            "section": "Pasta"
+        }
     },
     "extra":
     {
@@ -561,6 +646,55 @@
                 "24cm":{"price":"1,50","name":"ananas"},                
                 "30cm":{"price":"2,00","name":"ananas"},                
                 "40cm":{"price":"3,00","name":"ananas"}
+                },
+        "artischocken":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"artischocken"},                
+                "24cm":{"price":"1,50","name":"artischocken"},                
+                "30cm":{"price":"2,00","name":"artischocken"},                
+                "40cm":{"price":"3,00","name":"artischocken"}
+                },
+        "barbecuesaucen":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"barbecuesaucen"},                
+                "24cm":{"price":"1,50","name":"barbecuesaucen"},                
+                "30cm":{"price":"2,00","name":"barbecuesaucen"},                
+                "40cm":{"price":"3,00","name":"barbecuesaucen"}
+                },
+        "Basilikum-Pesto":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"basilikum-Pesto"},                
+                "24cm":{"price":"1,50","name":"basilikum-Pesto"},                
+                "30cm":{"price":"2,00","name":"basilikum-Pesto"},                
+                "40cm":{"price":"3,00","name":"basilikum-Pesto"}
+                },
+        "Champignons":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"Champignons"},                
+                "24cm":{"price":"1,50","name":"Champignons"},                
+                "30cm":{"price":"2,00","name":"Champignons"},                
+                "40cm":{"price":"3,00","name":"Champignons"}
+                },
+        "Cheddar":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"Cheddar"},                
+                "24cm":{"price":"1,50","name":"Cheddar"},                
+                "30cm":{"price":"2,00","name":"Cheddar"},                
+                "40cm":{"price":"3,00","name":"Cheddar"}
+                },
+        "Cranberry":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"Cranberry"},                
+                "24cm":{"price":"1,50","name":"Cranberry"},                
+                "30cm":{"price":"2,00","name":"Cranberry"},                
+                "40cm":{"price":"3,00","name":"Cranberry"}
+                },
+        "Currysauce":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"Currysauce"},                
+                "24cm":{"price":"1,50","name":"Currysauce"},                
+                "30cm":{"price":"2,00","name":"Currysauce"},                
+                "40cm":{"price":"3,00","name":"Currysauce"}
                 },
         "brocoli":{
             "section":["pizzen"],
@@ -705,6 +839,14 @@
     },
     "staticValue":
     {
+        "kontakt":{
+            "name":"Kitchenbrothers",
+            "street":"Konstantinstrasse 87",
+            "zipc":"41238",
+            "city":"Mönchengladbach",
+            "tel":"021662781117"
+        },
+        "menuurl":"http://kitchenBrothers.s3-website.eu-central-1.amazonaws.com/database/menu.json",
         "latlng":{
             "lat":51.1570961,
             "lng":6.4813593
@@ -714,11 +856,11 @@
             "min":0
         },
         "closetime":{
-            "hour":22,
+            "hour":24,
             "min":0
         },
         "closeddays":{
-            "wednesday":{"day":"wednesday"}
+            "wednesday":{"day":"wednesdayy"}
         },
         "minpriceorder":
         [{
@@ -788,8 +930,8 @@
      "reis":"Reis"
     },
     "b":{
-        "t":"wqjCmMKkwpjCnsKZwqHCp8KswqPCn8KvwqXCtMKyw5TCo8OYw5bDjcK2wq_Cv8OOw5TDn8OQw53DkMOVw5HDl8K3w5DDg8OgwqvCv8KxwqnCuMOKw6XDgMOPwrg=",
-        "c":"wqDClsKewpTCnsKbwqbCoMKqwqnCmMKnwpXCpA=="
+        "t":"wqjCnsKhwpTCosKbwqTCosKwwqnCn8KvwqXCtMKXw6TCucOKw4rCmsKywrzDp8KxwrfDo8OawqvDkcOCw4XDmsKcw6LDgsOow6jDisOSwrvDmMKcwp7CosOLwrw=",
+        "c":"wqDCncKjwpzCncKcwqLCosKrwqw="
     },
     "rabat":""
 }

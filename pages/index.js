@@ -20,7 +20,7 @@ export default function Index() {
       src="https://www.facebook.com/tr?id=723924005356873&ev=PageView&noscript=1"
       /></noscript>
     </Head>   
-    <div className="specially mbackground"></div> 
+    {/* <div className="specially mbackground"></div>  */}
     <MyNavbar/>                
     <Sections/>
    </>

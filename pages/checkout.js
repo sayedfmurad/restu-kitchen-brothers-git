@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import MyNavbar from "../components/navbar/MyNavbar"
 import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
-
+import menu from "../public/database/menu.json"
 export default function checkout() {
   const MyLang = langswitch.langswitchs("checkout");
   var [msgo,setmsgo] = useState("");
@@ -28,7 +28,7 @@ export default function checkout() {
       var seladd = langswitch.getValue("seladdress")
       var time =  new Date().getTime();           
       parms["type"] = t;
-      parms["menu"] = "http://restu.s3-website.eu-central-1.amazonaws.com/database/menu.json"
+      parms["menu"] = menu["staticValue"]["menuurl"]
       parms["address"] = address[seladd];
       parms["orders"] = orders;
       var MainOrderId = time + JSON.stringify(parms);
