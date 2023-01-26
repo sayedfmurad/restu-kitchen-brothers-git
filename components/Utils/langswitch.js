@@ -71,21 +71,18 @@ checkOpenCloseStore=()=>{
     if(process.browser)
     {
       var TimeN = new Date();
-      const day = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][TimeN.getDay()]
-      var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opentime"]["hour"],menu["staticValue"]["opentime"]["min"],0);    
-      var closeTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["closetime"]["hour"],menu["staticValue"]["closetime"]["min"],0);    
-      for(var daydd in menu["staticValue"]["closeddays"])
-      if(day == menu["staticValue"]["closeddays"][daydd]["day"])
-      return false;
-
-      if(closeTime < TimeN || openTime > TimeN)
-        {
-            return false;
-        }
-      else
+      const day = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][TimeN.getDay()]      
+      for(var daydd in menu["staticValue"]["opendays"])
+      if(day == daydd)
       {
-          return true;    
+        var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["opentime"]["hour"],menu["staticValue"]["opendays"][daydd]["opentime"]["min"],0);    
+        var closeTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["closetime"]["hour"],menu["staticValue"]["opendays"][daydd]["closetime"]["min"],0);    
+        console.log(closeTime,openTime, TimeN)
+      if(closeTime > TimeN && openTime < TimeN)      
+        return true;    
+
       }
+ return false;    
 }
 }
 getStringOpenCloseTimeStore=(type)=>
