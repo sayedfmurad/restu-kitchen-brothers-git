@@ -855,15 +855,15 @@
         {
             "sunday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
-                    "hour":24,
-                    "min":0
+                    "hour":21,
+                    "min":45
                 }
             }
-            ,"monday":{
+            ,"mondayy":{
                 "opentime":{
                     "hour":11,
                     "min":0
@@ -875,52 +875,52 @@
             }
             ,"tuesday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
-                    "hour":24,
-                    "min":0
+                    "hour":21,
+                    "min":45
                 }
             }
             ,"wednesday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
-                    "hour":24,
-                    "min":0
+                    "hour":21,
+                    "min":45
                 }
             }
             ,"thursday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
-                    "hour":20,
-                    "min":12
+                    "hour":21,
+                    "min":45
                 }
             }
             ,"friday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
-                    "hour":24,
-                    "min":0
+                    "hour":22,
+                    "min":45
                 }
             }
             ,"saturday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
-                    "hour":24,
-                    "min":0
+                    "hour":22,
+                    "min":45
                 }
             }
         },

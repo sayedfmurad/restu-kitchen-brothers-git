@@ -13,9 +13,13 @@ export default ()=>
   {
     var fontsize = sections[key]
     fontsize = fontsize.length>=16?"0.8rem":"1rem"
+    var imgg = sections[key].toUpperCase().replace(" ","_");
+    imgg = imgg.replace("Ö","O")
+    imgg = imgg.replace("Ä","A")
+    imgg = imgg.replace("Ü","U")
     rows.push(
       <div className='col-lg-3 col-md-4 col-sm-6 col-xs-6' id={sections[key]}>
-        <a class="a-item a-item-2" style={{"backgroundImage":`url(Images/${sections[key].toUpperCase().replace(" ","_")}.jpeg)`}}  href={langswitch.RouteP("sectionmenu?section="+sections[key])}>
+        <a class="a-item a-item-2" style={{"backgroundImage":`url(Images/${imgg}.jpeg)`}}  href={langswitch.RouteP("sectionmenu?section="+sections[key])}>
            <div class="a-sub">{sections[key]}</div>
         </a>        
       </div>

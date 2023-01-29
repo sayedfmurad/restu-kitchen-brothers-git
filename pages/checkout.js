@@ -35,6 +35,8 @@ export default function checkout() {
       MainOrderId = hash(MainOrderId);            
       parms["MainId"]=MainOrderId;
       parms["time"]="";
+      const TimeNow=new Date();
+      parms["createtime"]=TimeNow.getTime();
       var MainOrder = langswitch.getJson("mainorder");
       MainOrder[MainOrderId]=parms      
       parms = JSON.stringify(parms);
