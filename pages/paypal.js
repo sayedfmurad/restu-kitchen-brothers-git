@@ -6,14 +6,16 @@ export default function paypall() {
 const MyLang = langswitch.langswitchs("paypal");
 if(process.browser)
 {
-  var sum = langswitch.getNum("sumprice");
-  mainid = langswitch.getValue("lastOrderId");
-  sum = langswitch.stof(sum);
-  if(sum==0)
-  window.location.href=langswitch.RouteP("");
+  // var sum = langswitch.getNum("sumprice");
+  // mainid = langswitch.getValue("lastOrderId");
+  // sum = langswitch.stof(sum);
+  // if(sum==0)
+  // window.location.href=langswitch.RouteP("");
 
-  gsum=sum;
-  successpage = langswitch.RouteP("success");
+  // gsum=sum;
+  // successpage = langswitch.RouteP("success");
+  gsum = 2; 
+ mainid = "sadf";
 }
 return (
   <>
@@ -27,14 +29,11 @@ return (
         <div id="paypal-button-container"></div>
       </div>
     </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=AfuSl7LqNnZtAwNFZ-PVW56KYsaBJvrg1USrJj1_7evZzCqGcXXktUWyRi6pKBlpa3PEVDyps8CeJD8i&currency=EUR" data-sdk-integration-source="button-factory"></script>
-  {/* Westend */}
+ 
 
 
-  {/* <script src="https://www.paypal.com/sdk/js?client-id=ARiKtJJxgz9SQ9aMaxSBP5eM-NOb3NU_YayL1rRJDbw7QyKAVYmyHEZkaS4hvMf4mi0lo0Tr_R3viKG2&currency=EUR" data-sdk-integration-source="button-factory"></script> */}
+  <script src="https://www.paypal.com/sdk/js?client-id=ARiKtJJxgz9SQ9aMaxSBP5eM-NOb3NU_YayL1rRJDbw7QyKAVYmyHEZkaS4hvMf4mi0lo0Tr_R3viKG2&currency=EUR" data-sdk-integration-source="button-factory"></script>
   {/* SandBox */}
-  {/* <script src="https://www.paypal.com/sdk/js?client-id=AeFNBCSwLSkp1g-wxZ1VuixDWlVknu6IomNRcqywGuyXLjT4e8p3WZSKoY7P8QR0vBOSYssvPQ_WBlrw&currency=EUR" data-sdk-integration-source="button-factory"></script> */}
-  {/* SandBox Westend */}
   <script src='./scripts/paypalpay.js' />
   </>
 );
