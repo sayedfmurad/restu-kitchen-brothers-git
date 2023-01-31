@@ -6,16 +6,14 @@ export default function paypall() {
 const MyLang = langswitch.langswitchs("paypal");
 if(process.browser)
 {
-  // var sum = langswitch.getNum("sumprice");
-  // mainid = langswitch.getValue("lastOrderId");
-  // sum = langswitch.stof(sum);
-  // if(sum==0)
-  // window.location.href=langswitch.RouteP("");
+  var sum = langswitch.getNum("sumprice");
+  mainid = langswitch.getValue("lastOrderId");
+  sum = langswitch.stof(sum);
+  if(sum==0)
+  window.location.href=langswitch.RouteP("");
 
-  // gsum=sum;
-  // successpage = langswitch.RouteP("success");
-  gsum = 2; 
- mainid = "sadf";
+  gsum=sum;
+  successpage = langswitch.RouteP("success");  
 }
 return (
   <>
