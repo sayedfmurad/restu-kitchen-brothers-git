@@ -1,7 +1,14 @@
-{
+restus = {
+    "objs":{"kitchenbrothers":
+      {
+        "s3":"kitchenbrothers"
+      }
+    }
+  }
+package = {    
   "name": "restu-kitchen-brothers",
   "version": "0.1.0",
-  "private": true,
+  "private": True,
   "dependencies": {
     "@next/font": "13.1.4",
     "eslint": "8.32.0",
@@ -13,9 +20,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export  ",
-    "start": "next start",
+    "start": "next start",    
     "pub": "yarn build && aws s3 sync ./out/ s3://kitchenbrothers --profile my"
-  },
+  },  
   "lang": "de-de",
-  "IsOut": false
+  "IsOut": False
 }
