@@ -2,6 +2,7 @@ import Head from 'next/head'
 import decodeToken from '../Utils/decodeToken'
 import { useRouter } from 'next/router'
 import langswitch from "../Utils/langswitch"
+import menu from "../../public/database/menu"
 const MyNavbar = ({sub}) => {
     if(sub == undefined)
     sub ="";
@@ -22,7 +23,7 @@ const MyNavbar = ({sub}) => {
         <nav id="mynavb" className="mb-2 navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand">
-                   <h5> Kitchen Brothers</h5>
+                   <h5>{menu["staticValue"]["logo"]}</h5>
                     {/* <img
                         class="d-inline-block align-text-top"
                         height="24"

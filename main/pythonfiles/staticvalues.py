@@ -2,6 +2,10 @@ restus = {
     "objs":{"kitchenbrothers":
       {
         "s3":"kitchenbrothers"
+      },
+      "westendgrillundpizza":
+      {
+        "s3":"restu"
       }
     }
   }
