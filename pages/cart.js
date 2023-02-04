@@ -49,7 +49,6 @@ export default function Cart() {
                         var countI = <div className="mt-1 mb-1 col-4">{MyLang["count"]+": "+or[ke]["count"]}</div>;
                         var typee = or[ke]["type"] == "stand"?"":"("+or[ke]["type"]+") "
                         var descriptionO = menu["product"][or[ke]["id"]]["desO"] !=undefined?menu["product"][or[ke]["id"]]["desO"]:"";                        
-
                         var extras = ""
                         for(var j in or[ke]["extra"])
                         extras +=  langswitch.firstUpper(or[ke]["extra"][j][or[ke]["type"]]["name"])+" "

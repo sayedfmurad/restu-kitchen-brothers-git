@@ -27,6 +27,9 @@ export default function Selectadd() {
             <div className='col-12 p-2 m-3'>
             <a className='btn btn-primary text-white' href="./html/policyprivacyweb.html">Datenschutz</a>
             </div>
+            <div className='col-12'>
+                <p>asdfasd</p>
+            </div>
             <div className="col-12">
             <div class="mapouter"><div class="gmap_canvas"><iframe className="responsive"  id="gmap_canvas" src="https://maps.google.com/maps?q=Blumenberger%20Str.%2024&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
             </div>

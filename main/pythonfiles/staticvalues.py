@@ -23,9 +23,10 @@ package = {
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export  ",
+    "build": "yarn config-static && next build && next export  ",
     "start": "next start",    
-    "pub": "yarn build && aws s3 sync ./out/ s3://kitchenbrothers --profile my"
+    "pub": "yarn yarn build && aws s3 sync ./out/ s3://kitchenbrothers --profile my",
+    "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\""
   },  
   "lang": "de-de",
   "IsOut": False
