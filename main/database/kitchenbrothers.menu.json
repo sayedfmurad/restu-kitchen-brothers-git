@@ -799,6 +799,149 @@
             "zusatz":"7",
             "section": "SALATE"
         }
+        ,
+        "T1": {
+            "name": "Chicken",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Hähnchenbrust, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T2": {
+            "name": "Beef",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Rindhackfleisch, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T3": {
+            "name": "Merguez",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Merguezwurst, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T4": {
+            "name": "Veggie",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Veggiepatty, Fetta, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T5": {
+            "name": "Tuna",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Thunfisch, Mais, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,4,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T6": {
+            "name": "Falafel Veggie",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Falafel, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,4,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T7": {
+            "name": "French Taco The El Patron",
+            "price": {
+                "stand":"9,00"
+            },
+            "desO": "Rindhackfleisch, gebr, Zwiebeln, Tomaten, Jalapenos, Hotcreme, Pommes, Gouda",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T8": {
+            "name": "French Taco Nuggets",
+            "price": {
+                "stand":"8,30"
+            },
+            "desO": "Nuggets, Pommes, Gouda, BBQ",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T9": {
+            "name": "French Taco Chilli Cheese",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Rindhackfleisch, Jalapenos, Pommes, Gouda",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T10": {
+            "name": "French Taco Lyon",
+            "price": {
+                "stand":"9,50"
+            },
+            "desO": "Hähnchenbrust, Salatmischung, Avocado-Creme, Gouda, Pommes",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T11": {
+            "name": "French Taco Kitchen Brothers XXL",
+            "price": {
+                "stand":"14,20"
+            },
+            "desO": "Rindhackfleisch, Salatmischung, Avocado-Creme, Gouda, Pommes",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T12": {
+            "name": "French Taco Vegetables",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "gebratene Gemüse, Gouda, Pommes, Pesto-Creme",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T13": {
+            "name": "French Taco Lavin",
+            "price": {
+                "stand":"9,50"
+            },
+            "desO": "gebr. Gemüse, Rindhackfleisch, Gouda, Pommes, Spezialsauce",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
     },
     "extra":
     {
@@ -807,7 +950,7 @@
             "stand":{"price":"1,50","name":"Überbacken"}
         },
         "fettdreh":{
-            "section":["DREHSPIEß","pasta"],
+            "section":["DREHSPIEß","pasta","Frenchtaocs"],
             "stand":{"price":"1,50","name":"Feta"},
             "kalb":{"price":"1,00","name":"Feta"},
             "Hähnchen":{"price":"1,00","name":"Feta"}
@@ -823,9 +966,17 @@
             "30cm":{"price":"3,00","name":"käserand"},                
             "40cm":{"price":"4,50","name":"käserand"} 
         },
+        "käsesauce":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"käsesauce"}
+        },
         "krabben":{
             "section":["pasta"],
             "stand":{"price":"2,00","name":"Krabben"}
+        },
+        "gemuseb":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Gemüse, gebraten"}
         },
         "gemuse":{
             "section":["pasta","salate"],
@@ -837,6 +988,10 @@
             "24cm":{"price":"2,00","name":"extra käse"},                
             "30cm":{"price":"2,50","name":"extra käse"},                
             "40cm":{"price":"4,50","name":"extra käse"} 
+        },
+        "mozzarellap":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"mozzarella"}
         },
         "mozzarella":{
             "section":["pizzen","pasta","salate"],
@@ -858,7 +1013,7 @@
             "40cm":{"price":"4,00","name":"extra Scampi Fleisch"} 
         },
         "putenschicken":{
-            "section":["pasta","salate"],
+            "section":["pasta","salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"Putenschicken"}
         },
         "garnelenfleisch":{
@@ -869,7 +1024,7 @@
             "40cm":{"price":"4,50","name":"extra Garnelen"} 
         },
         "pastirma":{
-            "section":["pasta"],
+            "section":["pasta","Frenchtaocs"],
             "stand":{"price":"1,50","name":"Pastirma"}
         },
         "ananas":{                
@@ -905,14 +1060,14 @@
             "stand":{"price":"1,50","name":"Rucola"}
         },
         "Champignons":{                
-                "section":["pizzen","pasta","salate"],
+                "section":["pizzen","pasta","salate","Frenchtaocs"],
                 "stand":{"price":"1,50","name":"Champignons"},                
                 "24cm":{"price":"1,50","name":"Champignons"},                
                 "30cm":{"price":"2,00","name":"Champignons"},                
                 "40cm":{"price":"3,00","name":"Champignons"}
                 },
         "Cheddar":{                
-                "section":["pizzen"],
+                "section":["pizzen","Frenchtaocs"],
                 "stand":{"price":"1,50","name":"Cheddar"},                
                 "24cm":{"price":"1,50","name":"Cheddar"},                
                 "30cm":{"price":"2,00","name":"Cheddar"},                
@@ -947,14 +1102,14 @@
             "40cm":{"price":"3,00","name":"dönerfleisch"} 
         },
         "ei":{
-            "section":["pizzen","pasta","salate"],
+            "section":["pizzen","pasta","salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"ei"},                
             "24cm":{"price":"1,50","name":"ei"},                
             "30cm":{"price":"2,00","name":"ei"},                
             "40cm":{"price":"3,00","name":"ei"} 
         },
         "hähnchenbrust":{
-            "section":["pizzen","salate"],
+            "section":["pizzen","salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"hähnchenbrust"},                
             "24cm":{"price":"1,50","name":"hähnchenbrust"},                
             "30cm":{"price":"2,00","name":"hähnchenbrust"},                
@@ -979,7 +1134,7 @@
             "40cm":{"price":"3,00","name":"muscheln"} 
         },
         "paprika":{
-            "section":["pizzen","pasta","salate"],
+            "section":["pizzen","pasta","salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"paprika"},                
             "24cm":{"price":"1,50","name":"paprika"},                
             "30cm":{"price":"2,00","name":"paprika"},                
@@ -1006,8 +1161,12 @@
             "30cm":{"price":"2,00","name":"rahmsauce"},                
             "40cm":{"price":"3,00","name":"rahmsauce"} 
         },
+        "salatmischung":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Salatmischung"} 
+        },
         "salami":{
-            "section":["pizzen","pasta"],
+            "section":["pizzen","pasta","Frenchtaocs"],
             "stand":{"price":"1,50","name":"salami"},                
             "24cm":{"price":"1,50","name":"salami"},                
             "30cm":{"price":"2,00","name":"salami"},                
@@ -1017,6 +1176,11 @@
         {
             "section":["pasta"],
             "stand":{"price":"2,00","name":"Rinderhackfleisch"}
+        },
+        "rinderhack":
+        {
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Rinderhack"}
         },
         "saucehallandaise":{
             "section":["pizzen","pasta"],
@@ -1047,14 +1211,14 @@
             "40cm":{"price":"3,00","name":"spinat"} 
         },
         "sucuk":{
-            "section":["pizzen","pasta"],
+            "section":["pizzen","pasta","Frenchtaocs"],
             "stand":{"price":"1,50","name":"sucuk"},                
             "24cm":{"price":"1,50","name":"sucuk"},                
             "30cm":{"price":"2,00","name":"sucuk"},                
             "40cm":{"price":"3,00","name":"sucuk"} 
         },
         "thunfisch":{
-            "section":["pizzen","pasta","salate"],
+            "section":["pizzen","pasta","salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"thunfisch"},                
             "24cm":{"price":"1,50","name":"thunfisch"},                
             "30cm":{"price":"2,00","name":"thunfisch"},                
@@ -1068,7 +1232,7 @@
             "40cm":{"price":"3,00","name":"tintenflischringen"} 
         },
         "mais":{
-        "section":["pasta","salate"],
+        "section":["pasta","salate","Frenchtaocs"],
         "stand":{"price":"1,50","name":"Mais"}
         },
         "meeresfrüchten":{
@@ -1076,7 +1240,7 @@
             "stand":{"price":"2,50","name":"Meeresfrüchten"}
         },
         "tomaten":{
-            "section":["pizzen","pasta"],
+            "section":["pizzen","pasta","Frenchtaocs"],
             "stand":{"price":"1,50","name":"tomaten"},                
             "24cm":{"price":"1,50","name":"tomaten"},                
             "30cm":{"price":"2,00","name":"tomaten"},                
@@ -1087,11 +1251,11 @@
             "stand":{"price":"1,50","name":"Tomatensauce"}
         },   
         "oliven":{
-            "section":["pasta"],
+            "section":["pasta","Frenchtaocs"],
             "stand":{"price":"1,50","name":"Oliven"}
         },     
         "zwiebeln":{
-            "section":["pizzen","pasta","salate"],
+            "section":["pizzen","pasta","salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"zwiebeln"},                
             "24cm":{"price":"1,50","name":"zwiebeln"},                
             "30cm":{"price":"2,00","name":"zwiebeln"},                
@@ -1106,8 +1270,16 @@
             "stand":{"price":"1,50","name":"Gorgonzola"}
         },
         "gouda":{
-            "section":["salate"],
+            "section":["salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"Gouda"}
+        },
+        "gurken":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Gurken"}
+        },
+        "merguez":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Merguez"}
         }
     },
     "staticValue":
@@ -1254,6 +1426,11 @@
             {
                 "section":"GRILLGERICHTE",
                 "des":"Alle Gerichte mit Pommes od. Reis und Salat als Beilage"
+            },
+            "Frenchtacos":
+            {
+                "section":"Frenchtacos",
+                "des":"Frisch gegrillter Weizentortilla gefüllt mit"
             }
         }
     },
