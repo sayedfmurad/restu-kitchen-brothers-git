@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import langswitch from '../components/Utils/langswitch'
 import MyNavbar from "../components/navbar/MyNavbar"
 import Head from 'next/head'
+import menu from "../public/database/menu"
 export default function paypall() {
 const MyLang = langswitch.langswitchs("paypal");
 if(process.browser)
@@ -29,8 +30,8 @@ return (
     </div>
  
 
-
-  <script src="https://www.paypal.com/sdk/js?client-id=ARiKtJJxgz9SQ9aMaxSBP5eM-NOb3NU_YayL1rRJDbw7QyKAVYmyHEZkaS4hvMf4mi0lo0Tr_R3viKG2&currency=EUR" data-sdk-integration-source="button-factory"></script>
+    
+  <script src={`https://www.paypal.com/sdk/js?client-id=${menu["staticValue"]["pc"]}&currency=EUR`} data-sdk-integration-source="button-factory"></script>
   {/* SandBox */}
   <script src='./scripts/paypalpay.js' />
   </>
