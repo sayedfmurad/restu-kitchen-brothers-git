@@ -30,9 +30,7 @@ return (
     </div>
  
 
-    
-  <script src={`https://www.paypal.com/sdk/js?client-id=${menu["staticValue"]["pc"]}&currency=EUR`} data-sdk-integration-source="button-factory"></script>
-  {/* SandBox */}
+    <script src={`https://www.paypal.com/sdk/js?client-id=${menu["staticValue"]["pc"]}&currency=EUR`} data-sdk-integration-source="button-factory"></script>
   <script src='./scripts/paypalpay.js' />
   </>
 );
