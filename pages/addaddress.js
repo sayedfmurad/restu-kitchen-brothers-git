@@ -95,9 +95,12 @@ export default function Addaddress() {
                 <label for="lname">{MyLang["Last Name"]}</label>
                 <input type="text" class="form-control" id="lname" aria-describedby="lnameHelp" placeholder="Nachname" required/>
             </div>
-            <div class="form-group col-md-6 col-sm-12">
-                <label for="phonen">{MyLang["Phone Number"]}</label>
-                <input type="text" class="form-control" id="phonen" aria-describedby="pnHelp" placeholder="Handynummer (Optional)" />
+            <div class="input-group mb-3">
+                
+            </div>
+            <div class="form-group col-md-6 col-sm-12 input-group">
+                <span class="input-group-text" id="inputGroup-sizing-default">+49</span>
+                <input type="text" class="form-control" aria-describedby="inputGroup-sizing-default" aria-label="Sizing example input" id="phonen"  placeholder=" Handynummer (Optional)" />
             </div>            
             <div class="form-group col-md-4 col-sm-12">
                 <label for="firma">{MyLang["Firma"]}</label>

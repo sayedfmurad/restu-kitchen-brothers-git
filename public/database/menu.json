@@ -1,1691 +1,1164 @@
 {
     "product":{
-        
-    "1": {
-    "name": "Linsensuppe",
-    "price": {
-        "stand": "5,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"1,4",
-    "section": "SUPPEN"
-},
-"2": {
-    "name": "Tomatensuppe",
-    "price": {
-        "stand": "5,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"1,4",
-    "section": "SUPPEN"
-},
-"5": {
-    "name": "Frittiertes Gemüse",
-    "price": {
-        "stand": "7,90"
-    },
-    "desO": "mit Aubergine, Zucchini, Kartoffeln, heißer Tomatensoße, Knoblauch Dip",
-    "desT": "",
-    "zusatz":"",
-    "section": "WARME VORSPEISEN"
-},
-"6": {
-    "name": "Zigarabörek",
-    "price": {
-        "stand": "6,50"
-    },
-    "desO": "Weichkäse, Petersilie eingerollt in Blätterteig und Knoblauchsoße, Frittiert",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,4,8",
-    "section": "WARME VORSPEISEN"
-},
-"7": {
-    "name": "Muskabörek",
-    "price": {
-        "stand": "7,00"
-    },
-    "desO": "Weichkäse, Spinat in Blätterteig eingepackt, Knoblauchsoße, Frittiert",
-    "desT": "",
-    "zusatz":"G,2,4",
-    "section": "WARME VORSPEISEN"
-},
-"12": {
-    "name": "Cacik",
-    "price": {
-        "stand": "4,00"
-    },
-    "desO": "mit Joghurt, Gurke, Knoblauch, Minze, Butter",
-    "desT": "",
-    "zusatz":"G,2,4",
-    "section": "KALTE VORSPEISEN"
-},
-"13": {
-    "name": "Pasa Dip",
-    "price": {
-        "stand": "4,00"
-    },
-    "desO": "mit Fetakäse, Ajvar, Paprika, Aubergine, Knoblauch, Oregano, Petersilie, Olivenöl",
-    "desT": "",
-    "zusatz":"G,2,4,8",
-    "section": "KALTE VORSPEISEN"
-},
-"14": {
-    "name": "Ezme",
-    "price": {
-        "stand": "4,50"
-    },
-    "desO": "mit Tomaten, Zwiebeln, Peperoni, Petersilie, Paprikamark, Granatapfelsoße, Sonnenblumenöl",
-    "desT": "",
-    "zusatz":"1,2,8",
-    "section": "KALTE VORSPEISEN"
-},
-"19": {
-    "name": "Drehspieß Tasche mit weichkäse",
-    "price": {
-        "kalb": "6,50",
-        "Hähnchen": "6,50"
-    },
-    "desO": "mit Salat und Soße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"20": {
-    "name": "Drehspieß Tasche mit Weichkäse",
-    "price": {
-        "kalb": "7,50",
-        "Hähnchen": "7,50"
-    },
-    "desO": "mit Salat, Soße und Weichkäse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"21": {
-    "name": "Drehspieß Tasche Gemischtfleisch",
-    "price": {
-        "stand":"6,90"
-    },
-    "desO": "gemischtes Drehspießfleisch mit Salat und Soße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"22": {
-    "name": "Veggie Tasche",
-    "price": {
-        "stand":"5,00"
-    },
-    "desO": "mit Soße, Salat und Fetakäse",
-    "desT": "",
-    "zusatz":"A,G,C",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"23": {
-    "name": "Drehspieß Box",
-    "price": {
-        "kalb": "5,50",
-        "Hähnchen": "5,50"
-    },
-    "desO": "mit Pommes und Soße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"24": {
-    "name": "Drehspieß Dürüm",
-    "price": {
-        "kalb": "6,90",
-        "Hähnchen": "6,90"
-    },
-    "desO": "mit Salat und Soße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"25": {
-    "name": "Drehspieß Dürüm",
-    "price": {
-        "kalb": "7,90",
-        "Hähnchen": "7,90"
-    },
-    "desO": "mit Salat, Soße und Weichkäse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"26": {
-    "name": "Veggie Dürüm",
-    "price": {
-        "stand":"5,50"
-    },
-    "desO": "mit Salat und Soße",
-    "desT": "",
-    "zusatz":"A,G,C",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"27": {
-    "name": "Drehspieß Teller",
-    "price": {
-        "kalb": "12,90",
-        "Hähnchen": "12,90"
-    },
-    "desO": "mit Salat, Soße (Pommes oder Reis als Beilage)",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,4,5,8",
-    "options":
-        [
-        {"name":"Beilage","options":["pommes","reis"]},
-        {"name":"Sauce","options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]}
-    ]
+        "1": {
+            "name": "Margherita",
+            "price": {
+                "24cm":"4,50",
+                "30cm":"5,50",
+                "40cm":"11,50"
+            },
+            "desO": "Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "2": {
+            "name": "Tuna",
+            "price": {
+                "24cm":"6,50",
+                "30cm":"8,00",
+                "40cm":"15,00"
+            },
+            "desO": "Gouda, Thunfisch, rote Zwiebeln, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,4",
+            "section": "PIZZEN"
+        },
+        "3": {
+            "name": "Onion",
+            "price": {
+                "24cm":"5,00",
+                "30cm":"6,50",
+                "40cm":"13,00"
+            },
+            "desO": "Zwiebel, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "4": {
+            "name": "Champignon",
+            "price": {
+                "24cm":"5,50",
+                "30cm":"7,00",
+                "40cm":"13,50"
+            },
+            "desO": "Champignon, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        }
         ,
-    "section": "DREHSPIEß"
-},
-"28": {
-    "name": "Lahmacun",
-    "price": {
-        "kalb": "7,50",
-        "Hähnchen": "7,50"
+        "5": {
+            "name": "Caprese",
+            "price": {
+                "24cm":"6,50",
+                "30cm":"8,00",
+                "40cm":"15,00"
+            },
+            "desO": "frische Tomaten, Mozzarella, Gouda, Basilikumpesto, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "6": {
+            "name": "Cheese Lovers",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"16,00"
+            },
+            "desO": "Hirtenkäse, Cheddar, Gouda, Mozzarella, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        }
+        ,
+        "7": {
+            "name": "Salami",
+            "price": {
+                "24cm":"5,50",
+                "30cm":"7,00",
+                "40cm":"13,50"
+            },
+            "desO": "Salami, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "PIZZEN"
+        }
+        ,
+        "8": {
+            "name": "Hawaii",
+            "price": {
+                "24cm":"6,00",
+                "30cm":"8,00",
+                "40cm":"15,00"
+            },
+            "desO": "Putenschicken, Ananas, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "9": {
+            "name": "Curry",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"9,00",
+                "40cm":"17,00"
+            },
+            "desO": "Hähnchenbrust, Rote Zwiebeln, Gouda, Currysauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "10": {
+            "name": "Mista",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"9,00",
+                "40cm":"17,50"
+            },
+            "desO": "Salami, Putenschicken, Tonno, Champignons, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,4,7",
+            "section": "PIZZEN"
+        },
+        "11": {
+            "name": "Texas",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,50",
+                "40cm":"18,00"
+            },
+            "desO": "Doppelte Teig, Salami, Speck, Peperoni, Zwiebeln, Gouda, BBQ Sauce",
+            "desT": "",
+            "zusatz":"1,4,7",
+            "section": "PIZZEN"
+        },
+        "12": {
+            "name": "Gambilli",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,50",
+                "40cm":"18,00"
+            },
+            "desO": "Baby Garnelle, Champignons, Tuna, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,2,7",
+            "section": "PIZZEN"
+        },
+        "13": {
+            "name": "Dumme Ziege",
+            "price": {
+                "24cm":"9,00",
+                "30cm":"11,00",
+                "40cm":"19,00"
+            },
+            "desO": "Ziegenkäse, Lachs, Rucola, Parmesan, Cranberry, Honig, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "14": {
+            "name": "Parma",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,00",
+                "40cm":"18,00"
+            },
+            "desO": "Rinderschinken, Gouda, Rucola, Parmesan, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "15": {
+            "name": "Sucuk",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"15,00"
+            },
+            "desO": "Knoblauchwurst, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "16": {
+            "name": "BBQ Bacon",
+            "price": {
+                "24cm":"6,50",
+                "30cm":"8,00",
+                "40cm":"15,00"
+            },
+            "desO": "Knuspriger Bacon, Paprika, Gouda, BBQ Sauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "PIZZEN"
+        },
+        "17": {
+            "name": "KitchenBrothers",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,50",
+                "40cm":"18,00"
+            },
+            "desO": "Champignon, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "18": {
+            "name": "Philadelphia",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"17,00"
+            },
+            "desO": "Frischkäse, Spinat, Rote Zwiebeln",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "19": {
+            "name": "Don Pablo",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"17,00"
+            },
+            "desO": "Rote Bohnen, Mais, Paprika, Zwieblen, Rinderhack, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "20": {
+            "name": "Capricciosa",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"17,00"
+            },
+            "desO": "Putenschicken, Champignons, Artisch, Tonno, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "21": {
+            "name": "Perla",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,00",
+                "40cm":"17,00"
+            },
+            "desO": "Rucola, Tomaten, Mozzarella, Rindenschinken, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "22": {
+            "name": "Regina",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"16,00"
+            },
+            "desO": "fr, Champignons, Putenschicken, Tomatensauce, Käse",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "23": {
+            "name": "Diabolo",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"17,00"
+            },
+            "desO": "Pepperoni, Salami, Jalapenos, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,A,B,E",
+            "section": "PIZZEN"
+        },
+        "24": {
+            "name": "Sweet Ling Ling",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,00",
+                "40cm":"17,50"
+            },
+            "desO": "Hähnchenbrust, Sweet Chili Sauce, Zwiebeln, Paprika",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "25": {
+            "name": "Böser Chinese",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"17,00"
+            },
+            "desO": "Hähnchenbrust, Broccoli, Zwiebeln, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,2,7,A,B,E",
+            "section": "PIZZEN"
+        },
+        "26": {
+            "name": "Lili Shrimp",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,00",
+                "40cm":"18,00"
+            },
+            "desO": "Garnelen, Zwiebeln, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,2,7,A,B,E",
+            "section": "PIZZEN"
+        },
+        "27": {
+            "name": "Pirata",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"9,00",
+                "40cm":"18,00"
+            },
+            "desO": "Bolognese, Spaghetti, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,2,9",
+            "section": "PIZZEN"
+        },
+        "28": {
+            "name": "Konstantin",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"9,00",
+                "40cm":"18,00"
+            },
+            "desO": "Tuna, Paprika, Zwiebel, Spinat, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,4,7",
+            "section": "PIZZEN"
+        },
+        "29": {
+            "name": "Mafia",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"17,00"
+            },
+            "desO": "Salami, Pepperoni, Paprika, Zwiebel, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1",
+            "section": "PIZZEN"
+        },
+        "30": {
+            "name": "Pesto Spinaci",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,00",
+                "40cm":"17,00"
+            },
+            "desO": "Pesto, Sahnesauce, Feta, Spinat, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"",
+            "section": "PIZZEN"
+        },
+        "31": {
+            "name": "Gorgonzola",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"16,00"
+            },
+            "desO": "Gorgonzola, Spinat, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "32": {
+            "name": "Scampi",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,50",
+                "40cm":"18,00"
+            },
+            "desO": "Krabben, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,4,7",
+            "section": "PIZZEN"
+        },
+        "33": {
+            "name": "Gamba Rucola",
+            "price": {
+                "24cm":"8,00",
+                "30cm":"10,00",
+                "40cm":"18,00"
+            },
+            "desO": "Krabben, Rucola, Parmesan, Oliven, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,4,7",
+            "section": "PIZZEN"
+        },
+        "34": {
+            "name": "Borussia",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"16,00"
+            },
+            "desO": "Paprika, Spinat, Champignons, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,4,7",
+            "section": "PIZZEN"
+        },
+        "35": {
+            "name": "Veggieterano",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"16,50"
+            },
+            "desO": "gebratene Gemüse, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "36": {
+            "name": "MG - Spezial",
+            "price": {
+                "24cm":"9,00",
+                "30cm":"11,00",
+                "40cm":"19,50"
+            },
+            "desO": "Käserand, Tonno, Paprika, Spinat, Feta, Hollandaise, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,4,7,A,E",
+            "section": "PIZZEN"
+        },
+        "37": {
+            "name": "Holly",
+            "price": {
+                "24cm":"7,00",
+                "30cm":"8,50",
+                "40cm":"17,00"
+            },
+            "desO": "Schinken, Hollandaise, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,A,B",
+            "section": "PIZZEN"
+        },
+        "38": {
+            "name": "Frutty Di Mare",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,00",
+                "40cm":"18,00"
+            },
+            "desO": "Meerfrüchte, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,4,A",
+            "section": "PIZZEN"
+        }
+        ,
+        "39": {
+            "name": "India",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,00",
+                "40cm":"18,00"
+            },
+            "desO": "Ananas, Hähnchen, Paprika, Currysauce, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,A,B",
+            "section": "PIZZEN"
+        },
+        "40": {
+            "name": "Brokkoli",
+            "price": {
+                "24cm":"5,50",
+                "30cm":"7,00",
+                "40cm":"14,00"
+            },
+            "desO": "Brokkoli, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        },
+        "41": {
+            "name": "Türkische Mista",
+            "price": {
+                "24cm":"7,50",
+                "30cm":"9,50",
+                "40cm":"17,50"
+            },
+            "desO": "Thunfisch, Champignon, Sucuk, Pastirma, Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,9",
+            "section": "PIZZEN"
+        },
+        "XS": {
+            "name": "KinderPizza",
+            "price": {
+                "stand":"4,90"
+            },
+            "desO": "Pizza in Hasenform mit Gouda, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "section": "PIZZEN"
+        }
+        ,
+        "P1": {
+            "name": "Pasta Bolognese",
+            "price": {
+                "stand":"8,30"
+            },
+            "desO": "Rinderhackfleischsoße, fr. Parmsesan",
+            "desT": "",
+            "zusatz":"1,7,9",
+            "options":[
+                {
+                    "name":"Ihre Pasta",
+                    "options":["spaghetti","linguine","penne"]
+                }
+            ],
+            "section": "Pasta"
+        }
+        ,
+        "P2": {
+            "name": "Pasta Carbonara",
+            "price": {
+                "stand":"8,30"
+            },
+            "desO": "Putenschicken, Sahnesauce",
+            "desT": "",
+            "zusatz":"1,7,B",
+            "options":[
+                {
+                    "name":"Ihre Pasta",
+                    "options":["spaghetti","linguine","penne"]
+                }
+            ],
+            "section": "Pasta"
+        }
+        ,
+        "P3": {
+            "name": "Pasta Chickasta",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Hähnchenbrust, Champignons, Zwiebeln, Sahnesauce",
+            "desT": "",
+            "zusatz":"1,7",
+            "options":[
+                {
+                    "name":"Ihre Pasta",
+                    "options":["spaghetti","linguine","penne"]
+                }
+            ],
+            "section": "Pasta"
+        }
+        ,
+        "P4": {
+            "name": "Pasta Mumbai",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Hähnchenbrust, Zwiebeln, Möhren, Brokkoli, Curry, Sahnesauce",
+            "desT": "",
+            "zusatz":"1,7,A,E",
+            "options":[
+                {
+                    "name":"Ihre Pasta",
+                    "options":["spaghetti","linguine","penne"]
+                }
+            ],
+            "section": "Pasta"
+        }
+        ,
+        "P5": {
+            "name": "Pasta Verdura",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Auberginen, Zuccini, Brokkoli, fr. Paprika, Knoblauch, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,9",
+            "options":[
+                {
+                    "name":"Ihre Pasta",
+                    "options":["spaghetti","linguine","penne"]
+                }
+            ],
+            "section": "Pasta"
+        },
+        "P6": {
+            "name": "Pasta Scampi",
+            "price": {
+                "stand":"9,00"
+            },
+            "desO": "Krabben, Knoblauch, Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,9",
+            "options":[
+                {
+                    "name":"Ihre Pasta",
+                    "options":["spaghetti","linguine","penne"]
+                }
+            ],
+            "section": "Pasta"
+        },
+        "P7": {
+            "name": "Pasta Napoli",
+            "price": {
+                "stand":"7,50"
+            },
+            "desO": "Tomatensauce",
+            "desT": "",
+            "zusatz":"1,7,9",
+            "options":[
+                {
+                    "name":"Ihre Pasta",
+                    "options":["spaghetti","linguine","penne"]
+                }
+            ],
+            "section": "Pasta"
+        },
+        "P8": {
+            "name": "Pasta Fruttie De Mare",
+            "price": {
+                "stand":"9,50"
+            },
+            "desO": "Meerfrüchte, Knoblauch, Tomatensauce",
+            "desT": "",
+            "zusatz":"",
+            "options":[
+                {
+                    "name":"Ihre Pasta",
+                    "options":["spaghetti","linguine","penne"]
+                }
+            ],
+            "section": "Pasta"
+        },
+        "S1": {
+            "name": "Mista Salad",
+            "price": {
+                "stand":"5,90"
+            },
+            "desO": "Salatmischung, Mais, Dressig",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"7,E",
+            "section": "SALATE"
+        },
+        "S2": {
+            "name": "Tuna Salad",
+            "price": {
+                "stand":"7,90"
+            },
+            "desO": "Salatmischung, Mais, Tuna, Ei, Dressig",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"4,7",
+            "section": "SALATE"
+        },
+        "S3": {
+            "name": "Pesto Chicken Salad",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Salatmischung, Mais, Hähnchenbrust, Mozzarella, Basilikumpesto",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"7,8,E",
+            "section": "SALATE"
+        },
+        "S4": {
+            "name": "Greece Salad",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Salatmischung, Fetakäse, Mais, Oliven, Tomaten, rote Zwiebeln, Gurken, Peperoni",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"7,E",
+            "section": "SALATE"
+        },
+        "S5": {
+            "name": "Hawaii Salad",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Salatmischung, Käse, Ananas, Mais, Putenschicken",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"7",
+            "section": "SALATE"
+        },
+        "S6": {
+            "name": "Caesar Salad",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Salatmischung, rote Zwiebeln, Mais, Hähnchenbrust, frisch gehobeltem Parmeasan",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"7,E",
+            "section": "SALATE"
+        },
+        "S7": {
+            "name": "Mediterrano Salad",
+            "price": {
+                "stand":"9,50"
+            },
+            "desO": "Salatmischung, Meeresfrüchte, Mais, Zitrone",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"7,4",
+            "section": "SALATE"
+        },
+        "S8": {
+            "name": "KitchenBrothers Salad",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Salatmischung, Hähnchenbrust, Mais, Champignons, rote Zwiebeln",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"7",
+            "section": "SALATE"
+        },
+        "S9": {
+            "name": "Calabrese Salad",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Salatmischung, Tomaten, Mozzarella, Rucola, Basilikum",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"7,A",
+            "section": "SALATE"
+        },
+        "S10": {
+            "name": "Capricciosa",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "Salatmischung, Mais, Tonno, Putenschicken, käse, Ei",
+            "desT": "",
+            "options":[
+                {
+                    "name":"Ihre Dressig",
+                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
+                }
+            ],
+            "zusatz":"7",
+            "section": "SALATE"
+        }
+        ,
+        "T1": {
+            "name": "Chicken",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Hähnchenbrust, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T2": {
+            "name": "Beef",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Rindhackfleisch, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T3": {
+            "name": "Merguez",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Merguezwurst, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T4": {
+            "name": "Veggie",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Veggiepatty, Fetta, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T5": {
+            "name": "Tuna",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Thunfisch, Mais, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,4,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T6": {
+            "name": "Falafel Veggie",
+            "price": {
+                "stand":"8,00"
+            },
+            "desO": "Falafel, Pommes, Gouda, Spezialsauce",
+            "desT": "",
+            "zusatz":"1,4,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T7": {
+            "name": "French Taco The El Patron",
+            "price": {
+                "stand":"9,00"
+            },
+            "desO": "Rindhackfleisch, gebr, Zwiebeln, Tomaten, Jalapenos, Hotcreme, Pommes, Gouda",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T8": {
+            "name": "French Taco Nuggets",
+            "price": {
+                "stand":"8,30"
+            },
+            "desO": "Nuggets, Pommes, Gouda, BBQ",
+            "desT": "",
+            "zusatz":"1,7,E",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T9": {
+            "name": "French Taco Chilli Cheese",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "Rindhackfleisch, Jalapenos, Pommes, Gouda",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T10": {
+            "name": "French Taco Lyon",
+            "price": {
+                "stand":"9,50"
+            },
+            "desO": "Hähnchenbrust, Salatmischung, Avocado-Creme, Gouda, Pommes",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T11": {
+            "name": "French Taco Kitchen Brothers XXL",
+            "price": {
+                "stand":"14,20"
+            },
+            "desO": "Rindhackfleisch, Salatmischung, Avocado-Creme, Gouda, Pommes",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T12": {
+            "name": "French Taco Vegetables",
+            "price": {
+                "stand":"8,50"
+            },
+            "desO": "gebratene Gemüse, Gouda, Pommes, Pesto-Creme",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "T13": {
+            "name": "French Taco Lavin",
+            "price": {
+                "stand":"9,50"
+            },
+            "desO": "gebr. Gemüse, Rindhackfleisch, Gouda, Pommes, Spezialsauce",
+            "desT": "",
+            "zusatz":"",
+            "section": "Frenchtaocs"
+        }
+        ,
+        "R1":{
+            "name":"Normal",
+            "price":{"stand":"2,80"},
+            "desO":"Kräuterbutter oder Aoli",
+            "desT":"",
+            "zusatz":"1,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R2":{
+            "name":"Cheese",
+            "price":{"stand":"5,00"},
+            "desO":"Tomatensauce, Gouda",
+            "desT":"",
+            "zusatz":"1,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R3":{
+            "name":"Tuna",
+            "price":{"stand":"6,00"},
+            "desO":"Thunfisch, Tomatensauce, Gouda",
+            "desT":"",
+            "zusatz":"1,4,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R4":{
+            "name":"Schinken",
+            "price":{"stand":"6,00"},
+            "desO":"Putenschicken, Tomatensauce, Gouda",
+            "desT":"",
+            "zusatz":"1,7,",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R5":{
+            "name":"Hawaii",
+            "price":{"stand":"6,20"},
+            "desO":"Putenschicken, Ananas, Gouda, Tomatensauce",
+            "desT":"",
+            "zusatz":"1,7,E",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R6":{
+            "name":"Caprese",
+            "price":{"stand":"6,00"},
+            "desO":"Frische Tomaten, Tomatensauce, Gouda, Basilikumpesto",
+            "desT":"",
+            "zusatz":"1,4,7,E",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R7":{
+            "name":"Holly",
+            "price":{"stand":"6,40"},
+            "desO":"Hähnchenbrust, Holondaise, Gouda",
+            "desT":"",
+            "zusatz":"1,4,7,A,B,E",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R8":{
+            "name":"Sucuk",
+            "price":{"stand":"6,00"},
+            "desO":"Sucuk, Gouda",
+            "desT":"",
+            "zusatz":"1,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R9":{
+            "name":"Spinat Feta",
+            "price":{"stand":"6,40"},
+            "desO":"Spinat, Feta",
+            "desT":"",
+            "zusatz":"1,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R10":{
+            "name":"Salami",
+            "price":{"stand":"6,00"},
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"PIZZABRÖTCHEN"
+        }        
+        ,
+        "D1":{
+            "name":"Coca Cola",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D2":{
+            "name":"Cola Zero",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D3":{
+            "name":"Wasser",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D4":{
+            "name":"Sprite",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D5":{
+            "name":"Fanta",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D6":{
+            "name":"Mezzo Mix",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D7":{
+            "name":"Fanta Exotic",
+            "price":{
+                "0,33L":"2,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D8":{
+            "name":"Eistee Zitrone",
+            "price":{
+                "0,4L":"2,50"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D9":{
+            "name":"Mineralwasser",
+            "price":{
+                "0,5L":"2,00",
+                "1L":"2,50"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D10":{
+            "name":"Eistee Pfirich",
+            "price":{
+                "0,4L":"2,50"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }                
     },
-    "desO": "mit Drehspieß ,Salat ,Zwiebeln und Soße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"29": {
-    "name": "Lahmacun",
-    "price": {
-        "stand":"4,90"
-    },
-    "desO": "mit Salat und Soße",
-    "desT": "",
-    "zusatz":"A,G,C",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"30": {
-    "name": "Lahmacun ohne alles",
-    "price": {
-        "stand":"3,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"A,G,C",
-    "options":[{
-        "name":"Sauce",
-        "options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]
-    }],
-    "section": "DREHSPIEß"
-},
-"35": {
-    "name": "Spaghetti Bolognese",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "mit Hackfleisch und Tomatensoße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8",
-    "section": "SPAGHETTI"
-},
-"36": {
-    "name": "Spaghetti Carbonara",
-    "price": {
-        "stand":"9,50"
-    },
-    "desO": "mit Geflügelschinken, Sahnesoße,Knoblauch und Ei",
-    "desT": "",
-    "zusatz":"A,G,C,B,D,1,2,8",
-    "section": "SPAGHETTI"
-},
-"37": {
-    "name": "Spaghetti Amore",
-    "price": {
-        "stand":"8,90"
-    },
-    "desO": "mit Hackfleisch, Tomaten, Champignons und Sahnesoße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8",
-    "section": "SPAGHETTI"
-},
-"38": {
-    "name": "Spaghetti Roma al Forno",
-    "price": {
-        "stand":"11,50"
-    },
-    "desO": "Schinken, Salami, Hackfleisch, Tomaten, Sahnesoße, gekochtes Ei, überbacken",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,8,11",
-    "section": "SPAGHETTI"
-},
-"39": {
-    "name": "Spaghetti Napoli",
-    "price": {
-        "stand":"6,00"
-    },
-    "desO": "Tomatensoße",
-    "desT": "",
-    "zusatz":"",
-    "section": "SPAGHETTI"
-},
-"40": {
-    "name": "Spaghetti Frutti di Mare",
-    "price": {
-        "stand":"10,50"
-    },
-    "desO": "mit Meerefrüchten, Tomatensoße, Knoblauch",
-    "desT": "",
-    "zusatz":"",
-    "section": "SPAGHETTI"
-},
-"41": {
-    "name": "Spaghetti Tonno",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "mit Thunfisch, Tomatensoße",
-    "desT": "",
-    "zusatz":"",
-    "section": "SPAGHETTI"
-},
-"70": {
-    "name": "Margherita",
-    "price": {
-        "22cm":"4,00",
-        "26cm":"6,00",
-        "32cm":"8,00",
-        "36cm":"9,00"
-    },
-    "desO": "Tomatensoße mit Käse",
-    "desT": "",
-    "zusatz":"A,G,C",
-    "section": "PIZZEN"
-},
-"71": {
-    "name": "Salami",
-    "price": {
-        "22cm":"5,00",
-        "26cm":"7,00",
-        "32cm":"10,00",
-        "36cm":"10,90"
-    },
-    "desO": "Salami, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"72": {
-    "name": "Schinken",
-    "price": {
-        "22cm":"5,00",
-        "26cm":"7,00",
-        "32cm":"9,50",
-        "36cm":"12,00"
-    },
-    "desO": "Truthahnschinken, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"73": {
-    "name": "Hawaii",
-    "price": {
-        "22cm":"5,50",
-        "26cm":"7,50",
-        "32cm":"10,50",
-        "36cm":"12,90"
-    },
-    "desO": "Truthahnschinken, Ananas, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"74": {
-    "name": "Mista",
-    "price": {
-        "22cm":"5,50",
-        "26cm":"8,50",
-        "32cm":"11,50",
-        "36cm":"13,90"
-    },
-    "desO": "Truthahnschinken, Salami, Champignons, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"75": {
-    "name": "Funghi Salami",
-    "price": {
-        "22cm":"5,50",
-        "26cm":"7,50",
-        "32cm":"11,50",
-        "36cm":"12,50"
-    },
-    "desO": "Salami, Champignons, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"76": {
-    "name": "Mafia",
-    "price": {
-        "22cm":"6,50",
-        "26cm":"8,90",
-        "32cm":"11,50",
-        "36cm":"14,50"
-    },
-    "desO": "Truthahnschinken, Salami, Paprika, Zwiebenn, milde Peperoni, Knoblauch, Käse, Champ.",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"77": {
-    "name": "Pronto Pronto",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"8,50",
-        "32cm":"11,90",
-        "36cm":"13,90"
-    },
-    "desO": "Salami, Truthahnschinken, Paprika, Champignons, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"78": {
-    "name": "Pizza Hacki",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"8,50",
-        "32cm":"10,90",
-        "36cm":"13,50"
-    },
-    "desO": "Hackfleisch mit Eierscheiben, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"79": {
-    "name": "Pizza Amerikana",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"8,50",
-        "32cm":"11,50",
-        "36cm":"13,90"
-    },
-    "desO": "Salami, Truthahnschinken, Paprika, Zwiebeln, Ei, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"80": {
-    "name": "Pizza Tonno",
-    "price": {
-        "22cm":"5,50",
-        "26cm":"7,90",
-        "32cm":"11,50",
-        "36cm":"13,50"
-    },
-    "desO": "Thunfisch, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"81": {
-    "name": "Pizza Hähnchen",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"8,50",
-        "32cm":"11,50",
-        "36cm":"13,90"
-    },
-    "desO": "Hähnchenfleisch und Curry, Zwiebeln, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"82": {
-    "name": "Pizza Holland",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"8,50",
-        "32cm":"11,50",
-        "36cm":"13,90"
-    },
-    "desO": "Truthahnschinken, Brokkoli, frische Tomaten, Hollandaise, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"83": {
-    "name": "Pizza Carne",
-    "price": {
-        "22cm":"6,50",
-        "26cm":"9,50",
-        "32cm":"12,90",
-        "36cm":"13,90"
-    },
-    "desO": "Drehspießfleisch, Paprika, Zwiebeln, Champignons, Dönersoße, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"84": {
-    "name": "Veggie Pizza",
-    "price": {
-        "22cm":"5,00",
-        "26cm":"6,90",
-        "32cm":"10,00",
-        "36cm":"12,00"
-    },
-    "desO": "Tomatensoße, verschiedenes Gemüse und Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1",
-    "section": "PIZZEN"
-},
-"85": {
-    "name": "Pizza Spaghetti Bolognese",
-    "price": {
-        "22cm":"5,50",
-        "26cm":"8,50",
-        "32cm":"10,90",
-        "36cm":"13,50"
-    },
-    "desO": "Spaghetti, Bolognes, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,5,8,11",
-    "section": "PIZZEN"
-},
-"86": {
-    "name": "Drehspieß Pizza",
-    "price": {
-        "22cm":"6,90",
-        "26cm":"9,50",
-        "32cm":"12,50",
-        "36cm":"13,90"
-    },
-    "desO": "Drehspießfleisch, Fetakäse, Zwiebeln, Oliven, Döner Soße, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,5,8,11",
-    "section": "PIZZEN"
-},
-"87": {
-    "name": "Spinat",
-    "price": {
-        "22cm":"5,00",
-        "26cm":"7,50",
-        "32cm":"10,90",
-        "36cm":"13,90"
-    },
-    "desO": "Spinat mit Gorgonzolla und Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1",
-    "section": "PIZZEN"
-},
-"88": {
-    "name": "Pizza mit vier Käse Sorten",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"8,90",
-        "32cm":"11,90",
-        "36cm":"14,00"
-    },
-    "desO": "Mozzerella, Fetakäse, Gorgonzolla, Edamer",
-    "desT": "",
-    "zusatz":"A,G,C,1",
-    "section": "PIZZEN"
-},
-"89": {
-    "name": "Drehspieß Oriental",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"9,50",
-        "32cm":"11,50",
-        "36cm":"13,50"
-    },
-    "desO": "Drehspießfleisch, Ananas, Weichkäse, milde Peperoni, Döner Soße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,5,8,11",
-    "section": "PIZZEN"
-},
-"90": {
-    "name": "Pizza Ramo",
-    "price": {
-        "22cm":"5,90",
-        "26cm":"8,50",
-        "32cm":"11,50",
-        "36cm":"12,90"
-    },
-    "desO": "Hackfleisch, Weichkäse, Oliven, frische Tomaten",
-    "desT": "",
-    "zusatz":"A,G,C,1",
-    "section": "PIZZEN"
-},
-"91": {
-    "name": "Pizza mit fünf Fleischsorten",
-    "price": {
-        "22cm":"6,50",
-        "26cm":"9,90",
-        "32cm":"12,90",
-        "36cm":"14,50"
-    },
-    "desO": "Salami, Truthahnschinken, Pute, Drehspießfleisch, Hackfleisch",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"92": {
-    "name": "Pizza BBQ",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"8,50",
-        "32cm":"11,90",
-        "36cm":"13,90"
-    },
-    "desO": "Hänchenfleisch, Zwiebeln, Hollandaise, BBQ Sauce, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1",
-    "section": "PIZZEN"
-},
-"93": {
-    "name": "Brokkoli",
-    "price": {
-        "22cm":"5,00",
-        "26cm":"6,90",
-        "32cm":"9,50",
-        "36cm":"12,50"
-    },
-    "desO": "Pute, Brokkoli, Mais, Zwiebeln, Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1",
-    "section": "PIZZEN"
-},
-"94": {
-    "name": "Pizza Drehspieß Hähnchen",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"8,90",
-        "32cm":"11,90",
-        "36cm":"13,90"
-    },
-    "desO": "Drehspieß Hähnchen, milde Peperoni, Zwiebeln, knoblauch, scharf",
-    "desT": "",
-    "zusatz":"A,G,C,1",
-    "section": "PIZZEN"
-},
-"95": {
-    "name": "Pizza Mix",
-    "price": {
-        "22cm":"6,50",
-        "26cm":"9,90",
-        "32cm":"13,50",
-        "36cm":"15,90"
-    },
-    "desO": "sechs Sorten Ihrer Wahl",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"96": {
-    "name": "Pizza Sucuk",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"7,00",
-        "32cm":"11,00",
-        "36cm":"13,00"
-    },
-    "desO": "Knoblauchwurst und Käse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"97": {
-    "name": "Pizza Krabben",
-    "price": {
-        "22cm":"6,50",
-        "26cm":"9,50",
-        "32cm":"12,50",
-        "36cm":"15,00"
-    },
-    "desO": "Krabben, Zwiebeln, Knoblauch",
-    "desT": "",
-    "zusatz":"A,G,C,D,1,2,8,11",
-    "section": "PIZZEN"
-},
-"98": {
-    "name": "Pizza Diavolo",
-    "price": {
-        "22cm":"5,50",
-        "26cm":"8,90",
-        "32cm":"12,50",
-        "36cm":"13,50"
-    },
-    "desO": "Salami, Paprika, scharfe Peperoni",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"99": {
-    "name": "Pizza Frutti de Mare",
-    "price": {
-        "22cm":"6,50",
-        "26cm":"9,50",
-        "32cm":"13,50",
-        "36cm":"15,00"
-    },
-    "desO": "Meeresfrüchte, Zwiebeln, Knoblauch",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8,11",
-    "section": "PIZZEN"
-},
-"100": {
-    "name": "Pizza Mozzarella",
-    "price": {
-        "22cm":"6,00",
-        "26cm":"8,00",
-        "32cm":"11,00",
-        "36cm":"13,00"
-    },
-    "desO": "Mozzarella und Tomaten, Käse",
-    "desT": "",
-    "zusatz":"",
-    "section": "PIZZEN"
-},
-"101": {
-    "name": "Familien Pizza",
-    "price": {
-        "50cm":"21,00"
-    },
-    "desO": "Tomatensoße, Gouda, Käse, jede weitere Zutat 5 Euro",
-    "desT": "",
-    "zusatz":"",
-    "section": "PIZZEN"
-},
-"46": {
-    "name": "Penne Bolognese",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "Hackfleisch mit Tomatensoße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8",
-    "section": "PENNE NUDELN"
-},
-"47": {
-    "name": "Penne al Gorgonzola",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "Gorgonzola mit Sahnesoße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8",
-    "section": "PENNE NUDELN"
-},
-"48": {
-    "name": "Penne Chicken",
-    "price": {
-        "stand":"9,90"
-    },
-    "desO": "Hähnchenfleisch, Curry mit Sahnesoße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8",
-    "section": "PENNE NUDELN"
-},
-"49": {
-    "name": "Penne Spinat",
-    "price": {
-        "stand":"7,50"
-    },
-    "desO": "Frische Spinatblätter mit Fetakäse, Basilikum",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8",
-    "section": "PENNE NUDELN"
-},
-"50": {
-    "name": "Penne 4 Vormaggio",
-    "price": {
-        "stand":"9,90"
-    },
-    "desO": "Gouda, Mozarella, Fetakäse, Gorgonzola, Sahnesauce",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8",
-    "section": "PENNE NUDELN"
-},
-"51": {
-    "name": "Penne Carbonara",
-    "price": {
-        "stand":"9,50"
-    },
-    "desO": "Schinken, Sahnesoße, Knoblauch",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8",
-    "section": "PENNE NUDELN"
-},
-"56": {
-    "name": "Schinken Baguette",
-    "price": {
-        "stand":"6,50"
-    },
-    "desO": "Eisbergsalat, Truthahnschinken, Tomate, Gurken, Goudakäse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,4,8",
-    "section": "BAGUETTE"
-},
-"57": {
-    "name": "Vegetarisches Baguette",
-    "price": {
-        "stand":"5,50"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken und Goudakäse",
-    "desT": "",
-    "zusatz":"A,G,C,4,8",
-    "section": "BAGUETTE"
-},
-"58": {
-    "name": "Salami Baguette",
-    "price": {
-        "stand":"6,90"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken und Goudakäse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,8",
-    "section": "BAGUETTE"
-},
-"59": {
-    "name": "Mix Baguette",
-    "price": {
-        "stand":"6,90"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Zwiebeln, Champignons, Fetakäse",
-    "desT": "",
-    "zusatz":"A,G,C,4,8",
-    "section": "BAGUETTE"
-},
-"60": {
-    "name": "Hawaii Baguette",
-    "price": {
-        "stand":"8,90"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Truthahnschinken, Ananas, Goudakäse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,8,11",
-    "section": "BAGUETTE"
-},
-"61": {
-    "name": "Drehspieß Baguette",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Drehspießfleisch, Zwiebeln, Goudakäse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,6,8",
-    "section": "BAGUETTE"
-},
-"62": {
-    "name": "Drehspieß Hähnchen Baguette",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Drehspießfleisch, Zwieblen, Goudakäse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,4,6",
-    "section": "BAGUETTE"
-},
-"63": {
-    "name": "Thunfisch Baguette",
-    "price": {
-        "stand":"7,90"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Zwiebeln, Thunfisch, Goudakäse",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,4,6",
-    "section": "BAGUETTE"
-},
-"64": {
-    "name": "Hähnchen Baguette",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Zwiebeln, Hähnchenfleisch, Goudakäse",
-    "desT": "",
-    "zusatz":"A,G,C,D,2,3,4,6",
-    "section": "BAGUETTE"
-},
-"113": {
-    "name": "Pizza Brötchen",
-    "price": {
-        "Kräterbutter":"5,50"
-        ,"Aoili":"5,50"
-    },
-    "desO": "(8 Stück) mit Kräuterbutter oder Aoili",
-    "desT": "",
-    "zusatz":"A,G",
-    "section": "PIZZABRÖTCHEN"
-},
-"114": {
-    "name": "Pizza Brötchen Schinken",
-    "price": {
-        "Kräterbutter":"6,00"
-        ,"Aoili":"6,00"
-    },
-    "desO": "(8 Stück) mit Truthahnschinken",
-    "desT": "",
-    "zusatz":"A,G,1,2,8,11",
-    "section": "PIZZABRÖTCHEN"
-},
-"115": {
-    "name": "Pizza Brötchen Tonno",
-    "price": {
-        "Kräterbutter":"6,90"
-        ,"Aoili":"6,90"
-    },
-    "desO": "mit Thunfisch",
-    "desT": "",
-    "zusatz":"A,G,2,D",
-    "section": "PIZZABRÖTCHEN"
-},
-"116": {
-    "name": "Pizza Brötchen Hawaii",
-    "price": {
-        "Kräterbutter":"7,50"
-        ,"Aoili":"7,50"
-    },
-    "desO": "Truthahnschinken, Ananas, Käse",
-    "desT": "",
-    "zusatz":"A,G,2",
-    "section": "PIZZABRÖTCHEN"
-},
-"117": {
-    "name": "Pizza Brötchen Spinat",
-    "price": {
-        "Kräterbutter":"6,50"
-        ,"Aoili":"6,50"
-    },
-    "desO": "mit Fetakäse und Gouda",
-    "desT": "",
-    "zusatz":"A,G",
-    "section": "PIZZABRÖTCHEN"
-},
-"118": {
-    "name": "Pizza Brötchen Drehspieß",
-    "price": {
-        "Kräterbutter":"7,50"
-        ,"Aoili":"7,50"
-    },
-    "desO": "mit Drehspießfleisch, Käse",
-    "desT": "",
-    "zusatz":"A,G,1,2,8,11",
-    "section": "PIZZABRÖTCHEN"
-},
-"125": {
-    "name": "Gemischter Salat",
-    "price": {
-        "stand":"4,90"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Mais und Zwiebeln",
-    "desT": "",
-    "zusatz":"2,4,8",
-    "section": "SALATE"
-},
-"126": {
-    "name": "Gemischter Salat mit Fetakäse",
-    "price": {
-        "stand":"5,90"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Mais und Fetakäse",
-    "desT": "",
-    "zusatz":"G,2,4,8",
-    "section": "SALATE"
-},
-"127": {
-    "name": "Gemischter Salat mit Thunfisch",
-    "price": {
-        "stand":"5,90"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Mais und Thunfisch",
-    "desT": "",
-    "zusatz":"D,G,2,3,4,8",
-    "section": "SALATE"
-},
-"128": {
-    "name": "Mix Salat groß",
-    "price": {
-        "stand":"7,90"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Mais, Peperoni, Zwiebeln, Paprika, Fetakäse",
-    "desT": "",
-    "zusatz":"G,2,3,4,8",
-    "section": "SALATE"
-},
-"129": {
-    "name": "Hähnchen Salat groß",
-    "price": {
-        "stand":"8,90"
-    },
-    "desO": "Eisbergsalat, Tomaten, Gurken, Zwiebeln, Hähnchenfleisch, gekochtes Ei",
-    "desT": "",
-    "zusatz":"G,2,3,4,8",
-    "section": "SALATE"
-},
-"130": {
-    "name": "Salat westend",
-    "price": {
-        "stand":"9,90"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Zwiebeln, Thunfisch, gekochte Ei",
-    "desT": "",
-    "zusatz":"2,3,4,8",
-    "section": "SALATE"
-},
-"131": {
-    "name": "Tomaten Salat groß",
-    "price": {
-        "stand":"7,90"
-    },
-    "desO": "Tomate mit Mozzarella mit spezial Basilikumpaste",
-    "desT": "",
-    "zusatz":"2,3,4,8",
-    "section": "SALATE"
-},
-"132": {
-    "name": "Spinat Salat groß",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "Frische Spinatblätter, Tomate, Gurken, Paprika, geriebener Fetakäse, hausgemachtes leicht picantes Senfdressing",
-    "desT": "",
-    "zusatz":"2,3,4,8",
-    "section": "SALATE"
-},
-"133": {
-    "name": "Hawaii Salat groß",
-    "price": {
-        "stand":"10,50"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Ananas, Truthahnschinken, gekochtes Ei, Goudakäse",
-    "desT": "",
-    "zusatz":"2,3,4,7,8,11",
-    "section": "SALATE"
-},
-"134": {
-    "name": "Drehspieß Salat groß",
-    "price": {
-        "stand":"9,50"
-    },
-    "desO": "Eisbergsalat, Tomate, Gurken, Drehspieß, Zwiebeln, Peperoni",
-    "desT": "",
-    "zusatz":"2,3,4,7,8,11",
-    "section": "SALATE"
-},
-"140": {
-    "name": "Hamburger klein",
-    "price": {
-        "stand":"3,90"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,4",
-    "section": "HAMBURGER"
-},
-"141": {
-    "name": "Hamburger groß",
-    "price": {
-        "stand":"7,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,4",
-    "section": "HAMBURGER"
-},
-"142": {
-    "name": "Chickenburger",
-    "price": {
-        "stand":"5,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,4",
-    "section": "HAMBURGER"
-},
-"143": {
-    "name": "Cheeseburger klein",
-    "price": {
-        "stand":"4,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,4",
-    "section": "HAMBURGER"
-},
-"144": {
-    "name": "Cheeseburger groß",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,4",
-    "section": "HAMBURGER"
-},
-"145": {
-    "name": "Pommes klein",
-    "price": {
-        "stand":"3,00"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"",
-    "section": "HAMBURGER"
-},
-"146": {
-    "name": "Pommes mittel",
-    "price": {
-        "stand":"4,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"",
-    "section": "HAMBURGER"
-},
-"147": {
-    "name": "Pommes groß",
-    "price": {
-        "stand":"5,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"",
-    "section": "HAMBURGER"
-},
-"148": {
-    "name": "Potato Wedges mittel",
-    "price": {
-        "stand":"4,00"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"",
-    "section": "HAMBURGER"
-},
-"149": {
-    "name": "Potato Wedges groß",
-    "price": {
-        "stand":"6,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"",
-    "section": "HAMBURGER"
-},
-"152": {
-    "name": "Chicken Nuggets",
-    "price": {
-        "stand":"4,50"
-    },
-    "desO": "5 Stück",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,4",
-    "section": "FINGER FOODS"
-},
-"153": {
-    "name": "Chicken Nuggets",
-    "price": {
-        "stand":"6,50"
-    },
-    "desO": "10 Stück",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,4",
-    "section": "FINGER FOODS"
-},
-"154": {
-    "name": "Chicken Nuggets",
-    "price": {
-        "stand":"12,00"
-    },
-    "desO": "20 Stück",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,4",
-    "section": "FINGER FOODS"
-},
-"155": {
-    "name": "Kinderbox Chicken Nuggets",
-    "price": {
-        "stand":"6,50"
-    },
-    "desO": "5 Stück, Pommes, Capri Sonne",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,4",
-    "section": "FINGER FOODS"
-},
-"156": {
-    "name": "Nudelscheiben",
-    "price": {
-        "stand":"7,50"
-    },
-    "desO": "2 Stück, Pommes, Mayonnaise, Ketchup",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,8,9",
-    "section": "FINGER FOODS"
-},
-"157": {
-    "name": "Mayonnaise",
-    "price": {
-        "stand":"0,70"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"1,2,8,9",
-    "section": "FINGER FOODS"
-},
-"158": {
-    "name": "Ketchup",
-    "price": {
-        "stand":"0,70"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"1,2,8,9",
-    "section": "FINGER FOODS"
-},
-"162": {
-    "name": "Adana Kebap",
-    "price": {
-        "Pommes":"14,50",
-        "Reis":"14,50"
-    },
-    "desO": "gegrillter Hackfleischspieß",
-    "desT": "",
-    "zusatz":"A",
-    "section": "GRILLGERICHTE"
-},
-"163": {
-    "name": "Izgara Köfte",
-    "price": {
-        "Pommes":"13,50",
-        "Reis":"13,50"
-    },
-    "desO": "gegrillte Hackfleischbällchen",
-    "desT": "",
-    "zusatz":"A",
-    "section": "GRILLGERICHTE"
-},
-"164": {
-    "name": "Adana Dürüm",
-    "price": {
-        "stand":"7,50"
-    },
-    "desO": "gegrillter Hackfleischspieß eingewickelt in Yufka ohne Pommes",
-    "desT": "",
-    "zusatz":"A",
-    "section": "GRILLGERICHTE"
-},
-"165": {
-    "name": "Hähnchenspieß",
-    "price": {
-        "Pommes":"13,90",
-        "Reis":"13,90"
-    },
-    "desO": "Spieß aus fein mariniertem Hähnchenfleisch",
-    "desT": "",
-    "zusatz":"A",
-    "section": "GRILLGERICHTE"
-},
-"166": {
-    "name": "Gegrilltes Putenfleisch",
-    "price": {
-        "Pommes":"14,90",
-        "Reis":"14,90"
-    },
-    "desO": "mit Champignons, Sahne und Hollandaise Soße",
-    "desT": "",
-    "zusatz":"1,4",
-    "section": "GRILLGERICHTE"
-},
-"167": {
-    "name": "Gegrillte Hähnchenbrust",
-    "price": {
-        "Pommes":"14,90",
-        "Reis":"14,90"
-    },
-    "desO": "mit Zwiebeln, Champignons, Sahne und Hollandaise Soße",
-    "desT": "",
-    "zusatz":"G,C,1,2,3,8",
-    "section": "GRILLGERICHTE"
-},
-"168": {
-    "name": "Gegrillte Hähnchenbrust",
-    "price": {
-        "Pommes":"14,50",
-        "Reis":"14,50"
-    },
-    "desO": "mit Zwiebeln, grüner Pfeffer, Sahne und Hollandaise Soße",
-    "desT": "",
-    "zusatz":"G,C,1,2,3,8",
-    "section": "GRILLGERICHTE"
-},
-"169": {
-    "name": "Gemischter Grillteller",
-    "price": {
-        "Pommes":"21,90",
-        "Reis":"21,90"
-    },
-    "desO": "(1 Person) mit verschiedene Fleisch Sorten",
-    "desT": "",
-    "section": "GRILLGERICHTE"
-},
-"170": {
-    "name": "Gemischter Grillteller",
-    "price": {
-        "Pommes":"42,00",
-        "Reis":"42,00"
-    },
-    "desO": "(2 Person) mit verschiedene Fleisch Sorten",
-    "desT": "",
-    "section": "GRILLGERICHTE"
-},
-"175": {
-    "name": "Hähnchenschnitzel",
-    "price": {
-        "stand":"8,50"
-    },
-    "desO": "Paniertes Hähnchenschnitzel, Pommes, Salat ,Ketchup, Mayo",
-    "desT": "",
-    "zusatz":"A,C,1,2,3,4,8,9",
-    "section": "SCHNITZEL"
-},
-"176": {
-    "name": "Putenschnitzel",
-    "price": {
-        "stand":"9,00"
-    },
-    "desO": "Paniertes Putenschnitzel mit Pommes, Salat, Ketchup, Mayo",
-    "desT": "",
-    "zusatz":"A,C,1,2,3,4,8,9",
-    "section": "SCHNITZEL"
-},
-"177": {
-    "name": "Fleischrollen 3 Stück",
-    "price": {
-        "stand":"7,90"
-    },
-    "desO": "Hähnchenseparatorenfleisch, Pommes und Ketchup, Mayo",
-    "desT": "",
-    "zusatz":"A,C,1,2,3,4,8,9",
-    "section": "SCHNITZEL"
-},
-"178": {
-    "name": "Curry Wurst",
-    "price": {
-        "stand":"7,50"
-    },
-    "desO": "mit Pommes Ketchup und Mayonnaise",
-    "desT": "",
-    "zusatz":"1,2,8,9",
-    "section": "SCHNITZEL"
-},
-"179": {
-    "name": "Jäger Schnitzel",
-    "price": {
-        "stand":"11,90"
-    },
-    "desO": "Paniertes Schnitzel mit Jägersoße, Pommes, Salat",
-    "desT": "",
-    "zusatz":"A,C,1,2,3,4,8,9",
-    "section": "SCHNITZEL"
-},
-"180": {
-    "name": "Zigeuner Schnitzel",
-    "price": {
-        "stand":"11,90"
-    },
-    "desO": "Paniertes Schnitzel mit Zigeunersoße, Pommes, Salat",
-    "desT": "",
-    "zusatz":"A,C,1,2,3,4,8,9",
-    "section": "SCHNITZEL"
-},
-"181": {
-    "name": "Schnitzel Hawaii",
-    "price": {
-        "stand":"14,50"
-    },
-    "desO": "Paniertes Schnitzel mit Truthahnschinken, Ananas Sahnesauce, überbacken, Pommes, Salat",
-    "desT": "",
-    "zusatz":"A,C,1,2,3,4,8,9",
-    "section": "SCHNITZEL"
-},
-"182": {
-    "name": "Schnitzel Broccoli",
-    "price": {
-        "stand":"14,50"
-    },
-    "desO": "Sahnesoße, Brokkoli, überbacken",
-    "desT": "",
-    "zusatz":"",
-    "section": "SCHNITZEL"
-},
-"183": {
-    "name": "Hamburger Schnitzel",
-    "price": {
-        "stand":"12,50"
-    },
-    "desO": "Schnitzel mit gebratene Ei",
-    "desT": "",
-    "zusatz":"",
-    "section": "SCHNITZEL"
-},
-"188": {
-    "name": "Gebratenes Hähnchenfleisch",
-    "price": {
-        "Pommes":"12,50",
-        "Reis":"12,50"
-    },
-    "desO": "mit frisher Paprika Aubergine, Champignons, Zucchini und Tomaten",
-    "desT": "",
-    "zusatz":"C,1,2,3,8",
-    "section": "PFANNEGERICHTE"
-},
-"189": {
-    "name": "Gebratenes Hähnchenfleisch",
-    "price": {
-        "Pommes":"13,50",
-        "Reis":"13,50"
-    },
-    "desO": "mit frisher Paprika, Zwiebeln, Champignons, Tomaten, Sahnesauce",
-    "desT": "",
-    "zusatz":"C,1,2,3,8",
-    "section": "PFANNEGERICHTE"
-},
-"190": {
-    "name": "Gebratene Putenstreifen",
-    "price": {
-        "Pommes":"14,90",
-        "Reis":"14,90"
-    },
-    "desO": "mit fricher Paprika, Zwiebeln, Champignons und Tomaten",
-    "desT": "",
-    "zusatz":"C,1,2,3,8",
-    "section": "PFANNEGERICHTE"
-},
-"191": {
-    "name": "Lammfleischpfanne",
-    "price": {
-        "Pommes":"16,50",
-        "Reis":"16,50"
-    },
-    "desO": "mit Paprika, Zwiebeln, grüne Peperoni, frische Tomaten",
-    "desT": "",
-    "zusatz":"C,1,2,3,8",
-    "section": "PFANNEGERICHTE"
-},
-"192": {
-    "name": "Garnelenpfanne",
-    "price": {
-        "Pommes":"16,50",
-        "Reis":"16,50"
-    },
-    "desO": "Paprika, Peperoni, Zwiebeln, frischer Knoblauch, Kartoffeln, Tomate",
-    "desT": "",
-    "zusatz":"B,C,1,2,3,8",
-    "section": "PFANNEGERICHTE"
-},
-"197": {
-    "name": "Calzone Sucuk",
-    "price": {
-        "stand":"10,90"
-    },
-    "desO": "mit Sucuk, Spinat, Zwiebeln und scharf Peperoni",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,8",
-    "section": "CALZONE"
-},
-"198": {
-    "name": "Calzone Hawaii",
-    "price": {
-        "stand":"9,90"
-    },
-    "desO": "Truthahnschinken, Ananas, Goudakäse",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,8,11",
-    "section": "CALZONE"
-},
-"199": {
-    "name": "Calzone Drehspieß",
-    "price": {
-        "stand":"11,50"
-    },
-    "desO": "Drespieß mit Zwiebeln und Goudakäse",
-    "desT": "",
-    "zusatz":"A,C,G,1,2,3,8",
-    "section": "CALZONE"
-},
-"200": {
-    "name": "Calzone mit 5 Fleisch Sorten",
-    "price": {
-        "stand":"12,90"
-    },
-    "desO": "Salami, Truthahnschinken, Pute, Drehspießfleisch, Hackfleisch",
-    "desT": "",
-    "section": "CALZONE"
-},
-"201": {
-    "name": "Calzone Tonno",
-    "price": {
-        "stand":"10,50"
-    },
-    "desO": "Tomatensoße, Thunfisch",
-    "desT": "",
-    "zusatz":"",
-    "section": "CALZONE"
-},
-"202": {
-    "name": "Calzone Vier Jahreszeiten",
-    "price": {
-        "stand":"12,50"
-    },
-    "desO": "Tomatensoße, Schinken, Salami, Champignons, Thunfisch",
-    "desT": "",
-    "zusatz":"",
-    "section": "CALZONE"
-},
-"207": {
-    "name": "Brokkoli Auflauf",
-    "price": {
-        "stand":"9,90"
-    },
-    "desO": "Brokkoli, Nudeln, Sahnesoße, Truthahnschinken, Goudakäse",
-    "desT": "",
-    "zusatz":"A,G,1,2,4,8",
-    "section": "AUFLÄUFE"
-},
-"208": {
-    "name": "Blumenkohl & Brokkoli",
-    "price": {
-        "stand":"10,50"
-    },
-    "desO": "mit Sahnesoße, Goudakäse",
-    "desT": "",
-    "zusatz":"G,1,2",
-    "section": "AUFLÄUFE"
-},
-"209": {
-    "name": "Drehspießfleisch Auflauf",
-    "price": {
-        "stand":"12,50"
-    },
-    "desO": "Drehspießfleisch, Paprika, Zwiebeln, Champignons, Gouda, Sahnesoße",
-    "desT": "",
-    "zusatz":"A,G,C,1,2,3,4,5,8",
-    "section": "AUFLÄUFE"
-},
-"210": {
-    "name": "Hähnchen Auflauf",
-    "price": {
-        "stand":"10,90"
-    },
-    "desO": "Hähnchen mit Nudel, Curry, Sahnesoße, Goudakäse",
-    "desT": "",
-    "zusatz":"G,12",
-    "section": "AUFLÄUFE"
-},
-"211": {
-    "name": "Mix Auflauf",
-    "price": {
-        "stand":"12,90"
-    },
-    "desO": "Blumenkohl, Kartoffeln, Paprika, Brokkoli, Hackfleisch, Sahnesoße, Gouda",
-    "desT": "",
-    "zusatz":"G,12",
-    "section": "AUFLÄUFE"
-},
-"212": {
-    "name": "Gemüse Auflauf",
-    "price": {
-        "stand":"9,90"
-    },
-    "desO": "Gemischtes Gemüse mit Pute, Sahnesoße, Goudakäse",
-    "desT": "",
-    "zusatz":"G,12",
-    "section": "AUFLÄUFE"
-},
-"213": {
-    "name": "Blumenkohl & Kartoffel Auflauf",
-    "price": {
-        "stand":"11,50"
-    },
-    "desO": "Blumenkohl, Kartoffeln, Gouda, Sahnesoße",
-    "desT": "",
-    "zusatz":"G,1,2",
-    "section": "AUFLÄUFE"
-},
-"214": {
-    "name": "Hackfleisch Auflauf",
-    "price": {
-        "stand":"10,90"
-    },
-    "desO": "Hackfleisch, Champignons, Gouda, Tomatensoße",
-    "desT": "",
-    "zusatz":"G,1,2",
-    "section": "AUFLÄUFE"
-},
-"219": {
-    "name": "Milchreis",
-    "price": {
-        "stand":"5,50"
-    },
-    "desO": "Milch, Zucker und Reis",
-    "desT": "",
-    "zusatz":"G",
-    "section": "DESSERTS"
-},
-"220": {
-    "name": "Baklava",
-    "price": {
-        "stand":"3,50"
-    },
-    "desO": "2 Stück mit Pistazien",
-    "desT": "",
-    "zusatz":"A,C,E,G,X,Y,Z",
-    "section": "DESSERTS"
-},
-"221": {
-    "name": "Coca Cola",
-    "price": {
-       "0,33L":"2,80",
-       "1L":"3,10"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"1,2,10",
-    "section": "GETRÄNKE"
-},
-"223": {
-    "name": "Fanta",
-    "price": {
-       "0,33L":"2,80",
-       "1L":"3,10"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"1,2,10",
-    "section": "GETRÄNKE"
-},
-"225": {
-    "name": "Capri Sonne",
-    "price": {
-       "stand":"1,20"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"1,2,10",
-    "section": "GETRÄNKE"
-},
-"226": {
-    "name": "Red Bull",
-    "price": {
-        "stand":"2,80"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"1,2,10",
-    "section": "GETRÄNKE"
-},
-"227": {
-    "name": "Wasser",
-    "price": {
-        "0,2L":"1,50",
-        "0,7L":"2,50"
-    },
-    "desO": "",
-    "desT": "",
-    "zusatz":"",
-    "section": "GETRÄNKE"
-}
-},
     "extra":
     {
+        "uberbacken":{
+            "section":["pasta"],
+            "stand":{"price":"1,50","name":"Überbacken"}
+        },
         "fettdreh":{
-            "section":["DREHSPIEß"],
-            "stand":{"price":"1,00","name":"Feta"},
+            "section":["DREHSPIEß","pasta","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Feta"},
             "kalb":{"price":"1,00","name":"Feta"},
             "Hähnchen":{"price":"1,00","name":"Feta"}
         },
@@ -1693,300 +1166,415 @@
             "section":["spaghetti","PENNE NUDELN"],
             "stand":{"price":"2,00","name":"Käse Überbacken"}
         },
-        "ananas":{                
-                "section":["pizzen"],
-                "stand":{"price":"0,80","name":"ananas"},                
-                "22cm":{"price":"0,80","name":"ananas"},                
-                "26cm":{"price":"1,00","name":"ananas"},                
-                "32cm":{"price":"1,50","name":"ananas"},                
-                "36cm":{"price":"2,00","name":"ananas"},
-                "50cm":{"price":"5,00","name":"ananas"}
-            },
-        "brocoli":{
+        "käserand":{
             "section":["pizzen"],
-            "stand":{"price":"0,80","name":"brocoli"},                
-            "22cm":{"price":"0,80","name":"brocoli"},                
-            "26cm":{"price":"1,00","name":"brocoli"},                
-            "32cm":{"price":"1,50","name":"brocoli"},                
-            "36cm":{"price":"2,00","name":"brocoli"},
-            "50cm":{"price":"5,00","name":"brocoli"} 
+            "stand":{"price":"0,80","name":"käserand"},                
+            "24cm":{"price":"2,30","name":"käserand"},                
+            "30cm":{"price":"3,00","name":"käserand"},                
+            "40cm":{"price":"4,50","name":"käserand"} 
         },
-        "dönerfleisch":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"dönerfleisch"},                
-            "22cm":{"price":"1,00","name":"dönerfleisch"},                
-            "26cm":{"price":"2,00","name":"dönerfleisch"},                
-            "32cm":{"price":"2,50","name":"dönerfleisch"},                
-            "36cm":{"price":"3,00","name":"dönerfleisch"},
-            "50cm":{"price":"5,00","name":"dönerfleisch"} 
+        "käsesauce":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"käsesauce"}
         },
-        "ei":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"ei"},                
-            "22cm":{"price":"0,80","name":"ei"},                
-            "26cm":{"price":"1,00","name":"ei"},                
-            "32cm":{"price":"1,50","name":"ei"},                
-            "36cm":{"price":"2,00","name":"ei"},
-            "50cm":{"price":"5,00","name":"ei"} 
+        "krabben":{
+            "section":["pasta"],
+            "stand":{"price":"2,00","name":"Krabben"}
         },
-        "hähnchenbrust":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"hähnchenbrust"},                
-            "22cm":{"price":"1,00","name":"hähnchenbrust"},                
-            "26cm":{"price":"2,00","name":"hähnchenbrust"},                
-            "32cm":{"price":"2,50","name":"hähnchenbrust"},                
-            "36cm":{"price":"3,00","name":"hähnchenbrust"},
-            "50cm":{"price":"5,00","name":"hähnchenbrust"} 
+        "gemuseb":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Gemüse, gebraten"}
         },
-        "knoblauch":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"knoblauch"},                
-            "22cm":{"price":"0,80","name":"knoblauch"},                
-            "26cm":{"price":"1,00","name":"knoblauch"},                
-            "32cm":{"price":"1,50","name":"knoblauch"},                
-            "36cm":{"price":"2,00","name":"knoblauch"},
-            "50cm":{"price":"5,00","name":"knoblauch"} 
-        },
-        "mozzarella":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"mozzarella"},                
-            "22cm":{"price":"0,80","name":"mozzarella"},                
-            "26cm":{"price":"1,00","name":"mozzarella"},                
-            "32cm":{"price":"1,50","name":"mozzarella"},                
-            "36cm":{"price":"2,00","name":"mozzarella"},
-            "50cm":{"price":"5,00","name":"mozzarella"} 
-        },
-        "muscheln":{
-            "section":[""],
-            "stand":{"price":"0,80","name":"muscheln"},                
-            "22cm":{"price":"0,80","name":"muscheln"},                
-            "26cm":{"price":"1,00","name":"muscheln"},                
-            "32cm":{"price":"1,50","name":"muscheln"},                
-            "36cm":{"price":"2,00","name":"muscheln"},
-            "50cm":{"price":"5,00","name":"muscheln"} 
-        },
-        "paprika":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"paprika"},                
-            "22cm":{"price":"0,80","name":"paprika"},                
-            "26cm":{"price":"1,00","name":"paprika"},                
-            "32cm":{"price":"1,50","name":"paprika"},                
-            "36cm":{"price":"2,00","name":"paprika"},
-            "50cm":{"price":"5,00","name":"paprika"} 
-        },
-        "peperoni":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"peperoni"},                
-            "22cm":{"price":"0,80","name":"peperoni"},                
-            "26cm":{"price":"1,00","name":"peperoni"},                
-            "32cm":{"price":"1,50","name":"peperoni"},                
-            "36cm":{"price":"2,00","name":"peperoni"},
-            "50cm":{"price":"5,00","name":"peperoni"} 
-        },
-        "pilzen":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"pilzen"},                
-            "22cm":{"price":"0,80","name":"pilzen"},                
-            "26cm":{"price":"1,00","name":"pilzen"},                
-            "32cm":{"price":"1,50","name":"pilzen"},                
-            "36cm":{"price":"2,00","name":"pilzen"},
-            "50cm":{"price":"5,00","name":"pilzen"} 
-        },
-        "rahmsauce":{
-            "section":[""],
-            "stand":{"price":"0,80","name":"rahmsauce"},                
-            "22cm":{"price":"0,80","name":"rahmsauce"},                
-            "26cm":{"price":"1,00","name":"rahmsauce"},                
-            "32cm":{"price":"1,50","name":"rahmsauce"},                
-            "36cm":{"price":"2,00","name":"rahmsauce"},
-            "50cm":{"price":"5,00","name":"rahmsauce"} 
-        },
-        "salami":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"salami"},                
-            "22cm":{"price":"0,80","name":"salami"},                
-            "26cm":{"price":"1,00","name":"salami"},                
-            "32cm":{"price":"1,50","name":"salami"},                
-            "36cm":{"price":"2,00","name":"salami"},
-            "50cm":{"price":"5,00","name":"salami"} 
-        },
-        "saucehallandaise":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"saucehallandaise"},                
-            "22cm":{"price":"0,80","name":"saucehallandaise"},                
-            "26cm":{"price":"1,00","name":"saucehallandaise"},                
-            "32cm":{"price":"1,50","name":"saucehallandaise"},                
-            "36cm":{"price":"2,00","name":"saucehallandaise"},
-            "50cm":{"price":"5,00","name":"saucehallandaise"} 
-        },
-        "schinken":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"schinken"},                
-            "22cm":{"price":"0,80","name":"schinken"},                
-            "26cm":{"price":"1,00","name":"schinken"},                
-            "32cm":{"price":"1,50","name":"schinken"},                
-            "36cm":{"price":"2,00","name":"schinken"},
-            "50cm":{"price":"5,00","name":"schinken"} 
-        },
-        "spaghetti":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"spaghetti"},                
-            "22cm":{"price":"0,80","name":"spaghetti"},                
-            "26cm":{"price":"1,00","name":"spaghetti"},                
-            "32cm":{"price":"1,50","name":"spaghetti"},                
-            "36cm":{"price":"2,00","name":"spaghetti"},
-            "50cm":{"price":"5,00","name":"spaghetti"} 
-        },
-        "spinat":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"spinat"},                
-            "22cm":{"price":"0,80","name":"spinat"},                
-            "26cm":{"price":"1,00","name":"spinat"},                
-            "32cm":{"price":"1,50","name":"spinat"},                
-            "36cm":{"price":"2,00","name":"spinat"},
-            "50cm":{"price":"5,00","name":"spinat"} 
-        },
-        "sucuk":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"sucuk"},                
-            "22cm":{"price":"0,80","name":"sucuk"},                
-            "26cm":{"price":"1,00","name":"sucuk"},                
-            "32cm":{"price":"1,50","name":"sucuk"},                
-            "36cm":{"price":"2,00","name":"sucuk"},
-            "50cm":{"price":"5,00","name":"sucuk"} 
-        },
-        "thunfisch":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"thunfisch"},                
-            "22cm":{"price":"1,00","name":"thunfisch"},                
-            "26cm":{"price":"2,00","name":"thunfisch"},                
-            "32cm":{"price":"2,50","name":"thunfisch"},                
-            "36cm":{"price":"3,00","name":"thunfisch"},
-            "50cm":{"price":"5,00","name":"thunfisch"} 
-        },
-        "tintenflischringen":{
-            "section":[""],
-            "stand":{"price":"0,80","name":"tintenflischringen"},                
-            "22cm":{"price":"0,80","name":"tintenflischringen"},                
-            "26cm":{"price":"1,00","name":"tintenflischringen"},                
-            "32cm":{"price":"1,50","name":"tintenflischringen"},                
-            "36cm":{"price":"2,00","name":"tintenflischringen"},
-            "50cm":{"price":"5,00","name":"tintenflischringen"} 
-        },
-        "tomaten":{
-            "section":["pizzen"],
-            "stand":{"price":"0,80","name":"tomaten"},                
-            "22cm":{"price":"0,80","name":"tomaten"},                
-            "26cm":{"price":"1,00","name":"tomaten"},                
-            "32cm":{"price":"1,50","name":"tomaten"},                
-            "36cm":{"price":"2,00","name":"tomaten"},
-            "50cm":{"price":"5,00","name":"tomaten"} 
+        "gemuse":{
+            "section":["pasta","salate"],
+            "stand":{"price":"2,00","name":"Gemüse, gebraten"}
         },
         "käse":{
             "section":["pizzen"],
-            "stand":{"price":"0,80","name":"käse"},                
-            "22cm":{"price":"1,00","name":"käse"},                
-            "26cm":{"price":"2,00","name":"käse"},                
-            "32cm":{"price":"2,50","name":"käse"},                
-            "36cm":{"price":"3,00","name":"käse"},
-            "50cm":{"price":"5,00","name":"käse"} 
+            "stand":{"price":"0,80","name":"extra käse"},                
+            "24cm":{"price":"2,00","name":"extra käse"},                
+            "30cm":{"price":"2,50","name":"extra käse"},                
+            "40cm":{"price":"4,50","name":"extra käse"} 
         },
-        "zwiebeln":{
+        "mozzarellap":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"mozzarella"}
+        },
+        "mozzarella":{
+            "section":["pizzen","pasta","salate"],
+            "stand":{"price":"0,80","name":"mozzarella"},                
+            "24cm":{"price":"2,00","name":"mozzarella"},                
+            "30cm":{"price":"2,50","name":"mozzarella"},                
+            "40cm":{"price":"4,50","name":"mozzarella"} 
+        },
+        "parmesan":{
+            "section":["pasta","salate"],
+            "stand":{"price":"1,50","name":"Parmesan"}
+        },
+
+        "scampifleisch":{
+            "section":["pizzen","salate"],
+            "stand":{"price":"2,00","name":"Scampi"},                
+            "24cm":{"price":"2,00","name":"extra Scampi Fleisch"},                
+            "30cm":{"price":"3,00","name":"extra Scampi Fleisch"},                
+            "40cm":{"price":"4,00","name":"extra Scampi Fleisch"} 
+        },
+        "putenschicken":{
+            "section":["pasta","salate","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Putenschicken"}
+        },
+        "garnelenfleisch":{
             "section":["pizzen"],
-            "stand":{"price":"0,80","name":"zwiebeln"},                
-            "22cm":{"price":"0,80","name":"zwiebeln"},                
-            "26cm":{"price":"1,00","name":"zwiebeln"},                
-            "32cm":{"price":"1,50","name":"zwiebeln"},                
-            "36cm":{"price":"2,00","name":"zwiebeln"},
-            "50cm":{"price":"5,00","name":"zwiebeln"} 
+            "stand":{"price":"0,80","name":"extra Garnelen"},                
+            "24cm":{"price":"1,50","name":"extra Garnelen"},                
+            "30cm":{"price":"2,50","name":"extra Garnelen"},                
+            "40cm":{"price":"4,50","name":"extra Garnelen"} 
+        },
+        "pastirma":{
+            "section":["pasta","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Pastirma"}
+        },
+        "ananas":{                
+                "section":["pizzen","pasta","salate"],
+                "stand":{"price":"1,50","name":"ananas"},                
+                "24cm":{"price":"1,50","name":"ananas"},                
+                "30cm":{"price":"2,00","name":"ananas"},                
+                "40cm":{"price":"3,00","name":"ananas"}
+                },
+        "artischocken":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"artischocken"},                
+                "24cm":{"price":"1,50","name":"artischocken"},                
+                "30cm":{"price":"2,00","name":"artischocken"},                
+                "40cm":{"price":"3,00","name":"artischocken"}
+                },
+        "barbecuesaucen":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"barbecuesaucen"},                
+                "24cm":{"price":"1,50","name":"barbecuesaucen"},                
+                "30cm":{"price":"2,00","name":"barbecuesaucen"},                
+                "40cm":{"price":"3,00","name":"barbecuesaucen"}
+                },
+        "Basilikum-Pesto":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"basilikum-Pesto"},                
+                "24cm":{"price":"1,50","name":"basilikum-Pesto"},                
+                "30cm":{"price":"2,00","name":"basilikum-Pesto"},                
+                "40cm":{"price":"3,00","name":"basilikum-Pesto"}
+                },
+        "Rucola":{
+            "section":["pasta"],
+            "stand":{"price":"1,50","name":"Rucola"}
+        },
+        "Champignons":{                
+                "section":["pizzen","pasta","salate","Frenchtaocs"],
+                "stand":{"price":"1,50","name":"Champignons"},                
+                "24cm":{"price":"1,50","name":"Champignons"},                
+                "30cm":{"price":"2,00","name":"Champignons"},                
+                "40cm":{"price":"3,00","name":"Champignons"}
+                },
+        "Cheddar":{                
+                "section":["pizzen","Frenchtaocs"],
+                "stand":{"price":"1,50","name":"Cheddar"},                
+                "24cm":{"price":"1,50","name":"Cheddar"},                
+                "30cm":{"price":"2,00","name":"Cheddar"},                
+                "40cm":{"price":"3,00","name":"Cheddar"}
+                },
+        "Cranberry":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"Cranberry"},                
+                "24cm":{"price":"1,50","name":"Cranberry"},                
+                "30cm":{"price":"2,00","name":"Cranberry"},                
+                "40cm":{"price":"3,00","name":"Cranberry"}
+                },
+        "Currysauce":{                
+                "section":["pizzen"],
+                "stand":{"price":"1,50","name":"Currysauce"},                
+                "24cm":{"price":"1,50","name":"Currysauce"},                
+                "30cm":{"price":"2,00","name":"Currysauce"},                
+                "40cm":{"price":"3,00","name":"Currysauce"}
+                },
+        "brocoli":{
+            "section":["pizzen","pasta"],
+            "stand":{"price":"1,50","name":"brocoli"},                
+            "24cm":{"price":"1,50","name":"brocoli"},                
+            "30cm":{"price":"2,00","name":"brocoli"},                
+            "40cm":{"price":"3,00","name":"brocoli"}
+        },
+        "dönerfleisch":{
+            "section":["pizzen"],
+            "stand":{"price":"1,50","name":"dönerfleisch"},                
+            "24cm":{"price":"1,50","name":"dönerfleisch"},                
+            "30cm":{"price":"2,00","name":"dönerfleisch"},                
+            "40cm":{"price":"3,00","name":"dönerfleisch"} 
+        },
+        "ei":{
+            "section":["pizzen","pasta","salate","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"ei"},                
+            "24cm":{"price":"1,50","name":"ei"},                
+            "30cm":{"price":"2,00","name":"ei"},                
+            "40cm":{"price":"3,00","name":"ei"} 
+        },
+        "hähnchenbrust":{
+            "section":["pizzen","salate","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"hähnchenbrust"},                
+            "24cm":{"price":"1,50","name":"hähnchenbrust"},                
+            "30cm":{"price":"2,00","name":"hähnchenbrust"},                
+            "40cm":{"price":"3,00","name":"hähnchenbrust"} 
+        },
+        "jalapenos":{
+            "section":["pasta"],
+            "stand":{"price":"1,50","name":"Jalapenos"}
+        },
+        "knoblauch":{
+            "section":["pizzen"],
+            "stand":{"price":"1,50","name":"knoblauch"},                
+            "24cm":{"price":"1,50","name":"knoblauch"},                
+            "30cm":{"price":"2,00","name":"knoblauch"},                
+            "40cm":{"price":"3,00","name":"knoblauch"} 
+        },        
+        "muscheln":{
+            "section":[""],
+            "stand":{"price":"1,50","name":"muscheln"},                
+            "24cm":{"price":"1,50","name":"muscheln"},                
+            "30cm":{"price":"2,00","name":"muscheln"},                
+            "40cm":{"price":"3,00","name":"muscheln"} 
+        },
+        "paprika":{
+            "section":["pizzen","pasta","salate","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"paprika"},                
+            "24cm":{"price":"1,50","name":"paprika"},                
+            "30cm":{"price":"2,00","name":"paprika"},                
+            "40cm":{"price":"3,00","name":"paprika"} 
+        },
+        "peperoni":{
+            "section":["pizzen","pasta","salate"],
+            "stand":{"price":"1,50","name":"peperoni"},                
+            "24cm":{"price":"1,50","name":"peperoni"},                
+            "30cm":{"price":"2,00","name":"peperoni"},                
+            "40cm":{"price":"3,00","name":"peperoni"} 
+        },
+        "pilzen":{
+            "section":["pizzen"],
+            "stand":{"price":"1,50","name":"pilzen"},                
+            "24cm":{"price":"1,50","name":"pilzen"},                
+            "30cm":{"price":"2,00","name":"pilzen"},                
+            "40cm":{"price":"3,00","name":"pilzen"} 
+        },
+        "rahmsauce":{
+            "section":[""],
+            "stand":{"price":"1,50","name":"rahmsauce"},                
+            "24cm":{"price":"1,50","name":"rahmsauce"},                
+            "30cm":{"price":"2,00","name":"rahmsauce"},                
+            "40cm":{"price":"3,00","name":"rahmsauce"} 
+        },
+        "salatmischung":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Salatmischung"} 
+        },
+        "salami":{
+            "section":["pizzen","pasta","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"salami"},                
+            "24cm":{"price":"1,50","name":"salami"},                
+            "30cm":{"price":"2,00","name":"salami"},                
+            "40cm":{"price":"3,00","name":"salami"} 
+        },
+        "rinderhackfleisch":
+        {
+            "section":["pasta"],
+            "stand":{"price":"2,00","name":"Rinderhackfleisch"}
+        },
+        "rinderhack":
+        {
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Rinderhack"}
+        },
+        "saucehallandaise":{
+            "section":["pizzen","pasta"],
+            "stand":{"price":"1,50","name":"Sauce Hallandaise"},                
+            "24cm":{"price":"1,50","name":"Sauce Hallandaise"},                
+            "30cm":{"price":"2,00","name":"Sauce Hallandaise"},                
+            "40cm":{"price":"3,00","name":"Sauce Hallandaise"} 
+        },
+        "schinken":{
+            "section":["pizzen"],
+            "stand":{"price":"1,50","name":"schinken"},                
+            "24cm":{"price":"1,50","name":"schinken"},                
+            "30cm":{"price":"2,00","name":"schinken"},                
+            "40cm":{"price":"3,00","name":"schinken"} 
+        },
+        "spaghetti":{
+            "section":["pizzen"],
+            "stand":{"price":"1,50","name":"spaghetti"},                
+            "24cm":{"price":"1,50","name":"spaghetti"},                
+            "30cm":{"price":"2,00","name":"spaghetti"},                
+            "40cm":{"price":"3,00","name":"spaghetti"} 
+        },
+        "spinat":{
+            "section":["pizzen","pasta"],
+            "stand":{"price":"1,50","name":"spinat"},                
+            "24cm":{"price":"1,50","name":"spinat"},                
+            "30cm":{"price":"2,00","name":"spinat"},                
+            "40cm":{"price":"3,00","name":"spinat"} 
+        },
+        "sucuk":{
+            "section":["pizzen","pasta","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"sucuk"},                
+            "24cm":{"price":"1,50","name":"sucuk"},                
+            "30cm":{"price":"2,00","name":"sucuk"},                
+            "40cm":{"price":"3,00","name":"sucuk"} 
+        },
+        "thunfisch":{
+            "section":["pizzen","pasta","salate","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"thunfisch"},                
+            "24cm":{"price":"1,50","name":"thunfisch"},                
+            "30cm":{"price":"2,00","name":"thunfisch"},                
+            "40cm":{"price":"3,00","name":"thunfisch"} 
+        },
+        "tintenflischringen":{
+            "section":[""],
+            "stand":{"price":"1,50","name":"tintenflischringen"},                
+            "24cm":{"price":"1,50","name":"tintenflischringen"},                
+            "30cm":{"price":"2,00","name":"tintenflischringen"},                
+            "40cm":{"price":"3,00","name":"tintenflischringen"} 
+        },
+        "mais":{
+        "section":["pasta","salate","Frenchtaocs"],
+        "stand":{"price":"1,50","name":"Mais"}
+        },
+        "meeresfrüchten":{
+            "section":["pasta"],
+            "stand":{"price":"2,50","name":"Meeresfrüchten"}
+        },
+        "tomaten":{
+            "section":["pizzen","pasta","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"tomaten"},                
+            "24cm":{"price":"1,50","name":"tomaten"},                
+            "30cm":{"price":"2,00","name":"tomaten"},                
+            "40cm":{"price":"3,00","name":"tomaten"} 
+        },
+        "Tomatensauce":{
+            "section":["pasta"],
+            "stand":{"price":"1,50","name":"Tomatensauce"}
+        },   
+        "oliven":{
+            "section":["pasta","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Oliven"}
+        },     
+        "zwiebeln":{
+            "section":["pizzen","pasta","salate","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"zwiebeln"},                
+            "24cm":{"price":"1,50","name":"zwiebeln"},                
+            "30cm":{"price":"2,00","name":"zwiebeln"},                
+            "40cm":{"price":"3,00","name":"zwiebeln"} 
+        },        
+        "möhren":{
+            "section":["pasta"],
+            "stand":{"price":"1,50","name":"Möhren"}
+        },
+        "gorgonzola":{
+            "section":["pasta"],
+            "stand":{"price":"1,50","name":"Gorgonzola"}
+        },
+        "gouda":{
+            "section":["salate","Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Gouda"}
+        },
+        "gurken":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Gurken"}
+        },
+        "merguez":{
+            "section":["Frenchtaocs"],
+            "stand":{"price":"1,50","name":"Merguez"}
         }
     },
     "staticValue":
     {
-        "pc":"AfuSl7LqNnZtAwNFZ-PVW56KYsaBJvrg1USrJj1_7evZzCqGcXXktUWyRi6pKBlpa3PEVDyps8CeJD8i",
-        "logo":"Westend Grill & Pizza",
+        "pc":"ARiKtJJxgz9SQ9aMaxSBP5eM-NOb3NU_YayL1rRJDbw7QyKAVYmyHEZkaS4hvMf4mi0lo0Tr_R3viKG2",
+        "logo":"Kitchen Brothers",
         "kontakt":{
-            "name":"Westend Grill & Pizza",
-            "street":"Blumenberger Str. 24",
-            "zipc":"41061",
+            "name":"Kitchenbrothers",
+            "street":"Konstantinstrasse 87",
+            "zipc":"41238",
             "city":"Mönchengladbach",
-            "tel":"02161270290"
+            "tel":"021662781117"
         },
-        "menuurl":"http://restu.s3-website.eu-central-1.amazonaws.com/database/menu.json",
+        "menuurl":"http://kitchenBrothers.s3-website.eu-central-1.amazonaws.com/database/menu.json",
         "latlng":{
-            "lat":51.1901688,
-            "lng":6.4261498
+            "lat":51.1570961,
+            "lng":6.4813593
         },
-         "opendays":
+        "opendays":
         {
             "sunday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
                     "hour":22,
-                    "min":0
+                    "min":45
                 }
             }
-            ,"monday":{
+            ,"mondayy":{
                 "opentime":{
                     "hour":11,
                     "min":0
                 },
                 "closetime":{
-                    "hour":22,
+                    "hour":24,
                     "min":0
                 }
             }
             ,"tuesday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
-                    "hour":22,
-                    "min":0
+                    "hour":21,
+                    "min":45
                 }
             }
-            ,"wednesdayy":{
+            ,"wednesday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
-                    "hour":22,
-                    "min":0
+                    "hour":21,
+                    "min":45
                 }
             }
             ,"thursday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
-                    "hour":22,
-                    "min":12
+                    "hour":21,
+                    "min":45
                 }
             }
             ,"friday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":14,
                     "min":0
                 },
                 "closetime":{
                     "hour":22,
-                    "min":0
+                    "min":45
                 }
             }
             ,"saturday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":15,
                     "min":0
                 },
                 "closetime":{
                     "hour":22,
-                    "min":0
+                    "min":45
                 }
             }
         },
@@ -2020,12 +1608,12 @@
             "PIZZEN":
             {
                 "section":"PIZZEN",
-                "des":"Alle Pizzen sind mit Tomatensoße und Käse belegt"
+                "des":"Alle Pizzen sind mit Tomatensoße, Gouda und oregano belegt"
             },
             "PIZZABRÖTCHEN":
             {
                 "section":"PIZZABRÖTCHEN",
-                "des":"Alle Pizzabrötchen sind mit Käse gefüllt"
+                "des":"Alle Pizzabrötchen werden mit einem Dip nach Wahl serviert"
             },
             "SALATE":
             {
@@ -2046,20 +1634,36 @@
             {
                 "section":"GRILLGERICHTE",
                 "des":"Alle Gerichte mit Pommes od. Reis und Salat als Beilage"
+            },
+            "Frenchtacos":
+            {
+                "section":"Frenchtacos",
+                "des":"Frisch gegrillter Weizentortilla gefüllt mit"
+            },
+            "GETRANKE":
+            {
+                "section":"GETRANKE",
+                "des":""
             }
         }
     },
     "options":{
+     "spaghetti":"Spaghetti",
+     "linguine":"Linguine",
+     "penne":"Penne",     
      "cocktailsauce":"Cocktailsauce",
      "knoblauchsauce":"Knoblauchsauce",
      "knobandcocktail":"Knoblauchsauce und Cocktailsauce",
      "ohnesauce":"ohne Sauce",
      "pommes":"Pommes",
-     "reis":"Reis"
+     "reis":"Reis",
+     "cocktaildressing":"Cocktail Dressing",
+     "joghurtdressing":"Joghurt Dressing",
+     "ohnedressing":"Ohne Dressing"
     },
     "b":{
-        "t":"wqjCmMKkwpjCnsKZwqHCp8KswqPCn8KvwqXCtMKyw5TCo8OYw5bDjcK2wq_Cv8OOw5TDn8OQw53DkMOVw5HDl8K3w5DDg8OgwqvCv8KxwqnCuMOKw6XDgMOPwrg=",
-        "c":"wqDClsKewpTCnsKbwqbCoMKqwqnCmMKnwpXCpA=="
+        "t":"wqjCnsKhwpTCosKbwqTCosKwwqnCn8KvwqXCtMKXw6TCucOKw4rCmsKywrzDp8KxwrfDo8OawqvDkcOCw4XDmsKcw6LDgsOow6jDisOSwrvDmMKcwp7CosOLwrw=",
+        "c":"wqDCncKjwpzCncKcwqLCosKrwqw="
     },
-    "rabat":"5"
+    "rabat":""
 }

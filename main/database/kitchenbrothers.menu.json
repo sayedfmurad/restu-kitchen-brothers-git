@@ -942,6 +942,213 @@
             "zusatz":"",
             "section": "Frenchtaocs"
         }
+        ,
+        "R1":{
+            "name":"Normal",
+            "price":{"stand":"2,80"},
+            "desO":"Kräuterbutter oder Aoli",
+            "desT":"",
+            "zusatz":"1,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R2":{
+            "name":"Cheese",
+            "price":{"stand":"5,00"},
+            "desO":"Tomatensauce, Gouda",
+            "desT":"",
+            "zusatz":"1,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R3":{
+            "name":"Tuna",
+            "price":{"stand":"6,00"},
+            "desO":"Thunfisch, Tomatensauce, Gouda",
+            "desT":"",
+            "zusatz":"1,4,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R4":{
+            "name":"Schinken",
+            "price":{"stand":"6,00"},
+            "desO":"Putenschicken, Tomatensauce, Gouda",
+            "desT":"",
+            "zusatz":"1,7,",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R5":{
+            "name":"Hawaii",
+            "price":{"stand":"6,20"},
+            "desO":"Putenschicken, Ananas, Gouda, Tomatensauce",
+            "desT":"",
+            "zusatz":"1,7,E",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R6":{
+            "name":"Caprese",
+            "price":{"stand":"6,00"},
+            "desO":"Frische Tomaten, Tomatensauce, Gouda, Basilikumpesto",
+            "desT":"",
+            "zusatz":"1,4,7,E",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R7":{
+            "name":"Holly",
+            "price":{"stand":"6,40"},
+            "desO":"Hähnchenbrust, Holondaise, Gouda",
+            "desT":"",
+            "zusatz":"1,4,7,A,B,E",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R8":{
+            "name":"Sucuk",
+            "price":{"stand":"6,00"},
+            "desO":"Sucuk, Gouda",
+            "desT":"",
+            "zusatz":"1,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R9":{
+            "name":"Spinat Feta",
+            "price":{"stand":"6,40"},
+            "desO":"Spinat, Feta",
+            "desT":"",
+            "zusatz":"1,7",
+            "section":"PIZZABRÖTCHEN"
+        }
+        ,
+        "R10":{
+            "name":"Salami",
+            "price":{"stand":"6,00"},
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"PIZZABRÖTCHEN"
+        }        
+        ,
+        "D1":{
+            "name":"Coca Cola",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D2":{
+            "name":"Cola Zero",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D3":{
+            "name":"Wasser",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D4":{
+            "name":"Sprite",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D5":{
+            "name":"Fanta",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D6":{
+            "name":"Mezzo Mix",
+            "price":{
+                "0,33L":"2,00",
+                "1,00L":"3,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D7":{
+            "name":"Fanta Exotic",
+            "price":{
+                "0,33L":"2,00"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D8":{
+            "name":"Eistee Zitrone",
+            "price":{
+                "0,4L":"2,50"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D9":{
+            "name":"Mineralwasser",
+            "price":{
+                "0,5L":"2,00",
+                "1L":"2,50"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }        
+        ,
+        "D10":{
+            "name":"Eistee Pfirich",
+            "price":{
+                "0,4L":"2,50"
+            },
+            "desO":"",
+            "desT":"",
+            "zusatz":"",
+            "section":"GETRANKE"
+        }                
     },
     "extra":
     {
@@ -1406,7 +1613,7 @@
             "PIZZABRÖTCHEN":
             {
                 "section":"PIZZABRÖTCHEN",
-                "des":"Alle Pizzabrötchen sind mit Käse gefüllt"
+                "des":"Alle Pizzabrötchen werden mit einem Dip nach Wahl serviert"
             },
             "SALATE":
             {
@@ -1432,6 +1639,11 @@
             {
                 "section":"Frenchtacos",
                 "des":"Frisch gegrillter Weizentortilla gefüllt mit"
+            },
+            "GETRANKE":
+            {
+                "section":"GETRANKE",
+                "des":""
             }
         }
     },
