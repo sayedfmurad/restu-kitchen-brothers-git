@@ -5,7 +5,7 @@
 ^FO0,50
 ^A0N20,20
 ^FB400,4,0,C
-^FDKitchenbrothers, Konstantinstrassadfasdfasdfasdfasdse 87\&41238 Mönchengladbach^FS
+^FDKitchenbrothers, Konstantinse 87\&41238 Mönchengladbach^FS
 
 ^CFA,10
 ^FO0,180
@@ -31,10 +31,62 @@
 
 ^CFA,10
 ^FO65,650
+^A0N20,25
+^FB250,4,0
+^FDLinsensuppe (#1)asdfasd^FS
+
+^CFA,10
+^FO325,650
 ^A0N20,20
 ^FB400,4,0
-^FDKitchenbrothers, Konstantinstrassadfasdfasdfasdfasdse 87\&41238 Mönchengladbach^FS
+^FD27,50 €
+^FS
+
+^CFA,10
+^FO65,680
+^A0N20,20
+^FB250,4,0
+^FD+ Linsensuppe (#1)asfasfasfsdfasd^FS
 
 
-^FO1,15^GB400,800,2 
+^CFA,10
+^FO65,800
+^A0N20,20
+^FB250,4,0
+^FDLieferkosten^FS
+
+^CFA,10
+^FO325,800
+^A0N20,20
+^FB400,4,0
+^FD27,50 €
+^FS
+
+^CFA,10
+^FO65,840
+^A0N20,20
+^FB250,4,0
+^FDTotal^FS
+
+^CFA,10
+^FO325,840
+^A0N20,20
+^FB400,4,0
+^FD27,50 €
+^FS
+
+^CFA,10
+^FO0,950
+^A0N15,50
+^FB400,4,0,C
+^FDBestellung wurde noch nicht bezahlt^FS
+
+^CFA,10
+^FO4,1090
+^A0N20,20
+^FB400,4,0,C
+^FD...............................................................Dies ist keine Rechnung
+^FS
+
+^FO1,15^GB400,1200,2 
 ^XZ
