@@ -948,6 +948,12 @@
             "price":{"stand":"2,80"},
             "desO":"Kräuterbutter oder Aoli",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"1,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -957,6 +963,12 @@
             "price":{"stand":"5,00"},
             "desO":"Tomatensauce, Gouda",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"1,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -966,6 +978,12 @@
             "price":{"stand":"6,00"},
             "desO":"Thunfisch, Tomatensauce, Gouda",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"1,4,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -975,6 +993,12 @@
             "price":{"stand":"6,00"},
             "desO":"Putenschicken, Tomatensauce, Gouda",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"1,7,",
             "section":"PIZZABRÖTCHEN"
         }
@@ -984,6 +1008,12 @@
             "price":{"stand":"6,20"},
             "desO":"Putenschicken, Ananas, Gouda, Tomatensauce",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"1,7,E",
             "section":"PIZZABRÖTCHEN"
         }
@@ -993,6 +1023,12 @@
             "price":{"stand":"6,00"},
             "desO":"Frische Tomaten, Tomatensauce, Gouda, Basilikumpesto",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"1,4,7,E",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1002,6 +1038,12 @@
             "price":{"stand":"6,40"},
             "desO":"Hähnchenbrust, Holondaise, Gouda",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"1,4,7,A,B,E",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1011,6 +1053,12 @@
             "price":{"stand":"6,00"},
             "desO":"Sucuk, Gouda",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"1,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1020,6 +1068,12 @@
             "price":{"stand":"6,40"},
             "desO":"Spinat, Feta",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"1,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1029,6 +1083,12 @@
             "price":{"stand":"6,00"},
             "desO":"",
             "desT":"",
+            "options":[
+                {
+                    "name":"Ihre Dip",
+                    "options":["aioli","Kräuterbutter","ohnedip"]
+                }
+            ],
             "zusatz":"",
             "section":"PIZZABRÖTCHEN"
         }        
@@ -1148,10 +1208,222 @@
             "desT":"",
             "zusatz":"",
             "section":"GETRANKE"
-        }                
+        },
+        "B1":{
+            "name":"Chili Cheeseburger",
+            "price":{
+                "stand":"8,90"
+            },
+            "desO":"mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln und Chili-Mayonnaise",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        },
+        "B2":{
+            "name":"Cheeseburger",
+            "price":{
+                "stand":"8,90"
+            },
+            "desO":"mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Salat, Tomaten, Gurken, Ketchup und Burgersauce",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B3":{
+            "name":"Feuerwerk X-Treme Burger",
+            "price":{
+                "stand":"8,90"
+            },
+            "desO":"mit 160g Beef Patty, frisch gegrillter Chilischote, Cheddar, Jalapeno, Tabasco, Habanero-Zwiebeln, Salat, Tomaten, Gurken und Chilisauce",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B4":{
+            "name":"Hot Philadelphia Burger",
+            "price":{
+                "stand":"8,90"
+            },
+            "desO":"mit 160g Beef Patty, Jalapeno-Philadelphia-Cream, Cheddar, roten Zwiebeln, Salat, Tomaten und Gurken Wahl aus: mit 160g Beef Patty, extra, mit Ananas, mit Aubergine, gebraten, mit Bacon, knusprig gebacken, mit Champignons, gebraten und mehr.",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B5":{
+            "name":"Bacon Barbecue Egg Burger",
+            "price":{
+                "stand":"9,50"
+            },
+            "desO":"mit 160g Beef Patty, Cheddar, Spiegelei, Karamell-Zwiebeln, Bacon und Barbecuesauce",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B6":{
+            "name":"Big Bacon Boss X-Treme Burger",
+            "price":{
+                "stand":"11,50"
+            },
+            "desO":"mit 320g Beef Patty, 2 Spiegeleiern, Cheddar, Bacon und Karamell-Zwiebeln",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B7":{
+            "name":"Crispy Chickenburger",
+            "price":{
+                "stand":"9,50"
+            },
+            "desO":"mit Hähnchenbrustfilet, Cheddar, Sweet-Chili-Creme, Salat, Tomaten und Gurken",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B8":{
+            "name":"Italian Burger",
+            "price":{
+                "stand":"9,50"
+            },
+            "desO":"mit 160g Beef Patty, Parmesan, Mozzarella, gebratener Paprika, Pesto-Creme, Rucola, Tomaten und Gurken",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B9":{
+            "name":"Veggie Burger",
+            "price":{
+                "stand":"8,90"
+            },
+            "desO":"mit Veggie Patty, Cheddar, Salat, Tomaten, Gurken und Pesto-Creme",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B10":{
+            "name":"Joppie Burger",
+            "price":{
+                "stand":"9,50"
+            },
+            "desO":"mit 160g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Joppiesauce",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B11":{
+            "name":"Kitchenbrother Burger",
+            "price":{
+                "stand":"12,50"
+            },
+            "desO":"mit 320g Beef Patty, roten Zwiebeln, Bacon, Salat, Tomaten, Gurken und Spezialsauce",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B12":{
+            "name":"Sydney Burger",
+            "price":{
+                "stand":"9,50"
+            },
+            "desO":"mit 160g Beef Patty, gegrillter Ananas, Bacon, Cheddar und Pesto-Creme",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B13":{
+            "name":"Sindbad Burger",
+            "price":{
+                "stand":"9,50"
+            },
+            "desO":"mit 160g Beef Patty, Avocado-Cream, Salat, Zwiebeln, Cheddar, Gurken und Tomaten",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        } ,
+        "B14":{
+            "name":"Big Boss Triple Extreme",
+            "price":{
+                "stand":"14,50"
+            },
+            "desO":"mit 480g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Barbecuesauce",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        },
+        "B15":{
+            "name":"Chicken Crispy Avocado Burger",
+            "price":{
+                "stand":"9,50"
+            },
+            "desO":"mit Hähnchenbrustfilet, Rucola, Tomaten, Gurken, Tomaten, Avocado-Cream, roten Zwiebeln und Mozzarella",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        },
+        "B16":{
+            "name":"Hamburger",
+            "price":{
+                "stand":"8,50"
+            },
+            "desO":"mit einem 160g Beef-Patty, Salat, Tomaten, Gurken und Burgersauce",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        },
+        "B17":{
+            "name":"London Burger",
+            "price":{
+                "stand":"9,50"
+            },
+            "desO":"mit einem 160g Beef-Patty, Cheddar, Salat, Tomaten, Gurken, roten Zwiebeln und Pink-Creme",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        },
+        "B18":{
+            "name":"Chicken Tropical Burger",
+            "price":{
+                "stand":"10,50"
+            },
+            "desO":"mit Crispy Chicken-Patty, Salat, Tomaten, Gurken, Mozzarella und Mango-Creme",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        },
+        "B19":{
+            "name":"Honky Tonk Burger",
+            "price":{
+                "stand":"13,00"
+            },
+            "desO":"mit 320g Beef-Patty, Cheddar, gebratenem Gemüse und Hot-Creme",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        },
+        "B20":{
+            "name":"Smash Burger",
+            "price":{
+                "stand":"12,50"
+            },
+            "desO":"mit 320g Beef-Patty, doppelt Cheddar und Spezialsauce",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burger"
+        }                                                                                  
     },
     "extra":
     {
+        "160gbeefpatty":{
+            "section":["Burger"],
+            "stand":{"price":"3,80","name":"160g Beef Patty, extra"}
+        },
+        "auberginegebraten":{
+            "section":["Burger"],
+            "stand":{"price":"2,00","name":"Aubergine, gebraten"}
+        },
+        "baconknuspriggebacken":{
+            "section":["Burger"],
+            "stand":{"price":"2,20","name":"Bacon, knusprig gebacken"}
+        },
         "uberbacken":{
             "section":["pasta"],
             "stand":{"price":"1,50","name":"Überbacken"}
@@ -1182,7 +1454,7 @@
             "stand":{"price":"2,00","name":"Krabben"}
         },
         "gemuseb":{
-            "section":["Frenchtaocs"],
+            "section":["Frenchtaocs","Burger"],
             "stand":{"price":"1,50","name":"Gemüse, gebraten"}
         },
         "gemuse":{
@@ -1196,19 +1468,23 @@
             "30cm":{"price":"2,50","name":"extra käse"},                
             "40cm":{"price":"4,50","name":"extra käse"} 
         },
+        "käseburger":{
+            "section":["Burger"],
+            "stand":{"price":"1,50","name":"käse"} 
+        },
         "mozzarellap":{
             "section":["Frenchtaocs"],
             "stand":{"price":"1,50","name":"mozzarella"}
         },
         "mozzarella":{
-            "section":["pizzen","pasta","salate"],
+            "section":["pizzen","pasta","salate","Burger"],
             "stand":{"price":"0,80","name":"mozzarella"},                
             "24cm":{"price":"2,00","name":"mozzarella"},                
             "30cm":{"price":"2,50","name":"mozzarella"},                
             "40cm":{"price":"4,50","name":"mozzarella"} 
         },
         "parmesan":{
-            "section":["pasta","salate"],
+            "section":["pasta","salate","Burger"],
             "stand":{"price":"1,50","name":"Parmesan"}
         },
 
@@ -1235,7 +1511,7 @@
             "stand":{"price":"1,50","name":"Pastirma"}
         },
         "ananas":{                
-                "section":["pizzen","pasta","salate"],
+                "section":["pizzen","pasta","salate","Burger"],
                 "stand":{"price":"1,50","name":"ananas"},                
                 "24cm":{"price":"1,50","name":"ananas"},                
                 "30cm":{"price":"2,00","name":"ananas"},                
@@ -1263,7 +1539,7 @@
                 "40cm":{"price":"3,00","name":"basilikum-Pesto"}
                 },
         "Rucola":{
-            "section":["pasta"],
+            "section":["pasta","Burger"],
             "stand":{"price":"1,50","name":"Rucola"}
         },
         "Champignons":{                
@@ -1272,6 +1548,10 @@
                 "24cm":{"price":"1,50","name":"Champignons"},                
                 "30cm":{"price":"2,00","name":"Champignons"},                
                 "40cm":{"price":"3,00","name":"Champignons"}
+                },
+        "champignonsgebraten":{                
+                "section":["burger"],
+                "stand":{"price":"2,00","name":"mit Champignons, gebraten"}
                 },
         "Cheddar":{                
                 "section":["pizzen","Frenchtaocs"],
@@ -1315,6 +1595,10 @@
             "30cm":{"price":"2,00","name":"ei"},                
             "40cm":{"price":"3,00","name":"ei"} 
         },
+        "eigebraten":{
+            "section":["burger"],
+            "stand":{"price":"1,50","name":"Ei, gebraten"}
+        },
         "hähnchenbrust":{
             "section":["pizzen","salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"hähnchenbrust"},                
@@ -1323,7 +1607,7 @@
             "40cm":{"price":"3,00","name":"hähnchenbrust"} 
         },
         "jalapenos":{
-            "section":["pasta"],
+            "section":["pasta","Burger"],
             "stand":{"price":"1,50","name":"Jalapenos"}
         },
         "knoblauch":{
@@ -1346,6 +1630,10 @@
             "24cm":{"price":"1,50","name":"paprika"},                
             "30cm":{"price":"2,00","name":"paprika"},                
             "40cm":{"price":"3,00","name":"paprika"} 
+        },
+        "paprikagebraten":{
+            "section":["Burger"],
+            "stand":{"price":"2,00","name":"Paprika, gebraten"}
         },
         "peperoni":{
             "section":["pizzen","pasta","salate"],
@@ -1395,6 +1683,10 @@
             "24cm":{"price":"1,50","name":"Sauce Hallandaise"},                
             "30cm":{"price":"2,00","name":"Sauce Hallandaise"},                
             "40cm":{"price":"3,00","name":"Sauce Hallandaise"} 
+        },
+        "sauce":{
+            "section":["Burger"],
+            "stand":{"price":"1,00","name":"Sauce, extra"}
         },
         "schinken":{
             "section":["pizzen"],
@@ -1453,6 +1745,10 @@
             "30cm":{"price":"2,00","name":"tomaten"},                
             "40cm":{"price":"3,00","name":"tomaten"} 
         },
+        "tomatenburger":{
+            "section":["Burger"],
+            "stand":{"price":"1,00","name":"Tomaten"} 
+        },
         "Tomatensauce":{
             "section":["pasta"],
             "stand":{"price":"1,50","name":"Tomatensauce"}
@@ -1467,7 +1763,11 @@
             "24cm":{"price":"1,50","name":"zwiebeln"},                
             "30cm":{"price":"2,00","name":"zwiebeln"},                
             "40cm":{"price":"3,00","name":"zwiebeln"} 
-        },        
+        }, 
+        "zwiebelnrot":{
+            "section":["Burger"],
+            "stand":{"price":"1,00","name":"Zwiebeln, rot"}
+        },         
         "möhren":{
             "section":["pasta"],
             "stand":{"price":"1,50","name":"Möhren"}
@@ -1481,12 +1781,16 @@
             "stand":{"price":"1,50","name":"Gouda"}
         },
         "gurken":{
-            "section":["Frenchtaocs"],
+            "section":["Frenchtaocs","Burger"],
             "stand":{"price":"1,50","name":"Gurken"}
         },
         "merguez":{
             "section":["Frenchtaocs"],
             "stand":{"price":"1,50","name":"Merguez"}
+        },
+        "karamellzwiebeln":{
+            "section":["Burger"],
+            "stand":{"price":"1,50","name":"Karamell-Zwiebeln"}
         }
     },
     "staticValue":
@@ -1648,6 +1952,9 @@
         }
     },
     "options":{
+     "aioli":"Aioli",
+     "Kräuterbutter":"Kräuterbutter",
+     "ohnedip":"Ohne Dip",
      "spaghetti":"Spaghetti",
      "linguine":"Linguine",
      "penne":"Penne",     
