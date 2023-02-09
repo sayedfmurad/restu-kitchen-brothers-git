@@ -13,7 +13,7 @@ def GetMsg(key,Time):
 def HandleSms(key,Num,Time):
     msg = GetMsg(key,Time)
     msg = "'"+msg+"'"
-    shh = 'adb shell service call isms 7 i32 0 s16 "com.android.mms.service" s16 "+4915751984634" s16 "null" s16 "'+str(msg)+'"  s16 "null" s16 "null"'
+    shh = 'adb shell service call isms 7 i32 0 s16 "com.android.mms.service" s16 "'+str(Num)+'" s16 "null" s16 "'+str(msg)+'"  s16 "null" s16 "null"'
     try:
         output = subprocess.check_output(shh, shell=True)    
     except:
