@@ -507,11 +507,11 @@
             "section": "PIZZEN"
         },
         "XS": {
-            "name": "KinderPizza",
+            "name": "Kinder pizza in Hasenform",
             "price": {
                 "stand":"4,90"
             },
-            "desO": "Pizza in Hasenform mit Gouda, Tomatensauce",
+            "desO": "mit Gouda und Tomatensauce",
             "desT": "",
             "zusatz":"1,7",
             "section": "PIZZEN"
@@ -1418,7 +1418,24 @@
             "desT":"",
             "zusatz":"",
             "section":"Burger"
-        }                                                                                  
+        },                                                                                  
+        "BM1":{
+            "name":"Cheeseburger Menü",
+            "price":{
+                "Coca-Cola 0,33l (EINWEG) (+0,25 €)":"13,65",
+                "Coca-Cola zero 0,33l (EINWEG) (+0,25 €)":"13,65",
+                "Fanta 0,33l (EINWEG) (+0,25 €)":"13,65",
+                "Fanta Exotic 0,33l (EINWEG) (+0,25 €)":"13,65",
+                "Mezzo Mix 0,33l (EINWEG) (+0,25 €)":"13,65",
+                "Mineralwasser 0,33l (+0,25 €)":"13,65",
+                "Sprite 0,33l (EINWEG) (+0,25 €)":"13,65",
+                "ohne Getränk":"13,40"
+            },
+            "desO":"mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Salat, Tomaten, Gurken, Ketchup und Burgersauce",
+            "desT":"",
+            "zusatz":"",
+            "section":"Burgermenu"
+        }
     },
     "extra":
     {
