@@ -33,3 +33,10 @@ yarn-error.log*
 .vercel
 package.json
 
+package.json
+.gitignore
+main/pythonfiles/__pycache__/IsDev.cpython-39.pyc
+pages/aboutus.js
+.gitignore
+public/database/menu.json
+public/html/policyprivacyweb.html
