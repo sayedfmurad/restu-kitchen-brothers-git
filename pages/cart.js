@@ -53,10 +53,9 @@ export default function Cart() {
                         for(var j in or[ke]["extra"])
                         extras +=  langswitch.firstUpper(or[ke]["extra"][j][or[ke]["type"]]["name"])+" "
 
-                        var option = ""
+                        var option = []
                         for(var oobo in or[ke]["option"])                        
-                        option += "("+langswitch.firstUpper(oobo)+":"+langswitch.firstUpper(menu["options"][or[ke]["option"][oobo]] )+") "
-                        option = option!=""?<><br/>{option}<br/></>:""
+                        option.push(<>{langswitch.firstUpper(oobo)+" : "+langswitch.firstUpper(menu["options"][or[ke]["option"][oobo]] )}<br/></>)
                         crows.push(
                         <li className="list-group-item d-flex justify-content-between lh-condensed">
                             <div>

@@ -77,7 +77,6 @@ checkOpenCloseStore=()=>{
       {
         var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["opentime"]["hour"],menu["staticValue"]["opendays"][daydd]["opentime"]["min"],0);    
         var closeTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["closetime"]["hour"],menu["staticValue"]["opendays"][daydd]["closetime"]["min"],0);    
-        console.log(closeTime,openTime, TimeN)
       if(closeTime > TimeN && openTime < TimeN)      
         return true;    
 

@@ -14,6 +14,35 @@ export default function c() {
     var [price, setprice]=useState("0"); 
     var [type, settype]=useState(""); 
     var [option, setoption]=useState([]); 
+    
+    const OptionsElement=(e)=>{
+        
+        var tempsubobj= []               
+        var defaultoption = editordercheck?
+                or[orderid]["option"][Object.keys(or[orderid]["option"])[objo]]:
+                e["options"][Object.keys(e["options"])[0]]
+                for(var op in e["options"])                
+                {
+                var idds = e["options"][op]
+                tempsubobj.push(                     
+                            <option  value={idds}>{menu["options"][idds]}</option>
+                    )
+                    if(defaultoption=="")
+                    defaultoption = idds 
+                }
+                const getoption =(ee)=>{
+                    var obj = option
+                    var key = ee.target.name
+                    key = key.replace("options-options","")
+                    obj[key]=ee.target.value
+                }
+                return <div class="input-group mb-3">
+                <label class="input-group-text"  for="inputGroupSelect01">{menu["product"][id]["options"][objo]["name"]}</label>
+                    <select onChange={getoption}  name={`options-options${e["name"]}`} class="form-select">
+                    {tempsubobj}
+                    </select>
+                </div>
+    }
     useEffect(() => {
         updatePrice(); 
     }, [count]);
@@ -58,14 +87,7 @@ export default function c() {
         const gettype =(ee)=>{
             settype(ee.target.id)
         }
-
-
-        const getoption =(ee)=>{
-            var obj = option
-            var key = ee.target.name
-            key = key.replace("options-options","")
-            obj[key]=ee.target.id
-        }
+        
 
                 var selectedtype = Object.keys(menu["product"][id]["price"])[0]
                 if(ortype !=null) 
@@ -96,26 +118,8 @@ export default function c() {
         {
             var tempobj=[]
             if(Object.keys(menu["product"][id]["options"][objo]["options"]).length>1)
-            {                
-                tempobj.push(<><br/><br/>{MyLang["your"]}&nbsp;{menu["product"][id]["options"][objo]["name"]}:</>)
-                var defaultoption = editordercheck?
-                or[orderid]["option"][Object.keys(or[orderid]["option"])[objo]]:
-                menu["product"][id]["options"][objo]["options"][Object.keys(menu["product"][id]["options"][objo]["options"])[0]]
-                
-                var tempsubobj= []
-                for(var op in menu["product"][id]["options"][objo]["options"])                
-                {
-                var idds = menu["product"][id]["options"][objo]["options"][op]
-                tempsubobj.push(<div style={{"fontSize":"0.5rem"}} className='col-xxl-2 col-md-3 col-sm-4 col-xs-2 p-2'>
-                    <input onClick={getoption} type="radio" class="btn-check" name={`options-options${menu["product"][id]["options"][objo]["name"]}`} id={idds} autocomplete="off" defaultChecked={defaultoption!=menu["product"][id]["options"][objo]["options"][op]?"":"checked"}/>
-                    <label class="btn btn-outline-success" for={menu["product"][id]["options"][objo]["options"][op]}>{menu["options"][idds]}</label>
-                    &nbsp;
-                    </div>                
-                    )
-                    if(defaultoption=="")
-                    defaultoption = idds 
-                }
-                tempobj.push(<div className='row'>{tempsubobj}</div>)
+            {                                
+                tempobj.push(<div className='row'>{OptionsElement(menu["product"][id]["options"][objo])}</div>)
                 options.push(<div className='col-12'>{tempobj}</div>)                
             }
             tempobjOptiondefault[menu["product"][id]["options"][objo]["name"]]=menu["product"][id]["options"][objo]["options"][0]
@@ -161,7 +165,8 @@ export default function c() {
         var checkisextra = false;
         for(var jjj in menu["extra"])
         for(var ttt in menu["extra"][jjj]["section"])    
-        if(menu["product"][id]["section"].toUpperCase()==menu["extra"][jjj]["section"][ttt].toUpperCase())
+        if(menu["product"][id]["section"].toUpperCase()==menu["extra"][jjj]["section"][ttt].toUpperCase())        
+        if((type in menu["extra"][jjj]))
         { 
         checkisextra=true;  
         extrarow.push(
