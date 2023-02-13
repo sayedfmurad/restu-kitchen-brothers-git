@@ -304,9 +304,9 @@
         "25": {
             "name": "Böser Chinese",
             "price": {
-                "24cm":"7,00",
-                "30cm":"8,50",
-                "40cm":"17,00"
+                "24cm":"8,00",
+                "30cm":"9,50",
+                "40cm":"18,00"
             },
             "desO": "Hähnchenbrust, Broccoli, Zwiebeln, Gouda, Tomatensauce",
             "desT": "",
@@ -1223,21 +1223,21 @@
         "B1":{
             "name":"Chili Cheeseburger",
             "price":{
-                "stand":"8,90"
+                "stand":"8,40"
             },
             "desO":"mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln und Chili-Mayonnaise",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,A,B,E",
             "section":"Burger"
         },
         "B2":{
             "name":"Cheeseburger",
             "price":{
-                "stand":"8,90"
+                "stand":"8,40"
             },
             "desO":"mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Salat, Tomaten, Gurken, Ketchup und Burgersauce",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         } ,
         "B3":{
@@ -1247,127 +1247,127 @@
             },
             "desO":"mit 160g Beef Patty, frisch gegrillter Chilischote, Cheddar, Jalapeno, Tabasco, Habanero-Zwiebeln, Salat, Tomaten, Gurken und Chilisauce",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         } ,
         "B4":{
             "name":"Hot Philadelphia Burger",
             "price":{
-                "stand":"8,90"
+                "stand":"8,40"
             },
             "desO":"mit 160g Beef Patty, Jalapeno-Philadelphia-Cream, Cheddar, roten Zwiebeln, Salat, Tomaten und Gurken Wahl aus: mit 160g Beef Patty, extra, mit Ananas, mit Aubergine, gebraten, mit Bacon, knusprig gebacken, mit Champignons, gebraten und mehr.",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         } ,
         "B5":{
             "name":"Bacon Barbecue Egg Burger",
             "price":{
-                "stand":"9,50"
+                "stand":"8,40"
             },
             "desO":"mit 160g Beef Patty, Cheddar, Spiegelei, Karamell-Zwiebeln, Bacon und Barbecuesauce",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,A,B,E",
             "section":"Burger"
         } ,
         "B6":{
             "name":"Big Bacon Boss X-Treme Burger",
             "price":{
-                "stand":"11,50"
+                "stand":"10,90"
             },
             "desO":"mit 320g Beef Patty, 2 Spiegeleiern, Cheddar, Bacon und Karamell-Zwiebeln",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         } ,
         "B7":{
             "name":"Crispy Chickenburger",
             "price":{
-                "stand":"9,50"
+                "stand":"8,90"
             },
             "desO":"mit Hähnchenbrustfilet, Cheddar, Sweet-Chili-Creme, Salat, Tomaten und Gurken",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,A,B,E",
             "section":"Burger"
         } ,
         "B8":{
             "name":"Italian Burger",
             "price":{
-                "stand":"9,50"
+                "stand":"8,80"
             },
             "desO":"mit 160g Beef Patty, Parmesan, Mozzarella, gebratener Paprika, Pesto-Creme, Rucola, Tomaten und Gurken",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,A,B,E",
             "section":"Burger"
         } ,
         "B9":{
             "name":"Veggie Burger",
             "price":{
-                "stand":"8,90"
+                "stand":"8,40"
             },
             "desO":"mit Veggie Patty, Cheddar, Salat, Tomaten, Gurken und Pesto-Creme",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         } ,
         "B10":{
             "name":"Joppie Burger",
             "price":{
-                "stand":"9,50"
+                "stand":"8,90"
             },
             "desO":"mit 160g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Joppiesauce",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         } ,
         "B11":{
             "name":"Kitchenbrother Burger",
             "price":{
-                "stand":"12,50"
+                "stand":"11,90"
             },
             "desO":"mit 320g Beef Patty, roten Zwiebeln, Bacon, Salat, Tomaten, Gurken und Spezialsauce",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         } ,
         "B12":{
             "name":"Sydney Burger",
             "price":{
-                "stand":"9,50"
+                "stand":"8,90"
             },
             "desO":"mit 160g Beef Patty, gegrillter Ananas, Bacon, Cheddar und Pesto-Creme",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         } ,
         "B13":{
             "name":"Sindbad Burger",
             "price":{
-                "stand":"9,50"
+                "stand":"8,50"
             },
             "desO":"mit 160g Beef Patty, Avocado-Cream, Salat, Zwiebeln, Cheddar, Gurken und Tomaten",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         } ,
         "B14":{
             "name":"Big Boss Triple Extreme",
             "price":{
-                "stand":"14,50"
+                "stand":"13,80"
             },
             "desO":"mit 480g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Barbecuesauce",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         },
         "B15":{
             "name":"Chicken Crispy Avocado Burger",
             "price":{
-                "stand":"9,50"
+                "stand":"8,90"
             },
             "desO":"mit Hähnchenbrustfilet, Rucola, Tomaten, Gurken, Tomaten, Avocado-Cream, roten Zwiebeln und Mozzarella",
             "desT":"",
-            "zusatz":"",
+            "zusatz":"1,7,E",
             "section":"Burger"
         },
         "B16":{
@@ -1383,7 +1383,7 @@
         "B17":{
             "name":"London Burger",
             "price":{
-                "stand":"9,50"
+                "stand":"8,90"
             },
             "desO":"mit einem 160g Beef-Patty, Cheddar, Salat, Tomaten, Gurken, roten Zwiebeln und Pink-Creme",
             "desT":"",
@@ -1393,7 +1393,7 @@
         "B18":{
             "name":"Chicken Tropical Burger",
             "price":{
-                "stand":"10,50"
+                "stand":"9,90"
             },
             "desO":"mit Crispy Chicken-Patty, Salat, Tomaten, Gurken, Mozzarella und Mango-Creme",
             "desT":"",
@@ -1403,7 +1403,7 @@
         "B19":{
             "name":"Honky Tonk Burger",
             "price":{
-                "stand":"13,00"
+                "stand":"12,50"
             },
             "desO":"mit 320g Beef-Patty, Cheddar, gebratenem Gemüse und Hot-Creme",
             "desT":"",
@@ -2220,53 +2220,54 @@
             "zusatz":"",
             "section":"Burgermenu"
         },
-        "ML1":{
+        "X1":{
             "name":"Wiener Putenschnitzel",
             "price":{
-                "stand":"9,80"
+                "stand":"9,40"
             },
             "desO":"dazu Pommes frites und Salat",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"1,8,14",
             "section":"Meatlovers"
         },
-        "ML2":{
+        "X2":{
             "name":"Jäger Putenschnitzel",
             "price":{
-                "stand":"10,80"
+                "stand":"10,40"
             },
             "desO":"dazu Pommes frites und Salat",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"1,8,14",
             "section":"Meatlovers"
         },
-        "ML3":{
+        "X3":{
             "name":"Zigeuner Putenschnitzel",
             "price":{
-                "stand":"10,80"
+                "stand":"10,40"
             },
             "desO":"dazu Pommes frites und Salat",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"1,8",
             "section":"Meatlovers"
         },
-        "ML4":{
+        "X4":{
             "name":"Hawaii Schnitzel",
             "price":{
-                "stand":"11,90"
+                "stand":"11,40"
             },
             "desO":"mit Käse überbacken, dazu Pommes frites und Salat",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"1,8,14",
             "section":"Meatlovers"
         },
-        "ML5":{
+        "X5":{
             "name":"Chicken Nuggets",
             "price":{
-                "stand":"6,50"
+                "6Stück":{"price":"6,50"}
+                 ,"9Stück":{"price":"7,50"}
             },
             "desO":"mit Dip nach Wahl",
-            "desT":"",
+            "desT":"1,8,14",
             "options":[
                 {
                     "showprice":false,
@@ -2283,23 +2284,16 @@
                         ,"sweet-chili-dip":{"price":"0,00"}
                         ,"ohnedip":{"price":"0,00"}
                     }
-                },
-                {
-                    "showprice":true,
-                    "name":"Chicken Nuggets",
-                    "options":{
-                        "6Stück":{"price":"6,50"}
-                        ,"9Stück":{"price":"7,50"}                        
-                    }
                 }
             ],            
             "zusatz":"",
             "section":"Meatlovers"
         },
-        "ML6":{
+        "X6":{
             "name":"Chicken Wings",
             "price":{
-                "stand":"6,80"
+                "8Stück":{"price":"6,80"}
+                ,"12Stück":{"price":"8,50"}  
             },
             "desO":"mit Dip nach Wahl",
             "desT":"",
@@ -2335,20 +2329,12 @@
                         ,"Kräuterbutter":{"price":"0,00"}
                         ,"sweet-chili-dip":{"price":"0,00"}
                     }
-                },
-                {
-                    "showprice":true,
-                    "name":"Chicken Wings",
-                    "options":{
-                        "8Stück":{"price":"6,80"}
-                        ,"12Stück":{"price":"8,50"}                        
-                    }
                 }
             ],            
             "zusatz":"",
             "section":"Meatlovers"
         },
-        "ML7":{
+        "X7":{
             "name":"Falafel Teller (vegetarisch)",
             "price":{
                 "stand":"10,50"
@@ -2358,11 +2344,11 @@
             "zusatz":"",
             "section":"Meatlovers"
         },
-        "PF1":
+        "F1":
         {
             "name":"Pommes Frites",
             "price":{
-                "stand":"3,80"
+                "stand":"3,30"
             },
             "options":[
                 {
@@ -2383,14 +2369,14 @@
             ],
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"E",
             "section":"Pommesfrites"
         },
-        "PF2":
+        "F2":
         {
             "name":"Süsskartoffel Pommes frites",
             "price":{
-                "stand":"4,90"
+                "stand":"4,50"
             },
             "options":[
                 {
@@ -2411,21 +2397,21 @@
             ],
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"E",
             "section":"Pommesfrites"
         },
-        "PF3":
+        "F3":
         {
             "name":"Käsefritten",
             "price":{
-                "stand":"4,90"
+                "stand":"4,80"
             },            
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"7",
             "section":"Pommesfrites"
         },
-        "PF4":
+        "F4":
         {
             "name":"Chili Cheese Fritten (scharf)",
             "price":{
@@ -2433,7 +2419,7 @@
             },         
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"7,E",
             "section":"Pommesfrites"
         },
         "SA1":
@@ -2444,7 +2430,7 @@
             },         
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"A,3,E",
             "section":"Saucen"
         },
         "SA2":
@@ -2455,7 +2441,7 @@
             },         
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"A,B,E",
             "section":"Saucen"
         },
         "SA3":
@@ -2466,7 +2452,7 @@
             },         
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"A,B,E",
             "section":"Saucen"
         },
         "SA4":
@@ -2488,7 +2474,7 @@
             },         
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"A,B,E",
             "section":"Saucen"
         },
         "SA6":
@@ -2499,7 +2485,7 @@
             },         
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"A,B,E",
             "section":"Saucen"
         },
         "SA7":
@@ -2510,7 +2496,7 @@
             },         
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"A,B,E",
             "section":"Saucen"
         },
         "SA8":
@@ -2521,7 +2507,7 @@
             },         
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"E",
             "section":"Saucen"
         },
         "SA9":
@@ -2532,32 +2518,32 @@
             },         
             "desO":"",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"A,B,E",
             "section":"Saucen"
         },
-        "DE1":
+        "C1":
         {
             "name":"Spaghetti Eis",
             "price":{
-                "stand":"2,50"
+                "stand":"2,20"
             },         
             "desO":"Erdbeereis in Spaghettiform",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"7,A",
             "section":"Desserts"
         },
-        "DE2":
+        "C2":
         {
             "name":"Tiramisu",
             "price":{
-                "stand":"3,30"
+                "stand":"3,00"
             },         
             "desO":"hausgemachtes Tiramisu",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"7,A",
             "section":"Desserts"
         },
-        "DE3":
+        "C3":
         {
             "name":"Nutella Panini",
             "price":{
@@ -2565,7 +2551,7 @@
             },         
             "desO":"Pizzabrötchen mit Nutella",
             "desT":"",            
-            "zusatz":"",
+            "zusatz":"7,A",
             "section":"Desserts"
         }
         
@@ -3176,6 +3162,53 @@
     "sections":
     {
         "mdesc":{
+            "DESSERTS":
+            {
+                "section":"DESSERTS",
+                "des":""
+            },
+            "PASTA":
+            {
+                "section":"PASTA",
+                "des":"Alle Nudelgerichte werden mit einer Nudelsorte nach Wahl zubereitet, Alle Nudelgerichte werden mit 4 Paninis und Kräuterbutter serviert."
+                ,"img":"SPAGHETTI"
+            },
+            "MEATLOVERS":
+            {
+                "section":"MEATLOVERS",
+                "des":"",
+                "img":"meatlovers"
+            },
+            "POMMESFRITES":
+            {
+                "section":"POMMESFRITES",
+                "des":"Alle Fritten werden mit einem Dip nach Wahl serviert.",
+                "img":"POMMESFRITES"
+            },
+            "SAUCEN":
+            {
+                "section":"SAUCEN",
+                "des":"",
+                "img":"SAUCEN"
+            },
+            "FRENCHTAOCS":
+            {
+                "section":"FRENCHTAOCS",
+                "des":"Alle French-Tacos werden mit Pommes frites, Gouda und Spezialsauce zubereitet."
+                ,"img":"int_tacos"
+            },
+            "BURGER":
+            {
+                "section":"BURGER",
+                "des":"Alle Burger werden mit 100% handmade Halal Beef zubereitet."
+                ,"img":"BURGER"
+            },
+            "BURGERMENU":
+            {
+                "section":"BURGERMENU",
+                "des":"Alle Menüs werden mit Pommes frites, Dip nach Wahl und einem alkoholfreien Getränk 0,33l nach Wahl serviert."
+                ,"img":"BURGERMENU"
+            },
             "BAGUETTE":
             {
                 "section":"BAGUETTE",
