@@ -49,6 +49,7 @@ export default function c() {
     {             
         if(!langswitch.checkOpenCloseStore())       
         window.location.href = langswitch.RouteP("storeclosed");
+
         var bnb = new URL(decodeURI(location.href));
         var id = bnb.searchParams.get("id");
         var orderid = bnb.searchParams.get("orderid");
@@ -106,7 +107,7 @@ export default function c() {
                 updatePrice(); 
             }, [type]);
             
-        var tempobjOptiondefault={}
+
         if(menu["product"][id]["options"] != undefined)
         if(menu["product"][id]["options"].length>0)
         for(var objo in menu["product"][id]["options"])

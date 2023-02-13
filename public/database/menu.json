@@ -2263,8 +2263,8 @@
         "X5":{
             "name":"Chicken Nuggets",
             "price":{
-                "6Stück":{"price":"6,50"}
-                 ,"9Stück":{"price":"7,50"}
+                "6Stück":"6,50"
+                 ,"9Stück":"7,50"
             },
             "desO":"mit Dip nach Wahl",
             "desT":"1,8,14",
@@ -2292,8 +2292,8 @@
         "X6":{
             "name":"Chicken Wings",
             "price":{
-                "8Stück":{"price":"6,80"}
-                ,"12Stück":{"price":"8,50"}  
+                "8Stück":"6,80"
+                ,"12Stück":"8,50"
             },
             "desO":"mit Dip nach Wahl",
             "desT":"",
@@ -3079,7 +3079,7 @@
                     "min":45
                 }
             }
-            ,"mondayy":{
+            ,"monday":{
                 "opentime":{
                     "hour":11,
                     "min":0
