@@ -524,13 +524,14 @@
             },
             "desO": "Rinderhackfleischsoße, fr. Parmsesan",
             "desT": "",
-            "zusatz":"1,7,9",
+            "zusatz":"1,7,9",            
             "options":[
-                {
-                    "name":"Ihre Pasta",
-                    "options":["spaghetti","linguine","penne"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Pasta",
+                "options":{"spaghetti":{"price":"0,00"},"linguine":{"price":"0,00"},"penne":{"price":"0,00"}}
+            }]
+            ,
             "section": "Pasta"
         }
         ,
@@ -543,11 +544,11 @@
             "desT": "",
             "zusatz":"1,7,B",
             "options":[
-                {
-                    "name":"Ihre Pasta",
-                    "options":["spaghetti","linguine","penne"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Pasta",
+                "options":{"spaghetti":{"price":"0,00"},"linguine":{"price":"0,00"},"penne":{"price":"0,00"}}
+            }],
             "section": "Pasta"
         }
         ,
@@ -560,11 +561,11 @@
             "desT": "",
             "zusatz":"1,7",
             "options":[
-                {
-                    "name":"Ihre Pasta",
-                    "options":["spaghetti","linguine","penne"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Pasta",
+                "options":{"spaghetti":{"price":"0,00"},"linguine":{"price":"0,00"},"penne":{"price":"0,00"}}
+            }],
             "section": "Pasta"
         }
         ,
@@ -577,11 +578,11 @@
             "desT": "",
             "zusatz":"1,7,A,E",
             "options":[
-                {
-                    "name":"Ihre Pasta",
-                    "options":["spaghetti","linguine","penne"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Pasta",
+                "options":{"spaghetti":{"price":"0,00"},"linguine":{"price":"0,00"},"penne":{"price":"0,00"}}
+            }],
             "section": "Pasta"
         }
         ,
@@ -594,11 +595,11 @@
             "desT": "",
             "zusatz":"1,7,9",
             "options":[
-                {
-                    "name":"Ihre Pasta",
-                    "options":["spaghetti","linguine","penne"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Pasta",
+                "options":{"spaghetti":{"price":"0,00"},"linguine":{"price":"0,00"},"penne":{"price":"0,00"}}
+            }],
             "section": "Pasta"
         },
         "P6": {
@@ -610,11 +611,11 @@
             "desT": "",
             "zusatz":"1,7,9",
             "options":[
-                {
-                    "name":"Ihre Pasta",
-                    "options":["spaghetti","linguine","penne"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Pasta",
+                "options":{"spaghetti":{"price":"0,00"},"linguine":{"price":"0,00"},"penne":{"price":"0,00"}}
+            }],
             "section": "Pasta"
         },
         "P7": {
@@ -626,11 +627,11 @@
             "desT": "",
             "zusatz":"1,7,9",
             "options":[
-                {
-                    "name":"Ihre Pasta",
-                    "options":["spaghetti","linguine","penne"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Pasta",
+                "options":{"spaghetti":{"price":"0,00"},"linguine":{"price":"0,00"},"penne":{"price":"0,00"}}
+            }],
             "section": "Pasta"
         },
         "P8": {
@@ -642,11 +643,11 @@
             "desT": "",
             "zusatz":"",
             "options":[
-                {
-                    "name":"Ihre Pasta",
-                    "options":["spaghetti","linguine","penne"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Pasta",
+                "options":{"spaghetti":{"price":"0,00"},"linguine":{"price":"0,00"},"penne":{"price":"0,00"}}
+            }],
             "section": "Pasta"
         },
         "S1": {
@@ -657,11 +658,11 @@
             "desO": "Salatmischung, Mais, Dressig",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"7,E",
             "section": "SALATE"
         },
@@ -673,11 +674,11 @@
             "desO": "Salatmischung, Mais, Tuna, Ei, Dressig",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"4,7",
             "section": "SALATE"
         },
@@ -689,11 +690,11 @@
             "desO": "Salatmischung, Mais, Hähnchenbrust, Mozzarella, Basilikumpesto",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"7,8,E",
             "section": "SALATE"
         },
@@ -705,11 +706,11 @@
             "desO": "Salatmischung, Fetakäse, Mais, Oliven, Tomaten, rote Zwiebeln, Gurken, Peperoni",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"7,E",
             "section": "SALATE"
         },
@@ -721,11 +722,11 @@
             "desO": "Salatmischung, Käse, Ananas, Mais, Putenschicken",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"7",
             "section": "SALATE"
         },
@@ -737,11 +738,11 @@
             "desO": "Salatmischung, rote Zwiebeln, Mais, Hähnchenbrust, frisch gehobeltem Parmeasan",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"7,E",
             "section": "SALATE"
         },
@@ -753,11 +754,11 @@
             "desO": "Salatmischung, Meeresfrüchte, Mais, Zitrone",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"7,4",
             "section": "SALATE"
         },
@@ -769,11 +770,11 @@
             "desO": "Salatmischung, Hähnchenbrust, Mais, Champignons, rote Zwiebeln",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"7",
             "section": "SALATE"
         },
@@ -785,11 +786,11 @@
             "desO": "Salatmischung, Tomaten, Mozzarella, Rucola, Basilikum",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"7,A",
             "section": "SALATE"
         },
@@ -801,11 +802,11 @@
             "desO": "Salatmischung, Mais, Tonno, Putenschicken, käse, Ei",
             "desT": "",
             "options":[
-                {
-                    "name":"Ihre Dressig",
-                    "options":["cocktaildressing","joghurtdressing","ohnedressing"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dressig",
+                "options":{"cocktaildressing":{"price":"0,00"},"joghurtdressing":{"price":"0,00"},"ohnedressing":{"price":"0,00"}}
+            }],
             "zusatz":"7",
             "section": "SALATE"
         }
@@ -959,11 +960,11 @@
             "desO":"Kräuterbutter oder Aoli",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"1,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -974,11 +975,11 @@
             "desO":"Tomatensauce, Gouda",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"1,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -989,11 +990,11 @@
             "desO":"Thunfisch, Tomatensauce, Gouda",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"1,4,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1004,11 +1005,11 @@
             "desO":"Putenschicken, Tomatensauce, Gouda",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"1,7,",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1019,11 +1020,11 @@
             "desO":"Putenschicken, Ananas, Gouda, Tomatensauce",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"1,7,E",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1034,11 +1035,11 @@
             "desO":"Frische Tomaten, Tomatensauce, Gouda, Basilikumpesto",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"1,4,7,E",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1049,11 +1050,11 @@
             "desO":"Hähnchenbrust, Holondaise, Gouda",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"1,4,7,A,B,E",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1064,11 +1065,11 @@
             "desO":"Sucuk, Gouda",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"1,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1079,11 +1080,11 @@
             "desO":"Spinat, Feta",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"1,7",
             "section":"PIZZABRÖTCHEN"
         }
@@ -1094,11 +1095,11 @@
             "desO":"",
             "desT":"",
             "options":[
-                {
-                    "name":"Ihre Dip",
-                    "options":["aioli","Kräuterbutter","ohnedip"]
-                }
-            ],
+            {
+                "showprice":false,
+                "name":"Ihre Dip",
+                "options":{"aioli":{"price":"0,00"},"Kräuterbutter":{"price":"0,00"},"ohnedip":{"price":"0,00"}}
+            }],
             "zusatz":"",
             "section":"PIZZABRÖTCHEN"
         }        
@@ -1422,29 +1423,1165 @@
         "BM1":{
             "name":"Cheeseburger Menü",
             "price":{
-                "Coca-Cola 0,33l (EINWEG) (+0,25 €)":"13,65",
-                "Coca-Cola zero 0,33l (EINWEG) (+0,25 €)":"13,65",
-                "Fanta 0,33l (EINWEG) (+0,25 €)":"13,65",
-                "Fanta Exotic 0,33l (EINWEG) (+0,25 €)":"13,65",
-                "Mezzo Mix 0,33l (EINWEG) (+0,25 €)":"13,65",
-                "Mineralwasser 0,33l (+0,25 €)":"13,65",
-                "Sprite 0,33l (EINWEG) (+0,25 €)":"13,65",
-                "ohne Getränk":"13,40"
+                "stand":"13,40"
             },
             "desO":"mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Salat, Tomaten, Gurken, Ketchup und Burgersauce",
-            "desT":"",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
             "zusatz":"",
             "section":"Burgermenu"
+        },
+        "BM2":{
+            "name":"Bacon Barbecue Egg Burger Menü",
+            "price":{
+                "stand":"13,90"
+            },
+            "desO":"mit 160g Beef Patty, Cheddar, Spiegelei, Karamell-Zwiebeln, Bacon und Barbecuesauce",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM3":{
+            "name":"Chili Cheeseburger Menü",
+            "price":{
+                "stand":"13,40"
+            },
+            "desO":"mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln und Burgersauce",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM4":{
+            "name":"Hot Philadelphia Burger Menü",
+            "price":{
+                "stand":"13,40"
+            },
+            "desO":"mit 160g Beef Patty, Jalapeno-Philadelphia-Cream, Cheddar, roten Zwiebeln, Salat, Tomaten und Gurken",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM5":{
+            "name":"Feuerwerk X-Treme Burger Menü",
+            "price":{
+                "stand":"13,40"
+            },
+            "desO":"mit 160g Beef Patty, frisch gegrillter Chilischote, Cheddar, Jalapeno, Tabasco, Habanero-Zwiebeln, Salat, Tomaten, Gurken und Chilisauce",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM6":{
+            "name":"Big Bacon Boss X-Treme Burger Menü",
+            "price":{
+                "stand":"15,90"
+            },
+            "desO":"mit 320g Beef Patty, 2 Spiegeleiern, Cheddar, Bacon und Karamell-Zwiebeln",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM7":{
+            "name":"Crispy Chickenburger Menü",
+            "price":{
+                "stand":"13,90"
+            },
+            "desO":"mit Hähnchenbrustfilet, Cheddar, Sweet-Chili-Creme, Salat, Tomaten und Gurken",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM8":{
+            "name":"Italian Burger Menü",
+            "price":{
+                "stand":"13,90"
+            },
+            "desO":"mit 160g Beef Patty, Parmesan, Mozzarella, gebratener Paprika, Pesto-Mayonnaise, Rucola, Tomaten und Gurken",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM9":{
+            "name":"Veggie Burger Menü",
+            "price":{
+                "stand":"13,40"
+            },
+            "desO":"mit Veggie Patty, Cheddar, Salat, Tomaten, Gurken und Pesto-Creme",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM10":{
+            "name":"Joppie Burger Menü",
+            "price":{
+                "stand":"13,90"
+            },
+            "desO":"mit 160g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Joppiesauce",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM11":{
+            "name":"Kitchenbrother Burger Menü",
+            "price":{
+                "stand":"13,90"
+            },
+            "desO":"mit 320g Beef Patty, roten Zwiebeln, Bacon, Salat, Tomaten, Gurken und Spezialsauce",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM12":{
+            "name":"Sydney Burger Menü",
+            "price":{
+                "stand":"13,90"
+            },
+            "desO":"mit 160g Beef Patty, gegrillter Ananas, Bacon, Käse, Cheddar und Pesto-Creme",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM13":{
+            "name":"Sindbad Burger Menü",
+            "price":{
+                "stand":"13,50"
+            },
+            "desO":"mit 160g Beef Patty, Avocado-Cream, Salat, Zwiebeln, Cheddar und Gurken",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM14":{
+            "name":"Big Boss Triple Extreme Menü",
+            "price":{
+                "stand":"18,90"
+            },
+            "desO":"mit 480g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Barbecuesauce",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM15":{
+            "name":"Chicken Crispy Avocado Burger Menü",
+            "price":{
+                "stand":"13,90"
+            },
+            "desO":"mit Hähnchenbrustfilet, Rucola, Tomaten, Gurken, Tomaten, Avocado-Cream, roten Zwiebeln und Mozzarella",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM16":{
+            "name":"Hamburger Menü",
+            "price":{
+                "stand":"13,40"
+            },
+            "desO":"160g Beef-Patty, Salat, Tomaten, Gurken und Burgersauce",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM17":{
+            "name":"London Burger Menü",
+            "price":{
+                "stand":"13,90"
+            },
+            "desO":"160g Beef-Patty, Cheddar, Salat, Tomaten, Gurken, roten Zwiebeln und Pink-Creme",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM18":{
+            "name":"Chicken Tropical Burger Menü",
+            "price":{
+                "stand":"14,90"
+            },
+            "desO":"mit Crispy Chicken,Salat, Tomaten, Gurken, Mozzarella und Mango-Creme",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM19":{
+            "name":"Honky Tonk Burger Menü",
+            "price":{
+                "stand":"17,40"
+            },
+            "desO":"mit 320g Beef-Patty, Cheddar, gebratenem Gemüse und Hot-Creme",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "BM20":{
+            "name":"Smash Burger Menü",
+            "price":{
+                "stand":"16,90"
+            },
+            "desO":"mit 320g Beef-Patty, doppelt cheddar und Spezialsauce",
+            "desT":"",            
+            "options":[
+            {
+                "showprice":false,
+                "name":"Ihr Pommes frites - Ihr Dip",
+                "options":{
+                    "aioli":{"price":"0,00"},"barbecue":{"price":"0,00"}
+                    ,"chii-mayonnaise":{"price":"0,00"}
+                    ,"joppie":{"price":"0,00"}
+                    ,"ketchup":{"price":"0,00"}
+                    ,"kitchen-brothers-dip":{"price":"0,00"}
+                    ,"mayonnaise":{"price":"0,00"}
+                    ,"Kräuterbutter":{"price":"0,00"}
+                    ,"sweet-chili-dip":{"price":"0,00"}
+                }
+            },
+            {
+                "showprice":true,
+                "name":"Ihr Getränk",
+                "options":{
+                    "Coca-Cola0,33l":{"price":"0,25"}
+                    ,"Coca-Colazero0,33l":{"price":"0,25"}
+                    ,"Fanta0,33l":{"price":"0,25"}
+                    ,"FantaExotic0,33l":{"price":"0,25"}
+                    ,"MezzoMix0,33l":{"price":"0,25"}
+                    ,"Mineralwasser0,33l":{"price":"0,25"}
+                    ,"Sprite0,33l":{"price":"0,25"}
+                    ,"ohneGetränk":{"price":"0,00"}
+                }
+            }
+        ],
+            "zusatz":"",
+            "section":"Burgermenu"
+        },
+        "ML1":{
+            "name":"Wiener Putenschnitzel",
+            "price":{
+                "stand":"9,80"
+            },
+            "desO":"dazu Pommes frites und Salat",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Meatlovers"
+        },
+        "ML2":{
+            "name":"Jäger Putenschnitzel",
+            "price":{
+                "stand":"10,80"
+            },
+            "desO":"dazu Pommes frites und Salat",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Meatlovers"
+        },
+        "ML3":{
+            "name":"Zigeuner Putenschnitzel",
+            "price":{
+                "stand":"10,80"
+            },
+            "desO":"dazu Pommes frites und Salat",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Meatlovers"
+        },
+        "ML4":{
+            "name":"Hawaii Schnitzel",
+            "price":{
+                "stand":"11,90"
+            },
+            "desO":"mit Käse überbacken, dazu Pommes frites und Salat",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Meatlovers"
+        },
+        "ML5":{
+            "name":"Chicken Nuggets",
+            "price":{
+                "stand":"6,50"
+            },
+            "desO":"mit Dip nach Wahl",
+            "desT":"",
+            "options":[
+                {
+                    "showprice":false,
+                    "name":"Ihr Dip",
+                    "options":{
+                        "aioli":{"price":"0,00"}
+                        ,"barbecue":{"price":"0,00"}
+                        ,"chii-mayonnaise":{"price":"0,00"}
+                        ,"joppie":{"price":"0,00"}
+                        ,"ketchup":{"price":"0,00"}
+                        ,"kitchen-brothers-dip":{"price":"0,00"}
+                        ,"mayonnaise":{"price":"0,00"}
+                        ,"Kräuterbutter":{"price":"0,00"}
+                        ,"sweet-chili-dip":{"price":"0,00"}
+                        ,"ohnedip":{"price":"0,00"}
+                    }
+                },
+                {
+                    "showprice":true,
+                    "name":"Chicken Nuggets",
+                    "options":{
+                        "6Stück":{"price":"6,50"}
+                        ,"9Stück":{"price":"7,50"}                        
+                    }
+                }
+            ],            
+            "zusatz":"",
+            "section":"Meatlovers"
+        },
+        "ML6":{
+            "name":"Chicken Wings",
+            "price":{
+                "stand":"6,80"
+            },
+            "desO":"mit Dip nach Wahl",
+            "desT":"",
+            "options":[
+                {
+                    "showprice":false,
+                    "name":"Ihr Dip",
+                    "options":{
+                        "aioli":{"price":"0,00"}
+                        ,"barbecue":{"price":"0,00"}
+                        ,"chii-mayonnaise":{"price":"0,00"}
+                        ,"joppie":{"price":"0,00"}
+                        ,"ketchup":{"price":"0,00"}
+                        ,"kitchen-brothers-dip":{"price":"0,00"}
+                        ,"mayonnaise":{"price":"0,00"}
+                        ,"Kräuterbutter":{"price":"0,00"}
+                        ,"sweet-chili-dip":{"price":"0,00"}
+                        ,"ohnedip":{"price":"0,00"}
+                    }
+                },
+                {
+                    "showprice":false,
+                    "name":"Ihr Dip 2",
+                    "options":{
+                        "ohnedip":{"price":"0,00"}
+                        ,"aioli":{"price":"0,00"}
+                        ,"barbecue":{"price":"0,00"}
+                        ,"chii-mayonnaise":{"price":"0,00"}
+                        ,"joppie":{"price":"0,00"}
+                        ,"ketchup":{"price":"0,00"}
+                        ,"kitchen-brothers-dip":{"price":"0,00"}
+                        ,"mayonnaise":{"price":"0,00"}
+                        ,"Kräuterbutter":{"price":"0,00"}
+                        ,"sweet-chili-dip":{"price":"0,00"}
+                    }
+                },
+                {
+                    "showprice":true,
+                    "name":"Chicken Wings",
+                    "options":{
+                        "8Stück":{"price":"6,80"}
+                        ,"12Stück":{"price":"8,50"}                        
+                    }
+                }
+            ],            
+            "zusatz":"",
+            "section":"Meatlovers"
+        },
+        "ML7":{
+            "name":"Falafel Teller (vegetarisch)",
+            "price":{
+                "stand":"10,50"
+            },
+            "desO":"mit Falafel, Pommes frites, Salat und Hummus",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Meatlovers"
+        },
+        "PF1":
+        {
+            "name":"Pommes Frites",
+            "price":{
+                "stand":"3,80"
+            },
+            "options":[
+                {
+                    "showprice":false,
+                    "name":"Ihr Dip",
+                    "options":{
+                        "aioli":{"price":"0,00"},
+                        "barbecue":{"price":"0,00"}
+                        ,"chii-mayonnaise":{"price":"0,00"}
+                        ,"joppie":{"price":"0,00"}
+                        ,"ketchup":{"price":"0,00"}
+                        ,"kitchen-brothers-dip":{"price":"0,00"}
+                        ,"mayonnaise":{"price":"0,00"}
+                        ,"Kräuterbutter":{"price":"0,00"}
+                        ,"sweet-chili-dip":{"price":"0,00"}
+                    }
+                }
+            ],
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Pommesfrites"
+        },
+        "PF2":
+        {
+            "name":"Süsskartoffel Pommes frites",
+            "price":{
+                "stand":"4,90"
+            },
+            "options":[
+                {
+                    "showprice":false,
+                    "name":"Ihr Dip",
+                    "options":{
+                        "aioli":{"price":"0,00"},
+                        "barbecue":{"price":"0,00"}
+                        ,"chii-mayonnaise":{"price":"0,00"}
+                        ,"joppie":{"price":"0,00"}
+                        ,"ketchup":{"price":"0,00"}
+                        ,"kitchen-brothers-dip":{"price":"0,00"}
+                        ,"mayonnaise":{"price":"0,00"}
+                        ,"Kräuterbutter":{"price":"0,00"}
+                        ,"sweet-chili-dip":{"price":"0,00"}
+                    }
+                }
+            ],
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Pommesfrites"
+        },
+        "PF3":
+        {
+            "name":"Käsefritten",
+            "price":{
+                "stand":"4,90"
+            },            
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Pommesfrites"
+        },
+        "PF4":
+        {
+            "name":"Chili Cheese Fritten (scharf)",
+            "price":{
+                "stand":"5,50"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Pommesfrites"
+        },
+        "SA1":
+        {
+            "name":"Kräuterbutter",
+            "price":{
+                "stand":"1,00"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Saucen"
+        },
+        "SA2":
+        {
+            "name":"Mayonnaise",
+            "price":{
+                "stand":"1,00"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Saucen"
+        },
+        "SA3":
+        {
+            "name":"Aioli-Dip",
+            "price":{
+                "stand":"1,00"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Saucen"
+        },
+        "SA4":
+        {
+            "name":"Ketchup",
+            "price":{
+                "stand":"1,00"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Saucen"
+        },
+        "SA5":
+        {
+            "name":"Sweet-Chili-Dip",
+            "price":{
+                "stand":"1,50"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Saucen"
+        },
+        "SA6":
+        {
+            "name":"Chili-Mayonnaise-Dip",
+            "price":{
+                "stand":"1,50"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Saucen"
+        },
+        "SA7":
+        {
+            "name":"Joppie-Dip",
+            "price":{
+                "stand":"1,50"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Saucen"
+        },
+        "SA8":
+        {
+            "name":"Barbecue-Dip",
+            "price":{
+                "stand":"1,50"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Saucen"
+        },
+        "SA9":
+        {
+            "name":"Kitchenbrothers-Dip",
+            "price":{
+                "stand":"1,50"
+            },         
+            "desO":"",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Saucen"
+        },
+        "DE1":
+        {
+            "name":"Spaghetti Eis",
+            "price":{
+                "stand":"2,50"
+            },         
+            "desO":"Erdbeereis in Spaghettiform",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Desserts"
+        },
+        "DE2":
+        {
+            "name":"Tiramisu",
+            "price":{
+                "stand":"3,30"
+            },         
+            "desO":"hausgemachtes Tiramisu",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Desserts"
+        },
+        "DE3":
+        {
+            "name":"Nutella Panini",
+            "price":{
+                "stand":"4,90"
+            },         
+            "desO":"Pizzabrötchen mit Nutella",
+            "desT":"",            
+            "zusatz":"",
+            "section":"Desserts"
         }
+        
     },
     "extra":
     {
         "160gbeefpatty":{
-            "section":["Burger"],
+            "section":["Burger","Burgermenu"],
             "stand":{"price":"3,80","name":"160g Beef Patty, extra"}
         },
+        "baconknuspriggebacken":{
+            "section":["Burgermenu"],
+            "stand":{"price":"2,20","name":"Bacon, knusprig gebacken"}
+        },
         "auberginegebraten":{
-            "section":["Burger"],
+            "section":["Burger","Burgermenu"],
             "stand":{"price":"2,00","name":"Aubergine, gebraten"}
         },
         "bruschetta":{
@@ -1477,9 +2614,17 @@
             "section":["Frenchtaocs"],
             "stand":{"price":"1,50","name":"käsesauce"}
         },
+        "käseBM":{
+            "section":["Burgermenu"],
+            "stand":{"price":"1,50","name":"käse"}
+        },
         "krabben":{
             "section":["pasta"],
             "stand":{"price":"2,00","name":"Krabben"}
+        },
+        "gemusebBM":{
+            "section":["Burgermenu"],
+            "stand":{"price":"2,50","name":"Gemüse, gebraten"}
         },
         "gemuseb":{
             "section":["Frenchtaocs","Burger"],
@@ -1508,6 +2653,10 @@
             "section":["Frenchtaocs"],
             "stand":{"price":"1,50","name":"mozzarella"}
         },
+        "mozzarellaBM":{
+            "section":["Burgermenu"],
+            "stand":{"price":"2,00","name":"Mozzarella"}
+        },
         "mozzarella":{
             "section":["pizzen","pasta","salate","Burger"],
             "stand":{"price":"0,80","name":"mozzarella"},                
@@ -1517,7 +2666,7 @@
             "60cm":{"price":"0,0","name":"mozzarella"}  
         },
         "parmesan":{
-            "section":["pasta","salate","Burger","pizzen"],
+            "section":["pasta","salate","Burger","pizzen","Burgermenu"],
             "stand":{"price":"1,50","name":"Parmesan"},                
             "60cm":{"price":"0,0","name":"Parmesan"} 
         },
@@ -1548,7 +2697,7 @@
             "stand":{"price":"1,50","name":"Pastirma"}
         },
         "ananas":{                
-                "section":["pizzen","pasta","salate","Burger"],
+                "section":["pizzen","pasta","salate","Burger","Burgermenu"],
                 "stand":{"price":"1,50","name":"ananas"},                
                 "24cm":{"price":"1,50","name":"ananas"},                
                 "30cm":{"price":"2,00","name":"ananas"},                
@@ -1578,7 +2727,7 @@
                 "60cm":{"price":"0,00","name":"basilikum-Pesto"}
                 },
         "Rucola":{
-            "section":["pasta","Burger","pizzen"],
+            "section":["pasta","Burger","pizzen","Burgermenu"],
             "stand":{"price":"1,50","name":"Rucola"},
             "60cm":{"price":"0,0","name":"Rucola"}
         },
@@ -1591,11 +2740,15 @@
                 "60cm":{"price":"0,0","name":"Champignons"}
                 },
         "champignonsgebraten":{                
-                "section":["burger"],
+                "section":["burger","Burgermenu"],
                 "stand":{"price":"2,00","name":"mit Champignons, gebraten"}
                 },
+        "champignonsgebratenFT":{                
+                "section":["Frenchtaocs"],
+                "stand":{"price":"1,50","name":"mit Champignons, gebraten"}
+                },
         "Cheddar":{                
-                "section":["pizzen","Frenchtaocs"],
+                "section":["pizzen","Frenchtaocs","Frenchtaocs"],
                 "stand":{"price":"1,50","name":"Cheddar"},                
                 "24cm":{"price":"1,50","name":"Cheddar"},                
                 "30cm":{"price":"2,00","name":"Cheddar"},                
@@ -1639,7 +2792,7 @@
             "40cm":{"price":"3,00","name":"ei"} 
         },
         "eigebraten":{
-            "section":["burger"],
+            "section":["burger","Burgermenu"],
             "stand":{"price":"1,50","name":"Ei, gebraten"}
         },
         "hähnchenbrust":{
@@ -1670,6 +2823,10 @@
             "section":["pizzen"],
             "60cm":{"price":"0,0","name":"mit Sweet-Chili-Sauce"} 
         },
+        "sauceextraBM":{
+            "section":["Burgermenu"],
+            "stand":{"price":"1,00","name":"Sauce, extra"} 
+        },
         "saucehollandaise":{
             "section":["pizzen"],
             "60cm":{"price":"0,0","name":"Sauce Hollandaise"} 
@@ -1691,6 +2848,10 @@
             "stand":{"price":"1,50","name":"Jalapenos"},
             "60cm":{"price":"0,0","name":"jalapenos"} 
         },
+        "jalapenosBM":{
+            "section":["Burgermenu"],
+            "stand":{"price":"1,20","name":"Jalapenos"}
+        },
         "knoblauch":{
             "section":["pizzen"],
             "stand":{"price":"1,50","name":"knoblauch"},                
@@ -1705,6 +2866,9 @@
             "30cm":{"price":"2,00","name":"muscheln"},                
             "40cm":{"price":"3,00","name":"muscheln"} 
         },
+        "paprikaBM":{
+            "section":["Burgermenu"],
+            "stand":{"price":"2,00","name":"Paprika"}},
         "paprika":{
             "section":["pizzen","pasta","salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"paprika"},                
@@ -1826,6 +2990,10 @@
             "stand":{"price":"2,50","name":"Meeresfrüchten"},
             "60cm":{"price":"0,0","name":"Meeresfrüchten"} 
         },
+        "tomatenBM":{
+            "section":["Burgermenu"],
+            "stand":{"price":"1,00","name":"Tomaten"}
+        },
         "tomaten":{
             "section":["pizzen","pasta","Frenchtaocs"],
             "stand":{"price":"1,50","name":"tomaten"},                
@@ -1846,6 +3014,14 @@
             "section":["pasta","Frenchtaocs"],
             "stand":{"price":"1,50","name":"Oliven"}
         },     
+        "zwiebelnkaramellisiert":{
+            "section":["Burgermenu"],
+            "stand":{"price":"1,50","name":"Zwiebeln, karamellisiert"}                            
+        }, 
+        "karamellzwiebelnBM":{
+            "section":["Burgermenu"],
+            "stand":{"price":"1,50","name":"Karamell-Zwiebeln"}                            
+        }, 
         "zwiebeln":{
             "section":["pizzen","pasta","salate","Frenchtaocs"],
             "stand":{"price":"1,50","name":"zwiebeln"},                
@@ -1855,7 +3031,7 @@
             "60cm":{"price":"0,0","name":"zwiebeln"} 
         }, 
         "zwiebelnrot":{
-            "section":["Burger"],
+            "section":["Burger","Burgermenu"],
             "stand":{"price":"1,00","name":"Zwiebeln, rot"}
         },         
         "möhren":{
@@ -1870,6 +3046,10 @@
             "section":["salate","Frenchtaocs","pizzen"],
             "stand":{"price":"1,50","name":"Gouda"},
             "60cm":{"price":"0,0","name":"Gouda"}
+        },
+        "gurkenBM":{
+            "section":["Burgermenu"],
+            "stand":{"price":"1,00","name":"Gurken"}
         },
         "gurken":{
             "section":["Frenchtaocs","Burger","pizzen"],
@@ -2044,7 +3224,26 @@
         }
     },
     "options":{
+     "6Stück":"6 Stück ",
+     "9Stück":"9 Stück ",
+     "8Stück":"8 Stück ",
+     "12Stück":"12 Stück ",
+     "Coca-Cola0,33l":"Coca-Cola 0,33l (EINWEG)",
+     "Coca-Colazero0,33l":"Coca-Cola zero 0,33l (EINWEG)",
+     "Fanta0,33l":"Fanta 0,33l (EINWEG)",
+     "FantaExotic0,33l":"Fanta Exotic 0,33l (EINWEG)",
+     "MezzoMix0,33l":"Mezzo Mix 0,33l (EINWEG)",
+     "Mineralwasser0,33l":"Mineralwasser 0,33l",
+     "Sprite0,33l":"Sprite 0,33l (EINWEG)",
+     "ohneGetränk":"ohne Getränk",
      "aioli":"Aioli",
+     "barbecue":"Barbecue",
+     "chii-mayonnaise":"Chii-Mayonnaise",
+     "joppie":"Joppie",
+     "ketchup":"Ketchup",
+     "kitchen-brothers-dip":"Kitchen Brothers-Dip",
+     "mayonnaise":"Mayonnaise",
+     "sweet-chili-dip":"Sweet-Chili-Dip",
      "Kräuterbutter":"Kräuterbutter",
      "ohnedip":"Ohne Dip",
      "spaghetti":"Spaghetti",

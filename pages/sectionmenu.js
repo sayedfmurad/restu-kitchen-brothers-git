@@ -12,7 +12,7 @@ export default function Sectionmenu() {
     rows.push(<div className="row mb-2"><div className="col-12">
         <a  className="btn btn-primary " href={langswitch.RouteP("")}>{MyLang["back"]}</a>
         &nbsp;&nbsp;
-        <a  className="btn btn-primary " href={langswitch.RouteP("cart")}>{MyLang["pay"]}</a>
+        <a  className="btn btn-primary " href={langswitch.RouteP("cart")}>Warenkorb</a>
         </div></div>);
     if(process.browser)
     {       

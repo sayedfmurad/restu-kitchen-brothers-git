@@ -13,32 +13,27 @@ export default function c() {
     var [extra, setextra]=useState({});
     var [price, setprice]=useState("0"); 
     var [type, settype]=useState(""); 
-    var [option, setoption]=useState([]); 
     
-    const OptionsElement=(e)=>{
+    
+    const OptionsElement=(e)=>{    
+        var tempsubobj= []       
         
-        var tempsubobj= []               
-        var defaultoption = editordercheck?
-                or[orderid]["option"][Object.keys(or[orderid]["option"])[objo]]:
-                e["options"][Object.keys(e["options"])[0]]
-                for(var op in e["options"])                
-                {
-                var idds = e["options"][op]
+        var defaultoption = editordercheck?or[orderid]["option"][e["name"]]: Object.keys(e["options"])[0]
+
+        for(var op in e["options"])                
+        {
                 tempsubobj.push(                     
-                            <option  value={idds}>{menu["options"][idds]}</option>
+                            <option  value={op}>{menu["options"][op]}&nbsp;{e["showprice"]?" "+e["options"][op]["price"]+" €":""}</option>
                     )
-                    if(defaultoption=="")
-                    defaultoption = idds 
                 }
-                const getoption =(ee)=>{
-                    var obj = option
+                const getoption =(ee)=>{                    
                     var key = ee.target.name
                     key = key.replace("options-options","")
-                    obj[key]=ee.target.value
+                    updatePrice()
                 }
                 return <div class="input-group mb-3">
-                <label class="input-group-text"  for="inputGroupSelect01">{menu["product"][id]["options"][objo]["name"]}</label>
-                    <select onChange={getoption}  name={`options-options${e["name"]}`} class="form-select">
+                <label class="input-group-text"  for="inputGroupSelect01">{e["name"]}</label>
+                    <select defaultValue={defaultoption} onChange={getoption} id={e["name"]}  name={`options-options${e["name"]}`} class="form-select">
                     {tempsubobj}
                     </select>
                 </div>
@@ -118,25 +113,23 @@ export default function c() {
         {
             var tempobj=[]
             if(Object.keys(menu["product"][id]["options"][objo]["options"]).length>1)
-            {                                
+            {       
+                tempobj.push(<br/>)
                 tempobj.push(<div className='row'>{OptionsElement(menu["product"][id]["options"][objo])}</div>)
-                options.push(<div className='col-12'>{tempobj}</div>)                
+                options.push(<div className='col-sm-12 col-md-6 col-lg-4'>{tempobj}</div>)                
             }
-            tempobjOptiondefault[menu["product"][id]["options"][objo]["name"]]=menu["product"][id]["options"][objo]["options"][0]
-        }
-    if(options.length>0)    
-    [option,setoption] = useState(tempobjOptiondefault);
-    useEffect(() => {
-        updatePrice(); 
-    }, [option]);
+        }   
         var addOrder=()=>{            
             order["id"]=id
             order["type"]=type
             order["extra"]=extra
             order["count"]=count
             order["price"]=price;
-            order["option"]=option
             order["msg"]=document.getElementById("textareamsg").value
+            var mOption={}
+            for(var nmn in menu["product"][id]["options"])            
+            mOption[menu["product"][id]["options"][nmn]["name"]]=document.getElementById(menu["product"][id]["options"][nmn]["name"]).value
+            order["option"]=mOption
             var hashs = hash(order);            
             var or=langswitch.getJson("order")
             or[(editordercheck?orderid:hashs)]=order
@@ -192,6 +185,14 @@ export default function c() {
             var p = langswitch.stof(menu["product"][id]["price"][type])
             for(var k in extra)
                 p += langswitch.stof(extra[k][type]["price"])      
+            
+            var optUpdatePrice = menu["product"][id]["options"]
+            for(var gg in optUpdatePrice)
+            if(optUpdatePrice[gg]["showprice"])
+            {                
+                var selectedopt = document.getElementById(optUpdatePrice[gg]["name"]).value
+                p += langswitch.stof(optUpdatePrice[gg]["options"][selectedopt]["price"])      
+            }
             
             p = p *count;
             setprice(langswitch.ftos(p))         

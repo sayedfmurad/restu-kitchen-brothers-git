@@ -22,7 +22,7 @@ const MyNavbar = ({sub}) => {
         </Head>
         <nav id="mynavb" className="mb-2 navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <a className="navbar-brand">
+                <a className="navbar-brand" href='./'>
                    <h5>{menu["staticValue"]["logo"]}</h5>
                     {/* <img
                         class="d-inline-block align-text-top"
