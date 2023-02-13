@@ -107,9 +107,6 @@ export default function c() {
                 updatePrice(); 
             }, [type]);
             
-
-        if(menu["product"][id]["options"] != undefined)
-        if(menu["product"][id]["options"].length>0)
         for(var objo in menu["product"][id]["options"])
         {
             var tempobj=[]
