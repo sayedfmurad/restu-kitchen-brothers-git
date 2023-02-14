@@ -19,7 +19,7 @@ export default ()=>
     imgg = imgg.replace("Ü","U")
 
     if("img" in menu["sections"]["mdesc"][sections[key].toUpperCase()])
-    imgg = menu["sections"]["mdesc"][sections[key].toUpperCase()]["img"]
+    imgg = menu["sections"]["mdesc"][sections[key].toUpperCase()]["img"].toUpperCase()
     
     rows.push(
       <div className='col-lg-3 col-md-4 col-sm-6 col-xs-6' id={sections[key]}>

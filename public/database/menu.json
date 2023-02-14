@@ -5049,7 +5049,7 @@
             },
             "tuesday": {
                 "opentime": {
-                    "hour": 15,
+                    "hour": 1,
                     "min": 0
                 },
                 "closetime": {
