@@ -1,11 +1,13 @@
 restus = {
     "objs":{"kitchenbrothers":
       {
-        "s3":"kitchenbrothers"
+        "s3":"kitchenbrothers",
+        "cloud":"E1KSPCHH6VV7WO"
       },
       "westendgrillundpizza":
       {
-        "s3":"restu"
+        "s3":"restu",
+        "cloud":"EW42NP988OU7X"
       }
     }
   }
@@ -26,6 +28,7 @@ package = {
     "build": "yarn config-static && next build && next export  ",
     "start": "next start",    
     "pub": "yarn yarn build && aws s3 sync ./out/ s3://kitchenbrothers --profile my",
+    "cloud":"",
     "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\""
   },  
   "lang": "de-de",

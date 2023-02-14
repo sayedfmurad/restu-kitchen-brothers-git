@@ -5049,7 +5049,7 @@
             },
             "tuesday": {
                 "opentime": {
-                    "hour": 1,
+                    "hour": 15,
                     "min": 0
                 },
                 "closetime": {
@@ -5102,26 +5102,26 @@
             {
                 "distance": {
                     "min": 0,
-                    "max": 2.1
+                    "max": 4.1
                 },
-                "price": 15,
-                "lieferkosten": 0
+                "price": 10,
+                "lieferkosten": 1
             },
             {
                 "distance": {
-                    "min": 2,
-                    "max": 3
+                    "min": 4,
+                    "max": 7.1
+                },
+                "price": 20,
+                "lieferkosten": 2
+            },
+            {
+                "distance": {
+                    "min": 7,
+                    "max": 10
                 },
                 "price": 25,
-                "lieferkosten": 0
-            },
-            {
-                "distance": {
-                    "min": 3,
-                    "max": 5
-                },
-                "price": 30,
-                "lieferkosten": 0
+                "lieferkosten": 3
             }
         ]
     },

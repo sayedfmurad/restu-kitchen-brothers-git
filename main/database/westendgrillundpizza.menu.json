@@ -224,10 +224,28 @@
     "desT": "",
     "zusatz":"A,G,C,1,2,4,5,8",
     "options":
-        [
-        {"name":"Beilage","options":["pommes","reis"]},
-        {"name":"Sauce","options":["ohnesauce","cocktailsauce","knoblauchsauce","knobandcocktail"]}
-    ]
+        {
+            "Beilage":
+                    {
+                        "showprice": false,
+                        "name":"Beilage",
+                        "options":{
+                            "pommes":{"price":"0,00"}
+                            ,"reis":{"price":"0,00"}
+                        }
+                    },
+        "Sauce":
+                    {
+                        "showprice": false,
+                        "name":"Sauce",
+                        "options":{
+                            "ohnesauce":{"price":"0,00"}
+                            ,"cocktailsauce":{"price":"0,00"}
+                            ,"knoblauchsauce":{"price":"0,00"}
+                            ,"knobandcocktail":{"price":"0,00"}
+                        }
+                    }
+        }
         ,
     "section": "DREHSPIEß"
 },

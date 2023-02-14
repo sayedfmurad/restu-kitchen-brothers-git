@@ -18,7 +18,8 @@ export default ()=>
     imgg = imgg.replace("Ä","A")
     imgg = imgg.replace("Ü","U")
 
-    if("img" in menu["sections"]["mdesc"][sections[key].toUpperCase()])
+    if(imgg in menu["sections"]["mdesc"])
+    if("img" in menu["sections"]["mdesc"][imgg])
     imgg = menu["sections"]["mdesc"][sections[key].toUpperCase()]["img"].toUpperCase()
     
     rows.push(
