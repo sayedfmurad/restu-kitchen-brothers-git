@@ -34,16 +34,20 @@ function addEleRes(msg){
 }
 function startListener(){	
 	setTimeout(() => {
+	checkBoolean();
+	addEleRes("First Step")
 	writeToSelectedPrinter('~hs'); 
 	readFromSelectedPrinter();
-	checkBoolean();
 	}, 5000);
 }
 function checkBoolean()
 {
 	setTimeout(() => {
 		if(!canPrint)
-		window.location.href=window.location.href;
+		{
+			addEleRes("CanPrint Not True")
+			window.location.href=window.location.href;
+		}
 		else
 		addEleRes("CanPrint Is True")
 	}, 4000);

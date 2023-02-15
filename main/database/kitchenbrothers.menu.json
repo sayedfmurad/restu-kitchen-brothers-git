@@ -1006,7 +1006,7 @@
             "desO": "Hähnchenbrust, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T2": {
             "name": "Beef",
@@ -1016,7 +1016,7 @@
             "desO": "Rindhackfleisch, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T3": {
             "name": "Merguez",
@@ -1026,7 +1026,7 @@
             "desO": "Merguezwurst, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T4": {
             "name": "Veggie",
@@ -1036,7 +1036,7 @@
             "desO": "Veggiepatty, Fetta, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T5": {
             "name": "Tuna",
@@ -1046,7 +1046,7 @@
             "desO": "Thunfisch, Mais, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,4,7,E",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T6": {
             "name": "Falafel Veggie",
@@ -1056,7 +1056,7 @@
             "desO": "Falafel, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,4,7,E",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T7": {
             "name": "French Taco The El Patron",
@@ -1066,7 +1066,7 @@
             "desO": "Rindhackfleisch, gebr, Zwiebeln, Tomaten, Jalapenos, Hotcreme, Pommes, Gouda",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T8": {
             "name": "French Taco Nuggets",
@@ -1076,7 +1076,7 @@
             "desO": "Nuggets, Pommes, Gouda, BBQ",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T9": {
             "name": "French Taco Chilli Cheese",
@@ -1086,7 +1086,7 @@
             "desO": "Rindhackfleisch, Jalapenos, Pommes, Gouda",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T10": {
             "name": "French Taco Lyon",
@@ -1096,7 +1096,7 @@
             "desO": "Hähnchenbrust, Salatmischung, Avocado-Creme, Gouda, Pommes",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T11": {
             "name": "French Taco Kitchen Brothers XXL",
@@ -1106,7 +1106,7 @@
             "desO": "Rindhackfleisch, Salatmischung, Avocado-Creme, Gouda, Pommes",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T12": {
             "name": "French Taco Vegetables",
@@ -1116,7 +1116,7 @@
             "desO": "gebratene Gemüse, Gouda, Pommes, Pesto-Creme",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "T13": {
             "name": "French Taco Lavin",
@@ -1126,7 +1126,7 @@
             "desO": "gebr. Gemüse, Rindhackfleisch, Gouda, Pommes, Spezialsauce",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtaocs"
+            "section": "Frenchtacos"
         },
         "R1": {
             "name": "Normal",
@@ -3672,7 +3672,7 @@
             "section": [
                 "DREHSPIEß",
                 "pasta",
-                "Frenchtaocs",
+                "Frenchtacos",
                 "pizzen"
             ],
             "stand": {
@@ -3725,7 +3725,7 @@
         },
         "käsesauce": {
             "section": [
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -3761,7 +3761,7 @@
         },
         "gemuseb": {
             "section": [
-                "Frenchtaocs",
+                "Frenchtacos",
                 "Burger"
             ],
             "stand": {
@@ -3820,7 +3820,7 @@
         },
         "mozzarellap": {
             "section": [
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -3916,7 +3916,7 @@
             "section": [
                 "pasta",
                 "salate",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -3947,7 +3947,7 @@
         "pastirma": {
             "section": [
                 "pasta",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4071,7 +4071,7 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4106,7 +4106,7 @@
         },
         "champignonsgebratenFT": {
             "section": [
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4116,8 +4116,8 @@
         "Cheddar": {
             "section": [
                 "pizzen",
-                "Frenchtaocs",
-                "Frenchtaocs"
+                "Frenchtacos",
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4234,7 +4234,7 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4267,7 +4267,7 @@
             "section": [
                 "pizzen",
                 "salate",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4460,7 +4460,7 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4559,7 +4559,7 @@
         },
         "salatmischung": {
             "section": [
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4570,7 +4570,7 @@
             "section": [
                 "pizzen",
                 "pasta",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4604,7 +4604,7 @@
         },
         "rinderhack": {
             "section": [
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4722,7 +4722,7 @@
             "section": [
                 "pizzen",
                 "pasta",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4746,7 +4746,7 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4794,7 +4794,7 @@
             "section": [
                 "pasta",
                 "salate",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4828,7 +4828,7 @@
             "section": [
                 "pizzen",
                 "pasta",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4872,7 +4872,7 @@
         "oliven": {
             "section": [
                 "pasta",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4902,7 +4902,7 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -4956,7 +4956,7 @@
         "gouda": {
             "section": [
                 "salate",
-                "Frenchtaocs",
+                "Frenchtacos",
                 "pizzen"
             ],
             "stand": {
@@ -4979,7 +4979,7 @@
         },
         "gurken": {
             "section": [
-                "Frenchtaocs",
+                "Frenchtacos",
                 "Burger",
                 "pizzen"
             ],
@@ -4994,7 +4994,7 @@
         },
         "merguez": {
             "section": [
-                "Frenchtaocs"
+                "Frenchtacos"
             ],
             "stand": {
                 "price": "1,50",
@@ -5151,8 +5151,8 @@
                 "des": "",
                 "img": "SAUCEN"
             },
-            "FRENCHTAOCS": {
-                "section": "FRENCHTAOCS",
+            "FRENCHTACOS": {
+                "section": "FRENCHTACOS",
                 "des": "Alle French-Tacos werden mit Pommes frites, Gouda und Spezialsauce zubereitet.",
                 "img": "int_tacos"
             },

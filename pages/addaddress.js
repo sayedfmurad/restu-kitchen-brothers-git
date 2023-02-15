@@ -86,26 +86,27 @@ export default function Addaddress() {
         <MyNavbar/>
         <div className="container mt-4">
             <form onSubmit={subb} action={langswitch.RouteP("selectadd")}>
-            <div className="row p-3">            
-            <div class="form-group col-md-4 col-sm-12">
+            <div className="row p-3 g-2">            
+            <div class="form-group col-md-6 col-sm-12">
                 <label for="fname">{MyLang["First Name"]}</label>
                 <input type="text" class="form-control" id="fname" aria-describedby="fnameHelp" placeholder="Vorname" required/>
             </div>
-            <div class="form-group col-md-4 col-sm-12">
+            <div class="form-group col-md-6 col-sm-12">
                 <label for="lname">{MyLang["Last Name"]}</label>
                 <input type="text" class="form-control" id="lname" aria-describedby="lnameHelp" placeholder="Nachname" required/>
-            </div>
-            <div class="input-group mb-3">
-                
-            </div>
-            <div class="form-group col-md-6 col-sm-12 input-group">
-                <span class="input-group-text" id="inputGroup-sizing-default">+49</span>
-                <input type="text" class="form-control" aria-describedby="inputGroup-sizing-default" aria-label="Sizing example input" id="phonen"  placeholder=" Handynummer (Optional)" />
             </div>            
-            <div class="form-group col-md-4 col-sm-12">
+            <br/>
+            <div class="form-group col-md-6 col-sm-12">
                 <label for="firma">{MyLang["Firma"]}</label>
                 <input type="text" class="form-control" id="firma" aria-describedby="firmHelp" placeholder="Firma Name (Optional)"/>                
             </div>
+            <div class="form-group col-md-6 col-sm-12 ">
+                <label for="phonen">Handynummer</label>
+            <div className='input-group'>
+                <span class="input-group-text" id="inputGroup-sizing-default">+49</span>            
+                <input type="text" class="form-control" aria-describedby="inputGroup-sizing-default" aria-label="Sizing example input" id="phonen"  placeholder=" Handynummer (Optional)" />
+            </div>            
+            </div>            
             <br/>
             <br/>
         
