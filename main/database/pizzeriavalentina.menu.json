@@ -357,7 +357,535 @@
             "desT": "",
             "zusatz":"A,G,3,4,5",
             "section": "PIZZEN"
-        }
+        },
+        "31": {
+            "name": "Bolognese",
+            "price": {
+                "24cm":"6,50",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Bolognesesauce, Käse",
+            "desT": "",
+            "zusatz":"A,G",
+            "section": "PIZZEN"
+        },
+        "32": {
+            "name": "Bolognese Spezial",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Bolognesesauce, Spaghetti, Käse",
+            "desT": "",
+            "zusatz":"A,G",
+            "section": "PIZZEN"
+        },
+        "33": {
+            "name": "Capricciosa",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Salami, Formfleischvorderschinken, Champignons, Spinat",
+            "desT": "",
+            "zusatz":"A,G,1,2,3,4,5,9",
+            "section": "PIZZEN"
+        },
+        "34": {
+            "name": "Quattro-Formaggi",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Tomatensauce und 4 Käsesorten",
+            "desT": "",
+            "zusatz":"A,G,3",
+            "section": "PIZZEN"
+        },
+        "35": {
+            "name": "Sucuk",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Knoblauchwurst",
+            "desT": "",
+            "zusatz":"A,G,1,3,4,",
+            "section": "PIZZEN"
+        },
+        "36": {
+            "name": "Hollandaise",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Formfleischvorderschinken, Broccoli, Hollandaisesauce",
+            "desT": "",
+            "zusatz":"A,G,B,C,3,4,5",
+            "section": "PIZZEN"
+        },
+        "37": {
+            "name": "Ala-Turka",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,50",
+                "38cm":"17,40"
+            },
+            "desO": "Champignons, Broccoli, Hähnchenbrust",
+            "desT": "",
+            "zusatz":"A,G",
+            "section": "PIZZEN"
+        },
+        "38": {
+            "name": "Chef",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Spinat, Oliven, Hirtenkäse",
+            "desT": "",
+            "zusatz":"A,G,B,1,3",
+            "section": "PIZZEN"
+        },
+        "39": {
+            "name": "Gyros",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Schweinefleisch, Hirtenkäse",
+            "desT": "",
+            "zusatz":"A,G,B.3,5",
+            "section": "PIZZEN"
+        },
+        "40": {
+            "name": "Deluxe",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Hähnchenbrustfilets, Ananas",
+            "desT": "",
+            "zusatz":"A,G,3,4,5",
+            "section": "PIZZEN"
+        },
+        "41": {
+            "name": "Serrano",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Serrano-Schinken, Rucola, Parmesan",
+            "desT": "",
+            "zusatz":"A,G,3,5",
+            "section": "PIZZEN"
+        },
+        "42": {
+            "name": "Pollo Verdura",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Hähnchenbrust, Spinat, Champignons",
+            "desT": "",
+            "zusatz":"A,G",
+            "section": "PIZZEN"
+        },
+        "43": {
+            "name": "Indiana",
+            "price": {
+                "24cm":"8,00",
+                "28cm":"8,40",
+                "38cm":"16,40"
+            },
+            "desO": "Rinderhackfl., BBQ-Sauce, Zwiebeln, Mozzarella",
+            "desT": "",
+            "zusatz":"A,G,E",
+            "section": "PIZZEN"
+        },
+        "44": {
+            "name": "Numex",
+            "price": {
+                "24cm":"8,40",
+                "28cm":"9,40",
+                "38cm":"17,40"
+            },
+            "desO": "BBQ-Sauce, Mozzarella, Rinderhackfleisch, Zwiebeln, Bacon",
+            "desT": "",
+            "zusatz":"A,G,E,1,2",
+            "section": "PIZZEN"
+        },
+        "45": {
+            "name": "Rustika",
+            "price": {
+                "24cm":"6,40",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Thunfisch, Paprika, Oliven",
+            "desT": "",
+            "zusatz":"A,G,F,1,3",
+            "section": "PIZZEN"
+        },
+        "46": {
+            "name": "Boston",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Hähnchenbrust, Zwiebeln, Paprika, Mais",
+            "desT": "",
+            "zusatz":"A,G",
+            "section": "PIZZEN"
+        },
+        "47": {
+            "name": "Ufo",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"17,40"
+            },
+            "desO": "Thunfisch, Paprika, Zwiebeln",
+            "desT": "",
+            "zusatz":"A,G,F",
+            "section": "PIZZEN"
+        },
+        "48": {
+            "name": "Borussia",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Spinat, Zwiebeln",
+            "desT": "",
+            "zusatz":"A,G",
+            "section": "PIZZEN"
+        },
+        "49": {
+            "name": "Rex",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Gyros, Zwiebeln, Hirtenkäse",
+            "desT": "",
+            "zusatz":"A,G,B",
+            "section": "PIZZEN"
+        },
+        "50": {
+            "name": "Verna",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Thunfisch, Paprika, Krabben",
+            "desT": "",
+            "zusatz":"A,G,F",
+            "section": "PIZZEN"
+        },
+        "51": {
+            "name": "Siciliana",
+            "price": {
+                "24cm":"6,50",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Sardellen, Oiliven, Kapern",
+            "desT": "",
+            "zusatz":"A,G,F,1,3",
+            "section": "PIZZEN"
+        },
+        "52": {
+            "name": "Kabara",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Spinat, Lachs, Zwiebeln",
+            "desT": "",
+            "zusatz":"A,G,F",
+            "section": "PIZZEN"
+        },
+        "53": {
+            "name": "Mafia",
+            "price": {
+                "24cm":"7,00",
+                "28cm":"8,00",
+                "38cm":"16,40"
+            },
+            "desO": "Gyros, Zwiebeln, Hirtenkäse",
+            "desT": "",
+            "zusatz":"A,G,F,1,2,4,9",
+            "section": "PIZZEN"
+        },
+        "54": {
+            "name": "Milano",
+            "price": {
+                "24cm":"7,50",
+                "28cm":"8,50",
+                "38cm":"17,40"
+            },
+            "desO": "Thunfisch, Krabben, Artischocken",
+            "desT": "",
+            "zusatz":"A,G,F,2",
+            "section": "PIZZEN"
+        },
+        "55": {
+            "name": "Carciofini",
+            "price": {
+                "24cm":"5,50",
+                "28cm":"6,50",
+                "38cm":"13,40"
+            },
+            "desO": "Artischocken",
+            "desT": "",
+            "zusatz":"A,G,2",
+            "section": "PIZZEN"
+        },
+        "56": {
+            "name": "Pizzabrötchen",
+            "price": {
+                "stand":"3,00"
+            },
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Wahl aus",
+                    "options": {
+                        "Kräuterbutter": {
+                            "price": "0,00"
+                        },
+                        "aioli": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "6 Stück",
+            "desT": "",
+            "zusatz":"G",
+            "section": "PIZZABRÖTCHEN"
+        },        
+        "57": {
+            "name": "Gefüllte Pizzabrötchen",
+            "price": {
+                "stand":"5,50"
+            },
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Wahl aus",
+                    "options": {
+                        "Kräuterbutter": {
+                            "price": "0,00"
+                        },
+                        "aioli": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "Formfleischvorderschinken und Käse",
+            "desT": "",
+            "zusatz":"3,4,5,G",
+            "section": "PIZZABRÖTCHEN"
+        },           
+        "58": {
+            "name": "Gefüllte Pizzabrötchen",
+            "price": {
+                "stand":"5,50"
+            },
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Wahl aus",
+                    "options": {
+                        "Kräuterbutter": {
+                            "price": "0,00"
+                        },
+                        "aioli": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "Salami und Käse",
+            "desT": "",
+            "zusatz":"1,2,4,9,G",
+            "section": "PIZZABRÖTCHEN"
+        },           
+        "59": {
+            "name": "Gefüllte Pizzabrötchen",
+            "price": {
+                "stand":"5,50"
+            },
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Wahl aus",
+                    "options": {
+                        "Kräuterbutter": {
+                            "price": "0,00"
+                        },
+                        "aioli": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "Thunfisch und Käse",
+            "desT": "",
+            "zusatz":"G,F",
+            "section": "PIZZABRÖTCHEN"
+        },           
+        "60": {
+            "name": "Gefüllte Pizzabrötchen",
+            "price": {
+                "stand":"6,00"
+            },
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Wahl aus",
+                    "options": {
+                        "Kräuterbutter": {
+                            "price": "0,00"
+                        },
+                        "aioli": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "Peperoni und Hirtenkäse",
+            "desT": "",
+            "zusatz":"1,3,G",
+            "section": "PIZZABRÖTCHEN"
+        },           
+        "61": {
+            "name": "Gefüllte Pizzabrötchen",
+            "price": {
+                "stand":"6,00"
+            },
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Wahl aus",
+                    "options": {
+                        "Kräuterbutter": {
+                            "price": "0,00"
+                        },
+                        "aioli": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "Formfleischvorderschinken ,Ananas und Käse",
+            "desT": "",
+            "zusatz":"3,4,5,G",
+            "section": "PIZZABRÖTCHEN"
+        },           
+        "62": {
+            "name": "Gefüllte Pizzabrötchen",
+            "price": {
+                "stand":"6,00"
+            },
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Wahl aus",
+                    "options": {
+                        "Kräuterbutter": {
+                            "price": "0,00"
+                        },
+                        "aioli": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "Spinat und Hirtenkäse",
+            "desT": "",
+            "zusatz":"1,3,G",
+            "section": "PIZZABRÖTCHEN"
+        },                          
+        "63": {
+            "name": "Käse Baguette",
+            "price": {
+                "stand":"5,00"
+            },
+            "desO": "mit Salat, Tomaten, Gurken und Mais",
+            "desT": "",
+            "zusatz":"G",
+            "section": "PIZZABRÖTCHEN"
+        },                          
+        "64": {
+            "name": "Thunfisch Baguette",
+            "price": {
+                "stand":"5,90"
+            },
+            "desO": "mit Salat, Tomaten, Ei und Mais",
+            "desT": "",
+            "zusatz":"G,E,F",
+            "section": "PIZZABRÖTCHEN"
+        },                          
+        "65": {
+            "name": "Salami Baguette",
+            "price": {
+                "stand":"5,00"
+            },
+            "desO": "mit Salat, Tomaten und Mais",
+            "desT": "",
+            "zusatz":"1,2,4,9,G",
+            "section": "PIZZABRÖTCHEN"
+        },                          
+        "66": {
+            "name": "Formfleischvorderschinken Baguette",
+            "price": {
+                "stand":"5,00"
+            },
+            "desO": "mit Salat, Tomaten und Mais",
+            "desT": "",
+            "zusatz":"3,4,5,G",
+            "section": "PIZZABRÖTCHEN"
+        },                          
+        "67": {
+            "name": "Hähnchen Baguette",
+            "price": {
+                "stand":"5,90"
+            },
+            "desO": "mit Salat, Tomaten und Mais",
+            "desT": "",
+            "zusatz":"G",
+            "section": "PIZZABRÖTCHEN"
+        },                          
+        "68": {
+            "name": "Mozzarella Baguette",
+            "price": {
+                "stand":"5,90"
+            },
+            "desO": "mit Salat, Tomaten und Mais",
+            "desT": "",
+            "zusatz":"1,4,G",
+            "section": "PIZZABRÖTCHEN"
+        }                       
     },
     "extra": {
         "160gbeefpatty": {
