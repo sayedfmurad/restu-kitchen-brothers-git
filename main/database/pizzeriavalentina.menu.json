@@ -1893,7 +1893,319 @@
             },
             "zusatz":"G,A",
             "section": "PASTA"
+        },
+        "93": {
+            "name": "Kartoffelauflauf",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Broccoli, fr. Champignons, Sahnesauce, überbacken",
+            "desT": "",
+            "zusatz":"A",
+            "section": "Kartoffelgerichte"
+        },
+        "94": {
+            "name": "Kartoffelauflauf Della Casa",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Formfleischvorderschinken, Paprika, Bolognese",
+            "desT": "",
+            "zusatz":"3,4,5",
+            "section": "Kartoffelgerichte"
+        },
+        "95": {
+            "name": "Kartoffelauflauf Hollandaise",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Hähnchenbrust, Broccoli, Paprika, Käse, überbacken",
+            "desT": "",
+            "zusatz":"",
+            "section": "Kartoffelgerichte"
+        },
+        "96": {
+            "name": "Lachs-Kartoffelauflauf",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Lachs, Kartoffeln, Zwiebeln, Sahnesauce, Käse, überbacken",
+            "desT": "",
+            "zusatz":"A",
+            "section": "Kartoffelgerichte"
+        },
+        "97": {
+            "name": "Lachs-Kartoffelauflauf",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Lachs, Kartoffeln, Zwiebeln, Sahnesauce, Käse, überbacken",
+            "desT": "",
+            "zusatz":"A",
+            "section": "Kartoffelgerichte"
+        },
+        "98": {
+            "name": "Salat Verde",
+            "price": {
+                "stand":"4,90"
+            },
+            "desO": "mit grünen Salat, Zwiebeln",
+            "desT": "",
+            "zusatz":"A",
+            "section": "SALATE"
+        },
+        "99": {
+            "name": "Gemischter Salat",
+            "price": {
+                "stand":"5,90"
+            },
+            "desO": "mit Eisbergsalat, Rucola, Tomaten, Gurken, Mais, Weißkohl",
+            "desT": "",
+            "zusatz":"",
+            "section": "SALATE"
+        },
+        "100": {
+            "name": "Lachsfilet Salat",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit gemischten Salat, Hirtenkase & Lachsfilets",
+            "desT": "",
+            "zusatz":"B,F",
+            "section": "SALATE"
+        },
+        "101": {
+            "name": "Emiri Salat",
+            "price": {
+                "stand":"7,50"
+            },
+            "desO": "mit gemischten Salat, Oliven, Paprika, Käse, Ei",
+            "desT": "",
+            "zusatz":"1,3,E",
+            "section": "SALATE"
+        },
+        "102": {
+            "name": "Salat Tonno",
+            "price": {
+                "stand":"7,50"
+            },
+            "desO": "mit gemischten Salat, Thunfisch, Paprika, Mais",
+            "desT": "",
+            "zusatz":"A",
+            "section": "SALATE"
+        },
+        "103": {
+            "name": "Italia Salat",
+            "price": {
+                "stand":"7,50"
+            },
+            "desO": "mit gem. Salat, Paprika, Oliven, Zwiebeln, Artischocken",
+            "desT": "",
+            "zusatz":"1,2,3",
+            "section": "SALATE"
+        },
+        "104": {
+            "name": "Hawaii Salat",
+            "price": {
+                "stand":"6,90"
+            },
+            "desO": "mit gemischten Salat, Schinken, Ananas",
+            "desT": "",
+            "zusatz":"A",
+            "section": "SALATE"
+        },
+        "105": {
+            "name": "Pescator Salat",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit gem., Meeresfruchte, Krabben, Thunfisch",
+            "desT": "",
+            "zusatz":"1,2,F",
+            "section": "SALATE"
+        },
+        "106": {
+            "name": "Bella Salat",
+            "price": {
+                "stand":"7,90"
+            },
+            "desO": "mit gem. Salat, Thunfisch, Krabben, Ananas, Schinken",
+            "desT": "",
+            "zusatz":"3,4,5,F",
+            "section": "SALATE"
+        },
+        "107": {
+            "name": "Paesana Salat",
+            "price": {
+                "stand":"7,90"
+            },
+            "desO": "mit gem. Salat, Thunfisch, Paprika, Oliven, Zwiebeln",
+            "desT": "",
+            "zusatz":"A",
+            "section": "SALATE"
+        },
+        "108": {
+            "name": "Valentina Salat",
+            "price": {
+                "stand":"7,50"
+            },
+            "desO": "mit gem., Mais, Hirtenkase, Peperoni, Oliven, Paprika",
+            "desT": "",
+            "zusatz":"1,3,B",
+            "section": "SALATE"
+        },
+        "109": {
+            "name": "Kabara Salat",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "mit gem. Salat, Hähnchenbrust, Champignons, Paprika, Artischocken",
+            "desT": "",
+            "zusatz":"2",
+            "section": "SALATE"
+        },
+        "110": {
+            "name": "Roma Salat",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "mit gem, Salat, Hähnchenbrust, Champignons, Zwiebeln",
+            "desT": "",
+            "zusatz":"",
+            "section": "SALATE"
+        },
+        "117": {
+            "name": "Schnitzel Wiener Art",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Schnitzel"
+        },
+        "118": {
+            "name": "Schnitzel Jäger Art",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Schnitzel"
+        },
+        "119": {
+            "name": "Schnitzel Zigeuner Art",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Schnitzel"
+        },
+        "120": {
+            "name": "Schnitzel Zwiebel Art",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Schnitzel"
+        },
+        "121": {
+            "name": "Schnitzel Hawaii Art",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Schnitzel"
+        },
+        "122": {
+            "name": "Schnitzel Funghi Art",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Schnitzel"
+        },
+        "123": {
+            "name": "Beef Chili Cheese Fries",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "mit Rinderhackfleisch, Jalapenos, Cheddarkäse, überbacken",
+            "desT": "",
+            "zusatz":"1,3",
+            "section": "Chillicheesefries"
+        },
+        "124": {
+            "name": "Chicken Chili Cheese Fries",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "mit saftigen Hähnchenbrustfilet, Jalapenos, Cheddarkäse, überbacken",
+            "desT": "",
+            "zusatz":"1,3",
+            "section": "Chillicheesefries"
+        },
+        "125": {
+            "name": "Vegetarier Chili Cheese Fries",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "mit Paprika, Champignons, Broccoli, Jalapenos, Cheddarkäse, überbacken",
+            "desT": "",
+            "zusatz":"1,3",
+            "section": "Chillicheesefries"
+        },
+        "126": {
+            "name": "6 Chicken Nuggets",
+            "price": {
+                "stand":"5,90"
+            },
+            "desO": "mit Pommes und Süß-Sauersauce",
+            "desT": "",
+            "zusatz":"",
+            "section": "Kindermenü"
+        },
+        "127": {
+            "name": "13 Chicken Nuggets",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Pommes und Süß-Sauersauce",
+            "desT": "",
+            "zusatz":"",
+            "section": "Kindermenü"
+        },
+        "128": {
+            "name": "7 Chicken Wings",
+            "price": {
+                "stand":"7,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Kindermenü"
+        },
+        "129": {
+            "name": "7 Chicken Nuggets",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Pommes",
+            "desT": "",
+            "zusatz":"",
+            "section": "Kindermenü"
         }
+
+
     },
     "extra": {
         "160gbeefpatty": {
