@@ -885,7 +885,1015 @@
             "desT": "",
             "zusatz":"1,4,G",
             "section": "PIZZABRÖTCHEN"
-        }                       
+        },                       
+        "69": {
+            "name": "Sauce Vedura",
+            "price": {
+                "stand":"6,90"
+            },
+            "desO": "mit Champignons, Broccoli, Paprika, Sahne- oder Napolisauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "70": {
+            "name": "sauce Bolognese",
+            "price": {
+                "stand":"6,90"
+            },
+            "desO": "mit Rindergehacktes",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "71": {
+            "name": "Napolisauce",
+            "price": {
+                "stand":"5,90"
+            },
+            "desO": "mit Tomatensauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "72": {
+            "name": "Funghi",
+            "price": {
+                "stand":"6,50"
+            },
+            "desO": "mit Champignons, Sahnessauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "73": {
+            "name": "Sauce Carbonara",
+            "price": {
+                "stand":"7,00"
+            },
+            "desO": "mit Formfleischvorderschinken, Ei, Sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A,3,4,5",
+            "section": "PASTA"
+        },
+        "74": {
+            "name": "Frutti di Mare",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Meeresfrüchte, Napolisauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A,K,,1,2",
+            "section": "PASTA"
+        },
+        "75": {
+            "name": "Matriciana",
+            "price": {
+                "stand":"7,00"
+            },
+            "desO": "mit Formfleischvorderschinken, Zwiebeln, Napolisauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A,3,4,5",
+            "section": "PASTA"
+        },
+        "76": {
+            "name": "AL Gamberetti",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Krabben, Sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A,K",
+            "section": "PASTA"
+        },
+        "77": {
+            "name": "AL Tonno",
+            "price": {
+                "stand":"7,00"
+            },
+            "desO": "mit Thunfisch, Napolisahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"B,9,G,A,F",
+            "section": "PASTA"
+        },
+        "78": {
+            "name": "Borussia",
+            "price": {
+                "stand":"7,50"
+            },
+            "desO": "mit Champignons, Thunfisch, Spinat, Napolisauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A,F",
+            "section": "PASTA"
+        },
+        "79": {
+            "name": "Valentina",
+            "price": {
+                "stand":"6,90"
+            },
+            "desO": "mit Formfleischvorderschinken, Champignons, Napolisahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A,3,4,5",
+            "section": "PASTA"
+        },
+        "80": {
+            "name": "Rimini",
+            "price": {
+                "stand":"6,90"
+            },
+            "desO": "mit Champignons, formfleischvorderschinken, Sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A,3,4,5",
+            "section": "PASTA"
+        },
+        "81": {
+            "name": "Alla Panna",
+            "price": {
+                "stand":"6,50"
+            },
+            "desO": "mit Formfleischvorderschinken, Paprika, Broccoli, Sahne- oder Napolisauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A,3,4,5",
+            "section": "PASTA"
+        },
+        "82": {
+            "name": "Stella",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "mit Hähnchen, Champignons, Napolisahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "83": {
+            "name": "Broccoli",
+            "price": {
+                "stand":"6,50"
+            },
+            "desO": "mit Brokkoli, Knoblauch, sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "84": {
+            "name": "Salmone",
+            "price": {
+                "stand":"9,90"
+            },
+            "desO": "mit Lachsstück, Sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "85": {
+            "name": "Gorgonzola",
+            "price": {
+                "stand":"6,90"
+            },
+            "desO": "mit Gorgonzola-Käse, Sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "86": {
+            "name": "Curry",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "mit Hähnchenfleisch & Curry-Sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "87": {
+            "name": "Di Pollo",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "mit Hähnchenfleisch, Spinat, Sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "88": {
+            "name": "Hawaii",
+            "price": {
+                "stand":"7,50"
+            },
+            "desO": "mit Formfleischvorderschinken, Ananas, Sahnesauce, mit Käse überbacken",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "89": {
+            "name": "Paesana",
+            "price": {
+                "stand":"6,90"
+            },
+            "desO": "mit Paprika, Zwiebeln, Bolognese",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "90": {
+            "name": "Hähnchen-Broccoli",
+            "price": {
+                "stand":"8,90"
+            },
+            "desO": "mit Hähnchen, Broccoli, Sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "91": {
+            "name": "Alla Fiorentina",
+            "price": {
+                "stand":"7,50"
+            },
+            "desO": "mit Spinat, Gorgonzola, Sahnesauce",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        },
+        "92": {
+            "name": "Lasagne",
+            "price": {
+                "stand":"6,90"
+            },
+            "desO": "mit Fleischsauce, überbacken",
+            "desT": "",
+            "options": {
+                "Ihre Pasta": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "penne": {
+                            "price": "0,00"
+                        },
+                        "tortellini": {
+                            "price": "0,00"
+                        },
+                        "tagliatelle": {
+                            "price": "0,00"
+                        },
+                        "spaghetti": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihre Sauce": {
+                    "showprice": false,
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "sahnesauce": {
+                            "price": "0,00"
+                        },
+                        "napolisauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz":"G,A",
+            "section": "PASTA"
+        }
     },
     "extra": {
         "160gbeefpatty": {
@@ -961,11 +1969,10 @@
         },
         "kaseuberbacken": {
             "section": [
-                "spaghetti",
-                "PENNE NUDELN"
+                "PASTA"
             ],
             "stand": {
-                "price": "2,00",
+                "price": "1,00",
                 "name": "Käse Überbacken"
             }
         },
@@ -2509,9 +3516,13 @@
         "spaghetti": "Spaghetti",
         "linguine": "Linguine",
         "penne": "Penne",
+        "tortellini": "Tortellini",
+        "tagliatelle": "Tagliatelle",
         "cocktailsauce": "Cocktailsauce",
         "knoblauchsauce": "Knoblauchsauce",
         "knobandcocktail": "Knoblauchsauce und Cocktailsauce",
+        "sahnesauce": "Sahnesauce",
+        "napolisauce": "Napolisauce",
         "ohnesauce": "ohne Sauce",
         "pommes": "Pommes",
         "reis": "Reis",
