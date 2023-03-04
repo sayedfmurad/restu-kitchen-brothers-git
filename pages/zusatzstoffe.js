@@ -6,23 +6,27 @@ return(
 <MyNavbar/>
 <div className="container">
 <div style={{"backgroundColor":"#00000070;"}} className='row p-3 justify-content-center text-white'>
-1. Weizengluten
-2. Krebstiere
-4. Fisch /Erzeugnisse
-6. Sojabohnen /Erzeugnisse
-7. Milch
-8. Ei
-9. Schalenfrüchte
-10. Sellerie
-11. Sesamsamen
-12. Schwefeloxid
-13. Weichtier
-14. Weizen
-A. Farbstoff
-B. Konservierungsstoff
-C. Antioxidationsmittel
-E. Süßungsmittel
-G. Aspartan
+Deklarationspflichtige Zusatzstoffe
+A. Eier
+B. Milch
+C. Sellerie
+E. Senf
+F. Sojabohnen
+G. Weizen
+H. Roggen
+1. Farbstoff
+2. Antioxidationsmittel
+3. Geschmacksverstaerker
+4. Konservierungsmittel
+5. Phosphat
+6. Suessungsmittel
+7. Milcheiweiss
+8. Staerke
+9. Mayonaise
+10. Koffein
+11. Schinken, Formfleischvorderschinken
+12. Krebsimitat
+13. geschwaerzt
 </div>
 </div>
 </>

@@ -8,8 +8,14 @@ restus = {
       {
         "s3":"restu",
         "cloud":"EW42NP988OU7X"
+      },
+      "pizzeriavalentina":
+      {
+        "s3":"pizzeriavalentina",
+        "cloud":"EW42NP988OU7X"
       }
     }
+    
   }
 package = {    
   "name": "restu-kitchen-brothers",
