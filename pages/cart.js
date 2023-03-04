@@ -3,11 +3,67 @@ import React, { useState } from 'react';
 import MyNavbar from "../components/navbar/MyNavbar"
 import menu from "../public/database/menu.json"
 import langswitch from '../components/Utils/langswitch'
+import hash from "../components/Utils/object_hash"
+
 import Checkaddressselected from '../components/Cart/checkaddressselected'
 export default function Cart() {
     const MyLang = langswitch.langswitchs("cart");
+    var [pressed,setpressed] = useState(false);
+    var [spinnerbar,setspinnerbar] = useState("d-none");
     var rows = [];        
     var crows = [];
+    const startpay= ()=>{
+          const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
+          let t = document.getElementById("bar-outlined").checked ? "bar":"paypal"
+          setpressed(true);
+          setspinnerbar("")
+    
+          var parms = {}
+          var orders = langswitch.getJson("order")
+          var address = langswitch.getJson("address")
+          var seladd = langswitch.getValue("seladdress")
+          var time =  new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));           
+          parms["type"] = t;
+          parms["menu"] = menu["staticValue"]["menuurl"]
+          parms["address"] = address[seladd];
+          parms["orders"] = orders;
+          var MainOrderId = time.getTime() + JSON.stringify(parms);
+          MainOrderId = hash(MainOrderId);            
+          parms["MainId"]=MainOrderId;
+          parms["time"]="";
+          parms["createtime"]=time.getTime();
+          var MainOrder = langswitch.getJson("mainorder");
+          MainOrder[MainOrderId]=parms      
+          parms = JSON.stringify(parms);
+          window.localStorage.setItem("lastOrderId",MainOrderId);
+          let mheaders = new Headers();
+          mheaders.append('Origin','*');
+          fetch(urll, {
+            method: 'POST', // or 'PUT'
+            headers: mheaders,
+            body: parms
+          })
+          .then(data => { 
+            if(data.body)
+            {
+              if(data.status != 200)
+              throw new Error("Error");
+              
+              window.localStorage.setItem("mainorder",JSON.stringify(MainOrder));
+              if(t=="bar")
+              window.location.href=langswitch.RouteP("success");
+              else if(t=="paypal")
+              window.location.href=langswitch.RouteP("paypal");
+            }
+            else
+            throw new Error("error");
+          })
+          .catch((error) => {            
+            window.location.href=langswitch.RouteP("failure");
+            langswitch.ClearAllData();       
+            console.error('Error:', error);
+          })
+      }
     if(process.browser)
     {        
         var addre=langswitch.getJson("address");
@@ -19,8 +75,8 @@ export default function Cart() {
                 if(seladd != "")
                 {
                 var addobj = langswitch.getJson("address")
-                if(addobj.hasOwnProperty(seladd))                    
-                window.location.href = langswitch.RouteP("checkout");            
+                if(addobj.hasOwnProperty(seladd))  
+                    startpay()
                 else
                 alert(MyLang["Please Select an Address"])
                 }
@@ -114,12 +170,39 @@ export default function Cart() {
                 <span className=' text-muted'>{sum}&nbsp;&euro;                </span>                        
                 </li> 
             )
-            rows.push(<div className="d-flex justify-content-end mb-4">
-            <button onClick={CheckOutBtn} className="btn btn-success">Bezahlen</button></div>)
-
-            rows.unshift(<div className='row cosrow mb-2 p-1'>
+            rows.push(<div className='row cosrow mb-2 p-1'>
                 <Checkaddressselected/>
             </div>)
+
+            rows.push(<>
+            <div className='list-group'>                
+            <div className='list-group-item'>                
+            <div className="d-flex justify-content-start mb-4">                
+            Bezahlen mit:
+            </div>
+            <div className="d-flex justify-content-start mb-4">                
+                <input type="radio" class="btn-check" name="options-outlined" id="bar-outlined" autocomplete="off" checked/>
+                <label class="btn btn-outline-secondary" for="bar-outlined">Bar</label>
+                &nbsp;
+                <input type="radio" class="btn-check" name="options-outlined" id="paypal-outlined" autocomplete="off"/>
+                <label class="btn btn-outline-secondary" for="paypal-outlined">Paypal</label>
+            </div>            
+            </div>
+            </div>
+            <br/>
+            </>
+            )
+            rows.push(
+                <div className="d-flex justify-content-end mb-4">                
+                  <button onClick={CheckOutBtn} className="btn btn-success" disabled={pressed}>
+                    <span class={`spinner-border spinner-border-sm ${spinnerbar}`} role="status" aria-hidden="true"></span>
+                    <span class="sr-only">
+                        Bezahlen
+                    </span>
+                    </button>                 
+                 </div>
+            )
+
 
         }
         

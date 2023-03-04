@@ -70,7 +70,7 @@ ClearAllData = ()=>
 checkOpenCloseStore=()=>{
     if(process.browser)
     {
-      var TimeN = new Date();
+      var TimeN = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));
       const day = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][TimeN.getDay()]      
       for(var daydd in menu["staticValue"]["opendays"])
       if(day == daydd)

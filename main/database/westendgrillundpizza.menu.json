@@ -90,12 +90,13 @@
     "desO": "mit Salat und Soße",
     "desT": "",
     "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "20": {
@@ -107,12 +108,13 @@
     "desO": "mit Salat, Soße und Weichkäse",
     "desT": "",
     "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "21": {
@@ -123,12 +125,12 @@
     "desO": "gemischtes Drehspießfleisch mit Salat und Soße",
     "desT": "",
     "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[
+    "options":{"Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "22": {
@@ -139,12 +141,13 @@
     "desO": "mit Soße, Salat und Fetakäse",
     "desT": "",
     "zusatz":"A,G,C",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "23": {
@@ -156,12 +159,13 @@
     "desO": "mit Pommes und Soße",
     "desT": "",
     "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "24": {
@@ -173,12 +177,13 @@
     "desO": "mit Salat und Soße",
     "desT": "",
     "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "25": {
@@ -190,12 +195,13 @@
     "desO": "mit Salat, Soße und Weichkäse",
     "desT": "",
     "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "26": {
@@ -206,12 +212,13 @@
     "desO": "mit Salat und Soße",
     "desT": "",
     "zusatz":"A,G,C",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "27": {
@@ -258,12 +265,13 @@
     "desO": "mit Drehspieß ,Salat ,Zwiebeln und Soße",
     "desT": "",
     "zusatz":"A,G,C,1,2,4,5,8",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "29": {
@@ -274,12 +282,13 @@
     "desO": "mit Salat und Soße",
     "desT": "",
     "zusatz":"A,G,C",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "30": {
@@ -290,12 +299,13 @@
     "desO": "",
     "desT": "",
     "zusatz":"A,G,C",
-    "options":[
+    "options":{
+        "Sauce":
         {
             "showprice":false,
             "name":"Sauce",
             "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
-        }],
+        }},
     "section": "DREHSPIEß"
 },
 "35": {

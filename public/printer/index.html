@@ -40,21 +40,58 @@ function startListener(){
 	readFromSelectedPrinter();
 	}, 5000);
 }
+function findGetParameter(parameterName) {
+    var result = null,
+        tmp = [];
+    location.search
+        .substr(1)
+        .split("&")
+        .forEach(function (item) {
+          tmp = item.split("=");
+          if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+        });
+    return result;
+}
+function GetData()
+{
+	const id = findGetParameter("id");	
+	const menuurl = findGetParameter("menuurl");	
+	const time = findGetParameter("time");	
+	if(id === null || menuurl === null || time === null)
+	alert("einige Daten sind nicht verfugbar. id or menuurl or time Get Parameters");
+	var urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws/?id="+id+"&time="+time+"&menuurl="+menuurl;
+	let mheaders = new Headers();
+      mheaders.append('Origin','*');
+      fetch(urll, {
+        method: 'GET', 
+        headers: mheaders
+      })
+	  .then(response => response.json())
+  	  .then(data => console.log(data))
+      .catch((error) => {
+		alert("Fehler"+error)
+        console.error('Error:', error);
+      })
+}
 function checkBoolean()
 {
 	setTimeout(() => {
 		if(!canPrint)
 		{
-			addEleRes("CanPrint Not True")
+			addEleRes("CanPrint Not True");
 			window.location.href=window.location.href;
 		}
 		else
-		addEleRes("CanPrint Is True")
+		{
+			addEleRes("CanPrint Is True");
+			GetData();
+		}
 	}, 4000);
 }
 function setup()
 {
-	startListener();
+	GetData();
+	// startListener();
 	//Get the default device from the application as a first step. Discovery takes longer to complete.
 	BrowserPrint.getDefaultDevice("printer", function(device)
 			{

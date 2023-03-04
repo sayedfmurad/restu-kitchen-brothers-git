@@ -74,11 +74,6 @@ export default function checkout() {
   }
     return (
         <>
-        <Head>
-        <title>{langswitch["title"]}</title>
-        <link href="./mystyles/cart.css" rel="stylesheet" />
-        </Head>
-        <MyNavbar/>
         <div className="container mt-3 text-white">
         <div className={`row mb-2 justify-content-center ${disp2}`}>
           <div className='col-12 text-white'>
@@ -102,6 +97,8 @@ export default function checkout() {
         </button>
         </div>
         </div>
+
+
         </>
         );
 }
