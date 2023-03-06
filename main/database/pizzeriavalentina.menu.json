@@ -2203,8 +2203,157 @@
             "desT": "",
             "zusatz":"",
             "section": "Kindermenü"
+        },
+        "130": {
+            "name": "Pommes mit Ketchup oder Mayonnaise",
+            "price": {
+                "stand":"3,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Beilagen & Desserts"
+        },
+        "131": {
+            "name": "Twister mit Ketchup oder Mayonnaise",
+            "price": {
+                "stand":"3,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Beilagen & Desserts"
+        },
+        "132": {
+            "name": "Bratkartoffeln mit Zwiebeln",
+            "price": {
+                "stand":"4,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Beilagen & Desserts"
+        },
+        "133": {
+            "name": "Sinaci oder Brokkoli",
+            "price": {
+                "stand":"4,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "Beilagen & Desserts"
+        },
+        "134": {
+            "name": "Tiramisu",
+            "price": {
+                "stand":"5,00"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"3,5",
+            "section": "Beilagen & Desserts"
+        },
+        "135": {
+            "name": "Coca-Cola",
+            "price": {
+                "0.33L":"1,80"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"6,7,8",
+            "section": "GETRANKE"
+        },
+        "136": {
+            "name": "Fanta, Sprite",
+            "price": {
+                "1.00L":"2,20"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"6,7,8",
+            "section": "GETRANKE"
+        },
+        "137": {
+            "name": "Coca-Cola light",
+            "price": {
+                "1.00L":"2,20"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"6,7,8",
+            "section": "GETRANKE"
+        },
+        "138": {
+            "name": "Durstlöscher Multivitamin, orange oder Eistee Pfirsisch",
+            "price": {
+                "0.5L":"1,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "GETRANKE"
+        },
+        "139": {
+            "name": "Bitburger",
+            "price": {
+                "0.5L":"1,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "GETRANKE"
+        },
+        "140": {
+            "name": "Becks grün",
+            "price": {
+                "0.5L":"1,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "GETRANKE"
+        },
+        "141": {
+            "name": "Becks gold",
+            "price": {
+                "0.7L":"1,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "GETRANKE"
+        },
+        "142": {
+            "name": "Lambrusco",
+            "price": {
+                "0.75L":"7,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "GETRANKE"
+        },
+        "143": {
+            "name": "Rose",
+            "price": {
+                "0.75L":"7,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "GETRANKE"
+        },
+        "144": {
+            "name": "Wasser",
+            "price": {
+                "stand":"2,20"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz":"",
+            "section": "GETRANKE"
         }
-
 
     },
     "extra": {
