@@ -71,7 +71,6 @@ export default function Addaddress() {
             {
                 var hashs = hash(obj);
                 addr[hashs] = obj;
-                if(cursel == "")
                 window.localStorage.setItem("seladdress",hashs);
                 window.localStorage.setItem("address",JSON.stringify(addr));
             }                          
@@ -85,7 +84,7 @@ export default function Addaddress() {
         </Head>
         <MyNavbar/>
         <div className="container mt-4">
-            <form onSubmit={subb} action={langswitch.RouteP("selectadd")}>
+            <form onSubmit={subb} action={langswitch.RouteP("cart")}>
             <div className="row p-3 g-2">            
             <div class="form-group col-md-6 col-sm-12">
                 <label for="fname">{MyLang["First Name"]}</label>

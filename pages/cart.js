@@ -5,7 +5,6 @@ import menu from "../public/database/menu.json"
 import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
 
-import Checkaddressselected from '../components/Cart/checkaddressselected'
 export default function Cart() {
     const MyLang = langswitch.langswitchs("cart");
     var [pressed,setpressed] = useState(false);
@@ -170,9 +169,53 @@ export default function Cart() {
                 <span className=' text-muted'>{sum}&nbsp;&euro;                </span>                        
                 </li> 
             )
-            rows.push(<div className='row cosrow mb-2 p-1'>
-                <Checkaddressselected/>
-            </div>)
+            
+            var addresses = langswitch.getJson("address")
+            var seladd = langswitch.getValue("seladdress")
+            if(seladd in addresses)
+            {
+                rows.push(<>
+                    <div className='list-group'>                
+                    <div className='list-group-item'>                
+                    <div className="row mb-4">
+                        <div className='col-6'>
+                        <h6>Lieferaddresse :</h6>
+                        <p style={{"fontSize":"0.7rem"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
+                        {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
+                        {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
+                        {addresses[seladd]["phonen"]}
+                        </p>
+                        </div>
+                        <div className='col-6 align-items-center d-flex'>
+                            <button className='btn btn-primary'
+                            onClick={()=>{
+                                window.location.href =  langswitch.RouteP("addaddress")
+                            }}
+                            >eine andere Adresse auswählen</button>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <br/>
+                    </>
+                    )
+            }
+            else{
+                rows.push(<>
+                    <div className='list-group'>                
+                    <div className='list-group-item'>    
+                    <h6>Lieferaddresse :</h6>                    
+                    <p><button className='btn btn-primary'
+                            onClick={()=>{
+                                window.location.href =  langswitch.RouteP("addaddress")
+                            }}
+                            >eine Adresse auswählen</button></p>
+                    </div>  
+                    </div>
+                    <br/>
+                    </>
+                    )  
+            }
 
             rows.push(<>
             <div className='list-group'>                
@@ -181,10 +224,10 @@ export default function Cart() {
             Bezahlen mit:
             </div>
             <div className="d-flex justify-content-start mb-4">                
-                <input type="radio" class="btn-check" name="options-outlined" id="bar-outlined" autocomplete="off" checked/>
+                <input type="radio" class="btn-check" name="options-outlined" id="bar-outlined"  checked/>
                 <label class="btn btn-outline-secondary" for="bar-outlined">Bar</label>
                 &nbsp;
-                <input type="radio" class="btn-check" name="options-outlined" id="paypal-outlined" autocomplete="off"/>
+                <input type="radio" class="btn-check" name="options-outlined" id="paypal-outlined" />
                 <label class="btn btn-outline-secondary" for="paypal-outlined">Paypal</label>
             </div>            
             </div>
@@ -220,7 +263,7 @@ export default function Cart() {
         <ul className='list-group mb-3'>
         {crows}
         </ul>
-        {rows}
+        {rows}    
     </div>
     </>
     );
