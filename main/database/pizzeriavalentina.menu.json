@@ -2074,6 +2074,72 @@
             "zusatz":"",
             "section": "SALATE"
         },
+        "111": {
+            "name": "Hamburger",
+            "price": {
+                "einzeln":"8,90",
+                "menü":"9,90"
+            },
+            "desO": "180g mit Burgersauce, Ketchup, Tomaten, Gurken, Salat",
+            "desT": "",
+            "zusatz":"",
+            "section": "Americanbigburger"
+        },
+        "112": {
+            "name": "Cheeseburger",
+            "price": {
+                "einzeln":"8,90",
+                "menü":"9,90"
+            },
+            "desO": "180g mit Cheddarkäse, Ketchup, Burgersauce, Tomaten, Gurken, Salat",
+            "desT": "",
+            "zusatz":"",
+            "section": "Americanbigburger"
+        },
+        "113": {
+            "name": "Bacon Chili Cheeseburger",
+            "price": {
+                "einzeln":"9,90",
+                "menü":"10,90"
+            },
+            "desO": "180g mit Cheddarkäse, Bacon, Burgersauce, Jalapenos, Salat",
+            "desT": "",
+            "zusatz":"",
+            "section": "Americanbigburger"
+        },
+        "114": {
+            "name": "Acadran burger",
+            "price": {
+                "einzeln":"8,90",
+                "menü":"9,90"
+            },
+            "desO": "180g mit Burgersauce, Käse, Salat",
+            "desT": "",
+            "zusatz":"",
+            "section": "Americanbigburger"
+        },
+        "115": {
+            "name": "Spicy American",
+            "price": {
+                "einzeln":"8,90",
+                "menü":"9,90"
+            },
+            "desO": "180g mit Cheddarkäse, Röstzwiebeln, Salat",
+            "desT": "",
+            "zusatz":"",
+            "section": "Americanbigburger"
+        },
+        "116": {
+            "name": "Switzerland",
+            "price": {
+                "einzeln":"8,90",
+                "menü":"9,90"
+            },
+            "desO": "180g mit Cheddarkäse, gegrillte Zwiebeln, Champignons",
+            "desT": "",
+            "zusatz":"",
+            "section": "Americanbigburger"
+        },
         "117": {
             "name": "Schnitzel Wiener Art",
             "price": {
@@ -3880,7 +3946,7 @@
             },
             "PASTA": {
                 "section": "PASTA",
-                "des": "Alle Nudelgerichte werden mit einer Nudelsorte nach Wahl zubereitet, Alle Nudelgerichte werden mit 4 Paninis und Kräuterbutter serviert.",
+                "des": "",
                 "img": "SPAGHETTI"
             },
             "MEATLOVERS": {
@@ -3947,6 +4013,36 @@
             },
             "GETRANKE": {
                 "section": "GETRANKE",
+                "des": ""
+            },
+            "Kartoffelgerichte":
+            {
+                "section": "Kartoffelgerichte",
+                "des": ""
+            },
+            "Americanbigburger":
+            {
+                "section": "Americanbigburger",
+                "des": ""
+            },
+            "Schnitzel":
+            {
+                "section": "Schnitzel",
+                "des": ""
+            },
+            "Chillicheesefries":
+            {
+                "section": "Chillicheesefries",
+                "des": ""
+            },
+            "Kindermenü":
+            {
+                "section": "Kindermenü",
+                "des": ""
+            },
+            "Beilagen&Desserts":
+            {
+                "section": "Beilagen&Desserts",
                 "des": ""
             }
         }
