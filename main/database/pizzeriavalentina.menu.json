@@ -3936,7 +3936,8 @@
                 "price": 25,
                 "lieferkosten": 3
             }
-        ]
+        ],
+        "isZPL":"true"
     },
     "sections": {
         "mdesc": {
