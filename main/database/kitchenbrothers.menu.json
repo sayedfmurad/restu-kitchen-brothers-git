@@ -1506,31 +1506,31 @@
             "section": "GETRANKE"
         },
         "B1": {
-            "name": "Chili Cheeseburger",
-            "price": {
-                "stand": "8,40"
-            },
-            "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln und Chili-Mayonnaise",
-            "desT": "",
-            "zusatz": "1,7,A,B,E",
-            "section": "Burger"
-        },
-        "B2": {
             "name": "Cheeseburger",
             "price": {
                 "stand": "8,40"
             },
             "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Salat, Tomaten, Gurken, Ketchup und Burgersauce",
             "desT": "",
+            "zusatz": "1,7,A,B,E",
+            "section": "Burger"
+        },
+        "B2": {
+            "name": "Chili Cheeseburger",
+            "price": {
+                "stand": "8,40"
+            },
+            "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, jalapenos Chili Sauce",
+            "desT": "",
             "zusatz": "1,7,E",
             "section": "Burger"
         },
         "B3": {
-            "name": "Feuerwerk X-Treme Burger",
+            "name": "Bacon Barbecue Egg Burger",
             "price": {
                 "stand": "8,90"
             },
-            "desO": "mit 160g Beef Patty, frisch gegrillter Chilischote, Cheddar, Jalapeno, Tabasco, Habanero-Zwiebeln, Salat, Tomaten, Gurken und Chilisauce",
+            "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Bacon, BBQ Sauce, Ei",
             "desT": "",
             "zusatz": "1,7,E",
             "section": "Burger"
@@ -1540,17 +1540,17 @@
             "price": {
                 "stand": "8,40"
             },
-            "desO": "mit 160g Beef Patty, Jalapeno-Philadelphia-Cream, Cheddar, roten Zwiebeln, Salat, Tomaten und Gurken Wahl aus: mit 160g Beef Patty, extra, mit Ananas, mit Aubergine, gebraten, mit Bacon, knusprig gebacken, mit Champignons, gebraten und mehr.",
+            "desO": "mit 160g Beef Patty, Philadelphiacreme, Cheddar, Rote Zwiebeln, Salat, Tomate, Gurke",
             "desT": "",
             "zusatz": "1,7,E",
             "section": "Burger"
         },
         "B5": {
-            "name": "Bacon Barbecue Egg Burger",
+            "name": "Feuerwerk X-Treme Burger",
             "price": {
                 "stand": "8,40"
             },
-            "desO": "mit 160g Beef Patty, Cheddar, Spiegelei, Karamell-Zwiebeln, Bacon und Barbecuesauce",
+            "desO": "mit 160g Beef Patty, frisch gegrillter Chilischote, Cheddar, Jalapeno, rote Zwiebeln, Salat, Tomate, Gurke und Chilisauce",
             "desT": "",
             "zusatz": "1,7,A,B,E",
             "section": "Burger"
@@ -1570,7 +1570,7 @@
             "price": {
                 "stand": "8,90"
             },
-            "desO": "mit Hähnchenbrustfilet, Cheddar, Sweet-Chili-Creme, Salat, Tomaten und Gurken",
+            "desO": "mit Crispi, Cheddar,Chili-Sauce, Salat, Tomaten und Gurken",
             "desT": "",
             "zusatz": "1,7,A,B,E",
             "section": "Burger"
