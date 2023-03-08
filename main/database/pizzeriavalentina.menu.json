@@ -834,7 +834,7 @@
             "desO": "mit Salat, Tomaten, Gurken und Mais",
             "desT": "",
             "zusatz":"G",
-            "section": "PIZZABRÖTCHEN"
+            "section": "BAGUETTE"
         },                          
         "64": {
             "name": "Thunfisch Baguette",
@@ -844,7 +844,7 @@
             "desO": "mit Salat, Tomaten, Ei und Mais",
             "desT": "",
             "zusatz":"G,E,F",
-            "section": "PIZZABRÖTCHEN"
+            "section": "BAGUETTE"
         },                          
         "65": {
             "name": "Salami Baguette",
@@ -854,7 +854,7 @@
             "desO": "mit Salat, Tomaten und Mais",
             "desT": "",
             "zusatz":"1,2,4,9,G",
-            "section": "PIZZABRÖTCHEN"
+            "section": "BAGUETTE"
         },                          
         "66": {
             "name": "Formfleischvorderschinken Baguette",
@@ -864,7 +864,7 @@
             "desO": "mit Salat, Tomaten und Mais",
             "desT": "",
             "zusatz":"3,4,5,G",
-            "section": "PIZZABRÖTCHEN"
+            "section": "BAGUETTE"
         },                          
         "67": {
             "name": "Hähnchen Baguette",
@@ -874,7 +874,7 @@
             "desO": "mit Salat, Tomaten und Mais",
             "desT": "",
             "zusatz":"G",
-            "section": "PIZZABRÖTCHEN"
+            "section": "BAGUETTE"
         },                          
         "68": {
             "name": "Mozzarella Baguette",
@@ -884,7 +884,7 @@
             "desO": "mit Salat, Tomaten und Mais",
             "desT": "",
             "zusatz":"1,4,G",
-            "section": "PIZZABRÖTCHEN"
+            "section": "BAGUETTE"
         },                       
         "69": {
             "name": "Sauce Vedura",
@@ -2083,7 +2083,7 @@
             "desO": "180g mit Burgersauce, Ketchup, Tomaten, Gurken, Salat",
             "desT": "",
             "zusatz":"",
-            "section": "Americanbigburger"
+            "section": "American Big Burger"
         },
         "112": {
             "name": "Cheeseburger",
@@ -2094,7 +2094,7 @@
             "desO": "180g mit Cheddarkäse, Ketchup, Burgersauce, Tomaten, Gurken, Salat",
             "desT": "",
             "zusatz":"",
-            "section": "Americanbigburger"
+            "section": "American Big Burger"
         },
         "113": {
             "name": "Bacon Chili Cheeseburger",
@@ -2105,7 +2105,7 @@
             "desO": "180g mit Cheddarkäse, Bacon, Burgersauce, Jalapenos, Salat",
             "desT": "",
             "zusatz":"",
-            "section": "Americanbigburger"
+            "section": "American Big Burger"
         },
         "114": {
             "name": "Acadran burger",
@@ -2116,7 +2116,7 @@
             "desO": "180g mit Burgersauce, Käse, Salat",
             "desT": "",
             "zusatz":"",
-            "section": "Americanbigburger"
+            "section": "American Big Burger"
         },
         "115": {
             "name": "Spicy American",
@@ -2127,7 +2127,7 @@
             "desO": "180g mit Cheddarkäse, Röstzwiebeln, Salat",
             "desT": "",
             "zusatz":"",
-            "section": "Americanbigburger"
+            "section": "American Big Burger"
         },
         "116": {
             "name": "Switzerland",
@@ -2138,7 +2138,7 @@
             "desO": "180g mit Cheddarkäse, gegrillte Zwiebeln, Champignons",
             "desT": "",
             "zusatz":"",
-            "section": "Americanbigburger"
+            "section": "American Big Burger"
         },
         "117": {
             "name": "Schnitzel Wiener Art",
@@ -2208,7 +2208,7 @@
             "desO": "mit Rinderhackfleisch, Jalapenos, Cheddarkäse, überbacken",
             "desT": "",
             "zusatz":"1,3",
-            "section": "Chillicheesefries"
+            "section": "CHILLICHEESEFRIES"
         },
         "124": {
             "name": "Chicken Chili Cheese Fries",
@@ -2218,7 +2218,7 @@
             "desO": "mit saftigen Hähnchenbrustfilet, Jalapenos, Cheddarkäse, überbacken",
             "desT": "",
             "zusatz":"1,3",
-            "section": "Chillicheesefries"
+            "section": "CHILLICHEESEFRIES"
         },
         "125": {
             "name": "Vegetarier Chili Cheese Fries",
@@ -2228,7 +2228,7 @@
             "desO": "mit Paprika, Champignons, Broccoli, Jalapenos, Cheddarkäse, überbacken",
             "desT": "",
             "zusatz":"1,3",
-            "section": "Chillicheesefries"
+            "section": "CHILLICHEESEFRIES"
         },
         "126": {
             "name": "6 Chicken Nuggets",
@@ -2328,7 +2328,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"6,7,8",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         },
         "136": {
             "name": "Fanta, Sprite",
@@ -2338,7 +2338,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"6,7,8",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         },
         "137": {
             "name": "Coca-Cola light",
@@ -2348,7 +2348,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"6,7,8",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         },
         "138": {
             "name": "Durstlöscher Multivitamin, orange oder Eistee Pfirsisch",
@@ -2358,7 +2358,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         },
         "139": {
             "name": "Bitburger",
@@ -2368,7 +2368,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         },
         "140": {
             "name": "Becks grün",
@@ -2378,7 +2378,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         },
         "141": {
             "name": "Becks gold",
@@ -2388,7 +2388,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         },
         "142": {
             "name": "Lambrusco",
@@ -2398,7 +2398,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         },
         "143": {
             "name": "Rose",
@@ -2408,7 +2408,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         },
         "144": {
             "name": "Wasser",
@@ -2418,7 +2418,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "GETRANKE"
+            "section": "GETRÄNKE"
         }
 
     },
@@ -4011,39 +4011,45 @@
                 "section": "Frenchtacos",
                 "des": "Frisch gegrillter Weizentortilla gefüllt mit"
             },
-            "GETRANKE": {
-                "section": "GETRANKE",
+            "GETRÄNKE": {
+                "section": "GETRÄNKE",
                 "des": ""
             },
             "Kartoffelgerichte":
             {
                 "section": "Kartoffelgerichte",
-                "des": ""
+                "des": "",
+                "img":"KARTOFFELGERICHTE"
             },
-            "Americanbigburger":
+            "American Big Burger":
             {
-                "section": "Americanbigburger",
-                "des": ""
+                "section": "American Big Burger",
+                "des": "",
+                "img": "BURGER"
             },
             "Schnitzel":
             {
                 "section": "Schnitzel",
-                "des": ""
+                "des": "",
+                "img": "SCHNITZEL"
             },
-            "Chillicheesefries":
+            "CHILLICHEESEFRIES":
             {
-                "section": "Chillicheesefries",
-                "des": ""
+                "section": "CHILLICHEESEFRIES",
+                "des": "",
+                "img": "pommesfrites"
             },
             "Kindermenü":
             {
                 "section": "Kindermenü",
-                "des": ""
+                "des": "",
+                "img": "SCHNITZEL"
             },
-            "Beilagen&Desserts":
+            "Beilagen & Desserts":
             {
-                "section": "Beilagen&Desserts",
-                "des": ""
+                "section": "Beilagen & Desserts",
+                "des": "",
+                "img":"DESSERTS"
             }
         }
     },

@@ -14,14 +14,14 @@ export default ()=>
     var fontsize = sections[key]
     fontsize = fontsize.length>=16?"0.8rem":"1rem"
     var imgg = sections[key].toUpperCase().replace(" ","_");
+    imgg = imgg.replace(" ","_");
     imgg = imgg.replace("Ö","O")
     imgg = imgg.replace("Ä","A")
     imgg = imgg.replace("Ü","U")
-
-    if(imgg in menu["sections"]["mdesc"])
-    if("img" in menu["sections"]["mdesc"][imgg])
-    imgg = menu["sections"]["mdesc"][sections[key].toUpperCase()]["img"].toUpperCase()
-    
+    if(sections[key] in menu["sections"]["mdesc"])
+    if("img" in menu["sections"]["mdesc"][sections[key]])
+    imgg = menu["sections"]["mdesc"][sections[key]]["img"].toUpperCase()
+    console.log(imgg,sections[key])
     rows.push(
       <div className='col-lg-3 col-md-4 col-sm-6 col-xs-6' id={sections[key]}>
         <a class="a-item a-item-2" style={{"backgroundImage":`url(Images/${imgg}.jpeg)`}}  href={langswitch.RouteP("sectionmenu?section="+sections[key])}>

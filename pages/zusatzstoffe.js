@@ -7,26 +7,28 @@ return(
 <div className="container">
 <div style={{"backgroundColor":"#00000070;"}} className='row p-3 justify-content-center text-white'>
 Deklarationspflichtige Zusatzstoffe
-A. Eier
-B. Milch
-C. Sellerie
-E. Senf
-F. Sojabohnen
-G. Weizen
-H. Roggen
-1. Farbstoff
-2. Antioxidationsmittel
-3. Geschmacksverstaerker
-4. Konservierungsmittel
-5. Phosphat
-6. Suessungsmittel
-7. Milcheiweiss
-8. Staerke
-9. Mayonaise
-10. Koffein
-11. Schinken, Formfleischvorderschinken
-12. Krebsimitat
-13. geschwaerzt
+1.mit Farbstoff
+2.mit Konservierungsstoff
+3.mit Antioxidationsmitel
+4.mit Geschmacksverstärker 
+5.mit Phosphat
+6.mit Milcheiweiß 
+7.mit Geschwärzt 
+8.mit Süßungsmitel 
+9.mit Stärke
+10.Koffein
+11.mit Nitritpökelsalz
+Deklarationspflichtige Allergene
+A.Glutenhaltiges Getriede (Weizen) 
+B.Krebstiere, C. Eier, D. Fische
+E.Erdnüsse, F. Soja
+G.Milch (Einschließlich Laktose)
+H.Schalenfrüchte (Nüsse)
+I.Sellerie, J. Senf, K. Sesamsamen 
+L.Schwefeldioxid, M. Lupinen
+N.Weichtiere X. Pistazien
+Y.Walnuss Z. Cocos
+W.Grieß O. Kakao
 </div>
 </div>
 </>

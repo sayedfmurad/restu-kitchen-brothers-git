@@ -537,7 +537,7 @@
                     }
                 }
             },
-            "section": "Pasta"
+            "section": "PASTA"
         },
         "P2": {
             "name": "Pasta Carbonara",
@@ -564,7 +564,7 @@
                     }
                 }
             },
-            "section": "Pasta"
+            "section": "PASTA"
         },
         "P3": {
             "name": "Pasta Chickasta",
@@ -591,7 +591,7 @@
                     }
                 }
             },
-            "section": "Pasta"
+            "section": "PASTA"
         },
         "P4": {
             "name": "Pasta Mumbai",
@@ -618,7 +618,7 @@
                     }
                 }
             },
-            "section": "Pasta"
+            "section": "PASTA"
         },
         "P5": {
             "name": "Pasta Verdura",
@@ -645,7 +645,7 @@
                     }
                 }
             },
-            "section": "Pasta"
+            "section": "PASTA"
         },
         "P6": {
             "name": "Pasta Scampi",
@@ -672,7 +672,7 @@
                     }
                 }
             },
-            "section": "Pasta"
+            "section": "PASTA"
         },
         "P7": {
             "name": "Pasta Napoli",
@@ -699,7 +699,7 @@
                     }
                 }
             },
-            "section": "Pasta"
+            "section": "PASTA"
         },
         "P8": {
             "name": "Pasta Fruttie De Mare",
@@ -726,7 +726,7 @@
                     }
                 }
             },
-            "section": "Pasta"
+            "section": "PASTA"
         },
         "S1": {
             "name": "Mista Salad",
@@ -1006,7 +1006,7 @@
             "desO": "Hähnchenbrust, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T2": {
             "name": "Beef",
@@ -1016,7 +1016,7 @@
             "desO": "Rindhackfleisch, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T3": {
             "name": "Merguez",
@@ -1026,7 +1026,7 @@
             "desO": "Merguezwurst, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T4": {
             "name": "Veggie",
@@ -1036,7 +1036,7 @@
             "desO": "Veggiepatty, Fetta, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T5": {
             "name": "Tuna",
@@ -1046,7 +1046,7 @@
             "desO": "Thunfisch, Mais, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,4,7,E",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T6": {
             "name": "Falafel Veggie",
@@ -1056,7 +1056,7 @@
             "desO": "Falafel, Pommes, Gouda, Spezialsauce",
             "desT": "",
             "zusatz": "1,4,7,E",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T7": {
             "name": "French Taco The El Patron",
@@ -1066,7 +1066,7 @@
             "desO": "Rindhackfleisch, gebr, Zwiebeln, Tomaten, Jalapenos, Hotcreme, Pommes, Gouda",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T8": {
             "name": "French Taco Nuggets",
@@ -1076,7 +1076,7 @@
             "desO": "Nuggets, Pommes, Gouda, BBQ",
             "desT": "",
             "zusatz": "1,7,E",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T9": {
             "name": "French Taco Chilli Cheese",
@@ -1086,7 +1086,7 @@
             "desO": "Rindhackfleisch, Jalapenos, Pommes, Gouda",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T10": {
             "name": "French Taco Lyon",
@@ -1096,7 +1096,7 @@
             "desO": "Hähnchenbrust, Salatmischung, Avocado-Creme, Gouda, Pommes",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T11": {
             "name": "French Taco Kitchen Brothers XXL",
@@ -1106,7 +1106,7 @@
             "desO": "Rindhackfleisch, Salatmischung, Avocado-Creme, Gouda, Pommes",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T12": {
             "name": "French Taco Vegetables",
@@ -1116,7 +1116,7 @@
             "desO": "gebratene Gemüse, Gouda, Pommes, Pesto-Creme",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "T13": {
             "name": "French Taco Lavin",
@@ -1126,7 +1126,7 @@
             "desO": "gebr. Gemüse, Rindhackfleisch, Gouda, Pommes, Spezialsauce",
             "desT": "",
             "zusatz": "",
-            "section": "Frenchtacos"
+            "section": "FRENCHTACOS"
         },
         "R1": {
             "name": "Normal",
@@ -5193,10 +5193,6 @@
             "GRILLGERICHTE": {
                 "section": "GRILLGERICHTE",
                 "des": "Alle Gerichte mit Pommes od. Reis und Salat als Beilage"
-            },
-            "Frenchtacos": {
-                "section": "Frenchtacos",
-                "des": "Frisch gegrillter Weizentortilla gefüllt mit"
             },
             "GETRANKE": {
                 "section": "GETRANKE",
