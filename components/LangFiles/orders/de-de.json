@@ -3,5 +3,16 @@
     "amount":"Betrag",
     "ordertime":"Lieferzeit",
     "no orders":"Es gibt keine Bestellung",
-    "delivery cost":"Lieferung Kosten"
+    "delivery cost":"Lieferung Kosten",
+    "cart is empty":"Warenkorb ist leer",
+    "total including var":"Gesamt inkl. MwSt",
+    "go to checkout":"Zum Checkout gehen",
+    "remove all":"Alles entfernen",
+    "remove":"Entfernen",
+    "count":"Menge",
+    "menu":"Menu",
+    "edit":"Bearbeiten",
+    "min is price":"Der Mindestbestellwert ist ",
+    "Please Select an Address":"Bitte wählen Sie eine Adresse aus"
+
 }

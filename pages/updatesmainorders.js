@@ -8,6 +8,14 @@ export default function Cart() {
     var [msg,setmsg]=useState(MyLang["loading"]);
     if(process.browser){
       var orders = langswitch.getJson("mainorder");
+      for(var dd in orders)
+      {
+        var dmd = new Date(orders[dd]['createtime'])
+        var ndmd =  new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }))        
+        if(dmd.getDay()!=ndmd.getDay())
+        delete orders[dd]
+      }
+      window.localStorage.setItem("mainorder",JSON.stringify(orders))
         const urll="https://l5dtipmn6wzalxyealcujiiu5q0nverf.lambda-url.eu-central-1.on.aws/"
         let mheaders = new Headers();
         mheaders.append('Origin','*');
@@ -24,7 +32,7 @@ export default function Cart() {
           else if(response.status==200)
           {
             response.json().then(result => {
-              localStorage.setItem("mainorder",JSON.stringify(result) )
+              // localStorage.setItem("mainorder",JSON.stringify(result) )
               window.location.href=langswitch.RouteP("orders")
             })
             .catch(error => {
