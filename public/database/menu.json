@@ -666,7 +666,7 @@
             "options": {
                 "Ihre Pasta": {
                     "showprice": false,
-                    "name": "Wahl aus",
+                    "name": "Ihre Pasta",
                     "options": {
                         "Kräuterbutter": {
                             "price": "0,00"
@@ -690,7 +690,7 @@
             "options": {
                 "Ihre Pasta": {
                     "showprice": false,
-                    "name": "Wahl aus",
+                    "name": "Ihre Pasta",
                     "options": {
                         "Kräuterbutter": {
                             "price": "0,00"
@@ -714,7 +714,7 @@
             "options": {
                 "Ihre Pasta": {
                     "showprice": false,
-                    "name": "Wahl aus",
+                    "name": "Ihre Pasta",
                     "options": {
                         "Kräuterbutter": {
                             "price": "0,00"
@@ -738,7 +738,7 @@
             "options": {
                 "Ihre Pasta": {
                     "showprice": false,
-                    "name": "Wahl aus",
+                    "name": "Ihre Pasta",
                     "options": {
                         "Kräuterbutter": {
                             "price": "0,00"
@@ -762,7 +762,7 @@
             "options": {
                 "Ihre Pasta": {
                     "showprice": false,
-                    "name": "Wahl aus",
+                    "name": "Ihre Pasta",
                     "options": {
                         "Kräuterbutter": {
                             "price": "0,00"
@@ -786,7 +786,7 @@
             "options": {
                 "Ihre Pasta": {
                     "showprice": false,
-                    "name": "Wahl aus",
+                    "name": "Ihre Pasta",
                     "options": {
                         "Kräuterbutter": {
                             "price": "0,00"
@@ -810,7 +810,7 @@
             "options": {
                 "Ihre Pasta": {
                     "showprice": false,
-                    "name": "Wahl aus",
+                    "name": "Ihre Pasta",
                     "options": {
                         "Kräuterbutter": {
                             "price": "0,00"
@@ -894,7 +894,7 @@
             "desO": "mit Champignons, Broccoli, Paprika, Sahne- oder Napolisauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -936,7 +936,7 @@
             "desO": "mit Rindergehacktes",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -978,7 +978,7 @@
             "desO": "mit Tomatensauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1020,7 +1020,7 @@
             "desO": "mit Champignons, Sahnessauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1062,7 +1062,7 @@
             "desO": "mit Formfleischvorderschinken, Ei, Sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1104,7 +1104,7 @@
             "desO": "mit Meeresfrüchte, Napolisauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1146,7 +1146,7 @@
             "desO": "mit Formfleischvorderschinken, Zwiebeln, Napolisauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1188,7 +1188,7 @@
             "desO": "mit Krabben, Sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1230,7 +1230,7 @@
             "desO": "mit Thunfisch, Napolisahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1272,7 +1272,7 @@
             "desO": "mit Champignons, Thunfisch, Spinat, Napolisauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1314,7 +1314,7 @@
             "desO": "mit Formfleischvorderschinken, Champignons, Napolisahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1356,7 +1356,7 @@
             "desO": "mit Champignons, formfleischvorderschinken, Sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1398,7 +1398,7 @@
             "desO": "mit Formfleischvorderschinken, Paprika, Broccoli, Sahne- oder Napolisauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1440,7 +1440,7 @@
             "desO": "mit Hähnchen, Champignons, Napolisahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1482,7 +1482,7 @@
             "desO": "mit Brokkoli, Knoblauch, sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1524,7 +1524,7 @@
             "desO": "mit Lachsstück, Sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1566,7 +1566,7 @@
             "desO": "mit Gorgonzola-Käse, Sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1608,7 +1608,7 @@
             "desO": "mit Hähnchenfleisch & Curry-Sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1650,7 +1650,7 @@
             "desO": "mit Hähnchenfleisch, Spinat, Sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1692,7 +1692,7 @@
             "desO": "mit Formfleischvorderschinken, Ananas, Sahnesauce, mit Käse überbacken",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1734,7 +1734,7 @@
             "desO": "mit Paprika, Zwiebeln, Bolognese",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1776,7 +1776,7 @@
             "desO": "mit Hähnchen, Broccoli, Sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1818,7 +1818,7 @@
             "desO": "mit Spinat, Gorgonzola, Sahnesauce",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
@@ -1860,7 +1860,7 @@
             "desO": "mit Fleischsauce, überbacken",
             "desT": "",
             "options": {
-                "Ihre Pasta": {
+                "Ihre Nudelsorte": {
                     "showprice": false,
                     "name": "Ihre Nudelsorte",
                     "options": {
