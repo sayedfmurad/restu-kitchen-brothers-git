@@ -206,7 +206,7 @@ Selected Device: <select id="selected_device" onchange=onDeviceSelected(this);><
 <input type="button" value="Send ZPL Label" onclick="writeToSelectedPrinter('^XA^FO200,200^A0N36,36^FDTest Label^FS^XZ')"><br/><br/>
 <input type="button" value="Get Status" onclick="writeToSelectedPrinter('~hs'); readFromSelectedPrinter()"><br/><br/>
 <input type="button" value="Get Local Devices" onclick="BrowserPrint.getLocalDevices(getDeviceCallback, errorCallback);"><br/><br/>
-<input type="text" name="write_text" id="write_text"><input type="button" value="Write" onclick="writeToSelectedPrinter(document.getElementById('write_text').value)"><br/><br/>
+<input type="text" name="write_text" id="write_text" value="1234datatosend1234"><input type="button" value="Write" onclick="writeToSelectedPrinter(document.getElementById('write_text').value)" ><br/><br/>
 <input type="button" value="Read" onclick="readFromSelectedPrinter()"><br/><br/>
 <input type="button" value="Send BMP" onclick="sendImage('Zebra_logobox.bmp');"><br/><br/>
 <input type="button" value="Send JPG" onclick="sendImage('ZebraGray.jpg');"><br/><br/>

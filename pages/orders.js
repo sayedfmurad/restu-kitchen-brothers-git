@@ -5,34 +5,106 @@ import menu from "../public/database/menu.json"
 import langswitch from '../components/Utils/langswitch'
 export default function Cart() {
     const MyLang = langswitch.langswitchs("orders");
-    var rows = [];  
+  
+    var mrows = [];
     if(process.browser){
         var orders = langswitch.getJson("mainorder");
-        for (var ord in orders)
-        {
-          console.log(ord)
-        }
-        
+        for(var lll in orders)        
+        {        
+        var or=orders[lll]
+        var rows = [];        
+        var crows = [];
+        var sum = 0
+        crows.push(
+            <li className="list-group-item d-flex justify-content-between lh-light">
+            <div className="row mb-4">
+                        <div className='col-12'><h6 className=''>Bestätigte Zeit:</h6></div>
+                        <div className={`col-12 ${or["time"]==""?"text-warning":"text-success"}`} style={{"fontSize":"0.7rem"}}>{or["time"]==""?"Ihre bestellung wurde entgegengenommen, wir melden uns in kürze":or["time"]}</div>
+                        </div>
+            </li>
+        )
+        for(var ke in or["orders"]  )
+        { 
+                        sum = parseFloat(sum) + parseFloat(langswitch.stof(or["orders"][ke]["price"])) 
+                        var countI = <div className="mt-1 mb-1 col-4">{MyLang["count"]+": "+or["orders"][ke]["count"]}</div>;
+                        var typee = or["orders"][ke]["type"] == "stand"?"":"("+or["orders"][ke]["type"]+") "
+                        var descriptionO = menu["product"][or["orders"][ke]["id"]]["desO"] !=undefined?menu["product"][or["orders"][ke]["id"]]["desO"]:"";                        
+                        var extras = ""
+                        for(var j in or["orders"][ke]["extra"])
+                        extras +=  langswitch.firstUpper(or["orders"][ke]["extra"][j][or["orders"][ke]["type"]]["name"])+" "
 
-        if(rows.length==0)
-        {
-            rows = [];              
-            rows.push(
-                <div className='row cosrow mb-2 p-2'>
-                    <h3>{MyLang["no orders"]}</h3>
-                </div>
+                        var option = []
+                        for(var oobo in or["orders"][ke]["option"])                        
+                        option.push(<>{langswitch.firstUpper(oobo)+" : "+langswitch.firstUpper(menu["options"][or["orders"][ke]["option"][oobo]] )}<br/></>)
+                        crows.push(
+                        <li className="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 className=''>{menu["product"][or["orders"][ke]["id"]]["name"]}&nbsp;({menu["product"][or["orders"][ke]["id"]]["section"]})&nbsp;{typee}</h6>
+                                <small className='text-muted'>
+                                {descriptionO==""?"":<>{descriptionO}<br/></>}
+                                {countI}                         
+                                {extras==""?"":<>{extras}<br/></>}
+                                {option}
+                                {or["orders"][ke]["msg"]==""?"":<>{or["orders"][ke]["msg"]}<br/></>}
+                                </small>
+                            </div>
+                                <span className=' text-muted'>
+                                {or["orders"][ke]["price"]}&nbsp;&euro;
+                                </span>
+                        </li>
+                        )                          
+        } 
+
+                sum+= or["address"]['kosten'];
+                crows.push(
+                    <>
+                    <li className="list-group-item d-flex justify-content-between lh-light">
+                        <div className=''><h6 className=''>{MyLang['delivery cost']}</h6></div>
+                        <span className=' text-muted'>{or["address"]['kosten']}&nbsp;&euro;                </span>                        
+                        </li>
+                          <li className="list-group-item d-flex justify-content-between lh-light">
+                         <div className="row mb-4">
+                         <div className='col-12'>
+                         <h6>Lieferaddresse :</h6>
+                         </div>
+                         <div className='col-12'>
+                         <p style={{"fontSize":"0.7rem"}}>{or["address"]["fname"]}&nbsp;{or["address"]["lname"]}<br/>
+                         {or["address"]["street"]}&nbsp;{or["address"]["housenumber"]}<br/>
+                         {or["address"]["city"]}&nbsp;{or["address"]["zipc"]}<br/>
+                         {or["address"]["phonen"]}
+                         </p>
+                         </div>
+                         </div>
+                         </li>
+                         </>
+                        )
+               
+            sum = langswitch.ftos(sum)                     
+            crows.push(
+                <li className="list-group-item d-flex justify-content-between lh-light">
+                <div className=''><h6 className=''>{MyLang["total including var"]}</h6></div>
+                <span className=' text-muted'>{sum}&nbsp;&euro;                </span>                        
+                </li> 
+            )
+
+           
+            mrows.push(
+                <ul className='list-group mb-3'>
+                {crows}
+                </ul>
             )
         }
-    }
-    return (
+        }
+            return (
     <>
     <Head>
     <title>{MyLang["title"]}</title>
     <link href="./mystyles/cart.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
-    <div className="container mt-3 text-white">
-        {rows}
+    <div className="container mt-3 ">
+        {mrows}
+        {rows}    
     </div>
     </>
     );

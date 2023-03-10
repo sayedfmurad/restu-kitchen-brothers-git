@@ -3892,7 +3892,7 @@
             },
             "friday": {
                 "opentime": {
-                    "hour": 16,
+                    "hour": 1,
                     "min": 0
                 },
                 "closetime": {
