@@ -9,10 +9,13 @@ export default function Cart() {
     var mrows = [];
     if(process.browser){
         var orders = langswitch.getJson("mainorder");
+        setTimeout(function(){
+            window.location.href=langswitch.RouteP("updatesmainorders");
+         }, 20000);
+
         for(var lll in orders)        
         {        
-        var or=orders[lll]
-        var rows = [];        
+        var or=orders[lll]   
         var crows = [];
         var sum = 0
         crows.push(
@@ -95,6 +98,15 @@ export default function Cart() {
             )
         }
         }
+
+        if(mrows.length == 0)
+        mrows.push(
+            <ul className='list-group mb-3'>
+            <li className="list-group-item d-flex justify-content-between lh-light">
+                <h6>Es gibt keine Bestellungen</h6>
+            </li>
+            </ul>
+        )
             return (
     <>
     <Head>
@@ -103,8 +115,7 @@ export default function Cart() {
     </Head>
     <MyNavbar/>
     <div className="container mt-3 ">
-        {mrows}
-        {rows}    
+        {mrows} 
     </div>
     </>
     );
