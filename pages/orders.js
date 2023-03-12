@@ -22,7 +22,7 @@ export default function Cart() {
             <li className="list-group-item d-flex justify-content-between lh-light">
             <div className="row mb-4">
                         <div className='col-12'><h6 className=''>Bestätigte Zeit:</h6></div>
-                        <div className={`col-12 ${or["time"]==""?"text-warning":"text-success"}`} style={{"fontSize":"0.7rem"}}>{or["time"]==""?"Ihre bestellung wurde entgegengenommen, wir melden uns in kürze":or["time"]}</div>
+                        <div className={`col-12 ${or["time"]==""?"text-warning":"text-success"}`} style={{"fontSize":"0.85rem"}}>{or["time"]==""?"Ihre bestellung wurde entgegengenommen, wir melden uns in kürze":or["time"]}</div>
                         </div>
             </li>
         )
