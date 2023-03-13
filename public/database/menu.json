@@ -3882,7 +3882,7 @@
             },
             "thursday": {
                 "opentime": {
-                    "hour": 1,
+                    "hour": 16,
                     "min": 0
                 },
                 "closetime": {
@@ -3915,26 +3915,18 @@
             {
                 "distance": {
                     "min": 0,
-                    "max": 4.1
+                    "max": 5
                 },
-                "price": 10,
+                "price": 12,
                 "lieferkosten": 1
             },
             {
                 "distance": {
-                    "min": 4,
+                    "min": 5,
                     "max": 7.1
                 },
-                "price": 20,
+                "price": 15,
                 "lieferkosten": 2
-            },
-            {
-                "distance": {
-                    "min": 7,
-                    "max": 10
-                },
-                "price": 25,
-                "lieferkosten": 3
             }
         ],
         "isZPL":"true"
