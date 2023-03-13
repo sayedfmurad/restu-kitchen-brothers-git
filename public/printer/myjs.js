@@ -60,7 +60,7 @@ function checkBoolean()
 		else
 		{
 			addEleRes("CanPrint Is True");
-			document.getElementById("write_text").click()
+			writeToSelectedPrinter(document.getElementById('write_text').value);
 		}
 	}, 4000);
 }
