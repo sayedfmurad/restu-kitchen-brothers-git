@@ -3850,7 +3850,7 @@
                     "min": 45
                 }
             },
-            "mondayy": {
+            "monday": {
                 "opentime": {
                     "hour": 11,
                     "min": 0
@@ -3915,7 +3915,7 @@
             {
                 "distance": {
                     "min": 0,
-                    "max": 5
+                    "max": 4.9
                 },
                 "price": 12,
                 "lieferkosten": 1
