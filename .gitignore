@@ -40,3 +40,8 @@ pages/aboutus.js
 .gitignore
 public/database/menu.json
 public/html/policyprivacyweb.html
+package.json
+.gitignore
+pages/zusatzstoffe.js
+public/database/menu.json
+public/html/policyprivacyweb.html

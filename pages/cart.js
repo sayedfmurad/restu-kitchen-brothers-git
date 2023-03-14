@@ -13,7 +13,17 @@ export default function Cart() {
     var crows = [];
     const startpay= ()=>{
           const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
-          let t = document.getElementById("bar-outlined").checked ? "bar":"paypal"
+          let t = false;
+          if(document.getElementById("bar-outlined").checked)
+          t="bar";
+          else if(document.getElementById("paypal-outlined").checked)
+          t="paypal";
+          else 
+          {
+            alert("bitte wählen Sie eine Zahlungsmethode, Bar oder Paypal");
+            return false;
+          }
+          
           setpressed(true);
           setspinnerbar("")
     
@@ -191,7 +201,7 @@ export default function Cart() {
                             onClick={()=>{
                                 window.location.href =  langswitch.RouteP("addaddress")
                             }}
-                            >eine andere Adresse auswählen</button>
+                            >ändern</button>
                         </div>
                     </div>
                     </div>
@@ -209,7 +219,7 @@ export default function Cart() {
                             onClick={()=>{
                                 window.location.href =  langswitch.RouteP("addaddress")
                             }}
-                            >eine Adresse auswählen</button></p>
+                            >eine Adresse auswänderen</button></p>
                     </div>  
                     </div>
                     <br/>
@@ -224,7 +234,7 @@ export default function Cart() {
             Bezahlen mit:
             </div>
             <div className="d-flex justify-content-start mb-4">                
-                <input type="radio" class="btn-check" name="options-outlined" id="bar-outlined"  checked/>
+                <input type="radio" class="btn-check" name="options-outlined" id="bar-outlined"  />
                 <label class="btn btn-outline-secondary" for="bar-outlined">Bar</label>
                 &nbsp;
                 <input type="radio" class="btn-check" name="options-outlined" id="paypal-outlined" />
