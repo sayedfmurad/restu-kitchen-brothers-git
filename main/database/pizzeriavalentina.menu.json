@@ -2145,6 +2145,20 @@
             "price": {
                 "stand":"8,90"
             },
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "pommes": {
+                            "price": "0,00"
+                        },
+                        "twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
             "desO": "",
             "desT": "",
             "zusatz":"",
@@ -2158,6 +2172,20 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "pommes": {
+                            "price": "0,00"
+                        },
+                        "twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
             "section": "Schnitzel"
         },
         "119": {
@@ -2168,6 +2196,20 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "pommes": {
+                            "price": "0,00"
+                        },
+                        "twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
             "section": "Schnitzel"
         },
         "120": {
@@ -2178,6 +2220,20 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "pommes": {
+                            "price": "0,00"
+                        },
+                        "twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
             "section": "Schnitzel"
         },
         "121": {
@@ -2188,6 +2244,20 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "pommes": {
+                            "price": "0,00"
+                        },
+                        "twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
             "section": "Schnitzel"
         },
         "122": {
@@ -2198,6 +2268,20 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "pommes": {
+                            "price": "0,00"
+                        },
+                        "twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
             "section": "Schnitzel"
         },
         "123": {
@@ -3990,7 +4074,7 @@
             },
             "SCHNITZEL": {
                 "section": "SCHNITZEL",
-                "des": "Alle Schnitzel mit Pommes und Salat als Beilage"
+                "des": "Alle Schnitzel mit Pommes oder Twister als Beilage"
             },
             "CALZONE": {
                 "section": "CALZONE",
@@ -4047,6 +4131,7 @@
         }
     },
     "options": {
+        "twister":"Twister",
         "6Stück": "6 Stück ",
         "9Stück": "9 Stück ",
         "8Stück": "8 Stück ",
