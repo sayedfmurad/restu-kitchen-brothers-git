@@ -18,7 +18,7 @@ export default function Sectionmenu() {
     {       
         var backgroundElement = document.getElementsByClassName("mbackground");     
         var bnb = new URL(decodeURI(location.href));
-        bnb = bnb.searchParams.get("section");         
+        bnb = bnb.searchParams.get("section");  
         var  orr = Object.keys(langswitch.getJson("order")).length;
       [numitemstatus, setnumitemstatus] = useState(orr);
       [pricestatus, setpricestatus] = useState(window.localStorage.getItem("sumprice")==null?"0,00":window.localStorage.getItem("sumprice"));

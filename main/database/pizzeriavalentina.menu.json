@@ -664,7 +664,7 @@
                 "stand":"3,00"
             },
             "options": {
-                "Ihre Pasta": {
+                "Ihre Dip": {
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
@@ -688,7 +688,7 @@
                 "stand":"5,50"
             },
             "options": {
-                "Ihre Pasta": {
+                "Ihre Dip": {
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
@@ -712,7 +712,7 @@
                 "stand":"5,50"
             },
             "options": {
-                "Ihre Pasta": {
+                "Ihre Dip": {
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
@@ -736,7 +736,7 @@
                 "stand":"5,50"
             },
             "options": {
-                "Ihre Pasta": {
+                "Ihre Dip": {
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
@@ -760,7 +760,7 @@
                 "stand":"6,00"
             },
             "options": {
-                "Ihre Pasta": {
+                "Ihre Dip": {
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
@@ -784,7 +784,7 @@
                 "stand":"6,00"
             },
             "options": {
-                "Ihre Pasta": {
+                "Ihre Dip": {
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
@@ -808,7 +808,7 @@
                 "stand":"6,00"
             },
             "options": {
-                "Ihre Pasta": {
+                "Ihre Dip": {
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
@@ -2362,7 +2362,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "Beilagen & Desserts"
+            "section": "Beilagen und Desserts"
         },
         "131": {
             "name": "Twister mit Ketchup oder Mayonnaise",
@@ -2372,7 +2372,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "Beilagen & Desserts"
+            "section": "Beilagen und Desserts"
         },
         "132": {
             "name": "Bratkartoffeln mit Zwiebeln",
@@ -2382,7 +2382,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "Beilagen & Desserts"
+            "section": "Beilagen und Desserts"
         },
         "133": {
             "name": "Sinaci oder Brokkoli",
@@ -2392,7 +2392,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"",
-            "section": "Beilagen & Desserts"
+            "section": "Beilagen und Desserts"
         },
         "134": {
             "name": "Tiramisu",
@@ -2402,7 +2402,7 @@
             "desO": "",
             "desT": "",
             "zusatz":"3,5",
-            "section": "Beilagen & Desserts"
+            "section": "Beilagen und Desserts"
         },
         "135": {
             "name": "Coca-Cola",
@@ -4122,9 +4122,9 @@
                 "des": "",
                 "img": "SCHNITZEL"
             },
-            "Beilagen & Desserts":
+            "Beilagen und Desserts":
             {
-                "section": "Beilagen & Desserts",
+                "section": "Beilagen und Desserts",
                 "des": "",
                 "img":"DESSERTS"
             }
