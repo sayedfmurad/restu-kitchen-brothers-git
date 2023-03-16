@@ -241,8 +241,10 @@ export default function Cart() {
                 <label class="btn btn-outline-warning" for="paypal-outlined"><img height="15px" src="./Images/paypalsvg.svg"/></label>
                 &nbsp;
                 <input type="radio" class="btn-check" name="options-outlined" id="DCcard-outlined" />
-                <label class="btn btn-outline-warning text-black" for="DCcard-outlined">Debit / Credit Card</label>
+                <label style={{"fontSize":"0.6rem;"}}  class="btn btn-outline-warning text-black" for="DCcard-outlined">Debit Card</label>
                 &nbsp;
+                </div>            
+                <div className="d-flex justify-content-start mb-4">                
                 <input type="radio" class="btn-check" name="options-outlined" id="spea-outlined" />
                 <label class="btn btn-outline-warning" for="spea-outlined"><img height="15px" src="./Images/spea.svg"/></label>
                 &nbsp;
