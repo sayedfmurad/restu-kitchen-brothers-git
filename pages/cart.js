@@ -16,7 +16,7 @@ export default function Cart() {
           let t = false;
           if(document.getElementById("bar-outlined").checked)
           t="bar";
-          else if(document.getElementById("paypal-outlined").checked)
+          else if(document.getElementById("paypal-outlined").checked || document.getElementById("DCcard-outlined").checked|| document.getElementById("spea-outlined").checked|| document.getElementById("giropay-outlined").checked|| document.getElementById("sofort-outlined").checked)
           t="paypal";
           else 
           {
@@ -235,10 +235,22 @@ export default function Cart() {
             </div>
             <div className="d-flex justify-content-start mb-4">                
                 <input type="radio" class="btn-check" name="options-outlined" id="bar-outlined"  />
-                <label class="btn btn-outline-secondary" for="bar-outlined">Bar</label>
+                <label class="btn btn-outline-warning text-black" for="bar-outlined">Bar</label>
                 &nbsp;
                 <input type="radio" class="btn-check" name="options-outlined" id="paypal-outlined" />
-                <label class="btn btn-outline-secondary" for="paypal-outlined">Paypal</label>
+                <label class="btn btn-outline-warning" for="paypal-outlined"><img height="15px" src="./Images/paypalsvg.svg"/></label>
+                &nbsp;
+                <input type="radio" class="btn-check" name="options-outlined" id="DCcard-outlined" />
+                <label class="btn btn-outline-warning text-black" for="DCcard-outlined">Debit / Credit Card</label>
+                &nbsp;
+                <input type="radio" class="btn-check" name="options-outlined" id="spea-outlined" />
+                <label class="btn btn-outline-warning" for="spea-outlined"><img height="15px" src="./Images/spea.svg"/></label>
+                &nbsp;
+                <input type="radio" class="btn-check" name="options-outlined" id="giropay-outlined" />
+                <label class="btn btn-outline-warning" for="giropay-outlined"><img height="25px" src="./Images/giropay.svg"/></label>
+                &nbsp;
+                <input type="radio" class="btn-check" name="options-outlined" id="sofort-outlined" />
+                <label class="btn btn-outline-warning" for="sofort-outlined"><img height="25px" src="./Images/sofortsvg.svg"/></label>
             </div>            
             </div>
             </div>

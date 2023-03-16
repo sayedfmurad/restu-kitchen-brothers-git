@@ -228,9 +228,9 @@ return(<>
                 <h5 >{MyLang["count"]}</h5>
             </div>            
             <div className='col-12 text-white'>
-                <a onClick={()=>{var g=count+1;setcount(g);}} className='btn btn-primary'>+</a>
-                &nbsp;&nbsp;&nbsp;{count}&nbsp;&nbsp;&nbsp;
                 <a onClick={()=>{var g=count==1?1:count-1;setcount(g);}} className='btn btn-primary'>-</a>
+                &nbsp;&nbsp;&nbsp;{count}&nbsp;&nbsp;&nbsp;
+                <a onClick={()=>{var g=count+1;setcount(g);}} className='btn btn-primary'>+</a>
             <br/><br/>
             </div>
             <div className='col-12'>
