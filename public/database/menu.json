@@ -223,7 +223,7 @@
                 "28cm":",50",
                 "38cm":"15,40"
             },
-            "desO": "Salami, Peperoni",
+            "desO": "mit Thunfisch, parkia ,schinken, Spinat",
             "desT": "",
             "zusatz":"A,G,F,1,2,4,9",
             "section": "PIZZEN"
@@ -245,7 +245,7 @@
             "price": {
                 "stand":"8,00"
             },
-            "desO": "Tomatens, Käse, Thunfisch, Champignons, Formfleischvorderschinken",
+            "desO": "Käse, Thunfisch, Champignons, Formfleischvorderschinken",
             "desT": "",
             "zusatz":"A,G,F,3,4,5",
             "section": "PIZZEN"
@@ -353,7 +353,7 @@
                 "28cm":"8,00",
                 "38cm":"16,40"
             },
-            "desO": "Formfleischvorderschinken",
+            "desO": "Formfleischvorderschinken, Champions, Artischocken",
             "desT": "",
             "zusatz":"A,G,3,4,5",
             "section": "PIZZEN"
@@ -629,7 +629,7 @@
                 "28cm":"8,00",
                 "38cm":"16,40"
             },
-            "desO": "Gyros, Zwiebeln, Hirtenkäse",
+            "desO": "Salami, Thunfisch, Zwiebeln",
             "desT": "",
             "zusatz":"A,G,F,1,2,4,9",
             "section": "PIZZEN"
@@ -1934,16 +1934,6 @@
             "zusatz":"A",
             "section": "Kartoffelgerichte"
         },
-        "97": {
-            "name": "Lachs-Kartoffelauflauf",
-            "price": {
-                "stand":"9,90"
-            },
-            "desO": "mit Lachs, Kartoffeln, Zwiebeln, Sahnesauce, Käse, überbacken",
-            "desT": "",
-            "zusatz":"A",
-            "section": "Kartoffelgerichte"
-        },
         "98": {
             "name": "Salat Verde",
             "price": {
@@ -2373,7 +2363,7 @@
                 "einzeln":"8,90",
                 "menü":"9,90"
             },
-            "desO": "180g mit Burgersauce, Käse, Salat",
+            "desO": "180g mit Barbecuesauce, Käse, Salat",
             "desT": "",
             "zusatz":"",
             "section": "American Big Burger"
@@ -2605,7 +2595,7 @@
             "section": "Kindermenü"
         },
         "129": {
-            "name": "7 Chicken Nuggets",
+            "name": "7 Chicken wings",
             "price": {
                 "stand":"9,90"
             },
@@ -2645,7 +2635,7 @@
             "section": "Beilagen und Desserts"
         },
         "133": {
-            "name": "Sinaci oder Brokkoli",
+            "name": "Spinat oder Brokkoli",
             "price": {
                 "stand":"4,50"
             },
