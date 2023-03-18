@@ -1165,7 +1165,7 @@
     "desO": "",
     "desT": "",
     "zusatz":"",
-    "section": "HAMBURGER"
+    "section": "POMMESFRITES"
 },
 "146": {
     "name": "Pommes mittel",
@@ -1175,7 +1175,7 @@
     "desO": "",
     "desT": "",
     "zusatz":"",
-    "section": "HAMBURGER"
+    "section": "POMMESFRITES"
 },
 "147": {
     "name": "Pommes groß",
@@ -1185,7 +1185,7 @@
     "desO": "",
     "desT": "",
     "zusatz":"",
-    "section": "HAMBURGER"
+    "section": "POMMESFRITES"
 },
 "148": {
     "name": "Potato Wedges mittel",
@@ -1195,7 +1195,7 @@
     "desO": "",
     "desT": "",
     "zusatz":"",
-    "section": "HAMBURGER"
+    "section": "POMMESFRITES"
 },
 "149": {
     "name": "Potato Wedges groß",
@@ -1205,7 +1205,7 @@
     "desO": "",
     "desT": "",
     "zusatz":"",
-    "section": "HAMBURGER"
+    "section": "POMMESFRITES"
 },
 "152": {
     "name": "Chicken Nuggets",
@@ -2062,6 +2062,11 @@
     "sections":
     {
         "mdesc":{
+            "POMMESFRITES": {
+                "section": "POMMESFRITES",
+                "des": "",
+                "img": "POMMESFRITES"
+            },
             "BAGUETTE":
             {
                 "section":"BAGUETTE",

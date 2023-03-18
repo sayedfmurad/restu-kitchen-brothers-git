@@ -9,6 +9,7 @@ export default function Cart() {
     const MyLang = langswitch.langswitchs("cart");
     var [pressed,setpressed] = useState(false);
     var [spinnerbar,setspinnerbar] = useState("d-none");
+    var [spaterodernow,setspaterodernow] = useState("d-none");
     var rows = [];        
     var crows = [];
     const startpay= ()=>{
@@ -191,15 +192,15 @@ export default function Cart() {
                         <div className='col-12'>
                         <h6>Lieferaddresse :</h6>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-12'>
                         <p style={{"fontSize":"0.7rem"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
                         {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
                         {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
                         {addresses[seladd]["phonen"]}
                         </p>
                         </div>
-                        <div className='col-6 align-items-center d-flex'>
-                            <button className='btn btn-primary'
+                        <div className='col-12 align-items-center d-flex'>
+                            <button className='btn btn-outline-primary'
                             onClick={()=>{
                                 window.location.href =  langswitch.RouteP("addaddress")
                             }}
@@ -229,25 +230,39 @@ export default function Cart() {
                     )  
             }
             const onChangeToDelivery=()=>{
-                document.getElementById("success-outlined-2").checked=true;
+                document.getElementById("success-outlined-spater").checked=true;
+                setspaterodernow("")
             }
             rows.push(
                 <>
                 <div className='list-group'>                
-                    <div className='list-group-item'>                
-                    <div className="row mb-4">
+                <div className='list-group-item'>                
+                <div className="row mb-4 g-3">
                         <div className='col-12'>
-                        <h6>Lieferzeit wählen:</h6>
-                    </div>
-                    </div>
-                    <div className="d-flex justify-content-start mb-4">                
-                    <input type="radio" class="btn-check" name="options-outlined" id="success-outlined-1" autocomplete="off" checked/>
-                    <label class="btn btn-outline-success" for="success-outlined-1">Jetzt</label>
-                    &nbsp;
-                    <input type="radio" class="btn-check" name="options-outlined" id="success-outlined-2" autocomplete="off" />
-                    <label class="btn btn-outline-success" onClick={onChangeToDelivery} for="success-outlined-2">Später</label>
-                    </div>
-                    </div>
+                        <h6>Lieferzeit wählen:</h6>                        
+                        </div>
+                        <div className="col-12">                
+                        <input type="radio" class="btn-check" onClick={()=>{setspaterodernow("d-none")}} name="options-outlined-zeit" id="success-outlined-jetzt" autocomplete="off" checked/>
+                        <label class="btn btn-outline-success" for="success-outlined-jetzt">Jetzt</label>
+                        &nbsp;
+                        <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" />
+                        <label class="btn btn-outline-success" onClick={onChangeToDelivery} for="success-outlined-spater">Später</label>                        
+                        </div>
+
+                        <div className={`col-12 ${spaterodernow}`}>
+                            Gewünchte Zeit Wählen:
+                        </div>
+
+                        <div className={`col-12 ${spaterodernow}`}>
+                            <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            </select>                
+                        </div>
+                </div>
+                </div>
                 </div>
                 <br/>
                 </>
