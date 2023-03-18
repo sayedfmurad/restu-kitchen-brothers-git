@@ -14,7 +14,8 @@ export default function Index() {
     <Head>
       <title>{MyLang["title"]}</title>
       <link href="./mystyles/homepage.css" rel="stylesheet" />
-      <script src="./scripts/facebookads.js" ></script>
+      <meta name="DC.title" content={`${menu["staticValue"]["kontakt"]["name"]} - Essen Online bestellen in ${menu["staticValue"]["kontakt"]["city"]}`} />
+      <meta name="robots" content="index,follow"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     </Head>   
     {/* <div className="specially mbackground"></div>  */}
