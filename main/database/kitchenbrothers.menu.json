@@ -44,7 +44,10 @@
             "desO": "Zwiebel, Gouda, Tomatensauce",
             "desT": "",
             "zusatz": "1,7",
-            "section": "PIZZEN"
+            "section": "PIZZEN",
+            "extraexcept":{
+                "dönerfleisch":"true"
+            }
         },
         "4": {
             "name": "Champignon",

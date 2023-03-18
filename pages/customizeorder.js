@@ -157,17 +157,30 @@ export default function c() {
         for(var jjj in menu["extra"])
         for(var ttt in menu["extra"][jjj]["section"])    
         if(menu["product"][id]["section"].toUpperCase()==menu["extra"][jjj]["section"][ttt].toUpperCase())        
-        if((type in menu["extra"][jjj]))
-        { 
-        checkisextra=true;  
-        extrarow.push(
-         <div style={{"fontSize":"1rem"}} className={`col-md-4 p-1 ${(ion>2?mdisplay:"")}`}>
-            <input defaultChecked={(jjj in extra?true:false)} id={jjj} onChange={addextra} class="form-check-input" type="checkbox" value="option1"></input>
-            &nbsp;{"Mit "+menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;{menu["extra"][jjj][type]["price"]}&nbsp;&euro;&nbsp;
-         </div>
-        )
-        ion++;
+        {
+            var addextrasub = true;
+            if("extraexcept" in menu["product"][id])
+            if(jjj in menu["product"][id]["extraexcept"])
+            addextrasub=false
+            
+            if(addextrasub && (type in menu["extra"][jjj]))
+            { 
+            checkisextra=true;  
+            extrarow.push(
+                <>
+    
+                <div className={`col-4 ${(ion>2?mdisplay:"")}`}>
+                <div className='d-flex justify-content-center'>
+                <input type="checkbox" class="btn-check"  id={jjj} autocomplete="off" onChange={addextra} defaultChecked={(jjj in extra?true:false)}/>
+                <label class="btn btn-outline-primary" for={jjj}>{"Mit "+menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;{menu["extra"][jjj][type]["price"]}</label>
+                </div>
+                </div>            
+             </>
+            )
+            ion++;
+            }
         }
+
         if(checkisextra)
         if(!editordercheck)
         if(ion>2)
@@ -234,7 +247,7 @@ return(<>
             <br/><br/>
             </div>
             <div className='col-12'>
-            <div className='row'>
+            <div className='row g-3'>
                     {extrarow}
                 </div>
             </div>

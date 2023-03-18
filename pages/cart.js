@@ -188,8 +188,10 @@ export default function Cart() {
                     <div className='list-group'>                
                     <div className='list-group-item'>                
                     <div className="row mb-4">
-                        <div className='col-6'>
+                        <div className='col-12'>
                         <h6>Lieferaddresse :</h6>
+                        </div>
+                        <div className='col-6'>
                         <p style={{"fontSize":"0.7rem"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
                         {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
                         {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
@@ -226,19 +228,29 @@ export default function Cart() {
                     </>
                     )  
             }
-
+            const onChangeToDelivery=()=>{
+                document.getElementById("success-outlined-2").checked=true;
+            }
             rows.push(
+                <>
                 <div className='list-group'>                
                     <div className='list-group-item'>                
+                    <div className="row mb-4">
+                        <div className='col-12'>
+                        <h6>Lieferzeit wählen:</h6>
+                    </div>
+                    </div>
                     <div className="d-flex justify-content-start mb-4">                
-                    <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked/>
-                    <label class="btn btn-outline-success" for="success-outlined">Checked success radio</label>
-
-                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off"/>
-                    <label class="btn btn-outline-danger" for="danger-outlined">Danger radio</label>
+                    <input type="radio" class="btn-check" name="options-outlined" id="success-outlined-1" autocomplete="off" checked/>
+                    <label class="btn btn-outline-success" for="success-outlined-1">Jetzt</label>
+                    &nbsp;
+                    <input type="radio" class="btn-check" name="options-outlined" id="success-outlined-2" autocomplete="off" />
+                    <label class="btn btn-outline-success" onClick={onChangeToDelivery} for="success-outlined-2">Später</label>
                     </div>
                     </div>
                 </div>
+                <br/>
+                </>
             )
 
             rows.push(<>
