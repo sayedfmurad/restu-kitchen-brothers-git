@@ -1971,7 +1971,7 @@
         {
             "sunday":{
                 "opentime":{
-                    "hour":11,
+                    "hour":0,
                     "min":0
                 },
                 "closetime":{

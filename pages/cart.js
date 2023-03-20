@@ -254,12 +254,9 @@ export default function Cart() {
                         </div>
 
                         <div className={`col-12 ${spaterodernow}`}>
-                            <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                            </select>                
+                                <input type="datetime-local" id="meeting-time"
+                                name="meeting-time" value="2018-06-12T19:30"
+                                min="2018-06-07T00:00" max="2018-06-14T00:00"/>              
                         </div>
                 </div>
                 </div>
