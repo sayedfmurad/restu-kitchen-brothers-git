@@ -233,6 +233,12 @@ export default function Cart() {
                 document.getElementById("success-outlined-spater").checked=true;
                 setspaterodernow("")
             }
+            const getTimesForDelivery=()=>
+            {
+               const datee = langswitch.getDateBerlin();
+               const maxTime = datee.toISOString().slice(0, 16);
+               return maxTime
+            }
             rows.push(
                 <>
                 <div className='list-group'>                
@@ -242,11 +248,11 @@ export default function Cart() {
                         <h6>Lieferzeit wählen:</h6>                        
                         </div>
                         <div className="col-12">                
-                        <input type="radio" class="btn-check" onClick={()=>{setspaterodernow("d-none")}} name="options-outlined-zeit" id="success-outlined-jetzt" autocomplete="off" checked/>
-                        <label class="btn btn-outline-success" for="success-outlined-jetzt">Jetzt</label>
-                        &nbsp;
-                        <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" />
-                        <label class="btn btn-outline-success" onClick={onChangeToDelivery} for="success-outlined-spater">Später</label>                        
+                            <input type="radio" class="btn-check" onClick={()=>{setspaterodernow("d-none")}} name="options-outlined-zeit" id="success-outlined-jetzt" autocomplete="off" checked/>
+                            <label class="btn btn-outline-success" for="success-outlined-jetzt">Jetzt</label>
+                            &nbsp;
+                            <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" />
+                            <label class="btn btn-outline-success" onClick={onChangeToDelivery} for="success-outlined-spater">Später</label>                        
                         </div>
 
                         <div className={`col-12 ${spaterodernow}`}>
@@ -254,9 +260,10 @@ export default function Cart() {
                         </div>
 
                         <div className={`col-12 ${spaterodernow}`}>
-                                <input type="datetime-local" id="meeting-time"
-                                name="meeting-time" value="2018-06-12T19:30"
-                                min="2018-06-07T00:00" max="2018-06-14T00:00"/>              
+                        <select class="form-select">
+                                <option selected>Heute</option>
+                                <option value="option1">Option 1</option>
+                                </select>         
                         </div>
                 </div>
                 </div>

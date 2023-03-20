@@ -89,6 +89,9 @@ getStringOpenCloseTimeStore=(type)=>
     return menu["staticValue"][type]["hour"]+":"+
     (menu["staticValue"][type]["min"]<=9?"0"+menu["staticValue"][type]["min"]:menu["staticValue"][type]["min"])
 }
+getDateBerlin=()=>{
+    return new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }))   
+}
 }
 
 const f= new langswitch()
