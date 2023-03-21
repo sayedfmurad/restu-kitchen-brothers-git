@@ -4182,7 +4182,7 @@
                     "min": 0
                 }
             },
-            "tuesdayy": {
+            "tuesday": {
                 "opentime": {
                     "hour": 16,
                     "min": 0
@@ -4192,7 +4192,7 @@
                     "min": 45
                 }
             },
-            "wednesdayy": {
+            "wednesday": {
                 "opentime": {
                     "hour": 16,
                     "min": 0

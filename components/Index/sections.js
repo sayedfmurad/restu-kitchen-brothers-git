@@ -32,9 +32,17 @@ export default ()=>
   }
 
   return   <div className='container mt-5 mb-5'>
-            {/* <div className="row ">
-              <img className="col-12 mb-3"  src="./Images/rabatt.jpeg" />
-            </div> */}
+            <div className="row ">
+            <div class="alert alert-warning" role="alert">
+            Liebe Gäste 
+            Dienstag den 21.03.23
+            Bleibt unsere Pizzeria geschlossen 
+            Am Mittwoch den 22.03.23
+            Sind wir wieder für sie da.
+            Liebe Grüße 
+            Eure Thema Pizzeria valentina
+            </div>
+            </div>
             <div className='row g-2' >
             {rows}  
             </div>
