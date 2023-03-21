@@ -239,38 +239,38 @@ export default function Cart() {
                const maxTime = datee.toISOString().slice(0, 16);
                return maxTime
             }
-            rows.push(
-                <>
-                <div className='list-group'>                
-                <div className='list-group-item'>                
-                <div className="row mb-4 g-3">
-                        <div className='col-12'>
-                        <h6>Lieferzeit wählen:</h6>                        
-                        </div>
-                        <div className="col-12">                
-                            <input type="radio" class="btn-check" onClick={()=>{setspaterodernow("d-none")}} name="options-outlined-zeit" id="success-outlined-jetzt" autocomplete="off" checked/>
-                            <label class="btn btn-outline-success" for="success-outlined-jetzt">Jetzt</label>
-                            &nbsp;
-                            <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" />
-                            <label class="btn btn-outline-success" onClick={onChangeToDelivery} for="success-outlined-spater">Später</label>                        
-                        </div>
+            // rows.push(
+            //     <>
+            //     <div className='list-group'>                
+            //     <div className='list-group-item'>                
+            //     <div className="row mb-4 g-3">
+            //             <div className='col-12'>
+            //             <h6>Lieferzeit wählen:</h6>                        
+            //             </div>
+            //             <div className="col-12">                
+            //                 <input type="radio" class="btn-check" onClick={()=>{setspaterodernow("d-none")}} name="options-outlined-zeit" id="success-outlined-jetzt" autocomplete="off" checked/>
+            //                 <label class="btn btn-outline-success" for="success-outlined-jetzt">Jetzt</label>
+            //                 &nbsp;
+            //                 <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" />
+            //                 <label class="btn btn-outline-success" onClick={onChangeToDelivery} for="success-outlined-spater">Später</label>                        
+            //             </div>
 
-                        <div className={`col-12 ${spaterodernow}`}>
-                            Gewünchte Zeit Wählen:
-                        </div>
+            //             <div className={`col-12 ${spaterodernow}`}>
+            //                 Gewünchte Zeit Wählen:
+            //             </div>
 
-                        <div className={`col-12 ${spaterodernow}`}>
-                        <select class="form-select">
-                                <option selected>Heute</option>
-                                <option value="option1">Option 1</option>
-                                </select>         
-                        </div>
-                </div>
-                </div>
-                </div>
-                <br/>
-                </>
-            )
+            //             <div className={`col-12 ${spaterodernow}`}>
+            //             <select class="form-select">
+            //                     <option selected>Heute</option>
+            //                     <option value="option1">Option 1</option>
+            //                     </select>         
+            //             </div>
+            //     </div>
+            //     </div>
+            //     </div>
+            //     <br/>
+            //     </>
+            // )
 
             rows.push(<>
             <div className='list-group'>                

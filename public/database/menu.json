@@ -4172,9 +4172,9 @@
                     "min": 45
                 }
             },
-            "monday": {
+            "mondayy": {
                 "opentime": {
-                    "hour": 1,
+                    "hour": 11,
                     "min": 0
                 },
                 "closetime": {
@@ -4182,7 +4182,7 @@
                     "min": 0
                 }
             },
-            "tuesday": {
+            "tuesdayy": {
                 "opentime": {
                     "hour": 16,
                     "min": 0
@@ -4192,7 +4192,7 @@
                     "min": 45
                 }
             },
-            "wednesday": {
+            "wednesdayy": {
                 "opentime": {
                     "hour": 16,
                     "min": 0
