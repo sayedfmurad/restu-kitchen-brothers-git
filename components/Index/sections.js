@@ -32,7 +32,7 @@ export default ()=>
   }
 
   return   <div className='container mt-5 mb-5'>
-            <div className="row ">
+            {/* <div className="row ">
             <div class="alert alert-warning" role="alert">
             Liebe Gäste 
             Dienstag den 21.03.23
@@ -42,7 +42,7 @@ export default ()=>
             Liebe Grüße 
             Eure Thema Pizzeria valentina
             </div>
-            </div>
+            </div> */}
             <div className='row g-2' >
             {rows}  
             </div>
