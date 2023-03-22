@@ -236,6 +236,7 @@ export default function Cart() {
             const getTimesForDelivery=()=>
             {
                const datee = langswitch.getDateBerlin();
+               /////////Convert Min to 0 or 15 or 30 or 45
                if(datee.getMinutes() > 0 && datee.getMinutes() < 15)
                 datee.setMinutes(15)
                 else if (datee.getMinutes() > 15 && datee.getMinutes() < 30)
@@ -247,6 +248,19 @@ export default function Cart() {
                     datee.setMinutes(0)
                     datee.setHours(datee.getHours()+1)   
                 }
+
+                datee.setHours(datee.getHours()+2)
+                
+                ///////Prepair CloseTime
+                var closeTime = new Date()                
+                const day = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][datee.getDay()]                      
+                for(var daydd in menu["staticValue"]["opendays"])
+                if(day == daydd)
+                {
+                    closeTime.setHours(menu["staticValue"]["opendays"][day]["closetime"]["hour"])
+                    closeTime.setMinutes(menu["staticValue"]["opendays"][day]["closetime"]["min"])
+                }   
+                console.log(closeTime,"-----")             
                return datee
             }
             console.log(getTimesForDelivery())
