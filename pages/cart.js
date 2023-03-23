@@ -233,9 +233,7 @@ export default function Cart() {
                 document.getElementById("success-outlined-spater").checked=true;
                 setspaterodernow("")
             }
-            const getTimesForDelivery=()=>
-            {
-               const datee = langswitch.getDateBerlin();
+            const ConvertToMinuten_0_15_30_45=(datee)=>{
                /////////Convert Min to 0 or 15 or 30 or 45
                if(datee.getMinutes() > 0 && datee.getMinutes() < 15)
                 datee.setMinutes(15)
@@ -248,6 +246,14 @@ export default function Cart() {
                     datee.setMinutes(0)
                     datee.setHours(datee.getHours()+1)   
                 }
+                return datee
+            }
+            const getTimesForDelivery=()=>
+            {
+                var times = []
+               var datee = langswitch.getDateBerlin();
+                
+               datee= ConvertToMinuten_0_15_30_45(datee)
 
                 datee.setHours(datee.getHours()+2)
                 
@@ -260,8 +266,21 @@ export default function Cart() {
                     closeTime.setHours(menu["staticValue"]["opendays"][day]["closetime"]["hour"])
                     closeTime.setMinutes(menu["staticValue"]["opendays"][day]["closetime"]["min"])
                 }   
-                console.log(closeTime,"-----")             
-               return datee
+                
+                closeTime= ConvertToMinuten_0_15_30_45(closeTime)
+                
+                if (closeTime.getFullYear() === datee.getFullYear() && 
+                    closeTime.getMonth() === datee.getMonth() && 
+                    closeTime.getDate() === datee.getDate())
+                while(closeTime > datee)
+                {
+                    times.push(datee.getHours()+":"+datee.getMinutes())
+                    datee.setMinutes(datee.getMinutes()+3)
+                    datee= ConvertToMinuten_0_15_30_45(datee)
+                }          
+                /////remove last time because it will be close time of the resturant
+                times.pop()
+               return times
             }
             console.log(getTimesForDelivery())
             rows.push(
