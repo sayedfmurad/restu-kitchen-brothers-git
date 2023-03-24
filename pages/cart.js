@@ -37,6 +37,9 @@ export default function Cart() {
           parms["menu"] = menu["staticValue"]["menuurl"]
           parms["address"] = address[seladd];
           parms["orders"] = orders;
+          var TimeSettedDelivery=document.getElementById("selectedtimedelivery").value
+          TimeSettedDelivery = spaterodernow == "d-none"?"":TimeSettedDelivery
+          parms["TimeSettedDelivery"]=TimeSettedDelivery
           var MainOrderId = time.getTime() + JSON.stringify(parms);
           MainOrderId = hash(MainOrderId);            
           parms["MainId"]=MainOrderId;
@@ -251,6 +254,9 @@ export default function Cart() {
             const getTimesForDelivery=()=>
             {
                 var times = []
+                times.push(
+                    <option value="" selected disabled>Gewünchte Zeit Wählen</option>
+                )
                var datee = langswitch.getDateBerlin();
                 
                datee= ConvertToMinuten_0_15_30_45(datee)
@@ -274,7 +280,11 @@ export default function Cart() {
                     closeTime.getDate() === datee.getDate())
                 while(closeTime > datee)
                 {
-                    times.push(datee.getHours()+":"+datee.getMinutes())
+                    times.push(
+                        <option value={datee.getTime()}>
+                        {datee.getHours()+":"+(datee.getMinutes()<10?"0"+datee.getMinutes():datee.getMinutes())}
+                        </option>
+                        )
                     datee.setMinutes(datee.getMinutes()+3)
                     datee= ConvertToMinuten_0_15_30_45(datee)
                 }          
@@ -282,7 +292,6 @@ export default function Cart() {
                 times.pop()
                return times
             }
-            console.log(getTimesForDelivery())
             rows.push(
                 <>
                 <div className='list-group'>                
@@ -298,15 +307,9 @@ export default function Cart() {
                             <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" />
                             <label class="btn btn-outline-success" onClick={onChangeToDelivery} for="success-outlined-spater">Später</label>                        
                         </div>
-
                         <div className={`col-12 ${spaterodernow}`}>
-                            Gewünchte Zeit Wählen:
-                        </div>
-
-                        <div className={`col-12 ${spaterodernow}`}>
-                        <select class="form-select">
-                                <option selected>Heute</option>
-                                <option value="option1">Option 1</option>
+                        <select class="form-select" id='selectedtimedelivery'>
+                                {getTimesForDelivery()}
                                 </select>         
                                 
                         </div>
