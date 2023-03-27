@@ -5,6 +5,7 @@ import menu from "../public/database/menu.json"
 import { useRouter } from 'next/router'
 import hash from "../components/Utils/object_hash"
 import React, { useState, useEffect } from 'react';
+import packagee from "../package.json"
 export default function c() {
     const router = useRouter()   
     var [mdisplay, setmdisplay]=useState("d-none");    
@@ -47,7 +48,7 @@ export default function c() {
     let order = {};     
     if(process.browser)
     {             
-        if(!langswitch.checkOpenCloseStore())       
+        if(!langswitch.checkOpenCloseStore() && packagee["IsOut"])       
         window.location.href = langswitch.RouteP("storeclosed");
 
         var bnb = new URL(decodeURI(location.href));

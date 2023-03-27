@@ -4,7 +4,7 @@ import MyNavbar from "../components/navbar/MyNavbar"
 import menu from "../public/database/menu.json"
 import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
-
+import packagee from "../package.json"
 export default function Cart() {
     const MyLang = langswitch.langswitchs("cart");
     var [pressed,setpressed] = useState(false);
@@ -37,9 +37,16 @@ export default function Cart() {
           parms["menu"] = menu["staticValue"]["menuurl"]
           parms["address"] = address[seladd];
           parms["orders"] = orders;
+          if(!packagee["IsOut"])
+          {
+              parms["servertest"]=""
+              parms["TestTelegram"]=""
+              parms["istest"]=""
+          }
           var TimeSettedDelivery=document.getElementById("selectedtimedelivery").value
           TimeSettedDelivery = spaterodernow == "d-none"?"":TimeSettedDelivery
-          parms["TimeSettedDelivery"]=TimeSettedDelivery
+          if (TimeSettedDelivery !="")
+            parms["TimeSettedDelivery"]=TimeSettedDelivery
           var MainOrderId = time.getTime() + JSON.stringify(parms);
           MainOrderId = hash(MainOrderId);            
           parms["MainId"]=MainOrderId;

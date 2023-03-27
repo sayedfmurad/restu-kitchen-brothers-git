@@ -2,9 +2,13 @@ import React, { useState, useRef, useEffect } from 'react';
 import langswitch from '../components/Utils/langswitch'
 import MyNavbar from "../components/navbar/MyNavbar"
 import Head from 'next/head'
+import packagee from "../package.json"
 import menu from "../public/database/menu"
 export default function paypall() {
 const MyLang = langswitch.langswitchs("paypal");
+var scriptout = packagee["IsOut"] ?
+         <script src={`https://www.paypal.com/sdk/js?client-id=${menu["staticValue"]["pc"]}&currency=EUR`} data-sdk-integration-source="button-factory"></script>
+         :<script src={`https://www.paypal.com/sdk/js?client-id=ActZu8JlaaToqIk6t8EAKNoIBHXuVo3ENRww7kmsMyoPZGeEqNJmm1yvYQrJXZUltmbq0SJowjEW3nyM&currency=EUR`} data-sdk-integration-source="button-factory"></script>
 if(process.browser)
 {
   var sum = langswitch.getNum("sumprice");
@@ -29,8 +33,8 @@ return (
       </div>
     </div>
  
-
-    <script src={`https://www.paypal.com/sdk/js?client-id=${menu["staticValue"]["pc"]}&currency=EUR`} data-sdk-integration-source="button-factory"></script>
+    
+  {scriptout}
   <script src='./scripts/paypalpay.js' />
   </>
 );
