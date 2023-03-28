@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
 import MyNavbar from "../components/navbar/MyNavbar"
-import menu from "../public/database/menu.json"
 import langswitch from '../components/Utils/langswitch'
-export default function Cart() {
+
+
+export default ()=> {
     const MyLang = langswitch.langswitchs("updatesmainorders");
     var [msg,setmsg]=useState(MyLang["loading"]);
     if(process.browser){

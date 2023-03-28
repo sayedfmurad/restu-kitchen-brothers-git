@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
 import MyNavbar from "../components/navbar/MyNavbar"
-// import Footer from "../components/footer/Footer"
-import menu from "../public/database/menu.json"
 import langswitch from '../components/Utils/langswitch'
-export default function Sectionmenu() {
+
+export function Container(){
     const MyLang = langswitch.langswitchs("sectionmenu");
     var [pricestatus, setpricestatus] = useState("0,00");    
     var [numitemstatus, setnumitemstatus] = useState(0);    
@@ -16,6 +15,7 @@ export default function Sectionmenu() {
         </div></div>);
     if(process.browser)
     {       
+        const menu = langswitch.getJson("menu")
         var backgroundElement = document.getElementsByClassName("mbackground");     
         var bnb = new URL(decodeURI(location.href));
         bnb = bnb.searchParams.get("section");  
@@ -41,6 +41,18 @@ export default function Sectionmenu() {
       </a>);  
     }
     }
+
+
+    return<div className="container mt-2">        
+    {rows}                
+</div>  
+
+}
+
+
+export default function Sectionmenu() {
+    const MyLang = langswitch.langswitchs("sectionmenu");
+ 
     
     return(
     <>
@@ -49,10 +61,7 @@ export default function Sectionmenu() {
       <link href="./mystyles/sectionmenu.css" rel="stylesheet" />
     </Head>
     <MyNavbar />
-    <div className="container mt-2">        
-        {rows}                
-    </div>
-    {/* <Footer pricestatus={pricestatus} numitemstatus={numitemstatus}/> */}
+        <Container/>
     </>
     )
 }

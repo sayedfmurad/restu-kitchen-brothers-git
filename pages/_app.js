@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Gettime from "../components/Database/gettime"
 function MyApp({ Component, pageProps }) {
   if(process.browser)
   {

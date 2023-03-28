@@ -1,7 +1,8 @@
 const staticVar = require("../../package.json");
-import menu from "../../public/database/menu.json"
 class langswitch{
 IsOutt = staticVar.IsOut ? ".html":"";
+
+
 RouteP = (pp,sub)=>{
     if(sub == undefined)
     sub = "";
@@ -14,7 +15,7 @@ RouteP = (pp,sub)=>{
     ooo += "?"+pp[1];
 return  ooo;
 }
-CheckMinPriceOrder = (sum)=>
+CheckMinPriceOrder = (sum,menu)=>
 {
     const MyLang = f.langswitchs("cart");
     if(process.browser)
@@ -67,7 +68,7 @@ ClearAllData = ()=>
 {
     window.localStorage.clear()
 }
-checkOpenCloseStore=()=>{
+checkOpenCloseStore=(menu)=>{
     if(process.browser)
     {
       var TimeN = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));

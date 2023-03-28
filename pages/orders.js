@@ -1,13 +1,16 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
 import MyNavbar from "../components/navbar/MyNavbar"
-import menu from "../public/database/menu.json"
 import langswitch from '../components/Utils/langswitch'
-export default function Cart() {
+
+export function Container(){
     const MyLang = langswitch.langswitchs("orders");
-  
+
+    const [Outmrows,setOutmrows] = useState(<></>)
     var mrows = [];
-    if(process.browser){
+
+    const MenuReady = (menu)=>{
+
         var orders = langswitch.getJson("mainorder");
         setTimeout(function(){
             window.location.href=langswitch.RouteP("updatesmainorders");
@@ -97,8 +100,7 @@ export default function Cart() {
                 </ul>
             )
         }
-        }
-
+        
         if(mrows.length == 0)
         mrows.push(
             <ul className='list-group mb-3'>
@@ -107,6 +109,24 @@ export default function Cart() {
             </li>
             </ul>
         )
+
+        setTimeout(()=>{setOutmrows(mrows)}, 100);
+        
+    }
+    if(process.browser){
+        const menu = langswitch.getJson("menu")
+        setTimeout(MenuReady(menu), 100);
+    }    
+    return (
+        <div className="container mt-3 ">
+        {Outmrows} 
+    </div>
+    )
+}
+
+export default ()=> {
+    const MyLang = langswitch.langswitchs("orders");
+  
             return (
     <>
     <Head>
@@ -114,9 +134,7 @@ export default function Cart() {
     <link href="./mystyles/cart.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
-    <div className="container mt-3 ">
-        {mrows} 
-    </div>
+    <Container/>    
     </>
     );
 }

@@ -1,19 +1,20 @@
 import Head from 'next/head'
-import decodeToken from '../Utils/decodeToken'
 import { useRouter } from 'next/router'
 import langswitch from "../Utils/langswitch"
-import menu from "../../public/database/menu"
-const MyNavbar = ({sub}) => {
+import { useState } from 'react'
+export default ({sub}) => {
     if(sub == undefined)
     sub ="";
     const MyLang = langswitch.langswitchs("navbar");
     var router = useRouter();
     router = router.pathname;
-    let user;
-    // if(process.browser)
-    // user = decodeToken(localStorage.getItem("id_token"));
+    var [logo,setlogo]=useState(" ")
+    if(process.browser)
+    {
+        const menu = langswitch.getJson("menu")
+        setTimeout(() => {setlogo(menu["staticValue"]["logo"])}, 100);
+    }
 
-    // console.log(user);
     return (
         <>
         <Head>
@@ -23,7 +24,7 @@ const MyNavbar = ({sub}) => {
         <nav id="mynavb" className="mb-2 navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href='./'>
-                   <h5>{menu["staticValue"]["logo"]}</h5>
+                   <h5>{logo}</h5>
                     {/* <img
                         class="d-inline-block align-text-top"
                         height="24"
@@ -71,4 +72,3 @@ const MyNavbar = ({sub}) => {
         </>
     )
 }
-export default MyNavbar

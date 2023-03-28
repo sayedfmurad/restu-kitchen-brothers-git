@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import langswitch from '../components/Utils/langswitch'
 import MyNavbar from "../components/navbar/MyNavbar"
-import menu from "../public/database/menu.json"
 import { useRouter } from 'next/router'
 import hash from "../components/Utils/object_hash"
 import React, { useState, useEffect } from 'react';
 import packagee from "../package.json"
-export default function c() {
+
+export function Container(){
     const router = useRouter()   
     var [mdisplay, setmdisplay]=useState("d-none");    
     const MyLang = langswitch.langswitchs("customizeorder");
@@ -14,7 +14,7 @@ export default function c() {
     var [extra, setextra]=useState({});
     var [price, setprice]=useState("0"); 
     var [type, settype]=useState(""); 
-    
+    var menu = {}
     
     const OptionsElement=(e)=>{    
         var tempsubobj= []       
@@ -47,10 +47,8 @@ export default function c() {
     var options = [];
     let order = {};     
     if(process.browser)
-    {             
-        if(!langswitch.checkOpenCloseStore() && packagee["IsOut"])       
-        window.location.href = langswitch.RouteP("storeclosed");
-
+    {          
+        menu = langswitch.getJson("menu")        
         var bnb = new URL(decodeURI(location.href));
         var id = bnb.searchParams.get("id");
         var orderid = bnb.searchParams.get("orderid");
@@ -118,7 +116,10 @@ export default function c() {
                 options.push(<div className='col-sm-12 col-md-6 col-lg-4'>{tempobj}</div>)                
             }
         }   
-        var addOrder=()=>{            
+        var addOrder=()=>{  
+            if(!langswitch.checkOpenCloseStore(menu) && packagee["IsOut"])       
+            window.location.href = langswitch.RouteP("storeclosed");          
+
             order["id"]=id
             order["type"]=type
             order["extra"]=extra
@@ -168,9 +169,8 @@ export default function c() {
             { 
             checkisextra=true;  
             extrarow.push(
-                <>
-    
-                <div className={`col-4 ${(ion>2?mdisplay:"")}`}>
+                <>    
+                <div className={`col-md-4  col-sm-6 ${(ion>2?mdisplay:"")}`}>
                 <div className='d-flex justify-content-center'>
                 <input type="checkbox" class="btn-check"  id={jjj} autocomplete="off" onChange={addextra} defaultChecked={(jjj in extra?true:false)}/>
                 <label class="btn btn-outline-primary" for={jjj}>{"Mit "+menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;{menu["extra"][jjj][type]["price"]}</label>
@@ -211,57 +211,63 @@ export default function c() {
         } 
     }  
   
+
+    return<div className="container mt-4 text-white">
+    <div className="row p-3">
+    <div className='col-12'>
+        <h3>{ob["name"]}</h3>                                
+    </div>
+    <br/><br/><br/><br/>
+    <div className='col-12'>
+        <h5>{MyLang["total"]}:&nbsp;&nbsp;{price}&nbsp;&euro;</h5>
+    </div>
+    <br/>
+    <br/>
+    <div className='col-12'>
+        <div className='row'>
+    {types.length<=1?"":types}
+    </div>         
+    </div>
+    <div className='col-12'>
+    {options}            
+    </div>
+    <div className='col-12'>
+        <br/>
+        <h5 >{MyLang["count"]}</h5>
+    </div>            
+    <div className='col-12 text-white'>
+        <a onClick={()=>{var g=count==1?1:count-1;setcount(g);}} className='btn btn-primary'>-</a>
+        &nbsp;&nbsp;&nbsp;{count}&nbsp;&nbsp;&nbsp;
+        <a onClick={()=>{var g=count+1;setcount(g);}} className='btn btn-primary'>+</a>
+    <br/><br/>
+    </div>
+    <div className='col-12'>
+    <div className='row g-3'>
+            {extrarow}
+        </div>
+    </div>
+    <div className='col-12'>
+    <br/><br/>
+    <textarea id="textareamsg" style={{"width":"20rem"}} placeholder={MyLang["leavemsg"]} maxLength={50} />          
+    </div>
+    <div className='col-12'>
+    <br/><br/>
+    <a className='btn btn-primary' onClick={addOrder}>{editordercheck?MyLang["edit"]:MyLang["add"]}</a>&nbsp;&nbsp;
+    <a className='btn btn-danger' id='btn-cancel'>{MyLang["cancel"]}</a>
+    </div>
+    </div>
+</div>
+}
+
+export default function c() {
+    const MyLang = langswitch.langswitchs("customizeorder");
+ 
 return(<>
         <Head>
         <title>{MyLang["title"]}</title>
         <link href="./mystyles/customizeorder.css" rel="stylesheet" />
         </Head>
-        <MyNavbar
-        />
-        <div className="container mt-4 text-white">
-            <div className="row p-3">
-            <div className='col-12'>
-                <h3>{ob["name"]}</h3>                                
-            </div>
-            <br/><br/><br/><br/>
-            <div className='col-12'>
-                <h5>{MyLang["total"]}:&nbsp;&nbsp;{price}&nbsp;&euro;</h5>
-            </div>
-            <br/>
-            <br/>
-            <div className='col-12'>
-                <div className='row'>
-            {types.length<=1?"":types}
-            </div>         
-            </div>
-            <div className='col-12'>
-            {options}            
-            </div>
-            <div className='col-12'>
-                <br/>
-                <h5 >{MyLang["count"]}</h5>
-            </div>            
-            <div className='col-12 text-white'>
-                <a onClick={()=>{var g=count==1?1:count-1;setcount(g);}} className='btn btn-primary'>-</a>
-                &nbsp;&nbsp;&nbsp;{count}&nbsp;&nbsp;&nbsp;
-                <a onClick={()=>{var g=count+1;setcount(g);}} className='btn btn-primary'>+</a>
-            <br/><br/>
-            </div>
-            <div className='col-12'>
-            <div className='row g-3'>
-                    {extrarow}
-                </div>
-            </div>
-            <div className='col-12'>
-            <br/><br/>
-            <textarea id="textareamsg" style={{"width":"20rem"}} placeholder={MyLang["leavemsg"]} maxLength={50} />          
-            </div>
-            <div className='col-12'>
-            <br/><br/>
-            <a className='btn btn-primary' onClick={addOrder}>{editordercheck?MyLang["edit"]:MyLang["add"]}</a>&nbsp;&nbsp;
-            <a className='btn btn-danger' id='btn-cancel'>{MyLang["cancel"]}</a>
-            </div>
-            </div>
-        </div>
+        <MyNavbar/>
+       <Container/>
 </>);
 }

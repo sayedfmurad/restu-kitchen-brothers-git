@@ -1,11 +1,5 @@
-import sys
-from main.pythonfiles import DevAndPub
-from main.pythonfiles import staticvalues
+import sys,os
+from main.pythonfiles import IsDev
 
-
-if sys.argv[1] == "list":
-    for mm in staticvalues.restus["objs"]:
-        print(mm)
-else :
-    DevAndPub.main(sys.argv)
+IsDev.main(sys.argv)
 

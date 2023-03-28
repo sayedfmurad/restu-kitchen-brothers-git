@@ -1,96 +1,99 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
 import MyNavbar from "../components/navbar/MyNavbar"
-import menu from "../public/database/menu.json"
 import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
 import packagee from "../package.json"
-export default function Cart() {
+
+export function Container(){
     const MyLang = langswitch.langswitchs("cart");
+    var menu = {}
     var [pressed,setpressed] = useState(false);
     var [spinnerbar,setspinnerbar] = useState("d-none");
     var [spaterodernow,setspaterodernow] = useState("d-none");
     var rows = [];        
     var crows = [];
-    const startpay= ()=>{
-          const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
-          let t = false;
-          if(document.getElementById("bar-outlined").checked)
-          t="bar";
-          else if(document.getElementById("paypal-outlined").checked || document.getElementById("DCcard-outlined").checked|| document.getElementById("spea-outlined").checked|| document.getElementById("giropay-outlined").checked|| document.getElementById("sofort-outlined").checked)
-          t="paypal";
-          else 
-          {
-            alert("bitte wählen Sie eine Zahlungsmethode, Bar oder Paypal");
-            return false;
-          }
-          
-          setpressed(true);
-          setspinnerbar("")
-    
-          var parms = {}
-          var orders = langswitch.getJson("order")
-          var address = langswitch.getJson("address")
-          var seladd = langswitch.getValue("seladdress")
-          var time =  new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));           
-          parms["type"] = t;
-          parms["menu"] = menu["staticValue"]["menuurl"]
-          parms["address"] = address[seladd];
-          parms["orders"] = orders;
-          if(!packagee["IsOut"])
-          {
-              parms["servertest"]=""
-              parms["TestTelegram"]=""
-              parms["istest"]=""
-          }
-          var TimeSettedDelivery=document.getElementById("selectedtimedelivery").value
-          TimeSettedDelivery = spaterodernow == "d-none"?"":TimeSettedDelivery
-          if (TimeSettedDelivery !="")
-            parms["TimeSettedDelivery"]=TimeSettedDelivery
-          var MainOrderId = time.getTime() + JSON.stringify(parms);
-          MainOrderId = hash(MainOrderId);            
-          parms["MainId"]=MainOrderId;
-          parms["time"]="";
-          parms["createtime"]=time.getTime();
-          var MainOrder = langswitch.getJson("mainorder");
-          MainOrder[MainOrderId]=parms      
-          parms = JSON.stringify(parms);
-          window.localStorage.setItem("lastOrderId",MainOrderId);
-          let mheaders = new Headers();
-          mheaders.append('Origin','*');
-          fetch(urll, {
-            method: 'POST', // or 'PUT'
-            headers: mheaders,
-            body: parms
-          })
-          .then(data => { 
-            if(data.body)
-            {
-              if(data.status != 200)
-              throw new Error("Error");
-              
-              window.localStorage.setItem("mainorder",JSON.stringify(MainOrder));
-              if(t=="bar")
-              window.location.href=langswitch.RouteP("success");
-              else if(t=="paypal")
-              window.location.href=langswitch.RouteP("paypal");
-            }
-            else
-            throw new Error("error");
-          })
-          .catch((error) => {            
-            window.location.href=langswitch.RouteP("failure");
-            langswitch.ClearAllData();       
-            console.error('Error:', error);
-          })
-      }
+  
     if(process.browser)
-    {        
+    {   
+        const startpay= ()=>{
+            const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
+            let t = false;
+            if(document.getElementById("bar-outlined").checked)
+            t="bar";
+            else if(document.getElementById("paypal-outlined").checked || document.getElementById("DCcard-outlined").checked|| document.getElementById("spea-outlined").checked|| document.getElementById("giropay-outlined").checked|| document.getElementById("sofort-outlined").checked)
+            t="paypal";
+            else 
+            {
+              alert("bitte wählen Sie eine Zahlungsmethode, Bar oder Paypal");
+              return false;
+            }
+            
+            setpressed(true);
+            setspinnerbar("")
+      
+            var parms = {}
+            var orders = langswitch.getJson("order")
+            var address = langswitch.getJson("address")
+            var seladd = langswitch.getValue("seladdress")
+            var time =  new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));           
+            parms["type"] = t;
+            parms["menu"] = menu["staticValue"]["menuurl"]
+            parms["address"] = address[seladd];
+            parms["orders"] = orders;
+            if(!packagee["IsOut"])
+            {
+                parms["servertest"]=""
+                parms["TestTelegram"]=""
+                parms["istest"]=""
+            }
+            var TimeSettedDelivery=document.getElementById("selectedtimedelivery").value
+            TimeSettedDelivery = spaterodernow == "d-none"?"":TimeSettedDelivery
+            if (TimeSettedDelivery !="")
+              parms["TimeSettedDelivery"]=TimeSettedDelivery
+            var MainOrderId = time.getTime() + JSON.stringify(parms);
+            MainOrderId = hash(MainOrderId);            
+            parms["MainId"]=MainOrderId;
+            parms["time"]="";
+            parms["createtime"]=time.getTime();
+            var MainOrder = langswitch.getJson("mainorder");
+            MainOrder[MainOrderId]=parms      
+            parms = JSON.stringify(parms);
+            window.localStorage.setItem("lastOrderId",MainOrderId);
+            let mheaders = new Headers();
+            mheaders.append('Origin','*');
+            fetch(urll, {
+              method: 'POST', // or 'PUT'
+              headers: mheaders,
+              body: parms
+            })
+            .then(data => { 
+              if(data.body)
+              {
+                if(data.status != 200)
+                throw new Error("Error");
+                
+                window.localStorage.setItem("mainorder",JSON.stringify(MainOrder));
+                if(t=="bar")
+                window.location.href=langswitch.RouteP("success");
+                else if(t=="paypal")
+                window.location.href=langswitch.RouteP("paypal");
+              }
+              else
+              throw new Error("error");
+            })
+            .catch((error) => {            
+              window.location.href=langswitch.RouteP("failure");
+              langswitch.ClearAllData();       
+              console.error('Error:', error);
+            })
+        }
+        const menu = langswitch.getJson("menu")
         var addre=langswitch.getJson("address");
         var seladdre=langswitch.getValue("seladdress");
         const CheckOutBtn = e=>
         {
-            if(langswitch.CheckMinPriceOrder(sum)){
+            if(langswitch.CheckMinPriceOrder(sum,menu)){
                 var seladd = langswitch.getValue("seladdress")
                 if(seladd != "")
                 {
@@ -376,6 +379,18 @@ export default function Cart() {
         window.localStorage.setItem("sumprice",sum);
     }
     
+
+    return    <div className="container mt-3 ">
+    <ul className='list-group mb-3'>
+    {crows}
+    </ul>
+    {rows}    
+</div>
+}
+
+export default function Cart() {
+    const MyLang = langswitch.langswitchs("cart");
+    
     return (
     <>
     <Head>
@@ -383,12 +398,7 @@ export default function Cart() {
     <link href="./mystyles/cart.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
-    <div className="container mt-3 ">
-        <ul className='list-group mb-3'>
-        {crows}
-        </ul>
-        {rows}    
-    </div>
+    <Container/>
     </>
     );
 }

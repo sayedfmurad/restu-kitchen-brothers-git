@@ -3,23 +3,40 @@ import langswitch from '../components/Utils/langswitch'
 import MyNavbar from "../components/navbar/MyNavbar"
 import Head from 'next/head'
 import packagee from "../package.json"
-import menu from "../public/database/menu"
+
+export function Container(){
+  if(process.browser)
+  {
+    const menu = langswitch.getJson("menu")
+    setTimeout(() => {GotMenu(menu)}, 100);    
+    
+    
+    const GotMenu=(menu)=>{
+      const scriptout = packagee["IsOut"] ?`https://www.paypal.com/sdk/js?client-id=${menu["staticValue"]["pc"]}&currency=EUR`
+      :`https://www.paypal.com/sdk/js?client-id=ActZu8JlaaToqIk6t8EAKNoIBHXuVo3ENRww7kmsMyoPZGeEqNJmm1yvYQrJXZUltmbq0SJowjEW3nyM&currency=EUR`
+
+      console.log(scriptout)
+      const script = document.createElement("script");
+      script.src = scriptout;
+      script.setAttribute("data-sdk-integration-source", "button-factory")
+      document.body.appendChild(script);
+      const script1 = document.createElement("script");
+      script1.src = "./scripts/paypalpay.js";
+      script1.setAttribute("data-sdk-integration-source", "button-factory")
+      document.body.appendChild(script1);
+      
+
+    }
+    
+  
+  }
+  return <>{}</>
+}
+
+
 export default function paypall() {
 const MyLang = langswitch.langswitchs("paypal");
-var scriptout = packagee["IsOut"] ?
-         <script src={`https://www.paypal.com/sdk/js?client-id=${menu["staticValue"]["pc"]}&currency=EUR`} data-sdk-integration-source="button-factory"></script>
-         :<script src={`https://www.paypal.com/sdk/js?client-id=ActZu8JlaaToqIk6t8EAKNoIBHXuVo3ENRww7kmsMyoPZGeEqNJmm1yvYQrJXZUltmbq0SJowjEW3nyM&currency=EUR`} data-sdk-integration-source="button-factory"></script>
-if(process.browser)
-{
-  var sum = langswitch.getNum("sumprice");
-  mainid = langswitch.getValue("lastOrderId");
-  sum = langswitch.stof(sum);
-  if(sum==0)
-  window.location.href=langswitch.RouteP("");
 
-  gsum=sum;
-  successpage = langswitch.RouteP("success");  
-}
 return (
   <>
      <Head>
@@ -32,10 +49,7 @@ return (
         <div id="paypal-button-container"></div>
       </div>
     </div>
- 
-    
-  {scriptout}
-  <script src='./scripts/paypalpay.js' />
+       <Container/>
   </>
 );
 }  
