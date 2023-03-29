@@ -5025,6 +5025,7 @@
             "tel": "021662781117",
             "zusatzStoffe":"1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan"
         },
+        "zusatzStoffe":"1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan",
         "menuurl": "http://kitchenBrothers.s3-website.eu-central-1.amazonaws.com/database/menu.json",
         "latlng": {
             "lat": 51.1570961,
