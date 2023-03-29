@@ -13,7 +13,8 @@ export default()=>{
             window.location.href = "./"
         })
         .catch(error => {
-            alert('Error fetching JSON file:', error)
+            window.location.href = "./"
+            alert("Resturant Not Found")
             console.error('Error fetching JSON file:', error);
         });
     },[])

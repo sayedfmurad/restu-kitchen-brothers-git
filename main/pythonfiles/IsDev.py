@@ -57,7 +57,7 @@ def dev():
     package["scripts"]["pub"]="yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
     with open('package.json', 'w') as outfile:
         json.dump(package, outfile)
-    getObjj()
+    getObjj()    
     
     # shutil.copy("./main/database/"+str(key)+".menu.json","public/database/menu.json")
 
@@ -67,4 +67,5 @@ def main(args):
             print(mm)
     elif args[1] == "dev":
         dev()
+        os.system("yarn dev")
     
