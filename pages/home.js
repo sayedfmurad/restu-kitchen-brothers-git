@@ -2,7 +2,7 @@ import langswitch from "../components/Utils/langswitch"
 
 export default ()=>{
 
-    const restus = ["kitchen-brothers","pizzeriavalentina","westendgrillundpizza"]
+    const restus = ["kitchen-brothers","pizzavalentina","westendgrillundpizza"]
     var out = []
     for(var h in restus)
     out.push(
