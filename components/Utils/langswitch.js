@@ -106,7 +106,7 @@ if(process.browser)
           if(openTime > TimeN) 
           {
                 console.log(openTime)
-              return "öffnet um "+this.getStringFormTimefromTimeStamp(openTime)
+              return "öffnet um "+this.getStringFormTimefromTimeStamp(openTime)+" Uhr"
           }     
         }
         return ""
@@ -144,7 +144,7 @@ if(process.browser)
         if(datee !== "")
         {            
             var hjkl = listdayD[datee.getDay()]
-            out = "öffnet am "+hjkl.substring(0,2)+" um "+this.getStringFormTimefromTimeStamp(datee)            
+            out = "öffnet am "+hjkl.substring(0,2)+" um "+this.getStringFormTimefromTimeStamp(datee)+" Uhr"            
         }
        }
 

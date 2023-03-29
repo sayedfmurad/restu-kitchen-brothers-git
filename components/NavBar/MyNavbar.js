@@ -14,12 +14,13 @@ export function Container(){
         setTimeout(() => {
             var hostname = window.location.hostname;
             hostname = hostname.split(".")
+            hostname[0]= hostname[0] == "www" ? "":hostname[0]
             hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")
             
             if(Object.keys(menu).length === 0){
                 if(hostname == "kitchen-brothers" || hostname == "westendgrillundpizza" || hostname == "pizzavalentina") 
                 {      
-                    window.location.href = "./"+hostname
+                    window.location.href = langswitch.RouteP(hostname)
                 }else
                 {
                     window.location.href =langswitch.RouteP("home")
