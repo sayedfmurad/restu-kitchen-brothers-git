@@ -12,7 +12,21 @@ export default ({sub}) => {
     if(process.browser)
     {
         const menu = langswitch.getJson("menu")
-        setTimeout(() => {setlogo(menu["staticValue"]["logo"])}, 100);
+        setTimeout(() => {
+            var hostname = window.location.hostname;
+            hostname = hostname.split(".")
+            hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")
+            if(Object.keys(menu).length === 0){
+                if(hostname == "kitchen-brothers" || hostname == "westendgrillundpizza" || hostname == "pizzavalentina") 
+                {      
+                  window.location.href = "./"+hostname
+                }
+            }
+            else{                                
+                setlogo(menu["staticValue"]["logo"])
+            }
+        
+        }, 100);
     }
 
     return (

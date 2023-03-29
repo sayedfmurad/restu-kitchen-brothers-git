@@ -2,7 +2,11 @@ import { useEffect } from "react"
 
 export default()=>{
     useEffect(()=>{
-        fetch("./database/"+window.location.pathname.split('/')[1]+".menu.json")
+        var url = window.location.pathname.split('/')[1]
+        url = url.split(".")[0]
+        url = "./database/"+url
+        url = url+".menu.json"
+        fetch(url)
         .then(response => response.json())
         .then(data => {
             window.localStorage.setItem("menu",JSON.stringify(data))            

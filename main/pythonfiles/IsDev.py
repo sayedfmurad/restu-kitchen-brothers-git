@@ -54,7 +54,7 @@ def getObjj():
 
 def dev():
     package["IsOut"]=False
-    # package["scripts"]["pub"]="yarn build && aws s3 sync ./out/ s3://"+str(objj["s3"])+" --profile my"
+    package["scripts"]["pub"]="yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
     with open('package.json', 'w') as outfile:
         json.dump(package, outfile)
     getObjj()
