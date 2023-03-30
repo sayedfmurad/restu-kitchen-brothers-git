@@ -5027,7 +5027,7 @@
         },
         "key":"kitchen-brothers",
         "zusatzStoffe":"1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan",
-        "menuurl": "https://angebote-restu.s3-website.eu-central-1.amazonaws.com/database/kitchenbrothers.menu.json",
+        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/kitchen-brothers.json",
         "latlng": {
             "lat": 51.1570961,
             "lng": 6.4813593

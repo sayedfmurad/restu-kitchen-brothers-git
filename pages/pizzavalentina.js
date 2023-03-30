@@ -5,7 +5,7 @@ export default()=>{
         var url = window.location.pathname.split('/')[1]
         url = url.split(".")[0]
         url = "./database/"+url
-        url = url+".menu.json"
+        url = url+".json"
         fetch(url)
         .then(response => response.json())
         .then(data => {
