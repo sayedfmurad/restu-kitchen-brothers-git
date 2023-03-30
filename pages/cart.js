@@ -77,7 +77,7 @@ export function Container(){
                 if(t=="bar")
                 window.location.href=langswitch.RouteP("success");
                 else if(t=="paypal")
-                window.location.href=langswitch.RouteP("paypal");
+                window.location.href=langswitch.RouteP(menu["staticValue"]["key"]+"-paypal");
               }
               else
               throw new Error("error");

@@ -1,15 +1,15 @@
-KitchenBrothers
------------------------
-customers need approved time for the order sms
-
-Valentina Pizzeria
------------------------
-kartoffelgerichte section check if items need option like in lieferando
-close open times
-check the distances for delivery in json file with the customer
-paypal should be added
-google website should be changed
 
 All
 -----------------------
 change structur of the option to be no name cause you forget to change name
+
+Your distance is more than each menu has its own distance
+
+
+
+Google-recaptcha
+sitekey
+6LfsAkElAAAAALDdQpV1__OSRGQg6il16IeelWuW
+
+secretkey
+6LfsAkElAAAAAJ70yBRP72AJZ3vQHsnJcpHhlU-h
