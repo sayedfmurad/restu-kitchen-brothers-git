@@ -16,17 +16,25 @@ export function Container(){
             hostname = hostname.split(".")
             hostname[0]= hostname[0] == "www" ? "":hostname[0]
             hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")
-            
+            const setClear = ()=>{
+                window.localStorage.clear()   
+                window.location.href="./"
+            }
             if(Object.keys(menu).length === 0){
                 if(hostname == "kitchen-brothers" || hostname == "westendgrillundpizza" || hostname == "pizzavalentina") 
-                {      
+                {                  
+
                     window.location.href = langswitch.RouteP(hostname)
                 }else
                 {
                     window.location.href =langswitch.RouteP("home")
                 }
             }
-            else{                         
+            else{
+                if(!("staticValue" in menu))
+                setClear(menu)
+                if(!("key" in menu["staticValue"]))
+                setClear(menu)                         
                 setlogo(<>
                         <a className="navbar-brand" >                        
                         <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>

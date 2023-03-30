@@ -10,8 +10,13 @@ export function IfCloseMsg(){
   var [out,setout] = useState(<></>)
   useEffect(()=>
   {
+   
+ 
+
     const menu = langswitch.getJson("menu")
     setTimeout(() => {
+
+
         var textOpenClose = langswitch.checkOpenCloseStore(menu)?"":"Geschlossen."   
         if(!langswitch.checkOpenCloseStore(menu))
         {
