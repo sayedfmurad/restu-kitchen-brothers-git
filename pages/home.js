@@ -1,8 +1,10 @@
+import { useEffect } from "react"
 import langswitch from "../components/Utils/langswitch"
-
 export default ()=>{
-
-    const restus = ["kitchen-brothers","pizzavalentina","westendgrillundpizza"]
+    useEffect(()=>{
+        window.localStorage.clear()
+    },[])
+    const restus = ["kitchen-brothers","pizzavalentina","westendgrillundpizza","leundlo"]
     var out = []
     for(var h in restus)
     out.push(
