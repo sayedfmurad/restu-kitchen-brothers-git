@@ -18,9 +18,9 @@ return (
         <div id="paypal-button-container"></div>
       </div>
     </div>
-       <script data-sdk-integration-source="button-factory" src='https://www.paypal.com/sdk/js?client-id=AfuSl7LqNnZtAwNFZ-PVW56KYsaBJvrg1USrJj1_7evZzCqGcXXktUWyRi6pKBlpa3PEVDyps8CeJD8i&currency=EUR'/>
+       {/* <script data-sdk-integration-source="button-factory" src='https://www.paypal.com/sdk/js?client-id=AfuSl7LqNnZtAwNFZ-PVW56KYsaBJvrg1USrJj1_7evZzCqGcXXktUWyRi6pKBlpa3PEVDyps8CeJD8i&currency=EUR'/> */}
+       <script data-sdk-integration-source="button-factory" src='https://www.paypal.com/sdk/js?client-id=ActZu8JlaaToqIk6t8EAKNoIBHXuVo3ENRww7kmsMyoPZGeEqNJmm1yvYQrJXZUltmbq0SJowjEW3nyM&currency=EUR'/>
        <script src='./scripts/paypalpay.js'/>
-       {/* `https://www.paypal.com/sdk/js?client-id=ActZu8JlaaToqIk6t8EAKNoIBHXuVo3ENRww7kmsMyoPZGeEqNJmm1yvYQrJXZUltmbq0SJowjEW3nyM&currency=EUR` */}
   </>
 );
 }  

@@ -28,39 +28,39 @@ export default ()=> {
       //       // console.log(token)
       //   });
       // });
+      const SendReqeusts=(token)=>{
+        
+                  const urll="https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws"
+                  let mheaders = new Headers();
+                  mheaders.append('Origin','*');
+                  fetch(urll, {
+                    method: 'POST', // or 'PUT'
+                    headers: mheaders,
+                    body: JSON.stringify({"ids":objtosend})
+                  }).then(response => {
+                    if(response.status==400)
+                    {setmsg("error");
+                    localStorage.setItem("mainorder",JSON.stringify({}))
+                    window.location.href=langswitch.RouteP("orders");
+                    }
+                    else if(response.status==200)
+                    {
+                      response.json().then(result => {
+                        for(var dl in result)
+                        orders[dl]["time"]=result[dl]["time"]
+                        localStorage.setItem("mainorder",JSON.stringify(orders) )
+                        window.location.href=langswitch.RouteP("orders")
+                      })
+                      .catch(error => {
+                        console.error('Error:', error);
+                        localStorage.setItem("mainorder",JSON.stringify({}))
+                        setmsg("error");
+                      })
+                    }
+                    
+                  })
+      }
       SendReqeusts("")
-        const SendReqeusts=(token)=>{
-          
-                    const urll="https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws"
-                    let mheaders = new Headers();
-                    mheaders.append('Origin','*');
-                    fetch(urll, {
-                      method: 'POST', // or 'PUT'
-                      headers: mheaders,
-                      body: JSON.stringify({"ids":objtosend})
-                    }).then(response => {
-                      if(response.status==400)
-                      {setmsg("error");
-                      localStorage.setItem("mainorder",JSON.stringify({}))
-                      window.location.href=langswitch.RouteP("orders");
-                      }
-                      else if(response.status==200)
-                      {
-                        response.json().then(result => {
-                          for(var dl in result)
-                          orders[dl]["time"]=result[dl]["time"]
-                          localStorage.setItem("mainorder",JSON.stringify(orders) )
-                          window.location.href=langswitch.RouteP("orders")
-                        })
-                        .catch(error => {
-                          console.error('Error:', error);
-                          localStorage.setItem("mainorder",JSON.stringify({}))
-                          setmsg("error");
-                        })
-                      }
-                      
-                    })
-        }
         
     }
     return (

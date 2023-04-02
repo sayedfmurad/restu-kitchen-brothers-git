@@ -4,7 +4,7 @@ export default ()=>{
     useEffect(()=>{
         window.localStorage.clear()
     },[])
-    const restus = ["kitchen-brothers","pizzavalentina","westendgrillundpizza","leundlo"]
+    const restus = ["kitchen-brothers","pizzavalentina","westendgrillundpizza","leundlo","pizzaland"]
     var out = []
     for(var h in restus)
     out.push(
