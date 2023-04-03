@@ -20,7 +20,6 @@ return (
     </div>
        <script data-sdk-integration-source="button-factory" src='https://www.paypal.com/sdk/js?client-id=Adry9vq8GYiagTwNC6I32XDRIYtDpHEIUCmoe14Kd7ujPsIUv2i6EPUTsVqV47rOuJJhh5Xdj4-nCnlN&currency=EUR'/>
        <script src='./scripts/paypalpay.js'/>
-       {/* `https://www.paypal.com/sdk/js?client-id=ActZu8JlaaToqIk6t8EAKNoIBHXuVo3ENRww7kmsMyoPZGeEqNJmm1yvYQrJXZUltmbq0SJowjEW3nyM&currency=EUR` */}
   </>
 );
 }  

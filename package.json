@@ -16,6 +16,7 @@
     "start": "next start",
     "cloud": "",
     "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\"",
+    "pub-db": "aws s3 sync ./public/database/ s3://angebote-restu/database/ --profile my",
     "pub": "yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
   },
   "lang": "de-de",
