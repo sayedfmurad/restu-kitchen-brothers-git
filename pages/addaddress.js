@@ -3,7 +3,6 @@ import MyNavbar from "../components/navbar/MyNavbar"
 import hash from "../components/Utils/object_hash"
 import langswitch from '../components/Utils/langswitch'
 import { useState } from 'react';
-
 export function Container(){
     const MyLang = langswitch.langswitchs("addaddress");  
     var [SearchSpinnerDisplay,setSearchSpinnerDisplay]=useState("d-none")
@@ -119,7 +118,6 @@ export function Container(){
     <br/>
     <br/>
     <div className='col-12'>
-
     <div class="form-group col-md-6 col-sm-12 ">
                 <div class="input-group mb-3">
                 <input placeholder='Such für eine Addresse' onBlur={IsOnBlur}  onKeyUp={keyIsUp}  type="text" className="form-control " id="autocomplete" aria-describedby="fnameHelp" />           

@@ -1,13 +1,28 @@
 let autocomplete;
+
+    function GetJsonM(m){
+        return new Promise((resolve, reject) => {
+            var or = window.localStorage.getItem(m)
+              or= or==null||or==""?"{}":or
+              resolve(JSON.parse(or))
+        });
+    }
     function initAutocomplete(){
-        autocomplete = new google.maps.places.Autocomplete(
-            document.getElementById('autocomplete'),
-            {
-                componentRestrictions:{'country':['DE']},
-                fields:['geometry','place_id','address_components',]
-            }
-        );
-        autocomplete.addListener('place_changed',onPlaceChanged)
+        GetJsonM("menu").then((menu)=>{
+            var searchBounds = new google.maps.Circle({
+                center: {lat:menu["staticValue"]["latlng"]["lat"], lng:menu["staticValue"]["latlng"]["lng"]},
+                radius: 20000 // 20km radius
+              });
+            autocomplete = new google.maps.places.Autocomplete(
+                document.getElementById('autocomplete'),
+                {
+                    componentRestrictions:{'country':['DE']},
+                    fields:['geometry','place_id','address_components',]
+                }
+            );
+            autocomplete.setBounds(searchBounds.getBounds());
+            autocomplete.addListener('place_changed',onPlaceChanged)
+        })
 
     }
     let place;
