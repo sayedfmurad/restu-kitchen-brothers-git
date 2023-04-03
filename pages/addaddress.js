@@ -2,14 +2,21 @@ import Head from 'next/head'
 import MyNavbar from "../components/navbar/MyNavbar"
 import hash from "../components/Utils/object_hash"
 import langswitch from '../components/Utils/langswitch'
+import { useState } from 'react';
 
 export function Container(){
-    const MyLang = langswitch.langswitchs("addaddress");    
+    const MyLang = langswitch.langswitchs("addaddress");  
+    var [SearchSpinnerDisplay,setSearchSpinnerDisplay]=useState("d-none")
     var menu = {}
     if(process.browser)    
     menu = langswitch.getJson("menu")
     
-
+    const keyIsUp = ()=>{
+        setSearchSpinnerDisplay("")
+    }
+    const IsOnBlur = ()=>{
+        setSearchSpinnerDisplay("d-none")
+    }
     const subb = (e)=>{
         if(process.browser)
         {            
@@ -103,7 +110,7 @@ export function Container(){
         <label for="phonen">Handynummer</label>
     <div className='input-group'>
         <span class="input-group-text" id="inputGroup-sizing-default">+49</span>            
-        <input type="text" class="form-control" aria-describedby="inputGroup-sizing-default" aria-label="Sizing example input" id="phonen"  placeholder=" Handynummer (Optional)" />
+        <input type="text"class="form-control" aria-describedby="inputGroup-sizing-default" aria-label="Sizing example input" id="phonen"  placeholder=" Handynummer (Optional)" />
     </div>            
     </div>            
     <br/>
@@ -112,8 +119,15 @@ export function Container(){
     <br/>
     <br/>
     <div className='col-12'>
-    <div class="form-group col-md-6 col-sm-12">
-        <input placeholder='Such für eine Addresse' type="text" class="form-control" id="autocomplete" aria-describedby="fnameHelp" />
+
+    <div class="form-group col-md-6 col-sm-12 ">
+                <div class="input-group mb-3">
+                <input placeholder='Such für eine Addresse' onBlur={IsOnBlur}  onKeyUp={keyIsUp}  type="text" className="form-control " id="autocomplete" aria-describedby="fnameHelp" />           
+                <span className={`${SearchSpinnerDisplay} input-group-text`}>
+                <div class=" spinner-border text-primary col-3" role="status" />
+                </span>
+            </div>
+            
     </div>            
     </div>
     <br/>

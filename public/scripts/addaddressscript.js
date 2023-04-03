@@ -8,6 +8,7 @@ let autocomplete;
             }
         );
         autocomplete.addListener('place_changed',onPlaceChanged)
+
     }
     let place;
     let mlocation = {"housenumber":"",
@@ -17,7 +18,6 @@ let autocomplete;
 function onPlaceChanged()
 {
      place = autocomplete.getPlace();
-
     if(!place.geometry)
     {
         // User did not select a prediction
