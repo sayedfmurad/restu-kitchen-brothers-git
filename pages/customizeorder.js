@@ -23,8 +23,9 @@ export function Container(){
 
         for(var op in e["options"])                
         {
+            console.log(e)
                 tempsubobj.push(                     
-                            <option  value={op}>{menu["options"][op]}&nbsp;{e["showprice"]?" "+e["options"][op]["price"]+" €":""}</option>
+                            <option  value={op}>{op}&nbsp;{e["showprice"]?" "+e["options"][op]["price"]+" €":""}</option>
                     )
                 }
                 const getoption =(ee)=>{                    

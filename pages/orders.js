@@ -41,7 +41,7 @@ export function Container(){
 
                         var option = []
                         for(var oobo in or["orders"][ke]["option"])                        
-                        option.push(<>{langswitch.firstUpper(oobo)+" : "+langswitch.firstUpper(menu["options"][or["orders"][ke]["option"][oobo]] )}<br/></>)
+                        option.push(<>{langswitch.firstUpper(oobo)+" : "+langswitch.firstUpper(or["orders"][ke]["option"][oobo])}<br/></>)
                         crows.push(
                         <li className="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
