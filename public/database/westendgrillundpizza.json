@@ -95,7 +95,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -113,7 +113,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -129,7 +129,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -146,7 +146,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -164,7 +164,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -182,7 +182,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -200,7 +200,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -217,7 +217,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -237,8 +237,8 @@
                         "showprice": false,
                         "name":"Beilage",
                         "options":{
-                            "pommes":{"price":"0,00"}
-                            ,"reis":{"price":"0,00"}
+                            "Pommes":{"price":"0,00"}
+                            ,"Reis":{"price":"0,00"}
                         }
                     },
         "Sauce":
@@ -246,10 +246,10 @@
                         "showprice": false,
                         "name":"Sauce",
                         "options":{
-                            "ohnesauce":{"price":"0,00"}
-                            ,"cocktailsauce":{"price":"0,00"}
-                            ,"knoblauchsauce":{"price":"0,00"}
-                            ,"knobandcocktail":{"price":"0,00"}
+                            "ohne Sauce":{"price":"0,00"}
+                            ,"Cocktailsauce":{"price":"0,00"}
+                            ,"Knoblauchsauce":{"price":"0,00"}
+                            ,"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}
                         }
                     }
         }
@@ -270,7 +270,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -287,7 +287,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -304,7 +304,7 @@
         {
             "showprice":false,
             "name":"Sauce",
-            "options":{"ohnesauce":{"price":"0,00"},"cocktailsauce":{"price":"0,00"},"knoblauchsauce":{"price":"0,00"},"knobandcocktail":{"price":"0,00"}}
+            "options":{"ohne Sauce":{"price":"0,00"},"Cocktailsauce":{"price":"0,00"},"Knoblauchsauce":{"price":"0,00"},"Knoblauchsauce und Cocktailsauce":{"price":"0,00"}}
         }},
     "section": "DREHSPIEß"
 },
@@ -2105,14 +2105,6 @@
                 "des":"Alle Gerichte mit Pommes od. Reis und Salat als Beilage"
             }
         }
-    },
-    "options":{
-     "cocktailsauce":"Cocktailsauce",
-     "knoblauchsauce":"Knoblauchsauce",
-     "knobandcocktail":"Knoblauchsauce und Cocktailsauce",
-     "ohnesauce":"ohne Sauce",
-     "pommes":"Pommes",
-     "reis":"Reis"
     },
     "b":{
         "t":"wqjCmMKkwpjCnsKZwqHCp8KswqPCn8KvwqXCtMKyw5TCo8OYw5bDjcK2wq_Cv8OOw5TDn8OQw53DkMOVw5HDl8K3w5DDg8OgwqvCv8KxwqnCuMOKw6XDgMOPwrg=",

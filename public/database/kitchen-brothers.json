@@ -528,13 +528,13 @@
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
-                        "spaghetti": {
+                        "Spaghetti": {
                             "price": "0,00"
                         },
-                        "linguine": {
+                        "Linguine": {
                             "price": "0,00"
                         },
-                        "penne": {
+                        "Penne": {
                             "price": "0,00"
                         }
                     }
@@ -555,13 +555,13 @@
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
-                        "spaghetti": {
+                        "Spaghetti": {
                             "price": "0,00"
                         },
-                        "linguine": {
+                        "Linguine": {
                             "price": "0,00"
                         },
-                        "penne": {
+                        "Penne": {
                             "price": "0,00"
                         }
                     }
@@ -582,13 +582,13 @@
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
-                        "spaghetti": {
+                        "Spaghetti": {
                             "price": "0,00"
                         },
-                        "linguine": {
+                        "Linguine": {
                             "price": "0,00"
                         },
-                        "penne": {
+                        "Penne": {
                             "price": "0,00"
                         }
                     }
@@ -609,13 +609,13 @@
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
-                        "spaghetti": {
+                        "Spaghetti": {
                             "price": "0,00"
                         },
-                        "linguine": {
+                        "Linguine": {
                             "price": "0,00"
                         },
-                        "penne": {
+                        "Penne": {
                             "price": "0,00"
                         }
                     }
@@ -636,13 +636,13 @@
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
-                        "spaghetti": {
+                        "Spaghetti": {
                             "price": "0,00"
                         },
-                        "linguine": {
+                        "Linguine": {
                             "price": "0,00"
                         },
-                        "penne": {
+                        "Penne": {
                             "price": "0,00"
                         }
                     }
@@ -663,13 +663,13 @@
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
-                        "spaghetti": {
+                        "Spaghetti": {
                             "price": "0,00"
                         },
-                        "linguine": {
+                        "Linguine": {
                             "price": "0,00"
                         },
-                        "penne": {
+                        "Penne": {
                             "price": "0,00"
                         }
                     }
@@ -690,13 +690,13 @@
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
-                        "spaghetti": {
+                        "Spaghetti": {
                             "price": "0,00"
                         },
-                        "linguine": {
+                        "Linguine": {
                             "price": "0,00"
                         },
-                        "penne": {
+                        "Penne": {
                             "price": "0,00"
                         }
                     }
@@ -717,13 +717,13 @@
                     "showprice": false,
                     "name": "Ihre Pasta",
                     "options": {
-                        "spaghetti": {
+                        "Spaghetti": {
                             "price": "0,00"
                         },
-                        "linguine": {
+                        "Linguine": {
                             "price": "0,00"
                         },
-                        "penne": {
+                        "Penne": {
                             "price": "0,00"
                         }
                     }
@@ -743,13 +743,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -770,13 +770,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -797,13 +797,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -824,13 +824,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -851,13 +851,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -878,13 +878,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -905,13 +905,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -932,13 +932,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -959,13 +959,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -986,13 +986,13 @@
                     "showprice": false,
                     "name": "Ihre Dressig",
                     "options": {
-                        "cocktaildressing": {
+                        "Cocktail Dressing": {
                             "price": "0,00"
                         },
-                        "joghurtdressing": {
+                        "Joghurt Dressing": {
                             "price": "0,00"
                         },
-                        "ohnedressing": {
+                        "Ohne Dressing": {
                             "price": "0,00"
                         }
                     }
@@ -1143,13 +1143,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1170,13 +1170,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1197,13 +1197,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1224,13 +1224,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1251,13 +1251,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1278,13 +1278,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1305,13 +1305,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1332,13 +1332,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1359,13 +1359,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1386,13 +1386,13 @@
                     "showprice": false,
                     "name": "Ihre Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1720,31 +1720,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1753,28 +1753,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -1795,31 +1795,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1828,28 +1828,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -1870,31 +1870,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1903,28 +1903,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -1945,31 +1945,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -1978,28 +1978,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2020,31 +2020,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2053,28 +2053,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2095,31 +2095,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2128,28 +2128,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2170,31 +2170,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2203,28 +2203,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2245,31 +2245,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2278,28 +2278,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2320,31 +2320,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2353,28 +2353,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2395,31 +2395,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2428,28 +2428,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2470,31 +2470,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2503,28 +2503,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2545,31 +2545,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2578,28 +2578,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2620,31 +2620,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2653,28 +2653,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2695,31 +2695,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2728,28 +2728,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2770,31 +2770,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2803,28 +2803,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2845,31 +2845,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2878,28 +2878,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2920,31 +2920,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -2953,28 +2953,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -2995,31 +2995,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -3028,28 +3028,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -3070,31 +3070,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -3103,28 +3103,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -3145,31 +3145,31 @@
                     "showprice": false,
                     "name": "Ihr Pommes frites - Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -3178,28 +3178,28 @@
                     "showprice": true,
                     "name": "Ihr Getränk",
                     "options": {
-                        "Coca-Cola0,33l": {
+                        "Coca-Cola 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Coca-Colazero0,33l": {
+                        "Coca-Cola zero 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Fanta0,33l": {
+                        "Fanta 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "FantaExotic0,33l": {
+                        "Fanta Exotic 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "MezzoMix0,33l": {
+                        "Mezzo Mix 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "Mineralwasser0,33l": {
+                        "Mineralwasser 0,33l": {
                             "price": "0,25"
                         },
-                        "Sprite0,33l": {
+                        "Sprite 0,33l (EINWEG)": {
                             "price": "0,25"
                         },
-                        "ohneGetränk": {
+                        "ohne Getränk": {
                             "price": "0,00"
                         }
                     }
@@ -3261,34 +3261,34 @@
                     "showprice": false,
                     "name": "Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -3310,34 +3310,34 @@
                     "showprice": false,
                     "name": "Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         },
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         }
                     }
@@ -3346,34 +3346,34 @@
                     "showprice": false,
                     "name": "Ihr Dip 2",
                     "options": {
-                        "ohnedip": {
+                        "Ohne Dip": {
                             "price": "0,00"
                         },
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -3402,31 +3402,31 @@
                     "showprice": false,
                     "name": "Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -3447,31 +3447,31 @@
                     "showprice": false,
                     "name": "Ihr Dip",
                     "options": {
-                        "aioli": {
+                        "Aioli": {
                             "price": "0,00"
                         },
-                        "barbecue": {
+                        "Barbecue": {
                             "price": "0,00"
                         },
-                        "chii-mayonnaise": {
+                        "Chii-Mayonnaise": {
                             "price": "0,00"
                         },
-                        "joppie": {
+                        "Joppie": {
                             "price": "0,00"
                         },
-                        "ketchup": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
                         "kitchen-brothers-dip": {
                             "price": "0,00"
                         },
-                        "mayonnaise": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
                         "Kräuterbutter": {
                             "price": "0,00"
                         },
-                        "sweet-chili-dip": {
+                        "Sweet-Chili-Dip": {
                             "price": "0,00"
                         }
                     }
@@ -3697,7 +3697,7 @@
         },
         "kaseuberbacken": {
             "section": [
-                "spaghetti",
+                "Spaghetti",
                 "PENNE NUDELN"
             ],
             "stand": {
@@ -4670,29 +4670,29 @@
                 "name": "schinken"
             }
         },
-        "spaghetti": {
+        "Spaghetti": {
             "section": [
                 "pizzen"
             ],
             "stand": {
                 "price": "1,50",
-                "name": "spaghetti"
+                "name": "Spaghetti"
             },
             "24cm": {
                 "price": "1,50",
-                "name": "spaghetti"
+                "name": "Spaghetti"
             },
             "30cm": {
                 "price": "2,00",
-                "name": "spaghetti"
+                "name": "Spaghetti"
             },
             "40cm": {
                 "price": "3,00",
-                "name": "spaghetti"
+                "name": "Spaghetti"
             },
             "60cm": {
                 "price": "0,0",
-                "name": "spaghetti"
+                "name": "Spaghetti"
             }
         },
         "spinat": {
@@ -4718,7 +4718,7 @@
             },
             "60cm": {
                 "price": "0,0",
-                "name": "spaghetti"
+                "name": "Spaghetti"
             }
         },
         "sucuk": {
@@ -5140,7 +5140,7 @@
             "PASTA": {
                 "section": "PASTA",
                 "des": "Alle Nudelgerichte werden mit einer Nudelsorte nach Wahl zubereitet, Alle Nudelgerichte werden mit 4 Paninis und Kräuterbutter serviert.",
-                "img": "SPAGHETTI"
+                "img": "Spaghetti"
             },
             "MEATLOVERS": {
                 "section": "MEATLOVERS",
@@ -5205,42 +5205,6 @@
                 "des": ""
             }
         }
-    },
-    "options": {
-        "6Stück": "6 Stück ",
-        "9Stück": "9 Stück ",
-        "8Stück": "8 Stück ",
-        "12Stück": "12 Stück ",
-        "Coca-Cola0,33l": "Coca-Cola 0,33l (EINWEG)",
-        "Coca-Colazero0,33l": "Coca-Cola zero 0,33l (EINWEG)",
-        "Fanta0,33l": "Fanta 0,33l (EINWEG)",
-        "FantaExotic0,33l": "Fanta Exotic 0,33l (EINWEG)",
-        "MezzoMix0,33l": "Mezzo Mix 0,33l (EINWEG)",
-        "Mineralwasser0,33l": "Mineralwasser 0,33l",
-        "Sprite0,33l": "Sprite 0,33l (EINWEG)",
-        "ohneGetränk": "ohne Getränk",
-        "aioli": "Aioli",
-        "barbecue": "Barbecue",
-        "chii-mayonnaise": "Chii-Mayonnaise",
-        "joppie": "Joppie",
-        "ketchup": "Ketchup",
-        "kitchen-brothers-dip": "Kitchen Brothers-Dip",
-        "mayonnaise": "Mayonnaise",
-        "sweet-chili-dip": "Sweet-Chili-Dip",
-        "Kräuterbutter": "Kräuterbutter",
-        "ohnedip": "Ohne Dip",
-        "spaghetti": "Spaghetti",
-        "linguine": "Linguine",
-        "penne": "Penne",
-        "cocktailsauce": "Cocktailsauce",
-        "knoblauchsauce": "Knoblauchsauce",
-        "knobandcocktail": "Knoblauchsauce und Cocktailsauce",
-        "ohnesauce": "ohne Sauce",
-        "pommes": "Pommes",
-        "reis": "Reis",
-        "cocktaildressing": "Cocktail Dressing",
-        "joghurtdressing": "Joghurt Dressing",
-        "ohnedressing": "Ohne Dressing"
     },
     "b": {
         "t": "wqjCnsKhwpTCosKbwqTCosKwwqnCn8KvwqXCtMKXw6TCucOKw4rCmsKywrzDp8KxwrfDo8OawqvDkcOCw4XDmsKcw6LDgsOow6jDisOSwrvDmMKcwp7CosOLwrw=",
