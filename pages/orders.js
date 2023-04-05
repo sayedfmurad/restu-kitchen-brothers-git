@@ -131,7 +131,7 @@ export default function A() {
     <>
     <Head>
     <title>{MyLang["title"]}</title>
-    <link href="https://angebote-restu.s3-website.eu-central-1.amazonaws.com/mystyles/cart.css" rel="stylesheet" />
+    <link href="./mystyles/cart.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
     <Container/>    

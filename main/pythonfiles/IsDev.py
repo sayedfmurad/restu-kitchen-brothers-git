@@ -23,12 +23,9 @@ package = {
   "version": "0.1.0",
   "private": True,
   "dependencies": {
-    "@next/font": "13.1.4",
-    "eslint": "8.32.0",
-    "eslint-config-next": "13.1.4",
-    "next": "13.1.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
   },
   "scripts": {
     "dev": "next dev",

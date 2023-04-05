@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Head from 'next/head'
 import MyNavbar from "../components/navbar/MyNavbar"
 import langswitch from '../components/Utils/langswitch'
@@ -45,7 +44,7 @@ export default function Selectadd() {
                 <img  height="21px" src={"./Images/edit.svg"}/>
                 </a> */}
                 <a data-id={g} onClick={deladd} className="m-2 btn btn-danger col-md-2 col-sm-2"  href={langswitch.RouteP("selectadd")}>
-                <Image alt=""  height="21px" src={"./Images/delete.svg"}/>
+                <img  height="21px" src={"./Images/delete.svg"}/>
                 </a>
                 </div>
                 var myvar = 
@@ -78,6 +77,7 @@ return(
 <>
 <Head>
         <title>{MyLang["title"]}</title>
+        <link href="./mystyles/selectadd.css" rel="stylesheet" />
 </Head>
 <MyNavbar/>
 <div className="container mt-4 p-2" id="cont">

@@ -37,8 +37,10 @@ export default function Adsf(){
   }, []);
 
   return (
+    <>
     <div className="container mt-5 mb-5">
       <div className="row g-2">{rows}</div>
     </div>
+    </>
   );
 };

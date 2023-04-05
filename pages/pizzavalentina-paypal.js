@@ -10,7 +10,7 @@ return (
   <>
      <Head>
       <title>{MyLang["title"]}</title>      
-      <link href="https://angebote-restu.s3-website.eu-central-1.amazonaws.com/mystyles/paypal.css" rel="stylesheet" />
+      <link href="./mystyles/paypal.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
     <div id="smart-button-container ">

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import React, { useState } from 'react';
 import MyNavbar from '@/components/NavBar/MyNavbar';
 import langswitch from '../components/Utils/langswitch'
@@ -349,7 +348,7 @@ export function Container(){
                 <label class="btn btn-outline-warning text-black" for="bar-outlined">Bar</label>
                 &nbsp;
                 <input type="radio" class="btn-check" name="options-outlined" id="paypal-outlined" />
-                <label class="btn btn-outline-warning" for="paypal-outlined"><Image alt="" height="15px" src="./Images/paypalsvg.svg"/></label>
+                <label class="btn btn-outline-warning" for="paypal-outlined"><img height="15px" src="./Images/paypalsvg.svg"/></label>
                 &nbsp;
                 <input type="radio" class="btn-check" name="options-outlined" id="DCcard-outlined" />
                 <label style={{"fontSize":"0.6rem;"}}  class="btn btn-outline-warning text-black" for="DCcard-outlined">Debit Card</label>
@@ -357,13 +356,13 @@ export function Container(){
                 </div>            
                 <div className="d-flex justify-content-start mb-4">                
                 <input type="radio" class="btn-check" name="options-outlined" id="spea-outlined" />
-                <label class="btn btn-outline-warning" for="spea-outlined"><Image alt="" height="15px" src="./Images/spea.svg"/></label>
+                <label class="btn btn-outline-warning" for="spea-outlined"><img height="15px" src="./Images/spea.svg"/></label>
                 &nbsp;
                 <input type="radio" class="btn-check" name="options-outlined" id="giropay-outlined" />
-                <label class="btn btn-outline-warning" for="giropay-outlined"><Image alt=""  height="25px" src="./Images/giropay.svg"/></label>
+                <label class="btn btn-outline-warning" for="giropay-outlined"><img height="25px" src="./Images/giropay.svg"/></label>
                 &nbsp;
                 <input type="radio" class="btn-check" name="options-outlined" id="sofort-outlined" />
-                <label class="btn btn-outline-warning" for="sofort-outlined"><Image alt=""  height="25px" src="./Images/sofortsvg.svg"/></label>
+                <label class="btn btn-outline-warning" for="sofort-outlined"><img height="25px" src="./Images/sofortsvg.svg"/></label>
             </div>            
             </div>
             </div>
@@ -403,7 +402,7 @@ export default function Cart() {
     <>
     <Head>
     <title>{MyLang["title"]}</title>
-    <link href="https://angebote-restu.s3-website.eu-central-1.amazonaws.com/mystyles/cart.css" rel="stylesheet" />
+    <link href="./mystyles/cart.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
     <Container/>

@@ -1,7 +1,7 @@
+
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
-import MyNavbar from "../components/navbar/MyNavbar"
-import Infos from "../components/Index/Infos"
+import MyNavbar from "../components/NavBar/MyNavbar"
 import Sections from "../components/Index/sections"
 import langswitch from "../components/Utils/langswitch"
 import Image from 'next/image'
@@ -15,7 +15,7 @@ export function GetOnAndroid(){
             hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")
             if(hostname == "westendgrillundpizza"||false)             
             {
-              setbtn(<Image alt="" src='./Images/getonandroid.png'/>)
+              setbtn(<img alt="" src='./Images/getonandroid.png'/>)
             }
   },[])
   return btn
@@ -60,11 +60,11 @@ export default function Index() {
   return (
    <>
     <Head>
-      <title>{MyLang["title"]}</title>
-      <link href="./mystyles/homepage.css" rel="stylesheet" />
+      <title>{MyLang["title"]}</title>      
       {/* <meta name="DC.title" content={`${menu["staticValue"]["kontakt"]["name"]} - Essen Online bestellen in ${menu["staticValue"]["kontakt"]["city"]}`} /> */}
       <meta name="robots" content="index,follow"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+      <link href="./mystyles/homepage.css" rel="stylesheet" />
     </Head>   
     {/* <div className="specially mbackground"></div>  */}
     <MyNavbar/>  
