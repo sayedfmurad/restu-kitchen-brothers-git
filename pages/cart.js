@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
-import MyNavbar from "../components/navbar/MyNavbar"
+import MyNavbar from '@/components/NavBar/MyNavbar';
 import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
 import packagee from "../package.json"
@@ -38,6 +38,13 @@ export function Container(){
             var seladd = langswitch.getValue("seladdress")
             var time =  new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));           
             parms["type"] = t;
+            if(t=="paypal")
+            {
+                const hostname = window.location.hostname;
+                const isOutPackage= packagee["IsOut"]?"html":""
+                parms["successurl"] = "https://"+hostname+"/success"+isOutPackage
+                parms["failureurl"] = "https://"+hostname+"/cart"+isOutPackage
+            }
             parms["menu"] = menu["staticValue"]["menuurl"]
             parms["address"] = address[seladd];
             parms["orders"] = orders;
@@ -66,23 +73,21 @@ export function Container(){
               method: 'POST', // or 'PUT'
               headers: mheaders,
               body: parms
-            })
-            .then(data => { 
-              if(data.body)
-              {
-                if(data.status != 200)
+            }).then(response => {
+                if(response.status != 200)
                 throw new Error("Error");
-                
+                return response.json();
+              }).then(data => {                                
                 window.localStorage.setItem("mainorder",JSON.stringify(MainOrder));
                 if(t=="bar")
                 window.location.href=langswitch.RouteP("success");
                 else if(t=="paypal")
                 {
+                    if("paypalurl" in data)
+                    window.location.href=data["paypalurl"] 
+                    else
                     window.location.href=langswitch.RouteP(menu["staticValue"]["key"]+"-paypal");                    
                 }                
-              }
-              else
-              throw new Error("error");
             })
             .catch((error) => {            
               window.location.href=langswitch.RouteP("failure");
