@@ -35,7 +35,8 @@ package = {
     "build": "yarn config-static && next build && next export  ",
     "start": "next start",      
     "cloud":"",
-    "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\""
+    "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\"",
+    "db": "aws s3 sync ./public/database/ s3://angebote-restu/database/ --profile my"    
   },  
   "lang": "de-de",
   "IsOut": False
