@@ -60,9 +60,9 @@
   "resolved" "https://registry.npmjs.org/@next/font/-/font-13.1.4.tgz"
   "version" "13.1.4"
 
-"@next/swc-win32-x64-msvc@13.1.4":
-  "integrity" "sha512-bygNjmnq+F9NqJXh7OfhJgqu6LGU29GNKQYVyZkxY/h5K0WWUvAE/VL+TdyMwbvQr9KByx5XLwORwetLxXCo4g=="
-  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.1.4.tgz"
+"@next/swc-darwin-x64@13.1.4":
+  "integrity" "sha512-WoApDo8xfafrNc9+Mz5MwGFKUwbDHsGqLleTGZ8upegwVqDyHsYzqJQudf+loqhV58oGTOqP1eWaHn2J7dijXA=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-13.1.4.tgz"
   "version" "13.1.4"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -85,13 +85,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
-
-"@paypal/paypal-js@^5.1.6":
-  "integrity" "sha512-1upF06pv0AUtTftRVSra44p8ibqGa3ruKLArvdhpZla25zcrND7R+nDUIMrJ0iteVYZowhujZStFs6NoruExfg=="
-  "resolved" "https://registry.npmjs.org/@paypal/paypal-js/-/paypal-js-5.1.6.tgz"
-  "version" "5.1.6"
-  dependencies:
-    "promise-polyfill" "^8.3.0"
 
 "@pkgr/utils@^2.3.1":
   "integrity" "sha512-wfzX8kc1PMyUILA+1Z/EqoE4UCXGy0iRGMhPwdfae1+f0OXlLqCk+By+aMzgJBzR9AzS4CDizioG6Ss1gvAFJw=="
@@ -1538,11 +1531,6 @@
   "integrity" "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
   "version" "1.2.1"
-
-"promise-polyfill@^8.3.0":
-  "integrity" "sha512-H5oELycFml5yto/atYqmjyigJoAo3+OXwolYiH7OfQuYlAqhxNvTfiNMbV9hsC6Yp83yE5r2KTVmtrG6R9i6Pg=="
-  "resolved" "https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-8.3.0.tgz"
-  "version" "8.3.0"
 
 "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="

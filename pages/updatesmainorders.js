@@ -4,7 +4,7 @@ import MyNavbar from "../components/navbar/MyNavbar"
 import langswitch from '../components/Utils/langswitch'
 
 
-export default ()=> {
+export default function  A(){
     const MyLang = langswitch.langswitchs("updatesmainorders");
     var [msg,setmsg]=useState(MyLang["loading"]);
     if(process.browser){
@@ -67,7 +67,6 @@ export default ()=> {
     <>
     <Head>
     <title>{MyLang["title"]}</title>
-    <link href="./mystyles/cart.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
     <div className="container mt-3 text-white">
@@ -75,7 +74,7 @@ export default ()=> {
             <h3>{msg}</h3>
         </div>
     </div>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfsAkElAAAAALDdQpV1__OSRGQg6il16IeelWuW"></script>
+    <script defer src="https://www.google.com/recaptcha/api.js?render=6LfsAkElAAAAALDdQpV1__OSRGQg6il16IeelWuW"></script>
     </>
     );
 }

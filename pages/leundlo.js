@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 
-export default()=>{
+export default function A(){
     useEffect(()=>{
         var url = window.location.pathname.split('/')[1]
         url = url.split(".")[0]

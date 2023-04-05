@@ -6,7 +6,6 @@ export default function Selectadd() {
     return(<>
     <Head>
         <title>{MyLang["title"]}</title>    
-        <link href="./mystyles/aboutus.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
     <div className="container text-white">

@@ -149,8 +149,8 @@ export function Container(){
     <div className="col-12"><button type="submit" class="btn btn-primary col-md-2 col-sm-4 mt-2 mb-2 mr-2 ml-2">{MyLang["Add"]}</button></div>            
     </div>                        
     </form>
-    <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDmGxjz66ljEkb7bGc6zoD9iXYrZS0m_t4&callback=initAutocomplete&libraries=places' async defer/>
-    <script src='./scripts/addaddressscript.js' />
+    <script  src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDmGxjz66ljEkb7bGc6zoD9iXYrZS0m_t4&callback=initAutocomplete&libraries=places' async />
+    <script defer src='./scripts/addaddressscript.js' />
 </div>
 }
 
@@ -161,7 +161,7 @@ export default function Addaddress() {
         <>
         <Head>
         <title>{MyLang["title"]}</title>
-        <link href="./mystyles/addaddress.css" rel="stylesheet" />
+        <link href="https://angebote-restu.s3-website.eu-central-1.amazonaws.com/mystyles/addaddress.css" rel="stylesheet" />
         </Head>
         <MyNavbar/>
         <Container/>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import MyNavbar from "../components/navbar/MyNavbar"
 import langswitch from "../components/Utils/langswitch"
-export default function name() {
+export default function Name() {
 
     var [zusate,setzusate]=useState(" ")
     if(process.browser)

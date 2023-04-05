@@ -10,7 +10,7 @@ return (
   <>
      <Head>
       <title>{MyLang["title"]}</title>      
-      <link href="./mystyles/paypal.css" rel="stylesheet" />
+      <link href="https://angebote-restu.s3-website.eu-central-1.amazonaws.com/mystyles/paypal.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
     <div id="smart-button-container ">
@@ -18,8 +18,8 @@ return (
         <div id="paypal-button-container"></div>
       </div>
     </div>
-       <script data-sdk-integration-source="button-factory" src='https://www.paypal.com/sdk/js?client-id=AV-ionHbh2K5ywnkHxgvNKt5ZRtdFm5Iu4AWbMXaer_kquFY2wAulf5oHOY-oUwYfJOxS-0fIgLHY8GK&currency=EUR'/>
-       <script src='./scripts/paypalpay.js'/>
+       <script defer data-sdk-integration-source="button-factory" src='https://www.paypal.com/sdk/js?client-id=AV-ionHbh2K5ywnkHxgvNKt5ZRtdFm5Iu4AWbMXaer_kquFY2wAulf5oHOY-oUwYfJOxS-0fIgLHY8GK&currency=EUR'/>
+       <script defer src='./scripts/paypalpay.js'/>
   </>
 );
 }  

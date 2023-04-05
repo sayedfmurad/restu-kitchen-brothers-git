@@ -37,12 +37,12 @@ export function Container(){
     </div>
     )
 }
-export default ()=> {
+export default function A(){
     const MyLang = langswitch.langswitchs("aboutus");
     return(<>
     <Head>
         <title>{MyLang["title"]}</title>    
-        <link href="./mystyles/aboutus.css" rel="stylesheet" />
+        <link href="https://angebote-restu.s3-website.eu-central-1.amazonaws.com/mystyles/aboutus.css" rel="stylesheet" />
     </Head> 
     <MyNavbar/>
     <Container/>

@@ -124,14 +124,14 @@ export function Container(){
     )
 }
 
-export default ()=> {
+export default function A() {
     const MyLang = langswitch.langswitchs("orders");
   
             return (
     <>
     <Head>
     <title>{MyLang["title"]}</title>
-    <link href="./mystyles/cart.css" rel="stylesheet" />
+    <link href="https://angebote-restu.s3-website.eu-central-1.amazonaws.com/mystyles/cart.css" rel="stylesheet" />
     </Head>
     <MyNavbar/>
     <Container/>    

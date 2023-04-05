@@ -93,12 +93,12 @@ export function Container(){
         </div>
     </div>
 </nav>
-<script src={"./scripts/bootstrap.bundle.js"} ></script>
+<script defer src={"./scripts/bootstrap.bundle.js"} ></script>
 </>
 }
 
 
-export default ({sub}) => {
+export default function adsf(){
   
     return (
         <>

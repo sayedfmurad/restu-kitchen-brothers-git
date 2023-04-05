@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import langswitch from "../components/Utils/langswitch"
-export default ()=>{
+export default function A(){
     useEffect(()=>{
         window.localStorage.clear()
     },[])

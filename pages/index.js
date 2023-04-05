@@ -4,6 +4,7 @@ import MyNavbar from "../components/navbar/MyNavbar"
 import Infos from "../components/Index/Infos"
 import Sections from "../components/Index/sections"
 import langswitch from "../components/Utils/langswitch"
+import Image from 'next/image'
 
 export function GetOnAndroid(){
   var [btn,setbtn]=useState(<></>)
@@ -14,7 +15,7 @@ export function GetOnAndroid(){
             hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")
             if(hostname == "westendgrillundpizza"||false)             
             {
-              setbtn(<img src='./Images/getonandroid.png'/>)
+              setbtn(<Image alt="" src='./Images/getonandroid.png'/>)
             }
   },[])
   return btn

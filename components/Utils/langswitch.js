@@ -2,7 +2,13 @@ const staticVar = require("../../package.json");
 class langswitch{
 IsOutt = staticVar.IsOut ? ".html":"";
 
-
+GetJsonM=(m)=>{
+    return new Promise((resolve, reject) => {
+        var or = window.localStorage.getItem(m)
+          or= or==null||or==""?"{}":or
+          resolve(JSON.parse(or))
+    });
+}
 RouteP = (pp,sub)=>{
     if(sub == undefined)
     sub = "";

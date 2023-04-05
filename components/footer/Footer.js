@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Image from 'next/image'
+
 import langswitch from '../Utils/langswitch'
 export default function footer({pricestatus,numitemstatus,sub}) {
     if(sub==undefined)
@@ -19,7 +21,7 @@ return(
     <div className="col-2">        
         <a  className="btn btn-primary" href={langswitch.RouteP("cart",sub)}>
             {/* {MyLang["cart"]} */}
-            <img href={langswitch.RouteP("cart",sub)}  height="32px" src={sub+"./Images/cart.png"}/>
+            <Image alt="" href={langswitch.RouteP("cart",sub)}  height="32px" src={sub+"./Images/cart.png"}/>
             </a>
         </div>
     <div className="col-1"></div>    

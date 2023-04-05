@@ -1,5 +1,7 @@
 
 import Head from 'next/head'
+import Image from 'next/image'
+
 import React, { useState } from 'react';
 import MyNavbar from "../components/navbar/MyNavbar"
 import MyLang from '../components/Utils/langswitch'
@@ -20,7 +22,7 @@ return(
         <div className="row g-3 m-3 ">
             <div  className="col-md-4">  
             <div className='d-flex justify-content-center'>
-            <img height="150px" src='./Images/accepted.png'/>
+            <Image alt="" height="150px" src='./Images/accepted.png'/>
             </div>
             </div>              
             <div className="col-md-8  text">                

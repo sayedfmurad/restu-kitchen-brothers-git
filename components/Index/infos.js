@@ -1,4 +1,4 @@
-export default ()=>{
+export default function As(){
    return  <div className="container mt-4 mb-4" >
         <div className="row backrowcss justify-content-center">
               <div className='col-6'>

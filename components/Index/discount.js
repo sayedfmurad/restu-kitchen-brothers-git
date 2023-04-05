@@ -1,4 +1,4 @@
-export default ()=>{
+export default function A(){
      return <div className='container mt-4'>
         <div className='d-flex justify-content-center'>
           <div className='col-10 text-center text-white' style={{"backgroundColor":"black"}}>
