@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import MyNavbar from "../components/NavBar/MyNavbar"
 import Sections from "../components/Index/sections"
 import langswitch from "../components/Utils/langswitch"
-import Image from 'next/image'
 
 export function GetOnAndroid(){
   var [btn,setbtn]=useState(<></>)
@@ -68,7 +67,7 @@ export default function Index() {
     </Head>   
     {/* <div className="specially mbackground"></div>  */}
     <MyNavbar/>  
-    <GetOnAndroid/>              
+    {/* <GetOnAndroid/>               */}
     <IfCloseMsg/>
     <Sections/>
    </>
