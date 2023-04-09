@@ -4,8 +4,21 @@ import langswitch from "../Utils/langswitch"
 export default ()=>
 {
   var [rows,setrows] = useState([]);
+  var [rows2,setrows2] = useState(<></>);
   if(process.browser){
     const menu = langswitch.getJson("menu")
+
+    if(menu["staticValue"]["key"]=="westendgrillundpizza")
+    {
+            [rows2,setrows2] = useState(
+            <div className='row g-2' >            
+            <div className=" alert alert-warning" role="alert">
+            Ab April finden Sie uns nicht mehr bei <strong>Lieferando.</strong><br/>
+            Sie können aber weiterhin <strong>telefonisch</strong> oder über unsere <strong>Website</strong> bestellen.<br/>
+            Auf unserer Website ist es neben den Online-Zahlungsmethoden möglich die <strong>Bar-Zahlung</strong> bei Lieferung auszuwählen.
+            </div>  
+            </div>)
+    }
     var sections = [];
     for(var key in menu["product"])
     {
@@ -36,7 +49,8 @@ export default ()=>
   }
   
 
-  return   <div className='container mt-5 mb-5'>
+  return   <div className='container mt-5 mb-5'>  
+            {rows2}
             <div className='row g-2' >
             {rows}  
             </div>

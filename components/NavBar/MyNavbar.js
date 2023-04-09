@@ -4,6 +4,7 @@ import langswitch from "../Utils/langswitch"
 import { useState } from 'react'
 
 export function Container(){
+    const v = "1"
     const MyLang = langswitch.langswitchs("navbar");
     var router = useRouter();
     router = router.pathname;
@@ -30,24 +31,28 @@ export function Container(){
                     window.location.href =langswitch.RouteP("home")
                 }
             }
-            else{
-                if(!("staticValue" in menu))
+            else if(!("staticValue" in menu))                
                 setClear(menu)
-                if(!("key" in menu["staticValue"]))
-                setClear(menu)                         
-                setlogo(<>
-                        <a className="navbar-brand" >                        
-                        <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>
-                            {/* <img
-                                class="d-inline-block align-text-top"
-                                height="24"
-                                width="54"
-                                alt="Website Logo"
-                                src={sub+"./Images/logo.png"}/> */}
-                        </a>                
-                </>)
+                else if(!("key" in menu["staticValue"]))
+                {setClear(menu)                                         
             }
-        
+            else if(!("v" in menu) )
+            setClear()
+            else if(menu["v"] != v)
+            setClear()
+            else{
+                setlogo(<>
+                    <a className="navbar-brand" >                        
+                    <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>
+                        {/* <img
+                            class="d-inline-block align-text-top"
+                            height="24"
+                            width="54"
+                            alt="Website Logo"
+                            src={sub+"./Images/logo.png"}/> */}
+                    </a>                
+            </>)
+            }
         }, 100);
     }
 
