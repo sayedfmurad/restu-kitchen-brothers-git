@@ -19,6 +19,15 @@ export default ()=>
             </div>  
             </div>)
     }
+    if(menu["staticValue"]["key"]=="pizzavalentina")
+    {
+            [rows2,setrows2] = useState(
+            <div className='row g-2' >            
+            <div className=" alert alert-warning" role="alert">
+            NUR HIER MIT <strong>5%</strong> ONLINE-RABATT BESTELLEN
+            </div>  
+            </div>)
+    }
     var sections = [];
     for(var key in menu["product"])
     {

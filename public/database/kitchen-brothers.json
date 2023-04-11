@@ -5046,12 +5046,12 @@
             },
             "mondayy": {
                 "opentime": {
-                    "hour": 11,
+                    "hour": 15,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 24,
-                    "min": 0
+                    "hour": 21,
+                    "min": 45
                 }
             },
             "tuesday": {
