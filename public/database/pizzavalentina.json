@@ -4194,7 +4194,7 @@
                     "min": 45
                 }
             },
-            "wednesday": {
+            "wednesdayy": {
                 "opentime": {
                     "hour": 16,
                     "min": 0
@@ -4375,5 +4375,5 @@
         "c": "wqDCncKiwpXCoMKYwp_CqMKuwqY="
     },
     "rabat": "5",
-    "v":"1"
+    "v":"3"
 }

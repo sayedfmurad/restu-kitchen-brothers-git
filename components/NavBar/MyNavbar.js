@@ -4,7 +4,7 @@ import langswitch from "../Utils/langswitch"
 import { useState } from 'react'
 
 export function Container(){
-    const v = "1"
+    const v = "3"
     const MyLang = langswitch.langswitchs("navbar");
     var router = useRouter();
     router = router.pathname;
