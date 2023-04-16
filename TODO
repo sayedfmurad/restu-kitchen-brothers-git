@@ -24,3 +24,31 @@ sitekey
 
 secretkey
 6LfsAkElAAAAAJ70yBRP72AJZ3vQHsnJcpHhlU-h
+
+
+
+
+// Define the PayPal client ID
+const paypalClientId = 'YOUR_CLIENT_ID'
+
+// Define the checkout parameters
+const checkoutParams = {
+  intent: 'capture', // The intent of the checkout (capture or authorize)
+  currency_code: 'USD', // The currency of the checkout
+  amount: '10.00', // The amount of the checkout
+  description: 'My purchase', // The description of the purchase
+  payer_id: 'YOUR_PAYER_ID', // Your PayPal account payer ID
+  payee_email: 'PAYEE_EMAIL', // The email address of the PayPal account to receive the payment
+  reference_id: 'YOUR_REFERENCE_ID' // Your custom reference ID
+}
+
+// Build the checkout URL
+const paypalCheckoutUrl = `https://www.paypal.com/checkoutnow?client-id=${paypalClientId}&intent=${checkoutParams.intent}&currency_code=${checkoutParams.currency_code}&amount=${checkoutParams.amount}&description=${checkoutParams.description}&payer_id=${checkoutParams.payer_id}&payee_email=${checkoutParams.payee_email}&reference_id=${checkoutParams.reference_id}`
+
+// Open the PayPal app to complete the checkout
+const paypalAppUrl = `paypal://checkoutnow?token=${paypalCheckoutUrl}`
+const openAppTimeout = 3000 // Timeout in milliseconds for opening the app
+setTimeout(() => {
+  window.location.href = 'https://www.paypal.com' // Redirect to PayPal website if the app doesn't open
+}, openAppTimeout)
+window.location.href = paypalAppUrl

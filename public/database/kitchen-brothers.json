@@ -1711,7 +1711,7 @@
         "BM1": {
             "name": "Cheeseburger Menü",
             "price": {
-                "stand": "13,40"
+                "stand": "12,40"
             },
             "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Salat, Tomaten, Gurken, Ketchup und Burgersauce",
             "desT": "",
@@ -1786,7 +1786,7 @@
         "BM2": {
             "name": "Bacon Barbecue Egg Burger Menü",
             "price": {
-                "stand": "13,90"
+                "stand": "12,90"
             },
             "desO": "mit 160g Beef Patty, Cheddar, Spiegelei, Karamell-Zwiebeln, Bacon und Barbecuesauce",
             "desT": "",
@@ -1861,7 +1861,7 @@
         "BM3": {
             "name": "Chili Cheeseburger Menü",
             "price": {
-                "stand": "13,40"
+                "stand": "12,40"
             },
             "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln und Burgersauce",
             "desT": "",
@@ -1936,7 +1936,7 @@
         "BM4": {
             "name": "Hot Philadelphia Burger Menü",
             "price": {
-                "stand": "13,40"
+                "stand": "12,40"
             },
             "desO": "mit 160g Beef Patty, Jalapeno-Philadelphia-Cream, Cheddar, roten Zwiebeln, Salat, Tomaten und Gurken",
             "desT": "",
@@ -2011,7 +2011,7 @@
         "BM5": {
             "name": "Feuerwerk X-Treme Burger Menü",
             "price": {
-                "stand": "13,40"
+                "stand": "12,40"
             },
             "desO": "mit 160g Beef Patty, frisch gegrillter Chilischote, Cheddar, Jalapeno, Tabasco, Habanero-Zwiebeln, Salat, Tomaten, Gurken und Chilisauce",
             "desT": "",
@@ -2086,7 +2086,7 @@
         "BM6": {
             "name": "Big Bacon Boss X-Treme Burger Menü",
             "price": {
-                "stand": "15,90"
+                "stand": "14,90"
             },
             "desO": "mit 320g Beef Patty, 2 Spiegeleiern, Cheddar, Bacon und Karamell-Zwiebeln",
             "desT": "",
@@ -2161,7 +2161,7 @@
         "BM7": {
             "name": "Crispy Chickenburger Menü",
             "price": {
-                "stand": "13,90"
+                "stand": "12,90"
             },
             "desO": "mit Hähnchenbrustfilet, Cheddar, Sweet-Chili-Creme, Salat, Tomaten und Gurken",
             "desT": "",
@@ -2236,7 +2236,7 @@
         "BM8": {
             "name": "Italian Burger Menü",
             "price": {
-                "stand": "13,90"
+                "stand": "12,90"
             },
             "desO": "mit 160g Beef Patty, Parmesan, Mozzarella, gebratener Paprika, Pesto-Mayonnaise, Rucola, Tomaten und Gurken",
             "desT": "",
@@ -2311,7 +2311,7 @@
         "BM9": {
             "name": "Veggie Burger Menü",
             "price": {
-                "stand": "13,40"
+                "stand": "12,40"
             },
             "desO": "mit Veggie Patty, Cheddar, Salat, Tomaten, Gurken und Pesto-Creme",
             "desT": "",
@@ -2386,7 +2386,7 @@
         "BM10": {
             "name": "Joppie Burger Menü",
             "price": {
-                "stand": "13,90"
+                "stand": "12,90"
             },
             "desO": "mit 160g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Joppiesauce",
             "desT": "",
@@ -2461,7 +2461,7 @@
         "BM11": {
             "name": "Kitchenbrother Burger Menü",
             "price": {
-                "stand": "13,90"
+                "stand": "16,00"
             },
             "desO": "mit 320g Beef Patty, roten Zwiebeln, Bacon, Salat, Tomaten, Gurken und Spezialsauce",
             "desT": "",
@@ -2536,7 +2536,7 @@
         "BM12": {
             "name": "Sydney Burger Menü",
             "price": {
-                "stand": "13,90"
+                "stand": "12,90"
             },
             "desO": "mit 160g Beef Patty, gegrillter Ananas, Bacon, Käse, Cheddar und Pesto-Creme",
             "desT": "",
@@ -2611,7 +2611,7 @@
         "BM13": {
             "name": "Sindbad Burger Menü",
             "price": {
-                "stand": "13,50"
+                "stand": "12,50"
             },
             "desO": "mit 160g Beef Patty, Avocado-Cream, Salat, Zwiebeln, Cheddar und Gurken",
             "desT": "",
@@ -2686,7 +2686,7 @@
         "BM14": {
             "name": "Big Boss Triple Extreme Menü",
             "price": {
-                "stand": "18,90"
+                "stand": "17,90"
             },
             "desO": "mit 480g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Barbecuesauce",
             "desT": "",
@@ -2761,7 +2761,7 @@
         "BM15": {
             "name": "Chicken Crispy Avocado Burger Menü",
             "price": {
-                "stand": "13,90"
+                "stand": "12,90"
             },
             "desO": "mit Hähnchenbrustfilet, Rucola, Tomaten, Gurken, Tomaten, Avocado-Cream, roten Zwiebeln und Mozzarella",
             "desT": "",
@@ -2836,7 +2836,7 @@
         "BM16": {
             "name": "Hamburger Menü",
             "price": {
-                "stand": "13,40"
+                "stand": "12,40"
             },
             "desO": "160g Beef-Patty, Salat, Tomaten, Gurken und Burgersauce",
             "desT": "",
@@ -2911,7 +2911,7 @@
         "BM17": {
             "name": "London Burger Menü",
             "price": {
-                "stand": "13,90"
+                "stand": "12,90"
             },
             "desO": "160g Beef-Patty, Cheddar, Salat, Tomaten, Gurken, roten Zwiebeln und Pink-Creme",
             "desT": "",
@@ -2986,7 +2986,7 @@
         "BM18": {
             "name": "Chicken Tropical Burger Menü",
             "price": {
-                "stand": "14,90"
+                "stand": "13,90"
             },
             "desO": "mit Crispy Chicken,Salat, Tomaten, Gurken, Mozzarella und Mango-Creme",
             "desT": "",
@@ -3061,7 +3061,7 @@
         "BM19": {
             "name": "Honky Tonk Burger Menü",
             "price": {
-                "stand": "17,40"
+                "stand": "16,40"
             },
             "desO": "mit 320g Beef-Patty, Cheddar, gebratenem Gemüse und Hot-Creme",
             "desT": "",
@@ -3136,7 +3136,7 @@
         "BM20": {
             "name": "Smash Burger Menü",
             "price": {
-                "stand": "16,90"
+                "stand": "15,90"
             },
             "desO": "mit 320g Beef-Patty, doppelt cheddar und Spezialsauce",
             "desT": "",
@@ -5212,5 +5212,5 @@
         "c": "wqDCncKjwpzCncKcwqLCosKrwqw="
     },
     "rabat": "",
-    "v":"3"
+    "v":"4"
 }

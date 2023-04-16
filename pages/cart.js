@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import MyNavbar from '@/components/NavBar/MyNavbar';
 import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
@@ -10,7 +10,10 @@ export function Container(){
     var menu = {}
     var [pressed,setpressed] = useState(false);
     var [spinnerbar,setspinnerbar] = useState("d-none");
+    var [container,setcontainer] = useState("");
     var [spaterodernow,setspaterodernow] = useState("d-none");
+    var [textabohlen,settextabohlen] = useState("");
+    var [deliverytimes,setdeliverytimes] = useState(<></>);
     var rows = [];        
     var crows = [];
   
@@ -27,10 +30,7 @@ export function Container(){
             {
               alert("bitte wählen Sie eine Zahlungsmethode, Bar oder Paypal");
               return false;
-            }
-            
-            setpressed(true);
-            setspinnerbar("")
+            }            
       
             var parms = {}
             var orders = langswitch.getJson("order")
@@ -45,6 +45,8 @@ export function Container(){
                 parms["successurl"] = "https://"+hostname+"/success"+isOutPackage
                 parms["failureurl"] = "https://"+hostname+"/cart"+isOutPackage
             }
+            if(textabohlen=="d-none")
+            parms["abhol"]=""
             parms["menu"] = menu["staticValue"]["menuurl"]
             parms["address"] = address[seladd];
             parms["orders"] = orders;
@@ -54,10 +56,22 @@ export function Container(){
                 parms["TestTelegram"]=""
                 parms["istest"]=""
             }
-            var TimeSettedDelivery=document.getElementById("selectedtimedelivery").value
-            TimeSettedDelivery = spaterodernow == "d-none"?"":TimeSettedDelivery
+            
+            var TimeSettedDelivery = spaterodernow == "d-none"?"":document.getElementById("selectedtimedelivery").value
             if (TimeSettedDelivery !="")
               parms["TimeSettedDelivery"]=TimeSettedDelivery
+            else if(spaterodernow != "d-none") 
+            {
+                alert("bitte Ihre Lieferzeit wählen")
+                return
+            }
+
+
+            setpressed(true);
+            setspinnerbar("")
+            setcontainer("d-none")
+
+
             var MainOrderId = time.getTime() + JSON.stringify(parms);
             MainOrderId = hash(MainOrderId);            
             parms["MainId"]=MainOrderId;
@@ -66,7 +80,7 @@ export function Container(){
             var MainOrder = langswitch.getJson("mainorder");
             MainOrder[MainOrderId]=parms      
             parms = JSON.stringify(parms);
-            window.localStorage.setItem("lastOrderId",MainOrderId);
+            window.localStorage.setItem("lastOrderId",MainOrderId);            
             let mheaders = new Headers();
             mheaders.append('Origin','*');
             fetch(urll, {
@@ -100,18 +114,18 @@ export function Container(){
         var seladdre=langswitch.getValue("seladdress");
         const CheckOutBtn = e=>
         {
+            var seladd = langswitch.getValue("seladdress")
             if(langswitch.CheckMinPriceOrder(sum,menu)){
-                var seladd = langswitch.getValue("seladdress")
-                if(seladd != "")
-                {
-                var addobj = langswitch.getJson("address")
-                if(addobj.hasOwnProperty(seladd))  
-                    startpay()
-                else
-                alert(MyLang["Please Select an Address"])
-                }
-                else
-                alert(MyLang["Please Select an Address"])
+                    if(seladd != "")
+                    {
+                    var addobj = langswitch.getJson("address")
+                    if(addobj.hasOwnProperty(seladd))  
+                        startpay()
+                    else
+                    alert(MyLang["Please Select an Address"])
+                    }
+                    else
+                    alert(MyLang["Please Select an Address"])
             }
         }
         const RemoveAllItmes = e=>{
@@ -200,56 +214,18 @@ export function Container(){
                 <span className=' text-muted'>{sum}&nbsp;&euro;                </span>                        
                 </li> 
             )
-            
-            var addresses = langswitch.getJson("address")
-            var seladd = langswitch.getValue("seladdress")
-            if(seladd in addresses)
-            {
-                rows.push(<>
-                    <div className='list-group'>                
-                    <div className='list-group-item'>                
-                    <div className="row mb-4">
-                        <div className='col-12'>
-                        <h6>Lieferaddresse :</h6>
-                        </div>
-                        <div className='col-12'>
-                        <p style={{"fontSize":"0.7rem"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
-                        {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
-                        {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
-                        {addresses[seladd]["phonen"]}
-                        </p>
-                        </div>
-                        <div className='col-12 align-items-center d-flex'>
-                            <button className='btn btn-outline-primary'
-                            onClick={()=>{
-                                window.location.href =  langswitch.RouteP("addaddress")
-                            }}
-                            >ändern</button>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                    <br/>
-                    </>
-                    )
+            const onChangeToAbohlen=()=>{
+                document.getElementById("success-outlined-abholen").checked=true;
+                setdeliverytimes(<>{getTimesForDelivery(0)}</>) 
+                settextabohlen("d-none")
+                setspaterodernow("")
             }
-            else{
-                rows.push(<>
-                    <div className='list-group'>                
-                    <div className='list-group-item'>    
-                    <h6>Lieferaddresse :</h6>                    
-                    <p><button className='btn btn-primary'
-                            onClick={()=>{
-                                window.location.href =  langswitch.RouteP("addaddress")
-                            }}
-                            >eine Adresse auswänderen</button></p>
-                    </div>  
-                    </div>
-                    <br/>
-                    </>
-                    )  
+            const onChangeToLiefern=()=>{
+                setdeliverytimes(<>{getTimesForDelivery(1)}</>) 
+                settextabohlen("")
+                setspaterodernow("d-none")
             }
-            const onChangeToDelivery=()=>{
+            const onChangeToDeliveryTime=()=>{
                 document.getElementById("success-outlined-spater").checked=true;
                 setspaterodernow("")
             }
@@ -268,7 +244,8 @@ export function Container(){
                 }
                 return datee
             }
-            const getTimesForDelivery=()=>
+    
+            const getTimesForDelivery=(plustime)=>
             {
                 var times = []
                 times.push(
@@ -278,7 +255,7 @@ export function Container(){
                 
                datee= ConvertToMinuten_0_15_30_45(datee)
 
-                datee.setHours(datee.getHours()+2)
+                datee.setHours(datee.getHours()+plustime)
                 
                 ///////Prepair CloseTime
                 var closeTime = new Date()                
@@ -312,8 +289,21 @@ export function Container(){
             rows.push(
                 <>
                 <div className='list-group'>                
-                <div className='list-group-item'>                
+                <div className='list-group-item'>  
                 <div className="row mb-4 g-3">
+                <div className='col-12'>
+                        <h6>Möchten Sie:</h6>                        
+                        </div>
+                <div className="col-12">                
+                            <input type="radio" class="btn-check" onClick={onChangeToLiefern} name="options-outlined-abholen" id="success-outlined-liefern"  checked/>
+                            <label class="btn btn-outline-success" for="success-outlined-liefern">Liefern</label>
+                            &nbsp;
+                            <input type="radio" class="btn-check" name="options-outlined-abholen" id="success-outlined-abholen"  />
+                            <label class="btn btn-outline-success" onClick={onChangeToAbohlen} for="success-outlined-abholen">Abholen</label>                        
+                </div>
+                </div>
+                <div className="row mb-4 g-3">
+                        <div className={textabohlen}>
                         <div className='col-12'>
                         <h6>Lieferzeit wählen:</h6>                        
                         </div>
@@ -322,11 +312,12 @@ export function Container(){
                             <label class="btn btn-outline-success" for="success-outlined-jetzt">Jetzt</label>
                             &nbsp;
                             <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" />
-                            <label class="btn btn-outline-success" onClick={onChangeToDelivery} for="success-outlined-spater">Später</label>                        
+                            <label class="btn btn-outline-success" onClick={onChangeToDeliveryTime} for="success-outlined-spater">Später</label>                        
+                        </div>
                         </div>
                         <div className={`col-12 ${spaterodernow}`}>
                         <select class="form-select" id='selectedtimedelivery'>
-                                {getTimesForDelivery()}
+                                {deliverytimes}
                                 </select>         
                                 
                         </div>
@@ -336,6 +327,62 @@ export function Container(){
                 <br/>
                 </>
             )
+            useEffect(()=>{
+                setdeliverytimes(<>{getTimesForDelivery(1)}</>) 
+            },[])            
+
+
+
+            var addresses = langswitch.getJson("address")
+            var seladd = langswitch.getValue("seladdress")
+            if(seladd in addresses)
+            {
+                rows.push(<>
+                    <div className={`list-group`}>                
+                    <div className='list-group-item'>                
+                    <div className="row mb-4">
+                        <div className='col-12'>
+                        <h6>Ihre Daten :</h6>
+                        </div>
+                        <div className='col-12'>
+                        <p style={{"fontSize":"0.7rem"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
+                        {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
+                        {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
+                        {addresses[seladd]["phonen"]}
+                        </p>
+                        </div>
+                        <div className='col-12 align-items-center d-flex'>
+                            <button className='btn btn-outline-primary'
+                            onClick={()=>{
+                                window.location.href =  langswitch.RouteP("addaddress")
+                            }}
+                            >ändern</button>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <br/>
+                    </>
+                    )
+            }
+            else{
+                rows.push(<>
+                    <div className={`list-group `}>                
+                    <div className='list-group-item'>    
+                    <h6>Ihre Daten :</h6>                    
+                    <p><button className='btn btn-primary'
+                            onClick={()=>{
+                                window.location.href =  langswitch.RouteP("addaddress")
+                            }}
+                            >eine Adresse auswänderen</button></p>
+                    </div>  
+                    </div>
+                    <br/>
+                    </>
+                    )  
+            }
+ 
+
 
             rows.push(<>
             <div className='list-group'>                
@@ -387,12 +434,20 @@ export function Container(){
     }
     
 
-    return    <div className="container mt-3 ">
+    return    <><div className={`container mt-3 ${container}`}>
     <ul className='list-group mb-3'>
     {crows}
     </ul>
     {rows}    
 </div>
+<div className={`container mt-3 ${spinnerbar}`}>
+<div class="text-center d-flex justify-content-center">
+  <div class="spinner-border text-primary" style={{"width":"5rem","height":"5rem"}} role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+</div>
+</>
 }
 
 export default function Cart() {

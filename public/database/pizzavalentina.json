@@ -4174,7 +4174,7 @@
                     "min": 45
                 }
             },
-            "mondayy": {
+            "monday": {
                 "opentime": {
                     "hour": 11,
                     "min": 0
@@ -4375,5 +4375,5 @@
         "c": "wqDCncKiwpXCoMKYwp_CqMKuwqY="
     },
     "rabat": "5",
-    "v":"3"
+    "v":"4"
 }
