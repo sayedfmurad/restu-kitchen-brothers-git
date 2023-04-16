@@ -5,9 +5,105 @@ import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
 import packagee from "../package.json"
 
+export function Items({seladdre,or,sum,MyLang,menu,textabohlen,addre}){
+    const RemoveAllItmes = e=>{
+        window.localStorage.setItem("order","{}");
+        window.localStorage.setItem("sumprice","0,00");
+        window.location.href=langswitch.RouteP("cart");
+    };
+    const RemoveItem= e=>{
+        var tt = e.target.getAttribute("data-ordid");            
+        var or = langswitch.getJson("order")
+        
+        delete or[tt];
+        window.localStorage.setItem("order",JSON.stringify(or));
+        window.location.href=langswitch.RouteP("cart");
+    }  
+    var crows = [];
+    for(var ke in or)
+    { 
+                    sum = parseFloat(sum) + parseFloat(langswitch.stof(or[ke]["price"])) 
+                    var countI = <div className="mt-1 mb-1 col-4">{MyLang["count"]+": "+or[ke]["count"]}</div>;
+                    var typee = or[ke]["type"] == "stand"?"":"("+or[ke]["type"]+") "
+                    var descriptionO = menu["product"][or[ke]["id"]]["desO"] !=undefined?menu["product"][or[ke]["id"]]["desO"]:"";                        
+                    var extras = ""
+                    for(var j in or[ke]["extra"])
+                    extras +=  langswitch.firstUpper(or[ke]["extra"][j][or[ke]["type"]]["name"])+" "
+
+                    var option = []
+                    for(var oobo in or[ke]["option"])                        
+                    option.push(<>{langswitch.firstUpper(oobo)+" : "+langswitch.firstUpper(or[ke]["option"][oobo] )}<br/></>)
+                    crows.push(
+                    <li className="list-group-item d-flex justify-content-between lh-condensed">
+                        <div>
+                            <h6 className=''>{menu["product"][or[ke]["id"]]["name"]}&nbsp;({menu["product"][or[ke]["id"]]["section"]})&nbsp;{typee}</h6>
+                            <small className='text-muted'>
+                            {descriptionO==""?"":<>{descriptionO}<br/></>}
+                            {countI}                         
+                            {extras==""?"":<>{extras}<br/></>}
+                            {option}
+                            {or[ke]["msg"]==""?"":<>{or[ke]["msg"]}<br/></>}
+                            </small>
+                            <button  data-ordid={ke} onClick={RemoveItem} type="button" class="mt-3 btn btn-outline-danger">Entfernen</button>
+                            &nbsp;
+                            <a  href={langswitch.RouteP("customizeorder?id="+or[ke]["id"]+"&"+"type="+or[ke]["type"]+"&"+"orderid="+ke)} class="mt-3 btn btn-outline-secondary">{MyLang["edit"]}</a>
+                        </div>
+                            <span className=' text-muted'>
+                            {or[ke]["price"]}&nbsp;&euro;
+                            </span>
+                    </li>
+                    )                          
+    }  
+
+    if(Object.keys(or).length > 0)
+    {
+        if(menu["rabat"]!="")
+        {
+            var rabb = sum*0.05
+            sum = sum - rabb
+            rabb = langswitch.ftos(rabb)            
+            crows.push(
+                <li className="list-group-item d-flex justify-content-between lh-light">
+                     <div className='text-success'>
+                        <h6>Rabatt</h6>
+                        <small>{menu['rabat']}%</small>
+                     </div>                         
+                     <span className="text-success">- {rabb}&nbsp;&euro;</span>                    
+                </li>
+                )
+        }  
+
+        if(textabohlen!="d-none")
+        if(Object.keys(addre).length !=0 && addre[seladdre]!=undefined)
+        {
+            sum+= addre[seladdre]['kosten'];
+            crows.push(
+                <li className="list-group-item d-flex justify-content-between lh-light">
+                    <div className=''><h6 className=''>{MyLang['delivery cost']}</h6></div>
+                    <span className=' text-muted'>{addre[seladdre]['kosten']}&nbsp;&euro;                </span>                        
+                    </li>
+                    )
+        }   
+        sum = langswitch.ftos(sum)                     
+        crows.push(
+            <li className="list-group-item d-flex justify-content-between lh-light">
+            <div className=''><h6 className=''>{MyLang["total including var"]}</h6></div>
+            <span className=' text-muted'>{sum}&nbsp;&euro;                </span>                        
+            </li> 
+        )
+    }
+    window.localStorage.setItem("sumprice",sum);
+
+    return     <ul className='list-group mb-3'>
+    {crows}
+    </ul>
+}
+
+
 export function Container(){
     const MyLang = langswitch.langswitchs("cart");
-    var menu = {}
+
+    var [ItemsContainer,setItemsContainer] = useState(<></>);
     var [pressed,setpressed] = useState(false);
     var [spinnerbar,setspinnerbar] = useState("d-none");
     var [container,setcontainer] = useState("");
@@ -15,11 +111,13 @@ export function Container(){
     var [textabohlen,settextabohlen] = useState("");
     var [deliverytimes,setdeliverytimes] = useState(<></>);
     var rows = [];        
-    var crows = [];
+ 
   
-    if(process.browser)
-    {   
+    if(process.browser){
+        
         const startpay= ()=>{
+
+            
             const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
             let t = false;
             if(document.getElementById("bar-outlined").checked)
@@ -28,8 +126,8 @@ export function Container(){
             t="paypal";
             else 
             {
-              alert("bitte wählen Sie eine Zahlungsmethode, Bar oder Paypal");
-              return false;
+                alert("bitte wählen Sie eine Zahlungsmethode, Bar oder Paypal");
+                return false;
             }            
       
             var parms = {}
@@ -115,7 +213,8 @@ export function Container(){
         const CheckOutBtn = e=>
         {
             var seladd = langswitch.getValue("seladdress")
-            if(langswitch.CheckMinPriceOrder(sum,menu)){
+            
+            if(langswitch.CheckMinPriceOrder(langswitch.getNum("sumprice")  ,menu)){
                     if(seladd != "")
                     {
                     var addobj = langswitch.getJson("address")
@@ -128,103 +227,30 @@ export function Container(){
                     alert(MyLang["Please Select an Address"])
             }
         }
-        const RemoveAllItmes = e=>{
-            window.localStorage.setItem("order","{}");
-            window.localStorage.setItem("sumprice","0,00");
-            window.location.href=langswitch.RouteP("cart");
-        };
-        const RemoveItem= e=>{
-            var tt = e.target.getAttribute("data-ordid");            
-            var or = langswitch.getJson("order")
-            
-            delete or[tt];
-            window.localStorage.setItem("order",JSON.stringify(or));
-            window.location.href=langswitch.RouteP("cart");
-        }        
+      
         var or=langswitch.getJson("order");             
         var sum = 0
-        for(var ke in or)
-        { 
-                        sum = parseFloat(sum) + parseFloat(langswitch.stof(or[ke]["price"])) 
-                        var countI = <div className="mt-1 mb-1 col-4">{MyLang["count"]+": "+or[ke]["count"]}</div>;
-                        var typee = or[ke]["type"] == "stand"?"":"("+or[ke]["type"]+") "
-                        var descriptionO = menu["product"][or[ke]["id"]]["desO"] !=undefined?menu["product"][or[ke]["id"]]["desO"]:"";                        
-                        var extras = ""
-                        for(var j in or[ke]["extra"])
-                        extras +=  langswitch.firstUpper(or[ke]["extra"][j][or[ke]["type"]]["name"])+" "
-
-                        var option = []
-                        for(var oobo in or[ke]["option"])                        
-                        option.push(<>{langswitch.firstUpper(oobo)+" : "+langswitch.firstUpper(or[ke]["option"][oobo] )}<br/></>)
-                        crows.push(
-                        <li className="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 className=''>{menu["product"][or[ke]["id"]]["name"]}&nbsp;({menu["product"][or[ke]["id"]]["section"]})&nbsp;{typee}</h6>
-                                <small className='text-muted'>
-                                {descriptionO==""?"":<>{descriptionO}<br/></>}
-                                {countI}                         
-                                {extras==""?"":<>{extras}<br/></>}
-                                {option}
-                                {or[ke]["msg"]==""?"":<>{or[ke]["msg"]}<br/></>}
-                                </small>
-                                <button data-ordid={ke} onClick={RemoveItem} type="button" class="mt-3 btn btn-outline-danger">Entfernen</button>
-                                &nbsp;
-                                <a  href={langswitch.RouteP("customizeorder?id="+or[ke]["id"]+"&"+"type="+or[ke]["type"]+"&"+"orderid="+ke)} class="mt-3 btn btn-outline-secondary">{MyLang["edit"]}</a>
-                            </div>
-                                <span className=' text-muted'>
-                                {or[ke]["price"]}&nbsp;&euro;
-                                </span>
-                        </li>
-                        )                          
-        }                
+              
         if(Object.keys(or).length == 0)
         rows.push(  <div className="row cosrow mb-2 p-3"><div className="col-12 text-center text">{MyLang["cart is empty"]}</div></div>)
         else
-        {
-            if(menu["rabat"]!="")
-            {
-                var rabb = sum*0.05
-                sum = sum - rabb
-                rabb = langswitch.ftos(rabb)            
-                crows.push(
-                    <li className="list-group-item d-flex justify-content-between lh-light">
-                         <div className='text-success'>
-                            <h6>Rabatt</h6>
-                            <small>{menu['rabat']}%</small>
-                         </div>                         
-                         <span className="text-success">- {rabb}&nbsp;&euro;</span>                    
-                    </li>
-                    )
-            }            
-
-            if(Object.keys(addre).length !=0 && addre[seladdre]!=undefined)
-            {
-                sum+= addre[seladdre]['kosten'];
-                crows.push(
-                    <li className="list-group-item d-flex justify-content-between lh-light">
-                        <div className=''><h6 className=''>{MyLang['delivery cost']}</h6></div>
-                        <span className=' text-muted'>{addre[seladdre]['kosten']}&nbsp;&euro;                </span>                        
-                        </li>
-                        )
-            }   
-            sum = langswitch.ftos(sum)                     
-            crows.push(
-                <li className="list-group-item d-flex justify-content-between lh-light">
-                <div className=''><h6 className=''>{MyLang["total including var"]}</h6></div>
-                <span className=' text-muted'>{sum}&nbsp;&euro;                </span>                        
-                </li> 
-            )
+        {        
+          
             const onChangeToAbohlen=()=>{
                 document.getElementById("success-outlined-abholen").checked=true;
                 setdeliverytimes(<>{getTimesForDelivery(0)}</>) 
                 settextabohlen("d-none")
                 setspaterodernow("")
+                setItemsContainer(<Items addre={addre} seladdre={seladdre} textabohlen="d-none" menu={menu} or={or} sum={sum} MyLang={MyLang}/>)
             }
             const onChangeToLiefern=()=>{
                 setdeliverytimes(<>{getTimesForDelivery(1)}</>) 
                 settextabohlen("")
                 setspaterodernow("d-none")
+                setItemsContainer(<Items addre={addre} seladdre={seladdre} textabohlen="" menu={menu} or={or} sum={sum} MyLang={MyLang}/>)
+
             }
+            
             const onChangeToDeliveryTime=()=>{
                 document.getElementById("success-outlined-spater").checked=true;
                 setspaterodernow("")
@@ -286,6 +312,7 @@ export function Container(){
                 times.pop()
                return times
             }
+            [deliverytimes,setdeliverytimes] = useState(<>{getTimesForDelivery(1)}</>)            
             rows.push(
                 <>
                 <div className='list-group'>                
@@ -327,10 +354,8 @@ export function Container(){
                 <br/>
                 </>
             )
-            useEffect(()=>{
-                setdeliverytimes(<>{getTimesForDelivery(1)}</>) 
-            },[])            
-
+          
+            
 
 
             var addresses = langswitch.getJson("address")
@@ -427,17 +452,14 @@ export function Container(){
                  </div>
             )
 
-
-        }
         
-        window.localStorage.setItem("sumprice",sum);
+        }
+        [ItemsContainer,setItemsContainer] = useState(<Items addre={addre} seladdre={seladdre} textabohlen={textabohlen} menu={menu} or={or} sum={sum} MyLang={MyLang}/>)
     }
     
 
     return    <><div className={`container mt-3 ${container}`}>
-    <ul className='list-group mb-3'>
-    {crows}
-    </ul>
+    {ItemsContainer}
     {rows}    
 </div>
 <div className={`container mt-3 ${spinnerbar}`}>

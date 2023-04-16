@@ -24,8 +24,7 @@ return  ooo;
 CheckMinPriceOrder = (sum,menu)=>
 {
     const MyLang = f.langswitchs("cart");
-    if(process.browser)
-    {var addre=f.getJson("address");
+    var addre=f.getJson("address");
     var seladdre=f.getValue("seladdress");
     if(addre[seladdre]!=undefined)
             {for(var g in menu["staticValue"]["minpriceorder"])
@@ -38,7 +37,7 @@ CheckMinPriceOrder = (sum,menu)=>
             }            
             }
             return true;
-        }
+        
 }
 langswitchs = (path) => {
             return require("../LangFiles/"+path+"/"+staticVar.lang+".json");
@@ -59,6 +58,8 @@ getNum = (m)=>{
         return or
 }
 stof = (f)=>{
+    if(typeof f == "number")
+    return f
     f = f==null?"0,00":f;
     return parseFloat(f.replace(",","."));
 }
