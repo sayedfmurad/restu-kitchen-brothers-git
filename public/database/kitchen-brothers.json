@@ -45,8 +45,8 @@
             "desT": "",
             "zusatz": "1,7",
             "section": "PIZZEN",
-            "extraexcept":{
-                "dönerfleisch":"true"
+            "extraexcept": {
+                "dönerfleisch": "true"
             }
         },
         "4": {
@@ -5016,7 +5016,7 @@
     },
     "staticValue": {
         "pc": "Adry9vq8GYiagTwNC6I32XDRIYtDpHEIUCmoe14Kd7ujPsIUv2i6EPUTsVqV47rOuJJhh5Xdj4-nCnlN",
-        "ps":"wrjCtcKiwr3Dj8K4wqHCscOgwrbDksOiwrvCssKcwr3Dh8OKw4TCtsKlw4fDlMOawqXCvMOcw4HDhsOBwrfDk8KSw6fCocOFw4TDnMK_wqXDn8OSw53DncObwrjDhsOlwrPCoMOSwqHCo8Orw6PCksKhw5HDmsKqw6XDgsKkwqvCqsOAwq7CrsKnw5XCtsOnwqrDhsOXwpbDpMOSw5_Dpw==",
+        "ps": "wrjCtcKiwr3Dj8K4wqHCscOgwrbDksOiwrvCssKcwr3Dh8OKw4TCtsKlw4fDlMOawqXCvMOcw4HDhsOBwrfDk8KSw6fCocOFw4TDnMK_wqXDn8OSw53DncObwrjDhsOlwrPCoMOSwqHCo8Orw6PCksKhw5HDmsKqw6XDgsKkwqvCqsOAwq7CrsKnw5XCtsOnwqrDhsOXwpbDpMOSw5_Dpw==",
         "logo": "Kitchen Brothers",
         "kontakt": {
             "name": "Kitchenbrothers",
@@ -5024,10 +5024,10 @@
             "zipc": "41238",
             "city": "Mönchengladbach",
             "tel": "021662781117",
-            "zusatzStoffe":"1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan"
+            "zusatzStoffe": "1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan"
         },
-        "key":"kitchen-brothers",
-        "zusatzStoffe":"1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan",
+        "key": "kitchen-brothers",
+        "zusatzStoffe": "1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan",
         "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/kitchen-brothers.json",
         "latlng": {
             "lat": 51.1570961,
@@ -5212,5 +5212,5 @@
         "c": "wqDCncKjwpzCncKcwqLCosKrwqw="
     },
     "rabat": "",
-    "v":"5"
+    "v": "10e4f541a47d3898d3eb76820056adddd4948b2536e741896f9be7dbb407c110"
 }

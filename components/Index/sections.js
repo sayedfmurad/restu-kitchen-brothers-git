@@ -7,7 +7,10 @@ export default ()=>
   var [rows2,setrows2] = useState(<></>);
   if(process.browser){
     const menu = langswitch.getJson("menu")
-
+    if(menu != null)
+    if(typeof menu !== "undefined")
+    if(Object.keys(menu).length  !== 0)
+    {
     if(menu["staticValue"]["key"]=="westendgrillundpizza")
     {
             [rows2,setrows2] = useState(
@@ -55,6 +58,7 @@ export default ()=>
         );
     }
     [rows,setrows] = useState(rows)
+  }
   }
   
 

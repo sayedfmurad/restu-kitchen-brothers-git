@@ -1,0 +1,27 @@
+{
+    "westendgrillundpizza": {
+        "key": "westendgrillundpizza",
+        "name": "Westend Grill & Pizza",
+        "v": "b677e5e7b24a2f2e1f644928ea5b353fc407adfe4c74a826939970cb880093d5"
+    },
+    "pizzaland": {
+        "key": "pizzaland",
+        "name": "pizzaland",
+        "v": "c90ff3711c507215c52e6d48f352cd069ba3f179c30098bece9738510759e890"
+    },
+    "leundlo": {
+        "key": "leundlo",
+        "name": "LE&LO Döner & Pizzeria",
+        "v": "21765d54b50ff8966e04183842879de45e1292c7981cb2c87a8e2f506d8d0c89"
+    },
+    "pizzavalentina": {
+        "key": "pizzavalentina",
+        "name": "Pizzavalentina",
+        "v": "efae3654109a6eece7f79c4c649111dbe81a48af411266398bc04e2cc9a64ea4"
+    },
+    "kitchen-brothers": {
+        "key": "kitchen-brothers",
+        "name": "Kitchenbrothers",
+        "v": "10e4f541a47d3898d3eb76820056adddd4948b2536e741896f9be7dbb407c110"
+    }
+}

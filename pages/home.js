@@ -2,7 +2,14 @@ import { useEffect } from "react"
 import langswitch from "../components/Utils/langswitch"
 export default function A(){
     useEffect(()=>{
-        window.localStorage.clear()
+                 // Get the value of the "addr" key
+                 var seladdr = window.localStorage.getItem("seladdress");
+                 var addr = window.localStorage.getItem("address");
+                 window.localStorage.clear()  
+                 if(seladdr != null) 
+                window.localStorage.setItem("seladdress",seladdr);
+                if(addr != null) 
+                window.localStorage.setItem("address",addr);
     },[])
     const restus = ["kitchen-brothers","pizzavalentina","westendgrillundpizza","leundlo","pizzaland"]
     var out = []

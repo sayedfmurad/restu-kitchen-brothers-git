@@ -27,6 +27,9 @@ export function IfCloseMsg(){
  
 
     const menu = langswitch.getJson("menu")
+    if(menu != null)
+    if(typeof menu !== "undefined")
+    if(Object.keys(menu).length  !== 0)
     setTimeout(() => {
 
 

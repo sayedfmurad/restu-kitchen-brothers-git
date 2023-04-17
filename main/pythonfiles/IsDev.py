@@ -18,26 +18,6 @@ restus = {
     }
     
   }
-package = {    
-  "name": "restu-kitchen-brothers",
-  "version": "0.1.0",
-  "private": True,
-  "dependencies": {
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "yarn config-static && next build && next export  ",
-    "start": "next start",      
-    "cloud": "aws cloudfront create-invalidation --distribution-id EW42NP988OU7X --paths '/*'",
-    "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\"",
-    "db": "aws s3 sync ./public/database/ s3://angebote-restu/database/ --profile my"    
-  },  
-  "lang": "de-de",
-  "IsOut": False
-}
 
 
 def StartMakeSaveKeyPage(name):
@@ -50,16 +30,20 @@ def getObjj():
             objj = filename.split(".")[0]
             StartMakeSaveKeyPage(objj)
 
-def dev():
-    package["IsOut"]=False
-    package["scripts"]["pub"]="yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
-    with open('package.json', 'w') as outfile:
-        json.dump(package, outfile)
+def dev():    
+    with open('package.json', 'r+',encoding='utf-8') as f:
+      package = json.load(f)
+      package["IsOut"]=False
+      f.seek(0)
+      json.dump(package, f, ensure_ascii=False, indent=4)
+      f.truncate()
+
     getObjj()    
     
     # shutil.copy("./main/database/"+str(key)+".menu.json","public/database/menu.json")
 
 import hashlib
+restuses={}
 def PrepairDB2(folder_path,filename):
     objj = filename.split(".")[0]  
     with open(folder_path+"/"+ filename, 'r+',encoding='utf-8') as f:
@@ -78,7 +62,6 @@ def PrepairDB2(folder_path,filename):
       hash_string = sha256.hexdigest()
 
       data["v"]=hash_string
-
       # Move the file pointer back to the beginning of the file
       f.seek(0)
 
@@ -87,6 +70,15 @@ def PrepairDB2(folder_path,filename):
 
       # Truncate any remaining data in the file
       f.truncate()
+
+      restuses[objj]={
+          "key":objj,
+          "name":data["staticValue"]["kontakt"]["name"],
+          "v":hash_string
+      }
+    with open("./public/restus.json", 'r+',encoding='utf-8') as f:
+        # Write the dictionary to the file as JSON data
+        json.dump(restuses, f, ensure_ascii=False, indent=4)
 def PrepairDB():
     folder_path = "./public/database"  
     for filename in os.listdir(folder_path):
@@ -100,7 +92,6 @@ def main(args):
             print(mm)
     elif args[1] == "dev":
         dev()
-        os.system("yarn dev")
     elif args[1] == "prepairdb":
         PrepairDB()
     

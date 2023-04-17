@@ -2551,7 +2551,7 @@
     },
     "staticValue": {
         "pc": "AUS4TpklOfSjrHZClPzrT5yjpR85CVKMw7sPAcTnNA7su0LdE4XmMOEoGEH5ZqBmLoM0wHbDKVkZekTU",
-        "ps":"wrjCtMK7wq7CvMK8w6TDosOOwqrCucOiw4fCuMKZw4_DgcK4w5_DmsKww5zDnMKSw6XCo8OWw4PCmMKxwrbDgcOfw6XDiMKpw63CqcOcw5jCv8Kuw6PCsMOlw5bDh8Kjwq3CosOUwrPDg8OwwrnDnsKewq_DmcOEwrvDmsOqw6HCvsOfwqnCo8ONw6PDmMOowqzCrMKnwrjDnMKyw4DCvA==",
+        "ps": "wrjCtMK7wq7CvMK8w6TDosOOwqrCucOiw4fCuMKZw4_DgcK4w5_DmsKww5zDnMKSw6XCo8OWw4PCmMKxwrbDgcOfw6XDiMKpw63CqcOcw5jCv8Kuw6PCsMOlw5bDh8Kjwq3CosOUwrPDg8OwwrnDnsKewq_DmcOEwrvDmsOqw6HCvsOfwqnCo8ONw6PDmMOowqzCrMKnwrjDnMKyw4DCvA==",
         "logo": "LE & LO",
         "kontakt": {
             "name": "LE&LO Döner & Pizzeria",
@@ -2664,14 +2664,18 @@
     "rabat": "",
     "extra": {
         "mit Kräuterbutter, extraP": {
-            "section": ["Pizzabrötchen"],
+            "section": [
+                "Pizzabrötchen"
+            ],
             "stand": {
                 "price": "1,00",
                 "name": "Kräuterbutter, extra"
             }
         },
         "Lachs": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Lachs"
@@ -2686,7 +2690,9 @@
             }
         },
         "Sardellen": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Sardellen"
@@ -2701,7 +2707,9 @@
             }
         },
         "Ei": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Ei"
@@ -2716,7 +2724,9 @@
             }
         },
         "Speck": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Speck"
@@ -2731,7 +2741,9 @@
             }
         },
         "Knoblauchwurst, pikant": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Knoblauchwurst, pikant"
@@ -2746,7 +2758,9 @@
             }
         },
         "Weichkäse": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Weichkäse"
@@ -2761,7 +2775,9 @@
             }
         },
         "Sauce Hollandaise": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Sauce Hollandaise"
@@ -2776,7 +2792,9 @@
             }
         },
         "Käse, extra": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Käse, extra"
@@ -2791,7 +2809,9 @@
             }
         },
         "Hackfleisch": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Hackfleisch"
@@ -2806,7 +2826,9 @@
             }
         },
         "Salami": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Salami"
@@ -2821,7 +2843,9 @@
             }
         },
         "Oliven": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Oliven"
@@ -2836,7 +2860,9 @@
             }
         },
         "Champignons": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Champignons"
@@ -2851,7 +2877,9 @@
             }
         },
         "Parmaschinken": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Parmaschinken"
@@ -2866,7 +2894,9 @@
             }
         },
         "Spinat": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Spinat"
@@ -2881,7 +2911,9 @@
             }
         },
         "Parmesan": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Parmesan"
@@ -2896,7 +2928,9 @@
             }
         },
         "Formfleischvorderschinken": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Formfleischvorderschinken"
@@ -2911,7 +2945,9 @@
             }
         },
         "Hähnchenbrustfilet": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Hähnchenbrustfilet"
@@ -2926,7 +2962,9 @@
             }
         },
         "Rucola": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Rucola"
@@ -2941,7 +2979,9 @@
             }
         },
         "Thunfisch": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Thunfisch"
@@ -2956,7 +2996,9 @@
             }
         },
         "Zwiebeln": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Zwiebeln"
@@ -2971,7 +3013,9 @@
             }
         },
         "Peperoni, scharf": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Peperoni, scharf"
@@ -2986,7 +3030,9 @@
             }
         },
         "Artischocken": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Artischocken"
@@ -3001,7 +3047,9 @@
             }
         },
         "Paprika": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Paprika"
@@ -3016,7 +3064,9 @@
             }
         },
         "Ananas": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Ananas"
@@ -3031,7 +3081,9 @@
             }
         },
         "Hähnchen-Dönerfleisch": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Hähnchen-Dönerfleisch"
@@ -3046,7 +3098,9 @@
             }
         },
         "Kalb-Dönerfleisch": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Kalb-Dönerfleisch"
@@ -3061,7 +3115,9 @@
             }
         },
         "Tomaten": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Tomaten"
@@ -3076,7 +3132,9 @@
             }
         },
         "Schafskäse": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Schafskäse"
@@ -3091,7 +3149,9 @@
             }
         },
         "Mozzarella": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Mozzarella"
@@ -3106,7 +3166,9 @@
             }
         },
         "Krabben": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Krabben"
@@ -3121,7 +3183,9 @@
             }
         },
         "Hackfleischsauce": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Hackfleischsauce"
@@ -3136,7 +3200,9 @@
             }
         },
         "Meeresfrüchten": {
-            "section": ["PIZZEN"],
+            "section": [
+                "PIZZEN"
+            ],
             "24cm": {
                 "price": "1,00",
                 "name": "Meeresfrüchten"
@@ -3150,7 +3216,6 @@
                 "name": "Meeresfrüchten"
             }
         }
-      
     },
     "sections": {
         "mdesc": {
@@ -3209,7 +3274,7 @@
             "IMBISSGERICHTE": {
                 "section": "IMBISSGERICHTE",
                 "des": "",
-                "img":"INT_TACOS"
+                "img": "INT_TACOS"
             },
             "PIZZABRÖTCHEN": {
                 "section": "PIZZABRÖTCHEN",
@@ -3241,8 +3306,8 @@
             },
             "KIDSBOXFUNBOX": {
                 "section": "KIDSBOXFUNBOX",
-                "des": "Dönerfleisch oder Chicken Nuggets und Pommes frites"
-                ,"img":"FINGER_FOODS"
+                "des": "Dönerfleisch oder Chicken Nuggets und Pommes frites",
+                "img": "FINGER_FOODS"
             },
             "Kartoffelgerichte": {
                 "section": "Kartoffelgerichte",
@@ -3281,5 +3346,5 @@
             }
         }
     },
-    "v":"5"
+    "v": "21765d54b50ff8966e04183842879de45e1292c7981cb2c87a8e2f506d8d0c89"
 }

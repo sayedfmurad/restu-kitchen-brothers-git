@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import langswitch from "../Utils/langswitch"
 import { useState } from 'react'
-
+import restus from "../../public/restus.json"
 export function Container(){
     const v = "5"
     const MyLang = langswitch.langswitchs("navbar");
@@ -18,7 +18,14 @@ export function Container(){
             hostname[0]= hostname[0] == "www" ? "":hostname[0]
             hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")
             const setClear = ()=>{
-                window.localStorage.clear()   
+                // Get the value of the "addr" key
+                var seladdr = window.localStorage.getItem("seladdress");
+                var addr = window.localStorage.getItem("address");
+                window.localStorage.clear() 
+                if(seladdr != null) 
+                window.localStorage.setItem("seladdress",seladdr);
+                if(addr != null) 
+                window.localStorage.setItem("address",addr);
                 window.location.href="./"
             }
             if(Object.keys(menu).length === 0){
@@ -38,7 +45,7 @@ export function Container(){
             }
             else if(!("v" in menu) )
             setClear()
-            else if(menu["v"] != v)
+            else if(menu["v"] != restus[menu["staticValue"]["key"]]["v"])
             setClear()
             else{
                 setlogo(<>
