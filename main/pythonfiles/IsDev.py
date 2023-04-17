@@ -59,6 +59,41 @@ def dev():
     
     # shutil.copy("./main/database/"+str(key)+".menu.json","public/database/menu.json")
 
+import hashlib
+def PrepairDB2(folder_path,filename):
+    objj = filename.split(".")[0]  
+    with open(folder_path+"/"+ filename, 'r+',encoding='utf-8') as f:
+      data = json.load(f)  
+
+      # Convert the dictionary to a JSON string
+      json_string = json.dumps(data, sort_keys=True)
+
+      # Create a new SHA-256 hash object
+      sha256 = hashlib.sha256()
+
+      # Update the hash object with the JSON string
+      sha256.update(json_string.encode('utf-8'))
+
+      # Get the hex representation of the hash
+      hash_string = sha256.hexdigest()
+
+      data["v"]=hash_string
+
+      # Move the file pointer back to the beginning of the file
+      f.seek(0)
+
+      # Write the updated data back to the file
+      json.dump(data, f, ensure_ascii=False, indent=4)
+
+      # Truncate any remaining data in the file
+      f.truncate()
+def PrepairDB():
+    folder_path = "./public/database"  
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        if os.path.isfile(file_path):            
+            PrepairDB2(folder_path, filename)
+
 def main(args):
     if args[1] == "list":
         for mm in restus["objs"]:
@@ -66,4 +101,6 @@ def main(args):
     elif args[1] == "dev":
         dev()
         os.system("yarn dev")
+    elif args[1] == "prepairdb":
+        PrepairDB()
     

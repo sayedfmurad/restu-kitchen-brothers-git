@@ -235,7 +235,7 @@ export function Container(){
         rows.push(  <div className="row cosrow mb-2 p-3"><div className="col-12 text-center text">{MyLang["cart is empty"]}</div></div>)
         else
         {        
-          
+            const IsStoreOpenClose_Var = langswitch.checkOpenCloseStore(menu)
             const onChangeToAbohlen=()=>{
                 document.getElementById("success-outlined-abholen").checked=true;
                 setdeliverytimes(<>{getTimesForDelivery(0)}</>) 
@@ -244,7 +244,7 @@ export function Container(){
                 setItemsContainer(<Items addre={addre} seladdre={seladdre} textabohlen="d-none" menu={menu} or={or} sum={sum} MyLang={MyLang}/>)
             }
             const onChangeToLiefern=()=>{
-                if(langswitch.checkOpenCloseStore(menu))
+                if(IsStoreOpenClose_Var)
                 setspaterodernow("d-none")
 
                 setdeliverytimes(<>{getTimesForDelivery(1)}</>) 
@@ -338,12 +338,12 @@ export function Container(){
                         <h6>Lieferzeit wählen:</h6>                        
                         </div>
                         <div className="col-12">                
-                        {langswitch.checkOpenCloseStore(menu)?<>
+                        {IsStoreOpenClose_Var?<>
                             <input type="radio" class="btn-check" onClick={()=>{setspaterodernow("d-none")}} name="options-outlined-zeit" id="success-outlined-jetzt" autocomplete="off" checked/>
                             <label class="btn btn-outline-success" for="success-outlined-jetzt">Jetzt</label>
                             &nbsp;</>:<></>}
-                            <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" checked={!langswitch.checkOpenCloseStore(menu)}/>
-                            <label class="btn btn-outline-success" onClick={onChangeToDeliveryTime} for="success-outlined-spater">Später</label>                        
+                            <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" />
+                            <label class="btn btn-outline-success" onClick={()=>{onChangeToDeliveryTime()}} id="success-outlined-spater-label" for="success-outlined-spater">Später</label>                        
                         </div>
                         </div>
                         <div className={`col-12 ${spaterodernow}`}>
@@ -359,8 +359,10 @@ export function Container(){
                 </>
             )
             useEffect(()=>{
-                if(!langswitch.checkOpenCloseStore(menu))
+                if(!IsStoreOpenClose_Var)
                 onChangeToDeliveryTime()
+
+                
             },[])
 
 
