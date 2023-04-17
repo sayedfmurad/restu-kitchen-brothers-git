@@ -17,6 +17,10 @@ export function Container(){
             hostname = hostname.split(".")
             hostname[0]= hostname[0] == "www" ? "":hostname[0]
             hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")
+            const RedirectToUrl=(url)=>{
+                if(!(window.location.pathname.endsWith("failure.html") || window.location.pathname.endsWith("failure")))
+                window.location.href=url
+            }
             const setClear = ()=>{
                 // Get the value of the "addr" key
                 var seladdr = window.localStorage.getItem("seladdress");
@@ -26,16 +30,18 @@ export function Container(){
                 window.localStorage.setItem("seladdress",seladdr);
                 if(addr != null) 
                 window.localStorage.setItem("address",addr);
-                window.location.href="./"
+
+                
+                RedirectToUrl("./")
             }
             if(Object.keys(menu).length === 0){
                 if(hostname == "kitchen-brothers" || hostname == "westendgrillundpizza" || hostname == "pizzavalentina") 
                 {                  
 
-                    window.location.href = langswitch.RouteP(hostname)
+                    RedirectToUrl(langswitch.RouteP(hostname))
                 }else
                 {
-                    window.location.href =langswitch.RouteP("home")
+                    RedirectToUrl(langswitch.RouteP("home"))                    
                 }
             }
             else if(!("staticValue" in menu))                
