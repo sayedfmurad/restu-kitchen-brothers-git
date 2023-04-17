@@ -118,12 +118,6 @@ export function Container(){
             }
         }   
         var addOrder=()=>{ 
-            console.log(!langswitch.checkOpenCloseStore(menu),!packagee["IsOut"],!langswitch.checkOpenCloseStore(menu) && !packagee["IsOut"]) 
-            if(!langswitch.checkOpenCloseStore(menu) && packagee["IsOut"])       
-            {
-                window.location.href = langswitch.RouteP("storeclosed");          
-                return
-            }
             order["id"]=id
             order["type"]=type
             order["extra"]=extra
