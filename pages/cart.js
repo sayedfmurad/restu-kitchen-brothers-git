@@ -287,15 +287,19 @@ export function Container(){
                 datee.setHours(datee.getHours()+plustime)
                 
                 ///////Prepair CloseTime
-                var closeTime = new Date()                
+                var closeTime = new Date()  
+                var openTime = new Date()              
                 const day = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][datee.getDay()]                      
                 for(var daydd in menu["staticValue"]["opendays"])
                 if(day == daydd)
                 {
+                    openTime.setHours(menu["staticValue"]["opendays"][day]["opentime"]["hour"]+1)
+                    openTime.setMinutes(menu["staticValue"]["opendays"][day]["opentime"]["min"])
                     closeTime.setHours(menu["staticValue"]["opendays"][day]["closetime"]["hour"])
                     closeTime.setMinutes(menu["staticValue"]["opendays"][day]["closetime"]["min"])
                 }   
-                
+                if(openTime>datee)
+                    datee = openTime;                    
                 closeTime= ConvertToMinuten_0_15_30_45(closeTime)
                 
                 if (closeTime.getFullYear() === datee.getFullYear() && 
