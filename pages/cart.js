@@ -139,7 +139,7 @@ export function Container(){
             if(t=="paypal")
             {
                 const hostname = window.location.hostname;
-                const isOutPackage= packagee["IsOut"]?"html":""
+                const isOutPackage= packagee["IsOut"]?".html":""
                 parms["successurl"] = "https://"+hostname+"/success"+isOutPackage
                 parms["failureurl"] = "https://"+hostname+"/cart"+isOutPackage
             }
