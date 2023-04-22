@@ -31,6 +31,15 @@ export default ()=>
             </div>  
             </div>)
     }
+    if(menu["staticValue"]["key"]=="kitchen-brothers")
+    {
+            [rows2,setrows2] = useState(
+            <div className='row g-2' >            
+            <div className=" alert alert-warning" role="alert">
+            Kitchen Brothers, Konstantinstraße 87, 41238 Mönchengladbach
+            </div>  
+            </div>)
+    }
     var sections = [];
     for(var key in menu["product"])
     {

@@ -109,7 +109,7 @@ export function Container(){
         <label for="phonen">Handynummer</label>
     <div className='input-group'>
         <span class="input-group-text" id="inputGroup-sizing-default">+49</span>            
-        <input type="text"class="form-control" aria-describedby="inputGroup-sizing-default" aria-label="Sizing example input" id="phonen"  placeholder=" Handynummer (Optional)" />
+        <input type="text"class="form-control" aria-describedby="inputGroup-sizing-default" aria-label="Sizing example input" id="phonen"  placeholder=" Handynummer" required/>
     </div>            
     </div>            
     <br/>
