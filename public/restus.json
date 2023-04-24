@@ -2,26 +2,26 @@
     "westendgrillundpizza": {
         "key": "westendgrillundpizza",
         "name": "Westend Grill & Pizza",
-        "v": "c214c23a797b153fe2e059e7d3a9ca630b6a9e2b86ba27e149ff10414a87ae4f"
+        "v": "3cbb144fdf6c70016dc2d47353470d7befd7f1deea04e2fab08a7fb9f455a9df"
     },
     "pizzaland": {
         "key": "pizzaland",
         "name": "pizzaland",
-        "v": "97bc1343be8b25c3a0cc091fc928969b8e61db027e9ad216236427d037d901f7"
+        "v": "e11fe2cb8baf3f45e8ad1959ff9c9b5f54f9b9650e59b8cf4423fdaef628d593"
     },
     "leundlo": {
         "key": "leundlo",
         "name": "LE&LO Döner & Pizzeria",
-        "v": "8c5b15fa9d66583f9e36993521b8d676f77e6c22964c9394acf822ce08236138"
+        "v": "62e827dc02fa4c9cf34758ee606f6a6c5184289d4165522dbc4820c8e6e00938"
     },
     "pizzavalentina": {
         "key": "pizzavalentina",
         "name": "Pizzavalentina",
-        "v": "a0d4f25644314671895c2153906d80363e0e1c9aef3a58c93a889d7f43076d4e"
+        "v": "00050df2b6a5b35ad6f2dc7d01afc96ab16a8db8ba17eb97a2630664f1afb86d"
     },
     "kitchen-brothers": {
         "key": "kitchen-brothers",
         "name": "Kitchenbrothers",
-        "v": "dbcc7ec90024e2573a823bbac362c18551d85fc564ceb04fedeac25f843ebaa2"
+        "v": "6ae01c1e2de0981d75c6439680ee575b78ae01c8ae2218331c6ec8d32618e602"
     }
 }

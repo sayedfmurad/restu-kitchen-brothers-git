@@ -16,8 +16,11 @@ export default function  A(){
         var ndmd =  new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }))        
         if(dmd.getDay()!=ndmd.getDay())
         delete orders[dd]
-        else
+        else        
         if(orders[dd]["time"]=="")
+        if(!("paid" in orders[dd]))
+        objtosend.push(orders[dd]["MainId"])
+        else if(orders[dd]["paid"] == "false" || orders[dd]["paid"] == false)
         objtosend.push(orders[dd]["MainId"])
       }
       window.localStorage.setItem("mainorder",JSON.stringify(orders))
@@ -48,6 +51,7 @@ export default function  A(){
                       response.json().then(result => {
                         for(var dl in result)
                         orders[dl]["time"]=result[dl]["time"]
+                        orders[dl]["paid"]=result[dl]["paid"]
                         localStorage.setItem("mainorder",JSON.stringify(orders) )
                         window.location.href=langswitch.RouteP("orders")
                       })

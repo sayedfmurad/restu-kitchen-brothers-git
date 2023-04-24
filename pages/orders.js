@@ -16,7 +16,9 @@ export function Container(){
             window.location.href=langswitch.RouteP("updatesmainorders");
          }, 20000);
 
-        for(var lll in orders)        
+        for(var lll in orders)
+        if("paid" in orders[lll])       
+        if(orders[lll]["paid"])       
         {        
         var or=orders[lll]   
         var crows = [];

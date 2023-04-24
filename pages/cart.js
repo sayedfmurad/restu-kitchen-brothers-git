@@ -234,7 +234,62 @@ export function Container(){
         if(Object.keys(or).length == 0)
         rows.push(  <div className="row cosrow mb-2 p-3"><div className="col-12 text-center text">{MyLang["cart is empty"]}</div></div>)
         else
-        {        
+        {      
+            
+            
+
+            var addresses = langswitch.getJson("address")
+            var seladd = langswitch.getValue("seladdress")
+            if(seladd in addresses)
+            {
+                rows.push(<>
+                    <div className={`list-group`}>                
+                    <div className='list-group-item'>                
+                    <div className="row mb-4">
+                        <div className='col-12'>
+                        <h6>Ihre Daten :</h6>
+                        </div>
+                        <div className='col-12'>
+                        <p style={{"fontSize":"0.7rem"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
+                        {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
+                        {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
+                        {addresses[seladd]["phonen"]}
+                        </p>
+                        </div>
+                        <div className='col-12 align-items-center d-flex'>
+                            <button className='btn btn-outline-primary'
+                            onClick={()=>{
+                                window.location.href =  langswitch.RouteP("addaddress")
+                            }}
+                            >ändern</button>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <br/>
+                    </>
+                    )
+            }
+            else{
+                rows.push(<>
+                    <div className={`list-group `}>                
+                    <div className='list-group-item'>    
+                    <h6>Ihre Daten :</h6>                    
+                    <p><button className='btn btn-primary'
+                            onClick={()=>{
+                                window.location.href =  langswitch.RouteP("addaddress")
+                            }}
+                            >eine Adresse auswänderen</button></p>
+                    </div>  
+                    </div>
+                    <br/>
+                    </>
+                    )  
+            }
+
+
+
+
             const IsStoreOpenClose_Var = langswitch.checkOpenCloseStore(menu)
             const onChangeToAbohlen=()=>{
                 document.getElementById("success-outlined-abholen").checked=true;
@@ -370,54 +425,7 @@ export function Container(){
             },[])
 
 
-            var addresses = langswitch.getJson("address")
-            var seladd = langswitch.getValue("seladdress")
-            if(seladd in addresses)
-            {
-                rows.push(<>
-                    <div className={`list-group`}>                
-                    <div className='list-group-item'>                
-                    <div className="row mb-4">
-                        <div className='col-12'>
-                        <h6>Ihre Daten :</h6>
-                        </div>
-                        <div className='col-12'>
-                        <p style={{"fontSize":"0.7rem"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
-                        {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
-                        {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
-                        {addresses[seladd]["phonen"]}
-                        </p>
-                        </div>
-                        <div className='col-12 align-items-center d-flex'>
-                            <button className='btn btn-outline-primary'
-                            onClick={()=>{
-                                window.location.href =  langswitch.RouteP("addaddress")
-                            }}
-                            >ändern</button>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                    <br/>
-                    </>
-                    )
-            }
-            else{
-                rows.push(<>
-                    <div className={`list-group `}>                
-                    <div className='list-group-item'>    
-                    <h6>Ihre Daten :</h6>                    
-                    <p><button className='btn btn-primary'
-                            onClick={()=>{
-                                window.location.href =  langswitch.RouteP("addaddress")
-                            }}
-                            >eine Adresse auswänderen</button></p>
-                    </div>  
-                    </div>
-                    <br/>
-                    </>
-                    )  
-            }
+    
  
 
 
