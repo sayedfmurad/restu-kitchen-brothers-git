@@ -5,20 +5,7 @@ import MyNavbar from "../components/NavBar/MyNavbar"
 import Sections from "../components/Index/sections"
 import langswitch from "../components/Utils/langswitch"
 
-export function GetOnAndroid(){
-  var [btn,setbtn]=useState(<></>)
-  useEffect(()=>{
-            var hostname = window.location.hostname;
-            hostname = hostname.split(".")
-            hostname[0]= hostname[0] == "www" ? "":hostname[0]
-            hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")
-            if(hostname == "westendgrillundpizza"||false)             
-            {
-              setbtn(<img alt="" src='./Images/getonandroid.png'/>)
-            }
-  },[])
-  return btn
-}
+
 export function IfCloseMsg(){
   var [out,setout] = useState(<></>)
   useEffect(()=>
@@ -69,8 +56,7 @@ export default function Index() {
       <link href="./mystyles/homepage.css" rel="stylesheet" />
     </Head>   
     {/* <div className="specially mbackground"></div>  */}
-    <MyNavbar/>  
-    {/* <GetOnAndroid/>               */}
+    <MyNavbar/>               
     <IfCloseMsg/>
     <Sections/>
    </>

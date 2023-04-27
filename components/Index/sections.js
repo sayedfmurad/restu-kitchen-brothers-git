@@ -11,17 +11,6 @@ export default ()=>
     if(typeof menu !== "undefined")
     if(Object.keys(menu).length  !== 0)
     {
-    if(menu["staticValue"]["key"]=="westendgrillundpizza")
-    {
-            [rows2,setrows2] = useState(
-            <div className='row g-2' >            
-            <div className=" alert alert-warning" role="alert">
-            Ab April finden Sie uns nicht mehr bei <strong>Lieferando.</strong><br/>
-            Sie können aber weiterhin <strong>telefonisch</strong> oder über unsere <strong>Website</strong> bestellen.<br/>
-            Auf unserer Website ist es neben den Online-Zahlungsmethoden möglich die <strong>Bar-Zahlung</strong> bei Lieferung auszuwählen.
-            </div>  
-            </div>)
-    }
     if(menu["staticValue"]["key"]=="pizzavalentina")
     {
             [rows2,setrows2] = useState(
@@ -72,6 +61,22 @@ export default ()=>
   
 
   return   <div className='container mt-5 mb-5'>  
+            {/* <div className='row g-2 mb-5'>
+            <div class="alert alert-info">
+              <div className="row g-2">
+                <div className="col-md-6">
+                <div className="d-flex justify-content-md-end">
+                <a href="https://play.google.com/store/apps/details?id=com.foodieway.foodieway">
+                <img alt="" height="100px" src='./Images/getonandroid-t.jpeg'/>
+                </a>
+                </div>
+                </div>
+                <div className="col-md-4">
+                <strong>Laden Sie unsere App herunter!</strong> Holen Sie sich die neuesten Funktionen und Updates, indem Sie unsere App aus dem App Store oder Google Play herunterladen.
+                </div>
+              </div>                        
+          </div>
+            </div> */}
             {rows2}
             <div className='row g-2' >
             {rows}  

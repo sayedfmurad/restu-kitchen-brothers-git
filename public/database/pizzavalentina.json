@@ -2872,7 +2872,7 @@
                 "name": "Krabben"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Krabben"
             },
             "38cm": {
@@ -2927,7 +2927,7 @@
                 "name": "Lachs"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "4,50",
                 "name": "Lachs"
             },
             "38cm": {
@@ -2944,7 +2944,7 @@
                 "name": "Käse"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Käse"
             },
             "38cm": {
@@ -2991,7 +2991,7 @@
                 "name": "Mozzarella"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Mozzarella"
             },
             "38cm": {
@@ -3008,7 +3008,7 @@
                 "name": "Parmaschinken"
             },
             "28cm": {
-                "price": "3,30",
+                "price": "4,30",
                 "name": "Parmaschinken"
             },
             "38cm": {
@@ -3025,7 +3025,7 @@
                 "name": "Bolognese"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,80",
                 "name": "Bolognese"
             },
             "38cm": {
@@ -3110,7 +3110,7 @@
                 "name": "knoblauch"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "knoblauch"
             },
             "38cm": {
@@ -3127,7 +3127,7 @@
                 "name": "Artischocken"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Artischocken"
             },
             "38cm": {
@@ -3407,7 +3407,7 @@
                 "name": "Ei"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Ei"
             },
             "38cm": {
@@ -3436,7 +3436,7 @@
                 "name": "Hähnchenbrust"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "4,30",
                 "name": "Hähnchenbrust"
             },
             "38cm": {
@@ -3719,7 +3719,7 @@
                 "name": "Salami"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Salami"
             },
             "38cm": {
@@ -3835,7 +3835,7 @@
                 "name": "Spinat"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Spinat"
             },
             "38cm": {
@@ -3852,7 +3852,7 @@
                 "name": "Sucuk"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Sucuk"
             },
             "38cm": {
@@ -3909,7 +3909,7 @@
                 "name": "Mais"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Mais"
             },
             "38cm": {
@@ -3926,7 +3926,7 @@
                 "name": "Sardellen"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "4,30",
                 "name": "Sardellen"
             },
             "38cm": {
@@ -3944,7 +3944,7 @@
                 "name": "Meeresfrüchten"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "4,30",
                 "name": "Meeresfrüchten"
             },
             "38cm": {
@@ -4016,7 +4016,7 @@
                 "name": "Oliven"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,70",
                 "name": "Oliven"
             },
             "38cm": {
@@ -4368,5 +4368,5 @@
         "c": "wqDCncKiwpXCoMKYwp_CqMKuwqY="
     },
     "rabat": "5",
-    "v": "41cc009fd71b3864f80c664ffdd3b8a00bb123965e6ce0e3e84c71c851f9770d"
+    "v": "f6a6aae3ed672a60ac55dd927fcece97226f5a2005ba661dfadf500f4e2c5ccd"
 }

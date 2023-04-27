@@ -1609,7 +1609,7 @@
             "price": {
                 "stand": "12,50"
             },
-            "desO": "Schnitzel mit gebratene Ei",
+            "desO": "Hackfleisch Tomatensauce, Käse überbacken",
             "desT": "",
             "zusatz": "",
             "section": "SCHNITZEL"
@@ -2737,5 +2737,5 @@
         "c": "wqDClsKewpTCnsKbwqbCoMKqwqnCmMKnwpXCpA=="
     },
     "rabat": "5",
-    "v": "b3ac1c1d989da26131122a5fd9a14077e8e585172ed5a25fe8b9486a794a9a3c"
+    "v": "2e61df819eb615da4422880f411938b50e6fd334f8463f3cf6a7d345dd5eeda9"
 }
