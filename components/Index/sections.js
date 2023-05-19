@@ -4,31 +4,35 @@ import langswitch from "../Utils/langswitch"
 export default ()=>
 {
   var [rows,setrows] = useState([]);
-  var [rows2,setrows2] = useState(<></>);
-  if(process.browser){
+  var [rows2,setrows2] = useState([]);
+  var [android,setandroid] = useState(<></>);
+  useEffect(()=>{
     const menu = langswitch.getJson("menu")
     if(menu != null)
     if(typeof menu !== "undefined")
     if(Object.keys(menu).length  !== 0)
     {
-    if(menu["staticValue"]["key"]=="pizzavalentina")
+    if(menu["staticValue"]["key"]=="westendgrillundpizza" || menu["staticValue"]["key"]=="pizzavalentina" || menu["staticValue"]["key"]=="kitchen-brothers")
     {
-            [rows2,setrows2] = useState(
+            const rowwws = []
+            rowwws.push(            
             <div className='row g-2' >            
             <div className=" alert alert-warning" role="alert">
             NUR HIER MIT <strong>5%</strong> ONLINE-RABATT BESTELLEN
             </div>  
             </div>)
+                if(menu["staticValue"]["key"]=="kitchen-brothers")
+                {
+                  rowwws.push(        
+                        <div className='row g-2' >            
+                        <div className=" alert alert-warning" role="alert">
+                        Kitchen Brothers, Konstantinstraße 87, 41238 Mönchengladbach
+                        </div>  
+                        </div>)
+                }
+            setrows2([...rows2, rowwws])
     }
-    if(menu["staticValue"]["key"]=="kitchen-brothers")
-    {
-            [rows2,setrows2] = useState(
-            <div className='row g-2' >            
-            <div className=" alert alert-warning" role="alert">
-            Kitchen Brothers, Konstantinstraße 87, 41238 Mönchengladbach
-            </div>  
-            </div>)
-    }
+
     var sections = [];
     for(var key in menu["product"])
     {
@@ -55,28 +59,38 @@ export default ()=>
         </div>
         );
     }
-    [rows,setrows] = useState(rows)
+    setrows(rows)
+
+
+    
+      var isAndroidWebView = navigator.userAgent.toLowerCase().indexOf('wv') > -1;
+      if (!isAndroidWebView) 
+      setandroid(
+        <div className='row g-2'>
+        <div class="alert alert-info">
+          <div className="row g-2">
+            <div className="col-md-6 col-sm-12 col-xs-12">
+            <div className="d-flex justify-content-md-end">
+            <a href="https://play.google.com/store/apps/details?id=com.foodieway.foodieway">
+            <img alt="" height="50px" src='./Images/getonandroid-t.jpeg'/>
+            </a>
+            </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-xs-12">
+            <strong>Laden Sie unsere App herunter!</strong>
+            </div>
+          </div>                        
+      </div>
+        </div>
+      )
+    
   }
   }
+  ,[])
   
 
   return   <div className='container mt-5 mb-5'>  
-            {/* <div className='row g-2 mb-5'>
-            <div class="alert alert-info">
-              <div className="row g-2">
-                <div className="col-md-6">
-                <div className="d-flex justify-content-md-end">
-                <a href="https://play.google.com/store/apps/details?id=com.foodieway.foodieway">
-                <img alt="" height="100px" src='./Images/getonandroid-t.jpeg'/>
-                </a>
-                </div>
-                </div>
-                <div className="col-md-4">
-                <strong>Laden Sie unsere App herunter!</strong> Holen Sie sich die neuesten Funktionen und Updates, indem Sie unsere App aus dem App Store oder Google Play herunterladen.
-                </div>
-              </div>                        
-          </div>
-            </div> */}
+            {android}
             {rows2}
             <div className='row g-2' >
             {rows}  

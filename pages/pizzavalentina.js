@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import packagee from "../package.json"
 
 export default function A(){
     useEffect(()=>{
@@ -14,11 +15,10 @@ export default function A(){
         })
         .catch(error => {
             window.location.href = "./"
-            alert("Resturant Not Found")
+            // alert("Resturant Not Found")
             console.error('Error fetching JSON file:', error);
         });
     },[])
     return<>
-    Loading
     </>
 }

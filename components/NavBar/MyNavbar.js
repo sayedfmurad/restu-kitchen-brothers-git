@@ -1,73 +1,28 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import langswitch from "../Utils/langswitch"
-import { useState } from 'react'
-import restus from "../../public/restus.json"
-export function Container(){
-    const v = "5"
+import { useEffect, useState } from 'react'
+import packagee from "../../package.json"
+
+export function Container(){    
     const MyLang = langswitch.langswitchs("navbar");
     var router = useRouter();
     router = router.pathname;
     var [logo,setlogo]=useState(" ")
-    if(process.browser)
-    {
-        const menu = langswitch.getJson("menu")
-        setTimeout(() => {
-            var hostname = window.location.hostname;
-            hostname = hostname.split(".")
-            hostname[0]= hostname[0] == "www" ? "":hostname[0]
-            hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")
-            const RedirectToUrl=(url)=>{
-                if(!(window.location.pathname.endsWith("failure.html") || window.location.pathname.endsWith("failure")))
-                window.location.href=url
-            }
-            const setClear = ()=>{
-                // Get the value of the "addr" key
-                var seladdr = window.localStorage.getItem("seladdress");
-                var addr = window.localStorage.getItem("address");
-                window.localStorage.clear() 
-                if(seladdr != null) 
-                window.localStorage.setItem("seladdress",seladdr);
-                if(addr != null) 
-                window.localStorage.setItem("address",addr);
-
-                
-                RedirectToUrl("./")
-            }
-            if(Object.keys(menu).length === 0){
-                if(hostname == "kitchen-brothers" || hostname == "westendgrillundpizza" || hostname == "pizzavalentina") 
-                {                  
-
-                    RedirectToUrl(langswitch.RouteP(hostname))
-                }else
-                {
-                    RedirectToUrl(langswitch.RouteP("home"))                    
-                }
-            }
-            else if(!("staticValue" in menu))                
-                setClear(menu)
-                else if(!("key" in menu["staticValue"]))
-                {setClear(menu)                                         
-            }
-            else if(!("v" in menu) )
-            setClear()
-            else if(menu["v"] != restus[menu["staticValue"]["key"]]["v"])
-            setClear()
-            else{
-                setlogo(<>
-                    <a className="navbar-brand" >                        
-                    <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>
-                        {/* <img
-                            class="d-inline-block align-text-top"
-                            height="24"
-                            width="54"
-                            alt="Website Logo"
-                            src={sub+"./Images/logo.png"}/> */}
-                    </a>                
-            </>)
-            }
-        }, 100);
-    }
+    useEffect(()=>
+    {    
+            langswitch.GetJsonM("menu").then((menu)=>{
+                try {
+            setlogo(<>
+                <a className="navbar-brand" >                        
+                <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>
+                </a>                
+            </>)            
+        } catch (error) {
+        console.log(error)    
+        }
+            })
+     },[])
 
 
 

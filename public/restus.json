@@ -1,27 +1,32 @@
 {
     "westendgrillundpizza": {
+        "storeimg":"Images/cartoon.jpeg",
         "key": "westendgrillundpizza",
         "name": "Westend Grill & Pizza",
-        "v": "2e61df819eb615da4422880f411938b50e6fd334f8463f3cf6a7d345dd5eeda9"
+        "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
     },
     "pizzaland": {
+        "storeimg":"Images/cartoon.jpeg",
         "key": "pizzaland",
         "name": "pizzaland",
-        "v": "faa93a95d216afa2e6246053db3ab783ff508d507324ff7b45ffb35684c4422f"
+        "v": "be6d89adbbb80d681b4893d337bf3b160fbe4611af103e94b15fe18e09819a39"
     },
     "leundlo": {
+        "storeimg":"Images/cartoon.jpeg",
         "key": "leundlo",
         "name": "LE&LO Döner & Pizzeria",
-        "v": "1907df89cbbcafc6b2e883c1835f961d30cacef77de807aea79a43ef025ad10f"
+        "v": "7da9cf392458e0380464247cbb23abd45e612e124126667776d48b67af051b48"
     },
     "pizzavalentina": {
+        "storeimg":"Images/cartoon.jpeg",
         "key": "pizzavalentina",
         "name": "Pizzavalentina",
-        "v": "f6a6aae3ed672a60ac55dd927fcece97226f5a2005ba661dfadf500f4e2c5ccd"
+        "v": "c7e459d1f12d5d6228dcaead470cf08016c8ff3ffba48aa9cf17def381d06ab1"
     },
     "kitchen-brothers": {
+        "storeimg":"Images/kitchen-brothers-store.jpeg",
         "key": "kitchen-brothers",
         "name": "Kitchenbrothers",
-        "v": "c86c03829594f7c254cf63ff0d4893b51ed04210b860a0d3e537ff685c6f6139"
+        "v": "346c4a4ef8f99cd79436233ebd0e50e398b68050dc9066619d06e6b0df1e4d1e"
     }
 }

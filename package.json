@@ -16,6 +16,7 @@
     "db": "aws s3 sync ./public/database/ s3://angebote-restu/database/ --profile my",
     "pub": " yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
   },
+  "s3path": "http://angebote-restu.s3-website.eu-central-1.amazonaws.com",
   "lang": "de-de",
   "IsOut": true
 }

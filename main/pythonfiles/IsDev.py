@@ -93,5 +93,6 @@ def main(args):
     elif args[1] == "dev":
         dev()
     elif args[1] == "prepairdb":
-        PrepairDB()
+        pass
+        # PrepairDB()
     

@@ -213,13 +213,14 @@ export function Container(){
         const CheckOutBtn = e=>
         {
             var seladd = langswitch.getValue("seladdress")
-            
-            if(langswitch.CheckMinPriceOrder(langswitch.getNum("sumprice")  ,menu)){
+            if(document.getElementById("success-outlined-abholen").checked)
+            startpay()
+            else if(langswitch.CheckMinPriceOrder(langswitch.getNum("sumprice")  ,menu)){
                     if(seladd != "")
                     {
                     var addobj = langswitch.getJson("address")
                     if(addobj.hasOwnProperty(seladd))  
-                        startpay()
+                    startpay()
                     else
                     alert(MyLang["Please Select an Address"])
                     }

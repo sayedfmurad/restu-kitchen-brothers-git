@@ -459,6 +459,36 @@
             },
             "section": "DREHSPIEß"
         },
+        "31": {
+            "name": "Falafel Tasche",
+            "price": {
+                "stand": "4,90"
+            },
+            "desO": "mit Salat & Saucen",
+            "desT": "",
+            "zusatz": "",            
+            "section": "FALAFEL"
+        },
+        "32": {
+            "name": "Falafel Dürüm",
+            "price": {
+                "stand": "5,90"
+            },
+            "desO": "mit Salat & Saucen",
+            "desT": "",
+            "zusatz": "",            
+            "section": "FALAFEL"
+        },
+        "33": {
+            "name": "Falafel Teller",
+            "price": {
+                "stand": "7,90"
+            },
+            "desO": "mit Salat & Saucen",
+            "desT": "",
+            "zusatz": "",            
+            "section": "FALAFEL"
+        },
         "35": {
             "name": "Spaghetti Bolognese",
             "price": {
@@ -2581,7 +2611,7 @@
     "staticValue": {
         "key": "westendgrillundpizza",
         "pc": "AfuSl7LqNnZtAwNFZ-PVW56KYsaBJvrg1USrJj1_7evZzCqGcXXktUWyRi6pKBlpa3PEVDyps8CeJD8i",
-        "ps": "wrjCq8K8wrzDksK8wrvDmMOkw53CqsK1w5vCncKmwqPDm8K-wrTCksOlwqnDgcKVw4_DjsOhwrTCv8OPwrjDncKdw4LDpcOawrnCrsOHwrXCncK4w5DDmsK5wqbCscOEw47DpMOYwqPDnMOnw5zCscKiwqrDo8KowqLCn8ODw4PCssOHwqzCocOKw5rCtsOWw4PCtsOWwqzCpcK6wp7CpA==",
+        "ps": "wrjCrMOIw4bCmsOMwqLCv8Krw4HCmsKhw47CvMOJw57DpMOJwqPDl8OEwprCssKawqfCnMORw4nClsKew4XCsMKaw4TCt8OZw5bDiMOHwqnDp8KVw4LCuMObwrrCu8K-w4jDpcKzwqPCvMOewrrDmMK_wpzDk8K6wpvDp8OYw5zDhMKywqbDlsKzw4HCs8Oiwr3CmMOhwrjDgsKXw57DoA==",
         "logo": "Westend Grill & Pizza",
         "kontakt": {
             "name": "Westend Grill & Pizza",
@@ -2697,6 +2727,11 @@
     },
     "sections": {
         "mdesc": {
+            "FALAFEL": {
+                "section": "FALAFEL",
+                "des": "",
+                "img": "FALAFEL"
+            },
             "POMMESFRITES": {
                 "section": "POMMESFRITES",
                 "des": "",
@@ -2737,5 +2772,5 @@
         "c": "wqDClsKewpTCnsKbwqbCoMKqwqnCmMKnwpXCpA=="
     },
     "rabat": "5",
-    "v": "2e61df819eb615da4422880f411938b50e6fd334f8463f3cf6a7d345dd5eeda9"
+    "v": "5d0b452b94b0703624367f1468457dc6557329153af5583f13c367e1bf45cd6f"
 }

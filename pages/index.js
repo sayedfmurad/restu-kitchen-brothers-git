@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import MyNavbar from "../components/NavBar/MyNavbar"
 import Sections from "../components/Index/sections"
 import langswitch from "../components/Utils/langswitch"
-
+import packagee from "../package"
 
 export function IfCloseMsg(){
   var [out,setout] = useState(<></>)
@@ -45,7 +45,30 @@ export function IfCloseMsg(){
 
 export default function Index() {  
   const MyLang = langswitch.langswitchs("index");  
-
+  useEffect(()=>{   
+    langswitch.GetJsonM("menu").then((menu)=>{
+      try {        
+              const urll = "./database/"+menu["staticValue"]["key"]+".json"
+                  fetch(urll)
+  .then(response => response.json())
+  .then(data => {     
+    var hostname = window.location.hostname;
+        hostname = hostname.split(".")
+        hostname[0]= hostname[0] == "www" ? "":hostname[0]
+        hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")    
+        if(hostname == "kitchen-brothers" || hostname == "westendgrillundpizza" || hostname == "pizzavalentina")   
+        if(menu["staticValue"]["key"]!= hostname){
+          window.location.href = langswitch.RouteP("home")
+        }else{
+          window.localStorage.setItem("menu",JSON.stringify(data))
+        }
+  })
+      } catch (error) {
+          console.log(error,langswitch.RouteP("home"))
+          window.location.href = langswitch.RouteP("home")
+      }
+  })
+  },[])
   return (
    <>
     <Head>
