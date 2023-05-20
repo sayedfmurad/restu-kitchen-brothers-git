@@ -466,7 +466,27 @@
             },
             "desO": "mit Salat & Saucen",
             "desT": "",
-            "zusatz": "",            
+            "zusatz": "", 
+            "options": {
+                "Sauce": {
+                    "showprice": false,
+                    "name": "Sauce",
+                    "options": {
+                        "ohne Sauce": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Knoblauchsauce": {
+                            "price": "0,00"
+                        },
+                        "Knoblauchsauce und Cocktailsauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },           
             "section": "FALAFEL"
         },
         "32": {
@@ -476,7 +496,27 @@
             },
             "desO": "mit Salat & Saucen",
             "desT": "",
-            "zusatz": "",            
+            "zusatz": "",    
+            "options": {
+                "Sauce": {
+                    "showprice": false,
+                    "name": "Sauce",
+                    "options": {
+                        "ohne Sauce": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Knoblauchsauce": {
+                            "price": "0,00"
+                        },
+                        "Knoblauchsauce und Cocktailsauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },        
             "section": "FALAFEL"
         },
         "33": {
@@ -486,7 +526,27 @@
             },
             "desO": "mit Salat & Saucen",
             "desT": "",
-            "zusatz": "",            
+            "zusatz": "",  
+            "options": {
+                "Sauce": {
+                    "showprice": false,
+                    "name": "Sauce",
+                    "options": {
+                        "ohne Sauce": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Knoblauchsauce": {
+                            "price": "0,00"
+                        },
+                        "Knoblauchsauce und Cocktailsauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },          
             "section": "FALAFEL"
         },
         "35": {

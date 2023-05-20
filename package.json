@@ -8,6 +8,7 @@
     "react-dom": "17.0.2"
   },
   "scripts": {
+    "kill": "python3 s.py kill",
     "dev": "python3 s.py prepairdb && python3 s.py dev && next dev",
     "build": "yarn config-static && next build && next export  ",
     "start": "next start",

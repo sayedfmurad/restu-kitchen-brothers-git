@@ -213,20 +213,22 @@ export function Container(){
         const CheckOutBtn = e=>
         {
             var seladd = langswitch.getValue("seladdress")
-            if(document.getElementById("success-outlined-abholen").checked)
-            startpay()
-            else if(langswitch.CheckMinPriceOrder(langswitch.getNum("sumprice")  ,menu)){
-                    if(seladd != "")
-                    {
-                    var addobj = langswitch.getJson("address")
-                    if(addobj.hasOwnProperty(seladd))  
-                    startpay()
-                    else
-                    alert(MyLang["Please Select an Address"])
-                    }
-                    else
-                    alert(MyLang["Please Select an Address"])
+            const PassedSomeRules = ()=>{
+                if(seladd != "")
+                {
+                var addobj = langswitch.getJson("address")
+                if(addobj.hasOwnProperty(seladd))  
+                startpay()
+                else
+                alert(MyLang["Please Select an Address"])
+                }
+                else
+                alert(MyLang["Please Select an Address"])
             }
+            if(document.getElementById("success-outlined-abholen").checked)  
+            PassedSomeRules()      
+            else if(langswitch.CheckMinPriceOrder(langswitch.getNum("sumprice")  ,menu))
+            PassedSomeRules()            
         }
       
         var or=langswitch.getJson("order");             

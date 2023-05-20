@@ -86,12 +86,39 @@ def PrepairDB():
         if os.path.isfile(file_path):            
             PrepairDB2(folder_path, filename)
 
+
+import subprocess
+import re
+def KillProcess():
+  # Run the command and capture the output
+  command = ['lsof', '-i', 'tcp:3000']
+  output = subprocess.check_output(command)
+
+  # Decode the output from bytes to string
+  output = output.decode('utf-8')
+
+  # Use regular expressions to find the PID
+  pid_pattern = re.compile(r'\b(\d+)\b')
+  pid_match = pid_pattern.search(output)
+
+  if pid_match:
+      pid = pid_match.group(0)
+      print(f"PID: {pid}")
+      kill_command = ['kill', '-9', pid]
+      subprocess.run(kill_command)
+      print("Process terminated.")
+  else:
+      print("No process found with the specified port.")
+
+
 def main(args):
     if args[1] == "list":
         for mm in restus["objs"]:
             print(mm)
     elif args[1] == "dev":
         dev()
+    elif args[1] == "kill":
+        KillProcess()
     elif args[1] == "prepairdb":
         pass
         # PrepairDB()
