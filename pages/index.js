@@ -48,7 +48,8 @@ export default function Index() {
   useEffect(()=>{   
     langswitch.GetJsonM("menu").then((menu)=>{
       try {        
-              const urll = "./database/"+menu["staticValue"]["key"]+".json"
+              const cacheBuster = new Date().getTime();
+              const urll = "./database/"+menu["staticValue"]["key"]+".json?cacheBuster="+cacheBuster
                   fetch(urll)
   .then(response => response.json())
   .then(data => {     

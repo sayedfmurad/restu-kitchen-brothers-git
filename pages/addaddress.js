@@ -53,6 +53,7 @@ export function Container(){
             obj['distance'] = calculateDistance(menu['staticValue']['latlng']['lat'],menu['staticValue']['latlng']['lng'],obj['lat'],obj['lng']);                        
 
             var isAllowedDistance = false;
+            var lastAvailabeDistance = "km"
             for(var ddd in menu["staticValue"]["minpriceorder"])
             {
                 if(obj['distance']>=menu["staticValue"]["minpriceorder"][ddd]["distance"]["min"]&&
@@ -64,11 +65,12 @@ export function Container(){
 
                     break;
             }
+            lastAvailabeDistance = menu["staticValue"]["minpriceorder"][ddd]["distance"]["max"]+" "
             }
             if(obj["street"]==""||obj["housenumber"]==""||obj["zipc"]==""||!isAllowedDistance)    
             {
                 if(!isAllowedDistance)
-                alert(MyLang["your distance more"]);
+                alert("Die eingetragene Adresse hat mehr als "+lastAvailabeDistance +"km abstand, Tragen Sie bitte eine andere Adresse");
                 else if(obj["housenumber"]=="")
                 alert(MyLang["plase enter housenumber"]);
                 else if(obj["zipc"]=="")

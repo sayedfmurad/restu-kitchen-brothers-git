@@ -8,13 +8,13 @@ export default ()=>
   var [android,setandroid] = useState(<></>);
   useEffect(()=>{
     const menu = langswitch.getJson("menu")
+    const rowwws = []
     if(menu != null)
     if(typeof menu !== "undefined")
     if(Object.keys(menu).length  !== 0)
     {
     if(menu["staticValue"]["key"]=="westendgrillundpizza" || menu["staticValue"]["key"]=="pizzavalentina" || menu["staticValue"]["key"]=="kitchen-brothers")
     {
-            const rowwws = []
             rowwws.push(            
             <div className='row g-2' >            
             <div className=" alert alert-warning" role="alert">
@@ -30,7 +30,6 @@ export default ()=>
                         </div>  
                         </div>)
                 }
-            setrows2([...rows2, rowwws])
     }
 
     var sections = [];
@@ -64,8 +63,11 @@ export default ()=>
 
     
       var isAndroidWebView = navigator.userAgent.toLowerCase().indexOf('wv') > -1;
+      var isAndroidBrowser = /android/i.test(navigator.userAgent) && !(/(chrome|crios|fxios)/i.test(navigator.userAgent));
+
       if (!isAndroidWebView) 
-      setandroid(
+      if(isAndroidBrowser)
+      rowwws.push(
         <div className='row g-2'>
         <div class="alert alert-info">
           <div className="row g-2">
@@ -83,8 +85,8 @@ export default ()=>
       </div>
         </div>
       )
-    
-  }
+    }
+    setrows2([...rows2, rowwws])
   }
   ,[])
   
