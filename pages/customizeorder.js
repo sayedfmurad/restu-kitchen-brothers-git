@@ -110,12 +110,9 @@ export function Container(){
         for(var objo in menu["product"][id]["options"])
         {
             var tempobj=[]
-            if(Object.keys(menu["product"][id]["options"][objo]["options"]).length>1)
-            {       
                 tempobj.push(<br/>)
                 tempobj.push(<div className='row'>{OptionsElement(menu["product"][id]["options"][objo])}</div>)
                 options.push(<div className='col-sm-12 col-md-6 col-lg-4'>{tempobj}</div>)                
-            }
         }   
         var addOrder=()=>{ 
             order["id"]=id
@@ -125,8 +122,10 @@ export function Container(){
             order["price"]=price;
             order["msg"]=document.getElementById("textareamsg").value
             var mOption={}
+
             for(var nmn in menu["product"][id]["options"])            
             mOption[menu["product"][id]["options"][nmn]["name"]]=document.getElementById(menu["product"][id]["options"][nmn]["name"]).value
+
             order["option"]=mOption
             var hashs = hash(order);            
             var or=langswitch.getJson("order")
