@@ -1,23 +1,4 @@
 import json,shutil,os
-restus = {
-    "objs":{"kitchenbrothers":
-      {
-        "s3":"kitchenbrothers",
-        "cloud":"E1KSPCHH6VV7WO"
-      },
-      "westendgrillundpizza":
-      {
-        "s3":"restu",
-        "cloud":"EW42NP988OU7X"
-      },
-      "pizzeriavalentina":
-      {
-        "s3":"pizzeriavalentina",
-        "cloud":"EW42NP988OU7X"
-      }
-    }
-    
-  }
 
 
 def StartMakeSaveKeyPage(name):
@@ -112,10 +93,7 @@ def KillProcess():
 
 
 def main(args):
-    if args[1] == "list":
-        for mm in restus["objs"]:
-            print(mm)
-    elif args[1] == "dev":
+    if args[1] == "dev":
         dev()
     elif args[1] == "kill":
         KillProcess()
