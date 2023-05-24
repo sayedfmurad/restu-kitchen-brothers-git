@@ -23,7 +23,6 @@ export function Container(){
 
         for(var op in e["options"])                
         {
-            console.log(e)
                 tempsubobj.push(                     
                             <option  value={op}>{op}&nbsp;{e["showprice"]?" "+e["options"][op]["price"]+" €":""}</option>
                     )
@@ -106,14 +105,22 @@ export function Container(){
             useEffect(() => {
                 updatePrice(); 
             }, [type]);
-            
-        for(var objo in menu["product"][id]["options"])
+
+        const jsonObject = menu["product"][id]["options"]
+        const sortedKeys = Object.keys(jsonObject).sort();
+
+        const sortedJsonObject = {};
+        sortedKeys.forEach((key) => {
+        sortedJsonObject[key] = jsonObject[key];
+        });
+        for(var objo in sortedJsonObject)
         {
             var tempobj=[]
+              
                 tempobj.push(<br/>)
                 tempobj.push(<div className='row'>{OptionsElement(menu["product"][id]["options"][objo])}</div>)
                 options.push(<div className='col-sm-12 col-md-6 col-lg-4'>{tempobj}</div>)                
-        }   
+        }  
         var addOrder=()=>{ 
             order["id"]=id
             order["type"]=type
