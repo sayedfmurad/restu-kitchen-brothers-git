@@ -297,6 +297,7 @@ export function Container(){
             const onChangeToAbohlen=()=>{
                 document.getElementById("success-outlined-abholen").checked=true;
                 setdeliverytimes(<>{getTimesForDelivery(0)}</>) 
+                
                 settextabohlen("d-none")
                 setspaterodernow("")
                 setItemsContainer(<Items addre={addre} seladdre={seladdre} textabohlen="d-none" menu={menu} or={or} sum={sum} MyLang={MyLang}/>)
@@ -346,7 +347,8 @@ export function Container(){
                 
                 ///////Prepair CloseTime
                 var closeTime = new Date()  
-                var openTime = new Date()              
+                var openTime = new Date()    
+                
                 const day = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][datee.getDay()]                      
                 for(var daydd in menu["staticValue"]["opendays"])
                 if(day == daydd)
@@ -359,7 +361,6 @@ export function Container(){
                 if(openTime>datee)
                     datee = openTime;                    
                 closeTime= ConvertToMinuten_0_15_30_45(closeTime)
-                
                 if (closeTime.getFullYear() === datee.getFullYear() && 
                     closeTime.getMonth() === datee.getMonth() && 
                     closeTime.getDate() === datee.getDate())
@@ -372,7 +373,7 @@ export function Container(){
                         )
                     datee.setMinutes(datee.getMinutes()+3)
                     datee= ConvertToMinuten_0_15_30_45(datee)
-                }          
+                }     
                 /////remove last time because it will be close time of the resturant
                 times.pop()
                return times

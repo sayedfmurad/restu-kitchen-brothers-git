@@ -107,20 +107,25 @@ export function Container(){
             }, [type]);
 
         const jsonObject = menu["product"][id]["options"]
-        const sortedKeys = Object.keys(jsonObject).sort();
+        if(jsonObject != undefined)
+        {
+            const sortedKeys = Object.keys(jsonObject).sort();
 
-        const sortedJsonObject = {};
-        sortedKeys.forEach((key) => {
-        sortedJsonObject[key] = jsonObject[key];
-        });
-        for(var objo in sortedJsonObject)
+            const sortedJsonObject = {};
+            sortedKeys.forEach((key) => {
+            sortedJsonObject[key] = jsonObject[key];
+            });
+            for(var objo in sortedJsonObject)
         {
             var tempobj=[]
               
                 tempobj.push(<br/>)
                 tempobj.push(<div className='row'>{OptionsElement(menu["product"][id]["options"][objo])}</div>)
                 options.push(<div className='col-sm-12 col-md-6 col-lg-4'>{tempobj}</div>)                
-        }  
+        } 
+        }        
+        
+         
         var addOrder=()=>{ 
             order["id"]=id
             order["type"]=type

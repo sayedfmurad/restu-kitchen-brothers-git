@@ -7885,9 +7885,6 @@
     "staticValue": {
         "logo": "Pizzeria Dino",
         "key": "pizzeria-dino",
-        "b": {
-            "c": ""
-        },
         "rabat": "",
         "minpriceorder": [
             {
@@ -7915,74 +7912,78 @@
         "opendays": {
             "sunday": {
                 "opentime": {
-                    "hour": "11",
-                    "min": "00"
+                    "hour": 11,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": "23",
-                    "min": "50"
+                    "hour": 23,
+                    "min": 50
                 }
             },
             "monday": {
                 "opentime": {
-                    "hour": "17",
-                    "min": "00"
+                    "hour": 17,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": "22",
-                    "min": "50"
+                    "hour": 22,
+                    "min": 50
                 }
             },
             "tuesday": {
                 "opentime": {
-                    "hour": "17",
-                    "min": "00"
+                    "hour": 17,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": "22",
-                    "min": "50"
+                    "hour": 22,
+                    "min": 50
                 }
             },
             "wednesday": {
                 "opentime": {
-                    "hour": "17",
-                    "min": "00"
+                    "hour": 17,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": "22",
-                    "min": "50"
+                    "hour": 22,
+                    "min":50
                 }
             },
             "thursday": {
                 "opentime": {
-                    "hour": "17",
-                    "min": "00"
+                    "hour": 17,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": "22",
-                    "min": "50"
+                    "hour": 22,
+                    "min": 50
                 }
             },
             "friday": {
                 "opentime": {
-                    "hour": "11",
-                    "min": "00"
+                    "hour": 11,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": "22",
-                    "min": "50"
+                    "hour": 22,
+                    "min": 50
                 }
             },
             "saturday": {
                 "opentime": {
-                    "hour": "11",
-                    "min": "00"
+                    "hour": 11,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": "22",
-                    "min": "50"
+                    "hour": 22,
+                    "min": 50
                 }
             }
         }
+    },
+    "rabat": "",
+    "b": {
+        "c": "-1001628802187"
     }
 }
