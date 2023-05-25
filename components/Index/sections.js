@@ -46,10 +46,13 @@ export default ()=>
       imgg = imgg.replace(" ","_");
       imgg = imgg.replace("Ö","O")
       imgg = imgg.replace("Ä","A")
-      imgg = imgg.replace("Ü","U")
+      imgg = imgg.replace("Ü","U")      
       if(sections[key] in menu["sections"]["mdesc"])
       if("img" in menu["sections"]["mdesc"][sections[key]])
-      imgg = menu["sections"]["mdesc"][sections[key]]["img"].toUpperCase()
+      {
+        imgg = menu["sections"]["mdesc"][sections[key]]["img"].toUpperCase()
+      }
+
       rows.push(
         <div className='col-lg-3 col-md-4 col-sm-6 col-xs-6' id={sections[key]}>
           <a class="a-item a-item-2" style={{"backgroundImage":`url(Images/${imgg}.jpeg)`}}  href={langswitch.RouteP("sectionmenu?section="+sections[key])}>

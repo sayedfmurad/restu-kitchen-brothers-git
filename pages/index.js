@@ -54,15 +54,15 @@ export default function Index() {
   .then(response => response.json())
   .then(data => {     
     var hostname = window.location.hostname;
-        hostname = hostname.split(".")
-        hostname[0]= hostname[0] == "www" ? "":hostname[0]
-        hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")    
+    hostname = hostname.split(".")
+    hostname[0]= hostname[0] == "www" ? "":hostname[0]
+    hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")    
         if(hostname == "kitchen-brothers" || hostname == "westendgrillundpizza" || hostname == "pizzavalentina")   
         if(menu["staticValue"]["key"]!= hostname){
           window.location.href = langswitch.RouteP("home")
-        }else{
-          window.localStorage.setItem("menu",JSON.stringify(data))
         }
+
+        window.localStorage.setItem("menu",JSON.stringify(data))
   })
       } catch (error) {
           console.log(error,langswitch.RouteP("home"))

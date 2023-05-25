@@ -19,7 +19,8 @@
             },
             "Baguettes": {
                 "section": "Baguettes",
-                "des": "Alle Baguettes sind mit Salat, Tomaten, Gurken und Zwiebeln belegt und mit Käse überbacken."
+                "des": "Alle Baguettes sind mit Salat, Tomaten, Gurken und Zwiebeln belegt und mit Käse überbacken.",
+                "img":"BAGUETTE"
             },
             "Baked Potatoes": {
                 "section": "Baked Potatoes",
@@ -27,15 +28,18 @@
             },
             "Pizzabrötchen": {
                 "section": "Pizzabrötchen",
-                "des": "Alle Pizzabrötchen werden mit Käse zubereitet."
+                "des": "Alle Pizzabrötchen werden mit Käse zubereitet.",
+                "img":"PIZZABROTCHEN"
             },
             "Pizza": {
                 "section": "Pizza",
-                "des": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet."
+                "des": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet.",
+                "img":"PIZZEN"                
             },
             "Amerikanische Pizza": {
                 "section": "Amerikanische Pizza",
-                "des": "Alle Pizzen werden mit Tomatensauce, doppelt Käse und doppeltem Teigboden zubereitet."
+                "des": "Alle Pizzen werden mit Tomatensauce, doppelt Käse und doppeltem Teigboden zubereitet.",
+                "img":"PIZZEN"                                
             },
             "Calzone": {
                 "section": "Calzone",
@@ -95,7 +99,8 @@
             },
             "Döner": {
                 "section": "Döner",
-                "des": ""
+                "des": "",
+                "img":"DREHSPIESS"
             },
             "Spare Ribs": {
                 "section": "Spare Ribs",
@@ -111,10 +116,12 @@
             },
             "Fingerfood": {
                 "section": "Fingerfood",
+                "img":"FINGER_FOODs",
                 "des": "Alle Gerichte werden mit American Potatoes und einem Dip nach Wahl serviert."
             },
             "Beilagen": {
                 "section": "Beilagen",
+                "img":"POMMESFRITES",
                 "des": ""
             },
             "Saucen": {
