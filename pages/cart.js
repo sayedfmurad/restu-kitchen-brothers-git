@@ -449,11 +449,10 @@ export function Container(){
                 <input type="radio" class="btn-check" name="options-outlined" id="DCcard-outlined" />
                 <label style={{"fontSize":"0.6rem;"}}  class="btn btn-outline-warning text-black" for="DCcard-outlined">Debit Card</label>
                 &nbsp;
-                </div>            
-                <div className="d-flex justify-content-start mb-4">                
                 <input type="radio" class="btn-check" name="options-outlined" id="spea-outlined" />
                 <label class="btn btn-outline-warning" for="spea-outlined"><img height="15px" src="./Images/spea.svg"/></label>
-                &nbsp;
+                </div>            
+                <div className="d-flex justify-content-start mb-4 d-none">                
                 <input type="radio" class="btn-check" name="options-outlined" id="giropay-outlined" />
                 <label class="btn btn-outline-warning" for="giropay-outlined"><img height="25px" src="./Images/giropay.svg"/></label>
                 &nbsp;

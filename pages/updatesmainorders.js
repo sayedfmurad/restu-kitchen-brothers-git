@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import MyNavbar from "../components/navbar/MyNavbar"
 import langswitch from '../components/Utils/langswitch'
 
@@ -7,7 +7,7 @@ import langswitch from '../components/Utils/langswitch'
 export default function  A(){
     const MyLang = langswitch.langswitchs("updatesmainorders");
     var [msg,setmsg]=useState(MyLang["loading"]);
-    if(process.browser){
+    useEffect(()=>{
       var orders = langswitch.getJson("mainorder");
       var objtosend = []
       for(var dd in orders)
@@ -50,8 +50,10 @@ export default function  A(){
                     {
                       response.json().then(result => {
                         for(var dl in result)
-                        orders[dl]["time"]=result[dl]["time"]
-                        orders[dl]["paid"]=result[dl]["paid"]
+                        {
+                          orders[dl]["time"]=result[dl]["time"]
+                          orders[dl]["paid"]=result[dl]["paid"]
+                        }                        
                         localStorage.setItem("mainorder",JSON.stringify(orders) )
                         window.location.href=langswitch.RouteP("orders")
                       })
@@ -66,7 +68,7 @@ export default function  A(){
       }
       SendReqeusts("")
         
-    }
+    },[])
     return (
     <>
     <Head>

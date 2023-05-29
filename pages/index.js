@@ -5,68 +5,100 @@ import MyNavbar from "../components/NavBar/MyNavbar"
 import Sections from "../components/Index/sections"
 import langswitch from "../components/Utils/langswitch"
 import packagee from "../package"
-
-export function IfCloseMsg(){
-  var [out,setout] = useState(<></>)
-  useEffect(()=>
-  {
-   
- 
-
-    const menu = langswitch.getJson("menu")
-    if(menu != null)
-    if(typeof menu !== "undefined")
-    if(Object.keys(menu).length  !== 0)
-    setTimeout(() => {
+import restus from "../public/restus"
+import Home from "../pages/home"
 
 
-        var textOpenClose = langswitch.checkOpenCloseStore(menu)?"":"Geschlossen."   
-        if(!langswitch.checkOpenCloseStore(menu))
-        {
-          setout(
-            <div className='container mt-3 mb-3'>
-    <div className="row">
-      <div className='col-12'>
-    <div className=" alert alert-danger" role="alert">
-    {textOpenClose}&nbsp;{langswitch.NextOpenTimeMsg(menu)}
-    </div>
-    </div>
-    </div> 
-    </div>
-          )
-        }
-      },100)
-    },[])
-
-  return   out
-}
 
 
 
 export default function Index() {  
-  const MyLang = langswitch.langswitchs("index");  
-  useEffect(()=>{   
+  const [Container,SetContainer] = useState(<></>)
+  const MyLang = langswitch.langswitchs("index"); 
+    const CheckIFOurDomain=()=>{    
+
+      var hostname = window.location.hostname;
+      hostname.replace("www","")
+      hostname = hostname.split(".")[0]
+      for (var ghli in restus)
+      if(hostname == ghli) 
+      return hostname
+
+      return false
+    } 
+  useEffect(()=>{ 
+    
+    const IsOurDomain=(hostname)=>{
+      const cacheBuster = new Date().getTime();
+      const urll = packagee["s3path"]+"/database/"+hostname+".json?cacheBuster="+cacheBuster
+      fetch(urll)
+      .then(response => response.json())
+      .then(data => {
+          window.localStorage.setItem("menu",JSON.stringify(data))            
+          SetContainer(
+            <>
+            <MyNavbar/>  
+            <Sections/>
+            </>
+          )
+      })
+      .catch(error => {
+          window.location.href = "./"
+          console.error('Error fetching JSON file:', error);
+      });
+    }
+    const CheckType = ()=>{
+      var hostname = CheckIFOurDomain()      
+      if(hostname !== false) 
+          {                  
+            IsOurDomain(hostname)
+            return
+          }else{
+               // Get the value of the "addr" key
+               var seladdr = window.localStorage.getItem("seladdress");
+               var addr = window.localStorage.getItem("address");
+               window.localStorage.clear()  
+               if(seladdr != null) 
+              window.localStorage.setItem("seladdress",seladdr);
+              if(addr != null) 
+              window.localStorage.setItem("address",addr);
+
+              SetContainer(
+                  <Home/>
+              )
+          }
+    }  
+    const GotJsonData = (data)=>{
+      var hostname = CheckIFOurDomain()      
+      if(hostname !== false) 
+          if(data["staticValue"]["key"]!= hostname){
+            CheckType()
+            return
+          }
+  
+          window.localStorage.setItem("menu",JSON.stringify(data))
+          SetContainer(
+            <>
+            <MyNavbar/>  
+            <Sections/>
+            </>
+          )
+    }
+
+
+
     langswitch.GetJsonM("menu").then((menu)=>{
       try {        
-              const cacheBuster = new Date().getTime();
-              const urll = "./database/"+menu["staticValue"]["key"]+".json?cacheBuster="+cacheBuster
+        const cacheBuster = new Date().getTime();
+        const urll = packagee["s3path"]+"/database/"+menu["staticValue"]["key"]+".json?cacheBuster="+cacheBuster
                   fetch(urll)
-  .then(response => response.json())
-  .then(data => {     
-    var hostname = window.location.hostname;
-    hostname = hostname.split(".")
-    hostname[0]= hostname[0] == "www" ? "":hostname[0]
-    hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")    
-        if(hostname == "kitchen-brothers" || hostname == "westendgrillundpizza" || hostname == "pizzavalentina")   
-        if(menu["staticValue"]["key"]!= hostname){
-          window.location.href = langswitch.RouteP("home")
-        }
-
-        window.localStorage.setItem("menu",JSON.stringify(data))
-  })
+      .then(response => response.json())
+      .then(data => {     
+        GotJsonData(data)
+      })
       } catch (error) {
           console.log(error,langswitch.RouteP("home"))
-          window.location.href = langswitch.RouteP("home")
+          CheckType()
       }
   })
   },[])
@@ -80,9 +112,7 @@ export default function Index() {
       <link href="./mystyles/homepage.css" rel="stylesheet" />
     </Head>   
     {/* <div className="specially mbackground"></div>  */}
-    <MyNavbar/>               
-    <IfCloseMsg/>
-    <Sections/>
+    {Container}
    </>
     )
 }

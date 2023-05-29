@@ -7,12 +7,29 @@ export default ()=>
   var [rows2,setrows2] = useState([]);
   var [android,setandroid] = useState(<></>);
   useEffect(()=>{
+
+    const IfRestuOpen=(menu)=>{
+      var textOpenClose = langswitch.checkOpenCloseStore(menu)?"":"Geschlossen."   
+        if(!langswitch.checkOpenCloseStore(menu))
+        {
+          return <div className="row g-2">
+          <div className=" alert alert-danger" role="alert">
+          {textOpenClose}&nbsp;{langswitch.NextOpenTimeMsg(menu)}
+          </div> 
+          </div>
+          }
+        }
+
+
+
     const menu = langswitch.getJson("menu")
     const rowwws = []
     if(menu != null)
     if(typeof menu !== "undefined")
     if(Object.keys(menu).length  !== 0)
-    {
+    {    
+      rowwws.push(<>{IfRestuOpen(menu)}</>)
+
     if(menu["staticValue"]["key"]=="westendgrillundpizza" || menu["staticValue"]["key"]=="pizzavalentina" || menu["staticValue"]["key"]=="kitchen-brothers")
     {
             rowwws.push(            

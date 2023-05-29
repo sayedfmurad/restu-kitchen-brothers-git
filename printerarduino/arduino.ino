@@ -39,7 +39,7 @@ String responseHTML = ""
                         "<input type='submit' value='Submit'>"
                       "</form>"                      
                       "</body></html>";
-
+String responseHTML2 = "<!DOCTYPE html><html><head><title>Printing</title></head><body><h1>Printing</h1><script>window.close();</script></body></html>";
 
 
 
@@ -356,9 +356,9 @@ void ConnectToWifi2(String ssid, String pass){
     Serial.println("");
     Serial.println("Try to Connect to Wifi");
     counter = 1+counter;
-    if(counter >= 10)
+    if(counter >= 20)
     {clearEEPROM();ESP.reset();}
-    delay(5000);
+    delay(10000);
   }
   Serial.println("");
   Serial.println("Connected to Wifi");
@@ -425,9 +425,9 @@ String timeEncoded = webServer.arg("time");
 timeEncoded.replace(" ", "%20");
 String menuurlEncoded = webServer.arg("menuurl");
 String url = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws/?id="+idEncoded+"&time="+timeEncoded+"&menuurl="+menuurlEncoded+"&esp=true";
+webServer.send(200, "text/html", responseHTML2);
 GotData(myMethod(url));
   // Do something with the id and time parameters...
-  webServer.send(200, "text/plain", "OK");
 }
 
 

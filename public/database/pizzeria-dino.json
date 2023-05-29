@@ -7581,15 +7581,15 @@
                 "Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "7,99",
+                "price": "1,00",
                 "name": "mit Käse"
             },
             "Mittel, Ø 31cm": {
-                "price": "9,99",
+                "price": "1,00",
                 "name": "mit Käse"
             },
             "Familie, Ø 41cm": {
-                "price": "16,99",
+                "price": "2,00",
                 "name": "mit Käse"
             }
         },
@@ -7598,15 +7598,15 @@
                 "Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "7,99",
+                "price": "1,00",
                 "name": "mit Mais"
             },
             "Mittel, Ø 31cm": {
-                "price": "9,99",
+                "price": "1,00",
                 "name": "mit Mais"
             },
             "Familie, Ø 41cm": {
-                "price": "16,99",
+                "price": "2,00",
                 "name": "mit Mais"
             }
         },
@@ -7615,15 +7615,15 @@
                 "Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "7,99",
+                "price": "1,00",
                 "name": "mit Paprika"
             },
             "Mittel, Ø 31cm": {
-                "price": "9,99",
+                "price": "1,00",
                 "name": "mit Paprika"
             },
             "Familie, Ø 41cm": {
-                "price": "16,99",
+                "price": "2,00",
                 "name": "mit Paprika"
             }
         },
@@ -7632,15 +7632,15 @@
                 "Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "7,99",
+                "price": "1,00",
                 "name": "mit Peperoni"
             },
             "Mittel, Ø 31cm": {
-                "price": "9,99",
+                "price": "1,00",
                 "name": "mit Peperoni"
             },
             "Familie, Ø 41cm": {
-                "price": "16,99",
+                "price": "2,00",
                 "name": "mit Peperoni"
             }
         },
@@ -7649,15 +7649,15 @@
                 "Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "7,99",
+                "price": "1,00",
                 "name": "mit Salami"
             },
             "Mittel, Ø 31cm": {
-                "price": "9,99",
+                "price": "1,00",
                 "name": "mit Salami"
             },
             "Familie, Ø 41cm": {
-                "price": "16,99",
+                "price": "2,00",
                 "name": "mit Salami"
             }
         },
@@ -7666,15 +7666,15 @@
                 "Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "7,99",
+                "price": "1,00",
                 "name": "mit Schinken"
             },
             "Mittel, Ø 31cm": {
-                "price": "9,99",
+                "price": "1,00",
                 "name": "mit Schinken"
             },
             "Familie, Ø 41cm": {
-                "price": "16,99",
+                "price": "2,00",
                 "name": "mit Schinken"
             }
         },
@@ -7683,15 +7683,15 @@
                 "Amerikanische Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "8,49",
+                "price": "1,00",
                 "name": "mit Käse"
             },
             "Normal, Ø 31cm": {
-                "price": "13,49",
+                "price": "1,00",
                 "name": "mit Käse"
             },
             "Groß, Ø 41cm": {
-                "price": "18,49",
+                "price": "2,00",
                 "name": "mit Käse"
             }
         },
@@ -7700,15 +7700,15 @@
                 "Amerikanische Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "8,49",
+                "price": "1,00",
                 "name": "mit Mais"
             },
             "Normal, Ø 31cm": {
-                "price": "13,49",
+                "price": "1,00",
                 "name": "mit Mais"
             },
             "Groß, Ø 41cm": {
-                "price": "18,49",
+                "price": "2,00",
                 "name": "mit Mais"
             }
         },
@@ -7717,15 +7717,15 @@
                 "Amerikanische Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "8,49",
+                "price": "1,00",
                 "name": "mit Paprika"
             },
             "Normal, Ø 31cm": {
-                "price": "13,49",
+                "price": "1,00",
                 "name": "mit Paprika"
             },
             "Groß, Ø 41cm": {
-                "price": "18,49",
+                "price": "2,00",
                 "name": "mit Paprika"
             }
         },
@@ -7734,15 +7734,15 @@
                 "Amerikanische Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "8,49",
+                "price": "1,00",
                 "name": "mit Peperoni"
             },
             "Normal, Ø 31cm": {
-                "price": "13,49",
+                "price": "1,00",
                 "name": "mit Peperoni"
             },
             "Groß, Ø 41cm": {
-                "price": "18,49",
+                "price": "2,00",
                 "name": "mit Peperoni"
             }
         },
@@ -7751,15 +7751,15 @@
                 "Amerikanische Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "8,49",
+                "price": "1,00",
                 "name": "mit Salami"
             },
             "Normal, Ø 31cm": {
-                "price": "13,49",
+                "price": "1,00",
                 "name": "mit Salami"
             },
             "Groß, Ø 41cm": {
-                "price": "18,49",
+                "price": "2,00",
                 "name": "mit Salami"
             }
         },
@@ -7768,15 +7768,15 @@
                 "Amerikanische Pizza"
             ],
             "Klein, Ø 26cm": {
-                "price": "8,49",
+                "price": "1,00",
                 "name": "mit Schinken"
             },
             "Normal, Ø 31cm": {
-                "price": "13,49",
+                "price": "1,00",
                 "name": "mit Schinken"
             },
             "Groß, Ø 41cm": {
-                "price": "18,49",
+                "price": "2,00",
                 "name": "mit Schinken"
             }
         },
@@ -7785,7 +7785,7 @@
                 "Calzone"
             ],
             "stand": {
-                "price": "9,49",
+                "price": "1,00",
                 "name": "mit Käse"
             }
         },
@@ -7794,7 +7794,7 @@
                 "Calzone"
             ],
             "stand": {
-                "price": "9,49",
+                "price": "1,00",
                 "name": "mit Mais"
             }
         },
@@ -7803,7 +7803,7 @@
                 "Calzone"
             ],
             "stand": {
-                "price": "9,49",
+                "price": "1,00",
                 "name": "mit Paprika"
             }
         },
@@ -7812,7 +7812,7 @@
                 "Calzone"
             ],
             "stand": {
-                "price": "9,49",
+                "price": "1,00",
                 "name": "mit Peperoni"
             }
         },
@@ -7821,7 +7821,7 @@
                 "Calzone"
             ],
             "stand": {
-                "price": "9,49",
+                "price": "1,00",
                 "name": "mit Salami"
             }
         },
@@ -7830,7 +7830,7 @@
                 "Calzone"
             ],
             "stand": {
-                "price": "9,49",
+                "price": "1,00",
                 "name": "mit Schinken"
             }
         },
@@ -7839,7 +7839,7 @@
                 "Dino-Rolls"
             ],
             "stand": {
-                "price": "5,99",
+                "price": "1,00",
                 "name": "mit Käse"
             }
         },
@@ -7848,7 +7848,7 @@
                 "Dino-Rolls"
             ],
             "stand": {
-                "price": "5,99",
+                "price": "1,00",
                 "name": "mit Mais"
             }
         },
@@ -7857,7 +7857,7 @@
                 "Dino-Rolls"
             ],
             "stand": {
-                "price": "5,99",
+                "price": "1,00",
                 "name": "mit Paprika"
             }
         },
@@ -7866,7 +7866,7 @@
                 "Dino-Rolls"
             ],
             "stand": {
-                "price": "5,99",
+                "price": "1,00",
                 "name": "mit Peperoni"
             }
         },
@@ -7875,7 +7875,7 @@
                 "Dino-Rolls"
             ],
             "stand": {
-                "price": "5,99",
+                "price": "1,00",
                 "name": "mit Salami"
             }
         },
@@ -7884,12 +7884,14 @@
                 "Dino-Rolls"
             ],
             "stand": {
-                "price": "5,99",
+                "price": "1,00",
                 "name": "mit Schinken"
             }
         }
     },
     "staticValue": {
+        "pc":"ATPr8UMYbltteSs4yLUR_NUam6vDh8Mg0ao3A8B5wWad9oE_mMIsnesfh0l18EduIbZi6wmsD4dHxUmC",
+        "ps":"wrjCtMOowq3Do8Kyw4bCn8Ocwr_DncKlwrnDkcOHwpvDiMOiw6PDk8K3wqvDnsKdwp7DoMOQw5LDksOVw4XDg8Odw4DDgcK4w6LDjMOGwq_CvMKpw5PDpcKuw5XDlcK2wpbDlsKowrvDlMKowqTCnsK9wq_Cu8K4w6fDmMOHwrfDisOQwpbDpcOKwrXDqcKqw5fCqMOBwp3DpsOew5jDlw==",
         "logo": "Pizzeria Dino",
         "key": "pizzeria-dino",
         "rabat": "",
@@ -7897,10 +7899,26 @@
             {
                 "distance": {
                     "min": 0,
-                    "max": 4.1
+                    "max": 3
                 },
-                "price": 10,
-                "lieferkosten": 1
+                "price": 12,
+                "lieferkosten": 0
+            },
+            {
+                "distance": {
+                    "min": 3,
+                    "max": 4
+                },
+                "price": 15,
+                "lieferkosten": 0
+            },
+            {
+                "distance": {
+                    "min": 6,
+                    "max": 9
+                },
+                "price": 25,
+                "lieferkosten": 2
             }
         ],
         "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/pizzeria-dino.json",

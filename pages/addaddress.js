@@ -47,6 +47,13 @@ export function Container(){
             obj["phonen"] = e.target.phonen.value;
             obj["firma"] = e.target.firma.value;
             obj["zipc"] = mlocation["zipc"];
+            if(typeof place === "undefined")
+            {
+              alert("Bitte ein Addresse auswahlen")
+              e.preventDefault();      
+
+              return
+            }
             obj["place_id"] = place.place_id;
             obj['lng'] = place.geometry.location.lng();
             obj['lat'] = place.geometry.location.lat();
