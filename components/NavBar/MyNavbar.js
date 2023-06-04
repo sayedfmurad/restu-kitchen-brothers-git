@@ -11,6 +11,15 @@ export function Container(){
     var [logo,setlogo]=useState(" ")
     useEffect(()=>
     {    
+        if(router=="/customizeorder")        
+        {
+            setlogo(<>
+                <a className="navbar-brand btn btn-secondary" id='navbarBack' >                        
+                Zurück
+                </a>                
+            </>)
+        }
+        else
             langswitch.GetJsonM("menu").then((menu)=>{
                 try {
             setlogo(<>
@@ -27,7 +36,7 @@ export function Container(){
 
 
     return<>
-    <nav id="mynavb" className="mb-2 navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="mynavb" className="mb-2 navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div className="container-fluid">
         {logo}        
         <button

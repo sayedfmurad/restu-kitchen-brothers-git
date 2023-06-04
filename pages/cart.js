@@ -26,9 +26,9 @@ export function Items({seladdre,or,sum,MyLang,menu,textabohlen,addre}){
                     var countI = <div className="mt-1 mb-1 col-4">{MyLang["count"]+": "+or[ke]["count"]}</div>;
                     var typee = or[ke]["type"] == "stand"?"":"("+or[ke]["type"]+") "
                     var descriptionO = menu["product"][or[ke]["id"]]["desO"] !=undefined?menu["product"][or[ke]["id"]]["desO"]:"";                        
-                    var extras = ""
+                    var extras = []
                     for(var j in or[ke]["extra"])
-                    extras +=  langswitch.firstUpper(or[ke]["extra"][j][or[ke]["type"]]["name"])+" "
+                    extras.push(<>+ {langswitch.firstUpper(or[ke]["extra"][j][or[ke]["type"]]["name"])}<br/></>)
 
                     var option = []
                     for(var oobo in or[ke]["option"])                        
@@ -40,7 +40,7 @@ export function Items({seladdre,or,sum,MyLang,menu,textabohlen,addre}){
                             <small className='text-muted'>
                             {descriptionO==""?"":<>{descriptionO}<br/></>}
                             {countI}                         
-                            {extras==""?"":<>{extras}<br/></>}
+                            {extras.length==0?"":<>{extras}</>}
                             {option}
                             {or[ke]["msg"]==""?"":<>{or[ke]["msg"]}<br/></>}
                             </small>
@@ -297,7 +297,6 @@ export function Container(){
             const onChangeToAbohlen=()=>{
                 document.getElementById("success-outlined-abholen").checked=true;
                 setdeliverytimes(<>{getTimesForDelivery(0)}</>) 
-                
                 settextabohlen("d-none")
                 setspaterodernow("")
                 setItemsContainer(<Items addre={addre} seladdre={seladdre} textabohlen="d-none" menu={menu} or={or} sum={sum} MyLang={MyLang}/>)
@@ -332,10 +331,31 @@ export function Container(){
                 }
                 return datee
             }
+            const ConvertToMinuten_0_15_30_45_ForCloseTime=(datee)=>{
+               /////////Convert Min to 0 or 15 or 30 or 45
+               if(datee.getMinutes() > 0 && datee.getMinutes() < 15)
+                datee.setMinutes(15)
+                else if (datee.getMinutes() > 15 && datee.getMinutes() < 30)
+                datee.setMinutes(30)
+                else if (datee.getMinutes() > 30 && datee.getMinutes() < 45)
+                datee.setMinutes(45)
+                else if (datee.getMinutes() > 45)
+                 {
+                     datee.setMinutes(45)
+                 }
+
+                 if(datee.getHours() < 23)
+                 {
+                     datee.setHours(datee.getHours()+1)                    
+                     datee.setMinutes(0)
+                 }
+                return datee
+            }
     
             const getTimesForDelivery=(plustime)=>
             {
                 var times = []
+
                 times.push(
                     <option value="" selected disabled>Gewünchte Zeit Wählen</option>
                 )
@@ -358,9 +378,11 @@ export function Container(){
                     closeTime.setHours(menu["staticValue"]["opendays"][day]["closetime"]["hour"])
                     closeTime.setMinutes(menu["staticValue"]["opendays"][day]["closetime"]["min"])
                 }   
+
                 if(openTime>datee)
                     datee = openTime;                    
-                closeTime= ConvertToMinuten_0_15_30_45(closeTime)
+                closeTime= ConvertToMinuten_0_15_30_45_ForCloseTime(closeTime)
+
                 if (closeTime.getFullYear() === datee.getFullYear() && 
                     closeTime.getMonth() === datee.getMonth() && 
                     closeTime.getDate() === datee.getDate())

@@ -36,9 +36,9 @@ export default function Index() {
       fetch(urll)
       .then(response => response.json())
       .then(data => {
-          window.localStorage.setItem("menu",JSON.stringify(data))            
           SetDCTitle(data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen")
-          SetDCTitle("Entdecken Sie jetzt die ultimative Bequemlichkeit des Online-Bestellens von Essen! Willkommen auf unserer deutschen Food-Delivery-Plattform")
+          SetDCDes("Entdecken Sie jetzt die ultimative Bequemlichkeit des Online-Bestellens von Essen! Willkommen auf unserer deutschen Food-Delivery-Plattform")
+          window.localStorage.setItem("menu",JSON.stringify(data))                      
           SetContainer(
             <>
             <MyNavbar/>  
@@ -97,7 +97,9 @@ export default function Index() {
         const urll = "./database/"+menu["staticValue"]["key"]+".json?cacheBuster="+cacheBuster
                   fetch(urll)
       .then(response => response.json())
-      .then(data => {     
+      .then(data => {   
+        SetDCTitle(data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen")
+        SetDCDes("Entdecken Sie jetzt die ultimative Bequemlichkeit des Online-Bestellens von Essen! Willkommen auf unserer deutschen Food-Delivery-Plattform")  
         GotJsonData(data)
       })
       } catch (error) {
@@ -110,8 +112,8 @@ export default function Index() {
    <>
     <Head>
       <title>{MyLang["title"]}</title>      
-      <meta name="DC.title" content={`${DCTitle}`} />
-      <meta name="DC.description" content={`${DCDes}`} />
+      <meta name="DC.title" content={DCTitle} />
+      <meta name="DC.description" content={DCDes} />
       <meta name="robots" content="index,follow"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <link href="./mystyles/homepage.css" rel="stylesheet" />
