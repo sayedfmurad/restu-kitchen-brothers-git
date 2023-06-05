@@ -65,8 +65,7 @@ export function Items({seladdre,or,sum,MyLang,menu,textabohlen,addre}){
             crows.push(
                 <li className="list-group-item d-flex justify-content-between lh-light">
                      <div className='text-success'>
-                        <h6>Rabatt</h6>
-                        <small>{menu['rabat']}%</small>
+                        <h6>Rabatt %{menu['rabat']}</h6>
                      </div>                         
                      <span className="text-success">- {rabb}&nbsp;&euro;</span>                    
                 </li>
@@ -463,16 +462,16 @@ export function Container(){
             </div>
             <div className="d-flex justify-content-start mb-4">                
                 <input type="radio" class="btn-check" name="options-outlined" id="bar-outlined"  />
-                <label class="btn btn-outline-warning text-black" for="bar-outlined">Bar</label>
+                <label class="btn btn-outline-warning " for="bar-outlined">Bar</label>
                 &nbsp;
                 <input type="radio" class="btn-check" name="options-outlined" id="paypal-outlined" />
-                <label class="btn btn-outline-warning" for="paypal-outlined"><img height="15px" src="./Images/paypalsvg.svg"/></label>
+                <label class="btn btn-outline-warning" for="paypal-outlined">Paypal</label>
                 &nbsp;
-                <input type="radio" class="btn-check" name="options-outlined" id="DCcard-outlined" />
-                <label style={{"fontSize":"0.6rem;"}}  class="btn btn-outline-warning text-black" for="DCcard-outlined">Debit Card</label>
+                <input type="radio" class="btn-check " name="options-outlined" id="DCcard-outlined" />
+                <label style={{"fontSize":"0.6rem;"}}  class="btn btn-outline-warning " for="DCcard-outlined">Debit Card</label>
                 &nbsp;
-                <input type="radio" class="btn-check" name="options-outlined" id="spea-outlined" />
-                <label class="btn btn-outline-warning" for="spea-outlined"><img height="15px" src="./Images/spea.svg"/></label>
+                <input type="radio" class="btn-check d-none" name="options-outlined" id="spea-outlined" />
+                <label class="btn btn-outline-warning d-none" for="spea-outlined"></label>
                 </div>            
                 <div className="d-flex justify-content-start mb-4 d-none">                
                 <input type="radio" class="btn-check" name="options-outlined" id="giropay-outlined" />

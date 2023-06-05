@@ -54,6 +54,8 @@ export function TypesComponent ({type, settype, menu, id}) {
           <div className='list-group-item'>
             <div className='row'>
               <div className='col-12'>{obj["name"]}:</div>
+              <br/>
+              <br/>
               <div className="col-12">
                 <select className="form-select" onChange={(e)=>{settype(e.target.value)}}>
                   {types}

@@ -1,9 +1,35 @@
+:root {
+    --primary-font: #f0ecec;
+    --primary-Background: #76747440;
+  }
+  
 .text{
     color: white;
 }
+.btn-outline-primary{
+    --bs-btn-color:var(--primary-font) !important;
+}
+.list-group textarea{
+    color:var(--primary-font) !important;
+    background-color:var(--primary-Background) !important;
+}
+.form-select{
+    color:var(--primary-font) !important;
+    background-color:var(--primary-Background) !important;
+}
+.text-muted {
+    color:#bebebf !important
+}
+.list-group{
+    
+    --bs-list-group-color:var(--primary-font) !important;
+    --bs-list-group-bg: var(--primary-Background) !important;
+}
+
 body {
     /* background-color: rgba(0, 0, 0, 0.616) !important; */
     background-color: rgb(0, 0, 0) ;
+    
     }
 a{
     text-decoration: none !important;
