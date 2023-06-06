@@ -8,7 +8,7 @@ export default function A(){
         const CheckIFOurDomain=()=>{    
 
             var hostname = window.location.hostname;
-            hostname.replace("www","")
+            hostname =  hostname.replace("www.","")
             hostname = hostname.split(".")[0]
             for (var ghli in restus)
             if(hostname == ghli) 

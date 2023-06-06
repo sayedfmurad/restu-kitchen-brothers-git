@@ -17,18 +17,19 @@ export default function Index() {
   const [DCTitle,SetDCTitle] = useState("")
   const [DCDes,SetDCDes] = useState("")
   const MyLang = langswitch.langswitchs("index"); 
+
+  useEffect(()=>{ 
     const CheckIFOurDomain=()=>{    
 
       var hostname = window.location.hostname;
-      hostname.replace("www","")
+      hostname =  hostname.replace("www.","")
       hostname = hostname.split(".")[0]
       for (var ghli in restus)
       if(hostname == ghli) 
       return hostname
 
       return false
-    } 
-  useEffect(()=>{     
+    }     
     const IsOurDomain=(hostname)=>{
       const cacheBuster = new Date().getTime();
       const urll = "./database/"+hostname+".json?cacheBuster="+cacheBuster
