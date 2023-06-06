@@ -5,13 +5,21 @@ import Head from 'next/head'
 
 export default function A(){
     useEffect(()=>{
-        var hostname = window.location.hostname;
-        hostname = hostname.split(".")
-        hostname[0]= hostname[0] == "www" ? "":hostname[0]
-        hostname = hostname[0]+(hostname.length >2 ?hostname[1]:"")    
-        if(hostname == "kitchen-brothers" || hostname == "westendgrillundpizza" || hostname == "pizzavalentina") 
+        const CheckIFOurDomain=()=>{    
+
+            var hostname = window.location.hostname;
+            hostname.replace("www","")
+            hostname = hostname.split(".")[0]
+            for (var ghli in restus)
+            if(hostname == ghli) 
+            return hostname
+      
+            return false
+          } 
+          var hostnamee = CheckIFOurDomain()
+            if(hostnamee !== false)
             {                  
-          window.location.href = langswitch.RouteP(hostname)
+          window.location.href = langswitch.RouteP(hostnamee)
                         return
             }else{
                  // Get the value of the "addr" key

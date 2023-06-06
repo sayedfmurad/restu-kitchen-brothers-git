@@ -28,8 +28,7 @@ export default function Index() {
 
       return false
     } 
-  useEffect(()=>{ 
-    
+  useEffect(()=>{     
     const IsOurDomain=(hostname)=>{
       const cacheBuster = new Date().getTime();
       const urll = "./database/"+hostname+".json?cacheBuster="+cacheBuster

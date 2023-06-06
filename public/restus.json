@@ -5,23 +5,17 @@
         "name": "Pizza Dino",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
     },
+    "dino-pizzeria": {
+        "storeimg":"Images/cartoon.jpeg",
+        "key": "dino-pizzeria",
+        "name": "Pizza Dino",
+        "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
+    },
     "westendgrillundpizza": {
         "storeimg":"Images/cartoon.jpeg",
         "key": "westendgrillundpizza",
         "name": "Westend Grill & Pizza",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
-    },
-    "pizzaland": {
-        "storeimg":"Images/cartoon.jpeg",
-        "key": "pizzaland",
-        "name": "pizzaland",
-        "v": "be6d89adbbb80d681b4893d337bf3b160fbe4611af103e94b15fe18e09819a39"
-    },
-    "leundlo": {
-        "storeimg":"Images/cartoon.jpeg",
-        "key": "leundlo",
-        "name": "LE&LO Döner & Pizzeria",
-        "v": "7da9cf392458e0380464247cbb23abd45e612e124126667776d48b67af051b48"
     },
     "pizzavalentina": {
         "storeimg":"Images/cartoon.jpeg",
