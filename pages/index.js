@@ -112,8 +112,11 @@ export default function Index() {
    <>
     <Head>
       <title>{MyLang["title"]}</title>      
-      <meta name="DC.title" content={DCTitle} />
-      <meta name="DC.description" content={DCDes} />
+      <meta name="keywords" content="Pizza, pizzeria, pizza lieferservice" />
+      <meta name="page-topic" content="Gastronomie" />
+      <meta name="robots" content="index, follow" />
+      <meta name="title" content={DCTitle} />
+      <meta name="description" content={DCDes} />
       <meta name="robots" content="index,follow"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <link href="./mystyles/homepage.css" rel="stylesheet" />
