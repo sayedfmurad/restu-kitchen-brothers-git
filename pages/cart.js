@@ -4,7 +4,7 @@ import MyNavbar from '@/components/NavBar/MyNavbar';
 import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
 import packagee from "../package.json"
-
+import AddAddress from "../components/Cart/addaddress"
 export function Items({seladdre,or,sum,MyLang,menu,textabohlen,addre}){
     const RemoveAllItmes = e=>{
         window.localStorage.setItem("order","{}");
@@ -101,7 +101,7 @@ export function Items({seladdre,or,sum,MyLang,menu,textabohlen,addre}){
 
 export function Container(){
     const MyLang = langswitch.langswitchs("cart");
-
+    const [MsgError,setMsgError] = useState("")
     var [ItemsContainer,setItemsContainer] = useState(<></>);
     var [pressed,setpressed] = useState(false);
     var [spinnerbar,setspinnerbar] = useState("d-none");
@@ -112,10 +112,60 @@ export function Container(){
     var rows = [];        
  
   
+    const [obj,setobj] = useState({}) 
+    const MyLangg = langswitch.langswitchs("addaddress");  
+    
+    const CheckFiedsAddress = (e)=>{               
+            var addr = langswitch.getJson("address"); 
+            var obj = JSON.parse("{}");
+            obj["fname"] = document.getElementById("fname").value
+            obj["lname"] = document.getElementById("lname").value 
+            obj["phonen"] =document.getElementById("phonen").value  
+            obj["firma"] =document.getElementById("firma").value  
+            
+            // obj["city"] = mlocation["city"];
+            // obj["zipc"] = mlocation["zipc"];            
+            // obj["street"] = mlocation["street"];
+            // obj["housenumber"] = mlocation["housenumber"];
+            // obj["place_id"] = place.place_id;
+            // obj['lng'] = place.geometry.location.lng();
+            // obj['lat'] = place.geometry.location.lat();
+            // obj['distance'] = calculateDistance(menu['staticValue']['latlng']['lat'],menu['staticValue']['latlng']['lng'],obj['lat'],obj['lng']);                        
+          
+            const showError=(mssg)=>{
+                alert(mssg)   
+                return false             
+            }
+            if (obj["fname"]=="") 
+            return showError("Bitte tragen Sie Eine Vorname ein")
+            if (obj["lname"]=="") 
+            return showError("Bitte tragen Sie Eine Nachname ein")
+            if (obj["phonen"]=="") 
+            return showError("Bitte tragen Sie Eine Handynummer ein")
+            if(obj["housenumber"]=="")
+            return showError(MyLangg["plase enter housenumber"]);
+            else if(obj["zipc"]=="")
+            return showError(MyLangg["plase enter zipc"]);
+            else if(obj["street"]=="")
+            return showError(MyLangg["plase enter street"]);                                
+               
+
+                var hashs = hash(obj);
+                addr[hashs] = obj;
+                window.localStorage.setItem("seladdress",hashs);
+                window.localStorage.setItem("address",JSON.stringify(addr));
+
+                return true
+    }
+  
+
+
+
+
     if(process.browser){
         
         const startpay= ()=>{
-
+          
             
             const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
             let t = false;
@@ -213,6 +263,13 @@ export function Container(){
         {
             var seladd = langswitch.getValue("seladdress")
             const PassedSomeRules = ()=>{
+                if (!CheckFiedsAddress()) {
+                    return false
+                }
+                if (MsgError!="") {
+                    alert(MsgError,"123")
+                    return 
+                }
                 if(seladd != "")
                 {
                 var addobj = langswitch.getJson("address")
@@ -240,54 +297,7 @@ export function Container(){
             
             
 
-            var addresses = langswitch.getJson("address")
-            var seladd = langswitch.getValue("seladdress")
-            if(seladd in addresses)
-            {
-                rows.push(<>
-                    <div className={`list-group`}>                
-                    <div className='list-group-item'>                
-                    <div className="row mb-4">
-                        <div className='col-12'>
-                        <h6>Ihre Daten :</h6>
-                        </div>
-                        <div className='col-12'>
-                        <p style={{"fontSize":"0.7rem"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
-                        {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
-                        {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
-                        {addresses[seladd]["phonen"]}
-                        </p>
-                        </div>
-                        <div className='col-12 align-items-center d-flex'>
-                            <button className='btn btn-outline-primary'
-                            onClick={()=>{
-                                window.location.href =  langswitch.RouteP("addaddress")
-                            }}
-                            >ändern</button>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                    <br/>
-                    </>
-                    )
-            }
-            else{
-                rows.push(<>
-                    <div className={`list-group `}>                
-                    <div className='list-group-item'>    
-                    <h6>Ihre Daten :</h6>                    
-                    <p><button className='btn btn-primary'
-                            onClick={()=>{
-                                window.location.href =  langswitch.RouteP("addaddress")
-                            }}
-                            >eine Adresse auswänderen</button></p>
-                    </div>  
-                    </div>
-                    <br/>
-                    </>
-                    )  
-            }
+           rows.push(<AddAddress setobj={setobj} setMsgError={setMsgError}/>)
 
 
 
