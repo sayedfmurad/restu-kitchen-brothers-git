@@ -3,71 +3,88 @@
         "mdesc": {
             "Italienische Salate": {
                 "section": "Italienische Salate",
-                "des": "Alle Salate werden mit buntem Salat und einem Dressing nach Wahl zubereitet."
+                "des": "Alle Salate werden mit buntem Salat und einem Dressing nach Wahl zubereitet.",
+                "img":"Salate"
             },
             "Taschen-Drehspieß Gerichte": {
                 "section": "Taschen-Drehspieß Gerichte",
-                "des": "Alle Gerichte werden mit Kebap-Drehspießfleisch, gemischtem Salat und einer Sauce nach Wahl zubereitet."
+                "des": "Alle Gerichte werden mit Kebap-Drehspießfleisch, gemischtem Salat und einer Sauce nach Wahl zubereitet.",
+                "img":"DREHSPIESS"
             },
             "Gerichte vom Drehspieß": {
                 "section": "Gerichte vom Drehspieß",
-                "des": "Alle Gerichte werden mit Kebap-Drehspießfleisch zubereitet."
+                "des": "Alle Gerichte werden mit Kebap-Drehspießfleisch zubereitet.",
+                "img":"DREHSPIESS"
             },
             "Türkische Pizza": {
                 "section": "Türkische Pizza",
-                "des": "Alle Gerichte werden mit gemischtem Salat und einer Sauce nach Wahl im Ofen frisch zubereitet."
+                "des": "Alle Gerichte werden mit gemischtem Salat und einer Sauce nach Wahl im Ofen frisch zubereitet.",
+                "img":"PIZZEN"
             },
             "Vegetarische Gerichte": {
                 "section": "Vegetarische Gerichte",
-                "des": "Alle Gerichte werden mit gemischtem Salat und einer Sauce nach Wahl zubereitet."
+                "des": "Alle Gerichte werden mit gemischtem Salat und einer Sauce nach Wahl zubereitet.",
+                "img":"PIZZEN"
             },
             "Panierte Schnitzel": {
                 "section": "Panierte Schnitzel",
-                "des": "Alle Gerichte werden mit Pommes frites und Salat serviert."
+                "des": "Alle Gerichte werden mit Pommes frites und Salat serviert.",
+                "img":"SCHNITZEL"
             },
             "Schnitzel aus der Pfanne": {
                 "section": "Schnitzel aus der Pfanne",
-                "des": "Alle Gerichte werden mit Pommes frites und Salat serviert."
+                "des": "Alle Gerichte werden mit Pommes frites und Salat serviert.",
+                "img":"SCHNITZEL"
             },
             "Italienische Pizza": {
                 "section": "Italienische Pizza",
-                "des": "Alle Pizzen werden mit Tomatensauce, Käse und Oregano zubereitet."
+                "des": "Alle Pizzen werden mit Tomatensauce, Käse und Oregano zubereitet.",
+                "img":"PIZZEN"
             },
             "Party-Pizza, 60cm x 40cm": {
                 "section": "Party-Pizza, 60cm x 40cm",
-                "des": "Alle Pizzen werden mit Tomatensauce, Käse und Oregano zubereitet."
+                "des": "Alle Pizzen werden mit Tomatensauce, Käse und Oregano zubereitet.",
+                "img":"PIZZEN"
             },
             "Pizzabrötchen": {
                 "section": "Pizzabrötchen",
-                "des": ""
+                "des": "",
+                "img":"PIZZEN"
             },
             "Pasta": {
                 "section": "Pasta",
-                "des": "Alle Gerichte werden mit 4 Pizzabrötchen (enthält Weizen) und Kräuterbutter (enthält Milcherzeugnisse) serviert."
+                "des": "Alle Gerichte werden mit 4 Pizzabrötchen (enthält Weizen) und Kräuterbutter (enthält Milcherzeugnisse) serviert.",
+                "img":"PIZZEN"
             },
             "Al Forno": {
                 "section": "Al Forno",
-                "des": "Alle Gerichte werden mit Käse überbacken."
+                "des": "Alle Gerichte werden mit Käse überbacken.",
+                "img":"PIZZEN"
             },
             "Reispfanne": {
                 "section": "Reispfanne",
-                "des": "Alle Gerichte werden mit Hähnchenfilet zubereitet."
+                "des": "Alle Gerichte werden mit Hähnchenfilet zubereitet.",
+                "img":"PIZZEN"
             },
             "Snacks": {
                 "section": "Snacks",
-                "des": ""
+                "des": "",
+                "img":"PIZZEN"
             },
             "Beilagen und Saucen": {
                 "section": "Beilagen und Saucen",
-                "des": ""
+                "des": "",
+                "img":"PIZZEN"
             },
             "Alkoholfreie Getränke": {
                 "section": "Alkoholfreie Getränke",
-                "des": ""
+                "des": "",
+                "img":"PIZZEN"
             },
             "Alkoholische Getränke": {
                 "section": "Alkoholische Getränke",
-                "des": ""
+                "des": "",
+                "img":"PIZZEN"
             }
         }
     },
@@ -2596,7 +2613,7 @@
     },
     "staticValue": {
         "logo": "Xantener Pizza & Kebap",
-        "key": "pizzeria-dino",
+        "key": "xantener-pizza-kebap",
         "b": {
             "c": ""
         },

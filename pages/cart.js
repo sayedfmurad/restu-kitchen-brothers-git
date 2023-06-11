@@ -113,59 +113,16 @@ export function Container(){
  
   
     const [obj,setobj] = useState({}) 
+    const [objaddress,setobjaddress] = useState({}) 
     const MyLangg = langswitch.langswitchs("addaddress");  
     
-    const CheckFiedsAddress = (e)=>{               
-            var addr = langswitch.getJson("address"); 
-            var obj = JSON.parse("{}");
-            obj["fname"] = document.getElementById("fname").value
-            obj["lname"] = document.getElementById("lname").value 
-            obj["phonen"] =document.getElementById("phonen").value  
-            obj["firma"] =document.getElementById("firma").value  
-            
-            // obj["city"] = mlocation["city"];
-            // obj["zipc"] = mlocation["zipc"];            
-            // obj["street"] = mlocation["street"];
-            // obj["housenumber"] = mlocation["housenumber"];
-            // obj["place_id"] = place.place_id;
-            // obj['lng'] = place.geometry.location.lng();
-            // obj['lat'] = place.geometry.location.lat();
-            // obj['distance'] = calculateDistance(menu['staticValue']['latlng']['lat'],menu['staticValue']['latlng']['lng'],obj['lat'],obj['lng']);                        
-          
-            const showError=(mssg)=>{
-                alert(mssg)   
-                return false             
-            }
-            if (obj["fname"]=="") 
-            return showError("Bitte tragen Sie Eine Vorname ein")
-            if (obj["lname"]=="") 
-            return showError("Bitte tragen Sie Eine Nachname ein")
-            if (obj["phonen"]=="") 
-            return showError("Bitte tragen Sie Eine Handynummer ein")
-            if(obj["housenumber"]=="")
-            return showError(MyLangg["plase enter housenumber"]);
-            else if(obj["zipc"]=="")
-            return showError(MyLangg["plase enter zipc"]);
-            else if(obj["street"]=="")
-            return showError(MyLangg["plase enter street"]);                                
-               
 
-                var hashs = hash(obj);
-                addr[hashs] = obj;
-                window.localStorage.setItem("seladdress",hashs);
-                window.localStorage.setItem("address",JSON.stringify(addr));
-
-                return true
-    }
   
-
-
-
 
     if(process.browser){
         
         const startpay= ()=>{
-          
+            
             
             const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
             let t = false;
@@ -263,23 +220,31 @@ export function Container(){
         {
             var seladd = langswitch.getValue("seladdress")
             const PassedSomeRules = ()=>{
-                if (!CheckFiedsAddress()) {
-                    return false
-                }
                 if (MsgError!="") {
-                    alert(MsgError,"123")
+                    alert(MsgError)
                     return 
-                }
+                }   
                 if(seladd != "")
                 {
                 var addobj = langswitch.getJson("address")
                 if(addobj.hasOwnProperty(seladd))  
                 startpay()
                 else
-                alert(MyLang["Please Select an Address"])
+                {
+                    var elementt = document.getElementById("address-input")
+                    elementt.scrollIntoView({ behavior: "smooth", block: "start" });
+                    elementt.focus()   
+                    alert(MyLang["Please Select an Address"])
+                }
                 }
                 else
-                alert(MyLang["Please Select an Address"])
+                {
+
+                    var elementt = document.getElementById("address-input")
+                    elementt.scrollIntoView({ behavior: "smooth", block: "start" });
+                    elementt.focus()   
+                    alert(MyLang["Please Select an Address"])
+                }
             }
             if(document.getElementById("success-outlined-abholen").checked)  
             PassedSomeRules()      
@@ -297,7 +262,7 @@ export function Container(){
             
             
 
-           rows.push(<AddAddress setobj={setobj} setMsgError={setMsgError}/>)
+           rows.push(<AddAddress setMsgError={setMsgError}/>)
 
 
 
@@ -353,11 +318,11 @@ export function Container(){
                      datee.setMinutes(45)
                  }
 
-                 if(datee.getHours() < 23)
-                 {
-                     datee.setHours(datee.getHours()+1)                    
-                     datee.setMinutes(0)
-                 }
+                //  if(datee.getHours() < 23)
+                //  {
+                //      datee.setHours(datee.getHours()+1)                    
+                //      datee.setMinutes(0)
+                //  }
                 return datee
             }
     

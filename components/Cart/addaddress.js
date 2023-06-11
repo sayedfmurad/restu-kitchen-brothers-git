@@ -61,7 +61,7 @@ class LocationMap extends Component {
   };
     handlePlaceSelect() { 
       
-            var {menu,setobj,setMsgError} = this.props
+            var {menu,setMsgError,setMainContainer} = this.props
 
             var place = this.autocomplete.getPlace()                
             var obj = {}
@@ -70,7 +70,6 @@ class LocationMap extends Component {
               setMsgError("Bitte ein Addresse auswahlen")
               return false
             }
-
             if(!place.geometry)
             {
                 document.getElementById('address-input').placeholder='Suche für eine Addresse';
@@ -85,20 +84,16 @@ class LocationMap extends Component {
                         switch(place.address_components[ii].types[tt])
                         {
                             case "street_number":
-                              obj["housenumber"]=
-                            place.address_components[ii].long_name;
+                              obj["housenumber"]=place.address_components[ii].long_name;
                             break;
                             case "route":
-                              obj["street"]=
-                            place.address_components[ii].long_name;
+                              obj["street"]=place.address_components[ii].long_name;
                             break;
                             case "postal_code":
-                              obj["zipc"]=
-                            place.address_components[ii].long_name;
+                              obj["zipc"]=place.address_components[ii].long_name;
                             break;
                             case "administrative_area_level_3":
-                              obj["city"]=
-                                place.address_components[ii].long_name;
+                              obj["city"]=place.address_components[ii].long_name;
                                 break;
                     }
                     }
@@ -134,21 +129,69 @@ class LocationMap extends Component {
                   setMsgError("Die eingetragene Adresse hat mehr als "+lastAvailabeDistance +"km abstand, Tragen Sie bitte eine andere Adresse");
                   return false
                 }
+                else{
+                  setMsgError("Bitte wählen Sie eine Adresse aus");
+                  return false
+                }
               }
 
               if(!("housenumber" in obj))
               {
                 this.setCursorAfterWord(obj["street"])
+                setMsgError("Bitte tragen Sie ein Hausnummer ein");              
                 return false
               }
               
               const notification = document.getElementById('notification');
               notification.style.display = 'none';
-              setobj(obj)
+
+              obj["fname"] = document.getElementById("fname").value
+              obj["lname"] = document.getElementById("lname").value 
+              obj["phonen"] =document.getElementById("phonen").value  
+              obj["firma"] =document.getElementById("firma").value  
+
+      
               setMsgError("")
+              var addr = langswitch.getJson("address"); 
+                var hashs = hash(obj);
+                addr[hashs] = obj;
+                window.localStorage.setItem("seladdress", hashs);
+                window.localStorage.setItem("address", JSON.stringify(addr));
+                setMainContainer(<UserHasData />)
+                window.location.reload()
               return true
     }
 
+    CheckIfSomeFieldsAreEmpty=()=>{
+      var obj={}
+      obj["fname"] = document.getElementById("fname").value
+      obj["lname"] = document.getElementById("lname").value 
+      obj["phonen"] =document.getElementById("phonen").value  
+      if(obj["fname"]=="")
+      {
+        var elementt = document.getElementById("fname")
+        elementt.scrollIntoView({ behavior: "smooth", block: "start" });
+        elementt.focus()                
+        alert("Bitte tragen Sie einen Vornamen ein")
+        return false
+      }
+      if(obj["lname"]=="")
+      {
+        var elementt = document.getElementById("lname")
+        elementt.scrollIntoView({ behavior: "smooth", block: "start" });
+        elementt.focus()                
+        alert("Bitte tragen Sie einen Nachnamen ein")
+        return false
+      }
+      if(obj["phonen"]=="")
+      {
+        var elementt = document.getElementById("phonen")
+        elementt.scrollIntoView({ behavior: "smooth", block: "start" });
+        elementt.focus()                
+        alert("Bitte tragen Sie einen Handynummer ein")
+        return false
+      }    
+    }
     render() {
         return (
             <section>
@@ -162,6 +205,7 @@ class LocationMap extends Component {
                            placeholder='Such für eine Addresse'
                            className="form-control form-select"
                            id="address-input"
+                           onFocus={this.CheckIfSomeFieldsAreEmpty}
                            name="address" />
                 </div>
                 <div class="alert alert-danger mt-3" role="alert" id="notification" style={{display:"none"}}>
@@ -175,19 +219,20 @@ class LocationMap extends Component {
 import { useState } from 'react';
 
 
-export function GotJsonDataMenu ({menu,setMsgError,setobj}) {
+export function GotJsonDataMenu ({menu,setMsgError,setMainContainer}) {
   const MyLang = langswitch.langswitchs("addaddress");  
 
+  
       
   return<div className="container mt-4">
   <div className="row p-3 g-2">            
   <div class="form-group col-md-6 col-sm-12">
       <label for="fname">{MyLang["First Name"]}</label>
-      <input type="text" class="form-control form-select" id="fname" aria-describedby="fnameHelp" placeholder="Vorname" required/>
+      <input  type="text" class="form-control form-select" id="fname" aria-describedby="fnameHelp" placeholder="Vorname" required/>
   </div>
   <div class="form-group col-md-6 col-sm-12">
       <label for="lname">{MyLang["Last Name"]}</label>
-      <input type="text" class="form-control form-select" id="lname" aria-describedby="lnameHelp" placeholder="Nachname" required/>
+      <input  type="text" class="form-control form-select" id="lname" aria-describedby="lnameHelp" placeholder="Nachname" required/>
   </div>            
   <br/>
   <div class="form-group col-md-6 col-sm-12">
@@ -202,7 +247,7 @@ export function GotJsonDataMenu ({menu,setMsgError,setobj}) {
   </div>            
   </div>            
   <div className='col-12'>
-  <LocationMap setMsgError={setMsgError} menu={menu} setobj={setobj}/>          
+  <LocationMap setMsgError={setMsgError} setMainContainer={setMainContainer} menu={menu} />          
   </div>            
   </div>                             
 </div>
@@ -210,29 +255,36 @@ export function GotJsonDataMenu ({menu,setMsgError,setobj}) {
 }
 
 
-export function UserHasNoData ({setMsgError,setobj}) {
+export function UserHasNoData ({setMsgError,setMainContainer}) {
 
   const [mContainer, setmContainer] = useState(<></>)
   useEffect(()=>{
     langswitch.GetJsonM("menu").then((m)=>{
-      setmContainer(<GotJsonDataMenu setobj={setobj} setMsgError={setMsgError} menu={m}/>)
+      setmContainer(<GotJsonDataMenu setMainContainer={setMainContainer}  setMsgError={setMsgError} menu={m}/>)
     })
   },[])
-  return <>{mContainer}</>
+  return <><div className={`list-group`}>                
+  <div className='list-group-item mb-3'>{mContainer}
+  </div>
+  </div>
+  </>
 }
 
 
 
 
-export default ({setMsgError,setobj})=>{  
+
+
+
+
+
+export function UserHasData () {
   var addresses = langswitch.getJson("address")
   var seladd = langswitch.getValue("seladdress")
-  if(seladd in addresses)
-  {
       return<>
           <div className={`list-group`}>                
           <div className='list-group-item'>                
-          <div className="row mb-4">
+          <div className="row mb-3">
               <div className='col-12'>
               <h6>Ihre Daten :</h6>
               </div>
@@ -257,9 +309,18 @@ export default ({setMsgError,setobj})=>{
           <br/>
           </>
           
-  }
-  else{
-      return(<><UserHasNoData setMsgError={setMsgError} setobj={setobj}/></>
-          )  
-  }
+}
+export default ({setMsgError})=>{  
+  const [MainContainer, setMainContainer]=useState(<></>)
+  var addresses = langswitch.getJson("address")
+  var seladd = langswitch.getValue("seladdress")
+  useEffect(()=>{
+    if(seladd in addresses)
+    setMainContainer(<UserHasData />)
+    else
+    setMainContainer(<UserHasNoData setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
+  },[])
+  
+  
+  return <>{MainContainer}</>
 }
