@@ -42,7 +42,7 @@ export default function Index() {
           SetContainer(
             <>
             <MyNavbar/>  
-            <Sections/>
+            <Sections menu={data}/>
             </>
           )
       })
@@ -84,7 +84,7 @@ export default function Index() {
           SetContainer(
             <>
             <MyNavbar/>  
-            <Sections/>
+            <Sections menu={data}/>
             </>
           )
     }

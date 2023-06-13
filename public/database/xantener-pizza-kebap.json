@@ -14,17 +14,17 @@
             "Gerichte vom Drehspieß": {
                 "section": "Gerichte vom Drehspieß",
                 "des": "Alle Gerichte werden mit Kebap-Drehspießfleisch zubereitet.",
-                "img":"DREHSPIESS"
+                "img":"DONER"
             },
             "Türkische Pizza": {
                 "section": "Türkische Pizza",
                 "des": "Alle Gerichte werden mit gemischtem Salat und einer Sauce nach Wahl im Ofen frisch zubereitet.",
-                "img":"PIZZEN"
+                "img":"pizzat"
             },
             "Vegetarische Gerichte": {
                 "section": "Vegetarische Gerichte",
                 "des": "Alle Gerichte werden mit gemischtem Salat und einer Sauce nach Wahl zubereitet.",
-                "img":"PIZZEN"
+                "img":"GEMUSEGERICHTE"
             },
             "Panierte Schnitzel": {
                 "section": "Panierte Schnitzel",
@@ -34,7 +34,7 @@
             "Schnitzel aus der Pfanne": {
                 "section": "Schnitzel aus der Pfanne",
                 "des": "Alle Gerichte werden mit Pommes frites und Salat serviert.",
-                "img":"SCHNITZEL"
+                "img":"DINOS_SCHNITZEL"
             },
             "Italienische Pizza": {
                 "section": "Italienische Pizza",
@@ -49,42 +49,42 @@
             "Pizzabrötchen": {
                 "section": "Pizzabrötchen",
                 "des": "",
-                "img":"PIZZEN"
+                "img":"PIZZABROTCHEN"
             },
             "Pasta": {
                 "section": "Pasta",
                 "des": "Alle Gerichte werden mit 4 Pizzabrötchen (enthält Weizen) und Kräuterbutter (enthält Milcherzeugnisse) serviert.",
-                "img":"PIZZEN"
+                "img":"PASTA"
             },
             "Al Forno": {
                 "section": "Al Forno",
                 "des": "Alle Gerichte werden mit Käse überbacken.",
-                "img":"PIZZEN"
+                "img":"ALForno"
             },
             "Reispfanne": {
                 "section": "Reispfanne",
                 "des": "Alle Gerichte werden mit Hähnchenfilet zubereitet.",
-                "img":"PIZZEN"
+                "img":"REIS_MIT_HUHNERFLEISCH"
             },
             "Snacks": {
                 "section": "Snacks",
                 "des": "",
-                "img":"PIZZEN"
+                "img":"FINGER_FOODS"
             },
             "Beilagen und Saucen": {
                 "section": "Beilagen und Saucen",
                 "des": "",
-                "img":"PIZZEN"
+                "img":"KALTE_VORSPEISEN"
             },
             "Alkoholfreie Getränke": {
                 "section": "Alkoholfreie Getränke",
                 "des": "",
-                "img":"PIZZEN"
+                "img":"ALKOHOLFREIE_GETRANKE"
             },
             "Alkoholische Getränke": {
                 "section": "Alkoholische Getränke",
                 "des": "",
-                "img":"PIZZEN"
+                "img":"ALKOHOLISCHE_GETRANKE"
             }
         }
     },
@@ -2615,7 +2615,7 @@
         "logo": "Xantener Pizza & Kebap",
         "key": "xantener-pizza-kebap",
         "b": {
-            "c": ""
+            "c": "-1001826033886"
         },
         "rabat": "",
         "minpriceorder": [
