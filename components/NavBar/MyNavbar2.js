@@ -59,10 +59,7 @@ export function Container(){
                 </li>
                 <li className="nav-item">
                     <a className={`nav-link ${router=="/selectadd"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("selectadd")}>{MyLang["addresses"]}</a>
-                </li>
-                <li className="nav-item">
-                    <a className={`nav-link ${router=="/cart"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("cart")}>{MyLang["cart"]}</a>
-                </li>
+                </li>                
                 <li className="nav-item">
                     <a className={`nav-link ${router=="/order"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("updatesmainorders")}>{MyLang["myorders"]}</a>
                 </li>

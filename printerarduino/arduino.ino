@@ -478,18 +478,19 @@ void ConnectToWifi(String text){
 
 void setup() {
   Serial.begin(115200);
-  EEPROM.begin(512);
-  //  WiFi.begin("redmi");
-  String myString = getStringFromEEPROM(0);
-     if(myString == "")
-  {
-  StartWifi();
-  startServer();
-  }
-  else{
-  Serial.println(myString);
-  ConnectToWifi(myString);
-  };  
+  ConnectToWifi2("mdc","sendmenow");
+  // EEPROM.begin(512);
+  // //  WiFi.begin("redmi");
+  // String myString = getStringFromEEPROM(0);
+  //    if(myString == "")
+  // {
+  // StartWifi();
+  // startServer();
+  // }
+  // else{
+  // Serial.println(myString);
+  // ConnectToWifi(myString);
+  // };  
 }
 
 void loop() {

@@ -6,7 +6,8 @@ import hash from "../components/Utils/object_hash"
 import packagee from "../package.json"
 import AddAddress from "../components/Cart/addaddress"
 
-export function PaymentMethods ({setspinnerbar}) {
+export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
+    const MyLang = langswitch.langswitchs("cart")
     const startpay= ()=>{
             
             
@@ -14,11 +15,17 @@ export function PaymentMethods ({setspinnerbar}) {
         let t = false;
         if(document.getElementById("bar-outlined").checked)
         t="bar";
-        else if(document.getElementById("paypal-outlined").checked || document.getElementById("DCcard-outlined").checked|| document.getElementById("spea-outlined").checked|| document.getElementById("giropay-outlined").checked|| document.getElementById("sofort-outlined").checked)
+        else if (
+            (typeof document.getElementById("paypal-outlined") !== 'undefined' && document.getElementById("paypal-outlined") !== null && document.getElementById("paypal-outlined").checked) ||
+            (typeof document.getElementById("DCcard-outlined") !== 'undefined' && document.getElementById("DCcard-outlined") !== null && document.getElementById("DCcard-outlined").checked) ||
+            (typeof document.getElementById("spea-outlined") !== 'undefined' && document.getElementById("spea-outlined") !== null && document.getElementById("spea-outlined").checked) ||
+            (typeof document.getElementById("giropay-outlined") !== 'undefined' && document.getElementById("giropay-outlined") !== null && document.getElementById("giropay-outlined").checked) ||
+            (typeof document.getElementById("sofort-outlined") !== 'undefined' && document.getElementById("sofort-outlined") !== null && document.getElementById("sofort-outlined").checked)
+          )
         t="paypal";
         else 
         {
-            alert("bitte wählen Sie eine Zahlungsmethode, Bar oder Paypal");
+            alert("bitte wählen Sie eine Zahlungsmethode");
             return false;
         }            
   
@@ -58,9 +65,9 @@ export function PaymentMethods ({setspinnerbar}) {
         }
 
 
-        setpressed(true);
-        setspinnerbar("")
-        setcontainer("d-none")
+        document.getElementById("MainIdd").classList.add("d-none")
+        document.getElementById("SpinnerId").classList.remove("d-none")
+
 
 
         var MainOrderId = time.getTime() + JSON.stringify(parms);
@@ -105,6 +112,7 @@ export function PaymentMethods ({setspinnerbar}) {
         var seladd = langswitch.getValue("seladdress")
         const PassedSomeRules = ()=>{
             if (MsgError!="") {
+                console.log(MsgError)
                 alert(MsgError)
                 return 
             }   
@@ -135,12 +143,26 @@ export function PaymentMethods ({setspinnerbar}) {
         else if(langswitch.CheckMinPriceOrder(langswitch.getNum("sumprice")  ,menu))
         PassedSomeRules()            
     }
-    return <> <div className='list-group'>                
-    <div className='list-group-item'>                
-    <div className="d-flex justify-content-start mb-4">                
-    Bezahlen mit:
-    </div>
-    <div className="d-flex justify-content-start mb-4">                
+    const CheckPaymentsTypes=(menu)=>{
+
+        if("paymentmethod" in menu["staticValue"])
+        {
+            for(var d in menu["staticValue"]["paymentmethod"])
+            {
+                var rows=[]
+                rows.push(    
+                    <>
+                    <input type="radio" class="btn-check" name="options-outlined" id={d+"-outlined"}  />
+                    <label class="btn btn-outline-warning " for="bar-outlined">{menu["staticValue"]["paymentmethod"][d]["name"]}</label>
+                    &nbsp;
+                    </>               
+                )
+            }    
+            return <div className="d-flex justify-content-start mb-4">     
+                    {rows}
+                   </div>     
+        }
+        return <div className="d-flex justify-content-start mb-4">                
         <input type="radio" class="btn-check" name="options-outlined" id="bar-outlined"  />
         <label class="btn btn-outline-warning " for="bar-outlined">Bar</label>
         &nbsp;
@@ -152,14 +174,14 @@ export function PaymentMethods ({setspinnerbar}) {
         &nbsp;
         <input type="radio" class="btn-check d-none" name="options-outlined" id="spea-outlined" />
         <label class="btn btn-outline-warning d-none" for="spea-outlined"></label>
-        </div>            
-        <div className="d-flex justify-content-start mb-4 d-none">                
-        <input type="radio" class="btn-check" name="options-outlined" id="giropay-outlined" />
-        <label class="btn btn-outline-warning" for="giropay-outlined"><img height="25px" src="./Images/giropay.svg"/></label>
-        &nbsp;
-        <input type="radio" class="btn-check" name="options-outlined" id="sofort-outlined" />
-        <label class="btn btn-outline-warning" for="sofort-outlined"><img height="25px" src="./Images/sofortsvg.svg"/></label>
-    </div>            
+    </div> 
+    }    
+    return <> <div className='list-group'>                
+    <div className='list-group-item'>                
+    <div className="d-flex justify-content-start mb-4">                
+    Bezahlen mit:
+    </div> 
+    {CheckPaymentsTypes(menu)}                              
     </div>
     </div>
     <br/>
@@ -173,7 +195,7 @@ export function PaymentMethods ({setspinnerbar}) {
    </>    
 
 }
-export function CheckOptionsofDelivery ({menu,settextabohlen,textabohlen,IsStoreOpenClose_Var}) {
+export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohlen,IsStoreOpenClose_Var}) {
     var [spaterodernow,setspaterodernow] = useState(IsStoreOpenClose_Var?"d-none":"");
     const onChangeToAbohlen=()=>{
         document.getElementById("success-outlined-abholen").checked=true;
@@ -193,7 +215,6 @@ export function CheckOptionsofDelivery ({menu,settextabohlen,textabohlen,IsStore
     }
     
     const onChangeToDeliveryTime=()=>{
-        document.getElementById("success-outlined-spater").checked=true;
         setspaterodernow("")
     }
     const ConvertToMinuten_0_15_30_45=(datee)=>{
@@ -292,10 +313,10 @@ export function CheckOptionsofDelivery ({menu,settextabohlen,textabohlen,IsStore
             </div>                        
     <div className="col-12">                
                 <input type="radio" class="btn-check" onClick={onChangeToLiefern} name="options-outlined-abholen" id="success-outlined-liefern"  checked/>
-                <label class="btn btn-outline-success" for="success-outlined-liefern">Liefern</label>
+                <label class="btn btn-outline-warning" for="success-outlined-liefern">Liefern</label>
                 &nbsp;
                 <input type="radio" class="btn-check" name="options-outlined-abholen" id="success-outlined-abholen"  />
-                <label class="btn btn-outline-success" onClick={onChangeToAbohlen} for="success-outlined-abholen">Abholen</label>                        
+                <label class="btn btn-outline-warning" onClick={onChangeToAbohlen} for="success-outlined-abholen">Abholen</label>                        
     </div>
     </div>
     <div className="row mb-4 g-3">
@@ -306,10 +327,10 @@ export function CheckOptionsofDelivery ({menu,settextabohlen,textabohlen,IsStore
             <div className="col-12">                
             {IsStoreOpenClose_Var?<>
                 <input type="radio" class="btn-check" onClick={()=>{setspaterodernow("d-none")}} name="options-outlined-zeit" id="success-outlined-jetzt" autocomplete="off" checked/>
-                <label class="btn btn-outline-success" for="success-outlined-jetzt">Jetzt</label>
+                <label class="btn btn-outline-warning" for="success-outlined-jetzt">Jetzt</label>
                 &nbsp;</>:<></>}
-                <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" />
-                <label class="btn btn-outline-success" onClick={()=>{onChangeToDeliveryTime()}} id="success-outlined-spater-label" for="success-outlined-spater">Später</label>                        
+                <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" checked={IsStoreOpenClose_Var?(spaterodernow==""?true:false):true}/>
+                <label class="btn btn-outline-warning" onClick={()=>{onChangeToDeliveryTime()}} id="success-outlined-spater-label" for="success-outlined-spater">Später</label>                        
             </div>
             </div>
             <div className={`col-12 ${spaterodernow}`}>
@@ -322,23 +343,22 @@ export function CheckOptionsofDelivery ({menu,settextabohlen,textabohlen,IsStore
     </div>
     </div>
     <br/>
+    <PaymentMethods spaterodernow={spaterodernow} textabohlen={textabohlen} MsgError={MsgError} menu={menu} />
     </>
 }
 export function Container({mSetContainer,or,menu}){
     const [MsgError,setMsgError] = useState("")
-    var [spinnerbar,setspinnerbar] = useState(false);
     var [textabohlen,settextabohlen] = useState(false);
     const [AddAddressComponent,SetAddAddressComponent]=useState(<AddAddress textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMsgError={setMsgError}/>)
     useEffect(()=>{
         SetAddAddressComponent(<AddAddress textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMsgError={setMsgError}/>)
     },[textabohlen])
     
-    return  <><div className={`container mt-3 ${spinnerbar?"d-none":""}`}>
+    return  <><div className={`container mt-3 `} id="MainIdd">
     {AddAddressComponent}
-    <CheckOptionsofDelivery IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
-    <PaymentMethods  setspinnerbar={setspinnerbar}/>
+    <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
     </div>
-    <div className={`container mt-3 ${spinnerbar?"":"d-none"}`}>
+    <div className={`container mt-3 d-none`} id="SpinnerId">
     <div class="text-center d-flex justify-content-center">
     <div class="spinner-border text-primary" style={{"width":"5rem","height":"5rem"}} role="status">
         <span class="visually-hidden">Loading...</span>
