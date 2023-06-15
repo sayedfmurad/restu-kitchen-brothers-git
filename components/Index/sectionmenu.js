@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React, { useEffect,useState } from 'react';
 import langswitch from '../Utils/langswitch'
-import MyNavbar from "../NavBar/MyNavbar"
+import MyNavbar from "../TopBar/TobBar"
 import Sections from './sections';
 import CustomizeOrder from "./customizeorder"
 export default function Sectionmenu({SetContainer,menu,bnb}) {

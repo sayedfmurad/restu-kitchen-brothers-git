@@ -1,7 +1,7 @@
 
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
-import MyNavbar from "../components/Navbar/MyNavbar2"
+import MyNavbar from "../components/TopBar/TobBar2"
 import MyLang from '../components/Utils/langswitch'
 export default function success() {
     const langswitch = MyLang.langswitchs("success");

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
-import MyNavbar from '@/components/NavBar/MyNavbar';
+import MyNavbar from "../components/TopBar/TobBar"
 import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
 import packagee from "../package.json"

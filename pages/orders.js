@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
-import MyNavbar from "../components/Navbar/MyNavbar2"
+import MyNavbar from "../components/TopBar/TobBar2"
 import langswitch from '../components/Utils/langswitch'
 
 export function Container(){

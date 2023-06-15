@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import langswitch from '../Utils/langswitch'
-import MyNavbar from "../NavBar/MyNavbar"
+import MyNavbar from "../TopBar/TobBar"
 import hash from "../Utils/object_hash"
 import React, { useState, useEffect } from 'react';
 import Sectionmenu from './sectionmenu';
