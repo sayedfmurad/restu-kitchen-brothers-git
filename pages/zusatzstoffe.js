@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MyNavbar from "../components/NavBar/MyNavbar"
+import MyNavbar from "../components/TopBar/TobBar2"
 import langswitch from "../components/Utils/langswitch"
 export default function Name() {
 
