@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import langswitch from '../components/Utils/langswitch'
-import MyNavbar from "../components/navbar/MyNavbar"
+import MyNavbar from "../components/NavBar/MyNavbar"
 import Head from 'next/head'
 
 export default function Paypall() {

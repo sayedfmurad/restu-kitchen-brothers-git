@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import MyNavbar from "../components/navbar/MyNavbar2"
+import MyNavbar from "../components/Navbar/MyNavbar2"
 import hash from "../components/Utils/object_hash"
 import langswitch from '../components/Utils/langswitch'
 import { useState } from 'react';
