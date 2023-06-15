@@ -48,13 +48,14 @@ export  function Con({obj}){
 }
 
 
-export default function adsf({logo,options,mSetContainer}){
+export default function adsf({logo,options,mSetContainer,IsCartSection}){
     const [Container, SetContainer] = useState(<></>)
     useEffect(()=>{
         const Orders = langswitch.getJson("order")  
         const OrdersLength = Object.keys(Orders).length
         var obj=[] 
         const CheckOrders=()=>{
+            if (typeof IsCartSection === "undefined")
             if(OrdersLength >0 )
                 {                    
                     obj.push(

@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
-import MyNavbar from '@/components/NavBar/MyNavbar2';
+import MyNavbar from '@/components/NavBar/MyNavbar';
 import langswitch from '../components/Utils/langswitch'
 import hash from "../components/Utils/object_hash"
 import packagee from "../package.json"
 import AddAddress from "../components/Cart/addaddress"
-
+import Sections from '@/components/Index/sections';
 export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
     const MyLang = langswitch.langswitchs("cart")
     const startpay= ()=>{
@@ -354,7 +354,18 @@ export function Container({mSetContainer,or,menu}){
         SetAddAddressComponent(<AddAddress textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMsgError={setMsgError}/>)
     },[textabohlen])
     
-    return  <><div className={`container mt-3 `} id="MainIdd">
+    return  <>
+    <MyNavbar IsCartSection="" mSetContainer={mSetContainer}  options={
+                        [
+                            <a onClick={()=>{
+                                mSetContainer(
+                                        <Sections menu={menu} />
+                                    )
+                            }} className="btn btn-secondary" id='navbarBack' >Zurück</a>                                                 
+                        ]                        
+                        }  
+            />
+    <div className={`container mt-3 `} id="MainIdd">
     {AddAddressComponent}
     <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
     </div>
