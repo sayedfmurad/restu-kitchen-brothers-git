@@ -2612,11 +2612,10 @@
         }
     },
     "staticValue": {
+        "isESP":"",
         "logo": "Xantener Pizza & Kebap",
         "key": "xantener-pizza-kebap",
-        "b": {
-            "c": "-1001826033886"
-        },
+   
         "rabat": "",
         "minpriceorder": [
             {
@@ -2636,7 +2635,7 @@
                 "lieferkosten": 2
             }
         ],
-        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/pizzeria-dino.json",
+        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/xantener-pizza-kebap.json",
         "zusatzStoffe": "",
         "latlng": {
             "lat": 51.657845,
@@ -2711,5 +2710,9 @@
                 }
             }
         }
-    }
+    },
+    "b": {
+        "c": "-1001826033886"
+    },
+    "rabat": "5"
 }

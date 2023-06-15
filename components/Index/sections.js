@@ -1,17 +1,18 @@
 import { useEffect, useState } from "react";
 import langswitch from "../Utils/langswitch"
 import Sectionmenu from "./sectionmenu"
-import styles from './styles.module.css';
-
+import MyNavbar from "../NavBar/MyNavbar"
 export function ProductsRows ({menu,SetContainer}) {
+  
   const BtnClicked = (e)=>{
-    // window.scrollTo({
-    //   top: 0,
-    //   behavior: 'auto' // You can change this to 'auto' if you want an instant scroll
-    // });
-    SetContainer(<></>)
-    setInterval(() => {
-      SetContainer(<Sectionmenu menu={menu} bnb={e.target.getAttribute("data-key")}/>)      
+    // Empty the container
+    SetContainer(null);
+    
+    // Set the new container after a delay using setInterval
+    setTimeout(() => {
+      SetContainer(        
+      <Sectionmenu SetContainer={SetContainer} menu={menu} bnb={e.target.getAttribute("data-key")} />)
+      ;
     }, 50);
   }
   var sections = [],rows=[];
@@ -107,15 +108,27 @@ export function NotificationsRows ({menu}) {
 }
 
 export default ({menu})=>
-{
-  const [Container,SetContainer] = useState(
-<></>  )
-useEffect(()=>{
+{ 
+  const [Container,SetContainer] = useState(<></>)
+  useEffect(()=>{               
+  // <a className="navbar-brand" id="logoid">                        
+  // </a> 
+  // var element = document.getElementById("logoid")
+  // element.innerHTML = '<h5><a href="./" class="text-white">'+menu["staticValue"]["logo"]+'</a></h5> '  
+
+
   SetContainer(
+    <>
+  <MyNavbar  mSetContainer={SetContainer}
+   logo={
+    <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>
+ 
+  }  />
   <div className='container mt-5 mb-5'>  
   <NotificationsRows menu={menu}/>         
-  <ProductsRows menu={menu} SetContainer={SetContainer}/>            
+  <ProductsRows  menu={menu} SetContainer={SetContainer}/>            
   </div>
+  </>
   )
 },[])
 return  <>{Container}</>           

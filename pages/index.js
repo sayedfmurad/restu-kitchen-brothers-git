@@ -1,26 +1,18 @@
 
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
-import MyNavbar from "../components/NavBar/MyNavbar"
 import Sections from "../components/Index/sections"
 import langswitch from "../components/Utils/langswitch"
 import packagee from "../package"
 import restus from "../public/restus"
 import Home from "../pages/home"
-
-
-
-
-
 export default function Index() {  
   const [Container,SetContainer] = useState(<></>)
   const [DCTitle,SetDCTitle] = useState("")
   const [DCDes,SetDCDes] = useState("")
   const MyLang = langswitch.langswitchs("index"); 
-
   useEffect(()=>{ 
-    const CheckIFOurDomain=()=>{    
-
+    const CheckIFOurDomain=()=>{          
       var hostname = window.location.hostname;
       hostname =  hostname.replace("www.","")
       hostname = hostname.split(".")[0]
@@ -29,22 +21,24 @@ export default function Index() {
       return hostname
 
       return false
-    }     
+    }         
+    const LastStep=(data)=>{
+          SetDCTitle(data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen")
+          SetDCDes("Entdecken Sie jetzt die ultimative Bequemlichkeit des Online-Bestellens von Essen! Willkommen auf unserer deutschen Food-Delivery-Plattform")
+          window.localStorage.setItem("menu",JSON.stringify(data))                                
+            SetContainer(
+              <>              
+              <Sections menu={data}/>
+              </>
+            )                             
+    }
     const IsOurDomain=(hostname)=>{
       const cacheBuster = new Date().getTime();
       const urll = "./database/"+hostname+".json?cacheBuster="+cacheBuster
       fetch(urll)
       .then(response => response.json())
       .then(data => {
-          SetDCTitle(data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen")
-          SetDCDes("Entdecken Sie jetzt die ultimative Bequemlichkeit des Online-Bestellens von Essen! Willkommen auf unserer deutschen Food-Delivery-Plattform")
-          window.localStorage.setItem("menu",JSON.stringify(data))                      
-          SetContainer(
-            <>
-            <MyNavbar/>  
-            <Sections menu={data}/>
-            </>
-          )
+       LastStep(data)
       })
       .catch(error => {
           window.location.href = "./"
@@ -79,14 +73,7 @@ export default function Index() {
             CheckType()
             return
           }
-  
-          window.localStorage.setItem("menu",JSON.stringify(data))
-          SetContainer(
-            <>
-            <MyNavbar/>  
-            <Sections menu={data}/>
-            </>
-          )
+          LastStep(data)         
     }
 
 

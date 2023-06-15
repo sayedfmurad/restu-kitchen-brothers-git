@@ -3,14 +3,43 @@ import { useRouter } from 'next/router'
 import langswitch from "../Utils/langswitch"
 import { useEffect, useState } from 'react'
 import packagee from "../../package.json"
-import Cart from "../../pages/cart"
-export  function Con({obj}){
-    const MyLang = langswitch.langswitchs("navbar");    
-    var router = ""        
+
+export function Container(){    
+    const MyLang = langswitch.langswitchs("navbar");
+    var router = useRouter();
+    router = router.pathname;
+    var [logo,setlogo]=useState(" ")
+    useEffect(()=>
+    {    
+        if(router=="/customizeorder")        
+        {
+            setlogo(<>
+                <a className="navbar-brand btn btn-secondary" id='navbarBack' >                        
+                Zurück
+                </a>                
+            </>)
+        }
+        else
+            langswitch.GetJsonM("menu").then((menu)=>{
+                try {
+            setlogo(<>
+                <a className="navbar-brand" >                        
+                <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>
+                </a>                
+            </>)            
+        } catch (error) {
+        console.log(error)    
+        window.location.reload()
+        }
+            })
+     },[])
+
+
+
     return<>
     <nav id="mynavb" className="mb-2 navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div className="container-fluid">
-        {obj}
+        {logo}        
         <button
             class="navbar-toggler"
             type="button"
@@ -47,56 +76,20 @@ export  function Con({obj}){
         </div>
     </div>
 </nav>
+<script defer src={"./scripts/bootstrap.bundle.js"} ></script>
 </>
 }
 
 
-export default function adsf({logo,options,mSetContainer}){
-    const [Container, SetContainer] = useState(<></>)
-    useEffect(()=>{
-        const Orders = langswitch.getJson("order")  
-        const OrdersLength = Object.keys(Orders).length
-        var obj=[] 
-        const CheckOrders=()=>{
-            if(OrdersLength >0 )
-                {                    
-                    obj.push(
-                        <button type="button" class="btn btn-secondary text-light"
-                        onClick={()=>{mSetContainer(<Cart mSetContainer={mSetContainer}/>)}}>  
-                        Warenkorb
-                         &nbsp;<span class="badge rounded-pill bg-danger" >{OrdersLength}</span>
-                        </button>                        
-                        )    
-                        return true     
-                } 
-                return false
-        }  
-        if (typeof options !== "undefined")
-        {
-                for(var g in options)
-                {
-                   obj.push(options[g])
-                   obj.push(<>&nbsp;&nbsp;</>)
-                }
-                CheckOrders()   
-        }            
-        else if (typeof logo !== "undefined" && !CheckOrders() )
-        {
-            obj.push(logo)      
-        }
-        
-        
-        
-
-
-
-    SetContainer(
-        <Con obj={
-        <a className="navbar-brand" >  
-        {obj}
-        </a>  
-        }/>
+export default function adsf(){
+  
+    return (
+        <>
+        <Head>
+        <link   href={"./mystyles/global.css"} rel="stylesheet" />
+        <link href={"./mystyles/mynavbar.css"} rel="stylesheet" />
+        </Head>
+        <Container/>
+        </>
     )
-    },[])
-    return <>{Container}</>
 }

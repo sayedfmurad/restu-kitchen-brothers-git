@@ -2,7 +2,7 @@ import React, { Component, useEffect } from 'react';
 import Script from 'react-load-script'
 import langswitch from "../Utils/langswitch"
 import hash from "../Utils/object_hash"
-
+import Items from "./Items"
 class LocationMap extends Component {
    setCursorAfterWord(word) {
     const input = document.getElementById('address-input');
@@ -61,7 +61,7 @@ class LocationMap extends Component {
   };
     handlePlaceSelect() { 
       
-            var {menu,setMsgError,setMainContainer} = this.props
+            var {textabohlen,menu,setMsgError,setMainContainer,mSetContainer} = this.props
 
             var place = this.autocomplete.getPlace()                
             var obj = {}
@@ -157,8 +157,7 @@ class LocationMap extends Component {
                 addr[hashs] = obj;
                 window.localStorage.setItem("seladdress", hashs);
                 window.localStorage.setItem("address", JSON.stringify(addr));
-                setMainContainer(<UserHasData />)
-                window.location.reload()
+                setMainContainer(<UserHasData textabohlen={textabohlen} menu={menu} setMainContainer={setMainContainer} setMsgError={setMsgError} mSetContainer={mSetContainer}/>)
               return true
     }
 
@@ -192,6 +191,7 @@ class LocationMap extends Component {
         return false
       }    
     }
+    
     render() {
         return (
             <section>
@@ -219,7 +219,7 @@ class LocationMap extends Component {
 import { useState } from 'react';
 
 
-export function GotJsonDataMenu ({menu,setMsgError,setMainContainer}) {
+export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer,mSetContainer}) {
   const MyLang = langswitch.langswitchs("addaddress");  
 
   
@@ -247,41 +247,32 @@ export function GotJsonDataMenu ({menu,setMsgError,setMainContainer}) {
   </div>            
   </div>            
   <div className='col-12'>
-  <LocationMap setMsgError={setMsgError} setMainContainer={setMainContainer} menu={menu} />          
+  <LocationMap textabohlen={textabohlen} mSetContainer={mSetContainer} setMsgError={setMsgError} setMainContainer={setMainContainer} menu={menu} />          
   </div>            
   </div>                             
 </div>
   
 }
 
-
-export function UserHasNoData ({setMsgError,setMainContainer}) {
-
-  const [mContainer, setmContainer] = useState(<></>)
-  useEffect(()=>{
-    langswitch.GetJsonM("menu").then((m)=>{
-      setmContainer(<GotJsonDataMenu setMainContainer={setMainContainer}  setMsgError={setMsgError} menu={m}/>)
-    })
-  },[])
-  return <><div className={`list-group`}>                
-  <div className='list-group-item mb-3'>{mContainer}
+export function UserHasNoData ({textabohlen,menu,setMsgError,setMainContainer,mSetContainer}) {
+  
+  return <>
+  <Items textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>  
+  <div className={`list-group`}>                
+  <div className='list-group-item mb-3'>
+  <GotJsonDataMenu textabohlen={textabohlen} mSetContainer={mSetContainer} setMainContainer={setMainContainer}  setMsgError={setMsgError} menu={menu}/>
   </div>
   </div>
   </>
 }
 
+export function UserHasData ({textabohlen,menu,mSetContainer,setMainContainer,setMsgError}) {
 
-
-
-
-
-
-
-
-export function UserHasData () {
   var addresses = langswitch.getJson("address")
   var seladd = langswitch.getValue("seladdress")
+
       return<>
+          <Items textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>
           <div className={`list-group`}>                
           <div className='list-group-item'>                
           <div className="row mb-3">
@@ -299,7 +290,7 @@ export function UserHasData () {
                   <button className='btn btn-outline-primary'
                   onClick={()=>{
                       window.localStorage.setItem("seladdress","")
-                      window.location.reload()
+                      setMainContainer(<UserHasNoData menu={menu} mSetContainer={mSetContainer} setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
                   }}
                   >ändern</button>
               </div>
@@ -310,17 +301,19 @@ export function UserHasData () {
           </>
           
 }
-export default ({setMsgError})=>{  
+
+export default ({textabohlen,setMsgError,mSetContainer,menu})=>{  
   const [MainContainer, setMainContainer]=useState(<></>)
   var addresses = langswitch.getJson("address")
-  var seladd = langswitch.getValue("seladdress")
-  useEffect(()=>{
+  var seladd = langswitch.getValue("seladdress")  
     if(seladd in addresses)
-    setMainContainer(<UserHasData />)
+    {
+      return (<UserHasData textabohlen={textabohlen} menu={menu} setMsgError={setMsgError} mSetContainer={mSetContainer} setMainContainer={setMainContainer}/>)
+    }
     else
-    setMainContainer(<UserHasNoData setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
-  },[])
+    {
+      return(<UserHasNoData textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
+    }
   
   
-  return <>{MainContainer}</>
 }

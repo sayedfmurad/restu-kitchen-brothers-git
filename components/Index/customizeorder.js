@@ -1,14 +1,14 @@
 import Head from 'next/head'
-import langswitch from '../components/Utils/langswitch'
-import MyNavbar from "../components/navbar/MyNavbar"
-import hash from "../components/Utils/object_hash"
+import langswitch from '../Utils/langswitch'
+import MyNavbar from "../NavBar/MyNavbar"
+import hash from "../Utils/object_hash"
 import React, { useState, useEffect } from 'react';
-import packagee from "../package.json"
+import Sectionmenu from './sectionmenu';
 
 export function CountComponent ({count, setCount, MyLang}) {    
     return <div className='list-group'>
     <div className='list-group-item d-flex justify-content-between'>
-    <h5>{MyLang["count"]}</h5>
+    {MyLang["count"]}
     <div>
         <a onClick={()=>{var g=count==1?1:count-1;setCount(g+"");}} className='btn btn-primary'>-</a>
         &nbsp;&nbsp;&nbsp;{count}&nbsp;&nbsp;&nbsp;
@@ -193,8 +193,11 @@ export function OptionsComponent ({menu,id,orderid,or,updatePrice}) {
     if (options.length==0) {
         return <></>
     }
-    return <><div className='col-12'>
+    return <>
+    <div className='list-group'>
+    <div className='list-group-item'>
     {options}            
+    </div>
     </div>
     <br/>
     </>
@@ -221,51 +224,14 @@ export function PriceComponent ({price,MyLang}) {
     return <></>
 }
 
-export function OrdersisReady ({menu,orders,MyLang}) {
-   
- // var [mdisplay, setmdisplay]=useState("d-none");    
-    // var [count, setcount]=useState(1);
-    var [id, setid]=useState("");
-    // var [type, settype]=useState("");
-    // var [price, setprice]=useState("0"); 
-    // var [editordercheck, seteditordercheck]=useState(false); 
-    // var [type, settype]=useState(""); 
-    // var [gContainer, SetContainer]=useState(<></>); 
-    // var ob = [];
-    // var types = [];
-    // let order = {};    
-   
-    // useEffect(() => {
-    //     updatePrice(); 
-    // }, [count]);
-    
-    
-   
-    // const gettype =(ee)=>{
-    //     settype(ee.target.id)
-    // }
-   
-    // useEffect(() => {
-    //     updatePrice(); 
-    // }, [type]);
-    // useEffect(() => {
-    //     updatePrice(); 
-    // }, [count]);
+export function OrdersisReady ({id,menu,orders,MyLang}) {   
+    var [id, setid]=useState(id);  
     var orderid = ""
-    useEffect(()=>{
-                var bnb = new URL(decodeURI(location.href));
-                document.getElementById("navbarBack").href=langswitch.RouteP("sectionmenu?section="+menu["product"][bnb.searchParams.get("id")]["section"])
-                setid(bnb.searchParams.get("id"))
-    },[])
-      
-  
-    return <>{id !== "" && <OrderIDisReady setid={setid} menu={menu} orders={orders} id={id} orderid={orderid}/>}</>
+    return <OrderIDisReady setid={setid} menu={menu} orders={orders} id={id} orderid={orderid}/>
 
 }
 export function OrderIDisReady ({menu,orders,MyLang,setid,id}) {
-   
-       // var [count, setcount]=useState(1);
-       var [orderid, setorderid]=useState("");
+          var [orderid, setorderid]=useState("");
     useEffect(()=>{
             var bnb = new URL(decodeURI(location.href));
             var morderid = bnb.searchParams.get("orderid");
@@ -340,6 +306,7 @@ export function IDisReady ({menu, id, orderid , orders}) {
     var addOrder=()=>{ 
         var order={}
         order["id"]=id
+        order["time"]=new Date().getTime()+""
         order["type"]=type
         order["count"]=count
         order["price"]=price;
@@ -381,7 +348,7 @@ export function IDisReady ({menu, id, orderid , orders}) {
 </>
 }
 
-export function JsonIsReady({menu,MyLang}){
+export function JsonIsReady({id,menu,MyLang}){
    
     const [orders, setorder] = useState("")
     useEffect(()=>{
@@ -389,28 +356,28 @@ export function JsonIsReady({menu,MyLang}){
             setorder(m)
         }) 
     },[])
-    return <>{orders !== "" && <OrdersisReady menu={menu} MyLang={MyLang}  orders={orders} />}</>
+    return <>{orders !== "" && <OrdersisReady id={id} menu={menu} MyLang={MyLang}  orders={orders} />}</>
     
 }
 
-export default function c() {
-    var [menu, setmenu] = useState({});
-
+export default function c({menu,id,SetContainer,bnb}) {
     const MyLang = langswitch.langswitchs("customizeorder");
-    useEffect(() => {
-        langswitch.GetJsonM("menu").then((Mmenu) => {
-            setmenu(Mmenu);
-        });
-    }, []);   
-
     return (
         <>
-            <Head>
-                <title>{MyLang["title"]}</title>
+            <Head>                
                 <link href="./mystyles/customizeorder.css" rel="stylesheet" />
             </Head>
-            <MyNavbar />
-            {Object.keys(menu).length !== 0 && <JsonIsReady menu={menu} MyLang={MyLang} />}
+            <MyNavbar mSetContainer={SetContainer}  options={
+                        [
+                            <a onClick={()=>{
+                                SetContainer(
+                                        <Sectionmenu SetContainer={SetContainer} menu={menu} bnb={bnb} />
+                                    )
+                            }} className="btn btn-secondary" id='navbarBack' >Zurück</a>                                                 
+                        ]                        
+                        }  
+            />
+            <JsonIsReady id={id} menu={menu} MyLang={MyLang} />
         </>
     );
 }

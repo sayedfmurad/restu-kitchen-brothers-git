@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import MyNavbar from "../components/navbar/MyNavbar"
+import MyNavbar from "../components/navbar/MyNavbar2"
 import langswitch from '../components/Utils/langswitch'
 export default function Selectadd() {
     const MyLang = langswitch.langswitchs("selectadd");

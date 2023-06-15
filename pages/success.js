@@ -2,7 +2,7 @@
 import Head from 'next/head'
 
 import React, { useState } from 'react';
-import MyNavbar from "../components/navbar/MyNavbar"
+import MyNavbar from "../components/navbar/MyNavbar2"
 import MyLang from '../components/Utils/langswitch'
 export default function success() {
     const langswitch = MyLang.langswitchs("success");
