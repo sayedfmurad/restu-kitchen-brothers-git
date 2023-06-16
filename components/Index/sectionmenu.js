@@ -53,7 +53,7 @@ export default function Sectionmenu({SetContainer,menu,bnb}) {
 
 
     return <>
-    <MyNavbar mSetContainer={SetContainer}  options={                   
+    <MyNavbar menu={menu} mSetContainer={SetContainer}  options={                   
     [
     <a onClick={()=>{
         SetContainer(<Sections menu={menu}/>)

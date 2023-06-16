@@ -4,9 +4,19 @@ import langswitch from "../Utils/langswitch"
 import { useEffect, useState } from 'react'
 import packagee from "../../package.json"
 import Cart from "../../pages/cart"
-export  function Con({obj}){
+export  function Con({obj,menu}){
     const MyLang = langswitch.langswitchs("navbar");    
-    var router = ""        
+    var router = ""    
+    const ShowZusatz=()=>{
+        if("staticValue" in menu)    
+        if("zusatzStoffe" in menu["staticValue"])    
+        if(menu["staticValue"]["zusatzStoffe"] != "")    
+        return  <li className="nav-item">
+                    <a className={`nav-link ${router=="/zusatzstoffe"?"active":"gg"}`} aria-current="page" href={ langswitch.RouteP("zusatzstoffe")}>{MyLang["zusatzstoffe"]}</a>
+                </li>
+
+        return <></>
+    }
     return<>
     <nav id="mynavb" className="mb-2 navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div className="container-fluid">
@@ -37,9 +47,7 @@ export  function Con({obj}){
                 <li className="nav-item">
                     <a className={`nav-link ${router=="/aboutus"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("aboutus")}>{MyLang["about us"]}</a>
                 </li>
-                <li className="nav-item">
-                    <a className={`nav-link ${router=="/zusatzstoffe"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("zusatzstoffe")}>{MyLang["zusatzstoffe"]}</a>
-                </li>
+                {ShowZusatz()}
             </ul>
         </div>
     </div>

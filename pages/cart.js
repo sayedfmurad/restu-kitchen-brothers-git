@@ -355,7 +355,7 @@ export function Container({mSetContainer,or,menu}){
     },[textabohlen])
     
     return  <>
-    <MyNavbar IsCartSection="" mSetContainer={mSetContainer}  options={
+    <MyNavbar menu={menu} IsCartSection="" mSetContainer={mSetContainer}  options={
                         [
                             <a onClick={()=>{
                                 mSetContainer(

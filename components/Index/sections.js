@@ -119,7 +119,7 @@ export default ({menu})=>
 
   SetContainer(
     <>
-  <MyNavbar  mSetContainer={SetContainer}
+  <MyNavbar  menu={menu} mSetContainer={SetContainer}
    logo={
     <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>
  

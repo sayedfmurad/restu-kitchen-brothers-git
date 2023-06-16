@@ -9,7 +9,8 @@ import Home from "../pages/home"
 export default function Index() {  
   const [Container,SetContainer] = useState(<></>)
   const [DCTitle,SetDCTitle] = useState("")
-  const [DCDes,SetDCDes] = useState("")
+  const [PageTitle,SetPageTitle] = useState("")  
+  const [H2SEO,setH2SEO] = useState("Beste Pizza-Lieferdienst")
   const MyLang = langswitch.langswitchs("index"); 
   useEffect(()=>{ 
     const CheckIFOurDomain=()=>{          
@@ -23,8 +24,10 @@ export default function Index() {
       return false
     }         
     const LastStep=(data)=>{
-          SetDCTitle(data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen")
-          SetDCDes("Entdecken Sie jetzt die ultimative Bequemlichkeit des Online-Bestellens von Essen! Willkommen auf unserer deutschen Food-Delivery-Plattform")
+          SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | Super Pizza Service | "+data["staticValue"]["logo"])
+          SetDCTitle(data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen")          
+          SetDCDes(data["staticValue"]["logo"]+" bringt Ihnen das feinste Essen in "+data["staticValue"]["kontakt"]["city"]+". Erleben Sie kulinarischen Genuss mit unserer köstlichen Speisekarte. Bestellen Sie jetzt und genießen Sie die Aromen!")
+          setH2SEO("Beste Pizza-Lieferdienst "+data["staticValue"]["kontakt"]["city"])
           window.localStorage.setItem("menu",JSON.stringify(data))                                
             SetContainer(
               <>              
@@ -85,9 +88,7 @@ export default function Index() {
                   fetch(urll)
       .then(response => response.json())
       .then(data => {   
-        SetDCTitle(data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen")
-        SetDCDes("Entdecken Sie jetzt die ultimative Bequemlichkeit des Online-Bestellens von Essen! Willkommen auf unserer deutschen Food-Delivery-Plattform")  
-        GotJsonData(data)
+        LastStep(data)
       })
       } catch (error) {
           console.log(error,langswitch.RouteP("home"))
@@ -98,7 +99,7 @@ export default function Index() {
   return (
    <>
     <Head>
-      <title>{MyLang["title"]}</title>      
+      <title>{PageTitle}</title>      
       <meta name="keywords" content="Pizza, pizzeria, pizza lieferservice" />
       <meta name="page-topic" content="Gastronomie" />
       <meta name="robots" content="index, follow" />
@@ -109,6 +110,8 @@ export default function Index() {
       <link href="./mystyles/homepage.css" rel="stylesheet" />
     </Head>   
     {/* <div className="specially mbackground"></div>  */}
+    <h1 className="seo-heading">Bestellen Sie hausgemachtes Dessert online</h1>
+    <h2 className="seo-heading">{H2SEO}</h2>
     {Container}
    </>
     )

@@ -367,7 +367,7 @@ export default function c({menu,id,SetContainer,bnb}) {
             <Head>                
                 <link href="./mystyles/customizeorder.css" rel="stylesheet" />
             </Head>
-            <MyNavbar mSetContainer={SetContainer}  options={
+            <MyNavbar menu={menu} mSetContainer={SetContainer}  options={
                         [
                             <a onClick={()=>{
                                 SetContainer(
