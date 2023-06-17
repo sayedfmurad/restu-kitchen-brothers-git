@@ -8,7 +8,7 @@ import restus from "../public/restus"
 import Home from "../pages/home"
 export default function Index() {  
   const [Container,SetContainer] = useState(<></>)
-  const [DCTitle,SetDCTitle] = useState("")
+  const [SEO,SetSEO] = useState(<></>)
   const [PageTitle,SetPageTitle] = useState("")  
   const [H2SEO,setH2SEO] = useState("Beste Pizza-Lieferdienst")
   const MyLang = langswitch.langswitchs("index"); 
@@ -24,9 +24,15 @@ export default function Index() {
       return false
     }         
     const LastStep=(data)=>{
+          SetSEO(<>
+          <meta name="keywords" content={`essen bestellen ${data["staticValue"]["kontakt"]["city"]}, pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, gesundes essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, beste pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, Bestellen Sie hausgemachtes Dessert online, pizza bestellen ${data["staticValue"]["kontakt"]["city"]}, pizzeria in der nähe ${data["staticValue"]["kontakt"]["city"]}, super pizza service online ${data["staticValue"]["kontakt"]["city"]}, günstig essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, burger bestellen online ${data["staticValue"]["kontakt"]["city"]}`}/>
+          <meta name="page-topic" content="Gastronomie" />
+          <meta name="robots" content="index, follow" />
+          <meta name="title" content={data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen"} />
+          <meta name="description" content={data["staticValue"]["logo"]+" bringt Ihnen das feinste Essen in "+data["staticValue"]["kontakt"]["city"]+". Erleben Sie kulinarischen Genuss mit unserer köstlichen Speisekarte. Bestellen Sie jetzt und genießen Sie die Aromen!"} />
+          <link ref="canonical" href={"https://"+data["staticValue"]["key"]+".foodieway.de"}/>
+          </>)      
           SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | Super Pizza Service | "+data["staticValue"]["logo"])
-          SetDCTitle(data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen")          
-          SetDCDes(data["staticValue"]["logo"]+" bringt Ihnen das feinste Essen in "+data["staticValue"]["kontakt"]["city"]+". Erleben Sie kulinarischen Genuss mit unserer köstlichen Speisekarte. Bestellen Sie jetzt und genießen Sie die Aromen!")
           setH2SEO("Beste Pizza-Lieferdienst "+data["staticValue"]["kontakt"]["city"])
           window.localStorage.setItem("menu",JSON.stringify(data))                                
             SetContainer(
@@ -88,7 +94,7 @@ export default function Index() {
                   fetch(urll)
       .then(response => response.json())
       .then(data => {   
-        LastStep(data)
+        GotJsonData(data)
       })
       } catch (error) {
           console.log(error,langswitch.RouteP("home"))
@@ -100,12 +106,7 @@ export default function Index() {
    <>
     <Head>
       <title>{PageTitle}</title>      
-      <meta name="keywords" content="Pizza, pizzeria, pizza lieferservice" />
-      <meta name="page-topic" content="Gastronomie" />
-      <meta name="robots" content="index, follow" />
-      <meta name="title" content={DCTitle} />
-      <meta name="description" content={DCDes} />
-      <meta name="robots" content="index,follow"></meta>
+      {SEO}
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <link href="./mystyles/homepage.css" rel="stylesheet" />
     </Head>   

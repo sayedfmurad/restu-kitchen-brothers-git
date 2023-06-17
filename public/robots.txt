@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://pizzeria-dino.foodieway.de/sitemap/foodieway.xml

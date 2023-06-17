@@ -7,7 +7,8 @@ import Cart from "../../pages/cart"
 export  function Con({obj,menu}){
     const MyLang = langswitch.langswitchs("navbar");    
     var router = ""    
-    const ShowZusatz=()=>{
+    const ShowZusatz=(menu)=>{
+        if(typeof menu !== "undefined")
         if("staticValue" in menu)    
         if("zusatzStoffe" in menu["staticValue"])    
         if(menu["staticValue"]["zusatzStoffe"] != "")    
@@ -47,7 +48,7 @@ export  function Con({obj,menu}){
                 <li className="nav-item">
                     <a className={`nav-link ${router=="/aboutus"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("aboutus")}>{MyLang["about us"]}</a>
                 </li>
-                {ShowZusatz()}
+                {ShowZusatz(menu)}
             </ul>
         </div>
     </div>
