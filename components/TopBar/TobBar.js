@@ -69,7 +69,9 @@ export default function adsf({logo,options,mSetContainer,IsCartSection}){
                 {                    
                     obj.push(
                         <button type="button" class="btn btn-secondary text-light"
-                        onClick={()=>{mSetContainer(<Cart mSetContainer={mSetContainer}/>)}}>  
+                        onClick={()=>{
+                            langswitch.ChangeGetParameters("cart")
+                            mSetContainer(<Cart mSetContainer={mSetContainer}/>)}}>  
                         Warenkorb
                          &nbsp;<span class="badge rounded-pill bg-danger" >{OrdersLength}</span>
                         </button>                        

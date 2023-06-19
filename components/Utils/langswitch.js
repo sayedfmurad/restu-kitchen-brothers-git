@@ -2,6 +2,17 @@ const staticVar = require("../../package.json");
 class langswitch{
 IsOutt = staticVar.IsOut ? ".html":"";
 
+ChangeGetParameters=(value)=>{
+
+    var url = new URL(window.location.href);    
+
+    // Create a new URL with the updated search params
+    var newUrl = window.location.origin + window.location.pathname + '#'+value ;
+
+    // Modify the browser URL without reloading the page
+    history.pushState({ path: newUrl }, '', newUrl);
+}
+
 GetJsonM=(m)=>{
     return new Promise((resolve, reject) => {
         var or = window.localStorage.getItem(m)

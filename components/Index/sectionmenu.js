@@ -12,6 +12,7 @@ export default function Sectionmenu({SetContainer,menu,bnb}) {
         if (elementWithDataKey) {
 
             const dataKey = elementWithDataKey.getAttribute('data-key');
+            langswitch.ChangeGetParameters("CustomizeOrder:::"+bnb+":::"+dataKey)
             SetContainer(
                 <CustomizeOrder menu={menu} SetContainer={SetContainer} bnb={bnb} id={dataKey}/>
             )
@@ -56,6 +57,7 @@ export default function Sectionmenu({SetContainer,menu,bnb}) {
     <MyNavbar menu={menu} mSetContainer={SetContainer}  options={                   
     [
     <a onClick={()=>{
+        langswitch.ChangeGetParameters("Sections")                                   
         SetContainer(<Sections menu={menu}/>)
     }} className=" btn btn-secondary" id='navbarBack' >Zurück</a>     
     ]

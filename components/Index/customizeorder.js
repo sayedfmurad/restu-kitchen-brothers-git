@@ -4,7 +4,7 @@ import MyNavbar from "../TopBar/TobBar"
 import hash from "../Utils/object_hash"
 import React, { useState, useEffect } from 'react';
 import Sectionmenu from './sectionmenu';
-
+import Cart from '@/pages/cart';
 export function CountComponent ({count, setCount, MyLang}) {    
     return <div className='list-group'>
     <div className='list-group-item d-flex justify-content-between'>
@@ -28,8 +28,6 @@ export function NameComponent ({menu, id}) {
     }
     
 }
-
-
 export function TypesComponent ({type, settype, menu, id}) {
 
   
@@ -68,8 +66,7 @@ export function TypesComponent ({type, settype, menu, id}) {
     } catch (error) {
       return <></>
     }
-  }
-  
+}  
 export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,updatePrice}) {
     var extrarow=[]
     var editordercheck = orderid in or? true:false
@@ -224,24 +221,23 @@ export function PriceComponent ({price,MyLang}) {
     return <></>
 }
 
-export function OrdersisReady ({id,menu,orders,MyLang}) {   
+export function OrdersisReady ({id,menu,orders,MyLang,SetContainer}) {   
     var [id, setid]=useState(id);  
     var orderid = ""
-    return <OrderIDisReady setid={setid} menu={menu} orders={orders} id={id} orderid={orderid}/>
+    return <OrderIDisReady SetContainer={SetContainer} setid={setid} menu={menu} orders={orders} id={id} orderid={orderid}/>
 
 }
-export function OrderIDisReady ({menu,orders,MyLang,setid,id}) {
+export function OrderIDisReady ({menu,orders,MyLang,setid,id,SetContainer}) {
           var [orderid, setorderid]=useState("");
     useEffect(()=>{
-            var bnb = new URL(decodeURI(location.href));
-            var morderid = bnb.searchParams.get("orderid");
-
-            if (typeof morderid !== "undefined")      
-            if (morderid && morderid in orders)      
+            if (id in orders)      
             {                                 
-                document.getElementById("navbarBack").href=langswitch.RouteP("cart")
-                setid(orders[morderid]["id"])
-                setorderid(morderid)
+                setid(orders[id]["id"])
+                document.getElementById("navbarBack").onclick = () => {
+                    langswitch.ChangeGetParameters("cart")                                           
+                    SetContainer(<Cart mSetContainer={SetContainer} />)
+                  };
+                setorderid(id)
                 return
             }
                 setorderid("-")
@@ -348,7 +344,7 @@ export function IDisReady ({menu, id, orderid , orders}) {
 </>
 }
 
-export function JsonIsReady({id,menu,MyLang}){
+export function JsonIsReady({id,menu,MyLang,SetContainer}){
    
     const [orders, setorder] = useState("")
     useEffect(()=>{
@@ -356,7 +352,7 @@ export function JsonIsReady({id,menu,MyLang}){
             setorder(m)
         }) 
     },[])
-    return <>{orders !== "" && <OrdersisReady id={id} menu={menu} MyLang={MyLang}  orders={orders} />}</>
+    return <>{orders !== "" && <OrdersisReady SetContainer={SetContainer} id={id} menu={menu} MyLang={MyLang}  orders={orders} />}</>
     
 }
 
@@ -370,14 +366,18 @@ export default function c({menu,id,SetContainer,bnb}) {
             <MyNavbar menu={menu} mSetContainer={SetContainer}  options={
                         [
                             <a onClick={()=>{
-                                SetContainer(
-                                        <Sectionmenu SetContainer={SetContainer} menu={menu} bnb={bnb} />
-                                    )
+                                if(id.length < 10)
+                                {
+                                    langswitch.ChangeGetParameters("section:::"+bnb)
+                                    SetContainer(
+                                            <Sectionmenu SetContainer={SetContainer} menu={menu} bnb={bnb} />
+                                        )
+                                }
                             }} className="btn btn-secondary" id='navbarBack' >Zurück</a>                                                 
                         ]                        
                         }  
             />
-            <JsonIsReady id={id} menu={menu} MyLang={MyLang} />
+            <JsonIsReady id={id} SetContainer={SetContainer} menu={menu} MyLang={MyLang} />
         </>
     );
 }

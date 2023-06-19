@@ -358,6 +358,7 @@ export function Container({mSetContainer,or,menu}){
     <MyNavbar menu={menu} IsCartSection="" mSetContainer={mSetContainer}  options={
                         [
                             <a onClick={()=>{
+                                langswitch.ChangeGetParameters("Sections")                           
                                 mSetContainer(
                                         <Sections menu={menu} />
                                     )

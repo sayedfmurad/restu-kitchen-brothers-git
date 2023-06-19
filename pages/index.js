@@ -13,6 +13,8 @@ export default function Index() {
   const [H2SEO,setH2SEO] = useState("Beste Pizza-Lieferdienst")
   const MyLang = langswitch.langswitchs("index"); 
   useEffect(()=>{ 
+    
+    
     const CheckIFOurDomain=()=>{          
       var hostname = window.location.hostname;
       hostname =  hostname.replace("www.","")
@@ -24,6 +26,9 @@ export default function Index() {
       return false
     }         
     const LastStep=(data)=>{
+      
+
+
           SetSEO(<>
           <meta name="keywords" content={`essen bestellen ${data["staticValue"]["kontakt"]["city"]}, pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, gesundes essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, beste pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, Bestellen Sie hausgemachtes Dessert online, pizza bestellen ${data["staticValue"]["kontakt"]["city"]}, pizzeria in der nähe ${data["staticValue"]["kontakt"]["city"]}, super pizza service online ${data["staticValue"]["kontakt"]["city"]}, günstig essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, burger bestellen online ${data["staticValue"]["kontakt"]["city"]}`}/>
           <meta name="page-topic" content="Gastronomie" />
@@ -34,7 +39,8 @@ export default function Index() {
           </>)      
           SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | Super Pizza Service | "+data["staticValue"]["logo"])
           setH2SEO("Beste Pizza-Lieferdienst "+data["staticValue"]["kontakt"]["city"])
-          window.localStorage.setItem("menu",JSON.stringify(data))                                
+          window.localStorage.setItem("menu",JSON.stringify(data))     
+          langswitch.ChangeGetParameters("Sections")                           
             SetContainer(
               <>              
               <Sections menu={data}/>

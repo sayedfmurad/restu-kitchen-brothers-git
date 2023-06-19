@@ -2,7 +2,11 @@
     --primary-font: #f0ecec;
     --primary-Background: #76747440;
   }
-  
+  .seo-heading {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
 .text{
     color: white;
 }

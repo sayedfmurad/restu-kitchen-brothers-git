@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import langswitch from "../Utils/langswitch"
 import Sectionmenu from "./sectionmenu"
 import MyNavbar from "../TopBar/TobBar"
+import CustomizeOrder from "../Index/customizeorder"
 export function ProductsRows ({menu,SetContainer}) {
   
   const BtnClicked = (e)=>{
@@ -10,6 +11,7 @@ export function ProductsRows ({menu,SetContainer}) {
     
     // Set the new container after a delay using setInterval
     setTimeout(() => {
+      langswitch.ChangeGetParameters("section:::"+e.target.getAttribute("data-key"))                                   
       SetContainer(        
       <Sectionmenu SetContainer={SetContainer} menu={menu} bnb={e.target.getAttribute("data-key")} />)
       ;
@@ -107,9 +109,46 @@ export function NotificationsRows ({menu}) {
     return <>{rows}</>
 }
 
-export default ({menu})=>
+export default function Sections({menu})
 { 
   const [Container,SetContainer] = useState(<></>)
+
+  window.onhashchange = function() { 
+      var url = window.location.href
+      url = url.substring(url.indexOf("#") + 1);
+      url = decodeURIComponent(url)
+      if(url == "")
+      {
+        langswitch.ChangeGetParameters("Sections")                                   
+        SetContainer(<Sections menu={menu}/>)
+      }
+      else if(url == "Sections")
+      {
+        langswitch.ChangeGetParameters("Sections")                                   
+        SetContainer(<Sections menu={menu}/>)
+      }
+      else if(url == "cart")
+      {
+        langswitch.ChangeGetParameters("Sections")                                   
+        SetContainer(<Sections menu={menu}/>)
+      }
+      else{
+      url = url.split(":::")
+       if(url.length>0)
+       {
+        if(url[0] == "section")
+        {
+
+          SetContainer(        
+            <Sectionmenu SetContainer={SetContainer} menu={menu} bnb={url[1]} />)
+        }
+        else if(url[0] == "CustomizeOrder")
+        {
+          SetContainer(<CustomizeOrder menu={menu} id={url[2]} SetContainer={SetContainer} bnb={url[1]}/>)
+        }
+       }
+      }
+   }
   useEffect(()=>{               
   // <a className="navbar-brand" id="logoid">                        
   // </a> 

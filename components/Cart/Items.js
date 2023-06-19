@@ -2,7 +2,14 @@ import { useState,useEffect } from "react";
 import langswitch from "../Utils/langswitch"
 import Sections from "../Index/sections"
 import Cart from "../../pages/cart"
+import CustomizeOrder from "../Index/customizeorder"
 export default function Items({mSetContainer,menu,textabohlen}){
+    const EditItem= e=>{
+        var tt = e.target.getAttribute("data-ordid");            
+        var section = e.target.getAttribute("data-section");    
+        langswitch.ChangeGetParameters("CustomizeOrder:::"+section+":::"+tt)
+        mSetContainer(<CustomizeOrder menu={menu} id={tt} SetContainer={mSetContainer} bnb={section}/>)
+    }
     const RemoveItem= e=>{
         var tt = e.target.getAttribute("data-ordid");            
         var or = langswitch.getJson("order")
@@ -12,12 +19,13 @@ export default function Items({mSetContainer,menu,textabohlen}){
         window.localStorage.setItem("order",JSON.stringify(or));
         if(Object.keys(or).length ==0)
         {
+            langswitch.ChangeGetParameters("Sections")                           
             mSetContainer(<Sections menu={menu}/>)
             return 
         }else{
             mSetContainer(<></>)
             setTimeout(() => {
-                
+                langswitch.ChangeGetParameters("cart")                                           
                 mSetContainer(<Cart mSetContainer={mSetContainer}/>)    
             }, 50);    
         }                
@@ -55,7 +63,7 @@ export default function Items({mSetContainer,menu,textabohlen}){
                                 </small>
                                 <button  data-ordid={ke} onClick={RemoveItem} type="button" class="mt-3 btn btn-outline-danger">Entfernen</button>
                                 &nbsp;
-                                <a  href={langswitch.RouteP("customizeorder?id="+or[ke]["id"]+"&"+"type="+or[ke]["type"]+"&"+"orderid="+ke)} class="mt-3 btn btn-outline-secondary">{MyLang["edit"]}</a>
+                                <button  data-ordid={ke} data-section={menu["product"][or[ke]["id"]]["section"]} onClick={EditItem}  class="mt-3 btn btn-outline-secondary">{MyLang["edit"]}</button>
                             </div>
                                 <span className=' text-muted'>
                                 {or[ke]["price"]}&nbsp;&euro;
