@@ -35,7 +35,7 @@ export default function Index() {
           <meta name="robots" content="index, follow" />
           <meta name="title" content={data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen"} />
           <meta name="description" content={data["staticValue"]["logo"]+" bringt Ihnen das feinste Essen in "+data["staticValue"]["kontakt"]["city"]+". Erleben Sie kulinarischen Genuss mit unserer köstlichen Speisekarte. Bestellen Sie jetzt und genießen Sie die Aromen!"} />
-          <link ref="canonical" href={"https://"+data["staticValue"]["key"]+".foodieway.de"}/>
+          <link rel="canonical" href={"https://"+data["staticValue"]["key"]+".foodieway.de"}/>
           </>)      
           SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | Super Pizza Service | "+data["staticValue"]["logo"])
           setH2SEO("Beste Pizza-Lieferdienst "+data["staticValue"]["kontakt"]["city"])
