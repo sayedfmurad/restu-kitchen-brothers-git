@@ -86,7 +86,7 @@ export function NotificationsRows ({menu}) {
               {
                 rows.push(        
                       <div className='row g-2' >            
-                      <div className=" alert alert-warning" role="alert">
+                      <div className=" alert alert-danger" role="alert">
                       Liebe Kunden wir machen Urlaub vom 23.06.2023 bis 09.08.2023
                       </div>  
                       </div>)
@@ -173,8 +173,9 @@ export default function Sections({menu})
  
   }  />
   <div className='container mt-5 mb-5'>  
-  <NotificationsRows menu={menu}/>         
-  <ProductsRows  menu={menu} SetContainer={SetContainer}/>            
+  <NotificationsRows menu={menu}/>       
+  {menu["staticValue"]["key"]!="westendgrillundpizza" && 
+  <ProductsRows  menu={menu} SetContainer={SetContainer}/>}              
   </div>
   </>
   )
