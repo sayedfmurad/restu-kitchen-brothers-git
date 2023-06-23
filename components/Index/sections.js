@@ -82,6 +82,15 @@ export function NotificationsRows ({menu}) {
                       </div>  
                       </div>)
               }
+              if(menu["staticValue"]["key"]=="westendgrillundpizza")
+              {
+                rows.push(        
+                      <div className='row g-2' >            
+                      <div className=" alert alert-warning" role="alert">
+                      Liebe Kunden wir machen Urlaub vom 23.06.2023 bis 09.08.2023
+                      </div>  
+                      </div>)
+              }
   }    
     var isAndroidWebView = navigator.userAgent.toLowerCase().indexOf('wv') > -1;
     var isAndroidBrowser = /android/i.test(navigator.userAgent) && !(/(chrome|crios|fxios)/i.test(navigator.userAgent));
