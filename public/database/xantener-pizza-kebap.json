@@ -2612,7 +2612,7 @@
         }
     },
     "staticValue": {
-        "isESP": "11955057",
+        "ac": "3y7d3ns43xp8mu9",
         "logo": "Xantener Pizza & Kebap",
         "key": "xantener-pizza-kebap",
         "paymentmethod":{"bar":{"name":"Bar","id":"bar"}},
