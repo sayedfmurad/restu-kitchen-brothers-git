@@ -1,0 +1,3327 @@
+{
+    "sections": {
+        "mdesc": {
+            "Hamburger": {
+                "section": "Hamburger",
+                "des": "Frische Megaburger, auf Lavastein gegrillt",
+                "img": "BURGER"
+            },
+            "Überbacken": {
+                "section": "Überbacken",
+                "des": ".",
+                "img": "UBERBACKENES"
+            },
+            "Italienische Salate": {
+                "section": "Italienische Salate",
+                "des": "Alle Salate werden mit buntem Salat und einem Dressing nach Wahl zubereitet.",
+                "img": "SALATE"
+            },
+            "FITNESSKÜCHE": {
+                "section": "FITNESSKÜCHE",
+                "des": "Alle Grichte aus der Fitnessküche mit Spezialbrot und Kräutercreme Alle Gerichte mit Cocktailsauce oder Joghurtdressing oder Öl-Essig.",
+                "img": "SALATE"
+            },
+            "Dessert": {
+                "section": "Dessert",
+                "des": "",
+                "img": "Desserts"
+            },
+            "Taschen-Drehspieß Gerichte": {
+                "section": "Taschen-Drehspieß Gerichte",
+                "des": "Alle Gerichte werden mit Kebap-Drehspießfleisch, gemischtem Salat und einer Sauce nach Wahl zubereitet.",
+                "img": "SALATE"
+            },
+            "Gerichte vom Drehspieß": {
+                "section": "Gerichte vom Drehspieß",
+                "des": "Alle Gerichte werden mit Kebap-Drehspießfleisch zubereitet.",
+                "img": "SALATE"
+            },
+            "Türkische Pizza": {
+                "section": "Türkische Pizza",
+                "des": "Alle Gerichte werden mit gemischtem Salat und einer Sauce nach Wahl im Ofen frisch zubereitet.",
+                "img": "SALATE"
+            },
+            "Getränke": {
+                "section": "Getränke",
+                "des": "",
+                "img": "Getranke"
+            },
+            "Baguette": {
+                "section": "Baguette",
+                "des": "Alle mit Remoulade",
+                "img": "Baguette"
+            },
+            "Vegetarische Gerichte": {
+                "section": "Vegetarische Gerichte",
+                "des": "Alle Gerichte werden mit gemischtem Salat und einer Sauce nach Wahl zubereitet.",
+                "img": "SALATE"
+            },
+            "Fleischgerichte": {
+                "section": "Fleischgerichte",
+                "img": "SCHNITZEL",
+                "des": "Alle Fleischgerichte mit Pommes oder kl. gemischten Salat"
+            },
+            "Schnitzel aus der Pfanne": {
+                "section": "Schnitzel aus der Pfanne",
+                "des": "Alle Gerichte werden mit Pommes frites und Salat serviert.",
+                "img": "SALATE"
+            },
+            "Italienische Pizza": {
+                "section": "Italienische Pizza",
+                "des": "Alle Pizzen werden mit Tomatensauce, Käse und Oregano zubereitet.",
+                "img": "SALATE"
+            },
+            "Pizza": {
+                "section": "Pizza",
+                "des": "Alle Pizzen mit Tomatensauce, Käse und Oregano",
+                "img": "PIZZEN"
+            },
+            "Salat": {
+                "section": "Salat",
+                "des": "Alle Salate mit Cocktailsauce oder Joghurtdressing oder Öl-Essig Alle salate mit 5x Pizzabrötchen und Kräutercreme",
+                "img": "SALATE"
+            },
+            "Pizzabrötchen": {
+                "section": "Pizzabrötchen",
+                "des": "",
+                "img": "SALATE"
+            },
+            "Pasta": {
+                "section": "Pasta",
+                "des": "Auf Wunsch alle Nudelgerichte überbacken gegen einen Aufpreis von 1,- Euro",
+                "img": "PASTA"
+            },
+            "Al Forno": {
+                "section": "Al Forno",
+                "des": "Alle Gerichte werden mit Käse überbacken.",
+                "img": "SALATE"
+            },
+            "Reispfanne": {
+                "section": "Reispfanne",
+                "des": "Alle Gerichte werden mit Hähnchenfilet zubereitet.",
+                "img": "SALATE"
+            },
+            "Snacks": {
+                "section": "Snacks",
+                "des": "",
+                "img": "SALATE"
+            },
+            "Beilagen und Saucen": {
+                "section": "Beilagen und Saucen",
+                "des": "",
+                "img": "SALATE"
+            },
+            "Alkoholfreie Getränke": {
+                "section": "Alkoholfreie Getränke",
+                "des": "",
+                "img": "SALATE"
+            },
+            "Alkoholische Getränke": {
+                "section": "Alkoholische Getränke",
+                "des": "",
+                "img": "SALATE"
+            }
+        }
+    },
+    "product": {
+        "1": {
+            "name": "Margherita",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "2": {
+            "name": "Uovo Eier",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "3": {
+            "name": "Salami",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "4": {
+            "name": "Cipolla",
+            "desO": "Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "5": {
+            "name": "Regina",
+            "desO": "Champion, Thunfisch, Spinat, Zucchini,Knoblauch. Sauce Hollandaise (scharf)",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "6": {
+            "name": "Vulcano",
+            "desO": "Paprika (schart)",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "7": {
+            "name": "Matta",
+            "desO": "Knoblauch, Sardellen, Peperoni",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "8": {
+            "name": "Fungi",
+            "desO": "Champignons",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "9a": {
+            "name": "Lachs",
+            "desO": "Lachs, Spinat, Zwiebeln, Sauce Hollandaise, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "10": {
+            "name": "Contadina",
+            "desO": "Bauprnart Kapern und schwarze Oliven",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "11": {
+            "name": "Diavolo",
+            "desO": "Teufelspizza mit Salami (sehr scharf)",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "12": {
+            "name": "Calzone (gefüllt)",
+            "desO": "Schinken, Thunfisch, Champignons",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "13": {
+            "name": "Bomba (gefüllt)",
+            "desO": "Schinken, Thunfisch, Spinat, Champ., Paprika",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "14": {
+            "name": "Vesuvio",
+            "desO": "Zwiebeln, Paprikaschoten",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "15": {
+            "name": "Spinaci",
+            "desO": "Spinat, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "16": {
+            "name": "Hawaii",
+            "desO": "Ananas und Schinken",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "17": {
+            "name": "Prosciutto",
+            "desO": "Schinken",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "18": {
+            "name": "Puttanesca",
+            "desO": "M Schinken. Oliven. Sardellen",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "19": {
+            "name": "Hawaii Speciale",
+            "desO": "Schinken, Ananas und gem. Obst",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "20": {
+            "name": "Italia",
+            "desO": "Soinat. Zwiebeln, Paprika",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "21": {
+            "name": "Calabresina",
+            "desO": "Zwiebeln, Thunfisch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "22": {
+            "name": "Pirata",
+            "desO": "Fleischsauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "23": {
+            "name": "Stagioni",
+            "desO": "Schinken, Thunfisch, Champignons",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "24": {
+            "name": "Rustica",
+            "desO": "Schinken, Paprika, Champignons",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "25": {
+            "name": "Ortolano",
+            "desO": "Champignons, Artischocken, Laprikaschoten",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "26": {
+            "name": "Mozzarella",
+            "desO": "mit frischen Tomaten",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "27": {
+            "name": "Broccoli",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "28": {
+            "name": "Roma",
+            "desO": "Thunfisch, Paprikaschoten",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "29": {
+            "name": "Alla Tedesca",
+            "desO": "Hähnchen, Champ., Zwiebeln, Sardellen, Kapern, Knobl",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "30": {
+            "name": "Frutti di Mare",
+            "desO": "Meeresfrüchte",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "31": {
+            "name": "Pompei",
+            "desO": "Thunfisch, Krabben, Knoblauch, Babymuscheln",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "32": {
+            "name": "Taormina",
+            "desO": "Krabben, Thuntisch, Lwiebeln, Sardellen, Kapern, Knobl.",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "33": {
+            "name": "Mamma",
+            "desO": "Krabben, Meeresfrüchte, Artischocken, Thunfisch, Oliven, Salami, Paprika",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "34": {
+            "name": "Marco",
+            "desO": "Champignons, Schinken, Krabben, Zwiebeln, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "35": {
+            "name": "Sucuk. Sucuk",
+            "desO": "frische Tomaten, Knoblauch, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "36": {
+            "name": "Etna",
+            "desO": "Champignons. Sardellen, Salami, Knoblauch, Kapern (scharf)",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "37": {
+            "name": "La Bomba",
+            "desO": "(scharf) Thunfisch, Schinken, Spinat, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "38": {
+            "name": "Capricciosa",
+            "desO": "FChamp., Thunfisch, Schinken, Artischocken",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "39": {
+            "name": "Pasquale",
+            "desO": "Champ., Spinat, Zwiebeln, Sardellen, Knoblauch, scharf",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "40": {
+            "name": "Completta",
+            "desO": "Spinat, Zwiebeln, Thunfisch, Oliven, Paprika, Schinken, Champignons",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "41": {
+            "name": "Pirata Speciale,F",
+            "desO": "Fleischsauce mit Spaghetti",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "42": {
+            "name": "Tonno",
+            "desO": "Thunfisch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "43": {
+            "name": "Scampi",
+            "desO": "Krabben, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "44": {
+            "name": "Pizza Amore",
+            "desO": "Frische Paprika, Schinken, Spinat, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "45": {
+            "name": "Bella",
+            "desO": "Thunfisch, Oliven, Schinken, Paprika, Champignons, Zwiebeln, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "46": {
+            "name": "Zeppelin",
+            "desO": "Thunfisch, Spinat, Krabben, Zwiebeln, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "47": {
+            "name": "Montanara",
+            "desO": "Spinat, Champignons, Lwiebeln, Knoblauch, Thunfisch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "48": {
+            "name": "Altstadt",
+            "desO": "Champignons, Thunfisch, frische Paprika, Schinken",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "49": {
+            "name": "Chef",
+            "desO": "Thunfisch, Schinken, Spinat, Artischocken",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "50": {
+            "name": "Mista",
+            "desO": "Schinken. Salami, Thunfisch, Champignons",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "51": {
+            "name": "Zingara",
+            "desO": "Thunfisch, Paorika, Schinken, Champ, Artisch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "52": {
+            "name": "Inferno",
+            "desO": "Champignons, Salami, Peperoni, pikant",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "53": {
+            "name": "San Marco",
+            "desO": "Thunfisch. Zwiebeln, Mais, Spiegelei",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "54": {
+            "name": "Ferrari",
+            "desO": "Rote Zwiebeln, frische Paprika, Spinat, Champ., Broccoli",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "55": {
+            "name": "4 Formaggi",
+            "desO": "vier versch. Sorten Käse",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "56": {
+            "name": "Pizza Milano",
+            "desO": "Frische Tomaten, Schinken, Schafskäse",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "57": {
+            "name": "Amigo",
+            "desO": "Putentleisch und Ananas",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "58": {
+            "name": "Amigo Speciale",
+            "desO": "Putenfleisch, Champignons und Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "59": {
+            "name": "Vegetaria",
+            "desO": "Spinat, Broccoli, Artischocken, Paprika, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "61": {
+            "name": "Bella Napoli",
+            "desO": "Schinken, Thunfisch, Spinat, Champignons, Meeresfrüchte, Knoblauch, scharf",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "62": {
+            "name": "Malik",
+            "desO": "Putenbrust, frische Tomaten, Chamo, Oliven, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "63": {
+            "name": "Familia",
+            "desO": "Riesenpizza für zwei Personen(3 Zutaten nach Wahl",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pizza"
+        },
+        "70": {
+            "name": "Napoli",
+            "desO": "mit Tomatensauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "71": {
+            "name": "Bolognese",
+            "desO": "mit Fleischsauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "72": {
+            "name": "Carbonara",
+            "desO": "mit Speck, El, Sahne",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "73": {
+            "name": "Matriciana",
+            "desO": "mit Tomatensauce, Speck, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "74": {
+            "name": "Emilia",
+            "desO": "mit Sanne. Schinken. Pizen",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "75": {
+            "name": "Vongole",
+            "desO": "mit Tomatensauce und Babymuscheln",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "76": {
+            "name": "Frutti di Mare",
+            "desO": "mit Tomatensauce. Meeresfrüchte, Knoblauch, pikant",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "77": {
+            "name": "Valentino",
+            "desO": "mit Krabben, Pilzen, Putenbrust, Knoblauch, Weißweinsauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "78": {
+            "name": "alla Vesuvianal",
+            "desO": "mit Mozzarella. frische Tomaten, Basilikum, Tomatensauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "79": {
+            "name": "Pollo",
+            "desO": "mit Hähnchen, Zwiebeln, Paprika, Champignons, Knoblauch, Tomaten, Sauce Hollandaise",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "80": {
+            "name": "Dorio",
+            "desO": "mit Champignons, Zwiebeln, Sahne, Tomatensauce, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "81": {
+            "name": "Chef",
+            "desO": "mit Champignons, Erbsen, Schinken, Tomaten-Sahnsauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "82": {
+            "name": "Della Casa",
+            "desO": "mit Schinken, Champignons, Erbsen, Broccoli, Tomaten- u. Sannesauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "83": {
+            "name": "Gambask",
+            "desO": "Gambas, frische Tomaten, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "92": {
+            "name": "Spezial",
+            "desO": "mit Pilzen, Zwiebeln, Broccoll, Putenbrust, Knoblauch, lomatensauce, Sahnesauce, scharf",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "93": {
+            "name": "al Arrabiata",
+            "desO": "mit Schinken, Tomatensauce, Knoblauch, pikant",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "94": {
+            "name": "Gorgonzola",
+            "desO": "mit Gorgonzolakäse, Sahne",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "95": {
+            "name": "Zeppelin",
+            "desO": "mit Putenfleisch, Broccoli, Zwiebeln, Zucchini, Paprika, Knoblauch, bier, Spezialsauce, Bolognesesauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "96": {
+            "name": "Mina",
+            "desO": "mit Champignons, Krabben, Zwiebeln, Knoblauch, Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "97": {
+            "name": "Diavolo",
+            "desO": "mit Rindfleischstreifen, Paprika, Broccoli Peperoni, Knoblauch, Spezialsauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "98": {
+            "name": "Ricca",
+            "desO": "mit Lachs, Spinat, Krabben, Sahne, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "99": {
+            "name": "Broccoli",
+            "desO": "mit Broccoli, Schinken, Sahne, Tomatensauce, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "112": {
+            "name": "Panna",
+            "desO": "mit Schinken, Sahne",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "121": {
+            "name": "Pomodoro",
+            "desO": "mit Tomatensauce, Basilikum, Parmesankäse",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "123": {
+            "name": "Aglio e Olio",
+            "desO": "Knoblauch, Öl",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "options": {
+                "Ihre Nudelsorte": {
+                    "showprice": false,
+                    "name": "Ihre Nudelsorte",
+                    "options": {
+                        "Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "Maccheroni": {
+                            "price": "0,00"
+                        },
+                        "Tortellini": {
+                            "price": "0,00"
+                        },
+                        "Gnocchi": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Pasta"
+        },
+        "101": {
+            "name": "Tagliatelle Napoli",
+            "desO": "mit Tomatensauce, Basilikum, Parmesankäse",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pasta"
+        },
+        "102": {
+            "name": "Tagliatelle Bolognese",
+            "desO": "mit Fleischsauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pasta"
+        },
+        "103": {
+            "name": "Tagliatelle Emilia",
+            "desO": "Bandnudeln mit Champignons, Schinken, Sahne, Gewürzen",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pasta"
+        },
+        "104": {
+            "name": "Tagliatelle Salmone",
+            "desO": "Bandnudein. Knoblauch, Lachs, Sahnsauce",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pasta"
+        },
+        "105": {
+            "name": "Tagliatelle Paesana",
+            "desO": "Bandnudeln, Krabben, Sahne, Broccoli, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pasta"
+        },
+        "106": {
+            "name": "Tagliatelle Steinpilze",
+            "desO": "Bandnudeln, Steinpilze, Zwiebeln,Sahnesauce Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pasta"
+        },
+        "107": {
+            "name": "Tagliatelle Napoli Spezial",
+            "desO": "Bandnudeln, Lachs, Krabben, Broccoli, Knoblauch, Käse",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pasta"
+        },
+        "108": {
+            "name": "Tagliatelle Salmone Spinat",
+            "desO": "Bandnudeln, Lachs, Spinat, Sahne, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "24cm": "0,00",
+                "29cm": "0,00",
+                "40cm": "0,00"
+            },
+            "section": "Pasta"
+        },
+        "130": {
+            "name": "Spinaci al forno",
+            "desO": "Spinat, Tomaten, Knoblauch, Kase, Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "131": {
+            "name": "Broccoli al forno",
+            "desO": "Broccoli, Tomaten-sahnesauce Knoblauch, Käse",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "132": {
+            "name": "Gemüse-Kombination",
+            "desO": "Broccoli, Spinat, Blumenkohl, Zucchini, Paprika, Knoblauch,sauce. ase",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "134": {
+            "name": "Broccoli-Auflauf",
+            "desO": "Broccoli, Schinken, Speck, Kase, mit Sauce Hollandaise",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "140": {
+            "name": "Lasagne al forno",
+            "desO": "Nudelauflauf",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "141": {
+            "name": "Canneloni",
+            "desO": "Gefülite Nudelröllchen",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "142": {
+            "name": "Spaghetti",
+            "desO": "Quattro Formaggi 4 Käsesorten, Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "143": {
+            "name": "Maccheroni Quattro Formaggi",
+            "desO": "4 Käsesorten, Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "144": {
+            "name": "Spaghetti al forno",
+            "desO": "Champignons, Schinken, Sahnesauce, Gewürze",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "145": {
+            "name": "Tortellini al forno",
+            "desO": "Chaminons, Schinken, Sahnesauce, Gewürze",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "146": {
+            "name": "Combinazione",
+            "desO": "Lasagne. Tortellini, Cannelon",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "147": {
+            "name": "Spaghetti Holly",
+            "desO": "Tomatensauce, Thunfisch, gemischtes Gemüse, Knoblauch, pikant",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "148": {
+            "name": "Maccheroni Gratinati",
+            "desO": "Eier, Schinken, Champignons, Erbsen, Tomatensauce, Käse",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "149": {
+            "name": "Pasta Combinat",
+            "desO": "Vier versch. Nudelsorten mit Käse, Schinken, Erbsen, Bolognesesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "150": {
+            "name": "Pasta Rosa",
+            "desO": "Maccheroni, Spaghetti, Lachs, Krabben, Broccoli, Sahne, Tomaten, Knoblauch, Käse",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Überbacken"
+        },
+        "160": {
+            "name": "Insalata Mista",
+            "desO": "grüner Salat, Tomaten, Gurken, Karotten, Mais, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "161": {
+            "name": "Insalata Pomodoro",
+            "desO": "Zwiebeln, Tomaten",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "162": {
+            "name": "Gurkensalat",
+            "desO": "grüner Salat und Gurken",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "163": {
+            "name": "Insalata Tonno",
+            "desO": "gem. Salat, Thuntisch, Zwiebeln, Peperoni",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "164": {
+            "name": "Insalata Tonno mais Cipolla",
+            "desO": "gem. Salat, Thuntisch, Mais, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "165": {
+            "name": "Insalata Mozzarella",
+            "desO": "Mozzarella, Tomaten, Basilikum, Öl und Essig",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "166": {
+            "name": "Insalata Naso",
+            "desO": "gruner Salat. Oliven. Tomaten. Thuntsch",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "167": {
+            "name": "Insalata Nicoise",
+            "desO": "gem. Salat mit Eiern, Thunfisch",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "168": {
+            "name": "Insalata Putschen",
+            "desO": "gem. Salat, frische Paprika, milde Peneroni. Oliven",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "169": {
+            "name": "Griechischer Bauernsalat",
+            "desO": "grüner Salat, Tomaten, Oliven, Paprika, Peperoni, Schafskäse, Öl und Essig",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "170": {
+            "name": "Insalata Capricciosa",
+            "desO": "gem. Salat, Thunfisch, Schinken, Käse",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "171": {
+            "name": "Insalata Hawaii",
+            "desO": "gem. Salat, Schinken, Käse, Obst",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "172": {
+            "name": "Insalata Frutti di Marek",
+            "desO": "gem. Salat, Meeresfrüchte, Öl und Essig",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "173": {
+            "name": "Insalata Napoli",
+            "desO": "grüner Salat, Tomaten, Gurken, Karotten, Mais, paprika, Schinken, Thunfisch, Käse, Eier, Oliven, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "174": {
+            "name": "Insalata Claudia",
+            "desO": "gem. Salat, Champignons, Krabben, Knoblauch, Cocktailsauce",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "175": {
+            "name": "Insalata Italia",
+            "desO": "gem. Salat, Tomaten, Gurken, Paprika, Oliven, Zwiebeln, Öl und Essig",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "176": {
+            "name": "Insalata Schnitzel",
+            "desO": "Panrika, Mais, Möhren, Schnitzel, Tomaten, Gurken, Eisbergsalat",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "section": "Salat"
+        },
+        "210": {
+            "name": "Incalata Fitness line",
+            "desO": "Grüner Salat, Tomaten, Gurken, Karotten, Mais, LWiebeln, Futenbrust, Tomatensauce, Joghurt",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "FITNESSKÜCHE"
+        },
+        "211": {
+            "name": "Incalata Valentino",
+            "desO": "Grüner Salat, Mais, Tomaten, Gurken, Putenbrust, Steinpilze, rote wienem Pize, Paprika, Knoblauch, Oliven",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "FITNESSKÜCHE"
+        },
+        "212": {
+            "name": "Incalata Valentino",
+            "desO": "Grüner Salat, Mais, Tomaten, Gurken, Putenbrust, Steinpilze, rote wienem Pize, Paprika, Knoblauch, Oliven",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "FITNESSKÜCHE"
+        },
+        "213": {
+            "name": "Incalata Torino",
+            "desO": "Grüner Salat, Tomaten, Gurken, Mais, 4 verscniedene Pilze, Puenorust, rote Zwiebeln, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "FITNESSKÜCHE"
+        },
+        "214": {
+            "name": "Incalata Milano",
+            "desO": "Grüner Salat. Tomaten, Gurken, Karotten, Mais, Hähnchenfleisch, gebratenes Gemüse",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "FITNESSKÜCHE"
+        },
+        "215": {
+            "name": "Maccheroni Spezial",
+            "desO": "Gebratene Zucchini, Karotten, Champignons, Tomaten, Broccoli, Pilze, rote Zwiebeln. Putentleisch",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "FITNESSKÜCHE"
+        },
+        "216": {
+            "name": "Spaghetti Spezial",
+            "desO": "Karotten, Broccoli, Pilze, rote Zwieheln, gebratenes Rindfleisch",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "FITNESSKÜCHE"
+        },
+        "217": {
+            "name": "Spaghetti Napoli",
+            "desO": "Karotten, Paprika, Pilze, Steinpilze, Zwieheln, Eier, gebratenes Putenbrust",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "FITNESSKÜCHE"
+        },
+        "251": {
+            "name": "Hamburger",
+            "desO": "mit Salat, Tomaten, Gurken, Zwiebeln, Sauce, Remoulade",
+            "zusatz": "",
+            "price": {
+                "100Gr XL": "0,00",
+                "180Gr XXL": "0,00"
+            },
+            "section": "Hamburger"
+        },
+        "252": {
+            "name": "Cheeseburger",
+            "desO": "mit Salat. Tomate, Käse, Zwiebeln, Sauce, Remoulade",
+            "zusatz": "",
+            "price": {
+                "100Gr XL": "0,00",
+                "180Gr XXL": "0,00"
+            },
+            "section": "Hamburger"
+        },
+        "253": {
+            "name": "Bacon Burger",
+            "desO": "Cheeseburger, mit gegrilltem Bacon, Sauce, Remoulade",
+            "zusatz": "",
+            "price": {
+                "100Gr XL": "0,00",
+                "180Gr XXL": "0,00"
+            },
+            "section": "Hamburger"
+        },
+        "254": {
+            "name": "Hot Hamburger",
+            "desO": "(scharf), Cheeseburger mit Jalapenos und salsasauce, Remoulade",
+            "zusatz": "",
+            "price": {
+                "100Gr XL": "0,00",
+                "180Gr XXL": "0,00"
+            },
+            "section": "Hamburger"
+        },
+        "256": {
+            "name": "Hawaii Burger",
+            "desO": "Cheeseburger mit Schinken, Remoulade, Ananas, Süß-Saure-Sauce",
+            "zusatz": "",
+            "price": {
+                "100Gr XL": "0,00",
+                "180Gr XXL": "0,00"
+            },
+            "section": "Hamburger"
+        },
+        "257": {
+            "name": "Greek Burger",
+            "desO": "Cheeseburger mit Fatakäse, Remoulade, Peperoni, Sauce",
+            "zusatz": "",
+            "price": {
+                "100Gr XL": "0,00",
+                "180Gr XXL": "0,00"
+            },
+            "section": "Hamburger"
+        },
+        "258": {
+            "name": "Mexican Burger",
+            "desO": "Cheeseburger mit Jalapenos, Mais, Salsasauce, Remoulade",
+            "zusatz": "",
+            "price": {
+                "100Gr XL": "0,00",
+                "180Gr XXL": "0,00"
+            },
+            "section": "Hamburger"
+        },
+        "190": {
+            "name": "Zigeunerschnitzel (Schweinefleisch)",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "191": {
+            "name": "Jägerschnitzel (Schweinefleisch)",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "192": {
+            "name": "Schweineschnitzel (Schweinefleisch)",
+            "desO": "Paniert",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "193": {
+            "name": "Cordon Bleu (Schweinefleisch)",
+            "desO": "mit Käse, Schinken",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "194": {
+            "name": "Schweineschnitzel (Schweinefleisch)",
+            "desO": "mit Champignons",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "195": {
+            "name": "Inovoltini Napoli (Schweinefleisch)",
+            "desO": "mit Schweinefleisch, Spinat, Käse, Schinken und Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "196": {
+            "name": "Schnitzel Hawaii (Schweinefleisch)",
+            "desO": "mit Ananas, Schinken, Käse überbacken",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "197": {
+            "name": "Schnitzel Spinat (Schweinefleisch)",
+            "desO": "mit Spinat, Zwiebeln, Hollandaisesauce, Käse überbacken",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "198": {
+            "name": "Schnitzel Broccoli (Schweinefleisch)",
+            "desO": "mit Broccoli, Käse, Hollandaisesauce, überbacken",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "199": {
+            "name": "Schnitzel Blumenkohl (Schweinefleisch)",
+            "desO": "mit Blumenkohl, Käse überbacken, Hollandaisesauce überbacken",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "200": {
+            "name": "Putenbrustschnitzel (Putenfleisch)",
+            "desO": "Paniert",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "201": {
+            "name": "Putenbrustschnitzel (Putenfleisch)",
+            "desO": "mit Zigenuersauce",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "202": {
+            "name": "Putenbrustschnitzel (Putenfleisch)",
+            "desO": "mit Jägersauce",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "203": {
+            "name": "Putenbrustschnitzel (Putenfleisch)",
+            "desO": "mit Champ., Zwiebeln, Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "204": {
+            "name": "Putenbrustschnitzel (Putenfleisch)",
+            "desO": "mit Steinpilzen, Sahnesauce Champignons, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Fleischgerichte"
+        },
+        "178": {
+            "name": "Puten Baguette",
+            "desO": "mit Putenstreifen, Käse, Gurken, Tomaten, Salat",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Baguette"
+        },
+        "179": {
+            "name": "Schnitzel Baguette",
+            "desO": "mit Schnitzel, Käse, Gurken, Tomaten, Salat",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Baguette"
+        },
+        "180": {
+            "name": "Thunfisch Baguette",
+            "desO": "Gurken, Tomaten, Salami, Mais",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Baguette"
+        },
+        "181": {
+            "name": "Salami Baguette",
+            "desO": "mit Salami, Gurken, Tomaten, Salat",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Baguette"
+        },
+        "182": {
+            "name": "Käse Baguette",
+            "desO": "mit Käse, Gurken, Tomaten, Salat, Mais, Zwiebeln",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Baguette"
+        },
+        "183": {
+            "name": "Schinken Baguette",
+            "desO": "mit Schinken, Gurken, Salat",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Baguette"
+        },
+        "184": {
+            "name": "Napoli Baguette",
+            "desO": "mit Thunfisch, Käse, Tomaten, Gurken, Salat",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Baguette"
+        },
+        "185": {
+            "name": "Mozzarella Baguette",
+            "desO": "mit Mozzarella, Tomaten, Salat",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Baguette"
+        },
+        "186": {
+            "name": "Sucuk Baguette",
+            "desO": "mit Sucuk, Tomaten, Salat",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Baguette"
+        },
+        "218": {
+            "name": "Cola, Fanta, Sprite 0,33L",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Getränke"
+        },
+        "219": {
+            "name": "Cola, Fanta, Sprite 1,0L",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Getränke"
+        },
+        "220": {
+            "name": "Diebels Alt 0,5L",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Getränke"
+        },
+        "221": {
+            "name": "Bitburger 0,5L",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Getränke"
+        },
+        "222": {
+            "name": "Malzbier 0,5L",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Getränke"
+        },
+        "223": {
+            "name": "Mineralwasser 0,7L",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Getränke"
+        },
+        "224": {
+            "name": "Rotwein, Weißwein, Rosato 0,7L",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Getränke"
+        },
+        "225": {
+            "name": "Lambrusco 0,7L",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Getränke"
+        },
+        "226": {
+            "name": "Tiramisu",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Dessert"
+        },
+        "227": {
+            "name": "Spaghettieis",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,00"
+            },
+            "section": "Dessert"
+        }
+    },
+    "extra": {
+        "Italienische Pizza mit Ananas": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Ananas"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Ananas"
+            }
+        },
+        "Italienische Pizza mit Artischocken": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Artischocken"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Artischocken"
+            }
+        },
+        "Italienische Pizza mit Broccoli": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Broccoli"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Broccoli"
+            }
+        },
+        "Italienische Pizza mit Champignons": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Champignons"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Champignons"
+            }
+        },
+        "Italienische Pizza mit Gouda": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Gouda"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Gouda"
+            }
+        },
+        "Italienische Pizza mit Hackfleischsauce": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Hackfleischsauce"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Hackfleischsauce"
+            }
+        },
+        "Italienische Pizza mit Hähnchenbrust": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Hähnchenbrust"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Hähnchenbrust"
+            }
+        },
+        "Italienische Pizza mit Hirtenkäse": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Hirtenkäse"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Hirtenkäse"
+            }
+        },
+        "Italienische Pizza mit Kebap-Drehspießfleisch": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Kebap-Drehspießfleisch"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Kebap-Drehspießfleisch"
+            }
+        },
+        "Italienische Pizza mit Knoblauch": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Knoblauch"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Knoblauch"
+            }
+        },
+        "Italienische Pizza mit Krabben": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Krabben"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Krabben"
+            }
+        },
+        "Italienische Pizza mit Mozzarella": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Mozzarella"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Mozzarella"
+            }
+        },
+        "Italienische Pizza mit Paprika": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Paprika"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Paprika"
+            }
+        },
+        "Italienische Pizza mit Peperoni": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Peperoni"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Peperoni"
+            }
+        },
+        "Italienische Pizza mit Salami": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Salami"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Salami"
+            }
+        },
+        "Italienische Pizza mit Sauce Hollandaise": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Sauce Hollandaise"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Sauce Hollandaise"
+            }
+        },
+        "Italienische Pizza mit Spinat": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Spinat"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Spinat"
+            }
+        },
+        "Italienische Pizza mit Thunfisch": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Thunfisch"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Thunfisch"
+            }
+        },
+        "Italienische Pizza mit Tomaten, frisch": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Tomaten, frisch"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Tomaten, frisch"
+            }
+        },
+        "Italienische Pizza mit türkischer Knoblauchwurst": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit türkischer Knoblauchwurst"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit türkischer Knoblauchwurst"
+            }
+        },
+        "Italienische Pizza mit Vorderschinken": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Vorderschinken"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Vorderschinken"
+            }
+        },
+        "Italienische Pizza mit Weichkäse": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Weichkäse"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Weichkäse"
+            }
+        },
+        "Italienische Pizza mit Zwiebeln": {
+            "section": [
+                "Italienische Pizza"
+            ],
+            "Klein, Ø 26cm": {
+                "price": "0,70",
+                "name": "mit Zwiebeln"
+            },
+            "Normal, Ø 30cm": {
+                "price": "1,50",
+                "name": "mit Zwiebeln"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Ananas": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Ananas"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Artischocken": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Artischocken"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Broccoli": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Broccoli"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Champignons": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Champignons"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Gouda": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Gouda"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Hackfleischsauce": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Hackfleischsauce"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Hähnchenbrust": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Hähnchenbrust"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Hirtenkäse": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Hirtenkäse"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Kebap-Drehspießfleisch": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Kebap-Drehspießfleisch"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Knoblauch": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Knoblauch"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Krabben": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Krabben"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Mozzarella": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Mozzarella"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Paprika": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Paprika"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Peperoni": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Peperoni"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Salami": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Salami"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Sauce Hollandaise": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Sauce Hollandaise"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Spinat": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Spinat"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Thunfisch": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Thunfisch"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Tomaten, frisch": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Tomaten, frisch"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit türkischer Knoblauchwurst": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit türkischer Knoblauchwurst"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Vorderschinken": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Vorderschinken"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Weichkäse": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Weichkäse"
+            }
+        },
+        "Party-Pizza, 60cm x 40cm mit Zwiebeln": {
+            "section": [
+                "Party-Pizza, 60cm x 40cm"
+            ],
+            "stand": {
+                "price": "4,90",
+                "name": "mit Zwiebeln"
+            }
+        },
+        "Pizzabrötchen mit Kräuterbutter": {
+            "section": [
+                "Pizzabrötchen"
+            ],
+            "stand": {
+                "price": "1,00",
+                "name": "mit Kräuterbutter"
+            }
+        },
+        "Pasta mit Käse überbacken": {
+            "section": [
+                "Pasta"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "mit Käse überbacken"
+            }
+        }
+    },
+    "staticValue": {
+        "logo": "Pezzeria Napoli",
+        "key": "pizzeria-napoli",
+        "b": {
+            "c": ""
+        },
+        "rabat": "",
+        "minpriceorder": [
+            {
+                "distance": {
+                    "min": 0,
+                    "max": 4.1
+                },
+                "price": 10,
+                "lieferkosten": 1
+            }
+        ],
+        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/pizzeria-napoli.json",
+        "zusatzStoffe": "",
+        "latlng": {
+            "lat": 51.204915,
+            "lng": 6.4686469
+        },
+        "kontakt": {
+            "name": "Pezzeria Napoli",
+            "street": "Zeppelinstraße 174",
+            "zipc": "41065",
+            "city": "Mönchengladbach",
+            "tel": "02161650511"
+        },
+        "opendays": {
+            "sunday": {
+                "opentime": {
+                    "hour": 16,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 0
+                }
+            },
+            "mondayy": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 30
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "tuesday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 30
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "wednesday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 30
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "thursday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 30
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "friday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 30
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "saturday": {
+                "opentime": {
+                    "hour": 16,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 0
+                }
+            }
+        }
+    }
+}
