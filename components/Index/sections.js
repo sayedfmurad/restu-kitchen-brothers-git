@@ -187,7 +187,12 @@ export default function Sections({menu})
   {
     menu["staticValue"]["key"]!="westendgrillundpizza" &&
     menu["staticValue"]["key"]!="kitchen-brothers"    && 
-  <ProductsRows  menu={menu} SetContainer={SetContainer}/>}              
+  <ProductsRows  menu={menu} SetContainer={SetContainer}/>}   
+    <footer class="footer bg-dark text-white text-center mt-5">
+    <div class="container">
+      <p>&copy; 2023 {menu["staticValue"]["logo"]}. All rights reserved.</p>
+    </div>
+  </footer>
   </div>
   </>
   )
