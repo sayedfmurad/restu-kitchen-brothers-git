@@ -3232,12 +3232,21 @@
             {
                 "distance": {
                     "min": 0,
-                    "max": 4.1
+                    "max": 3.1
                 },
                 "price": 10,
-                "lieferkosten": 1
+                "lieferkosten": 1               
+            },
+            {
+                "distance": {
+                    "min": 3,
+                    "max": 5.1
+                },
+                "price": 20,
+                "lieferkosten": 2
             }
         ],
+        "WithoutDrinksMinPrice":"10",
         "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/pizzeria-napoli.json",
         "zusatzStoffe": "",
         "latlng": {
@@ -3262,53 +3271,53 @@
                     "min": 0
                 }
             },
-            "mondayy": {
+            "monday": {
                 "opentime": {
-                    "hour": 11,
-                    "min": 30
+                    "hour": 17,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
+                    "hour": 23,
                     "min": 0
                 }
             },
             "tuesday": {
                 "opentime": {
-                    "hour": 11,
-                    "min": 30
+                    "hour": 17,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
+                    "hour": 23,
                     "min": 0
                 }
             },
             "wednesday": {
                 "opentime": {
-                    "hour": 11,
-                    "min": 30
+                    "hour": 17,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
+                    "hour": 23,
                     "min": 0
                 }
             },
             "thursday": {
                 "opentime": {
-                    "hour": 11,
-                    "min": 30
+                    "hour": 17,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
+                    "hour": 23,
                     "min": 0
                 }
             },
             "friday": {
                 "opentime": {
-                    "hour": 11,
-                    "min": 30
+                    "hour": 17,
+                    "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
+                    "hour": 23,
                     "min": 0
                 }
             },

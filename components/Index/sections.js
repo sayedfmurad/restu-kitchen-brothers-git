@@ -62,7 +62,8 @@ export function NotificationsRows ({menu}) {
       }
 
   const rows = []
-
+if(menu["staticValue"]["key"]!="westendgrillundpizza" &&
+    menu["staticValue"]["key"]!="kitchen-brothers") 
     rows.push(<>{IfRestuOpen(menu)}</>)
 
   if(menu["staticValue"]["key"]=="westendgrillundpizza" || menu["staticValue"]["key"]=="pizzavalentina" || menu["staticValue"]["key"]=="kitchen-brothers")
@@ -88,6 +89,15 @@ export function NotificationsRows ({menu}) {
                       <div className='row g-2' >            
                       <div className=" alert alert-danger" role="alert">
                       Liebe Kunden wir machen Urlaub vom 23.06.2023 bis 09.08.2023
+                      </div>  
+                      </div>)
+              }
+              if(menu["staticValue"]["key"]=="kitchen-brothers")
+              {
+                rows.push(        
+                      <div className='row g-2' >            
+                      <div className=" alert alert-danger" role="alert">
+                      Liebe Kunden wir machen Urlaub vom 27.06.2023 bis 24.07.2023
                       </div>  
                       </div>)
               }
@@ -174,7 +184,9 @@ export default function Sections({menu})
   }  />
   <div className='container mt-5 mb-5'>  
   <NotificationsRows menu={menu}/>       
-  {menu["staticValue"]["key"]!="westendgrillundpizza" && 
+  {
+    menu["staticValue"]["key"]!="westendgrillundpizza" &&
+    menu["staticValue"]["key"]!="kitchen-brothers"    && 
   <ProductsRows  menu={menu} SetContainer={SetContainer}/>}              
   </div>
   </>

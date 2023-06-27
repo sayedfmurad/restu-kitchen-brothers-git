@@ -28,9 +28,34 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
             alert("bitte wählen Sie eine Zahlungsmethode");
             return false;
         }            
-  
+
+        
+        
+        
         var parms = {}
         var orders = langswitch.getJson("order")
+        var SumNum = langswitch.getNum("sumprice")
+        SumNum = langswitch.stof(SumNum)
+
+
+        ////CheckingWithoutDrinks
+        if("WithoutDrinksMinPrice" in menu["staticValue"])
+        {
+            var DrinksSum = 0
+            for(var l in orders)
+            {
+                if(menu["product"][orders[l]["id"]]["section"]=="Getränke" || menu["product"][orders[l]["id"]]["section"]== "Alkoholische Getränke")
+                DrinksSum+=(langswitch.stof(menu["product"][orders[l]["id"]]["price"][orders[l]["type"]]) * parseInt(orders[l]["count"]))
+            }
+            if(langswitch.stof((SumNum-DrinksSum).toFixed(2)) <= parseInt(menu["staticValue"]["WithoutDrinksMinPrice"]))
+            {
+                alert("Mindestbestellung ist 10 euro ohne Getränke und Eis")
+            return false;
+            }
+        }
+        
+
+
         var address = langswitch.getJson("address")
         var seladd = langswitch.getValue("seladdress")
         var time =  new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));           
