@@ -35,7 +35,7 @@ export default function Sectionmenu({SetContainer,menu,bnb}) {
           data-key={key} 
           className="p-2 rounded col-lg-8 col-md-12 col-sm-12 col-xs-12 mx-auto mb-2 text-light p-1">   
                 <div className='d-flex justify-content-between'>
-                <h5>{menu["product"][key]["name"]}&nbsp;
+                <h5>{key}.&nbsp;{menu["product"][key]["name"]}&nbsp;
                 <sup style={{"fontSize":"0.6rem"}}>{menu['product'][key]['zusatz']}</sup>
                 </h5>
                 <h5>{menu["product"][key]["price"][Object.keys(menu["product"][key]["price"])[0]]}&nbsp;&euro;

@@ -62,6 +62,9 @@ export function NotificationsRows ({menu}) {
       }
 
   const rows = []
+     
+
+
 if(menu["staticValue"]["key"]!="westendgrillundpizza" &&
     menu["staticValue"]["key"]!="kitchen-brothers") 
     rows.push(<>{IfRestuOpen(menu)}</>)
@@ -179,8 +182,10 @@ export default function Sections({menu})
     <>
   <MyNavbar  menu={menu} mSetContainer={SetContainer}
    logo={
-    <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>
- 
+    "logoimg" in menu["staticValue"]?
+    <img src={"/Images/"+menu["staticValue"]["key"]+"logo.png"} height="50px"/>
+    :
+    <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5> 
   }  />
   <div className='container mt-5 mb-5'>  
   <NotificationsRows menu={menu}/>       

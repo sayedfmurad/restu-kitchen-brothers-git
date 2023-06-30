@@ -3,7 +3,7 @@
         "mdesc": {
             "Italienische Salate": {
                 "section": "Italienische Salate",
-                "des": "Alle Salate werden mit buntem Salat und einem Dressing nach Wahl zubereitet.",
+                "des": "Zu jedem Salat erhalten Sie 4 Pizzabrötchen mit Kräuterbutter",
                 "img":"Salate"
             },
             "Taschen-Drehspieß Gerichte": {
@@ -91,10 +91,10 @@
     "product": {
         "123": {
             "name": "Insalata Mista",
-            "desO": "mit Krautsalat, Tomaten, Gurken, Zwiebeln und Mais",
+            "desO": "bunter Salat, Krautsalat, Tomaten, Gurken, Zwiebeln, Mais",            
             "zusatz": "",
             "price": {
-                "stand": "8,90"
+                "stand": "9,90"
             },
             "options": {
                 "Ihr Dressing": {
@@ -123,10 +123,10 @@
         },
         "124": {
             "name": "Insalata Misto",
-            "desO": "mit Tomaten, Gurken, Zwiebeln, Paprika, Oliven, Ei und einer Käsesorte nach Wahl",
+            "desO": "bunter Salat, Tomaten, Gurken, Zwiebeln, Paprika, Oliven, Ei, Hirtenkäse oder Gouda",            
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "11,90"
             },
             "options": {
                 "Ihr Dressing": {
@@ -155,7 +155,39 @@
         },
         "125": {
             "name": "Insalata Xanten",
-            "desO": "mit Tomaten, Gurken, gebratenem Hähnchenfilet, Champignons, Zwiebeln und Paprika",
+            "desO": "bunter Salat, Tomaten, Gurken, gebratenes Hähnchenfilet, Champignons, Zwiebeln & Paprika",                        
+            "zusatz": "",
+            "price": {
+                "stand": "13,90"
+            },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "mit Cocktail-Dressing": {
+                            "price": "0,00"
+                        },
+                        "mit Haus-Dressing": {
+                            "price": "0,00"
+                        },
+                        "mit Joghurt-Dressing": {
+                            "price": "0,00"
+                        },
+                        "mit Tzatziki": {
+                            "price": "0,00"
+                        },
+                        "ohne Dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Italienische Salate"
+        },
+        "126": {
+            "name": "Insalata Tonno",
+            "desO": "bunter Salat, Thunfisch, Tomaten, Gurken , Zwiebeln, Gouda",            
             "zusatz": "",
             "price": {
                 "stand": "12,90"
@@ -185,44 +217,12 @@
             },
             "section": "Italienische Salate"
         },
-        "126": {
-            "name": "Insalata Tonno",
-            "desO": "mit Thunfisch, Tomaten, Gurken, Zwiebeln und Gouda",
-            "zusatz": "",
-            "price": {
-                "stand": "11,50"
-            },
-            "options": {
-                "Ihr Dressing": {
-                    "name": "Ihr Dressing",
-                    "options": {
-                        "mit Cocktail-Dressing": {
-                            "price": "0,00"
-                        },
-                        "mit Haus-Dressing": {
-                            "price": "0,00"
-                        },
-                        "mit Joghurt-Dressing": {
-                            "price": "0,00"
-                        },
-                        "mit Tzatziki": {
-                            "price": "0,00"
-                        },
-                        "ohne Dressing": {
-                            "price": "0,00"
-                        }
-                    },
-                    "showprice": false
-                }
-            },
-            "section": "Italienische Salate"
-        },
         "127": {
             "name": "Insalata Capriciosa",
-            "desO": "mit Tomaten, Gurken, Oliven, Ei, Vorderschinken und Thunfisch",
+            "desO": "bunter Salat, Tomaten, Gurken, Oliven, Ei, Vordersch",
             "zusatz": "",
             "price": {
-                "stand": "12,50"
+                "stand": "13,90"
             },
             "options": {
                 "Ihr Dressing": {
@@ -251,10 +251,10 @@
         },
         "128": {
             "name": "Insalata Nizza",
-            "desO": "mit Krabben, Tomaten, Gurken, Zwiebeln und Oliven",
+            "desO": "bunter Salat, Krabben, Tomaten, Gurken, Zwiebeln, Oliven, Ei",
             "zusatz": "",
             "price": {
-                "stand": "12,50"
+                "stand": "13,90"
             },
             "options": {
                 "Ihr Dressing": {
@@ -283,10 +283,10 @@
         },
         "129": {
             "name": "Insalata Pollo",
-            "desO": "mit Hähnchenfilet, Tomaten, Gurken, Zwiebeln, Oliven, Ei und Gouda",
+            "desO": "bunter Salat, Hähnchenfilet, Tomaten, Gurken, Zwiebeln, Oliven, Ei, Gouda",
             "zusatz": "",
             "price": {
-                "stand": "12,50"
+                "stand": "13,90"
             },
             "options": {
                 "Ihr Dressing": {
@@ -315,10 +315,10 @@
         },
         "130": {
             "name": "Insalata Imperial",
-            "desO": "mit Kebab-Drehspießfleisch, Tomaten, Gurken, Zwiebeln, Oliven und Gouda",
+            "desO": "bunter Salat, Kebabfleisch, Tomaten, Gurken, Zwiebeln, Oliven, Gouda",
             "zusatz": "",
             "price": {
-                "stand": "12,50"
+                "stand": "13,50"
             },
             "options": {
                 "Ihr Dressing": {
@@ -2612,8 +2612,9 @@
         }
     },
     "staticValue": {
-        "ac": "3y7d3ns43xp8mu9",
+        "acc": "3y7d3ns43xp8mu9",
         "logo": "Xantener Pizza & Kebap",
+        "logoimg":"",
         "key": "xantener-pizza-kebap",
         "paymentmethod":{"bar":{"name":"Bar","id":"bar"}},
         "rabat": "",

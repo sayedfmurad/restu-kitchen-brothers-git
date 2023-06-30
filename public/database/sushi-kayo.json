@@ -1,0 +1,1034 @@
+{
+    "sections": {
+        "mdesc": {
+            "Sushi Box": {
+                "section": "Sushi Box",
+                "des": "",
+                "img":"sushi_box"
+            },
+            "Starters": {
+                "section": "Starters",
+                "des": "",
+                "img":"starters"
+            },
+            "Salads": {
+                "section": "Salads",
+                "des": "",
+                "img":"salate"
+            },
+            "Sushi Maki": {
+                "section": "Sushi Maki",
+                "des": "6 per serving.",
+                "img":"sushi_maki"
+            },
+            "Sushi Nigiri": {
+                "section": "Sushi Nigiri",
+                "des": "2 per serving.",
+                "img":"sushi_nigiri"
+            },
+            "Sushi Gunkan": {
+                "section": "Sushi Gunkan",
+                "des": "1 per serving.",
+                "img":"sushi_gunkan"
+            },
+            "Sushi Aburi": {
+                "section": "Sushi Aburi",
+                "des": "2 per serving.",
+                "img":"sushi_aburi"
+            },
+            "Sushi Temaki": {
+                "section": "Sushi Temaki",
+                "des": "",
+                "img":"sushi_temaki"
+            },
+            "Sushi Inside Out Rolls": {
+                "section": "Sushi Inside Out Rolls",
+                "des": "",
+                "img":"Sushi_Inside_Out_Rolls"
+            },
+            "Baked Rolls": {
+                "section": "Baked Rolls",
+                "des": "6 per serving.",
+                "img":"Baked_Rolls"
+            },
+            "Sushi Burrito": {
+                "section": "Sushi Burrito",
+                "des": "",
+                "img":"Sushi_Burrito"
+            },
+            "Sashimi": {
+                "section": "Sashimi",
+                "des": "1 per serving.",
+                "img":"Sashimi"
+            },
+            "Extras": {
+                "section": "Extras",
+                "des": "",
+                "img":"sushi_Extras"
+            },
+            "Desserts": {
+                "section": "Desserts",
+                "des": "",
+                "img":"DESSERTS"
+            },
+            "Non-Alcoholic Drinks": {
+                "section": "Non-Alcoholic Drinks",
+                "des": "",
+                "img":"GETRANKE"
+            }
+        }
+    },
+    "product": {
+        "1": {
+            "name": "Box 1",
+            "desO": "• 4 Inside Out Rolls with fish eggs and wasabi",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "section": "Sushi Box"
+        },
+        "2": {
+            "name": "Box 2",
+            "desO": "• 3 Tuna maki",
+            "zusatz": "",
+            "price": {
+                "stand": "6,90"
+            },
+            "section": "Sushi Box"
+        },
+        "3": {
+            "name": "Box 3",
+            "desO": "• 3 Inside Out Rolls with Sesame",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Sushi Box"
+        },
+        "4": {
+            "name": "Box 4",
+            "desO": "• 3 Inside Out Rolls",
+            "zusatz": "",
+            "price": {
+                "stand": "9,90"
+            },
+            "section": "Sushi Box"
+        },
+        "5": {
+            "name": "Box 5",
+            "desO": "• 6 Inside Out Rolls with fish eggs",
+            "zusatz": "",
+            "price": {
+                "stand": "12,90"
+            },
+            "section": "Sushi Box"
+        },
+        "6": {
+            "name": "Box 6",
+            "desO": "• 2 Salmon Nigiri",
+            "zusatz": "",
+            "price": {
+                "stand": "10,90"
+            },
+            "section": "Sushi Box"
+        },
+        "7": {
+            "name": "Box 7",
+            "desO": "• 3 California Rolls",
+            "zusatz": "",
+            "price": {
+                "stand": "9,90"
+            },
+            "section": "Sushi Box"
+        },
+        "8": {
+            "name": "Box 8",
+            "desO": "• 4 Tuna maki",
+            "zusatz": "",
+            "price": {
+                "stand": "11,90"
+            },
+            "section": "Sushi Box"
+        },
+        "9": {
+            "name": "Box 9",
+            "desO": "•1 Ebi",
+            "zusatz": "",
+            "price": {
+                "stand": "13,90"
+            },
+            "section": "Sushi Box"
+        },
+        "10": {
+            "name": "Box 10",
+            "desO": "• 4 Inside Out",
+            "zusatz": "",
+            "price": {
+                "stand": "14,90"
+            },
+            "section": "Sushi Box"
+        },
+        "11": {
+            "name": "Box 11",
+            "desO": "• 2 Salmon",
+            "zusatz": "",
+            "price": {
+                "stand": "15,90"
+            },
+            "section": "Sushi Box"
+        },
+        "12": {
+            "name": "Box 12",
+            "desO": "• Tuna",
+            "zusatz": "",
+            "price": {
+                "stand": "20,90"
+            },
+            "section": "Sushi Box"
+        },
+        "13": {
+            "name": "Box 13",
+            "desO": "• 3 Baked Tuna",
+            "zusatz": "",
+            "price": {
+                "stand": "15,90"
+            },
+            "section": "Sushi Box"
+        },
+        "14": {
+            "name": "Party plate",
+            "desO": "• 7 Nigiri Sushi",
+            "zusatz": "",
+            "price": {
+                "stand": "41,90"
+            },
+            "section": "Sushi Box"
+        },
+        "15": {
+            "name": "Family plate",
+            "desO": "• 16 Nigiri Sushi",
+            "zusatz": "",
+            "price": {
+                "stand": "46,90"
+            },
+            "section": "Sushi Box"
+        },
+        "16": {
+            "name": "Boss plate",
+            "desO": "• 1 Baked Shake Roll",
+            "zusatz": "",
+            "price": {
+                "stand": "56,90"
+            },
+            "section": "Sushi Box"
+        },
+        "17": {
+            "name": "Gyoza Chicken (4 pieces)",
+            "desO": "with chicken, vegetables and sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "4,20"
+            },
+            "section": "Starters"
+        },
+        "18": {
+            "name": "Yakitori",
+            "desO": "with Japanese style chicken skewers with teriyaki sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "section": "Starters"
+        },
+        "19": {
+            "name": "Mozzarella Rolls (4 pieces)",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "4,50"
+            },
+            "section": "Starters"
+        },
+        "20": {
+            "name": "Karaage",
+            "desO": "chicken with dough coat",
+            "zusatz": "",
+            "price": {
+                "stand": "6,00"
+            },
+            "section": "Starters"
+        },
+        "21": {
+            "name": "Edamame",
+            "desO": "salted soybeans",
+            "zusatz": "",
+            "price": {
+                "stand": "3,95"
+            },
+            "section": "Starters"
+        },
+        "22": {
+            "name": "Seaweed Salad",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "small": "2,00",
+                "large": "3,90"
+            },
+            "section": "Salads"
+        },
+        "23": {
+            "name": "Kappa Philadelphia Maki",
+            "desO": "with cucumber and cream cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "2,70"
+            },
+            "section": "Sushi Maki"
+        },
+        "24": {
+            "name": "Kappa Maki",
+            "desO": "with cucumber",
+            "zusatz": "",
+            "price": {
+                "stand": "2,50"
+            },
+            "section": "Sushi Maki"
+        },
+        "25": {
+            "name": "Sake Maki",
+            "desO": "with salmon",
+            "zusatz": "",
+            "price": {
+                "stand": "3,50"
+            },
+            "section": "Sushi Maki"
+        },
+        "26": {
+            "name": "Tekka Maki",
+            "desO": "with tuna",
+            "zusatz": "",
+            "price": {
+                "stand": "4,00"
+            },
+            "section": "Sushi Maki"
+        },
+        "27": {
+            "name": "Toronto Maki",
+            "desO": "with salmon and avocado",
+            "zusatz": "",
+            "price": {
+                "stand": "4,00"
+            },
+            "section": "Sushi Maki"
+        },
+        "28": {
+            "name": "Oshinko maki",
+            "desO": "with Japanese radish",
+            "zusatz": "",
+            "price": {
+                "stand": "2,50"
+            },
+            "section": "Sushi Maki"
+        },
+        "29": {
+            "name": "Kanppyo Maki",
+            "desO": "with Japanese pumpkin",
+            "zusatz": "",
+            "price": {
+                "stand": "2,50"
+            },
+            "section": "Sushi Maki"
+        },
+        "30": {
+            "name": "Bell Pepper Maki",
+            "desO": "with red bell pepper",
+            "zusatz": "",
+            "price": {
+                "stand": "2,50"
+            },
+            "section": "Sushi Maki"
+        },
+        "31": {
+            "name": "Surimi Maki",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "2,80"
+            },
+            "section": "Sushi Maki"
+        },
+        "32": {
+            "name": "Avocado Maki",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "2,60"
+            },
+            "section": "Sushi Maki"
+        },
+        "33": {
+            "name": "Uhagi Maki",
+            "desO": "with eel",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "section": "Sushi Maki"
+        },
+        "34": {
+            "name": "Ebi Maki",
+            "desO": "with prawns",
+            "zusatz": "",
+            "price": {
+                "stand": "5,00"
+            },
+            "section": "Sushi Maki"
+        },
+        "35": {
+            "name": "Inari Maki",
+            "desO": "with tofu",
+            "zusatz": "",
+            "price": {
+                "stand": "3,00"
+            },
+            "section": "Sushi Maki"
+        },
+        "36": {
+            "name": "Tuna Greme Maki",
+            "desO": "with tuna and Japanese mayonnaise",
+            "zusatz": "",
+            "price": {
+                "stand": "4,50"
+            },
+            "section": "Sushi Maki"
+        },
+        "37": {
+            "name": "Hotshake Maki (spicy)",
+            "desO": "with salmon",
+            "zusatz": "",
+            "price": {
+                "stand": "5,00"
+            },
+            "section": "Sushi Maki"
+        },
+        "38": {
+            "name": "Hot Tuna (spicy)",
+            "desO": "with tuna",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "section": "Sushi Maki"
+        },
+        "39": {
+            "name": "Sake Nigiri",
+            "desO": "with salmon",
+            "zusatz": "",
+            "price": {
+                "stand": "4,00"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "40": {
+            "name": "Maguro Nigiri",
+            "desO": "with tuna",
+            "zusatz": "",
+            "price": {
+                "stand": "4,20"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "41": {
+            "name": "Ebi Nigiri",
+            "desO": "with king prawns",
+            "zusatz": "",
+            "price": {
+                "stand": "4,00"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "42": {
+            "name": "Surimi Nigiri",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,70"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "43": {
+            "name": "Ika Nigiri",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,70"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "44": {
+            "name": "Tai Nigiri",
+            "desO": "with sea bream",
+            "zusatz": "",
+            "price": {
+                "stand": "3,15"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "45": {
+            "name": "Uhagi Nigiri",
+            "desO": "with grilled eel",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "46": {
+            "name": "Takko Nigiri",
+            "desO": "with octopus",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "47": {
+            "name": "Tamago Nigiri",
+            "desO": "with Japanese omelet",
+            "zusatz": "",
+            "price": {
+                "stand": "3,40"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "48": {
+            "name": "Avocado Nigiri",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,45"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "49": {
+            "name": "Inari Nigiri",
+            "desO": "baked tofu pocket",
+            "zusatz": "",
+            "price": {
+                "stand": "2,60"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "50": {
+            "name": "Ikura Gunkan",
+            "desO": "with salmon caviar",
+            "zusatz": "",
+            "price": {
+                "stand": "4,10"
+            },
+            "section": "Sushi Gunkan"
+        },
+        "51": {
+            "name": "Tuna Gunkan",
+            "desO": "with tuna cream",
+            "zusatz": "",
+            "price": {
+                "stand": "2,20"
+            },
+            "section": "Sushi Gunkan"
+        },
+        "52": {
+            "name": "Maguro Gunkan (spicy)",
+            "desO": "with tuna tartar",
+            "zusatz": "",
+            "price": {
+                "stand": "2,30"
+            },
+            "section": "Sushi Gunkan"
+        },
+        "53": {
+            "name": "Sake Gunkan (spicy)",
+            "desO": "with salmon tartar",
+            "zusatz": "",
+            "price": {
+                "stand": "2,20"
+            },
+            "section": "Sushi Gunkan"
+        },
+        "54": {
+            "name": "Aburi Sushi Sake",
+            "desO": "with grilled salmon",
+            "zusatz": "",
+            "price": {
+                "stand": "5,00"
+            },
+            "section": "Sushi Aburi"
+        },
+        "55": {
+            "name": "Aburi Sushi Maguro",
+            "desO": "with grilled tuna",
+            "zusatz": "",
+            "price": {
+                "stand": "5,00"
+            },
+            "section": "Sushi Aburi"
+        },
+        "56": {
+            "name": "Aburi Sushi Unagi",
+            "desO": "with grilled eel and teriyaki sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "5,90"
+            },
+            "section": "Sushi Aburi"
+        },
+        "57": {
+            "name": "Temaki Salmon",
+            "desO": "with salmon and avocado",
+            "zusatz": "",
+            "price": {
+                "stand": "3,90"
+            },
+            "section": "Sushi Temaki"
+        },
+        "58": {
+            "name": "Temaki Tuna",
+            "desO": "with tuna and avocado",
+            "zusatz": "",
+            "price": {
+                "stand": "3,90"
+            },
+            "section": "Sushi Temaki"
+        },
+        "59": {
+            "name": "Inside Out Roll",
+            "desO": "with surimi, avocado and sesame seeds",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "60": {
+            "name": "California",
+            "desO": "mt surimi, avocado and sesame seeds",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "61": {
+            "name": "Tuna Mayo",
+            "desO": "with cucumber, avocado and sesame seeds",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "62": {
+            "name": "Chicken Roll",
+            "desO": "chicken with teriyaki sauce and sesame seeds",
+            "zusatz": "",
+            "price": {
+                "stand": "5,00"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "63": {
+            "name": "Unagi Dragon Roll",
+            "desO": "with tempura, cucumber, teriyaki sauce, sesame and unagi sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "6,10"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "64": {
+            "name": "Fritt Inside Out Sesame Roll",
+            "desO": "with fried bell peppers, avocado and sesame seeds",
+            "zusatz": "",
+            "price": {
+                "stand": "5,00"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "65": {
+            "name": "Ebi Inside Out",
+            "desO": "deep fried shrimps with cucumber and sesame seeds",
+            "zusatz": "",
+            "price": {
+                "stand": "5,90"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "66": {
+            "name": "Miami Roll",
+            "desO": "with salmon, avocado, cream cheese and masago",
+            "zusatz": "",
+            "price": {
+                "stand": "4,80"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "67": {
+            "name": "Power Roll",
+            "desO": "with avocado, surimi, cucumber and salmon",
+            "zusatz": "",
+            "price": {
+                "stand": "6,10"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "68": {
+            "name": "Avocado Roll",
+            "desO": "with avocado and sesame",
+            "zusatz": "",
+            "price": {
+                "stand": "3,50"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "69": {
+            "name": "Philacheese",
+            "desO": "deep fried salmon with cucumber and masago",
+            "zusatz": "",
+            "price": {
+                "stand": "4,00"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "70": {
+            "name": "Baked Shake Roll",
+            "desO": "with cream cheese, salmon, cucumber and avocado",
+            "zusatz": "",
+            "price": {
+                "stand": "8,80"
+            },
+            "section": "Baked Rolls"
+        },
+        "71": {
+            "name": "Baked Surimi Roll",
+            "desO": "with cream cheese, surimi, cucumber and avocado",
+            "zusatz": "",
+            "price": {
+                "stand": "8,80"
+            },
+            "section": "Baked Rolls"
+        },
+        "72": {
+            "name": "Baked Tuna Roll",
+            "desO": "with boiled tuna, cucumber and cream cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "8,80"
+            },
+            "section": "Baked Rolls"
+        },
+        "73": {
+            "name": "Baked Yakitori",
+            "desO": "with chicken and teriyaki sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,80"
+            },
+            "section": "Baked Rolls"
+        },
+        "74": {
+            "name": "Baked Ebi Roll",
+            "desO": "with deep fried shrimps",
+            "zusatz": "",
+            "price": {
+                "stand": "9,50"
+            },
+            "section": "Baked Rolls"
+        },
+        "75": {
+            "name": "Veggie Crunchy Baked Roll",
+            "desO": "with wanome salad, cucumber, radish, pumpkin, tofu and teriyaki sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,80"
+            },
+            "section": "Baked Rolls"
+        },
+        "76": {
+            "name": "Baked Salmon",
+            "desO": "with salmon fried, cream cheese and cucumber",
+            "zusatz": "",
+            "price": {
+                "stand": "8,99"
+            },
+            "section": "Baked Rolls"
+        },
+        "77": {
+            "name": "Sushi Burrito with Salmon,",
+            "desO": "seaweed leaves, rice, chili sauce, cucumber, avocado, cream cheese and spring onions.",
+            "zusatz": "",
+            "price": {
+                "stand": "8,00"
+            },
+            "section": "Sushi Burrito"
+        },
+        "78": {
+            "name": "Sushi Burrito with Chicken,",
+            "desO": "cucumber, avocado, cream cheese, spring onion and sweet chili sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,00"
+            },
+            "section": "Sushi Burrito"
+        },
+        "79": {
+            "name": "Tuna Sashimi",
+            "desO": "with sesame",
+            "zusatz": "",
+            "price": {
+                "stand": "14,90"
+            },
+            "section": "Sashimi"
+        },
+        "80": {
+            "name": "Mini Tuna Sashimi",
+            "desO": "with sesame",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Sashimi"
+        },
+        "81": {
+            "name": "Ingua Gari",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,00"
+            },
+            "section": "Extras"
+        },
+        "82": {
+            "name": "Soy Sauce",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "4,50"
+            },
+            "section": "Extras"
+        },
+        "83": {
+            "name": "Sushi Rice",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,00"
+            },
+            "section": "Extras"
+        },
+        "84": {
+            "name": "Sesame Sauce",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "1,50"
+            },
+            "section": "Extras"
+        },
+        "85": {
+            "name": "Wasabi",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "2,00"
+            },
+            "section": "Extras"
+        },
+        "86": {
+            "name": "Fish Soy Sauce",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,70"
+            },
+            "section": "Extras"
+        },
+        "87": {
+            "name": "Sesame Balls",
+            "desO": "filled with sweet bean mousse",
+            "zusatz": "",
+            "price": {
+                "stand": "3,20"
+            },
+            "section": "Desserts"
+        },
+        "88": {
+            "name": "Mini Spring Roll",
+            "desO": "with banana",
+            "zusatz": "",
+            "price": {
+                "stand": "3,20"
+            },
+            "section": "Desserts"
+        },
+        "89": {
+            "name": "Coca-Cola 1,0l",
+            "desO": "Coca-Cola steht für einzigartigen Geschmack, Erfrischung und Momente voller Lebensfreude. Die 1,0l PET Mehrwegflasche für die perfekte Erfrischung für jeden Tag - allein oder zu zweit.",
+            "zusatz": "",
+            "price": {
+                "stand": "2,75"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "90": {
+            "name": "Coca-Cola light taste 1,0l",
+            "desO": "Light taste: Leichter als das Original und in stylischem Design überzeugt Cola Light nicht nur die eigene Fangemeinschaft - und das komplett zucker- und kalorienfrei.",
+            "zusatz": "",
+            "price": {
+                "stand": "2,75"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "91": {
+            "name": "Fanta Orange 1,0l",
+            "desO": "Trinke Fanta. Lebe bunter. Spritzig erfrischend begleitet die originale Fanta Orange jede Lebenssituation und macht jetzt noch mehr Spaß.",
+            "zusatz": "",
+            "price": {
+                "stand": "2,75"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "92": {
+            "name": "Mezzo Mix 1,0l",
+            "desO": "Mixt euch eine gute Zeit mit Mezzo Mix, dem erfrischend-leckeren Kuss aus Cola und Orange.",
+            "zusatz": "",
+            "price": {
+                "stand": "2,75"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "93": {
+            "name": "Sprite 1,0l",
+            "desO": "Bist du bereit für Sprite? Die einzigartige Formel aus grünen Limetten und sonnengelben Zitronen erfrischt dich maximal.",
+            "zusatz": "",
+            "price": {
+                "stand": "2,75"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "94": {
+            "name": "Lift Apple Spritzer 1,0l",
+            "desO": "Die Lift Apfelschorle begeistert mit ihrem einmaligen Geschmack und maximaler Erfrischung.",
+            "zusatz": "",
+            "price": {
+                "stand": "2,75"
+            },
+            "section": "Non-Alcoholic Drinks"
+        }
+    },
+    "extra": {
+        "Sushi Maki fried": {
+            "section": [
+                "Sushi Maki"
+            ],
+            "stand": {
+                "price": "1,00",
+                "name": "fried"
+            }
+        }
+    },
+    "staticValue": {
+        "logo": "Sushi Kayo",
+        "key": "sushi-kayo",
+        "b": {
+            "c": ""
+        },
+        "rabat": "",
+        "minpriceorder": [
+            {
+                "distance": {
+                    "min": 0,
+                    "max": 4.1
+                },
+                "price": 10,
+                "lieferkosten": 1
+            }
+        ],
+        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/sushi-kayo.json",
+        "zusatzStoffe": "",
+        "latlng": {
+            "lat": 51.2037,
+            "lng": 6.46396
+        },
+        "kontakt": {
+            "name": "Sushi Kayo",
+            "street": "Neusser Straße 128",
+            "zipc": "41065",
+            "city": "Mönchengladbach",
+            "tel": "017683225530"
+        },
+        "opendays": {
+            "sunday": {
+                "opentime": {
+                    "hour": 14,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 45
+                }
+            },
+            "monday": {
+                "opentime": {
+                    "hour": 16,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 45
+                }
+            },
+            "tuesday": {
+                "opentime": {
+                    "hour": 16,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 0
+                }
+            },
+            "thursday": {
+                "opentime": {
+                    "hour": 16,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 30
+                }
+            },
+            "friday": {
+                "opentime": {
+                    "hour": 14,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 1,
+                    "min": 0
+                }
+            },
+            "saturday": {
+                "opentime": {
+                    "hour": 14,
+                    "min": 30
+                },
+                "closetime": {
+                    "hour": 0,
+                    "min": 30
+                }
+            }
+        }
+    }
+}

@@ -7911,14 +7911,6 @@
                 },
                 "price": 15,
                 "lieferkosten": 0
-            },
-            {
-                "distance": {
-                    "min": 6,
-                    "max": 9
-                },
-                "price": 25,
-                "lieferkosten": 2
             }
         ],
         "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/pizzeria-dino.json",
