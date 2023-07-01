@@ -8,6 +8,10 @@ const nextConfig = {
     return [
       {
         source: '/(.*)',
+        destination: `http://xantener-pizza-kebap.local:3000/$1`,
+      },
+      {
+        source: '/(.*)',
         destination: `http://kitchen-brothers.local:3000/$1`,
       },
       {

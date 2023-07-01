@@ -346,12 +346,12 @@
             "section": "Italienische Salate"
         },
         "1": {
-            "name": "Kebap im Fladenbrot",
-            "desO": "",
+            "name": "Kebap",
+            "desO": "im Fladenbrot",
             "zusatz": "",
             "price": {
-                "Klein": "7,00",
-                "Groß": "12,00"
+                "Klein": "7,90",
+                "Groß": "13,50"
             },
             "options": {
                 "Ihre Sauce": {
@@ -379,11 +379,11 @@
             "section": "Taschen-Drehspieß Gerichte"
         },
         "2": {
-            "name": "Kinder Kebap im Fladenbrot",
-            "desO": "",
+            "name": "Kinder Kebap",
+            "desO": "im Fladenbrot gem. Salat und Tzatziki",
             "zusatz": "",
             "price": {
-                "stand": "6,00"
+                "stand": "6,50"
             },
             "options": {
                 "Ihre Sauce": {
@@ -412,11 +412,11 @@
         },
         "3": {
             "name": "Kebap Spezial",
-            "desO": "mit Hirtenkäse und Kebap-Drehspießfleisch im Fladenbrot geröstet",
+            "desO": "Kebapfleisch, Hirtenkäse in Fladenbrot geröstet mit gem. Salat und Tzatziki",
             "zusatz": "",
             "price": {
-                "Klein": "8,50",
-                "Groß": "12,50"
+                "Klein": "8,90",
+                "Groß": "13,90"
             },
             "options": {
                 "Ihre Sauce": {
@@ -445,7 +445,7 @@
         },
         "4": {
             "name": "Pomm-Kebap Tasche",
-            "desO": "mit einer Sauce nach Wahl und Pommes frites im Fladenbrot",
+            "desO": "mit Pommes o. Reis, Salat & Tzatziki",
             "zusatz": "",
             "price": {
                 "Klein": "7,50",
@@ -472,16 +472,28 @@
                         }
                     },
                     "showprice": false
+                },
+                "Beilage": {
+                    "showprice": false,
+                    "name": "Beilage",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Reis": {
+                            "price": "0,00"
+                        }
+                    }
                 }
             },
             "section": "Gerichte vom Drehspieß"
         },
         "5": {
-            "name": "Kinder Kebap Teller",
-            "desO": "mit einer Beilage nach Wahl, Sauce nach Wahl und Salat",
+            "name": "Kebap Teller",
+            "desO": "mit Pommes o. Reis, Salat & Tzatziki",
             "zusatz": "",
             "price": {
-                "stand": "10,50"
+                "stand": "12,90"
             },
             "options": {
                 "Ihre Sauce": {
@@ -524,11 +536,11 @@
             "section": "Gerichte vom Drehspieß"
         },
         "6": {
-            "name": "Kebap Teller",
-            "desO": "mit einer Beilage nach Wahl, Sauce nach Wahl und Salat",
+            "name": "Kebap Box",
+            "desO": "Kebap, Pommes, Tzatziki",
             "zusatz": "",
             "price": {
-                "stand": "12,50"
+                "stand": "7,50"
             },
             "options": {
                 "Ihre Sauce": {
@@ -551,31 +563,17 @@
                         }
                     },
                     "showprice": false
-                },
-                "Ihre Beilage": {
-                    "name": "Ihre Beilage",
-                    "options": {
-                        "mit Pommes frites": {
-                            "price": "0,00"
-                        },
-                        "mit Reis": {
-                            "price": "0,00"
-                        },
-                        "ohne Beilage": {
-                            "price": "0,00"
-                        }
-                    },
-                    "showprice": false
                 }
             },
             "section": "Gerichte vom Drehspieß"
         },
         "7": {
-            "name": "Kebap Box",
-            "desO": "mit einer Sauce nach Wahl und Pommes frites",
+            "name": "Pomm Kebap Tasche",
+            "desO": " Kebap, Pommes, Tzatziki im Fladenbrot",
             "zusatz": "",
             "price": {
-                "stand": "7,00"
+                "Klein": "8,00",
+                "Groß": "13,00"
             },
             "options": {
                 "Ihre Sauce": {
@@ -607,25 +605,25 @@
             "desO": "mit Pommes frites, Sauce Hollandaise und Käse überbacken",
             "zusatz": "",
             "price": {
-                "stand": "12,50"
+                "stand": "13,90"
             },
             "section": "Gerichte vom Drehspieß"
         },
         "9": {
             "name": "Kebap Teller Spezial",
-            "desO": "mit Tomaten-Cremesauce und Käse überbacken, dazu Pommes frites und Salat",
+            "desO": "Kebap, in Tomaten-Cremesauce mit Käse, überbacken, dazu Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,50"
             },
             "section": "Gerichte vom Drehspieß"
         },
         "10": {
-            "name": "Spargel Kebap",
-            "desO": "mit Spargel, Sauce Hollandaise und Käse überbacken, dazu Pommes und Salat",
+            "name": "Kebap Spargel",
+            "desO": "Kebap, Spargel, Sauce Hollandaise Käse, überbacken dazu Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,50"
             },
             "section": "Gerichte vom Drehspieß"
         },
@@ -634,34 +632,34 @@
             "desO": "mit Champignons, Broccoli, Sahnesauce und Käse überbacken, dazu Pommes frites und Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,50"
             },
             "section": "Gerichte vom Drehspieß"
         },
         "12": {
             "name": "Kebap Auflauf",
-            "desO": "mit Spinat, Broccoli, Sauce Hollandaise und Käse überbacken, dazu Pommes frites und Salat",
+            "desO": "mit Spinat, Broccoli, Sauce Hollandaise, mit Käse überbacken, dazu Pommes frites und Salat",
+            "zusatz": "",
+            "price": {
+                "stand": "17,50"
+            },
+            "section": "Gerichte vom Drehspieß"
+        },
+        "13": {
+            "name": "Sweety Kebap",
+            "desO": "mit Chicken Kebap auf Pommes, Krautsalat, Gouda, Sweet-Chili-Sauce und Mayo",
             "zusatz": "",
             "price": {
                 "stand": "15,90"
             },
             "section": "Gerichte vom Drehspieß"
         },
-        "13": {
-            "name": "Sweety Kebap",
-            "desO": "mit Chicken-Kebapfleisch auf Pommes frites, Krautsalat, Gouda, Sweet-Chili-Sauce und Mayonnaise, ohne Kebap-Drehspießfleisch",
-            "zusatz": "",
-            "price": {
-                "stand": "14,90"
-            },
-            "section": "Gerichte vom Drehspieß"
-        },
         "14": {
-            "name": "Kebap-Drehspießfleisch",
-            "desO": "mit Zwiebeln und einer Sauce nach Wahl",
+            "name": "Portion Kebapfleisch",
+            "desO": "mit Zwiebeln und Tzatziki",
             "zusatz": "",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "options": {
                 "Ihre Sauce": {
@@ -690,10 +688,10 @@
         },
         "15": {
             "name": "Türkische Pizza Spezial",
-            "desO": "mit Kebap-Drehspießfleisch",
+            "desO": "Kebap , gem. Salat und Tzatziki",
             "zusatz": "",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "options": {
                 "Ihre Sauce": {
@@ -722,10 +720,10 @@
         },
         "16": {
             "name": "Türkische Pizza",
-            "desO": "",
+            "desO": "mit gemischtem Salat und Tzatziki",
             "zusatz": "",
             "price": {
-                "stand": "6,50"
+                "stand": "7,00"
             },
             "options": {
                 "Ihre Sauce": {
@@ -754,10 +752,42 @@
         },
         "17": {
             "name": "Dürüm Kebap",
-            "desO": "mit Kebap-Drehspießfleisch",
+            "desO": "mit Kebap und gem. Salat und Tzatziki",
             "zusatz": "",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
+            },
+            "options": {
+                "Ihre Sauce": {
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "mit Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Haussauce": {
+                            "price": "0,00"
+                        },
+                        "mit Joghurtsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Tzatziki": {
+                            "price": "0,00"
+                        },
+                        "ohne Sauce": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Türkische Pizza"
+        },
+        "17a": {
+            "name": "Dürüm Kebap Hollandaise",
+            "desO": "mit Kebap, gem. Salat und Sauce Hollandaise",
+            "zusatz": "",
+            "price": {
+                "stand": "9,90"
             },
             "options": {
                 "Ihre Sauce": {
@@ -785,12 +815,12 @@
             "section": "Türkische Pizza"
         },
         "18": {
-            "name": "Salat Tasche",
-            "desO": "im Fladenbrot",
+            "name": "Salattasche",
+            "desO": "Fladenbrot mit gemischtem Salat und Tzatziki",
             "zusatz": "",
             "price": {
-                "Klein": "6,00",
-                "Groß": "8,00"
+                "Klein": "6,50",
+                "Groß": "8,50"
             },
             "options": {
                 "Ihre Sauce": {
@@ -818,73 +848,8 @@
             "section": "Vegetarische Gerichte"
         },
         "19": {
-            "name": "Pomm-Salat Tasche",
-            "desO": "im Fladenbrot mit Pommes frites",
-            "zusatz": "",
-            "price": {
-                "Klein": "6,50",
-                "Groß": "11,00"
-            },
-            "options": {
-                "Ihre Sauce": {
-                    "name": "Ihre Sauce",
-                    "options": {
-                        "mit Cocktailsauce": {
-                            "price": "0,00"
-                        },
-                        "mit Haussauce": {
-                            "price": "0,00"
-                        },
-                        "mit Joghurtsauce": {
-                            "price": "0,00"
-                        },
-                        "mit Tzatziki": {
-                            "price": "0,00"
-                        },
-                        "ohne Sauce": {
-                            "price": "0,00"
-                        }
-                    },
-                    "showprice": false
-                }
-            },
-            "section": "Vegetarische Gerichte"
-        },
-        "20": {
-            "name": "Vegetarischer Dürüm",
-            "desO": "",
-            "zusatz": "",
-            "price": {
-                "stand": "7,00"
-            },
-            "options": {
-                "Ihre Sauce": {
-                    "name": "Ihre Sauce",
-                    "options": {
-                        "mit Cocktailsauce": {
-                            "price": "0,00"
-                        },
-                        "mit Haussauce": {
-                            "price": "0,00"
-                        },
-                        "mit Joghurtsauce": {
-                            "price": "0,00"
-                        },
-                        "mit Tzatziki": {
-                            "price": "0,00"
-                        },
-                        "ohne Sauce": {
-                            "price": "0,00"
-                        }
-                    },
-                    "showprice": false
-                }
-            },
-            "section": "Vegetarische Gerichte"
-        },
-        "21": {
-            "name": "Falafel Tasche",
-            "desO": "mit Falafel im Fladenbrot",
+            "name": "Pomm Salattasche",
+            "desO": "Fladenbrot mit Pommes gemischtem Salat und Tzatziki",
             "zusatz": "",
             "price": {
                 "Klein": "7,00",
@@ -915,12 +880,77 @@
             },
             "section": "Vegetarische Gerichte"
         },
-        "22": {
-            "name": "Falafel Dürüm",
-            "desO": "",
+        "20": {
+            "name": "Vegetarischer Dürüm",
+            "desO": "Teigrolle mit gemischtem Salat und Tzatziki",
             "zusatz": "",
             "price": {
-                "stand": "8,00"
+                "stand": "7,50"
+            },
+            "options": {
+                "Ihre Sauce": {
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "mit Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Haussauce": {
+                            "price": "0,00"
+                        },
+                        "mit Joghurtsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Tzatziki": {
+                            "price": "0,00"
+                        },
+                        "ohne Sauce": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Vegetarische Gerichte"
+        },
+        "21": {
+            "name": "Falafel Tasche",
+            "desO": "Falafel im Fladenbrot mit gemischtem Salat und Tzatziki",
+            "zusatz": "",
+            "price": {
+                "Klein": "7,50",
+                "Groß": "12,50"
+            },
+            "options": {
+                "Ihre Sauce": {
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "mit Cocktailsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Haussauce": {
+                            "price": "0,00"
+                        },
+                        "mit Joghurtsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Tzatziki": {
+                            "price": "0,00"
+                        },
+                        "ohne Sauce": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Vegetarische Gerichte"
+        },
+        "22": {
+            "name": "Falafel Dürüm",
+            "desO": "Teigrolle mit gemischtem Salat und Tzatziki",
+            "zusatz": "",
+            "price": {
+                "stand": "8,50"
             },
             "options": {
                 "Ihre Sauce": {
@@ -949,245 +979,227 @@
         },
         "44": {
             "name": "Schnitzel-Natur",
-            "desO": "mit Zitrone",
-            "zusatz": "",
-            "price": {
-                "stand": "11,90"
-            },
-            "section": "Panierte Schnitzel"
-        },
-        "45": {
-            "name": "City Schnitzel",
-            "desO": "Schnitzel-Natur mit 2 Spiegeleiern",
+            "desO": "mit Pommes Salat und Zitrone",
             "zusatz": "",
             "price": {
                 "stand": "13,50"
             },
             "section": "Panierte Schnitzel"
         },
-        "46": {
-            "name": "Rahmschnitzel",
-            "desO": "",
+        "45": {
+            "name": "City Schnitzel",
+            "desO": "Naturschnitzel + 2 Spiegeleier Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "13,90"
+                "stand": "14,90"
+            },
+            "section": "Panierte Schnitzel"
+        },
+        "46": {
+            "name": "Rahmschnitzel",
+            "desO": "mit Pommes und Salat",
+            "zusatz": "",
+            "price": {
+                "stand": "14,90"
             },
             "section": "Panierte Schnitzel"
         },
         "47": {
             "name": "Pfeffer-Rahmschnitzel",
-            "desO": "",
+            "desO": "mit Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "14,50"
+                "stand": "14,90"
             },
             "section": "Panierte Schnitzel"
         },
         "48": {
             "name": "Hähnchenschnitzel",
-            "desO": "",
+            "desO": "mit Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "12,90"
+                "stand": "13,50"
             },
             "section": "Panierte Schnitzel"
         },
         "49": {
             "name": "Zigeunerschnitzel",
-            "desO": "",
+            "desO": "mit Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "12,90"
+                "stand": "13,50"
             },
             "section": "Panierte Schnitzel"
         },
         "50": {
             "name": "Jägerschnitzel",
-            "desO": "",
+            "desO": "mit Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "12,90"
+                "stand": "13,50"
             },
             "section": "Panierte Schnitzel"
         },
         "51": {
             "name": "Zwiebelschnitzel",
-            "desO": "",
+            "desO": "mit Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "13,90"
+                "stand": "14,90"
             },
             "section": "Panierte Schnitzel"
         },
         "52": {
             "name": "Zwiebelschnitzel Spezial",
-            "desO": "mit 2 Spiegeleiern",
+            "desO": "mit 2 Spiegelei, Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "16,90"
             },
             "section": "Panierte Schnitzel"
         },
         "53": {
             "name": "Schnitzel Hawaii",
-            "desO": "mit Vorderschinken, Ananas und Käse überbacken",
+            "desO": "mit Pommes und Salat, Vorderschinken, Ananas und Käse, überbacken",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Panierte Schnitzel"
         },
         "54": {
             "name": "Schnitzel Hollandaise",
-            "desO": "",
+            "desO": "mit Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "14,50"
+                "stand": "15,90"
             },
             "section": "Panierte Schnitzel"
         },
         "55": {
             "name": "Schnitzel Caprese",
-            "desO": "Schnitzel-Natur mit Tomaten und Mozzarella",
+            "desO": "Naturschnitzel mit Tomaten, Mozzarella, Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "14,50"
+                "stand": "15,90"
             },
             "section": "Panierte Schnitzel"
         },
         "56": {
             "name": "Champignon-Rahmschnitzel",
-            "desO": "",
+            "desO": "mit Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "14,90"
+                "stand": "15,90"
             },
             "section": "Panierte Schnitzel"
         },
         "57": {
             "name": "Schlemmer Schnitzel",
-            "desO": "mit Zwiebeln, Speck und Sauce Hollandaise",
+            "desO": "mit Zwiebeln, Speck, Sauce-Hollandaise, Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,50"
+                "stand": "15,90"
             },
             "section": "Panierte Schnitzel"
         },
         "58": {
             "name": "Spargel Schnitzel",
-            "desO": "mit Spargel, Sauce Hollandaise und Käse überbacken",
+            "desO": "mit Spargel, Sauce-Hollandaise, Käse, überbacken, Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Panierte Schnitzel"
         },
         "59": {
             "name": "Xanten Spezialschnitzel",
-            "desO": "mit Vorderschinken, Sahnesauce und Käse überbacken",
+            "desO": "mit Vorderschinken, in Sahnesauce mit Käse, überbacken, Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Panierte Schnitzel"
         },
         "60": {
             "name": "Schnitzel Phantasia",
-            "desO": "mit Pfirsichen, Sauce Hollandaise und Käse überbacken",
+            "desO": "mit Pfirsich, Sauce-Hollandaise, Käse, überbacken, Pommes und Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Panierte Schnitzel"
-        },
-        "61": {
-            "name": "Rahmschnitzel aus der Pfanne",
-            "desO": "",
-            "zusatz": "",
-            "price": {
-                "stand": "14,90"
-            },
-            "section": "Schnitzel aus der Pfanne"
-        },
+        },        
         "62": {
-            "name": "Xantenschnitzel aus der Pfanne",
-            "desO": "mit Sauce Hollandaise, Spargel und Käse überbacken",
+            "name": "Xantenschnitzel",
+            "desO": "mit Hollandaise-Sauce, Spargel Käse, überbacken, Pommes & Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Schnitzel aus der Pfanne"
         },
         "63": {
-            "name": "Hawaiischnitzel aus der Pfanne",
-            "desO": "mit Ananas, Schinken, Cremesauce und Käse überbacken",
+            "name": "Hawaiischnitzel",
+            "desO": "mit Ananas, Schinken, CremesauceG Käse, überbacken, Pommes & Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Schnitzel aus der Pfanne"
         },
         "64": {
-            "name": "Xanten Spezialschnitzel aus der Pfanne",
-            "desO": "mit Schinken, Cremesauce und Käse überbacken",
+            "name": "Xanten Spezialschnitzel",
+            "desO": "mit Schinken, Cremesauce Käse, überbacken, Pommes & Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
-            },
-            "section": "Schnitzel aus der Pfanne"
-        },
-        "65": {
-            "name": "Champignon-Rahmschnitzel aus der Pfanne",
-            "desO": "mit Champignons und Sahnesauce",
-            "zusatz": "",
-            "price": {
-                "stand": "15,50"
+                "stand": "17,90"
             },
             "section": "Schnitzel aus der Pfanne"
         },
         "66": {
-            "name": "Überbackenes Champignonsschnitzel aus der Pfanne",
-            "desO": "mit Champignons und Käse überbacken, dazu Cremesauce",
+            "name": "Champignonsschnitzel Überbacken",
+            "desO": "mit Champignons, Käse, überbacken, Pommes & Salat, Cremesauce",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Schnitzel aus der Pfanne"
         },
         "67": {
-            "name": "Chefschnitzel aus der Pfanne",
-            "desO": "mit Speck, Zwiebeln, Cremesauce, Champignons und Käse überbacken",
+            "name": "Chefschnitzel",
+            "desO": "mit Speck, Zwiebeln, Cremesauce Champignons, Käse, überbacken, Pommes & Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Schnitzel aus der Pfanne"
         },
         "68": {
-            "name": "Schnitzel Spezial aus der Pfanne",
-            "desO": "mit Broccoli, Sauce Hollandaise und Käse überbacken",
+            "name": "Schnitzel Spezial ",
+            "desO": "mit Broccoli, Hollandaise-Sauce Käse, überbacken, Pommes & Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Schnitzel aus der Pfanne"
         },
         "69": {
-            "name": "Südsee Schnitzel aus der Pfanne",
-            "desO": "mit Ananas, Krabben, Sahnesauce und Käse überbacken",
+            "name": "Südsee-Schnitzel",
+            "desO": "mit Ananas, Krabben, Sahnesauce Käse, überbacken, Pommes & Salat",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Schnitzel aus der Pfanne"
-        },
+        },        
         "73": {
             "name": "Pizza Margherita",
             "desO": "mit Gouda",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "5,90",
-                "Normal, Ø 30cm": "7,90"
+                "Klein, Ø 26cm": "6,90",
+                "Normal, Ø 30cm": "8,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1196,8 +1208,8 @@
             "desO": "mit Champignons",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "6,90",
-                "Normal, Ø 30cm": "8,90"
+                "Klein, Ø 26cm": "7,50",
+                "Normal, Ø 30cm": "9,50"
             },
             "section": "Italienische Pizza"
         },

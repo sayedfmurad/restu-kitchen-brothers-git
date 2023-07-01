@@ -6,10 +6,10 @@
                 "des": "",
                 "img":"sushi_box"
             },
-            "Starters": {
-                "section": "Starters",
+            "VORSPEISEN": {
+                "section": "VORSPEISEN",
                 "des": "",
-                "img":"starters"
+                "img":"WARME_VORSPEISEN"
             },
             "Salads": {
                 "section": "Salads",
@@ -34,7 +34,7 @@
             "Sushi Aburi": {
                 "section": "Sushi Aburi",
                 "des": "2 per serving.",
-                "img":"sushi_aburi"
+                "img":"SUSHI_ABURI2"
             },
             "Sushi Temaki": {
                 "section": "Sushi Temaki",
@@ -49,7 +49,7 @@
             "Baked Rolls": {
                 "section": "Baked Rolls",
                 "des": "6 per serving.",
-                "img":"Baked_Rolls"
+                "img":"BAKED_ROLLS_SUSHI"
             },
             "Sushi Burrito": {
                 "section": "Sushi Burrito",
@@ -59,7 +59,7 @@
             "Sashimi": {
                 "section": "Sashimi",
                 "des": "1 per serving.",
-                "img":"Sashimi"
+                "img":"SASHIMI2"
             },
             "Extras": {
                 "section": "Extras",
@@ -69,7 +69,7 @@
             "Desserts": {
                 "section": "Desserts",
                 "des": "",
-                "img":"DESSERTS"
+                "img":"ICE"
             },
             "Non-Alcoholic Drinks": {
                 "section": "Non-Alcoholic Drinks",
@@ -230,7 +230,7 @@
             "price": {
                 "stand": "4,20"
             },
-            "section": "Starters"
+            "section": "VORSPEISEN"
         },
         "18": {
             "name": "Yakitori",
@@ -239,7 +239,7 @@
             "price": {
                 "stand": "5,50"
             },
-            "section": "Starters"
+            "section": "VORSPEISEN"
         },
         "19": {
             "name": "Mozzarella Rolls (4 pieces)",
@@ -248,7 +248,7 @@
             "price": {
                 "stand": "4,50"
             },
-            "section": "Starters"
+            "section": "VORSPEISEN"
         },
         "20": {
             "name": "Karaage",
@@ -257,7 +257,7 @@
             "price": {
                 "stand": "6,00"
             },
-            "section": "Starters"
+            "section": "VORSPEISEN"
         },
         "21": {
             "name": "Edamame",
@@ -266,7 +266,7 @@
             "price": {
                 "stand": "3,95"
             },
-            "section": "Starters"
+            "section": "VORSPEISEN"
         },
         "22": {
             "name": "Seaweed Salad",
