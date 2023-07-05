@@ -75,13 +75,27 @@
                 "section": "Non-Alcoholic Drinks",
                 "des": "",
                 "img":"GETRANKE"
+            },
+            "PASTA": {
+                "section": "PASTA",
+                "des": "",
+                "img": "SPAGHETTI"
             }
         }
     },
     "product": {
+        "80": {
+            "name": "Nudel",
+            "desO": "Zwiebel, Knoblauch, Tomaten, Salz, Gewürze",
+            "zusatz": "",
+            "price": {
+                "stand": "4,00"
+            },
+            "section": "PASTA"
+        },
         "1": {
             "name": "Box 1",
-            "desO": "• 4 Inside Out Rolls with fish eggs and wasabi",
+            "desO": "4 inside our mit Fischeiern und Wasaol",
             "zusatz": "",
             "price": {
                 "stand": "5,50"
@@ -90,7 +104,7 @@
         },
         "2": {
             "name": "Box 2",
-            "desO": "• 3 Tuna maki",
+            "desO": "3 Thunfisch Maki. 3 Lachs Maki, 3 Gurken Maki, 3 Rettich Maki",
             "zusatz": "",
             "price": {
                 "stand": "6,90"
@@ -99,7 +113,7 @@
         },
         "3": {
             "name": "Box 3",
-            "desO": "• 3 Inside Out Rolls with Sesame",
+            "desO": "3 Inside Out mit Sesam, 2 japanische Omelettes, 4 Gurken Maki, 4 Rettich Maki",
             "zusatz": "",
             "price": {
                 "stand": "8,90"
@@ -108,7 +122,7 @@
         },
         "4": {
             "name": "Box 4",
-            "desO": "• 3 Inside Out Rolls",
+            "desO": "3 Inside Out 3 Thunfisch Maki, 3 Lachs Maki, 3 Gurken Maki, 4 Rettich Maki",
             "zusatz": "",
             "price": {
                 "stand": "9,90"
@@ -117,7 +131,7 @@
         },
         "5": {
             "name": "Box 5",
-            "desO": "• 6 Inside Out Rolls with fish eggs",
+            "desO": "6 Inside Out mit Fischeiern. 3 Inside Out mit 3 Wasabi California Rollen",
             "zusatz": "",
             "price": {
                 "stand": "12,90"
@@ -126,7 +140,7 @@
         },
         "6": {
             "name": "Box 6",
-            "desO": "• 2 Salmon Nigiri",
+            "desO": "2 Lachs, 2 Lachs Maki, 2 Rettich Maki, 3 Inside Out 2 Thunfisch Maki, 2 Gurken Maki",
             "zusatz": "",
             "price": {
                 "stand": "10,90"
@@ -135,7 +149,7 @@
         },
         "7": {
             "name": "Box 7",
-            "desO": "• 3 California Rolls",
+            "desO": "3 California Rollen, 3 Thunfisch Maki, 3 Lachs Maki, Lachs",            
             "zusatz": "",
             "price": {
                 "stand": "9,90"
@@ -144,7 +158,7 @@
         },
         "8": {
             "name": "Box 8",
-            "desO": "• 4 Tuna maki",
+            "desO": "4 Thunfisch Maki, 4 Lachs Maki, 1 Maguro, 1 Lachs, 1 Ebi, 1 lka",
             "zusatz": "",
             "price": {
                 "stand": "11,90"
@@ -153,7 +167,7 @@
         },
         "9": {
             "name": "Box 9",
-            "desO": "•1 Ebi",
+            "desO": "1 Ebi, 1 Lachs, 1 Thunfisch, 1 Lka, 2 Thunfisch Maki, 2 Gurken Maki, 2 Rettich Maki, 2 Lachs Maki, 3 inside Out",
             "zusatz": "",
             "price": {
                 "stand": "13,90"
@@ -162,7 +176,7 @@
         },
         "10": {
             "name": "Box 10",
-            "desO": "• 4 Inside Out",
+            "desO": "4 Inside Out, 2 Thunfisch, 2 Lachs, 2 Ebi",
             "zusatz": "",
             "price": {
                 "stand": "14,90"
@@ -171,7 +185,7 @@
         },
         "11": {
             "name": "Box 11",
-            "desO": "• 2 Salmon",
+            "desO": "2 Lachs, 1 Thunfisch, 1 Ebi, 1 Lka, 1 Tai, 1 Jakobamuschel, 1 Takko, 1 Ama Ebi, 1 Shimesba",
             "zusatz": "",
             "price": {
                 "stand": "15,90"
@@ -180,7 +194,7 @@
         },
         "12": {
             "name": "Box 12",
-            "desO": "• Tuna",
+            "desO": "mit Thunfisch, Surimi, Ebi, Lachs",
             "zusatz": "",
             "price": {
                 "stand": "20,90"
@@ -189,7 +203,7 @@
         },
         "13": {
             "name": "Box 13",
-            "desO": "• 3 Baked Tuna",
+            "desO": "3 Baked Tuna, 4 Tekka Maki, 4 Shaki Maki, Nigiri 1 Unagi, 1 Lachs, 1 Magora",
             "zusatz": "",
             "price": {
                 "stand": "15,90"
@@ -198,7 +212,7 @@
         },
         "14": {
             "name": "Party plate",
-            "desO": "• 7 Nigiri Sushi",
+            "desO": "7 Nigiri Sush, 11 Pollo Cuchi, 30 Maki Sushi",
             "zusatz": "",
             "price": {
                 "stand": "41,90"
@@ -207,7 +221,7 @@
         },
         "15": {
             "name": "Family plate",
-            "desO": "• 16 Nigiri Sushi",
+            "desO": "10 Nigiri Sushi, 10 Rolle Sushi, 14 Maki Sushi",
             "zusatz": "",
             "price": {
                 "stand": "46,90"
@@ -216,7 +230,7 @@
         },
         "16": {
             "name": "Boss plate",
-            "desO": "• 1 Baked Shake Roll",
+            "desO": "1 Baked Shake Roll, 2 Unagi, 2 Ebi Nigiri, 2 Magura, 2 Shake Lachs, 2 Inari, 3 Ebi Tempura, 2 Nigiri S, 9 Rolle Sushi, 12 Maki S",
             "zusatz": "",
             "price": {
                 "stand": "56,90"
@@ -756,8 +770,8 @@
             "section": "Baked Rolls"
         },
         "76": {
-            "name": "Baked Salmon",
-            "desO": "with salmon fried, cream cheese and cucumber",
+            "name": "Baked Kebap",
+            "desO": "mit Gewürzigem Lammfleisch, Frischkäse und Gurke",
             "zusatz": "",
             "price": {
                 "stand": "8,99"
@@ -765,8 +779,8 @@
             "section": "Baked Rolls"
         },
         "77": {
-            "name": "Sushi Burrito with Salmon,",
-            "desO": "seaweed leaves, rice, chili sauce, cucumber, avocado, cream cheese and spring onions.",
+            "name": "Sushi Burito",
+            "desO": "Lachs Algenblatt, Reis, Friteuse Lachs und Chilli Soße, Gurke, Avocado, Frischkäse, und Lauchzwiebeln",
             "zusatz": "",
             "price": {
                 "stand": "8,00"
@@ -774,8 +788,8 @@
             "section": "Sushi Burrito"
         },
         "78": {
-            "name": "Sushi Burrito with Chicken,",
-            "desO": "cucumber, avocado, cream cheese, spring onion and sweet chili sauce",
+            "name": "Sushi Burrito",
+            "desO": "Hähnchen Fleisch, Gurke, Avocado, Frischkäse, Lauchzwiebeln, und Süße Chilli Soße",
             "zusatz": "",
             "price": {
                 "stand": "8,00"
@@ -783,6 +797,15 @@
             "section": "Sushi Burrito"
         },
         "79": {
+            "name": "Sushi Burito Kebap",
+            "desO": "Gewürzigem Lammfleisch, Gurke, Avocadoe, Lauchzwiebeln und Süße Chilli Soße",
+            "zusatz": "",
+            "price": {
+                "stand": "8,00"
+            },
+            "section": "Sashimi"
+        },
+        "80a": {
             "name": "Tuna Sashimi",
             "desO": "with sesame",
             "zusatz": "",
@@ -791,7 +814,7 @@
             },
             "section": "Sashimi"
         },
-        "80": {
+        "80b": {
             "name": "Mini Tuna Sashimi",
             "desO": "with sesame",
             "zusatz": "",
@@ -800,7 +823,7 @@
             },
             "section": "Sashimi"
         },
-        "81": {
+        "102": {
             "name": "Ingua Gari",
             "desO": "",
             "zusatz": "",
@@ -809,17 +832,17 @@
             },
             "section": "Extras"
         },
-        "82": {
-            "name": "Soy Sauce",
+        "103": {
+            "name": "Soja Sauce",
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "4,50"
+                "stand": "4,40"
             },
             "section": "Extras"
         },
-        "83": {
-            "name": "Sushi Rice",
+        "104": {
+            "name": "Sushi Reis",
             "desO": "",
             "zusatz": "",
             "price": {
@@ -827,7 +850,7 @@
             },
             "section": "Extras"
         },
-        "84": {
+        "105": {
             "name": "Sesame Sauce",
             "desO": "",
             "zusatz": "",
@@ -836,7 +859,7 @@
             },
             "section": "Extras"
         },
-        "85": {
+        "106": {
             "name": "Wasabi",
             "desO": "",
             "zusatz": "",
@@ -845,8 +868,8 @@
             },
             "section": "Extras"
         },
-        "86": {
-            "name": "Fish Soy Sauce",
+        "107": {
+            "name": "Fisch-Soja Sauce",
             "desO": "",
             "zusatz": "",
             "price": {
@@ -854,18 +877,36 @@
             },
             "section": "Extras"
         },
-        "87": {
-            "name": "Sesame Balls",
-            "desO": "filled with sweet bean mousse",
+        "108": {
+            "name": "Cocktail Sauce",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "1,50"
+            },
+            "section": "Extras"
+        },
+        "81": {
+            "name": "Ichigo Dalfuku Mochi",
+            "desO": "Japanischer Reis Kuchen",
             "zusatz": "",
             "price": {
                 "stand": "3,20"
             },
             "section": "Desserts"
         },
-        "88": {
-            "name": "Mini Spring Roll",
-            "desO": "with banana",
+        "82": {
+            "name": "Sesambällchen",
+            "desO": "Gefüllt mit süßem Bohnen muß",
+            "zusatz": "",
+            "price": {
+                "stand": "3,20"
+            },
+            "section": "Desserts"
+        },
+        "83": {
+            "name": "Mini Frühlinsrolle",
+            "desO": "with Banana",
             "zusatz": "",
             "price": {
                 "stand": "3,20"
@@ -940,19 +981,37 @@
     },
     "staticValue": {
         "logo": "Sushi Kayo",
-        "key": "sushi-kayo",
-        "b": {
-            "c": ""
-        },
+        "key": "sushi-kayo",        
         "rabat": "",
         "minpriceorder": [
             {
                 "distance": {
                     "min": 0,
-                    "max": 4.1
+                    "max": 3.1
                 },
-                "price": 10,
+                "price": 18,
                 "lieferkosten": 1
+            },{
+                "distance": {
+                    "min": 3,
+                    "max": 6.1
+                },
+                "price": 25,
+                "lieferkosten": 2
+            },{
+                "distance": {
+                    "min": 6,
+                    "max": 10.1
+                },
+                "price": 30,
+                "lieferkosten": 3
+            },{
+                "distance": {
+                    "min": 10,
+                    "max": 13
+                },
+                "price": 40,
+                "lieferkosten": 4
             }
         ],
         "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/sushi-kayo.json",
@@ -1030,5 +1089,8 @@
                 }
             }
         }
-    }
+    },"b": {
+        "c": "-976082877"
+    },
+    "rabat": ""
 }

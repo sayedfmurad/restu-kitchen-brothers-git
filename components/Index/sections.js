@@ -66,7 +66,10 @@ export function NotificationsRows ({menu}) {
 
 
 if(menu["staticValue"]["key"]!="westendgrillundpizza" &&
-    menu["staticValue"]["key"]!="kitchen-brothers") 
+    menu["staticValue"]["key"]!="kitchen-brothers"&&
+    menu["staticValue"]["key"]!="pizzavalentina"&&
+    menu["staticValue"]["key"]!="pizzeria-dino"
+    ) 
     rows.push(<>{IfRestuOpen(menu)}</>)
 
   if(menu["staticValue"]["key"]=="westendgrillundpizza" || menu["staticValue"]["key"]=="pizzavalentina" || menu["staticValue"]["key"]=="kitchen-brothers")
@@ -76,13 +79,26 @@ if(menu["staticValue"]["key"]!="westendgrillundpizza" &&
           <div className=" alert alert-warning" role="alert">
           NUR HIER MIT <strong>5%</strong> ONLINE-RABATT BESTELLEN
           </div>  
-          </div>)
-              if(menu["staticValue"]["key"]=="kitchen-brothers")
+          </div>)              
+            
+  }    
+  if(menu["staticValue"]["key"]=="kitchen-brothers")
               {
                 rows.push(        
                       <div className='row g-2' >            
                       <div className=" alert alert-warning" role="alert">
                       Kitchen Brothers, Konstantinstraße 87, 41238 Mönchengladbach
+                      </div>  
+                      </div>)
+              }
+              if(menu["staticValue"]["key"]=="pizzavalentina")
+              {
+                rows.push(        
+                      <div className='row g-2' >            
+                      <div className=" alert alert-danger" role="alert">
+                      Liebe Gäste!
+                      Wir machen Urlaub -Von Montag, den 03.07.2023 bis zum Montag, den 17.07.2023 Ab Dienstag, den 18.7.2023. um 16.00 Uhr sind wir wieder wie gewohnt für euch da
+                      Euer Pizzeria Valentina und das Team der Pizzeria Valentina
                       </div>  
                       </div>)
               }
@@ -104,7 +120,15 @@ if(menu["staticValue"]["key"]!="westendgrillundpizza" &&
                       </div>  
                       </div>)
               }
-  }    
+  if(menu["staticValue"]["key"]=="pizzeria-dino")
+  {
+    rows.push(        
+          <div className='row g-2' >            
+          <div className=" alert alert-danger" role="alert">
+          Liebe Kunden wir machen Urlaub vom 02.07.2023 bis 02.08.2023
+          </div>  
+          </div>)
+  }
     var isAndroidWebView = navigator.userAgent.toLowerCase().indexOf('wv') > -1;
     var isAndroidBrowser = /android/i.test(navigator.userAgent) && !(/(chrome|crios|fxios)/i.test(navigator.userAgent));
 
@@ -192,6 +216,8 @@ export default function Sections({menu})
   {
     menu["staticValue"]["key"]!="westendgrillundpizza" &&
     menu["staticValue"]["key"]!="kitchen-brothers"    && 
+    menu["staticValue"]["key"]!="pizzavalentina"    && 
+    menu["staticValue"]["key"]!="pizzeria-dino"    && 
   <ProductsRows  menu={menu} SetContainer={SetContainer}/>}   
     <footer class="footer bg-dark text-white text-center mt-5">
     <div class="container">

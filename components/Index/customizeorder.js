@@ -110,7 +110,8 @@ export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,
             <div className={`col-md-4  col-sm-6 ${(ion>2?mdisplay:"")}`}>
             <div className='d-flex justify-content-center'>
             <input type="checkbox" class="btn-check"  id={jjj} autocomplete="off" onChange={addextra} defaultChecked={(jjj in extra?true:false)}/>
-            <label class="btn btn-outline-primary " for={jjj}>{"Mit "+menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;{menu["extra"][jjj][type]["price"]}&euro;</label>
+            <label class="btn btn-outline-primary " for={jjj}>
+                {(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;{menu["extra"][jjj][type]["price"]}&euro;</label>
             </div>
             </div>            
          </>

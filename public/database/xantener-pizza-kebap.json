@@ -493,7 +493,7 @@
             "desO": "mit Pommes o. Reis, Salat & Tzatziki",
             "zusatz": "",
             "price": {
-                "stand": "12,90"
+                "stand": "13,90"
             },
             "options": {
                 "Ihre Sauce": {
@@ -787,7 +787,7 @@
             "desO": "mit Kebap, gem. Salat und Sauce Hollandaise",
             "zusatz": "",
             "price": {
-                "stand": "9,90"
+                "stand": "9,50"
             },
             "options": {
                 "Ihre Sauce": {
@@ -1218,8 +1218,8 @@
             "desO": "mit Spinat und Knoblauch",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "6,90",
-                "Normal, Ø 30cm": "8,90"
+                "Klein, Ø 26cm": "7,50",
+                "Normal, Ø 30cm": "9,50"
             },
             "section": "Italienische Pizza"
         },
@@ -1228,8 +1228,8 @@
             "desO": "mit Salami",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "6,90",
-                "Normal, Ø 30cm": "8,90"
+                "Klein, Ø 26cm": "7,90",
+                "Normal, Ø 30cm": "9,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1238,8 +1238,8 @@
             "desO": "mit Vorderschinken",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "6,90",
-                "Normal, Ø 30cm": "8,90"
+                "Klein, Ø 26cm": "7,90",
+                "Normal, Ø 30cm": "9,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1248,8 +1248,8 @@
             "desO": "mit Champignons und Vorderschinken",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "7,90",
-                "Normal, Ø 30cm": "9,90"
+                "Klein, Ø 26cm": "8,90",
+                "Normal, Ø 30cm": "10,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1258,8 +1258,8 @@
             "desO": "mit Vorderschinken und Ananas",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "7,90",
-                "Normal, Ø 30cm": "9,90"
+                "Klein, Ø 26cm": "8,90",
+                "Normal, Ø 30cm": "10,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1268,8 +1268,8 @@
             "desO": "mit Thunfisch und Zwiebeln",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "8,50",
-                "Normal, Ø 30cm": "10,50"
+                "Klein, Ø 26cm": "8,90",
+                "Normal, Ø 30cm": "10,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1298,8 +1298,8 @@
             "desO": "mit Kebap-Drehspießfleisch, gemischtem Salat und Tzatziki",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "9,90",
-                "Normal, Ø 30cm": "12,50"
+                "Klein, Ø 26cm": "10,90",
+                "Normal, Ø 30cm": "12,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1308,8 +1308,8 @@
             "desO": "mit Kebap-Drehspießfleisch und Sauce Hollandaise",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "8,90",
-                "Normal, Ø 30cm": "10,90"
+                "Klein, Ø 26cm": "9,50",
+                "Normal, Ø 30cm": "11,50"
             },
             "section": "Italienische Pizza"
         },
@@ -1323,13 +1323,13 @@
             },
             "section": "Italienische Pizza"
         },
-        "86": {
+        "86": { 
             "name": "Pizza Melina",
             "desO": "mit Salami, Paprika, Zwiebeln, Weichkäse und Peperoni",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "9,50",
-                "Normal, Ø 30cm": "11,50"
+                "Klein, Ø 26cm": "9,90",
+                "Normal, Ø 30cm": "11,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1338,8 +1338,8 @@
             "desO": "mit Vorderschinken, Champignons, Thunfisch und Paprika",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "8,50",
-                "Normal, Ø 30cm": "10,50"
+                "Klein, Ø 26cm": "8,90",
+                "Normal, Ø 30cm": "10,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1348,8 +1348,8 @@
             "desO": "mit Salami, Zwiebeln, Oliven und Peperoni",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "8,50",
-                "Normal, Ø 30cm": "10,50"
+                "Klein, Ø 26cm": "8,90",
+                "Normal, Ø 30cm": "10,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1358,8 +1358,8 @@
             "desO": "mit frischen Tomaten, Mozzarella und Basilikum",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "7,90",
-                "Normal, Ø 30cm": "9,90"
+                "Klein, Ø 26cm": "8,90",
+                "Normal, Ø 30cm": "10,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1368,8 +1368,8 @@
             "desO": "mit Kebap-Drehspießfleisch, Zwiebeln Peperoni und Hirtenkäse",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "9,90",
-                "Normal, Ø 30cm": "11,90"
+                "Klein, Ø 26cm": "10,50",
+                "Normal, Ø 30cm": "12,50"
             },
             "section": "Italienische Pizza"
         },
@@ -1378,8 +1378,8 @@
             "desO": "mit Salami, Vorderschinken und Champignons",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "9,90",
-                "Normal, Ø 30cm": "11,90"
+                "Klein, Ø 26cm": "10,50",
+                "Normal, Ø 30cm": "12,50"
             },
             "section": "Italienische Pizza"
         },
@@ -1388,8 +1388,8 @@
             "desO": "mit Kebap-Drehspießfleisch, Spinat, Zwiebeln, Champignons und Hirtenkäse",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "10,90",
-                "Normal, Ø 30cm": "12,90"
+                "Klein, Ø 26cm": "11,90",
+                "Normal, Ø 30cm": "13,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1398,8 +1398,8 @@
             "desO": "mit Vorderschinken, Salami und Champignons",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "8,90",
-                "Normal, Ø 30cm": "10,90"
+                "Klein, Ø 26cm": "9,50",
+                "Normal, Ø 30cm": "11,50"
             },
             "section": "Italienische Pizza"
         },
@@ -1408,8 +1408,8 @@
             "desO": "mit Salami, Vorderschinken, Champignons, Zwiebeln und Paprika",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "9,90",
-                "Normal, Ø 30cm": "11,90"
+                "Klein, Ø 26cm": "10,90",
+                "Normal, Ø 30cm": "12,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1418,8 +1418,8 @@
             "desO": "mit Spaghetti und Bolognese",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "8,90",
-                "Normal, Ø 30cm": "10,90"
+                "Klein, Ø 26cm": "9,50",
+                "Normal, Ø 30cm": "11,50"
             },
             "section": "Italienische Pizza"
         },
@@ -1438,8 +1438,8 @@
             "desO": "mit Hähnchenbrust, Paprika, Broccoli und Sauce Hollandaise",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "10,50",
-                "Normal, Ø 30cm": "12,50"
+                "Klein, Ø 26cm": "11,50",
+                "Normal, Ø 30cm": "13,50"
             },
             "section": "Italienische Pizza"
         },
@@ -1448,8 +1448,8 @@
             "desO": "mit Spinat, Zwiebeln, Broccoli, Paprika und Knoblauch",
             "zusatz": "",
             "price": {
-                "Klein, Ø 26cm": "8,50",
-                "Normal, Ø 30cm": "10,50"
+                "Klein, Ø 26cm": "8,90",
+                "Normal, Ø 30cm": "10,90"
             },
             "section": "Italienische Pizza"
         },
@@ -1487,7 +1487,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "6,50"
+                "stand": "7,00"
             },
             "section": "Pizzabrötchen"
         },
@@ -1496,7 +1496,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "7,50"
+                "stand": "8,00"
             },
             "section": "Pizzabrötchen"
         },
@@ -1505,7 +1505,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "7,50"
+                "stand": "8,00"
             },
             "section": "Pizzabrötchen"
         },
@@ -1514,7 +1514,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "section": "Pizzabrötchen"
         },
@@ -1523,7 +1523,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "section": "Pizzabrötchen"
         },
@@ -1532,7 +1532,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "9,00"
+                "stand": "9,50"
             },
             "section": "Pizzabrötchen"
         },
@@ -1541,7 +1541,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "section": "Pizzabrötchen"
         },
@@ -1550,7 +1550,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "section": "Pizzabrötchen"
         },
@@ -1559,7 +1559,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "section": "Pizzabrötchen"
         },
@@ -1568,7 +1568,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "section": "Pizzabrötchen"
         },
@@ -1586,7 +1586,7 @@
             "desO": "mit Tomatensauce",
             "zusatz": "",
             "price": {
-                "stand": "9,00"
+                "stand": "9,90"
             },
             "section": "Pasta"
         },
@@ -1595,7 +1595,7 @@
             "desO": "mit Hackfleisch",
             "zusatz": "",
             "price": {
-                "stand": "10,00"
+                "stand": "10,90"
             },
             "section": "Pasta"
         },
@@ -1604,7 +1604,7 @@
             "desO": "mit Vorderschinken, Sahnesauce und Ei",
             "zusatz": "",
             "price": {
-                "stand": "10,00"
+                "stand": "10,90"
             },
             "section": "Pasta"
         },
@@ -1613,7 +1613,7 @@
             "desO": "mit Thunfisch, Knoblauch und Tomaten-Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "11,50"
             },
             "section": "Pasta"
         },
@@ -1622,7 +1622,7 @@
             "desO": "mit Krabben, Knoblauch und Tomaten-Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "12,50"
             },
             "section": "Pasta"
         },
@@ -1631,7 +1631,7 @@
             "desO": "mit Kebap-Drehspießfleisch, Spinat, Broccoli, Knoblauch und Tomaten-Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "12,50"
             },
             "section": "Pasta"
         },
@@ -1640,7 +1640,7 @@
             "desO": "mit Vorderschinken, Sahnesauce und Ei",
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "12,50"
             },
             "section": "Pasta"
         },
@@ -1649,7 +1649,7 @@
             "desO": "mit Vorderschinken und Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "12,50"
             },
             "section": "Pasta"
         },
@@ -1658,13 +1658,13 @@
             "desO": "mit Vorderschinken, Champignons, Paprika und Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "11,50"
+                "stand": "12,50"
             },
             "section": "Pasta"
         },
         "110": {
             "name": "Tortellini della Casa",
-            "desO": "mit Vorderschinken, gekochtem Ei und Sahnesauce",
+            "desO": "gefüllte Nudeln, mit Vorderschinken, gekochtem Ei und Sahnesauce",
             "zusatz": "",
             "price": {
                 "stand": "11,50"
@@ -1673,10 +1673,10 @@
         },
         "111": {
             "name": "Tortellini Alaska",
-            "desO": "mit Lachs, Knoblauch und Sahnesauce",
+            "desO": "gefüllte Nudeln, mit Lachs, Knoblauch und Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "11,90"
+                "stand": "12,90"
             },
             "section": "Pasta"
         },
@@ -1685,7 +1685,7 @@
             "desO": "mit Bolognese- und Tomaten-Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "11,90"
             },
             "section": "Pasta"
         },
@@ -1694,7 +1694,7 @@
             "desO": "mit Champignons, Vorderschinken und Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "11,50"
             },
             "section": "Pasta"
         },
@@ -1703,16 +1703,16 @@
             "desO": "mit Hähnchenfilet, Broccoli, Paprika und Tomaten-Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "11,50"
+                "stand": "12,90"
             },
             "section": "Pasta"
         },
         "115": {
-            "name": "Maccheroni Formaggi",
+            "name": "Maccheroni 4 Formaggi",
             "desO": "mit 4 Käsesorten in Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "11,50"
+                "stand": "12,90"
             },
             "section": "Pasta"
         },
@@ -1721,7 +1721,7 @@
             "desO": "mit Paprika, Champignons, Spinat, Broccoli, Knoblauch und Tomaten-Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "11,50"
+                "stand": "12,50"
             },
             "section": "Pasta"
         },
@@ -1730,7 +1730,7 @@
             "desO": "mit Hähnchenfilet, Champignons und Curry-Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "11,50"
+                "stand": "12,90"
             },
             "section": "Pasta"
         },
@@ -1739,70 +1739,70 @@
             "desO": "mit Schinken, scharfer Peperoni, Tomaten-Sahnesauce und Zwiebeln",
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "11,90"
             },
             "section": "Pasta"
         },
         "119": {
             "name": "Spinaci al Forno",
-            "desO": "mit Spinat und Knoblauch",
+            "desO": "mit Spinat, Knoblauch und Käse, überbacken",
             "zusatz": "",
             "price": {
-                "stand": "9,90"
+                "stand": "10,50"
             },
             "section": "Al Forno"
         },
         "120": {
             "name": "Spinaci con Funghi",
-            "desO": "mit Champignons, Spinat und Sahne",
+            "desO": "mit Champignons, Spinat, SahneG und Käse, überbacken",
             "zusatz": "",
             "price": {
-                "stand": "9,90"
+                "stand": "10,50"
             },
             "section": "Al Forno"
         },
         "121": {
             "name": "Broccoli al Forno",
-            "desO": "mit Broccoli, Knoblauch und Sahne",
+            "desO": "mit Broccoli, Knoblauch, Sahne und Käse, überbacken",
             "zusatz": "",
             "price": {
-                "stand": "9,90"
+                "stand": "10,50"
             },
             "section": "Al Forno"
         },
         "122": {
             "name": "Champignons al Forno",
-            "desO": "mit Champignons und Sahnesauce",
+            "desO": "mit Champignons, Sahnesauce und Käse, überbacken",
             "zusatz": "",
             "price": {
-                "stand": "9,90"
+                "stand": "10,50"
             },
             "section": "Al Forno"
         },
         "70": {
             "name": "Pilic Kavurma",
-            "desO": "mit Champignons, Zwiebeln, Tomaten und Cremesauce",
+            "desO": "mit Hähnchenfilet, Champignons, Zwiebeln, Tomaten, Cremesauce",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Reispfanne"
         },
         "71": {
             "name": "Hähnchen alla Hawaii",
-            "desO": "mit Ananas und Curry-Sahnesauce",
+            "desO": "mit Hähnchenfilet, Ananas Curry-Sahnesauce",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Reispfanne"
         },
         "72": {
             "name": "Pilic Tava",
-            "desO": "mit Spinat in Cremesauce",
+            "desO": "mit Hähnchenfilet, Spinat in Cremesauce",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Reispfanne"
         },
@@ -1811,7 +1811,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "3,00"
+                "stand": "3,50"
             },
             "section": "Snacks"
         },
@@ -1820,7 +1820,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "3,50"
+                "stand": "3,70"
             },
             "section": "Snacks"
         },
@@ -1883,7 +1883,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "4,50"
+                "stand": "5,00"
             },
             "section": "Snacks"
         },
@@ -1911,8 +1911,8 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Mittel": "3,90",
-                "Groß": "4,50"
+                "Mittel": "4,50",
+                "Groß": "5,00"
             },
             "section": "Beilagen und Saucen"
         },
@@ -1975,7 +1975,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "3,20"
+                "stand": "3,50"
             },
             "section": "Beilagen und Saucen"
         },
@@ -1984,7 +1984,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "3,20"
+                "stand": "3,50"
             },
             "section": "Beilagen und Saucen"
         },

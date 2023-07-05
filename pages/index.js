@@ -39,8 +39,8 @@ export default function Index() {
           <meta name="keywords" content={`essen bestellen ${data["staticValue"]["kontakt"]["city"]}, pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, gesundes essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, beste pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, Bestellen Sie hausgemachtes Dessert online, pizza bestellen ${data["staticValue"]["kontakt"]["city"]}, pizzeria in der nähe ${data["staticValue"]["kontakt"]["city"]}, super pizza service online ${data["staticValue"]["kontakt"]["city"]}, günstig essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, burger bestellen online ${data["staticValue"]["kontakt"]["city"]}`}/>
           <meta name="page-topic" content="Gastronomie" />
           <meta name="robots" content="index, follow" />
-          <meta name="title" content={data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]+" - "+"Jetzt Essen online bestellen"} />
-          <meta name="description" content={data["staticValue"]["logo"]+" bringt Ihnen das feinste Essen in "+data["staticValue"]["kontakt"]["city"]+". Erleben Sie kulinarischen Genuss mit unserer köstlichen Speisekarte. Bestellen Sie jetzt und genießen Sie die Aromen!"} />
+          <meta name="title" content={"Jetzt bestellen bei "+data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]} />
+          <meta name="description" content={"Pizza | Pizzeria | "+ data["staticValue"]["logo"]+" "+data["staticValue"]["kontakt"]["street"]+data["staticValue"]["kontakt"]["city"]+data["staticValue"]["kontakt"]["zipc"]+" jetzt online bestellen und liefern lassen!"} />
           <link rel="canonical" href={"https://"+data["staticValue"]["key"]+".foodieway.de"}/>
           </>)      
           SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | Super Pizza Service | "+data["staticValue"]["logo"])
@@ -55,7 +55,8 @@ export default function Index() {
     }
     const IsOurDomain=(hostname)=>{
       const cacheBuster = new Date().getTime();
-      const urll = "./database/"+hostname+".json?cacheBuster="+cacheBuster
+      const urll = packagee["server"]["url"]+"?getjson="+menu["staticValue"]["key"]+"&cacheBuster="+cacheBuster
+
       fetch(urll)
       .then(response => response.json())
       .then(data => {
@@ -102,7 +103,7 @@ export default function Index() {
     langswitch.GetJsonM("menu").then((menu)=>{
       try {        
         const cacheBuster = new Date().getTime();
-        const urll = "./database/"+menu["staticValue"]["key"]+".json?cacheBuster="+cacheBuster
+        const urll = packagee["server"]["url"]+"?getjson="+menu["staticValue"]["key"]+"&cacheBuster="+cacheBuster
                   fetch(urll)
       .then(response => response.json())
       .then(data => {   
