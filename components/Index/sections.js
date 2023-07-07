@@ -72,12 +72,12 @@ if(menu["staticValue"]["key"]!="westendgrillundpizza" &&
     ) 
     rows.push(<>{IfRestuOpen(menu)}</>)
 
-  if(menu["staticValue"]["key"]=="westendgrillundpizza" || menu["staticValue"]["key"]=="pizzavalentina" || menu["staticValue"]["key"]=="kitchen-brothers")
+  if(menu["rabat"] != "")
   {
           rows.push(            
           <div className='row g-2' >            
           <div className=" alert alert-warning" role="alert">
-          NUR HIER MIT <strong>5%</strong> ONLINE-RABATT BESTELLEN
+          NUR HIER MIT <strong>{menu["rabat"]}%</strong> ONLINE-RABATT BESTELLEN
           </div>  
           </div>)              
             
