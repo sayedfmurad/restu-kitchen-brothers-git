@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import Sections from "../components/Index/sections"
+import Sections2 from "../components/Index/sections2"
 import langswitch from "../components/Utils/langswitch"
 import packagee from "../package"
 import restus from "../public/restus"
@@ -10,7 +11,7 @@ export default function Index() {
   const [Container,SetContainer] = useState(<></>)
   const [SEO,SetSEO] = useState(<></>)
   const [PageTitle,SetPageTitle] = useState("")  
-  const [H2SEO,setH2SEO] = useState("Beste Pizza-Lieferdienst")
+  const [H2SEO,setH2SEO] = useState("")
   const MyLang = langswitch.langswitchs("index"); 
   useEffect(()=>{ 
     window.addEventListener('beforeinstallprompt', (e) => {
@@ -34,22 +35,37 @@ export default function Index() {
     const LastStep=(data)=>{
       
 
+          if(data["staticValue"]["key"]=="sushi-kayo")
+          {
+            SetSEO(<>
+              <meta name="keywords" content={`essen bestellen ${data["staticValue"]["kontakt"]["city"]}, Sushi lieferservice ${data["staticValue"]["kontakt"]["city"]}, gesundes essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, beste Sushi lieferservice ${data["staticValue"]["kontakt"]["city"]}, Bestellen Sie hausgemachtes Dessert online, Sushi bestellen ${data["staticValue"]["kontakt"]["city"]}, Sushi in der nähe ${data["staticValue"]["kontakt"]["city"]}, super Sushi service online ${data["staticValue"]["kontakt"]["city"]}, günstig essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, Suhsi bestellen online ${data["staticValue"]["kontakt"]["city"]}`}/>
+              <meta name="page-topic" content="Gastronomie" />
+              <meta name="robots" content="index, follow" />
+              <meta name="title" content={"Jetzt bestellen bei "+data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]} />
+              <meta name="description" content={"Sushi | "+ data["staticValue"]["logo"]+" "+data["staticValue"]["kontakt"]["street"]+" "+data["staticValue"]["kontakt"]["city"]+" "+data["staticValue"]["kontakt"]["zipc"]+" jetzt online bestellen und liefern lassen!"} />
+              <link rel="canonical" href={"https://"+data["staticValue"]["key"]+".foodieway.de"}/>
+              </>)      
+              SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | Super Sushi Service | "+data["staticValue"]["logo"])
+              setH2SEO("Beste Sushi-Lieferdienst "+data["staticValue"]["kontakt"]["city"])
+          }
+          else{
+            SetSEO(<>
+              <meta name="keywords" content={`essen bestellen ${data["staticValue"]["kontakt"]["city"]}, pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, gesundes essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, beste pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, Bestellen Sie hausgemachtes Dessert online, pizza bestellen ${data["staticValue"]["kontakt"]["city"]}, pizzeria in der nähe ${data["staticValue"]["kontakt"]["city"]}, super pizza service online ${data["staticValue"]["kontakt"]["city"]}, günstig essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, burger bestellen online ${data["staticValue"]["kontakt"]["city"]}`}/>
+              <meta name="page-topic" content="Gastronomie" />
+              <meta name="robots" content="index, follow" />
+              <meta name="title" content={"Jetzt bestellen bei "+data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]} />
+              <meta name="description" content={"Pizza | Pizzeria | "+ data["staticValue"]["logo"]+" "+data["staticValue"]["kontakt"]["street"]+" "+data["staticValue"]["kontakt"]["city"]+" "+data["staticValue"]["kontakt"]["zipc"]+" jetzt online bestellen und liefern lassen!"} />
+              <link rel="canonical" href={"https://"+data["staticValue"]["key"]+".foodieway.de"}/>
+              </>)      
+              SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | Super Pizza Service | "+data["staticValue"]["logo"])
+              setH2SEO("Beste Pizza-Lieferdienst "+data["staticValue"]["kontakt"]["city"])
+          }
 
-          SetSEO(<>
-          <meta name="keywords" content={`essen bestellen ${data["staticValue"]["kontakt"]["city"]}, pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, gesundes essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, beste pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, Bestellen Sie hausgemachtes Dessert online, pizza bestellen ${data["staticValue"]["kontakt"]["city"]}, pizzeria in der nähe ${data["staticValue"]["kontakt"]["city"]}, super pizza service online ${data["staticValue"]["kontakt"]["city"]}, günstig essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, burger bestellen online ${data["staticValue"]["kontakt"]["city"]}`}/>
-          <meta name="page-topic" content="Gastronomie" />
-          <meta name="robots" content="index, follow" />
-          <meta name="title" content={"Jetzt bestellen bei "+data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]} />
-          <meta name="description" content={"Pizza | Pizzeria | "+ data["staticValue"]["logo"]+" "+data["staticValue"]["kontakt"]["street"]+data["staticValue"]["kontakt"]["city"]+data["staticValue"]["kontakt"]["zipc"]+" jetzt online bestellen und liefern lassen!"} />
-          <link rel="canonical" href={"https://"+data["staticValue"]["key"]+".foodieway.de"}/>
-          </>)      
-          SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | Super Pizza Service | "+data["staticValue"]["logo"])
-          setH2SEO("Beste Pizza-Lieferdienst "+data["staticValue"]["kontakt"]["city"])
           window.localStorage.setItem("menu",JSON.stringify(data))     
           langswitch.ChangeGetParameters("Sections")                           
             SetContainer(
               <>              
-              <Sections menu={data}/>
+              <Sections2 menu={data}/>
               </>
             )                             
     }
@@ -101,12 +117,12 @@ export default function Index() {
 
 
     langswitch.GetJsonM("menu").then((menu)=>{
-      try {        
+      try {
         const cacheBuster = new Date().getTime();
         const urll = packagee["server"]["url"]+"?getjson="+menu["staticValue"]["key"]+"&cacheBuster="+cacheBuster
                   fetch(urll)
       .then(response => response.json())
-      .then(data => {   
+      .then(data => {                 
         GotJsonData(data)
       })
       } catch (error) {
@@ -123,8 +139,6 @@ export default function Index() {
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <meta name="msapplication-TileColor" content="#000000" ></meta>
       <link href="./mystyles/homepage.css" rel="stylesheet" />
-      <link href="./mystyles/addtohomescreen.css" rel="stylesheet" />
-
       <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png"/>
       <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png"/>
       <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png"/>
@@ -142,7 +156,7 @@ export default function Index() {
       <meta name="msapplication-TileColor" content="#ffffff"/>
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
       <meta name="theme-color" content="#ffffff"></meta>
-
+      <link href="./mystyles/customizeorder.css" rel="stylesheet" />
     </Head>   
     {/* <div className="specially mbackground"></div>  */}
     <h1 className="seo-heading">Bestellen Sie hausgemachtes Dessert online</h1>

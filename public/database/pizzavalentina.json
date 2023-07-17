@@ -4146,6 +4146,7 @@
         }
     },
     "staticValue": {
+        
         "ac": "3y7d3ns43xp8mu9",
         "isESPPP": "11955057",        
         "ps":"wrjCrMOGwrfDgsOcw5zDjsOrw6bDmMORw5TDk8ORwrzDncORw5nCvsKww5TCn8Kpw5HDkMOHw5fDl8OkwrbCusK_wrfCnMOiw6nDlsKxw5bCv8Krw53DhcOdw6LCtsOTwrHDjsK4wqHCp8OLwr3CrcK6wrjCv8Kuw53DhMOPw63CrcKkwrfDmcKuwrPCpMKuw5rDn8OAw4vCvsKSwr3DlA==",
@@ -4258,45 +4259,11 @@
         "isZPLL": "true"
     },
     "sections": {
-        "mdesc": {
-            "DESSERTS": {
-                "section": "DESSERTS",
-                "des": ""
-            },
+        "mdesc": {  
             "PASTA": {
                 "section": "PASTA",
                 "des": "",
                 "img": "SPAGHETTI"
-            },
-            "MEATLOVERS": {
-                "section": "MEATLOVERS",
-                "des": "",
-                "img": "meatlovers"
-            },
-            "POMMESFRITES": {
-                "section": "POMMESFRITES",
-                "des": "Alle Fritten werden mit einem Dip nach Wahl serviert.",
-                "img": "POMMESFRITES"
-            },
-            "SAUCEN": {
-                "section": "SAUCEN",
-                "des": "",
-                "img": "SAUCEN"
-            },
-            "FRENCHTAOCS": {
-                "section": "FRENCHTAOCS",
-                "des": "Alle French-Tacos werden mit Pommes frites, Gouda und Spezialsauce zubereitet.",
-                "img": "int_tacos"
-            },
-            "BURGER": {
-                "section": "BURGER",
-                "des": "Alle Burger werden mit 100% handmade Halal Beef zubereitet.",
-                "img": "BURGER"
-            },
-            "BURGERMENU": {
-                "section": "BURGERMENU",
-                "des": "Alle Menüs werden mit Pommes frites, Dip nach Wahl und einem alkoholfreien Getränk 0,33l nach Wahl serviert.",
-                "img": "BURGERMENU"
             },
             "BAGUETTE": {
                 "section": "BAGUETTE",
@@ -4317,18 +4284,6 @@
             "SCHNITZEL": {
                 "section": "SCHNITZEL",
                 "des": "Alle Schnitzel mit Pommes oder Twister als Beilage"
-            },
-            "CALZONE": {
-                "section": "CALZONE",
-                "des": "gefüllt und Zusammen geklappt"
-            },
-            "GRILLGERICHTE": {
-                "section": "GRILLGERICHTE",
-                "des": "Alle Gerichte mit Pommes od. Reis und Salat als Beilage"
-            },
-            "Frenchtacos": {
-                "section": "Frenchtacos",
-                "des": "Frisch gegrillter Weizentortilla gefüllt mit"
             },
             "GETRÄNKE": {
                 "section": "GETRÄNKE",

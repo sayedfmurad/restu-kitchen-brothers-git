@@ -10,7 +10,8 @@ export function Container(){
     {
         const MyLang = langswitch.langswitchs("aboutus");
         const menu = langswitch.getJson("menu")
-        setTimeout(() => {setkontakt(
+        setTimeout(() => {
+            setkontakt(
             <div className="row">
             <div className="col-12"><h2 className="text">{MyLang["about us"]}:</h2></div>
             <div className="col-md-2 col-sm-2 col-xs-6 text"><h5>{MyLang["telefon"]}</h5></div>
@@ -21,9 +22,7 @@ export function Container(){
                 <div className="row"><h6 className="text">{menu["staticValue"]["kontakt"]["name"]}</h6></div>
                 <div className="row"><h6 className="text">{menu["staticValue"]["kontakt"]["street"]}</h6></div>
                 <div className="row"><h6 className="text">{menu["staticValue"]["kontakt"]["zipc"]+" "+menu["staticValue"]["kontakt"]["city"]}</h6></div>
-            </div>
-
-                
+            </div>                
             </div>
             {/* <div className='col-12 p-2 m-3'>
             <a className='btn btn-primary text-white' href="./html/policyprivacyweb.html">Datenschutz</a>
@@ -45,6 +44,7 @@ export default ()=> {
         <link href="./mystyles/aboutus.css" rel="stylesheet" />
     </Head> 
     <MyNavbar/>
+
     <Container/>
     </>)
 }

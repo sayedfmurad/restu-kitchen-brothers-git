@@ -13,10 +13,7 @@ export default function success() {
     }
 return(
     <>
-    <Head>
-
-    </Head>
-    <MyNavbar/>
+    {/* <MyNavbar/> */}
     <div className="container mt-5">
         <div className="row g-3 m-3 ">
             <div  className="col-md-4">  

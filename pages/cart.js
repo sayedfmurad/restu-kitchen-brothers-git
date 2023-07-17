@@ -371,16 +371,16 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     <PaymentMethods spaterodernow={spaterodernow} textabohlen={textabohlen} MsgError={MsgError} menu={menu} />
     </>
 }
-export function Container({mSetContainer,or,menu}){
+export function Container({setContainerCartModal,setContainerCustimizeModal,mSetContainer,or,menu}){
     const [MsgError,setMsgError] = useState("")
     var [textabohlen,settextabohlen] = useState(false);
     const [AddAddressComponent,SetAddAddressComponent]=useState(<AddAddress textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMsgError={setMsgError}/>)
     useEffect(()=>{
-        SetAddAddressComponent(<AddAddress textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMsgError={setMsgError}/>)
+        SetAddAddressComponent(<AddAddress setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMsgError={setMsgError}/>)
     },[textabohlen])
     
     return  <>
-    <MyNavbar menu={menu} IsCartSection="" mSetContainer={mSetContainer}  options={
+    {/* <MyNavbar menu={menu} IsCartSection="" mSetContainer={mSetContainer}  options={
                         [
                             <a onClick={()=>{
                                 langswitch.ChangeGetParameters("Sections")                           
@@ -390,9 +390,10 @@ export function Container({mSetContainer,or,menu}){
                             }} className="btn btn-secondary" id='navbarBack' >Zurück</a>                                                 
                         ]                        
                         }  
-            />
+            /> */}
     <div className={`container mt-3 `} id="MainIdd">
     {AddAddressComponent}
+    
     <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
     </div>
     <div className={`container mt-3 d-none`} id="SpinnerId">
@@ -408,12 +409,12 @@ export function Container({mSetContainer,or,menu}){
 
 
 
-export function MenuIsReady ({mSetContainer,menu}) {
+export function MenuIsReady ({mSetContainer,menu,setContainerCartModal,setContainerCustimizeModal}) {
     const [mContainer,SetContainer] = useState(<></>)
     useEffect(()=>{
         langswitch.GetJsonM("order").then((orders)=>{
             try {
-                SetContainer(<Container or={orders} menu={menu} mSetContainer={mSetContainer}/>)
+                SetContainer(<Container setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal} or={orders} menu={menu} mSetContainer={mSetContainer}/>)
             } catch (error) {
             console.log(error)    
             window.location.href=langswitch.RouteP("")
@@ -426,12 +427,12 @@ export function MenuIsReady ({mSetContainer,menu}) {
     );
 }
 
-export default function Cart({mSetContainer}) {  
+export default function Cart({mSetContainer,setContainerCartModal,setContainerCustimizeModal}) {  
     const [Container,SetContainer] = useState(<></>)
     useEffect(()=>{
         langswitch.GetJsonM("menu").then((menu)=>{
             try {
-                SetContainer(<MenuIsReady menu={menu} mSetContainer={mSetContainer}/>)
+                SetContainer(<MenuIsReady setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu} mSetContainer={mSetContainer}/>)
             } catch (error) {
             console.log(error)    
             window.location.href=langswitch.RouteP("")

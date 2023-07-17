@@ -71,7 +71,7 @@ if(menu["staticValue"]["key"]!="westendgrillundpizza" &&
     menu["staticValue"]["key"]!="pizzeria-dino"
     ) 
     rows.push(<>{IfRestuOpen(menu)}</>)
-
+  if("rabat" in menu)
   if(menu["rabat"] != "")
   {
           rows.push(            
@@ -200,7 +200,7 @@ export default function Sections({menu})
   // </a> 
   // var element = document.getElementById("logoid")
   // element.innerHTML = '<h5><a href="./" class="text-white">'+menu["staticValue"]["logo"]+'</a></h5> '  
-
+    
 
   SetContainer(
     <>

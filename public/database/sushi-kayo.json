@@ -983,6 +983,7 @@
         "ac": "iahkt304zbv5emp",
         "logo": "Sushi Kayo",
         "key": "sushi-kayo",    
+        "logoimg":"",
         "ps":"wrjCssObw57Dh8OHwqTDhsOww4zDlcOcwrXDj8K2w5LCscOBwrnCncOGwrzCvMObw5bDqcOPw4vDhsOUw4jDh8Obw5_Cs8OZwrbDn8OQwqrCpMKcw5rDiMOJwqzCnMKgwpbCtsK-w4bDocKowqvDk8Kfw4rCucOQw4XDocK5w4bDlcK_wrHDpMORwqDDlMKqw6DDiMOlwpzDm8KwwrjDoA==",
         "pc": "AWTPzgcyZjm7AT6J2sEPGgcTWMCYdm4AGyUSZk1nkuUATVg7xvulTwJQD5avSVtjEzUhNOtQHudJI4xn",    
         "rabat": "",
@@ -1033,7 +1034,7 @@
         "opendays": {
             "sunday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 15,
                     "min": 0
                 },
                 "closetime": {
@@ -1043,7 +1044,7 @@
             },
             "monday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 15,
                     "min": 0
                 },
                 "closetime": {
@@ -1053,7 +1054,7 @@
             },
             "tuesday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 15,
                     "min": 0
                 },
                 "closetime": {
@@ -1063,7 +1064,7 @@
             },
             "thursday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 15,
                     "min": 0
                 },
                 "closetime": {
@@ -1073,7 +1074,7 @@
             },
             "friday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 15,
                     "min": 0
                 },
                 "closetime": {
@@ -1083,7 +1084,7 @@
             },
             "saturday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 15,
                     "min": 0
                 },
                 "closetime": {

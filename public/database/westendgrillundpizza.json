@@ -2669,6 +2669,11 @@
         }
     },
     "staticValue": {
+        "closed":"",
+        "alerts":[            
+            {"text":"Liebe Kunden wir machen Urlaub vom 23.06.2023 bis 09.08.2023",
+             "class":"alert alert-danger"}
+        ],
         "key": "westendgrillundpizza",
         "pc": "AfuSl7LqNnZtAwNFZ-PVW56KYsaBJvrg1USrJj1_7evZzCqGcXXktUWyRi6pKBlpa3PEVDyps8CeJD8i",
         "ps": "wrjCrMOIw4bCmsOMwqLCv8Krw4HCmsKhw47CvMOJw57DpMOJwqPDl8OEwprCssKawqfCnMORw4nClsKew4XCsMKaw4TCt8OZw5bDiMOHwqnDp8KVw4LCuMObwrrCu8K-w4jDpcKzwqPCvMOewrrDmMK_wpzDk8K6wpvDp8OYw5zDhMKywqbDlsKzw4HCs8Oiwr3CmMOhwrjDgsKXw57DoA==",
@@ -2800,6 +2805,57 @@
             "BAGUETTE": {
                 "section": "BAGUETTE",
                 "des": "Alle mit Remoulade"
+            },
+            "WARME VORSPEISEN": {
+                "section": "WARME VORSPEISEN",
+                "des": "Alle mit Remoulade"
+            },
+            "KALTE VORSPEISEN": {
+                "section": "KALTE VORSPEISEN",
+                "des": "Alle mit Remoulade"
+            },
+            "HAMBURGER": {
+                "section": "HAMBURGER",
+                "des": "Alle mit Remoulade"
+            },
+            "FINGER FOODS": {
+                "section": "FINGER FOODS",
+                "des": "Alle mit Remoulade"
+            },
+            "SUPPEN": {
+                "section": "SUPPEN",
+                "des": "Alle mit Remoulade"
+            },
+            "DREHSPIESS": {
+                "section": "DREHSPIESS",
+                "des": "Alle mit Remoulade"
+            },
+            "SPAGHETTI": {
+                "section": "SPAGHETTI",
+                "des": "Alle mit Remoulade"
+            },
+            "GETRÄNKE": {
+                "section": "GETRÄNKE",
+                "des": "Alle mit Remoulade",
+                "GETRÄNKE":"GETRANKE"
+            },
+            "DESSERTS": {
+                "section": "DESSERTS",
+                "des": "Alle mit Remoulade"
+            },
+            "PENNE NUDELN": {
+                "section": "PENNE NUDELN",
+                "des": "Alle mit Remoulade",
+                "img":"PENNE_NUDELN"
+            },
+            "PFANNEGERICHTE": {
+                "section": "PFANNEGERICHTE",
+                "des": "Alle mit Remoulade"
+            },
+            "AUFLÄUFE": {
+                "section": "AUFLÄUFE",
+                "des": "Alle mit Remoulade",
+                "img":"AUFLAUFE"
             },
             "PIZZEN": {
                 "section": "PIZZEN",

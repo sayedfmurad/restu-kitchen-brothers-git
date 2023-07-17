@@ -5,6 +5,9 @@ import hash from "../Utils/object_hash"
 import React, { useState, useEffect } from 'react';
 import Sectionmenu from './sectionmenu';
 import Cart from '@/pages/cart';
+import ButtonCartContainer from "./ButtonCartContainer"
+
+
 export function CountComponent ({count, setCount, MyLang}) {    
     return <div className='list-group'>
     <div className='list-group-item d-flex justify-content-between'>
@@ -207,7 +210,7 @@ export function MsgComponent ({MyLang,orderid,orders}) {
     msg = orders[orderid]["msg"]
     return <div className={`list-group `}>
     <div className='list-group-item'>
-    <textarea id="textareamsg" style={{"width":"20rem"}} placeholder={MyLang["leavemsg"]} maxLength={50} >          
+    <textarea id="textareamsg" style={{"width":"100%"}} placeholder={MyLang["leavemsg"]} maxLength={50} >          
     {msg}
     </textarea>
     </div>
@@ -222,22 +225,19 @@ export function PriceComponent ({price,MyLang}) {
     return <></>
 }
 
-export function OrdersisReady ({id,menu,orders,MyLang,SetContainer}) {   
+
+export function OrderIDisReady ({id,menu,orders,MyLang,SetContainer}) {
     var [id, setid]=useState(id);  
     var orderid = ""
-    return <OrderIDisReady SetContainer={SetContainer} setid={setid} menu={menu} orders={orders} id={id} orderid={orderid}/>
-
-}
-export function OrderIDisReady ({menu,orders,MyLang,setid,id,SetContainer}) {
           var [orderid, setorderid]=useState("");
     useEffect(()=>{
             if (id in orders)      
             {                                 
                 setid(orders[id]["id"])
-                document.getElementById("navbarBack").onclick = () => {
-                    langswitch.ChangeGetParameters("cart")                                           
-                    SetContainer(<Cart mSetContainer={SetContainer} />)
-                  };
+                // document.getElementById("navbarBack").onclick = () => {
+                //     langswitch.ChangeGetParameters("cart")                                           
+                //     SetContainer(<Cart mSetContainer={SetContainer} />)
+                //   };
                 setorderid(id)
                 return
             }
@@ -247,7 +247,7 @@ export function OrderIDisReady ({menu,orders,MyLang,setid,id,SetContainer}) {
     },[])
       
   
-    return <>{orderid !== "" && <IDisReady menu={menu} orders={orders} id={id} orderid={orderid}/>}</>
+    return <>{orderid !== "" && <IDisReady  menu={menu} orders={orders} id={id} orderid={orderid}/>}</>
 
 }
 
@@ -318,7 +318,13 @@ export function IDisReady ({menu, id, orderid , orders}) {
         var hashs = hash(order);                            
         orders[(orderid in orders?orderid:hashs)]=order
         window.localStorage.setItem("order",JSON.stringify(orders))
-        document.getElementById("navbarBack").click()
+        document.getElementById('btn-close-CustomizeModal').click()   
+
+        if(orderid in orders)
+        setTimeout(() => {            
+            document.getElementById('fixedendidcart').click()   
+        }, 500);
+                     
     }
      
 
@@ -341,7 +347,7 @@ export function IDisReady ({menu, id, orderid , orders}) {
 <br/>
 
 </div> 
-<button onClick={addOrder} class="fixed-bottom btn btn-success">{addButtonText}</button>
+<button onClick={addOrder} class="border-success fixed-bottom btn btn-success rounded-0">{addButtonText}</button>
 </>
 }
 
@@ -352,8 +358,8 @@ export function JsonIsReady({id,menu,MyLang,SetContainer}){
         langswitch.GetJsonM("order").then((m)=>{
             setorder(m)
         }) 
-    },[])
-    return <>{orders !== "" && <OrdersisReady SetContainer={SetContainer} id={id} menu={menu} MyLang={MyLang}  orders={orders} />}</>
+    },[])    
+    return <>{orders !== "" && <OrderIDisReady  SetContainer={SetContainer} id={id} menu={menu} MyLang={MyLang}  orders={orders} />}</>
     
 }
 
@@ -361,7 +367,7 @@ export default function c({menu,id,SetContainer,bnb}) {
     const MyLang = langswitch.langswitchs("customizeorder");
     return (
         <>
-            <Head>                
+            {/* <Head>                
                 <link href="./mystyles/customizeorder.css" rel="stylesheet" />
             </Head>
             <MyNavbar menu={menu} mSetContainer={SetContainer}  options={
@@ -377,7 +383,7 @@ export default function c({menu,id,SetContainer,bnb}) {
                             }} className="btn btn-secondary" id='navbarBack' >Zurück</a>                                                 
                         ]                        
                         }  
-            />
+            /> */}
             <JsonIsReady id={id} SetContainer={SetContainer} menu={menu} MyLang={MyLang} />
         </>
     );

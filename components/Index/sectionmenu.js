@@ -30,7 +30,7 @@ export default function Sectionmenu({SetContainer,menu,bnb}) {
       var descriptionO = menu["product"][key]["desO"] !=undefined?<div className="col-12 ">{menu["product"][key]["desO"]}</div>:"";
       rows2.push(  
        
-          <a style={{"min-height":"3.5rem","backgroundColor":"rgb(255 255 255 / 19%)"}}           
+          <a style={{"min-height":"3.5rem"}}           
           onClick={SelectClicked}
           data-key={key} 
           className="p-2 rounded col-lg-8 col-md-12 col-sm-12 col-xs-12 mx-auto mb-2 text-light p-1">   

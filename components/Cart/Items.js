@@ -3,30 +3,44 @@ import langswitch from "../Utils/langswitch"
 import Sections from "../Index/sections"
 import Cart from "../../pages/cart"
 import CustomizeOrder from "../Index/customizeorder"
-export default function Items({mSetContainer,menu,textabohlen}){
+export default function Items({setContainerCustimizeModal,setContainerCartModal,mSetContainer,menu,textabohlen}){
     const EditItem= e=>{
         var tt = e.target.getAttribute("data-ordid");            
         var section = e.target.getAttribute("data-section");    
-        langswitch.ChangeGetParameters("CustomizeOrder:::"+section+":::"+tt)
-        mSetContainer(<CustomizeOrder menu={menu} id={tt} SetContainer={mSetContainer} bnb={section}/>)
+        // langswitch.ChangeGetParameters("CustomizeOrder:::"+section+":::"+tt)
+        document.getElementById("btn-close-CartModal").click()
+        setContainerCustimizeModal(<></>)
+      setTimeout(() => {
+        setContainerCustimizeModal(          
+          <CustomizeOrder  menu={menu} id={tt} bnb={section}/>
+        )
+        
+         var myModal = new bootstrap.Modal(document.getElementById("CustomizeModal"), {
+          keyboard: true
+        })    
+        myModal.show()  
+      history.pushState({}, '');
+
+      }, 50);
+        // mSetContainer(<CustomizeOrder menu={menu} id={tt} SetContainer={mSetContainer} bnb={section}/>)
     }
     const RemoveItem= e=>{
         var tt = e.target.getAttribute("data-ordid");            
         var or = langswitch.getJson("order")
         
         delete or[tt];
-        console.log(or)
         window.localStorage.setItem("order",JSON.stringify(or));
         if(Object.keys(or).length ==0)
         {
             langswitch.ChangeGetParameters("Sections")                           
-            mSetContainer(<Sections menu={menu}/>)
+            document.getElementById("btn-close-CartModal").click()
+
             return 
         }else{
-            mSetContainer(<></>)
+            setContainerCartModal(<></>)
             setTimeout(() => {
                 langswitch.ChangeGetParameters("cart")                                           
-                mSetContainer(<Cart mSetContainer={mSetContainer}/>)    
+                setContainerCartModal(<Cart setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal}/>)    
             }, 50);    
         }                
     } 
@@ -76,7 +90,8 @@ export default function Items({mSetContainer,menu,textabohlen}){
         {
             if(menu["rabat"]!="")
             {
-                var rabb = sum*0.05
+                var rabb = sum*(parseInt(menu["rabat"]))/100
+                // rabb = rabb.toFixed(2)
                 sum = sum - rabb
                 rabb = langswitch.ftos(rabb)            
                 crows.push(

@@ -3,226 +3,191 @@ import Script from 'react-load-script'
 import langswitch from "../Utils/langswitch"
 import hash from "../Utils/object_hash"
 import Items from "./Items"
-class LocationMap extends Component {
-   setCursorAfterWord(word) {
-    const input = document.getElementById('address-input');
-    const value = input.value;
-  
-    // Find the index of the word in the value string
-    const wordIndex = value.indexOf(word);
-  
-    if (wordIndex !== -1) {
-      // Set the focus on the input element
-      input.focus();
-  
-      // Set the cursor position after the word
-      const cursorPosition = wordIndex + word.length;
-  
-      // Insert a whitespace character after the cursor position
-      input.setRangeText(' ', cursorPosition, cursorPosition);
-  
-      // Move the cursor one position after the whitespace
-      input.setSelectionRange(cursorPosition + 1, cursorPosition + 1);
-      const notification = document.getElementById('notification');
-      notification.style.display = 'block';
-
-      
-    }
-  }
-  
-
-    handleScriptLoad() {
-        const inputEl = document.getElementById('address-input');
-
-        /*global google*/
-        var options = {
-            //types: ['address'],
-            componentRestrictions: {country: 'de'}
-        };
-        this.autocomplete = new google.maps.places.Autocomplete(inputEl, options);
-        this.autocomplete.addListener('place_changed', this.handlePlaceSelect.bind(this));
-    }
-    degreesToRadians=(degrees)=>{
-      return degrees * Math.PI / 180;
-    };
-    calculateDistance=(lat1, lon1, lat2, lon2)=>{
-      var earthRadiusKm = 6371;
-
-      var dLat = this.degreesToRadians(lat2-lat1);
-      var dLon = this.degreesToRadians(lon2-lon1);
-    
-      lat1 = this.degreesToRadians(lat1);
-      lat2 = this.degreesToRadians(lat2);
-    
-      var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-              Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(lat1) * Math.cos(lat2); 
-      var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
-      return earthRadiusKm * c;
-  };
-    handlePlaceSelect() { 
-      
-            var {textabohlen,menu,setMsgError,setMainContainer,mSetContainer} = this.props
-
-            var place = this.autocomplete.getPlace()                
-            var obj = {}
-            if(typeof place === "undefined")
-            {
-              setMsgError("Bitte ein Addresse auswahlen")
-              return false
-            }
-            if(!place.geometry)
-            {
-                document.getElementById('address-input').placeholder='Suche für eine Addresse';
-                return 
-            }
-            else
-            {
-                for(var ii in place.address_components)
-                {
-                    for(var tt in place.address_components[ii].types)
-                    {
-                        switch(place.address_components[ii].types[tt])
-                        {
-                            case "street_number":
-                              obj["housenumber"]=place.address_components[ii].long_name;
-                            break;
-                            case "route":
-                              obj["street"]=place.address_components[ii].long_name;
-                            break;
-                            case "postal_code":
-                              obj["zipc"]=place.address_components[ii].long_name;
-                            break;
-                            case "administrative_area_level_3":
-                              obj["city"]=place.address_components[ii].long_name;
-                                break;
-                    }
-                    }
-                }
-            }
+import Autocomplete from "react-google-autocomplete";
 
 
-
-            obj["place_id"] = place.place_id;
-            obj['lng'] = place.geometry.location.lng();
-            obj['lat'] = place.geometry.location.lat();
-            obj['distance'] = this.calculateDistance(menu['staticValue']['latlng']['lat'],menu['staticValue']['latlng']['lng'],obj['lat'],obj['lng']);                        
-
-            var isAllowedDistance = false;
-            var lastAvailabeDistance = "km"
-            for(var ddd in menu["staticValue"]["minpriceorder"])
-            {
-                if(obj['distance']>=menu["staticValue"]["minpriceorder"][ddd]["distance"]["min"]&&
-                obj['distance']<menu["staticValue"]["minpriceorder"][ddd]["distance"]["max"])
-                {
-                    obj['kosten'] = menu["staticValue"]["minpriceorder"][ddd]["lieferkosten"]
-                    obj['minpriceorder'] = menu["staticValue"]["minpriceorder"][ddd]["price"]
-                    isAllowedDistance= true;
-
-                    break;
-            }
-            lastAvailabeDistance = menu["staticValue"]["minpriceorder"][ddd]["distance"]["max"]+" "
-            }
-            if(obj["street"]==""||obj["housenumber"]==""||obj["zipc"]==""||!isAllowedDistance)    
-            {
-                if(!isAllowedDistance)
-                {
-                  setMsgError("Die eingetragene Adresse hat mehr als "+lastAvailabeDistance +"km abstand, Tragen Sie bitte eine andere Adresse");
-                  return false
-                }
-                else{
-                  setMsgError("Bitte wählen Sie eine Adresse aus");
-                  return false
-                }
-              }
-
-              if(!("housenumber" in obj))
-              {
-                this.setCursorAfterWord(obj["street"])
-                setMsgError("Bitte tragen Sie ein Hausnummer ein");              
-                return false
-              }
-              
-              const notification = document.getElementById('notification');
-              notification.style.display = 'none';
-
-              obj["fname"] = document.getElementById("fname").value
-              obj["lname"] = document.getElementById("lname").value 
-              obj["phonen"] =document.getElementById("phonen").value  
-              obj["firma"] =document.getElementById("firma").value  
-
-      
-              setMsgError("")
-              var addr = langswitch.getJson("address"); 
-                var hashs = hash(obj);
-                addr[hashs] = obj;
-                window.localStorage.setItem("seladdress", hashs);
-                window.localStorage.setItem("address", JSON.stringify(addr));
-                setMainContainer(<UserHasData textabohlen={textabohlen} menu={menu} setMainContainer={setMainContainer} setMsgError={setMsgError} mSetContainer={mSetContainer}/>)
-              return true
-    }
-
-    CheckIfSomeFieldsAreEmpty=()=>{
-      var obj={}
-      obj["fname"] = document.getElementById("fname").value
-      obj["lname"] = document.getElementById("lname").value 
-      obj["phonen"] =document.getElementById("phonen").value  
-      if(obj["fname"]=="")
-      {
-        var elementt = document.getElementById("fname")
-        elementt.scrollIntoView({ behavior: "smooth", block: "start" });
-        elementt.focus()                
-        alert("Bitte tragen Sie einen Vornamen ein")
-        return false
-      }
-      if(obj["lname"]=="")
-      {
-        var elementt = document.getElementById("lname")
-        elementt.scrollIntoView({ behavior: "smooth", block: "start" });
-        elementt.focus()                
-        alert("Bitte tragen Sie einen Nachnamen ein")
-        return false
-      }
-      if(obj["phonen"]=="")
-      {
-        var elementt = document.getElementById("phonen")
-        elementt.scrollIntoView({ behavior: "smooth", block: "start" });
-        elementt.focus()                
-        alert("Bitte tragen Sie einen Handynummer ein")
-        return false
-      }    
-    }
-    
-    render() {
-        return (
-            <section>
-                <Script
-                    url="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmGxjz66ljEkb7bGc6zoD9iXYrZS0m_t4&v=3.33&libraries=places&language=de&region=US"
-                    onLoad={this.handleScriptLoad.bind(this)}
-                />        
-
-                <div className="form-group">
-                    <input type="text"                    
-                           placeholder='Such für eine Addresse'
-                           className="form-control form-select"
-                           id="address-input"
-                           onFocus={this.CheckIfSomeFieldsAreEmpty}
-                           name="address" />
-                </div>
-                <div class="alert alert-danger mt-3" role="alert" id="notification" style={{display:"none"}}>
-                Bitte tragen Sie Eine Hausenummer ein, und dann wählen Sie die gewünschte Adresse
-                </div>
-            </section>
-        );
-    }
-}
 
 import { useState } from 'react';
 
+const CheckIfSomeFieldsAreEmpty=()=>{
+  var obj={}
+  obj["fname"] = document.getElementById("fname").value
+  obj["lname"] = document.getElementById("lname").value 
+  obj["phonen"] =document.getElementById("phonen").value  
+  if(obj["fname"]=="")
+  {
+    var elementt = document.getElementById("fname")
+    elementt.scrollIntoView({ behavior: "smooth", block: "start" });
+    elementt.focus()                
+    alert("Bitte tragen Sie einen Vornamen ein")
+    return false
+  }
+  if(obj["lname"]=="")
+  {
+    var elementt = document.getElementById("lname")
+    elementt.scrollIntoView({ behavior: "smooth", block: "start" });
+    elementt.focus()                
+    alert("Bitte tragen Sie einen Nachnamen ein")
+    return false
+  }
+  if(obj["phonen"]=="")
+  {
+    var elementt = document.getElementById("phonen")
+    elementt.scrollIntoView({ behavior: "smooth", block: "start" });
+    elementt.focus()                
+    alert("Bitte tragen Sie einen Handynummer ein")
+    return false
+  }    
+}
+const GotPlace=(place,textabohlen,mSetContainer,setMsgError,setMainContainer,menu)=> {
+   const  setCursorAfterWord=(word)=> {
+     const input = document.getElementById('address-input');
+     const value = input.value;
+   
+     // Find the index of the word in the value string
+     const wordIndex = value.indexOf(word);
+   
+     if (wordIndex !== -1) {
+       // Set the focus on the input element
+       input.focus();
+   
+       // Set the cursor position after the word
+       const cursorPosition = wordIndex + word.length;
+   
+       // Insert a whitespace character after the cursor position
+       input.setRangeText(' ', cursorPosition, cursorPosition);
+   
+       // Move the cursor one position after the whitespace
+       input.setSelectionRange(cursorPosition + 1, cursorPosition + 1);
+       const notification = document.getElementById('notification');
+       notification.style.display = 'block';
+ 
+       
+     }
+   }   
+    const degreesToRadians=(degrees)=>{
+       return degrees * Math.PI / 180;
+     };
+     const calculateDistance=(lat1, lon1, lat2, lon2)=>{
+       var earthRadiusKm = 6371;
+ 
+       var dLat = degreesToRadians(lat2-lat1);
+       var dLon = degreesToRadians(lon2-lon1);
+     
+       lat1 = degreesToRadians(lat1);
+       lat2 = degreesToRadians(lat2);
+     
+       var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+               Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(lat1) * Math.cos(lat2); 
+       var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+       return earthRadiusKm * c;
+   };
+            //  var place = autocomplete.getPlace()                
+             var obj = {}
+             if(typeof place === "undefined")
+             {
+               setMsgError("Bitte ein Addresse auswahlen")
+               return false
+             }
+             if(!place.geometry)
+             {
+                 document.getElementById('address-input').placeholder='Suche für eine Addresse';
+                 return 
+             }
+             else
+             {
+                 for(var ii in place.address_components)
+                 {
+                     for(var tt in place.address_components[ii].types)
+                     {
+                         switch(place.address_components[ii].types[tt])
+                         {
+                             case "street_number":
+                               obj["housenumber"]=place.address_components[ii].long_name;
+                             break;
+                             case "route":
+                               obj["street"]=place.address_components[ii].long_name;
+                             break;
+                             case "postal_code":
+                               obj["zipc"]=place.address_components[ii].long_name;
+                             break;
+                             case "administrative_area_level_3":
+                               obj["city"]=place.address_components[ii].long_name;
+                                 break;
+                     }
+                     }
+                 }
+             }
+ 
+ 
+ 
+             obj["place_id"] = place.place_id;
+             obj['lng'] = place.geometry.location.lng();
+             obj['lat'] = place.geometry.location.lat();
+             obj['distance'] = calculateDistance(menu['staticValue']['latlng']['lat'],menu['staticValue']['latlng']['lng'],obj['lat'],obj['lng']);                        
+ 
+             var isAllowedDistance = false;
+             var lastAvailabeDistance = "km"
+             for(var ddd in menu["staticValue"]["minpriceorder"])
+             {
+                 if(obj['distance']>=menu["staticValue"]["minpriceorder"][ddd]["distance"]["min"]&&
+                 obj['distance']<menu["staticValue"]["minpriceorder"][ddd]["distance"]["max"])
+                 {
+                     obj['kosten'] = menu["staticValue"]["minpriceorder"][ddd]["lieferkosten"]
+                     obj['minpriceorder'] = menu["staticValue"]["minpriceorder"][ddd]["price"]
+                     isAllowedDistance= true;
+ 
+                     break;
+             }
+             lastAvailabeDistance = menu["staticValue"]["minpriceorder"][ddd]["distance"]["max"]+" "
+             }
+             if(obj["street"]==""||obj["housenumber"]==""||obj["zipc"]==""||!isAllowedDistance)    
+             {
+                 if(!isAllowedDistance)
+                 {
+                   setMsgError("Die eingetragene Adresse hat mehr als "+lastAvailabeDistance +"km abstand, Tragen Sie bitte eine andere Adresse");
+                   return false
+                 }
+                 else{
+                   setMsgError("Bitte wählen Sie eine Adresse aus");
+                   return false
+                 }
+               }
+ 
+               if(!("housenumber" in obj))
+               {
+                 setCursorAfterWord(obj["street"])
+                 setMsgError("Bitte tragen Sie ein Hausnummer ein");              
+                 return false
+               }
+               
+               const notification = document.getElementById('notification');
+               notification.style.display = 'none';
+ 
+               obj["fname"] = document.getElementById("fname").value
+               obj["lname"] = document.getElementById("lname").value 
+               obj["phonen"] =document.getElementById("phonen").value  
+               obj["firma"] =document.getElementById("firma").value  
+ 
+       
+               setMsgError("")
+               var addr = langswitch.getJson("address"); 
+                 var hashs = hash(obj);
+                 addr[hashs] = obj;
+                 window.localStorage.setItem("seladdress", hashs);
+                 window.localStorage.setItem("address", JSON.stringify(addr));
+                 setMainContainer(<UserHasData textabohlen={textabohlen} menu={menu} setMainContainer={setMainContainer} setMsgError={setMsgError} mSetContainer={mSetContainer}/>)
+               return true
+          
+ 
+}
+
 
 export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer,mSetContainer}) {
-  const MyLang = langswitch.langswitchs("addaddress");  
+  const MyLang = langswitch.langswitchs("addaddress");      
 
-  
+
+
       
   return<div className="container mt-4">
   <div className="row p-3 g-2">            
@@ -247,17 +212,33 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer,
   </div>            
   </div>            
   <div className='col-12'>
-  <LocationMap textabohlen={textabohlen} mSetContainer={mSetContainer} setMsgError={setMsgError} setMainContainer={setMainContainer} menu={menu} />          
+  <Autocomplete
+  placeholder='Such für eine Addresse'
+  id="address-input"
+  class="input-group form-control form-select"
+  onFocus={CheckIfSomeFieldsAreEmpty}
+  options={{
+    types: ["geocode", "establishment"],
+    componentRestrictions: { country: "de" },
+  }}
+  apiKey="AIzaSyDmGxjz66ljEkb7bGc6zoD9iXYrZS0m_t4"
+  onPlaceSelected={(place) => {
+    GotPlace(place,textabohlen,mSetContainer,setMsgError,setMainContainer,menu);
+  }}
+/>
+<div class="alert alert-danger mt-3" role="alert" id="notification" style={{display:"none"}}>
+                 Bitte tragen Sie Eine Hausenummer ein, und dann wählen Sie die gewünschte Adresse
+                 </div>
   </div>            
   </div>                             
 </div>
   
 }
 
-export function UserHasNoData ({textabohlen,menu,setMsgError,setMainContainer,mSetContainer}) {
+export function UserHasNoData ({setContainerCustimizeModal,setContainerCartModal,textabohlen,menu,setMsgError,setMainContainer,mSetContainer}) {
   
   return <>
-  <Items textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>  
+  <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>  
   <div className={`list-group`}>                
   <div className='list-group-item mb-3'>
   <GotJsonDataMenu textabohlen={textabohlen} mSetContainer={mSetContainer} setMainContainer={setMainContainer}  setMsgError={setMsgError} menu={menu}/>
@@ -266,13 +247,13 @@ export function UserHasNoData ({textabohlen,menu,setMsgError,setMainContainer,mS
   </>
 }
 
-export function UserHasData ({textabohlen,menu,mSetContainer,setMainContainer,setMsgError}) {
+export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,textabohlen,menu,mSetContainer,setMainContainer,setMsgError}) {
 
   var addresses = langswitch.getJson("address")
   var seladd = langswitch.getValue("seladdress")
 
       return<>
-          <Items textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>
+          <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>
           <div className={`list-group`}>                
           <div className='list-group-item'>                
           <div className="row mb-3">
@@ -302,17 +283,17 @@ export function UserHasData ({textabohlen,menu,mSetContainer,setMainContainer,se
           
 }
 
-export default ({textabohlen,setMsgError,mSetContainer,menu})=>{  
+export default ({setContainerCartModal,setContainerCustimizeModal,textabohlen,setMsgError,mSetContainer,menu})=>{  
   const [MainContainer, setMainContainer]=useState(<></>)
   var addresses = langswitch.getJson("address")
   var seladd = langswitch.getValue("seladdress")  
     if(seladd in addresses)
     {
-      return (<UserHasData textabohlen={textabohlen} menu={menu} setMsgError={setMsgError} mSetContainer={mSetContainer} setMainContainer={setMainContainer}/>)
+      return (<UserHasData setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} setMsgError={setMsgError} mSetContainer={mSetContainer} setMainContainer={setMainContainer}/>)
     }
     else
     {
-      return(<UserHasNoData textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
+      return(<UserHasNoData setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
     }
   
   

@@ -4,7 +4,8 @@ import langswitch from "../Utils/langswitch"
 import { useEffect, useState } from 'react'
 import packagee from "../../package.json"
 
-export function Container(){    
+
+export default function adsf({nextEle}){
     const MyLang = langswitch.langswitchs("navbar");
     var router = useRouter();
     router = router.pathname;
@@ -24,7 +25,12 @@ export function Container(){
                 try {
             setlogo(<>
                 <a className="navbar-brand" >                        
-                <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5>
+                {
+                "logoimg" in menu["staticValue"]?
+                <img src={"/Images/"+menu["staticValue"]["key"]+"logo.png"} height="40px"/>
+                :
+                <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5> 
+                }
                 </a>                
             </>)            
         } catch (error) {
@@ -34,10 +40,11 @@ export function Container(){
             })
      },[])
 
-
-
-    return<>
-    <nav id="mynavb" className="mb-2 navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    return <>
+        <Head>
+        <link   href={"./mystyles/global.css"} rel="stylesheet" />
+        </Head>
+    <nav id="mynavb" className=" navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="container-fluid">
         {logo}        
         <button
@@ -71,22 +78,10 @@ export function Container(){
                 </li>
             </ul>
         </div>
-    </div>
-</nav>
-<script defer src={"./scripts/bootstrap.bundle.js"} ></script>
-</>
-}
+    </div>    
+    </nav>
 
-
-export default function adsf(){
-  
-    return (
-        <>
-        <Head>
-        <link   href={"./mystyles/global.css"} rel="stylesheet" />
-        <link href={"./mystyles/mynavbar.css"} rel="stylesheet" />
-        </Head>
-        <Container/>
+    <script defer src={"./scripts/bootstrap.bundle.js"} ></script>
         </>
-    )
+    
 }

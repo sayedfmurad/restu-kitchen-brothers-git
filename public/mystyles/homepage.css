@@ -1,4 +1,38 @@
+.navbar-nav li {
 
+    display: inline-block;
+ 
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.scroll {
+  white-space: nowrap;
+  overflow-x: scroll; 
+  -webkit-overflow-scrolling: touch;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.hide{
+    display: none;
+}
+.navbar button{
+    border: none;
+}
+.nav-item p{
+    color:rgba(255, 254, 254, 0.924)!important;
+}
+body {
+    position: relative; 
+}
+.pac-container {
+    z-index: 9999 !important; /* Ensure the suggestions appear above the modal backdrop */
+  }
+  /* .pac-container{background-color:#fff;position:absolute!important;z-index:1000;border-radius:2px;border-top:1px solid #d9d9d9;font-family:Arial,sans-serif;-webkit-box-shadow:0 2px 6px rgba(0,0,0,.3);box-shadow:0 2px 6px rgba(0,0,0,.3);-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden}.pac-logo:after{content:"";padding:1px 1px 1px 0;height:18px;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:right;display:block;background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png);background-position:right;background-repeat:no-repeat;-webkit-background-size:120px 14px;background-size:120px 14px}.hdpi.pac-logo:after{background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3_hdpi.png)}.pac-item{cursor:default;padding:0 4px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:30px;text-align:left;border-top:1px solid #e6e6e6;font-size:11px;color:#515151}.pac-item:hover{background-color:#fafafa}.pac-item-selected,.pac-item-selected:hover{background-color:#ebf2fe}.pac-matched{font-weight:700}.pac-item-query{font-size:13px;padding-right:3px;color:#000}.pac-icon{width:15px;height:20px;margin-right:7px;margin-top:6px;display:inline-block;vertical-align:top;background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);-webkit-background-size:34px 34px;background-size:34px}.hdpi .pac-icon{background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png)}.pac-icon-search{background-position:-1px -1px}.pac-item-selected .pac-icon-search{background-position:-18px -1px}.pac-icon-marker{background-position:-1px -161px}.pac-item-selected .pac-icon-marker{background-position:-18px -161px}.pac-placeholder{color:gray}.pac-target-input:-webkit-autofill{-webkit-animation-name:beginBrowserAutofill;animation-name:beginBrowserAutofill}.pac-target-input:not(:-webkit-autofill){-webkit-animation-name:endBrowserAutofill;animation-name:endBrowserAutofill} */
 .a-item
 {   position: relative;
     display: block;
@@ -13,9 +47,8 @@
         background-color: var(--pane-background-color);
         color: #000;
         color: var(--pane-text-color);
-        display: block;
-        padding: 8px 16px 8px 16px;
-        margin: 12px 9px 12px 9px;
+        display: block;        
+        margin: 12px 0px 12px 0px;
         border-radius: 6px;
     }
     div.a-sub {
@@ -60,7 +93,7 @@ body{
 }
 p, .rounded{
 font-size: 1rem;  
-color: white;  
+color: darkgrey;  
 }
 .mfooter{
     position: fixed !important ;

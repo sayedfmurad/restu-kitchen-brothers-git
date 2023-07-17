@@ -23,6 +23,13 @@ export function Container(){
         var or=orders[lll]   
         var crows = [];
         var sum = 0
+
+        crows.push(
+            <li className="list-group-item d-flex justify-content-between lh-light">
+            <div className=''><h6 className=''>{"abhol" in or ? "Abholung" : "Lieferung"}</h6></div>
+            </li> 
+        )
+
         crows.push(
             <li className="list-group-item d-flex justify-content-between lh-light">
             <div className="row mb-4">
@@ -63,30 +70,47 @@ export function Container(){
                         )                          
         } 
 
-                sum+= or["address"]['kosten'];
-                crows.push(
-                    <>
-                    <li className="list-group-item d-flex justify-content-between lh-light">
-                        <div className=''><h6 className=''>{MyLang['delivery cost']}</h6></div>
-                        <span className=' text-muted'>{or["address"]['kosten']}&nbsp;&euro;                </span>                        
+                
+                if(!("abhol" in or) )
+                {
+                    sum+= or["address"]['kosten'];
+                    crows.push(
+                        <>
+                        <li className="list-group-item d-flex justify-content-between lh-light">
+                            <div className=''><h6 className=''>{MyLang['delivery cost']}</h6></div>
+                            <span className=' text-muted'>{or["address"]['kosten']}&nbsp;&euro;                </span>                        
+                            </li>
+                              <li className="list-group-item d-flex justify-content-between lh-light">
+                             <div className="row mb-4">
+                             <div className='col-12'>
+                             <h6>Lieferaddresse :</h6>
+                             </div>
+                             <div className='col-12'>
+                             <p style={{"fontSize":"0.7rem"}}>{or["address"]["fname"]}&nbsp;{or["address"]["lname"]}<br/>
+                             {or["address"]["street"]}&nbsp;{or["address"]["housenumber"]}<br/>
+                             {or["address"]["city"]}&nbsp;{or["address"]["zipc"]}<br/>
+                             {or["address"]["phonen"]}
+                             </p>
+                             </div>
+                             </div>
+                             </li>
+                             </>
+                            )
+                }
+                if(menu["rabat"]!="")
+                {
+                    var rabb = sum*(parseInt(menu["rabat"]))/100
+                    sum = sum - rabb
+                    rabb = langswitch.ftos(rabb)            
+                    crows.push(
+                        <li className="list-group-item d-flex justify-content-between lh-light">
+                            <div className='text-success'>
+                                <h6>Rabatt %{menu['rabat']}</h6>
+                            </div>                         
+                            <span className="text-success">- {rabb}&nbsp;&euro;</span>                    
                         </li>
-                          <li className="list-group-item d-flex justify-content-between lh-light">
-                         <div className="row mb-4">
-                         <div className='col-12'>
-                         <h6>Lieferaddresse :</h6>
-                         </div>
-                         <div className='col-12'>
-                         <p style={{"fontSize":"0.7rem"}}>{or["address"]["fname"]}&nbsp;{or["address"]["lname"]}<br/>
-                         {or["address"]["street"]}&nbsp;{or["address"]["housenumber"]}<br/>
-                         {or["address"]["city"]}&nbsp;{or["address"]["zipc"]}<br/>
-                         {or["address"]["phonen"]}
-                         </p>
-                         </div>
-                         </div>
-                         </li>
-                         </>
                         )
-               
+                }
             sum = langswitch.ftos(sum)                     
             crows.push(
                 <li className="list-group-item d-flex justify-content-between lh-light">
