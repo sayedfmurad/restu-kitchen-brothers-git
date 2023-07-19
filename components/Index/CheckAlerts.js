@@ -16,6 +16,7 @@ export default({menu})=>{
     for(var k in menu["staticValue"]["alerts"])
     AddRow(menu["staticValue"]["alerts"][k]["class"],menu["staticValue"]["alerts"][k]["text"])
     
+    if(!("closed" in menu["staticValue"]))
     if(!langswitch.checkOpenCloseStore(menu))    
     AddRow("alert alert-danger","Geschlossen. "+langswitch.NextOpenTimeMsg(menu))
 

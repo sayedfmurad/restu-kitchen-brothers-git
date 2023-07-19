@@ -207,7 +207,7 @@ export  function IndexPage({menu}) {
 }
 
 export default({menu})=>{
-const Componenett = "close" in menu["staticValue"]?<></>:<IndexPage menu={menu}/>
+const Componenett = "closed" in menu["staticValue"]?<></>:<IndexPage menu={menu}/>
 return <>
 <CheckAlerts menu={menu}/>
 {Componenett}
