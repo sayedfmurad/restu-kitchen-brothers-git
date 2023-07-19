@@ -1,0 +1,279 @@
+{
+    "sections": {
+        "mdesc": {
+            "Aloe Grape": {
+              "section": "Aloe Grape",
+              "des": "",
+              "img": "randm/1"
+            },
+            "Blaubeere Himbeere": {
+              "section": "Blaubeere Himbeere",
+              "des": "",
+              "img": "randm/2"
+            },
+            "Schwarz Dracheneis": {
+              "section": "Schwarz Dracheneis",
+              "des": "",
+              "img": "randm/12"
+            },
+            "Lush Eis": {
+              "section": "Lush Eis",
+              "des": "",
+              "img": "randm/3"
+            },
+            "Mr. Blau": {
+              "section": "Mr. Blau",
+              "des": "",
+              "img": "randm/4"
+            },
+            "Orangenlimonade": {
+              "section": "Orangenlimonade",
+              "des": "",
+              "img": "randm/5"
+            },
+            "Pfirsich Mango Ananas": {
+              "section": "Pfirsich Mango Ananas",
+              "des": "",
+              "img": "randm/6"
+            },
+            "Pinke Limonade": {
+              "section": "Pinke Limonade",
+              "des": "",
+              "img": "randm/7"
+            },
+            "Regenbogenbonbon": {
+              "section": "Regenbogenbonbon",
+              "des": "",
+              "img": "randm/8"
+            },
+            "Erdbeerbanane": {
+              "section": "Erdbeerbanane",
+              "des": "",
+              "img": "randm/9"
+            },
+            "Erdbeer Wassermelone": {
+              "section": "Erdbeer Wassermelone",
+              "des": "",
+              "img": "randm/10"
+            },
+            "Wassermelone Kaugummi": {
+              "section": "Wassermelone Kaugummi",
+              "des": "",
+              "img": "randm/11"
+            }
+          }
+    },
+    "product": {
+        "1": {
+          "name": "Aloe Grape",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Aloe Grape"
+        },
+        "2": {
+          "name": "Blaubeere Himbeere",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Blaubeere Himbeere"
+        },
+        "3": {
+          "name": "Schwarz Dracheneis",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Schwarz Dracheneis"
+        },
+        "4": {
+          "name": "Lush Eis",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Lush Eis"
+        },
+        "5": {
+          "name": "Mr. Blau",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Mr. Blau"
+        },
+        "6": {
+          "name": "Orangenlimonade",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Orangenlimonade"
+        },
+        "7": {
+          "name": "Pfirsich Mango Ananas",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Pfirsich Mango Ananas"
+        },
+        "8": {
+          "name": "Pinke Limonade",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Pinke Limonade"
+        },
+        "9": {
+          "name": "Regenbogenbonbon",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Regenbogenbonbon"
+        },
+        "10": {
+          "name": "Erdbeerbanane",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Erdbeerbanane"
+        },
+        "11": {
+          "name": "Erdbeer Wassermelone",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Erdbeer Wassermelone"
+        },
+        "12": {
+          "name": "Wassermelone Kaugummi",
+          "desO": "",
+          "zusatz": "",
+          "price": {
+            "stand": "20,00"
+          },
+          "section": "Wassermelone Kaugummi"
+        }
+      },
+    "staticValue": {
+        "logo": "E-ZegrateShop",
+        "logoimg":"",
+        "key": "e-zegrateshop",
+        "paymentmethod":{"paypal":{"name":"paypal","id":"paypal"}},
+        "rabat": "",
+        "minpriceorder": [
+            {
+                "distance": {
+                    "min": 0,
+                    "max": 10000
+                },
+                "price": 100000,
+                "lieferkosten": 0
+            }
+        ],
+        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/e-zegrateshop.json",
+        "zusatzStoffe": "",
+        "latlng": {
+            "lat": 51.657845,
+            "lng": 6.445473
+        },
+        "kontakt": {
+            "name": "E-ZegratesShop",            
+            "tel": "+4915751984634"
+        },
+        "opendays": {
+            "sunday": {
+                "opentime": {
+                    "hour": 1,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 59
+                }
+            },
+            "monday": {
+                "opentime": {
+                    "hour": 1,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 59
+                }
+            },
+            "tuesday": {
+                "opentime": {
+                    "hour": 1,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 59
+                }
+            },
+            "wednesday": {
+                "opentime": {
+                    "hour": 1,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 59
+                }
+            },
+            "thursday": {
+                "opentime": {
+                    "hour": 1,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 59
+                }
+            },
+            "friday": {
+                "opentime": {
+                    "hour": 1,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 59
+                }
+            },
+            "saturday": {
+                "opentime": {
+                    "hour": 1,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 59
+                }
+            }
+        }
+    },
+    "b": {
+        "c": "-978586468"
+    },
+    "rabat": ""
+}
