@@ -175,7 +175,6 @@
       },
     "staticValue": {
         "logo": "E-ZegrateShop",
-        "logoimg":"",
         "key": "e-zegrateshop",
         "paymentmethod":{"paypal":{"name":"paypal","id":"paypal"}},
         "rabat": "",
