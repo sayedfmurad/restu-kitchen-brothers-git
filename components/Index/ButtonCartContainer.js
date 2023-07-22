@@ -13,7 +13,6 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
               } 
     }  
     sum = langswitch.ftos(sum)                       
-  
     return <button  type="button" 
     id="fixedendidcart"
     onClick={()=>{
@@ -52,6 +51,7 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
     </button>
   }
   export default function ButtonCartContainer ({menu,setContainerCartModal,setContainerCustimizeModal}) {  
+
     const [orders, setorder] = useState("")
     useEffect(()=>{
         langswitch.GetJsonM("order").then((m)=>{

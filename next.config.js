@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  
+  reactStrictMode: true,
+  jsx: {
+    // Set throwIfNamespace to false to bypass the namespace tag warning
+    throwIfNamespace: false,
+  },
   devIndicators: {
     autoPrerender: false,
   },

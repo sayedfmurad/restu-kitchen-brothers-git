@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-method="position" data-offset="1">
+      <body data-bs-spy="scroll" data-bs-smoothScroll="false" data-bs-target="#navbarscroll" data-offset="50">
         <Main />
         <NextScript />
       </body>

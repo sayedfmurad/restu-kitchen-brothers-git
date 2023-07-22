@@ -8,18 +8,6 @@ import Cart from '@/pages/cart';
 import ButtonCartContainer from "./ButtonCartContainer"
 
 
-export function CountComponent ({count, setCount, MyLang}) {    
-    return <div className='list-group'>
-    <div className='list-group-item d-flex justify-content-between'>
-    {MyLang["count"]}
-    <div>
-        <a onClick={()=>{var g=count==1?1:count-1;setCount(g+"");}} className='btn btn-primary'>-</a>
-        &nbsp;&nbsp;&nbsp;{count}&nbsp;&nbsp;&nbsp;
-        <a onClick={()=>{var g=parseInt(count) +1;setCount(g+"");}} className='btn btn-primary'>+</a>
-        </div>
-    </div>
-    </div>
-}
 export function NameComponent ({menu, id}) {
     try {
         return <div className='col-12'>
@@ -284,9 +272,11 @@ export function IDisReady ({menu, id, orderid , orders}) {
     const [price,setprice]=useState(updatePriceM())    
     const UpdateAddButtonText = (ppp)=>{
         if(orderid in orders)
-        return <>{MyLang["edit"]}&nbsp;&nbsp;&nbsp;<strong>{ppp}</strong>{" €"}</>
+        return <> <img src="/Images/edit-svgrepo-com.svg" width="20" />&nbsp;&nbsp;<strong>{ppp}</strong>{" €"}</>
         else 
-        return <>{MyLang["add"]}&nbsp;&nbsp;&nbsp;<strong>{ppp}</strong>{" €"}</>
+        return <> 
+        {/* <img src="/Images/plus-svgrepo-com.svg" width="20" /> */}
+        &nbsp;&nbsp;<strong>{ppp}</strong>{" €"}</>
 
     }
     const pprice = updatePriceM()
@@ -326,16 +316,16 @@ export function IDisReady ({menu, id, orderid , orders}) {
         }, 500);
                      
     }
-     
+    
 
-
-    return <><div className="container mt-4 text-white">
+    return <>
+      <div class="modal-body">      
+    <div className="container mt-4 text-white">
 <NameComponent menu={menu} id={id} />
 
 <br/>
 <TypesComponent type={type} settype={settype} menu={menu} id={id} />
 <br/>
-<CountComponent count={count} setCount={setCount} MyLang={MyLang}/>
 <br/>
 <OptionsComponent updatePrice={updatePrice} menu={menu} id={id} orderid={orderid} or={orders}/>
 <ExtraComponent MyLang={MyLang} setextra={setextra} extra={extra} updatePrice={updatePrice} type={type} menu={menu} id={id} orderid={orderid} or={orders}/>
@@ -347,7 +337,22 @@ export function IDisReady ({menu, id, orderid , orders}) {
 <br/>
 
 </div> 
-<button onClick={addOrder} class="border-success fixed-bottom btn btn-success rounded-0">{addButtonText}</button>
+</div> 
+<div style={{"backgroundColor":"#533b3b"}} class="modal-footer d-flex justify-content-md-center justify-content-between justify-content-lg-center border-0">
+    {/* {MyLang["count"]} */}
+    <div  className='text-white fs-3'>
+        <a onClick={()=>{var g=count==1?1:count-1;setCount(g+"");}} className='btn-md btn btn-secondary rounded-5'>
+
+        <img src="/Images/icons8-minus-64.png" width="15" />
+        </a>
+        &nbsp;&nbsp;<strong>{count}</strong>&nbsp;&nbsp;
+        <a onClick={()=>{var g=parseInt(count) +1;setCount(g+"");}} className='btn-md btn btn-secondary rounded-5'>                    
+            <img src="/Images/plus-svgrepo-com.svg" width="15" />
+            </a>
+        </div>&nbsp;
+<button style={{"minWidth":'200px'}} onClick={addOrder} class="border-success rounded-5 btn btn-success btn-lg ">
+   {addButtonText}</button>
+</div>
 </>
 }
 

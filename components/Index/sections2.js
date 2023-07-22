@@ -12,7 +12,21 @@ let AddedFlagModal=false
 
 
 var navbar,navbardistance=10000
+function scrollToElement(elementId) {
+  const element = document.getElementById(elementId);
 
+  if (element) {
+      // Get the target element's position relative to the document
+      const elementRect = element.getBoundingClientRect();
+
+      // Scroll to the element instantly without animation
+      window.scrollTo({
+          left: elementRect.left + window.scrollX,
+          top: elementRect.top + window.scrollY,
+          behavior: 'instant' // 'auto' or 'instant' will work here
+      });
+  }
+}
 function InitilaizeSection () {
 
 
@@ -38,6 +52,7 @@ function InitilaizeSection () {
           bootstrap.ScrollSpy.getInstance(dataSpyEl)
             .refresh()    
           })
+          
         var l = document.getElementById("navbarscroll")
         var g = document.getElementsByClassName('active')
         var firstScrollSpyEl = document.querySelector('[data-bs-spy="scroll"]')
@@ -51,32 +66,16 @@ function InitilaizeSection () {
     }, 500);
 
 }
+
 export  function IndexPage({menu}) {
-  
-  
   const [ContainerCustimizeModal,setContainerCustimizeModal]=useState(<></>)
   const [ContainerCartModal,setContainerCartModal]=useState(<></>)
-  const [ButtonFixedCart,setButtonFixedCart]=useState(<ButtonCartContainer setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu}/>)
+  const [rows,setrows]=useState(<></>)
   
   
 
-  function ModalisClosed () {
-    setButtonFixedCart(<></>)
-        setTimeout(() => {            
-            setButtonFixedCart(<ButtonCartContainer setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu}/>)
-        }, 1);
-  }
-  setTimeout(() => {
-    var myModalElCustomizeModal = document.getElementById('CustomizeModal')
-    var myModalElCartModal = document.getElementById('CartModal')
-    if(!AddedFlagModal)  
-    {
-      myModalElCartModal.addEventListener('hidden.bs.modal',ModalisClosed)
-      myModalElCustomizeModal.addEventListener('hidden.bs.modal',ModalisClosed)
-      AddedFlagModal=true
-    }
-     
-  }, 500);
+  
+
     const ItemClicked = (e)=>{
       let a = e.currentTarget; // This will always give you the anchor element
 
@@ -123,64 +122,87 @@ export  function IndexPage({menu}) {
               </a>
     }
     InitilaizeSection()
-
-
-    var rows = []
+    
     var NavRows = [] 
     const BtnSectionClicked=(e)=>{      
+      // e.preventdefault()
+      scrollToElement(e.target.getAttribute("data-l"))
       NavBarTriggerIsClicked=true
       var l = document.getElementById("navbarscroll")
       var g = document.getElementsByClassName('active')
-      if(typeof g[0] !== "undefined" && typeof l !== "undefined")
       setTimeout(() => {
         NavBarTriggerIsClicked=false
+      if(typeof g[0] !== "undefined" && typeof l !== "undefined")
         l.scrollTo({
           left: g[0].offsetLeft-5,
           behavior: 'auto'
         })
-      }, 1000);
+      }, 100);
       // window.location.href = "./#section"+Object.keys(menu["sections"]["mdesc"]).indexOf(e.getAttribute("data-l"))
 
 
     }
     for(var l in menu["sections"]["mdesc"])
-    {        
-      var imgg = l.toUpperCase().replace(" ","_");
-      imgg = imgg.replace(" ","_");
-      imgg = imgg.replace("Ö","O")
-      imgg = imgg.replace("Ä","A")
-      imgg = imgg.replace("Ü","U")    
-      if("img" in menu["sections"]["mdesc"][l])
-      {
-        imgg = menu["sections"]["mdesc"][l]["img"].toUpperCase()
-      }  
-      rows.push(
-            <div style={{"min-height":"35rem"}} id={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} className="pt-5 container-fluid text-white" >
-              <div className='a-item  a-item-2' style={{"backgroundImage":`url(Images/${imgg}.jpeg)`}}>
-                <div  class="a-sub">{l}</div>
-                </div>
-                <div className='mb-2' style={{"fontSize":"1rem","color":"#c1bfbf"}}>{menu["sections"]["mdesc"][l]["des"]}</div>
+      {              
+          NavRows.push(<>
+            <li className="nav-item">
+              <a className="nav-link" data-l={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} 
+              href={`#section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`}
+              onClick={BtnSectionClicked}>
+              &nbsp;&nbsp;{l}&nbsp;&nbsp;
+              </a>
+            </li>
+            </>
+          )
+      }    
+    const PrepairRows=()=>{
+      var firstele=0
+      var trows = []
+      var heightsection = "160px"
+      for(var l in menu["sections"]["mdesc"])
+      {        
+        var imgg = l.toUpperCase().replace(" ","_");
+        imgg = imgg.replace(" ","_");
+        imgg = imgg.replace("Ö","O")
+        imgg = imgg.replace("Ä","A")
+        imgg = imgg.replace("Ü","U")    
+        if("img" in menu["sections"]["mdesc"][l])
+        {
+          imgg = menu["sections"]["mdesc"][l]["img"].toUpperCase()
+        }  
+        
+        if("style" in menu["staticValue"])
+        if("sectionheight" in menu["staticValue"]["style"])
+        heightsection = menu["staticValue"]["style"]["sectionheight"]
+        
+        trows.push(
+              <div style={{"min-height":"35rem"}} id={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} className="pt-5 container-fluid text-white" >
+                <div className='a-item  a-item-2' style={{"height":`${heightsection}`,"backgroundImage":`url(Images/${imgg}.jpeg)`}}>
+                  <div  class="a-sub">{l}</div>
+                  </div>
+                  <div className='mb-2' style={{"fontSize":"1rem","color":"#c1bfbf"}}>{menu["sections"]["mdesc"][l]["des"]}</div>
+  
+               {Object.keys(menu["product"]).map((number) => (
+                  <>{
+                    menu["sections"]["mdesc"][l]["section"].toUpperCase() == menu["product"][number]["section"].toUpperCase() ? 
+                      <>{GetObjItem(menu,number)}</>
+                      :<></>
+                  } </>                               
+              ))}
+              </div>
+              )
+              if (firstele > 0 && firstele < trows.length) {
+                const removedElements = trows.splice(firstele);
+                trows = removedElements.concat(trows);
+              }
+              setrows(trows);
 
-             {Object.keys(menu["product"]).map((number) => (
-                <>{
-                  menu["sections"]["mdesc"][l]["section"].toUpperCase() == menu["product"][number]["section"].toUpperCase() ? 
-                    <>{GetObjItem(menu,number)}</>
-                    :<></>
-                } </>                               
-            ))}
-            </div>
-            )
-        NavRows.push(<>
-          <li className="nav-item">
-            <a className="nav-link" data-l={l} 
-            href={`#section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`}
-            onClick={BtnSectionClicked}>
-            &nbsp;&nbsp;{l}&nbsp;&nbsp;
-            </a>
-          </li>
-          </>
-        )
-    }    
+      }   
+    }
+    useEffect(()=>{
+     PrepairRows() 
+    },[])
+    
    
     
   return (
@@ -195,14 +217,16 @@ export  function IndexPage({menu}) {
 
     <hr  style={{"marginTop":"10rem"}}/>
 
-    {ButtonFixedCart}
     <MModal idd="CustomizeModal" contaienrr={ContainerCustimizeModal} />
     <MModal idd="CartModal" contaienrr={ContainerCartModal} />
     <footer class="footer bg-dark text-white text-center mt-5">
         <div class="container">
           <p>&copy; 2023 {menu["staticValue"]["logo"]}. All rights reserved.</p>
         </div>
-      </footer></>
+      </footer>
+    <MButtonCartContainer menu={menu} setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal}/>
+      </>
+      
   );
 }
 
@@ -214,19 +238,41 @@ return <>
 </>
 }
 
-import Autocomplete from "react-google-autocomplete";
+export function MButtonCartContainer ({menu,setContainerCartModal,setContainerCustimizeModal}) {
+  const [ButtonFixedCart,setButtonFixedCart]=useState(<ButtonCartContainer setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu}/>)
+  useEffect(()=>{  
+    function ModalisClosed () {    
+      setButtonFixedCart(<></>)
+          setTimeout(() => {  
+              setButtonFixedCart(<ButtonCartContainer setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu}/>)
+          }, 100);
+    }
+    setTimeout(() => {
+      var myModalElCustomizeModal = document.getElementById('CustomizeModal')
+      var myModalElCartModal = document.getElementById('CartModal')
+      if(!AddedFlagModal)  
+      {
+        myModalElCartModal.addEventListener('hidden.bs.modal',ModalisClosed)
+        myModalElCustomizeModal.addEventListener('hidden.bs.modal',ModalisClosed)
+        AddedFlagModal=true
+      }
+    }, 500);
+  },[])
+  
+  
+  
 
+  
+  return <>{ButtonFixedCart}</>
+}
 export function MModal ({idd,contaienrr}) {
   return <div className="modal" id={idd} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-theme="dark">
-  <div class="modal-dialog modal-fullscreen">
+  <div class="modal-dialog modal-fullscreen-md-down">
     <div class="modal-content">
       <div class="modal-header">        
         <button type="button" class="btn-close " id={`btn-close-${idd}`} data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-      
-      {contaienrr}
-      </div>    
+      {contaienrr}         
     </div>
   </div>
 </div>

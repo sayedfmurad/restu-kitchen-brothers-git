@@ -39,7 +39,7 @@ export default function A(){
     out.push(
             <div className='col-lg-3 col-md-4 col-sm-6 col-xs-6' >
             <a class="a-item a-item-2" 
-                    style={{"backgroundImage":`url(${restus[h]["storeimg"]})`}}
+                    style={{"height":"160px","backgroundImage":`url(${restus[h]["storeimg"]})`}}
                       href={langswitch.RouteP(restus[h]["key"])}>
                 <div class="a-sub2">{langswitch.firstUpper(restus[h]["name"])}</div>
             </a>        
@@ -53,7 +53,7 @@ export default function A(){
         </Head>
         <div className="container mt-4" >
         <div className="row mb-5">
-            <div className="col-12">
+            <div className="col-12 text-white">
             <h2>
             Resturant auswählen:
             </h2>

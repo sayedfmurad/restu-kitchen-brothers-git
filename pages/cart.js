@@ -13,7 +13,8 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
             
         const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
         let t = false;
-        if(document.getElementById("bar-outlined").checked)
+        // if(typeof document.getElementById("bar-outlined") !== "undefined")
+        if(typeof document.getElementById("bar-outlined") !== 'undefined' && document.getElementById("bar-outlined") !== null && document.getElementById("bar-outlined").checked)
         t="bar";
         else if (
             (typeof document.getElementById("paypal-outlined") !== 'undefined' && document.getElementById("paypal-outlined") !== null && document.getElementById("paypal-outlined").checked) ||
@@ -178,7 +179,7 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
                 rows.push(    
                     <>
                     <input type="radio" class="btn-check" name="options-outlined" id={d+"-outlined"}  />
-                    <label class="btn btn-outline-warning " for="bar-outlined">{menu["staticValue"]["paymentmethod"][d]["name"]}</label>
+                    <label class="btn btn-outline-warning " for={d+"-outlined"}>{menu["staticValue"]["paymentmethod"][d]["name"]}</label>
                     &nbsp;
                     </>               
                 )
@@ -330,7 +331,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
      
     
     return <>
-    <div className='list-group'>                
+    <div className={`${"notshowabholdetails" in menu["staticValue"]?"d-none":""} list-group`}>                
     <div className='list-group-item'>  
     <div className="row mb-4 g-3">
     <div className='col-12'>
@@ -392,8 +393,7 @@ export function Container({setContainerCartModal,setContainerCustimizeModal,mSet
                         }  
             /> */}
     <div className={`container mt-3 `} id="MainIdd">
-    {AddAddressComponent}
-    
+    {AddAddressComponent}    
     <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
     </div>
     <div className={`container mt-3 d-none`} id="SpinnerId">
@@ -440,7 +440,9 @@ export default function Cart({mSetContainer,setContainerCartModal,setContainerCu
     },[])
     return (
     <>
+    <div class="modal-body">    
     {Container}   
+    </div>
     </>
     );
 }

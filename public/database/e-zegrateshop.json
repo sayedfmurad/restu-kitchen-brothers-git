@@ -174,17 +174,23 @@
         }
       },
     "staticValue": {
+      "style":{
+        "sectionheight":"280px"
+      },
+      "pc":"AUgkzL1fHhk2V3izm_uV69_pF6qZuzV4hv6W3f4YycauEhfSw5mxxNE29STEgd3UbNZu_Ga2mWFh9Ssi",
+      "ps":"wrjCtcOGwpHDmMK3wq_DpsOfw6zDlsOFwpzCvsOawqHCosOfw4TDhsOWwq3CncOQwrvCo8OpwrXDnMOjwr7CncK7w5zCu8Kww53CqcOjwrnDocKpw5PCp8OAw4fCqMK0wqjDocKsw5XDn8OEw6vDh8Odwq_DgsOKwr7DnsOdwrvCr8KfwrLCssOdwrHCvMOvw6rCq8ODwpHDgcOEwrPDpg==",
         "logo": "E-ZegrateShop",
         "key": "e-zegrateshop",
         "paymentmethod":{"paypal":{"name":"paypal","id":"paypal"}},
         "rabat": "",
+        "notshowabholdetails":"",
         "minpriceorder": [
             {
                 "distance": {
                     "min": 0,
                     "max": 10000
                 },
-                "price": 100000,
+                "price": 20,
                 "lieferkosten": 0
             }
         ],
@@ -196,7 +202,11 @@
         },
         "kontakt": {
             "name": "E-ZegratesShop",            
-            "tel": "+4915751984634"
+            "tel": "+4915751984634",
+            "street": "",
+            "zipc": "",
+            "city": "",
+            "zusatzStoffe": ""
         },
         "opendays": {
             "sunday": {

@@ -48,6 +48,18 @@ export default function Index() {
               SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | Super Sushi Service | "+data["staticValue"]["logo"])
               setH2SEO("Beste Sushi-Lieferdienst "+data["staticValue"]["kontakt"]["city"])
           }
+          else if(data["staticValue"]["key"]=="e-zegrateshop")
+          {
+            SetSEO(<>
+              <meta name="keywords" content={`randm bestellen ${data["staticValue"]["kontakt"]["city"]}, vape lieferservice ${data["staticValue"]["kontakt"]["city"]}, randm online bestellen ${data["staticValue"]["kontakt"]["city"]}, beste Sushi lieferservice ${data["staticValue"]["kontakt"]["city"]}, Bestellen Sie hausgemachtes Dessert online, Sushi bestellen ${data["staticValue"]["kontakt"]["city"]}, Sushi in der nähe ${data["staticValue"]["kontakt"]["city"]}, super Sushi service online ${data["staticValue"]["kontakt"]["city"]}, günstig essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, Randm bestellen online`}/>              
+              <meta name="robots" content="index, follow" />
+              <meta name="title" content={"Jetzt bestellen bei "+data["staticValue"]["logo"]+" in "+data["staticValue"]["kontakt"]["city"]} />
+              <meta name="description" content={"Vape Randm | "+ data["staticValue"]["logo"]+" "+data["staticValue"]["kontakt"]["street"]+" "+data["staticValue"]["kontakt"]["city"]+" "+data["staticValue"]["kontakt"]["zipc"]+" jetzt online bestellen und liefern lassen!"} />
+              <link rel="canonical" href={"https://"+data["staticValue"]["key"]+".foodieway.de"}/>
+              </>)      
+              SetPageTitle("Essen bestellen "+data["staticValue"]["kontakt"]["city"]+" | vape rand  | "+data["staticValue"]["logo"])
+              setH2SEO("Beste Vape-Lieferdienst ")
+          }
           else{
             SetSEO(<>
               <meta name="keywords" content={`essen bestellen ${data["staticValue"]["kontakt"]["city"]}, pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, gesundes essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, beste pizza lieferservice ${data["staticValue"]["kontakt"]["city"]}, Bestellen Sie hausgemachtes Dessert online, pizza bestellen ${data["staticValue"]["kontakt"]["city"]}, pizzeria in der nähe ${data["staticValue"]["kontakt"]["city"]}, super pizza service online ${data["staticValue"]["kontakt"]["city"]}, günstig essen online bestellen ${data["staticValue"]["kontakt"]["city"]}, burger bestellen online ${data["staticValue"]["kontakt"]["city"]}`}/>
