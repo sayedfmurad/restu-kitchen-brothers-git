@@ -10,6 +10,7 @@ import Home from "../pages/home"
 export default function Index() {  
   const [Container,SetContainer] = useState(<></>)
   const [SEO,SetSEO] = useState(<></>)
+  const [LoadingEle,setLoadingEle] = useState(<></>)
   const [PageTitle,SetPageTitle] = useState("")  
   const [H2SEO,setH2SEO] = useState("")
   const MyLang = langswitch.langswitchs("index"); 
@@ -20,10 +21,23 @@ export default function Index() {
       // alert("ok")
       // Stash the event so it can be triggered later.    
     });
-
-
-    const CheckIFOurDomain=()=>{          
+    const GetKeyFromDomain=()=>{          
       var hostname = window.location.hostname;
+        hostname =  hostname.replace("www.","")
+        hostname = hostname.split(".")[0]
+        return hostname
+      }         
+    setLoadingEle(
+      <div id="loadingg" className='loadingg mt-5 d-flex justify-content-center'>
+    <strong className='text-white'>{GetKeyFromDomain()}</strong>    
+    <div class="spinner-border text-light mt-3" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+    )
+    
+    const CheckIFOurDomain=()=>{          
+    var hostname = window.location.hostname;
       hostname =  hostname.replace("www.","")
       hostname = hostname.split(".")[0]
       for (var ghli in restus)
@@ -146,6 +160,7 @@ export default function Index() {
   return (
    <>
     <Head>
+      <script src="/scripts/checkinstalliation.js"/>
       <title>{PageTitle}</title>      
       {SEO}
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
@@ -165,6 +180,8 @@ export default function Index() {
       <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png"/>
       <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/>
       <link rel="manifest" href="/manifest.json"/>
+      {/* <link rel="manifest" href={packagee["server"]["url"]+"/mainfest.json?manifest=1"}/> */}
+
       <meta name="msapplication-TileColor" content="#ffffff"/>
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
       <meta name="theme-color" content="#ffffff"></meta>
@@ -174,6 +191,7 @@ export default function Index() {
     <h1 className="seo-heading">Bestellen Sie hausgemachtes Dessert online</h1>
     <h2 className="seo-heading">{H2SEO}</h2>
     {Container}
+    {LoadingEle}
    </>
     )
 }

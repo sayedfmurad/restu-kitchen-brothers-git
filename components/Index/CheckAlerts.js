@@ -8,10 +8,24 @@ export default({menu})=>{
                 {text}            
             </div>)
     }
+
+
+    const displayMode = window.matchMedia('(display-mode: standalone)');
+    if( installPrompt !== null)
+    if(typeof installPrompt !== "undefined")
+    if(!displayMode.matches)
+    AddRow("alert alert-warning d-flex justify-content-between p-2",<><strong className="p-1">Laden Sie unsere App herunter!</strong>
+    <button className="btn btn-secondary btn-sm"
+    onClick={()=>{installPrompt.prompt()}}
+    >&darr;&nbsp;&nbsp;Herunterladen</button></>)
+
     if("rabat" in menu)
     if(menu["rabat"]!="")
     AddRow("alert alert-warning","NUR HIER MIT "+menu["rabat"]+"% ONLINE-RABATT BESTELLEN")
         
+    
+
+
     if("alerts" in menu["staticValue"])
     for(var k in menu["staticValue"]["alerts"])
     AddRow(menu["staticValue"]["alerts"][k]["class"],menu["staticValue"]["alerts"][k]["text"])

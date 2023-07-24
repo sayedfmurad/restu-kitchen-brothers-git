@@ -1,3 +1,10 @@
+.loadingg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to fill the viewport vertically */
+  }
 .navbar-nav li {
 
     display: inline-block;

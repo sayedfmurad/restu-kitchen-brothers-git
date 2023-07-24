@@ -11,7 +11,7 @@ let AddedFlagModal=false
 
 
 
-var navbar,navbardistance=10000
+var navbar,solveshowNav,navbardistance=10000
 function scrollToElement(elementId) {
   const element = document.getElementById(elementId);
 
@@ -36,13 +36,18 @@ function InitilaizeSection () {
   };
   setTimeout(() => {    
     navbar = document.querySelector('.navbarr');
+    solveshowNav = document.querySelector('#solveshowNav');
     navbardistance = navbar.getBoundingClientRect().top
   }, 50);
   window.addEventListener('scroll', function() {  
     if (window.pageYOffset > navbardistance) {
-      navbar.classList.add('fixed-top');
+      {
+        navbar.classList.add('fixed-top');
+        solveshowNav.classList.remove('d-none');
+      }
     } else {
       navbar.classList.remove('fixed-top');
+      solveshowNav.classList.add('d-none');
     }
   });
   
@@ -107,10 +112,9 @@ export  function IndexPage({menu}) {
     }
     const GetObjItem=(menu,key)=>{
         var descriptionO = menu["product"][key]["desO"] !=undefined?<div className="col-12 ">{menu["product"][key]["desO"]}</div>:"";
-            return <a style={{"min-height":"3.5rem","cursor":"pointer"}} 
-            onClick={ItemClicked}                      
-            data-key={key} 
-            className="p-2 rounded col-lg-8 col-md-12 col-sm-12 col-xs-12 mx-auto mb-2  p-1">   
+            return <div onClick={ItemClicked} data-key={key}  className='rounded p-2 mb-2' style={{"min-height":"5rem",border:"1px solid rgb(77 77 77)","cursor":"pointer"}}>
+              <a                                                
+            className="col-lg-8 col-md-12 col-sm-12 col-xs-12 rounded">   
                   <div className='d-flex justify-content-between' style={{"color":"#c1bfbf"}}>
                   <h5>{key}.&nbsp;{menu["product"][key]["name"]}&nbsp;
                   <sup style={{"fontSize":"0.6rem"}}>{menu['product'][key]['zusatz']}</sup>
@@ -119,7 +123,7 @@ export  function IndexPage({menu}) {
                   </h5>
                   </div>                                   
                 {descriptionO}
-              </a>
+              </a></div>
     }
     InitilaizeSection()
     
@@ -201,6 +205,9 @@ export  function IndexPage({menu}) {
     }
     useEffect(()=>{
      PrepairRows() 
+     const element = document.getElementById('loadingg');
+     if(element !== null)
+     element.classList.add('d-none');
     },[])
     
    
@@ -208,6 +215,7 @@ export  function IndexPage({menu}) {
   return (
     <>
     <MyNavBar/>
+    <div id="solveshowNav" className='d-none' style={{"height":"56px"}}></div>
       <nav id="navbarscroll" class="nav navbarr navbar-nav scroll bg-dark navbar-dark ">
         <div class="navbar-header fs-6 p-2">
         {NavRows}

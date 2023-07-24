@@ -66,7 +66,7 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
             const hostname = window.location.hostname;
             const isOutPackage= packagee["IsOut"]?".html":""
             parms["successurl"] = "https://"+hostname+"/success"+isOutPackage
-            parms["failureurl"] = "https://"+hostname+"/cart"+isOutPackage
+            parms["failureurl"] = "https://"+hostname
         }
         if(textabohlen)
         parms["abhol"]=""
@@ -396,7 +396,7 @@ export function Container({setContainerCartModal,setContainerCustimizeModal,mSet
     {AddAddressComponent}    
     <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
     </div>
-    <div className={`container mt-3 d-none`} id="SpinnerId">
+    <div className={`loadingg  container mt-3 d-none`} id="SpinnerId">
     <div class="text-center d-flex justify-content-center">
     <div class="spinner-border text-primary" style={{"width":"5rem","height":"5rem"}} role="status">
         <span class="visually-hidden">Loading...</span>
