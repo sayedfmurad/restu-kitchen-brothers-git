@@ -5015,12 +5015,9 @@
         }
     },
     "staticValue": {
-        "closed":"",
         "alerts":[
                 {"text":"Kitchen Brothers, Konstantinstraße 87, 41238 Mönchengladbach",
-                 "class":"alert alert-warning"},
-                {"text":"Liebe Kunden wir machen Urlaub vom 27.06.2023 bis 24.07.2023",
-                 "class":"alert alert-danger"}
+                 "class":"alert alert-warning"}
         ],
         "pc": "Adry9vq8GYiagTwNC6I32XDRIYtDpHEIUCmoe14Kd7ujPsIUv2i6EPUTsVqV47rOuJJhh5Xdj4-nCnlN",
         "ps": "wrjCtcKiwr3Dj8K4wqHCscOgwrbDksOiwrvCssKcwr3Dh8OKw4TCtsKlw4fDlMOawqXCvMOcw4HDhsOBwrfDk8KSw6fCocOFw4TDnMK_wqXDn8OSw53DncObwrjDhsOlwrPCoMOSwqHCo8Orw6PCksKhw5HDmsKqw6XDgsKkwqvCqsOAwq7CrsKnw5XCtsOnwqrDhsOXwpbDpMOSw5_Dpw==",
@@ -5128,14 +5125,6 @@
                 },
                 "price": 20,
                 "lieferkosten": 2
-            },
-            {
-                "distance": {
-                    "min": 7,
-                    "max": 8
-                },
-                "price": 25,
-                "lieferkosten": 3
             }
         ]
     },
@@ -5143,7 +5132,8 @@
         "mdesc": {
             "DESSERTS": {
                 "section": "DESSERTS",
-                "des": ""
+                "des": "",
+                "img":"KITCHEN-BROTHERS-STORE"
             },
             "PASTA": {
                 "section": "PASTA",
@@ -5180,10 +5170,6 @@
                 "des": "Alle Menüs werden mit Pommes frites, Dip nach Wahl und einem alkoholfreien Getränk 0,33l nach Wahl serviert.",
                 "img": "BURGERMENU"
             },
-            "BAGUETTE": {
-                "section": "BAGUETTE",
-                "des": "Alle mit Remoulade"
-            },
             "PIZZEN": {
                 "section": "PIZZEN",
                 "des": "Alle Pizzen sind mit Tomatensoße, Gouda und oregano belegt"
@@ -5199,15 +5185,7 @@
             "SCHNITZEL": {
                 "section": "SCHNITZEL",
                 "des": "Alle Schnitzel mit Pommes und Salat als Beilage"
-            },
-            "CALZONE": {
-                "section": "CALZONE",
-                "des": "gefüllt und Zusammen geklappt"
-            },
-            "GRILLGERICHTE": {
-                "section": "GRILLGERICHTE",
-                "des": "Alle Gerichte mit Pommes od. Reis und Salat als Beilage"
-            },
+            },         
             "GETRANKE": {
                 "section": "GETRANKE",
                 "des": ""

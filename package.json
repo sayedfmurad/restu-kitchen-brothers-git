@@ -20,6 +20,7 @@
     "cloud": "aws cloudfront create-invalidation --distribution-id EW42NP988OU7X --paths '/*'",
     "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\"",
     "db": "aws s3 sync ./public/database/ s3://angebote-restu/database/ --profile my",
+    "pfol": "aws s3 sync ./public/ s3://angebote-restu/ --profile my",
     "pub": " yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
   },
   "s3path": "http://angebote-restu.s3-website.eu-central-1.amazonaws.com",

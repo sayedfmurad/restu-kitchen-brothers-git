@@ -7,10 +7,27 @@ import langswitch from "../components/Utils/langswitch"
 import packagee from "../package"
 import restus from "../public/restus"
 import Home from "../pages/home"
+
+export function LoadingCont () {
+
+  const GetKeyFromDomain=()=>{          
+    var hostname = window.location.hostname;
+      hostname =  hostname.replace("www.","")
+      hostname = hostname.split(".")[0]
+      return hostname
+    }       
+
+  return <div id="loadingg" className='loadingg mt-5 d-flex justify-content-center'>
+  <strong className='text-white'>{GetKeyFromDomain()}</strong>    
+  <div class="spinner-border text-light mt-3" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+}
+
 export default function Index() {  
   const [Container,SetContainer] = useState(<></>)
-  const [SEO,SetSEO] = useState(<></>)
-  const [LoadingEle,setLoadingEle] = useState(<></>)
+  const [SEO,SetSEO] = useState(<></>)  
   const [PageTitle,SetPageTitle] = useState("")  
   const [H2SEO,setH2SEO] = useState("")
   const MyLang = langswitch.langswitchs("index"); 
@@ -21,21 +38,8 @@ export default function Index() {
       // alert("ok")
       // Stash the event so it can be triggered later.    
     });
-    const GetKeyFromDomain=()=>{          
-      var hostname = window.location.hostname;
-        hostname =  hostname.replace("www.","")
-        hostname = hostname.split(".")[0]
-        return hostname
-      }         
-    setLoadingEle(
-      <div id="loadingg" className='loadingg mt-5 d-flex justify-content-center'>
-    <strong className='text-white'>{GetKeyFromDomain()}</strong>    
-    <div class="spinner-border text-light mt-3" role="status">
-      <span class="visually-hidden">Loading...</span>
-    </div>
-  </div>
-    )
-    
+  
+    SetContainer(<LoadingCont />)
     const CheckIFOurDomain=()=>{          
     var hostname = window.location.hostname;
       hostname =  hostname.replace("www.","")
@@ -190,8 +194,7 @@ export default function Index() {
     {/* <div className="specially mbackground"></div>  */}
     <h1 className="seo-heading">Bestellen Sie hausgemachtes Dessert online</h1>
     <h2 className="seo-heading">{H2SEO}</h2>
-    {Container}
-    {LoadingEle}
+    {Container}    
    </>
     )
 }

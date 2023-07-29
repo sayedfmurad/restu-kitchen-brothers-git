@@ -1,4 +1,10 @@
 {
+    "city-pizza": {
+        "storeimg":"Images/cartoon.jpeg",
+        "key": "city-pizza",
+        "name": "City Pizza",
+        "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
+    },
     "sushi-kayo": {
         "storeimg":"Images/cartoon.jpeg",
         "key": "sushi-kayo",
@@ -42,7 +48,7 @@
         "v": "c7e459d1f12d5d6228dcaead470cf08016c8ff3ffba48aa9cf17def381d06ab1"
     },
     "kitchen-brothers": {
-        "storeimg":"Images/kitchen-brothers-store.jpeg",
+        "storeimg":"Images/KITCHEN-BROTHERS-STORE.jpeg",
         "key": "kitchen-brothers",
         "name": "Kitchenbrothers",
         "v": "346c4a4ef8f99cd79436233ebd0e50e398b68050dc9066619d06e6b0df1e4d1e"
