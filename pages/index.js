@@ -183,8 +183,8 @@ export default function Index() {
       <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/>
       <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png"/>
       <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/>
-      <link rel="manifest" href="/manifest.json"/>
-      {/* <link rel="manifest" href={packagee["server"]["url"]+"/mainfest.json?manifest=1"}/> */}
+      <link rel="manifest" href="/manifest.json?s=1"/>
+      {/* <link rel="manifest" href={packagee["server"]["url"]+"/manifest.json?manifest=localhost"}/> */}
 
       <meta name="msapplication-TileColor" content="#ffffff"/>
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>

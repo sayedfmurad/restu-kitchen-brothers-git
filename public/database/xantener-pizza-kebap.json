@@ -2624,7 +2624,6 @@
         }
     },
     "staticValue": {
-        "acc": "3y7d3ns43xp8mu9",
         "logo": "Xantener Pizza & Kebap",
         "logoimg":"",
         "key": "xantener-pizza-kebap",
@@ -2634,18 +2633,18 @@
             {
                 "distance": {
                     "min": 0,
-                    "max": 10.1
+                    "max": 4.1
                 },
                 "price": 10,
-                "lieferkosten": 2
+                "lieferkosten": 2.5
             },
             {
                 "distance": {
-                    "min": 10,
-                    "max": 18
+                    "min": 4.1,
+                    "max": 10
                 },
-                "price": 10,
-                "lieferkosten": 2
+                "price": 16,
+                "lieferkosten": 3.5
             }
         ],
         "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/xantener-pizza-kebap.json",
@@ -2663,6 +2662,16 @@
         },
         "opendays": {
             "sunday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 30
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "monday": {
                 "opentime": {
                     "hour": 12,
                     "min": 30

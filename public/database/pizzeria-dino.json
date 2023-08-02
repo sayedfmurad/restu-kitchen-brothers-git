@@ -7889,12 +7889,7 @@
             }
         }
     },
-    "staticValue": {
-        "closed":"",
-        "alerts":[
-            {"text":"Liebe Kunden wir machen Urlaub vom 02.07.2023 bis 02.08.2023",
-             "class":"alert alert-danger"}
-            ],
+    "staticValue": {        
         "pc":"ATPr8UMYbltteSs4yLUR_NUam6vDh8Mg0ao3A8B5wWad9oE_mMIsnesfh0l18EduIbZi6wmsD4dHxUmC",
         "ps":"wrjCtMOowq3Do8Kyw4bCn8Ocwr_DncKlwrnDkcOHwpvDiMOiw6PDk8K3wqvDnsKdwp7DoMOQw5LDksOVw4XDg8Odw4DDgcK4w6LDjMOGwq_CvMKpw5PDpcKuw5XDlcK2wpbDlsKowrvDlMKowqTCnsK9wq_Cu8K4w6fDmMOHwrfDisOQwpbDpcOKwrXDqcKqw5fCqMOBwp3DpsOew5jDlw==",
         "logo": "Pizzeria Dino",

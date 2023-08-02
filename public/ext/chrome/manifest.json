@@ -3,7 +3,7 @@
   "name": "Telegram Notification",
   "version": "1.0",
   "description": "Notify user of new messages on Telegram web",
-  "permissions": ["notifications", "activeTab"], 
+  "permissions": ["notifications", "activeTab"],  
   "content_scripts": [
     {
       "matches": ["https://web.telegram.org/*"],

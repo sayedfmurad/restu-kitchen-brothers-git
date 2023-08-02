@@ -342,12 +342,11 @@ export function IDisReady ({menu, id, orderid , orders}) {
     {/* {MyLang["count"]} */}
     <div  className='text-white fs-3'>
         <a onClick={()=>{var g=count==1?1:count-1;setCount(g+"");}} className='btn-md btn btn-secondary rounded-5'>
-
-        <img src="/Images/icons8-minus-64.png" width="15" />
+        <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path fill="white" d="M14.125 7.344H1.875v1.312h12.25V7.344z"></path></svg>        
         </a>
         &nbsp;&nbsp;<strong>{count}</strong>&nbsp;&nbsp;
         <a onClick={()=>{var g=parseInt(count) +1;setCount(g+"");}} className='btn-md btn btn-secondary rounded-5'>                    
-            <img src="/Images/plus-svgrepo-com.svg" width="15" />
+        <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path fill="white" d="M14.125 7.344H8.656V1.875H7.344v5.469H1.875v1.312h5.469v5.469h1.312V8.656h5.469V7.344z"></path></svg>
             </a>
         </div>&nbsp;
 <button style={{"minWidth":'200px'}} onClick={addOrder} class="border-success rounded-5 btn btn-success btn-lg ">
