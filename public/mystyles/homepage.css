@@ -98,9 +98,25 @@ body{
     border-color: violet;
     font-family: "Roboto",sans-serif;
 }
+
+a.nav-link.active {    
+    background: black;
+    color: white !important;
+    padding: 5px 3px 5px 3px;
+    border-radius: 21px;
+  }
+
+  /* Allow modal body to be scrollable */
+  @media (min-width: 768px) {
+  .modal-body {
+    max-height: 67vh; 
+    overflow-y: auto;
+  }
+  }
+
 p, .rounded{
-font-size: 1rem;  
-color: darkgrey;  
+font-size: 0.9rem;  
+color: #797878;  
 }
 .mfooter{
     position: fixed !important ;

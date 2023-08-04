@@ -31,13 +31,18 @@ function InitilaizeSection () {
 
 
   window.onpopstate = function(event) {
+    if(document.getElementById('btn-close-CustomizeModal'))
     document.getElementById('btn-close-CustomizeModal').click()
+    if(document.getElementById('btn-close-CartModal'))
     document.getElementById('btn-close-CartModal').click()
   };
-  setTimeout(() => {    
+  setTimeout(() => {        
     navbar = document.querySelector('.navbarr');
-    solveshowNav = document.querySelector('#solveshowNav');
-    navbardistance = navbar.getBoundingClientRect().top
+    if(navbar)
+    {
+      solveshowNav = document.querySelector('#solveshowNav');
+      navbardistance = navbar.getBoundingClientRect().top
+    }
   }, 50);
   window.addEventListener('scroll', function() {  
     if (window.pageYOffset > navbardistance) {
@@ -46,8 +51,10 @@ function InitilaizeSection () {
         solveshowNav.classList.remove('d-none');
       }
     } else {
-      navbar.classList.remove('fixed-top');
+      if(navbar){
+        navbar.classList.remove('fixed-top');      
       solveshowNav.classList.add('d-none');
+      }      
     }
   });
   
@@ -112,11 +119,11 @@ export  function IndexPage({menu}) {
     }
     const GetObjItem=(menu,key)=>{
         var descriptionO = menu["product"][key]["desO"] !=undefined?<div className="col-12 ">{menu["product"][key]["desO"]}</div>:"";
-            return <div onClick={ItemClicked} data-key={key}  className='rounded p-2 mb-2' style={{"min-height":"5rem",border:"1px solid rgb(77 77 77)","cursor":"pointer"}}>
+            return <div onClick={ItemClicked} data-key={key}  className='rounded p-2 mb-2' style={{"min-height":"5rem",border:"0.7px solid rgb(77 77 77 / 40%)","cursor":"pointer"}}>
               <a                                                
             className="col-lg-8 col-md-12 col-sm-12 col-xs-12 rounded">   
-                  <div className='d-flex justify-content-between' style={{"color":"#c1bfbf"}}>
-                  <h5>{key}.&nbsp;{menu["product"][key]["name"]}&nbsp;
+                  <div className='d-flex justify-content-between' style={{"color":"rgb(80 80 80)"}}>
+                  <h5>{menu["product"][key]["name"]}&nbsp;
                   <sup style={{"fontSize":"0.6rem"}}>{menu['product'][key]['zusatz']}</sup>
                   </h5>
                   <h5>{menu["product"][key]["price"][Object.keys(menu["product"][key]["price"])[0]]}&nbsp;&euro;
@@ -184,7 +191,7 @@ export  function IndexPage({menu}) {
                 <div className='a-item  a-item-2' style={{"height":`${heightsection}`,"backgroundImage":`url(Images/${imgg}.jpeg)`}}>
                   <div  class="a-sub">{l}</div>
                   </div>
-                  <div className='mb-2' style={{"fontSize":"1rem","color":"#c1bfbf"}}>{menu["sections"]["mdesc"][l]["des"]}</div>
+                  <div className='mb-2' style={{"fontSize":"0.8rem","color":"rgb(110 107 107)"}}>{menu["sections"]["mdesc"][l]["des"]}</div>
   
                {Object.keys(menu["product"]).map((number) => (
                   <>{
@@ -216,8 +223,8 @@ export  function IndexPage({menu}) {
     <>
     <MyNavBar/>
     <div id="solveshowNav" className='d-none' style={{"height":"56px"}}></div>
-      <nav id="navbarscroll" class="nav navbarr navbar-nav scroll bg-dark navbar-dark ">
-        <div class="navbar-header fs-6 p-2">
+      <nav style={{"background":"white","fontWeight":"bold","fontSize":"16px"}} id="navbarscroll" class="nav navbarr navbar-nav scroll">
+        <div class="navbar-header p-2">
         {NavRows}
         </div> 
     </nav>
@@ -277,9 +284,6 @@ export function MModal ({idd,contaienrr}) {
   return <div className="modal" id={idd} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-theme="dark">
   <div class="modal-dialog modal-fullscreen-md-down">
     <div class="modal-content">
-      <div class="modal-header">        
-        <button type="button" class="btn-close " id={`btn-close-${idd}`} data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
       {contaienrr}         
     </div>
   </div>

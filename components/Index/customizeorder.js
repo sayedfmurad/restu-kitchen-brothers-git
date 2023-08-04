@@ -8,17 +8,6 @@ import Cart from '@/pages/cart';
 import ButtonCartContainer from "./ButtonCartContainer"
 
 
-export function NameComponent ({menu, id}) {
-    try {
-        return <div className='col-12'>
-        <h3>{menu["product"][id]["name"]}</h3>                                
-        <h6>{menu["product"][id]["desO"]}</h6>                                
-    </div>    
-    } catch (error) {
-        return<></>
-    }
-    
-}
 export function TypesComponent ({type, settype, menu, id}) {
 
   
@@ -97,13 +86,11 @@ export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,
         { 
         checkisextra=true;  
         extrarow.push(
-            <>    
-            <div className={`col-md-4  col-sm-6 ${(ion>2?mdisplay:"")}`}>
-            <div className='d-flex justify-content-center'>
+            <>                
+            <div className={`col-12 ${(ion>2?mdisplay:"")}`}>            
             <input type="checkbox" class="btn-check"  id={jjj} autocomplete="off" onChange={addextra} defaultChecked={(jjj in extra?true:false)}/>
             <label class="btn btn-outline-primary " for={jjj}>
                 {(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;{menu["extra"][jjj][type]["price"]}&euro;</label>
-            </div>
             </div>            
          </>
         )
@@ -117,9 +104,10 @@ export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,
     extrarow.push(
         <>           
        <div className='col-12'>           
-       <div className='d-flex justify-content-center'>           
-           <button className='btn btn-primary ' id="btn-more" onClick={()=>{setmdisplay(""); document.getElementById("btn-more").className="d-none"}}>&darr;&nbsp;{MyLang["more"]}</button>
-       </div> 
+           <button className='btn btn-outline-primary ' id="btn-more" onClick={()=>{setmdisplay(""); document.getElementById("btn-more").className="d-none"}}>
+           Weitere anzeigen &nbsp;
+           <svg fill="white" viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M2.82 5.044L8 10.399 13.197 5l.963.875-5.364 5.565a1.164 1.164 0 01-1.636 0L1.875 5.945l.945-.901z"></path></svg>
+            </button>
        </div> 
        </>
     ) 
@@ -128,7 +116,8 @@ export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,
     return <></>
     return <><div className={`list-group `}>
     <div className='list-group-item'>
-    <div className='row g-3'>
+    <div className='row g-3 mt-2'>
+    <div className='col-12'>Deine Extras:</div>
             {extrarow}
     </div>
     </div>
@@ -198,7 +187,8 @@ export function MsgComponent ({MyLang,orderid,orders}) {
     msg = orders[orderid]["msg"]
     return <div className={`list-group `}>
     <div className='list-group-item'>
-    <textarea id="textareamsg" style={{"width":"100%"}} placeholder={MyLang["leavemsg"]} maxLength={50} >          
+    Besondere Wünsche:
+    <textarea className='mt-1 rounded' id="textareamsg" style={{"width":"100%"}}  maxLength={50} >          
     {msg}
     </textarea>
     </div>
@@ -319,10 +309,14 @@ export function IDisReady ({menu, id, orderid , orders}) {
     
 
     return <>
+       <div class="modal-header text-white">  
+       <h3>{menu["product"][id]["name"]}</h3>                                
+        
+        <button type="button" class="btn-close " id={`btn-close-CustomizeModal`} data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
       <div class="modal-body">      
     <div className="container mt-4 text-white">
-<NameComponent menu={menu} id={id} />
-
+    <h6>{menu["product"][id]["desO"]}</h6>  
 <br/>
 <TypesComponent type={type} settype={settype} menu={menu} id={id} />
 <br/>
@@ -352,6 +346,9 @@ export function IDisReady ({menu, id, orderid , orders}) {
 <button style={{"minWidth":'200px'}} onClick={addOrder} class="border-success rounded-5 btn btn-success btn-lg ">
    {addButtonText}</button>
 </div>
+
+
+
 </>
 }
 
@@ -370,24 +367,7 @@ export function JsonIsReady({id,menu,MyLang,SetContainer}){
 export default function c({menu,id,SetContainer,bnb}) {
     const MyLang = langswitch.langswitchs("customizeorder");
     return (
-        <>
-            {/* <Head>                
-                <link href="./mystyles/customizeorder.css" rel="stylesheet" />
-            </Head>
-            <MyNavbar menu={menu} mSetContainer={SetContainer}  options={
-                        [
-                            <a onClick={()=>{
-                                if(id.length < 10)
-                                {
-                                    langswitch.ChangeGetParameters("section:::"+bnb)
-                                    SetContainer(
-                                            <Sectionmenu SetContainer={SetContainer} menu={menu} bnb={bnb} />
-                                        )
-                                }
-                            }} className="btn btn-secondary" id='navbarBack' >Zurück</a>                                                 
-                        ]                        
-                        }  
-            /> */}
+        <>           
             <JsonIsReady id={id} SetContainer={SetContainer} menu={menu} MyLang={MyLang} />
         </>
     );

@@ -380,18 +380,11 @@ export function Container({setContainerCartModal,setContainerCustimizeModal,mSet
         SetAddAddressComponent(<AddAddress setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMsgError={setMsgError}/>)
     },[textabohlen])
     
-    return  <>
-    {/* <MyNavbar menu={menu} IsCartSection="" mSetContainer={mSetContainer}  options={
-                        [
-                            <a onClick={()=>{
-                                langswitch.ChangeGetParameters("Sections")                           
-                                mSetContainer(
-                                        <Sections menu={menu} />
-                                    )
-                            }} className="btn btn-secondary" id='navbarBack' >Zurück</a>                                                 
-                        ]                        
-                        }  
-            /> */}
+    return  <>   
+            <div class="modal-header">        
+        <button type="button" class="btn-close " id={`btn-close-CartModal`} data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body"> 
     <div className={`container mt-3 `} id="MainIdd">
     {AddAddressComponent}    
     <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
@@ -402,7 +395,9 @@ export function Container({setContainerCartModal,setContainerCustimizeModal,mSet
         <span class="visually-hidden">Loading...</span>
     </div>
     </div>
+    </div>   
     </div>
+    
 </>
 }
 
@@ -439,10 +434,8 @@ export default function Cart({mSetContainer,setContainerCartModal,setContainerCu
             }})
     },[])
     return (
-    <>
-    <div class="modal-body">    
+    <>    
     {Container}   
-    </div>
     </>
     );
 }

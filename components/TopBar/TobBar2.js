@@ -24,7 +24,7 @@ export default function adsf({nextEle}){
             langswitch.GetJsonM("menu").then((menu)=>{
                 try {
             setlogo(<>
-                <a className="navbar-brand" >                        
+                <a className="navbar-brand " style={{"padding":"6px 0px 0px 0px"}}>                        
                 {
                 "logoimg" in menu["staticValue"]?
                 <img src={"/Images/"+menu["staticValue"]["key"]+"logo.png"} height="40px"/>

@@ -261,7 +261,7 @@ export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,t
               <h6>Ihre Daten :</h6>
               </div>
               <div className='col-12'>
-              <p style={{"fontSize":"0.7rem"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
+              <p style={{"fontSize":"0.7rem","color":"#fff"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
               {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
               {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
               {addresses[seladd]["phonen"]}

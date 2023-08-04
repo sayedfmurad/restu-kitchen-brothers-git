@@ -42,7 +42,7 @@ export default({menu})=>{
         setRows(rows)
     }
     
-        }, 500)
+        }, 100)
     }        
         ,[])
     
