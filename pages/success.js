@@ -21,7 +21,7 @@ return(
             <img alt="" height="150px" src='./Images/accepted.png'/>
             </div>
             </div>              
-            <div className="col-md-8  text">                
+            <div className="col-md-8  text-black">                
                 <h2>                    
                     {langswitch["Your Order has..."]}
                     </h2>

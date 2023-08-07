@@ -203,21 +203,19 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
     </div> 
     }    
     return <> <div className='list-group'>                
-    <div className='list-group-item'>                
+    <div className='list-group-item backgroundcart'>                
     <div className="d-flex justify-content-start mb-4">                
     Bezahlen mit:
     </div> 
     {CheckPaymentsTypes(menu)}                              
     </div>
     </div>
-    <br/>
-    <div className="d-flex justify-content-end mb-4">                
-    <button onClick={CheckOutBtn} className="btn btn-success">      
+    <br/> 
+    <button onClick={CheckOutBtn} className="btn btn-success col-12">      
       <span class="sr-only">
           Bezahlen
       </span>
       </button>                 
-   </div>
    </>    
 
 }
@@ -332,8 +330,8 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     
     return <>
     <div className={`${"notshowabholdetails" in menu["staticValue"]?"d-none":""} list-group`}>                
-    <div className='list-group-item'>  
-    <div className="row mb-4 g-3">
+    <div className='list-group-item backgroundcart'>  
+    <div className="row mb-4 mt-2">
     <div className='col-12'>
             <h6>Möchten Sie:</h6>                        
             </div>                        
@@ -345,7 +343,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
                 <label class="btn btn-outline-warning" onClick={onChangeToAbohlen} for="success-outlined-abholen">Abholen</label>                        
     </div>
     </div>
-    <div className="row mb-4 g-3">
+    <div className="row mb-4 mt-2">
             <div className={textabohlen?"d-none":""}>
             <div className='col-12'>
             <h6>Lieferzeit wählen:</h6>                        
@@ -359,7 +357,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
                 <label class="btn btn-outline-warning" onClick={()=>{onChangeToDeliveryTime()}} id="success-outlined-spater-label" for="success-outlined-spater">Später</label>                        
             </div>
             </div>
-            <div className={`col-12 ${spaterodernow}`}>
+            <div className={`col-12 mt-2 ${spaterodernow}`}>
             <select class="form-select" id='selectedtimedelivery'>
                     {deliverytimes}
                     </select>         
@@ -381,11 +379,11 @@ export function Container({setContainerCartModal,setContainerCustimizeModal,mSet
     },[textabohlen])
     
     return  <>   
-            <div class="modal-header">        
+            <div class="modal-header"> 
+             <h3 className='m-0'>Warenkorb</h3>         
         <button type="button" class="btn-close " id={`btn-close-CartModal`} data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
-    <div class="modal-body"> 
-    <div className={`container mt-3 `} id="MainIdd">
+    <div class="modal-body" id="MainIdd"> 
     {AddAddressComponent}    
     <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
     </div>
@@ -393,7 +391,6 @@ export function Container({setContainerCartModal,setContainerCustimizeModal,mSet
     <div class="text-center d-flex justify-content-center">
     <div class="spinner-border text-primary" style={{"width":"5rem","height":"5rem"}} role="status">
         <span class="visually-hidden">Loading...</span>
-    </div>
     </div>
     </div>   
     </div>

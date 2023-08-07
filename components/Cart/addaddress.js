@@ -201,8 +201,8 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer,
   </div>            
   <br/>
   <div class="form-group col-md-6 col-sm-12">
-      <label for="firma">{MyLang["Firma"]}</label>
-      <input type="text" class="form-control form-select" id="firma" aria-describedby="firmHelp" placeholder="Firma Name (Optional)"/>                
+      <label for="firma">Anmerkung</label>
+      <input type="text" class="form-control form-select" id="firma" aria-describedby="firmHelp" placeholder="(freiwillig)"/>                
   </div>
   <div class="form-group col-md-6 col-sm-12 ">
       <label for="phonen">Handynummer</label>
@@ -239,8 +239,8 @@ export function UserHasNoData ({setContainerCustimizeModal,setContainerCartModal
   
   return <>
   <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>  
-  <div className={`list-group`}>                
-  <div className='list-group-item mb-3'>
+  <div className={`list-group `}>                
+  <div className='list-group-item mb-3 backgroundcart'>
   <GotJsonDataMenu textabohlen={textabohlen} mSetContainer={mSetContainer} setMainContainer={setMainContainer}  setMsgError={setMsgError} menu={menu}/>
   </div>
   </div>
@@ -255,27 +255,27 @@ export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,t
       return<>
           <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>
           <div className={`list-group`}>                
-          <div className='list-group-item'>                
-          <div className="row mb-3">
+          <div className='list-group-item justify-content-between d-flex'>                      
+          <div className="row">
               <div className='col-12'>
               <h6>Ihre Daten :</h6>
               </div>
               <div className='col-12'>
-              <p style={{"fontSize":"0.7rem","color":"#fff"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
+              <p style={{"fontSize":"0.7rem","color":"#000"}}>{addresses[seladd]["fname"]}&nbsp;{addresses[seladd]["lname"]}<br/>
               {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
               {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
               {addresses[seladd]["phonen"]}
               </p>
-              </div>
-              <div className='col-12 align-items-center d-flex'>
-                  <button className='btn btn-outline-primary'
+              </div>              
+          </div>
+          <span>
+                  <button className='btn btn-primary'
                   onClick={()=>{
                       window.localStorage.setItem("seladdress","")
                       setMainContainer(<UserHasNoData menu={menu} mSetContainer={mSetContainer} setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
                   }}
                   >ändern</button>
-              </div>
-          </div>
+                  </span>
           </div>
           </div>
           <br/>

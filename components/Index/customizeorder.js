@@ -28,20 +28,13 @@ export function TypesComponent ({type, settype, menu, id}) {
       }
   
       return (
-        <div className={`list-group ${types.length < 1 ? "" : ""}`}>
-          <div className='list-group-item'>
-            <div className='row'>
-              <div className='col-12'>{obj["name"]}:</div>
-              <br/>
-              <br/>
-              <div className="col-12">
+        <>              
+              <div className="col-12 mt-3">
                 <select className="form-select" onChange={(e)=>{settype(e.target.value)}}>
                   {types}
-                </select>
+                </select>              
               </div>         
-            </div>         
-          </div>         
-        </div>
+        </>
       )
     } catch (error) {
       return <></>
@@ -87,10 +80,10 @@ export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,
         checkisextra=true;  
         extrarow.push(
             <>                
-            <div className={`col-12 ${(ion>2?mdisplay:"")}`}>            
-            <input type="checkbox" class="btn-check"  id={jjj} autocomplete="off" onChange={addextra} defaultChecked={(jjj in extra?true:false)}/>
-            <label class="btn btn-outline-primary " for={jjj}>
-                {(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;{menu["extra"][jjj][type]["price"]}&euro;</label>
+            <div className={`col-12 form-check ${(ion>2?mdisplay:"")}`} >            
+            <input style={{cursor:"pointer"}} type="checkbox" class="form-check-input"  id={jjj} autocomplete="off" onChange={addextra} defaultChecked={(jjj in extra?true:false)}/>
+            <label style={{cursor:"pointer"}} class="form-check-label pt-2 " for={jjj}>
+                &nbsp;&nbsp;{(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;(+{menu["extra"][jjj][type]["price"]})&nbsp;&euro;</label>
             </div>            
          </>
         )
@@ -103,26 +96,20 @@ export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,
     if(ion>2)
     extrarow.push(
         <>           
-       <div className='col-12'>           
-           <button className='btn btn-outline-primary ' id="btn-more" onClick={()=>{setmdisplay(""); document.getElementById("btn-more").className="d-none"}}>
-           Weitere anzeigen &nbsp;
-           <svg fill="white" viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M2.82 5.044L8 10.399 13.197 5l.963.875-5.364 5.565a1.164 1.164 0 01-1.636 0L1.875 5.945l.945-.901z"></path></svg>
-            </button>
+       <div className='col-12 p-0 mt-2 mb-4'>           
+           <a className='' id="btn-more" style={{cursor:"pointer"}} onClick={()=>{setmdisplay(""); document.getElementById("btn-more").className="d-none"}}>
+           Mehr anzeigen &nbsp;
+           <svg fill="black" viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M2.82 5.044L8 10.399 13.197 5l.963.875-5.364 5.565a1.164 1.164 0 01-1.636 0L1.875 5.945l.945-.901z"></path></svg>
+            </a>
        </div> 
        </>
     ) 
 
     if(extrarow.length==0)
     return <></>
-    return <><div className={`list-group `}>
-    <div className='list-group-item'>
-    <div className='row g-3 mt-2'>
-    <div className='col-12'>Deine Extras:</div>
-            {extrarow}
-    </div>
-    </div>
-    </div> 
-    <br/>
+    return <>
+    <div className='col-12 p-0 mb-2' style={{fontSize:"15px"}}><strong>Deine Extras:</strong></div>
+    {extrarow} 
     </>
 }
 export function OptionsComponent ({menu,id,orderid,or,updatePrice}) {
@@ -143,12 +130,10 @@ export function OptionsComponent ({menu,id,orderid,or,updatePrice}) {
                     key = key.replace("options-options","")
                     updatePrice()
                 }
-                return <div class="input-group mb-3">
-                <label class="input-group-text"  for="inputGroupSelect01">{e["name"]}</label>
-                    <select defaultValue={defaultoption} onChange={getoption} id={e["name"]}  name={`options-options${e["name"]}`} class="form-select">
+                return <><strong className='col-12 p-0'>{e["name"]}</strong>
+                    <select className="form-select form-select-lg mb-1" defaultValue={defaultoption} onChange={getoption} id={e["name"]}  name={`options-options${e["name"]}`} >
                     {tempsubobj}
-                    </select>
-                </div>
+                    </select></>
     }
     const jsonObject = menu["product"][id]["options"]
     if(jsonObject != undefined)
@@ -163,21 +148,16 @@ export function OptionsComponent ({menu,id,orderid,or,updatePrice}) {
     {
         var tempobj=[]
           
-            tempobj.push(<br/>)
-            tempobj.push(<div className='row'>{OptionsElement(menu["product"][id]["options"][objo])}</div>)
-            options.push(<div className='col-sm-12 col-md-6 col-lg-4'>{tempobj}</div>)                
+            tempobj.push(OptionsElement(menu["product"][id]["options"][objo]))
+            options.push(tempobj)                
     } 
     }  
     if (options.length==0) {
         return <></>
     }
     return <>
-    <div className='list-group'>
-    <div className='list-group-item'>
-    {options}            
-    </div>
-    </div>
-    <br/>
+    {options}
+    <div className='col-12 mt-4'></div>                
     </>
 }
 export function MsgComponent ({MyLang,orderid,orders}) {
@@ -185,14 +165,16 @@ export function MsgComponent ({MyLang,orderid,orders}) {
     if(orderid in orders)
     if("msg" in orders[orderid])
     msg = orders[orderid]["msg"]
-    return <div className={`list-group `}>
-    <div className='list-group-item'>
-    Besondere Wünsche:
+    return <>
+    <div className='col-12 p-0 mt-4'>
+    <strong className='p-0' style={{fontSize:"15px"}}>Besondere Wünsche:</strong>
+    </div>
+    <div className='col-12 p-0'>
     <textarea className='mt-1 rounded' id="textareamsg" style={{"width":"100%"}}  maxLength={50} >          
     {msg}
-    </textarea>
+    </textarea>    
     </div>
-    </div>
+    </>
 }
 export function PriceComponent ({price,MyLang}) {
     if (price != "") {        
@@ -309,28 +291,25 @@ export function IDisReady ({menu, id, orderid , orders}) {
     
 
     return <>
-       <div class="modal-header text-white">  
-       <h3>{menu["product"][id]["name"]}</h3>                                
+       <div class="modal-header text-whitee">  
+       <h3 className='m-0'>{menu["product"][id]["name"]}</h3>                                
         
         <button type="button" class="btn-close " id={`btn-close-CustomizeModal`} data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
-      <div class="modal-body">      
-    <div className="container mt-4 text-white">
-    <h6>{menu["product"][id]["desO"]}</h6>  
-<br/>
+      <div class="modal-body" style={{"backgroundColor":"rgb(242 242 242)"}}>      
+      {menu["product"][id]["desO"]!=""?<h6>{menu["product"][id]["desO"]}</h6>:""}
+
+
 <TypesComponent type={type} settype={settype} menu={menu} id={id} />
-<br/>
-<br/>
+
+<div className='row' style={{"backgroundColor":"rgb(242 242 242)",padding:"30px 15px 30px 15px"}}>
 <OptionsComponent updatePrice={updatePrice} menu={menu} id={id} orderid={orderid} or={orders}/>
 <ExtraComponent MyLang={MyLang} setextra={setextra} extra={extra} updatePrice={updatePrice} type={type} menu={menu} id={id} orderid={orderid} or={orders}/>
 <MsgComponent MyLang={MyLang} orderid={orderid} orders={orders}/>
-<br/>
-<br/>
-<br/>
+</div>
 <br/>
 <br/>
 
-</div> 
 </div> 
 <div style={{"backgroundColor":"#533b3b"}} class="modal-footer d-flex justify-content-md-center justify-content-between justify-content-lg-center border-0">
     {/* {MyLang["count"]} */}
@@ -342,7 +321,7 @@ export function IDisReady ({menu, id, orderid , orders}) {
         <a onClick={()=>{var g=parseInt(count) +1;setCount(g+"");}} className='btn-md btn btn-secondary rounded-5'>                    
         <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path fill="white" d="M14.125 7.344H8.656V1.875H7.344v5.469H1.875v1.312h5.469v5.469h1.312V8.656h5.469V7.344z"></path></svg>
             </a>
-        </div>&nbsp;
+        </div>
 <button style={{"minWidth":'200px'}} onClick={addOrder} class="border-success rounded-5 btn btn-success btn-lg ">
    {addButtonText}</button>
 </div>

@@ -19,24 +19,16 @@
     background-color:var(--primary-Background) !important;
 }
 .form-select{
-    color:var(--primary-font) !important;
     background-color:var(--primary-Background) !important;
 }
 .form-select2{
-    color:var(--primary-font) !important;
     background-color:var(--primary-Background) !important;
 }
 .text-muted {
     color:#bebebf !important
 }
-.list-group{
-    
-    --bs-list-group-color:var(--primary-font) !important;
-    --bs-list-group-bg: var(--primary-Background) !important;
-}
 
-body {    
-    }
+
 a{
     text-decoration: none !important;
 }

@@ -35,6 +35,8 @@ function InitilaizeSection () {
     document.getElementById('btn-close-CustomizeModal').click()
     if(document.getElementById('btn-close-CartModal'))
     document.getElementById('btn-close-CartModal').click()
+    if(document.getElementById('btn-close-MyOrderModal'))
+    document.getElementById('btn-close-MyOrderModal').click()
   };
   setTimeout(() => {        
     navbar = document.querySelector('.navbarr');
@@ -43,7 +45,7 @@ function InitilaizeSection () {
       solveshowNav = document.querySelector('#solveshowNav');
       navbardistance = navbar.getBoundingClientRect().top
     }
-  }, 50);
+  }, 1500);
   window.addEventListener('scroll', function() {  
     if (window.pageYOffset > navbardistance) {
       {
@@ -82,6 +84,7 @@ function InitilaizeSection () {
 export  function IndexPage({menu}) {
   const [ContainerCustimizeModal,setContainerCustimizeModal]=useState(<></>)
   const [ContainerCartModal,setContainerCartModal]=useState(<></>)
+  const [ContainerMyOrderModal,setContainerMyOrderModal]=useState(<></>)
   const [rows,setrows]=useState(<></>)
   
   
@@ -119,7 +122,7 @@ export  function IndexPage({menu}) {
     }
     const GetObjItem=(menu,key)=>{
         var descriptionO = menu["product"][key]["desO"] !=undefined?<div className="col-12 ">{menu["product"][key]["desO"]}</div>:"";
-            return <div onClick={ItemClicked} data-key={key}  className='rounded p-2 mb-2' style={{"min-height":"5rem",border:"0.7px solid rgb(77 77 77 / 40%)","cursor":"pointer"}}>
+            return <div onClick={ItemClicked} data-key={key}  className='rounded p-2 mb-2' style={{"min-height":"5rem",border:"0.7px solid rgb(77 77 77 / 40%)","cursor":"pointer",backgroundColor:"rgb(245 245 245)"}}>
               <a                                                
             className="col-lg-8 col-md-12 col-sm-12 col-xs-12 rounded">   
                   <div className='d-flex justify-content-between' style={{"color":"rgb(80 80 80)"}}>
@@ -221,7 +224,7 @@ export  function IndexPage({menu}) {
     
   return (
     <>
-    <MyNavBar/>
+    <MyNavBar menu={menu} setContainerMyOrderModal={setContainerMyOrderModal}/>
     <div id="solveshowNav" className='d-none' style={{"height":"56px"}}></div>
       <nav style={{"background":"white","fontWeight":"bold","fontSize":"16px"}} id="navbarscroll" class="nav navbarr navbar-nav scroll">
         <div class="navbar-header p-2">
@@ -234,11 +237,14 @@ export  function IndexPage({menu}) {
 
     <MModal idd="CustomizeModal" contaienrr={ContainerCustimizeModal} />
     <MModal idd="CartModal" contaienrr={ContainerCartModal} />
-    <footer class="footer bg-dark text-white text-center mt-5">
+    <MModal idd="MyOrderModal" contaienrr={ContainerMyOrderModal} />
+    <footer class="footer  text-center mt-5 mb-5">
         <div class="container">
           <p>&copy; 2023 {menu["staticValue"]["logo"]}. All rights reserved.</p>
         </div>
       </footer>
+      <div style={{marginTop:"100px"}}/>
+      <div className='mb-5 mt-5 container-fluid'/>
     <MButtonCartContainer menu={menu} setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal}/>
       </>
       
@@ -281,7 +287,7 @@ export function MButtonCartContainer ({menu,setContainerCartModal,setContainerCu
   return <>{ButtonFixedCart}</>
 }
 export function MModal ({idd,contaienrr}) {
-  return <div className="modal" id={idd} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-theme="dark">
+  return <div className="modal text-black" id={idd} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-theme="">
   <div class="modal-dialog modal-fullscreen-md-down">
     <div class="modal-content">
       {contaienrr}         

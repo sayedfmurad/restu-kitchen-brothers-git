@@ -68,7 +68,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
                         <li className="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
                                 <h6 className=''>{menu["product"][or[ke]["id"]]["name"]}&nbsp;({menu["product"][or[ke]["id"]]["section"]})&nbsp;{typee}</h6>
-                                <small className='text-muted'>
+                                <small className=''>
                                 {descriptionO==""?"":<>{descriptionO}<br/></>}
                                 {countI}                         
                                 {extras.length==0?"":<>{extras}</>}
@@ -79,7 +79,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
                                 &nbsp;
                                 <button  data-ordid={ke} data-section={menu["product"][or[ke]["id"]]["section"]} onClick={EditItem}  class="mt-3 btn btn-outline-secondary">{MyLang["edit"]}</button>
                             </div>
-                                <span className=' text-muted'>
+                                <span className=' '>
                                 {or[ke]["price"]}&nbsp;&euro;
                                 </span>
                         </li>
@@ -110,7 +110,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
                 crows.push(
                     <li className="list-group-item d-flex justify-content-between lh-light">
                         <div className=''><h6 className=''>{MyLang['delivery cost']}</h6></div>
-                        <span className=' text-muted'>{addre[seladdre]['kosten']}&nbsp;&euro;                </span>                        
+                        <span className=' '>{addre[seladdre]['kosten']}&nbsp;&euro;                </span>                        
                         </li>
                         )
             }   
@@ -118,7 +118,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
             crows.push(
                 <li className="list-group-item d-flex justify-content-between lh-light">
                 <div className=''><h6 className=''>{MyLang["total including var"]}</h6></div>
-                <span className=' text-muted'>{sum}&nbsp;&euro;                </span>                        
+                <span className=' '>{sum}&nbsp;&euro;                </span>                        
                 </li> 
             )
         }

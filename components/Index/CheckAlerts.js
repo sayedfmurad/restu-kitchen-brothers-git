@@ -34,15 +34,15 @@ export default({menu})=>{
     if(typeof installPrompt !== "undefined")
     if(!displayMode.matches)
     {
-        AddRow("alert alert-warning d-flex justify-content-between p-2",<><strong className="p-1">Laden Sie unsere App herunter!</strong>
+        AddRow("alert alert-warning d-flex justify-content-between p-2",<><strong className="p-1">Installieren Sie unsere App!</strong>
         <button className="btn btn-secondary btn-sm"
         onClick={()=>{installPrompt.prompt()}}
-        >&darr;&nbsp;&nbsp;Herunterladen</button></>)                
+        >&darr;&nbsp;&nbsp;Installieren</button></>)                
         rows = rows.concat(mRows)
         setRows(rows)
     }
     
-        }, 100)
+        }, 500)
     }        
         ,[])
     

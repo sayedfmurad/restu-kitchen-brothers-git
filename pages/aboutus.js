@@ -45,6 +45,6 @@ export default ()=> {
     </Head> 
     <MyNavbar/>
 
-    <Container/>
+    {/* <Container/> */}
     </>)
 }

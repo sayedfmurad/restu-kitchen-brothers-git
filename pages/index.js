@@ -18,8 +18,8 @@ export function LoadingCont () {
     }       
 
   return <div id="loadingg" className='loadingg mt-5 d-flex justify-content-center'>
-  <strong className='text-white'>{GetKeyFromDomain()}</strong>    
-  <div class="spinner-border text-light mt-3" role="status">
+  <strong className='text-black'>{GetKeyFromDomain()}</strong>    
+  <div class="spinner-border text-black mt-3 " role="status">
     <span class="visually-hidden">Loading...</span>
   </div>
 </div>
@@ -32,6 +32,7 @@ export default function Index() {
   const [H2SEO,setH2SEO] = useState("")
   const MyLang = langswitch.langswitchs("index"); 
   useEffect(()=>{ 
+    document.body.style.backgroundColor = "white";
     window.addEventListener('beforeinstallprompt', (e) => {
       // Prevent Chrome 67 and earlier from automatically showing the prompt
         // e.prompt();
