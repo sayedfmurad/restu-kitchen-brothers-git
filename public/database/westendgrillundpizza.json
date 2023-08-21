@@ -622,10 +622,10 @@
         "70": {
             "name": "Margherita",
             "price": {
-                "22cm": "4,00",
-                "26cm": "6,00",
-                "32cm": "8,00",
-                "36cm": "9,00"
+                "20cm": "4,00",
+                "24cm": "6,00",
+                "30cm": "8,00",
+                "34cm": "9,00"
             },
             "desO": "Tomatensoße mit Käse",
             "desT": "",
@@ -635,10 +635,10 @@
         "71": {
             "name": "Salami",
             "price": {
-                "22cm": "5,00",
-                "26cm": "7,00",
-                "32cm": "10,00",
-                "36cm": "10,90"
+                "20cm": "5,00",
+                "24cm": "7,00",
+                "30cm": "10,00",
+                "34cm": "10,90"
             },
             "desO": "Salami, Käse",
             "desT": "",
@@ -648,10 +648,10 @@
         "72": {
             "name": "Schinken",
             "price": {
-                "22cm": "5,00",
-                "26cm": "7,00",
-                "32cm": "9,50",
-                "36cm": "12,00"
+                "20cm": "5,00",
+                "24cm": "7,00",
+                "30cm": "9,50",
+                "34cm": "12,00"
             },
             "desO": "Truthahnschinken, Käse",
             "desT": "",
@@ -661,10 +661,10 @@
         "73": {
             "name": "Hawaii",
             "price": {
-                "22cm": "5,50",
-                "26cm": "7,50",
-                "32cm": "10,50",
-                "36cm": "12,90"
+                "20cm": "5,50",
+                "24cm": "7,50",
+                "30cm": "10,50",
+                "34cm": "12,90"
             },
             "desO": "Truthahnschinken, Ananas, Käse",
             "desT": "",
@@ -674,10 +674,10 @@
         "74": {
             "name": "Mista",
             "price": {
-                "22cm": "5,50",
-                "26cm": "8,50",
-                "32cm": "11,50",
-                "36cm": "13,90"
+                "20cm": "5,50",
+                "24cm": "8,50",
+                "30cm": "11,50",
+                "34cm": "13,90"
             },
             "desO": "Truthahnschinken, Salami, Champignons, Käse",
             "desT": "",
@@ -687,10 +687,10 @@
         "75": {
             "name": "Funghi Salami",
             "price": {
-                "22cm": "5,50",
-                "26cm": "7,50",
-                "32cm": "11,50",
-                "36cm": "12,50"
+                "20cm": "5,50",
+                "24cm": "7,50",
+                "30cm": "11,50",
+                "34cm": "12,50"
             },
             "desO": "Salami, Champignons, Käse",
             "desT": "",
@@ -700,10 +700,10 @@
         "76": {
             "name": "Mafia",
             "price": {
-                "22cm": "6,50",
-                "26cm": "8,90",
-                "32cm": "11,50",
-                "36cm": "14,50"
+                "20cm": "6,50",
+                "24cm": "8,90",
+                "30cm": "11,50",
+                "34cm": "14,50"
             },
             "desO": "Truthahnschinken, Salami, Paprika, Zwiebenn, milde Peperoni, Knoblauch, Käse, Champ.",
             "desT": "",
@@ -713,10 +713,10 @@
         "77": {
             "name": "Pronto Pronto",
             "price": {
-                "22cm": "6,00",
-                "26cm": "8,50",
-                "32cm": "11,90",
-                "36cm": "13,90"
+                "20cm": "6,00",
+                "24cm": "8,50",
+                "30cm": "11,90",
+                "34cm": "13,90"
             },
             "desO": "Salami, Truthahnschinken, Paprika, Champignons, Käse",
             "desT": "",
@@ -726,10 +726,10 @@
         "78": {
             "name": "Pizza Hacki",
             "price": {
-                "22cm": "6,00",
-                "26cm": "8,50",
-                "32cm": "10,90",
-                "36cm": "13,50"
+                "20cm": "6,00",
+                "24cm": "8,50",
+                "30cm": "10,90",
+                "34cm": "13,50"
             },
             "desO": "Hackfleisch mit Eierscheiben, Käse",
             "desT": "",
@@ -739,10 +739,10 @@
         "79": {
             "name": "Pizza Amerikana",
             "price": {
-                "22cm": "6,00",
-                "26cm": "8,50",
-                "32cm": "11,50",
-                "36cm": "13,90"
+                "20cm": "6,00",
+                "24cm": "8,50",
+                "30cm": "11,50",
+                "34cm": "13,90"
             },
             "desO": "Salami, Truthahnschinken, Paprika, Zwiebeln, Ei, Käse",
             "desT": "",
@@ -752,10 +752,10 @@
         "80": {
             "name": "Pizza Tonno",
             "price": {
-                "22cm": "5,50",
-                "26cm": "7,90",
-                "32cm": "11,50",
-                "36cm": "13,50"
+                "20cm": "5,50",
+                "24cm": "7,90",
+                "30cm": "11,50",
+                "34cm": "13,50"
             },
             "desO": "Thunfisch, Käse",
             "desT": "",
@@ -765,10 +765,10 @@
         "81": {
             "name": "Pizza Hähnchen",
             "price": {
-                "22cm": "6,00",
-                "26cm": "8,50",
-                "32cm": "11,50",
-                "36cm": "13,90"
+                "20cm": "6,00",
+                "24cm": "8,50",
+                "30cm": "11,50",
+                "34cm": "13,90"
             },
             "desO": "Hähnchenfleisch und Curry, Zwiebeln, Käse",
             "desT": "",
@@ -778,10 +778,10 @@
         "82": {
             "name": "Pizza Holland",
             "price": {
-                "22cm": "6,00",
-                "26cm": "8,50",
-                "32cm": "11,50",
-                "36cm": "13,90"
+                "20cm": "6,00",
+                "24cm": "8,50",
+                "30cm": "11,50",
+                "34cm": "13,90"
             },
             "desO": "Truthahnschinken, Brokkoli, frische Tomaten, Hollandaise, Käse",
             "desT": "",
@@ -791,10 +791,10 @@
         "83": {
             "name": "Pizza Carne",
             "price": {
-                "22cm": "6,50",
-                "26cm": "9,50",
-                "32cm": "12,90",
-                "36cm": "13,90"
+                "20cm": "6,50",
+                "24cm": "9,50",
+                "30cm": "12,90",
+                "34cm": "13,90"
             },
             "desO": "Drehspießfleisch, Paprika, Zwiebeln, Champignons, Dönersoße, Käse",
             "desT": "",
@@ -804,10 +804,10 @@
         "84": {
             "name": "Veggie Pizza",
             "price": {
-                "22cm": "5,00",
-                "26cm": "6,90",
-                "32cm": "10,00",
-                "36cm": "12,00"
+                "20cm": "5,00",
+                "24cm": "6,90",
+                "30cm": "10,00",
+                "34cm": "12,00"
             },
             "desO": "Tomatensoße, verschiedenes Gemüse und Käse",
             "desT": "",
@@ -817,10 +817,10 @@
         "85": {
             "name": "Pizza Spaghetti Bolognese",
             "price": {
-                "22cm": "5,50",
-                "26cm": "8,50",
-                "32cm": "10,90",
-                "36cm": "13,50"
+                "20cm": "5,50",
+                "24cm": "8,50",
+                "30cm": "10,90",
+                "34cm": "13,50"
             },
             "desO": "Spaghetti, Bolognes, Käse",
             "desT": "",
@@ -830,10 +830,10 @@
         "86": {
             "name": "Drehspieß Pizza",
             "price": {
-                "22cm": "6,90",
-                "26cm": "9,50",
-                "32cm": "12,50",
-                "36cm": "13,90"
+                "20cm": "6,90",
+                "24cm": "9,50",
+                "30cm": "12,50",
+                "34cm": "13,90"
             },
             "desO": "Drehspießfleisch, Fetakäse, Zwiebeln, Oliven, Döner Soße, Käse",
             "desT": "",
@@ -843,10 +843,10 @@
         "87": {
             "name": "Spinat",
             "price": {
-                "22cm": "5,00",
-                "26cm": "7,50",
-                "32cm": "10,90",
-                "36cm": "13,90"
+                "20cm": "5,00",
+                "24cm": "7,50",
+                "30cm": "10,90",
+                "34cm": "13,90"
             },
             "desO": "Spinat mit Gorgonzolla und Käse",
             "desT": "",
@@ -856,10 +856,10 @@
         "88": {
             "name": "Pizza mit vier Käse Sorten",
             "price": {
-                "22cm": "6,00",
-                "26cm": "8,90",
-                "32cm": "11,90",
-                "36cm": "14,00"
+                "20cm": "6,00",
+                "24cm": "8,90",
+                "30cm": "11,90",
+                "34cm": "14,00"
             },
             "desO": "Mozzerella, Fetakäse, Gorgonzolla, Edamer",
             "desT": "",
@@ -869,10 +869,10 @@
         "89": {
             "name": "Drehspieß Oriental",
             "price": {
-                "22cm": "6,00",
-                "26cm": "9,50",
-                "32cm": "11,50",
-                "36cm": "13,50"
+                "20cm": "6,00",
+                "24cm": "9,50",
+                "30cm": "11,50",
+                "34cm": "13,50"
             },
             "desO": "Drehspießfleisch, Ananas, Weichkäse, milde Peperoni, Döner Soße",
             "desT": "",
@@ -882,10 +882,10 @@
         "90": {
             "name": "Pizza Ramo",
             "price": {
-                "22cm": "5,90",
-                "26cm": "8,50",
-                "32cm": "11,50",
-                "36cm": "12,90"
+                "20cm": "5,90",
+                "24cm": "8,50",
+                "30cm": "11,50",
+                "34cm": "12,90"
             },
             "desO": "Hackfleisch, Weichkäse, Oliven, frische Tomaten",
             "desT": "",
@@ -895,10 +895,10 @@
         "91": {
             "name": "Pizza mit fünf Fleischsorten",
             "price": {
-                "22cm": "6,50",
-                "26cm": "9,90",
-                "32cm": "12,90",
-                "36cm": "14,50"
+                "20cm": "6,50",
+                "24cm": "9,90",
+                "30cm": "12,90",
+                "34cm": "14,50"
             },
             "desO": "Salami, Truthahnschinken, Pute, Drehspießfleisch, Hackfleisch",
             "desT": "",
@@ -908,10 +908,10 @@
         "92": {
             "name": "Pizza BBQ",
             "price": {
-                "22cm": "6,00",
-                "26cm": "8,50",
-                "32cm": "11,90",
-                "36cm": "13,90"
+                "20cm": "6,00",
+                "24cm": "8,50",
+                "30cm": "11,90",
+                "34cm": "13,90"
             },
             "desO": "Hänchenfleisch, Zwiebeln, Hollandaise, BBQ Sauce, Käse",
             "desT": "",
@@ -921,10 +921,10 @@
         "93": {
             "name": "Brokkoli",
             "price": {
-                "22cm": "5,00",
-                "26cm": "6,90",
-                "32cm": "9,50",
-                "36cm": "12,50"
+                "20cm": "5,00",
+                "24cm": "6,90",
+                "30cm": "9,50",
+                "34cm": "12,50"
             },
             "desO": "Pute, Brokkoli, Mais, Zwiebeln, Käse",
             "desT": "",
@@ -934,10 +934,10 @@
         "94": {
             "name": "Pizza Drehspieß Hähnchen",
             "price": {
-                "22cm": "6,00",
-                "26cm": "8,90",
-                "32cm": "11,90",
-                "36cm": "13,90"
+                "20cm": "6,00",
+                "24cm": "8,90",
+                "30cm": "11,90",
+                "34cm": "13,90"
             },
             "desO": "Drehspieß Hähnchen, milde Peperoni, Zwiebeln, knoblauch, scharf",
             "desT": "",
@@ -947,10 +947,10 @@
         "95": {
             "name": "Pizza Mix",
             "price": {
-                "22cm": "6,50",
-                "26cm": "9,90",
-                "32cm": "13,50",
-                "36cm": "15,90"
+                "20cm": "6,50",
+                "24cm": "9,90",
+                "30cm": "13,50",
+                "34cm": "15,90"
             },
             "desO": "sechs Sorten Ihrer Wahl",
             "desT": "",
@@ -960,10 +960,10 @@
         "96": {
             "name": "Pizza Sucuk",
             "price": {
-                "22cm": "6,00",
-                "26cm": "7,00",
-                "32cm": "11,00",
-                "36cm": "13,00"
+                "20cm": "6,00",
+                "24cm": "7,00",
+                "30cm": "11,00",
+                "34cm": "13,00"
             },
             "desO": "Knoblauchwurst und Käse",
             "desT": "",
@@ -973,10 +973,10 @@
         "97": {
             "name": "Pizza Krabben",
             "price": {
-                "22cm": "6,50",
-                "26cm": "9,50",
-                "32cm": "12,50",
-                "36cm": "15,00"
+                "20cm": "6,50",
+                "24cm": "9,50",
+                "30cm": "12,50",
+                "34cm": "15,00"
             },
             "desO": "Krabben, Zwiebeln, Knoblauch",
             "desT": "",
@@ -986,10 +986,10 @@
         "98": {
             "name": "Pizza Diavolo",
             "price": {
-                "22cm": "5,50",
-                "26cm": "8,90",
-                "32cm": "12,50",
-                "36cm": "13,50"
+                "20cm": "5,50",
+                "24cm": "8,90",
+                "30cm": "12,50",
+                "34cm": "13,50"
             },
             "desO": "Salami, Paprika, scharfe Peperoni",
             "desT": "",
@@ -999,10 +999,10 @@
         "99": {
             "name": "Pizza Frutti de Mare",
             "price": {
-                "22cm": "6,50",
-                "26cm": "9,50",
-                "32cm": "13,50",
-                "36cm": "15,00"
+                "20cm": "6,50",
+                "24cm": "9,50",
+                "30cm": "13,50",
+                "34cm": "15,00"
             },
             "desO": "Meeresfrüchte, Zwiebeln, Knoblauch",
             "desT": "",
@@ -1012,10 +1012,10 @@
         "100": {
             "name": "Pizza Mozzarella",
             "price": {
-                "22cm": "6,00",
-                "26cm": "8,00",
-                "32cm": "11,00",
-                "36cm": "13,00"
+                "20cm": "6,00",
+                "24cm": "8,00",
+                "30cm": "11,00",
+                "34cm": "13,00"
             },
             "desO": "Mozzarella und Tomaten, Käse",
             "desT": "",
@@ -2008,19 +2008,19 @@
                 "price": "0,80",
                 "name": "ananas"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "ananas"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "ananas"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "ananas"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "ananas"
             },
@@ -2037,19 +2037,19 @@
                 "price": "0,80",
                 "name": "brocoli"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "brocoli"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "brocoli"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "brocoli"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "brocoli"
             },
@@ -2066,19 +2066,19 @@
                 "price": "0,80",
                 "name": "dönerfleisch"
             },
-            "22cm": {
+            "20cm": {
                 "price": "1,00",
                 "name": "dönerfleisch"
             },
-            "26cm": {
+            "24cm": {
                 "price": "2,00",
                 "name": "dönerfleisch"
             },
-            "32cm": {
+            "30cm": {
                 "price": "2,50",
                 "name": "dönerfleisch"
             },
-            "36cm": {
+            "34cm": {
                 "price": "3,00",
                 "name": "dönerfleisch"
             },
@@ -2095,19 +2095,19 @@
                 "price": "0,80",
                 "name": "ei"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "ei"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "ei"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "ei"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "ei"
             },
@@ -2124,19 +2124,19 @@
                 "price": "0,80",
                 "name": "hähnchenbrust"
             },
-            "22cm": {
+            "20cm": {
                 "price": "1,00",
                 "name": "hähnchenbrust"
             },
-            "26cm": {
+            "24cm": {
                 "price": "2,00",
                 "name": "hähnchenbrust"
             },
-            "32cm": {
+            "30cm": {
                 "price": "2,50",
                 "name": "hähnchenbrust"
             },
-            "36cm": {
+            "34cm": {
                 "price": "3,00",
                 "name": "hähnchenbrust"
             },
@@ -2153,19 +2153,19 @@
                 "price": "0,80",
                 "name": "knoblauch"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "knoblauch"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "knoblauch"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "knoblauch"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "knoblauch"
             },
@@ -2182,19 +2182,19 @@
                 "price": "0,80",
                 "name": "mozzarella"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "mozzarella"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "mozzarella"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "mozzarella"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "mozzarella"
             },
@@ -2211,19 +2211,19 @@
                 "price": "0,80",
                 "name": "muscheln"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "muscheln"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "muscheln"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "muscheln"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "muscheln"
             },
@@ -2240,19 +2240,19 @@
                 "price": "0,80",
                 "name": "paprika"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "paprika"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "paprika"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "paprika"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "paprika"
             },
@@ -2269,19 +2269,19 @@
                 "price": "0,80",
                 "name": "peperoni"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "peperoni"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "peperoni"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "peperoni"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "peperoni"
             },
@@ -2298,19 +2298,19 @@
                 "price": "0,80",
                 "name": "pilzen"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "pilzen"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "pilzen"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "pilzen"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "pilzen"
             },
@@ -2327,19 +2327,19 @@
                 "price": "0,80",
                 "name": "rahmsauce"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "rahmsauce"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "rahmsauce"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "rahmsauce"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "rahmsauce"
             },
@@ -2356,19 +2356,19 @@
                 "price": "0,80",
                 "name": "salami"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "salami"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "salami"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "salami"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "salami"
             },
@@ -2385,19 +2385,19 @@
                 "price": "0,80",
                 "name": "saucehallandaise"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "saucehallandaise"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "saucehallandaise"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "saucehallandaise"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "saucehallandaise"
             },
@@ -2414,19 +2414,19 @@
                 "price": "0,80",
                 "name": "schinken"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "schinken"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "schinken"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "schinken"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "schinken"
             },
@@ -2443,19 +2443,19 @@
                 "price": "0,80",
                 "name": "spaghetti"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "spaghetti"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "spaghetti"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "spaghetti"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "spaghetti"
             },
@@ -2472,19 +2472,19 @@
                 "price": "0,80",
                 "name": "spinat"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "spinat"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "spinat"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "spinat"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "spinat"
             },
@@ -2501,19 +2501,19 @@
                 "price": "0,80",
                 "name": "sucuk"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "sucuk"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "sucuk"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "sucuk"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "sucuk"
             },
@@ -2530,19 +2530,19 @@
                 "price": "0,80",
                 "name": "thunfisch"
             },
-            "22cm": {
+            "20cm": {
                 "price": "1,00",
                 "name": "thunfisch"
             },
-            "26cm": {
+            "24cm": {
                 "price": "2,00",
                 "name": "thunfisch"
             },
-            "32cm": {
+            "30cm": {
                 "price": "2,50",
                 "name": "thunfisch"
             },
-            "36cm": {
+            "34cm": {
                 "price": "3,00",
                 "name": "thunfisch"
             },
@@ -2559,19 +2559,19 @@
                 "price": "0,80",
                 "name": "tintenflischringen"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "tintenflischringen"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "tintenflischringen"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "tintenflischringen"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "tintenflischringen"
             },
@@ -2588,19 +2588,19 @@
                 "price": "0,80",
                 "name": "tomaten"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "tomaten"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "tomaten"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "tomaten"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "tomaten"
             },
@@ -2617,19 +2617,19 @@
                 "price": "0,80",
                 "name": "käse"
             },
-            "22cm": {
+            "20cm": {
                 "price": "1,00",
                 "name": "käse"
             },
-            "26cm": {
+            "24cm": {
                 "price": "2,00",
                 "name": "käse"
             },
-            "32cm": {
+            "30cm": {
                 "price": "2,50",
                 "name": "käse"
             },
-            "36cm": {
+            "34cm": {
                 "price": "3,00",
                 "name": "käse"
             },
@@ -2646,19 +2646,19 @@
                 "price": "0,80",
                 "name": "zwiebeln"
             },
-            "22cm": {
+            "20cm": {
                 "price": "0,80",
                 "name": "zwiebeln"
             },
-            "26cm": {
+            "24cm": {
                 "price": "1,00",
                 "name": "zwiebeln"
             },
-            "32cm": {
+            "30cm": {
                 "price": "1,50",
                 "name": "zwiebeln"
             },
-            "36cm": {
+            "34cm": {
                 "price": "2,00",
                 "name": "zwiebeln"
             },
@@ -2668,12 +2668,7 @@
             }
         }
     },
-    "staticValue": {
-        "closed":"",
-        "alerts":[            
-            {"text":"Liebe Kunden wir machen Urlaub vom 23.06.2023 bis 09.08.2023",
-             "class":"alert alert-danger"}
-        ],
+    "staticValue": {    
         "key": "westendgrillundpizza",
         "pc": "AfuSl7LqNnZtAwNFZ-PVW56KYsaBJvrg1USrJj1_7evZzCqGcXXktUWyRi6pKBlpa3PEVDyps8CeJD8i",
         "ps": "wrjCrMOIw4bCmsOMwqLCv8Krw4HCmsKhw47CvMOJw57DpMOJwqPDl8OEwprCssKawqfCnMORw4nClsKew4XCsMKaw4TCt8OZw5bDiMOHwqnDp8KVw4LCuMObwrrCu8K-w4jDpcKzwqPCvMOewrrDmMK_wpzDk8K6wpvDp8OYw5zDhMKywqbDlsKzw4HCs8Oiwr3CmMOhwrjDgsKXw57DoA==",
@@ -2692,33 +2687,36 @@
             "lng": 6.4261498
         },
         "opendays": {
-            "sunday": {
-                "opentime": {
-                    "hour": 11,
-                    "min": 0
-                },
-                "closetime": {
-                    "hour": 22,
-                    "min": 0
+            "sunday": 
+                
+                {
+                    "opentime": {
+                        "hour": 12,
+                        "min": 0
+                    },
+                    "closetime": {
+                        "hour": 23,
+                        "min": 30
+                    }
                 }
-            },
+            ,
             "monday": {
                 "opentime": {
-                    "hour": 11,
+                    "hour": 12,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
+                    "hour": 23,
                     "min": 0
                 }
             },
             "tuesday": {
                 "opentime": {
-                    "hour": 11,
+                    "hour": 12,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
+                    "hour": 23,
                     "min": 0
                 }
             },
@@ -2734,34 +2732,36 @@
             },
             "thursday": {
                 "opentime": {
-                    "hour": 11,
+                    "hour": 12,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
-                    "min": 12
+                    "hour": 23,
+                    "min": 0
                 }
             },
             "friday": {
                 "opentime": {
-                    "hour": 11,
+                    "hour": 12,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
-                    "min": 0
+                    "hour": 23,
+                    "min": 59
                 }
             },
-            "saturday": {
-                "opentime": {
-                    "hour": 11,
-                    "min": 0
-                },
-                "closetime": {
-                    "hour": 22,
-                    "min": 0
+            "saturday": 
+                {
+                    "opentime": {
+                        "hour": 12,
+                        "min": 0
+                    },
+                    "closetime": {
+                        "hour": 23,
+                        "min": 59
+                    }
                 }
-            }
+            
         },
         "minpriceorder": [
             {

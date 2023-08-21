@@ -4211,27 +4211,6 @@
                 "name": "brocoli"
             }
         },
-        "dönerfleisch": {
-            "section": [
-                "pizzen"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "dönerfleisch"
-            },
-            "24cm": {
-                "price": "1,50",
-                "name": "dönerfleisch"
-            },
-            "30cm": {
-                "price": "2,00",
-                "name": "dönerfleisch"
-            },
-            "40cm": {
-                "price": "3,00",
-                "name": "dönerfleisch"
-            }
-        },
         "ei": {
             "section": [
                 "pizzen",
@@ -5158,7 +5137,7 @@
             "FRENCHTACOS": {
                 "section": "FRENCHTACOS",
                 "des": "Alle French-Tacos werden mit Pommes frites, Gouda und Spezialsauce zubereitet.",
-                "img": "int_tacos"
+                "img": "FRENCHTACOS"
             },
             "BURGER": {
                 "section": "BURGER",

@@ -60,7 +60,14 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
                     }}>{MyLang["myorders"]}</a>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${router=="/aboutus"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("aboutus")}>{MyLang["about us"]}</a>
+                    <a className={`nav-link ${router=="/aboutus"?"active":"gg"}`} aria-current="page" onClick={(e)=>{
+                        e.preventDefault()
+                        var myModal = new bootstrap.Modal(document.getElementById("AboutUsModal"), {
+                            keyboard: true
+                          })    
+                          myModal.show()  
+                        history.pushState({}, '');
+                    }}>{MyLang["about us"]}</a>
                 </li>
                 <li className="nav-item">
                     <a className={`nav-link ${router=="/zusatzstoffe"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("zusatzstoffe")}>{MyLang["zusatzstoffe"]}</a>

@@ -40,9 +40,13 @@
   
     if(lastSavedElement!=chatContainer)
     {     
-      if(lastSavedElement!="")
       if(chatContainer.includes("bar")||chatContainer.includes("paypal")||chatContainer.includes("Bitte Hier Bestätigen"))
       {
+        // var bb = document.querySelectorAll('.bubbles-group');
+        // bb = bb[bb.length-1]  
+        // bb = bb.querySelectorAll(".reply-markup-button")
+        // for(var l in bb){if(bb[l].textContent.includes(timebtn))window.location.href = bb[l].href}  
+
       playAudio()
       console.log("Playing")        
              

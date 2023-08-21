@@ -3909,6 +3909,392 @@
             },
             "section": "Pizzabrötchen"
         },
+        "99": {
+            "name": "Wunsch-Pizza",
+            "desO": "4 Extras Ihrer Wahl    ",
+            "zusatz": "",
+            "price": {
+                "Klein, Ø 26cm": "7,99",
+                "Mittel, Ø 31cm": "9,99",
+                "Familie, Ø 41cm": "16,99"
+            },
+            "options": {
+                                
+                "Ihre 1. Zutat": {
+                    "name": "Ihre 1. Pizza - Ihre 1. Zutat",
+                    "options": {
+                        "mit Ananas": {
+                            "price": "0,00"
+                        },
+                        "mit Artischocken": {
+                            "price": "0,00"
+                        },
+                        "mit Auberginen, gebraten": {
+                            "price": "0,00"
+                        },
+                        "mit Basilikum": {
+                            "price": "0,00"
+                        },
+                        "mit Broccoli": {
+                            "price": "0,00"
+                        },
+                        "mit Champignons": {
+                            "price": "0,00"
+                        },
+                        "mit Ei": {
+                            "price": "0,00"
+                        },
+                        "mit Erbsen": {
+                            "price": "0,00"
+                        },
+                        "mit Gyros": {
+                            "price": "0,00"
+                        },
+                        "mit Hackfleischsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Kapern": {
+                            "price": "0,00"
+                        },
+                        "mit Knoblauch": {
+                            "price": "0,00"
+                        },
+                        "mit Knoblauchsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Krabben": {
+                            "price": "0,00"
+                        },
+                        "mit Meeresfrüchten": {
+                            "price": "0,00"
+                        },
+                        "mit Mozzarella": {
+                            "price": "0,00"
+                        },
+                        "mit Oliven": {
+                            "price": "0,00"
+                        },
+                        "mit Paprika": {
+                            "price": "0,00"
+                        },
+                        "mit Putenfilet": {
+                            "price": "0,00"
+                        },
+                        "mit Salami": {
+                            "price": "0,00"
+                        },
+                        "mit Sardellen": {
+                            "price": "0,00"
+                        },
+                        "mit Schafskäse": {
+                            "price": "0,00"
+                        },
+                        "mit Schinken": {
+                            "price": "0,00"
+                        },
+                        "mit Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "mit Spinat": {
+                            "price": "0,00"
+                        },
+                        "mit Thunfisch": {
+                            "price": "0,00"
+                        },
+                        "mit Tomaten": {
+                            "price": "0,00"
+                        },
+                        "mit Zwiebeln": {
+                            "price": "0,00"
+                        },
+                        "ohne Zutat": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },                
+                "Ihre 2. Zutat": {
+                    "name": "Ihre 1. Pizza - Ihre 2. Zutat",
+                    "options": {
+                        "ohne weitere Zutat": {
+                            "price": "0,00"
+                        },
+                        "mit Ananas": {
+                            "price": "0,00"
+                        },
+                        "mit Artischocken": {
+                            "price": "0,00"
+                        },
+                        "mit Auberginen, gebraten": {
+                            "price": "0,00"
+                        },
+                        "mit Basilikum": {
+                            "price": "0,00"
+                        },
+                        "mit Broccoli": {
+                            "price": "0,00"
+                        },
+                        "mit Champignons": {
+                            "price": "0,00"
+                        },
+                        "mit Ei": {
+                            "price": "0,00"
+                        },
+                        "mit Erbsen": {
+                            "price": "0,00"
+                        },
+                        "mit Gyros": {
+                            "price": "0,00"
+                        },
+                        "mit Hackfleischsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Kapern": {
+                            "price": "0,00"
+                        },
+                        "mit Knoblauch": {
+                            "price": "0,00"
+                        },
+                        "mit Knoblauchsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Krabben": {
+                            "price": "0,00"
+                        },
+                        "mit Meeresfrüchten": {
+                            "price": "0,00"
+                        },
+                        "mit Mozzarella": {
+                            "price": "0,00"
+                        },
+                        "mit Oliven": {
+                            "price": "0,00"
+                        },
+                        "mit Paprika": {
+                            "price": "0,00"
+                        },
+                        "mit Putenfilet": {
+                            "price": "0,00"
+                        },
+                        "mit Salami": {
+                            "price": "0,00"
+                        },
+                        "mit Sardellen": {
+                            "price": "0,00"
+                        },
+                        "mit Schafskäse": {
+                            "price": "0,00"
+                        },
+                        "mit Schinken": {
+                            "price": "0,00"
+                        },
+                        "mit Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "mit Spinat": {
+                            "price": "0,00"
+                        },
+                        "mit Thunfisch": {
+                            "price": "0,00"
+                        },
+                        "mit Tomaten": {
+                            "price": "0,00"
+                        },
+                        "mit Zwiebeln": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "Ihre 3. Zutat": {
+                    "name": "Ihre 1. Pizza - Ihre 3. Zutat",
+                    "options": {
+                        "ohne weitere Zutat": {
+                            "price": "0,00"
+                        },
+                        "mit Ananas": {
+                            "price": "0,00"
+                        },
+                        "mit Artischocken": {
+                            "price": "0,00"
+                        },
+                        "mit Auberginen, gebraten": {
+                            "price": "0,00"
+                        },
+                        "mit Basilikum": {
+                            "price": "0,00"
+                        },
+                        "mit Broccoli": {
+                            "price": "0,00"
+                        },
+                        "mit Champignons": {
+                            "price": "0,00"
+                        },
+                        "mit Ei": {
+                            "price": "0,00"
+                        },
+                        "mit Erbsen": {
+                            "price": "0,00"
+                        },
+                        "mit Gyros": {
+                            "price": "0,00"
+                        },
+                        "mit Hackfleischsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Kapern": {
+                            "price": "0,00"
+                        },
+                        "mit Knoblauch": {
+                            "price": "0,00"
+                        },
+                        "mit Knoblauchsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Krabben": {
+                            "price": "0,00"
+                        },
+                        "mit Meeresfrüchten": {
+                            "price": "0,00"
+                        },
+                        "mit Mozzarella": {
+                            "price": "0,00"
+                        },
+                        "mit Oliven": {
+                            "price": "0,00"
+                        },
+                        "mit Paprika": {
+                            "price": "0,00"
+                        },
+                        "mit Putenfilet": {
+                            "price": "0,00"
+                        },
+                        "mit Salami": {
+                            "price": "0,00"
+                        },
+                        "mit Sardellen": {
+                            "price": "0,00"
+                        },
+                        "mit Schafskäse": {
+                            "price": "0,00"
+                        },
+                        "mit Schinken": {
+                            "price": "0,00"
+                        },
+                        "mit Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "mit Spinat": {
+                            "price": "0,00"
+                        },
+                        "mit Thunfisch": {
+                            "price": "0,00"
+                        },
+                        "mit Tomaten": {
+                            "price": "0,00"
+                        },
+                        "mit Zwiebeln": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "Ihre 4. Zutat": {
+                    "name": "Ihre 1. Pizza - Ihre 4. Zutat",
+                    "options": {
+                        "ohne weitere Zutat": {
+                            "price": "0,00"
+                        },
+                        "mit Ananas": {
+                            "price": "0,00"
+                        },
+                        "mit Artischocken": {
+                            "price": "0,00"
+                        },
+                        "mit Auberginen, gebraten": {
+                            "price": "0,00"
+                        },
+                        "mit Basilikum": {
+                            "price": "0,00"
+                        },
+                        "mit Broccoli": {
+                            "price": "0,00"
+                        },
+                        "mit Champignons": {
+                            "price": "0,00"
+                        },
+                        "mit Ei": {
+                            "price": "0,00"
+                        },
+                        "mit Erbsen": {
+                            "price": "0,00"
+                        },
+                        "mit Gyros": {
+                            "price": "0,00"
+                        },
+                        "mit Hackfleischsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Kapern": {
+                            "price": "0,00"
+                        },
+                        "mit Knoblauch": {
+                            "price": "0,00"
+                        },
+                        "mit Knoblauchsauce": {
+                            "price": "0,00"
+                        },
+                        "mit Krabben": {
+                            "price": "0,00"
+                        },
+                        "mit Meeresfrüchten": {
+                            "price": "0,00"
+                        },
+                        "mit Mozzarella": {
+                            "price": "0,00"
+                        },
+                        "mit Oliven": {
+                            "price": "0,00"
+                        },
+                        "mit Paprika": {
+                            "price": "0,00"
+                        },
+                        "mit Putenfilet": {
+                            "price": "0,00"
+                        },
+                        "mit Salami": {
+                            "price": "0,00"
+                        },
+                        "mit Sardellen": {
+                            "price": "0,00"
+                        },
+                        "mit Schafskäse": {
+                            "price": "0,00"
+                        },
+                        "mit Schinken": {
+                            "price": "0,00"
+                        },
+                        "mit Spaghetti": {
+                            "price": "0,00"
+                        },
+                        "mit Spinat": {
+                            "price": "0,00"
+                        },
+                        "mit Thunfisch": {
+                            "price": "0,00"
+                        },
+                        "mit Tomaten": {
+                            "price": "0,00"
+                        },
+                        "mit Zwiebeln": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Pizza"
+        },
         "100": {
             "name": "Pizza Gyros",
             "desO": "mit Gyros, Zwiebeln und Tzatziki",
@@ -7573,6 +7959,205 @@
                 "stand": "6,99"
             },
             "section": "Alkoholische Getränke"
+        },
+        "401":{
+            "name":"Cola, Fanta, Sprite, Mezzo Mix 1,0L",
+            "desO": ""
+            ,"price":{
+                "stand": "2,40"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "402":{
+            "name":"Cola, Fanta 0,33L",
+            "desO": ""
+            ,"price":{
+                "stand": "1,60"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "408":{
+            "name":"Bier 0,5L",
+            "desO": ""
+            ,"price":{
+                "stand": "1,49"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "451":{
+            "name":"Lambrusco 1,0L",
+            "desO": ""
+            ,"price":{
+                "stand": "6,99"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "454":{
+            "name":"Chianti 0,75L",
+            "desO": ""
+            ,"price":{
+                "stand": "6,99"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "455":{
+            "name":"Vodka 0,7L",
+            "desO": ""
+            ,"price":{
+                "stand": "13,99"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "456":{
+            "name":"Whisky 0.7L",
+            "desO": ""
+            ,"price":{
+                "stand": "13,99"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "474":{
+            "name":"Double Beef Burger xxl",
+            "desO": ""
+            ,"price":{
+                "stand": "8,99"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "480":{
+            "name":"Vegetarisch",
+            "desO": ""
+            ,"price":{
+                "stand": "6,99"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "482":{
+            "name":"Rindfleisch",
+            "desO": "mit Ei & Gemüse"
+            ,"price":{
+                "stand": "8,49"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "483":{
+            "name":"Schweinefleisch",
+            "desO": "mit Ei & Gemüse"
+            ,"price":{
+                "stand": "8,49"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "484":{
+            "name":"Shrimps",
+            "desO": "mit Ei & Gemüse"
+            ,"price":{
+                "stand": "9,50"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "485":{
+            "name":"Hummerkrabben",
+            "desO": "mit Ei & Gemüse"
+            ,"price":{
+                "stand": "10,49"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "487":{
+            "name":"Hühnerfleisch",
+            "desO": "mit Ei, Curry & Gemüse"
+            ,"price":{
+                "stand": "8,49"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "495":{
+            "name":"Pekingsuppe",
+            "desO": "sauer, scharf"
+            ,"price":{
+                "stand": "3,99"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "350":{
+            "name":"Verde",
+            "desO": "grüner Salat"
+            ,"price":{
+                "stand": "4,99"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "308":{
+            "name":"Funghi",
+            "desO": "Champignons, Knoblauch, Tomaten-Sahnesauce"
+            ,"price":{
+                "stand": "7,99"
+            },
+            "section": "",
+            "zusatz":""
+        }
+        ,
+        "200":{
+            "name":"Wunschpasta",
+            "desO": "mit 3 Zutaten nach Wahl"
+            ,"price":{
+                "stand": "8,49"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "1000":{
+            "name":"Marix",
+            "desO": ""
+            ,"price":{
+                "stand": "8,49"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "473":{
+            "name":"Cheeseburger xxl",
+            "desO": ""
+            ,"price":{
+                "stand": "6,99"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "700":{
+            "name":"Tiramisu",
+            "desO": ""
+            ,"price":{
+                "stand": "4,49"
+            },
+            "section": "",
+            "zusatz":""
+        },
+        "357":{
+            "name":"Mozzarella-Salat",
+            "desO": ""
+            ,"price":{
+                "stand": "7,99"
+            },
+            "section": "",
+            "zusatz":""
         }
     },
     "extra": {

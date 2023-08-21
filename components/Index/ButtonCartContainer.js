@@ -13,8 +13,8 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
               } 
     }  
     sum = langswitch.ftos(sum)                       
-    return <button  type="button" 
-    id="fixedendidcart"
+    return <div style={{"backgroundColor":"#fff"}} className={`fixed-bottom fixed-end d-flex justify-content-center p-2 ${Object.keys(or).length==0?"d-none":""}`} id="fixedendidcart">
+      <button  type="button"   
     onClick={()=>{
         setContainerCartModal(<></>)
       setTimeout(() => {
@@ -27,7 +27,7 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
       }, 50);
         
     }}
-    className={`${Object.keys(or).length==0?"d-none":""} btn btn-success rounded-0 fs-5 fixed-bottom fixed-end`}>
+    className={`btn-lg  col-12 btn btn-success rounded-5   `}>
       <span>
     <span class="notification-badge"
       style={
@@ -48,7 +48,7 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
       </span>
       &nbsp;
       {sum}&euro;
-    </button>
+    </button></div>
   }
   export default function ButtonCartContainer ({menu,setContainerCartModal,setContainerCustimizeModal}) {  
 

@@ -2,7 +2,10 @@
 
     
   if(!window.location.href.includes('web.telegram.org/k'))
-  alert('please Load web.telegram.org/k instead of /a')
+  {
+    alert('please Load web.telegram.org/k instead of /a')
+    window.location.href="https://web.telegram.org/k" 
+  }
   console.log('Loaded');
   let  audioElement = new Audio('https://web.telegram.org/k/assets/audio/call_incoming.mp3');
         function playAudio() {
@@ -40,12 +43,12 @@
   
     if(lastSavedElement!=chatContainer)
     {     
-      if(lastSavedElement!='')
       if(chatContainer.includes('bar')||chatContainer.includes('paypal')||chatContainer.includes('Bitte Hier Bestätigen'))
       {
       playAudio()
       console.log('Playing')        
-             
+      var bb = document.querySelectorAll(".reply-markup-button")
+      for(var l in bb){bb[l].onclick=()=>{console.log(bb[l].href)}}
       }
       console.log('found')  
       lastSavedElement= chatContainer

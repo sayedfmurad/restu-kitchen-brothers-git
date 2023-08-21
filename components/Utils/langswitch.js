@@ -93,12 +93,22 @@ checkOpenCloseStore=(menu)=>{
       const day = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][TimeN.getDay()]      
       for(var daydd in menu["staticValue"]["opendays"])
       if(day == daydd)
-      {
-        var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["opentime"]["hour"],menu["staticValue"]["opendays"][daydd]["opentime"]["min"],0);    
-        var closeTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["closetime"]["hour"],menu["staticValue"]["opendays"][daydd]["closetime"]["min"],0);    
-      if(closeTime > TimeN && openTime < TimeN)      
-        return true;    
-
+      {        
+        if(Array.isArray(menu["staticValue"]["opendays"][daydd]))
+        {
+            for(var k in menu["staticValue"]["opendays"][daydd])
+            {
+                var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd][k]["opentime"]["hour"],menu["staticValue"]["opendays"][daydd][k]["opentime"]["min"],0);    
+                var closeTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd][k]["closetime"]["hour"],menu["staticValue"]["opendays"][daydd][k]["closetime"]["min"],0);    
+                if(closeTime > TimeN && openTime < TimeN)      
+                    return true;        
+            }
+        }else{
+            var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["opentime"]["hour"],menu["staticValue"]["opendays"][daydd]["opentime"]["min"],0);    
+            var closeTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["closetime"]["hour"],menu["staticValue"]["opendays"][daydd]["closetime"]["min"],0);    
+          if(closeTime > TimeN && openTime < TimeN)      
+            return true;    
+        }    
       }
  return false;    
 }
@@ -120,12 +130,24 @@ if(process.browser)
         for(var daydd in menu["staticValue"]["opendays"])
         if(day == daydd)
         {
-          var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["opentime"]["hour"],menu["staticValue"]["opendays"][daydd]["opentime"]["min"],0);    
-          if(openTime > TimeN) 
+        if(Array.isArray(menu["staticValue"]["opendays"][daydd]))
           {
-                console.log(openTime)
-              return "öffnet um "+this.getStringFormTimefromTimeStamp(openTime)+" Uhr"
-          }     
+            for(var g in menu["staticValue"]["opendays"][daydd])
+            {
+                var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["opentime"]["hour"],menu["staticValue"]["opendays"][daydd]["opentime"]["min"],0);    
+                if(openTime > TimeN) 
+                {
+                    return "öffnet um "+this.getStringFormTimefromTimeStamp(openTime)+" Uhr"
+                }
+            }     
+          }
+          else{
+            var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][daydd]["opentime"]["hour"],menu["staticValue"]["opendays"][daydd]["opentime"]["min"],0);    
+            if(openTime > TimeN) 
+            {
+                return "öffnet um "+this.getStringFormTimefromTimeStamp(openTime)+" Uhr"
+            }     
+          }          
         }
         return ""
       }

@@ -298,31 +298,63 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
         for(var daydd in menu["staticValue"]["opendays"])
         if(day == daydd)
         {
-            openTime.setHours(menu["staticValue"]["opendays"][day]["opentime"]["hour"]+1)
-            openTime.setMinutes(menu["staticValue"]["opendays"][day]["opentime"]["min"])
-            closeTime.setHours(menu["staticValue"]["opendays"][day]["closetime"]["hour"])
-            closeTime.setMinutes(menu["staticValue"]["opendays"][day]["closetime"]["min"])
+            if(Array.isArray(menu["staticValue"]["opendays"][day]))
+             {
+                for(var l in menu["staticValue"]["opendays"][day])    
+                {
+                    openTime.setHours(menu["staticValue"]["opendays"][day][l]["opentime"]["hour"]+1)
+                    openTime.setMinutes(menu["staticValue"]["opendays"][day][l]["opentime"]["min"])
+                    closeTime.setHours(menu["staticValue"]["opendays"][day][l]["closetime"]["hour"])
+                    closeTime.setMinutes(menu["staticValue"]["opendays"][day][l]["closetime"]["min"])
+                     
+                    if(openTime>datee)
+                    datee = openTime;                    
+                closeTime= ConvertToMinuten_0_15_30_45_ForCloseTime(closeTime)
+        
+                if (closeTime.getFullYear() === datee.getFullYear() && 
+                    closeTime.getMonth() === datee.getMonth() && 
+                    closeTime.getDate() === datee.getDate())
+                while(closeTime > datee)
+                {
+                    times.push(
+                        <option value={datee.getTime()}>
+                        {datee.getHours()+":"+(datee.getMinutes()<10?"0"+datee.getMinutes():datee.getMinutes())}
+                        </option>
+                        )
+                    datee.setMinutes(datee.getMinutes()+3)
+                    datee= ConvertToMinuten_0_15_30_45(datee)
+                }     
+                /////remove last time because it will be close time of the resturant
+                times.pop()
+                }   
+             }
+             else{
+                openTime.setHours(menu["staticValue"]["opendays"][day]["opentime"]["hour"]+1)
+                openTime.setMinutes(menu["staticValue"]["opendays"][day]["opentime"]["min"])
+                closeTime.setHours(menu["staticValue"]["opendays"][day]["closetime"]["hour"])
+                closeTime.setMinutes(menu["staticValue"]["opendays"][day]["closetime"]["min"])
+             }            
         }   
 
         if(openTime>datee)
-            datee = openTime;                    
-        closeTime= ConvertToMinuten_0_15_30_45_ForCloseTime(closeTime)
+        datee = openTime;                    
+    closeTime= ConvertToMinuten_0_15_30_45_ForCloseTime(closeTime)
 
-        if (closeTime.getFullYear() === datee.getFullYear() && 
-            closeTime.getMonth() === datee.getMonth() && 
-            closeTime.getDate() === datee.getDate())
-        while(closeTime > datee)
-        {
-            times.push(
-                <option value={datee.getTime()}>
-                {datee.getHours()+":"+(datee.getMinutes()<10?"0"+datee.getMinutes():datee.getMinutes())}
-                </option>
-                )
-            datee.setMinutes(datee.getMinutes()+3)
-            datee= ConvertToMinuten_0_15_30_45(datee)
-        }     
-        /////remove last time because it will be close time of the resturant
-        times.pop()
+    if (closeTime.getFullYear() === datee.getFullYear() && 
+        closeTime.getMonth() === datee.getMonth() && 
+        closeTime.getDate() === datee.getDate())
+    while(closeTime > datee)
+    {
+        times.push(
+            <option value={datee.getTime()}>
+            {datee.getHours()+":"+(datee.getMinutes()<10?"0"+datee.getMinutes():datee.getMinutes())}
+            </option>
+            )
+        datee.setMinutes(datee.getMinutes()+3)
+        datee= ConvertToMinuten_0_15_30_45(datee)
+    }     
+    /////remove last time because it will be close time of the resturant
+    times.pop()
        return times
     }
     var [deliverytimes,setdeliverytimes] = useState(getTimesForDelivery(1));            

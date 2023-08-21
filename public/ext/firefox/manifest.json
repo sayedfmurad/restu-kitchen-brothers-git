@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 2.1,
   "name": "Borderify",
-  "version": "1.0",
+  "version": "2.1",
   "description": "Adds a red border to all webpages matching mozilla.org.",
   "permissions": ["notifications"],
   "content_scripts": [

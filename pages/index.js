@@ -102,8 +102,9 @@ export default function Index() {
     }
     const IsOurDomain=(hostname)=>{
       const cacheBuster = new Date().getTime();
-      const urll = packagee["server"]["url"]+"?getjson="+hostname+"&cacheBuster="+cacheBuster
-
+      var  urll = packagee["server"]["url"]+"?getjson="+hostname+"&cacheBuster="+cacheBuster
+      if(!packagee["IsOut"])
+      urll = "./database/"+menu["staticValue"]["key"]+".json"
       fetch(urll)
       .then(response => response.json())
       .then(data => {
@@ -150,7 +151,10 @@ export default function Index() {
     langswitch.GetJsonM("menu").then((menu)=>{
       try {
         const cacheBuster = new Date().getTime();
-        const urll = packagee["server"]["url"]+"?getjson="+menu["staticValue"]["key"]+"&cacheBuster="+cacheBuster
+        var urll = packagee["server"]["url"]+"?getjson="+menu["staticValue"]["key"]+"&cacheBuster="+cacheBuster
+        if(!packagee["IsOut"])
+         urll = "./database/"+menu["staticValue"]["key"]+".json"
+
                   fetch(urll)
       .then(response => response.json())
       .then(data => {                 
