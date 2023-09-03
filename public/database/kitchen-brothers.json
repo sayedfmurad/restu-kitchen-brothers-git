@@ -3707,7 +3707,8 @@
         },
         "käserand": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "0,80",
@@ -3793,7 +3794,8 @@
         },
         "käse": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "0,80",
@@ -3844,7 +3846,8 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Burger"
+                "Burger",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "0,80",
@@ -3896,7 +3899,8 @@
         "scampifleisch": {
             "section": [
                 "pizzen",
-                "salate"
+                "salate",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "2,00",
@@ -3928,7 +3932,8 @@
         },
         "garnelenfleisch": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "0,80",
@@ -3963,7 +3968,8 @@
                 "pasta",
                 "salate",
                 "Burger",
-                "Burgermenu"
+                "Burgermenu",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -3988,7 +3994,8 @@
         },
         "artischocken": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4009,7 +4016,8 @@
         },
         "barbecuesaucen": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4030,7 +4038,8 @@
         },
         "Basilikum-Pesto": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4074,7 +4083,8 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtacos"
+                "Frenchtacos",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4120,7 +4130,7 @@
             "section": [
                 "pizzen",
                 "Frenchtacos",
-                "Frenchtacos"
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4141,7 +4151,8 @@
         },
         "Cranberry": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4162,7 +4173,8 @@
         },
         "Currysauce": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4188,7 +4200,8 @@
         "brocoli": {
             "section": [
                 "pizzen",
-                "pasta"
+                "pasta",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4216,7 +4229,8 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtacos"
+                "Frenchtacos",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4249,7 +4263,8 @@
             "section": [
                 "pizzen",
                 "salate",
-                "Frenchtacos"
+                "Frenchtacos",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4388,7 +4403,8 @@
         },
         "knoblauch": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4442,7 +4458,8 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtacos"
+                "Frenchtacos",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4478,7 +4495,8 @@
             "section": [
                 "pizzen",
                 "pasta",
-                "salate"
+                "salate",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4499,7 +4517,8 @@
         },
         "pilzen": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4552,7 +4571,8 @@
             "section": [
                 "pizzen",
                 "pasta",
-                "Frenchtacos"
+                "Frenchtacos",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4596,7 +4616,8 @@
         "saucehallandaise": {
             "section": [
                 "pizzen",
-                "pasta"
+                "pasta",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4626,7 +4647,8 @@
         },
         "schinken": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4651,7 +4673,8 @@
         },
         "Spaghetti": {
             "section": [
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4677,7 +4700,8 @@
         "spinat": {
             "section": [
                 "pizzen",
-                "pasta"
+                "pasta",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4704,7 +4728,8 @@
             "section": [
                 "pizzen",
                 "pasta",
-                "Frenchtacos"
+                "Frenchtacos",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4728,7 +4753,8 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtacos"
+                "Frenchtacos",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4786,7 +4812,8 @@
         "meeresfrüchten": {
             "section": [
                 "pasta",
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "2,50",
@@ -4810,7 +4837,8 @@
             "section": [
                 "pizzen",
                 "pasta",
-                "Frenchtacos"
+                "Frenchtacos",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4884,7 +4912,8 @@
                 "pizzen",
                 "pasta",
                 "salate",
-                "Frenchtacos"
+                "Frenchtacos",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4939,7 +4968,8 @@
             "section": [
                 "salate",
                 "Frenchtacos",
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -4963,7 +4993,8 @@
             "section": [
                 "Frenchtacos",
                 "Burger",
-                "pizzen"
+                "pizzen",
+                "PIZZABRÖTCHEN"
             ],
             "stand": {
                 "price": "1,50",
@@ -5008,6 +5039,9 @@
             "city": "Mönchengladbach",
             "tel": "021662781117",
             "zusatzStoffe": "1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan"
+        },
+        "impressum":{
+            "name":"Neval Beyazoglu"
         },
         "key": "kitchen-brothers",
         "zusatzStoffe": "1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan",

@@ -345,6 +345,24 @@ export function JsonIsReady({id,menu,MyLang,SetContainer}){
 
 export default function c({menu,id,SetContainer,bnb}) {
     const MyLang = langswitch.langswitchs("customizeorder");
+    // if(!langswitch.checkOpenCloseStore(menu))
+    //     {
+    //         return  <><div class="modal-header text-whitee">                           
+    //          <button type="button" class="btn-close " id={`btn-close-CustomizeModal`} data-bs-dismiss="modal" aria-label="Close"></button>
+    //         </div>
+    //        <div class="modal-body" style={{"backgroundColor":"rgb(242 242 242)"}}>                 
+    //        <div className='d-flex justify-content-center'>
+    //         <h5>Das Restaurant ist heute geschlossen.</h5>           
+    //         </div> 
+    //         <div className='modal-footer d-flex justify-content-center'>
+    //         <button style={{"minWidth":'200px'}} onClick={()=>{ document.getElementById('btn-close-CustomizeModal').click()}} class=" rounded-5 btn btn-danger btn-lg ">
+    //             Schließen</button>
+    //         </div> 
+    //         </div>
+            
+    //  </>
+    //     }
+            
     return (
         <>           
             <JsonIsReady id={id} SetContainer={SetContainer} menu={menu} MyLang={MyLang} />

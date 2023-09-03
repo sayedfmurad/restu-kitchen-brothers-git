@@ -11354,6 +11354,7 @@
     "staticValue": {
         "logo": "Pizzeria Mira Mare 1",
         "key": "miramare1",   
+        "taxid":"121/5248/6784",
         "rabat": "",
         "minpriceorder": [
             {

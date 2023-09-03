@@ -269,12 +269,12 @@ export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,t
               </div>              
           </div>
           <span>
-                  <button className='btn btn-primary'
+                  <button className='btn btn-secondary'
                   onClick={()=>{
                       window.localStorage.setItem("seladdress","")
                       setMainContainer(<UserHasNoData menu={menu} mSetContainer={mSetContainer} setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
                   }}
-                  >ändern</button>
+                  >Adresse ändern</button>
                   </span>
           </div>
           </div>

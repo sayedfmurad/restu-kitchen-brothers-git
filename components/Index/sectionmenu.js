@@ -7,6 +7,7 @@ import CustomizeOrder from "./customizeorder"
 export default function Sectionmenu({SetContainer,menu,bnb}) {
     
     const SelectClicked = (e)=>{
+
         const elementWithDataKey = e.target.closest('[data-key]');
   
         if (elementWithDataKey) {

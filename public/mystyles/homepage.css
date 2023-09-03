@@ -1,3 +1,4 @@
+
 .loadingg {
     display: flex;
     flex-direction: column;
@@ -111,7 +112,7 @@ a.nav-link.active {
     border-color:black !important;
 }
 .btn-check:checked+.btn{
-background-color: black ;
+background-color: #1b8654 ;
 color: #fff !important;
 }
   /* Allow modal body to be scrollable */

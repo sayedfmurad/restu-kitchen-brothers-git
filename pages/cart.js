@@ -369,10 +369,9 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
             </div>                        
     <div className="col-12">                
                 <input type="radio" class="btn-check" onClick={onChangeToLiefern} name="options-outlined-abholen" id="success-outlined-liefern"  checked/>
-                <label class="btn btn-outline-warning" for="success-outlined-liefern">Liefern</label>
-                &nbsp;
+                <label style={{"minWidth":"95px", "borderRadius":"24px 0px 0px 24px"}} class="btn btn-outline-warning" for="success-outlined-liefern">Liefern</label>
                 <input type="radio" class="btn-check" name="options-outlined-abholen" id="success-outlined-abholen"  />
-                <label class="btn btn-outline-warning" onClick={onChangeToAbohlen} for="success-outlined-abholen">Abholen</label>                        
+                <label style={{"minWidth":"95px","borderRadius":"0px 24px 24px 0px"}} class="btn btn-outline-warning" onClick={onChangeToAbohlen} for="success-outlined-abholen">Abholen</label>                        
     </div>
     </div>
     <div className="row mb-4 mt-2">
@@ -380,14 +379,14 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
             <div className='col-12'>
             <h6>Lieferzeit wählen:</h6>                        
             </div>
-            <div className="col-12">                
             {IsStoreOpenClose_Var?<>
+            <div className="col-12">                
                 <input type="radio" class="btn-check" onClick={()=>{setspaterodernow("d-none")}} name="options-outlined-zeit" id="success-outlined-jetzt" autocomplete="off" checked/>
-                <label class="btn btn-outline-warning" for="success-outlined-jetzt">Jetzt</label>
-                &nbsp;</>:<></>}
+                <label style={{"minWidth":"95px", "borderRadius":"24px 0px 0px 24px"}} class="btn btn-outline-warning" for="success-outlined-jetzt">Jetzt</label>
                 <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" checked={IsStoreOpenClose_Var?(spaterodernow==""?true:false):true}/>
-                <label class="btn btn-outline-warning" onClick={()=>{onChangeToDeliveryTime()}} id="success-outlined-spater-label" for="success-outlined-spater">Später</label>                        
+                <label style={{"minWidth":"95px","borderRadius":"0px 24px 24px 0px"}} class="btn btn-outline-warning" onClick={()=>{onChangeToDeliveryTime()}} id="success-outlined-spater-label" for="success-outlined-spater">Später</label>                        
             </div>
+                </>:<></>}
             </div>
             <div className={`col-12 mt-2 ${spaterodernow}`}>
             <select class="form-select" id='selectedtimedelivery'>
