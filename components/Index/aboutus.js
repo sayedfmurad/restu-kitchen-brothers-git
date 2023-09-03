@@ -59,7 +59,6 @@ const OpeningTimes = (scheduleData) => {
   };
 
 const Impressum = (s)=>{
-  console.log(s)
   return <>
   <div className='col-12'>
   <h5>Impressum</h5>
@@ -76,11 +75,12 @@ export default ({menu})=> {
     // console.log(menu["staticValue"]["opendays"])
     return(
         <>
-        <div class="modal-header text-whitee">  
+        <div class="modal-header">  
         <h3 className='m-0'>Über uns</h3>                                
          
          <button type="button" class="btn-close " id={`btn-close-MyOrderModal`} data-bs-dismiss="modal" aria-label="Close"></button>
      </div>
+     <div class="modal-body" id="MainIdd"> 
         <div className="container text-black mt-4">
         <div className="row g-4">            
             <div className="col-md-2 col-sm-2 col-xs-6 "><h5>{MyLang["telefon"]}</h5></div>
@@ -99,6 +99,7 @@ export default ({menu})=> {
             </div>             */}            
             {"impressum" in menu["staticValue"]? Impressum(menu["staticValue"]):<></>}
         </div>
+    </div>
     </div>
     </>
     )

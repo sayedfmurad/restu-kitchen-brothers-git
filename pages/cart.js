@@ -414,17 +414,20 @@ export function Container({setContainerCartModal,setContainerCustimizeModal,mSet
              <h3 className='m-0'>Warenkorb</h3>         
         <button type="button" class="btn-close " id={`btn-close-CartModal`} data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
-    <div class="modal-body" id="MainIdd"> 
+    <div class="modal-body" > 
+    <div id="MainIdd" className='d-none'>
     {AddAddressComponent}    
     <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
     </div>
-    <div className={`loadingg  container mt-3 d-none`} id="SpinnerId">
+    <div className={`loadingg  container mt-3 `} id="SpinnerId">
     <div class="text-center d-flex justify-content-center">
     <div class="spinner-border text-primary" style={{"width":"5rem","height":"5rem"}} role="status">
         <span class="visually-hidden">Loading...</span>
     </div>
     </div>   
     </div>
+    </div>
+   
     
 </>
 }
