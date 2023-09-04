@@ -31,6 +31,10 @@
 .navbar button{
     border: none;
 }
+.nav-item{
+  cursor: pointer;
+}
+
 .nav-item p{
     color:rgba(255, 254, 254, 0.924)!important;
 }

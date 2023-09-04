@@ -21,7 +21,7 @@ const OpeningTimes = (scheduleData) => {
 
     return (
         <div className="container mt-3">
-          <h2>Öffnungszeiten</h2>
+          <h5>Öffnungszeiten</h5>
           <table className="table">
             <thead>
               <tr>
@@ -83,15 +83,15 @@ export default ({menu})=> {
      <div class="modal-body" id="MainIdd"> 
         <div className="container text-black mt-4">
         <div className="row g-4">            
-            <div className="col-md-2 col-sm-2 col-xs-6 "><h5>{MyLang["telefon"]}</h5></div>
-            <div className="col-md-10 col-sm-10 col-xs-6"><a className="" href={`tel:${menu["staticValue"]["kontakt"]["tel"]}`}>{menu["staticValue"]["kontakt"]["tel"]}</a></div>
-            <div className="col-md-2 col-sm-2 col-xs-6"><h5 className="">{MyLang["address"]}</h5></div>
-            <div className="col-md-4 col-sm-8 col-xs-6">
-            <div className="container">
-                <div className="row"><h6 className="">{menu["staticValue"]["kontakt"]["name"]}</h6></div>
-                <div className="row"><h6 className="">{menu["staticValue"]["kontakt"]["street"]}</h6></div>
-                <div className="row"><h6 className="">{menu["staticValue"]["kontakt"]["zipc"]+" "+menu["staticValue"]["kontakt"]["city"]}</h6></div>
-            </div>                
+            <div className="col-12">
+              <h5>{MyLang["telefon"]}</h5>
+              <a className="" href={`tel:${menu["staticValue"]["kontakt"]["tel"]}`}>{menu["staticValue"]["kontakt"]["tel"]}</a>
+              </div>
+            <div className="col-12">
+              <h5 className="">{MyLang["address"]}</h5>
+              <h6 className="">{menu["staticValue"]["kontakt"]["name"]}</h6>
+              <h6 className="">{menu["staticValue"]["kontakt"]["street"]}</h6>
+              <h6 className="">{menu["staticValue"]["kontakt"]["zipc"]+" "+menu["staticValue"]["kontakt"]["city"]}</h6>
             </div>
             <div className='col-12 p-0'>{OpeningTimes(menu["staticValue"]["opendays"])}</div>
             {/* <div className='col-12 p-2 m-3'>

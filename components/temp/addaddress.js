@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import MyNavbar from "../components/TopBar/TobBar2"
-import hash from "../components/Utils/object_hash"
-import langswitch from '../components/Utils/langswitch'
+import MyNavbar from "../TopBar/TobBar2"
+import hash from "../Utils/object_hash"
+import langswitch from '../Utils/langswitch'
 import { useState } from 'react';
 export function Container(){
     const MyLang = langswitch.langswitchs("addaddress");  

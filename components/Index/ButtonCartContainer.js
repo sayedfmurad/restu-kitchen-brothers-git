@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import langswitch from "../Utils/langswitch"
-import Cart from "../../pages/cart"
+import Cart from "./cart"
 export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimizeModal,menu,or}) {  
     var sum = 0
     for(var ke in or)

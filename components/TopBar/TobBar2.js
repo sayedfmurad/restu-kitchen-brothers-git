@@ -43,11 +43,11 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
                 <li className="homenavItem nav-item">
                     <a className={`nav-link ${router=="/"?"active":""}`} aria-current="page" href={langswitch.RouteP("")}>{MyLang["home"]}</a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <a className={`nav-link ${router=="/selectadd"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("selectadd")}>{MyLang["addresses"]}</a>
-                </li>                
+                </li>                 */}
                 <li className="nav-item">
-                    <a className={`nav-link ${router=="/order"?"active":"gg"}`} aria-current="page" onClick={()=>{
+                    <a className={`nav-link `} aria-current="page" onClick={()=>{
                         setContainerMyOrderModal(<></>)
                         setTimeout(() => {
                             setContainerMyOrderModal(<MyOrders menu={menu}/>) 
@@ -60,7 +60,7 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
                     }}>{MyLang["myorders"]}</a>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${router=="/aboutus"?"active":"gg"}`} aria-current="page" onClick={(e)=>{
+                    <a className={`nav-link `} aria-current="page" onClick={(e)=>{
                         e.preventDefault()
                         var myModal = new bootstrap.Modal(document.getElementById("AboutUsModal"), {
                             keyboard: true
@@ -70,7 +70,14 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
                     }}>{MyLang["about us"]}</a>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link ${router=="/zusatzstoffe"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("zusatzstoffe")}>{MyLang["zusatzstoffe"]}</a>
+                    <a className={`nav-link `} aria-current="page" onClick={(e)=>{
+                        e.preventDefault()
+                        var myModal = new bootstrap.Modal(document.getElementById("ZusatzModal"), {
+                            keyboard: true
+                          })    
+                          myModal.show()  
+                        history.pushState({}, '');
+                    }}>{MyLang["zusatzstoffe"]}</a>
                 </li>
             </ul>
         </div>

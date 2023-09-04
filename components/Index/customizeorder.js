@@ -4,7 +4,7 @@ import MyNavbar from "../TopBar/TobBar"
 import hash from "../Utils/object_hash"
 import React, { useState, useEffect } from 'react';
 import Sectionmenu from './sectionmenu';
-import Cart from '@/pages/cart';
+import Cart from '@/components/Index/cart';
 import ButtonCartContainer from "./ButtonCartContainer"
 
 

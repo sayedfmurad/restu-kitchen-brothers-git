@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import langswitch from "../Utils/langswitch"
 import { useEffect, useState } from 'react'
 import packagee from "../../package.json"
-import Cart from "../../pages/cart"
+import Cart from "../Index/cart"
 export  function Con({obj,menu}){
     const MyLang = langswitch.langswitchs("navbar");    
     var router = ""    

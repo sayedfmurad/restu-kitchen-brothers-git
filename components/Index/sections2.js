@@ -6,6 +6,7 @@ import langswitch from "../Utils/langswitch"
 import ButtonCartContainer from "./ButtonCartContainer"
 import CheckAlerts from './CheckAlerts';
 import Aboutus from '@/components/Index/aboutus';
+import ZusatzStoffe from "./zusatzstoffe"
 let myModal;
 var NavBarTriggerIsClicked=false
 let AddedFlagModal=false
@@ -240,6 +241,7 @@ export  function IndexPage({menu}) {
     <MModal idd="CartModal" contaienrr={ContainerCartModal} />
     <MModal idd="MyOrderModal" contaienrr={ContainerMyOrderModal} />
     <MModal idd="AboutUsModal" contaienrr={<Aboutus menu={menu} />} />
+    <MModal idd="ZusatzModal" contaienrr={<ZusatzStoffe menu={menu} />} />
     <footer class="footer  text-center mt-5 mb-5">
         <div class="container">          
           <p>&copy; 2023 {menu["staticValue"]["logo"]}. All rights reserved. | <a href={langswitch.RouteP("privacypolicy")}>Datenschutz</a></p>

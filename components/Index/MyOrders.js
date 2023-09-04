@@ -249,9 +249,8 @@ export default({menu})=>{
       },[])
 
     return <>
-    <div class="modal-header text-whitee">  
-       <h3 className='m-0'>Meine Bestellungen</h3>                                
-        
+    <div class="modal-header ">  
+       <h3 className='m-0'>Meine Bestellungen</h3>                                        
         <button type="button" class="btn-close " id={`btn-close-MyOrderModal`} data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
       <div class="modal-body" style={{"backgroundColor":"#fff"}}> 

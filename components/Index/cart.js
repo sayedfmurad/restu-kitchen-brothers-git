@@ -1,11 +1,8 @@
-import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
-import MyNavbar from "../components/TopBar/TobBar"
-import langswitch from '../components/Utils/langswitch'
-import hash from "../components/Utils/object_hash"
-import packagee from "../package.json"
-import AddAddress from "../components/Cart/addaddress"
-import Sections from '@/components/Index/sections';
+import langswitch from '../Utils/langswitch'
+import hash from "../Utils/object_hash"
+import packagee from "../../package.json"
+import AddAddress from "../Cart/addaddress"
 export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
     const MyLang = langswitch.langswitchs("cart")
     const startpay= ()=>{
@@ -415,11 +412,11 @@ export function Container({setContainerCartModal,setContainerCustimizeModal,mSet
         <button type="button" class="btn-close " id={`btn-close-CartModal`} data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
     <div class="modal-body" > 
-    <div id="MainIdd" className='d-none'>
+    <div id="MainIdd">
     {AddAddressComponent}    
     <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
     </div>
-    <div className={`loadingg  container mt-3 `} id="SpinnerId">
+    <div className={`loadingg  container mt-3 d-none`} id="SpinnerId">
     <div class="text-center d-flex justify-content-center">
     <div class="spinner-border text-primary" style={{"width":"5rem","height":"5rem"}} role="status">
         <span class="visually-hidden">Loading...</span>

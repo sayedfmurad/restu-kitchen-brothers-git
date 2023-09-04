@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
-import MyNavbar from "../components/TopBar/TobBar2"
-import langswitch from '../components/Utils/langswitch'
+import MyNavbar from "../TopBar/TobBar2"
+import langswitch from '../Utils/langswitch'
 
 export function Container(){
     const MyLang = langswitch.langswitchs("orders");
