@@ -1,7 +1,6 @@
 
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
-import Sections from "../components/Index/sections"
 import Sections2 from "../components/Index/sections2"
 import langswitch from "../components/Utils/langswitch"
 import packagee from "../package"

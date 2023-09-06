@@ -29,7 +29,7 @@ function scrollToElement(elementId) {
       });
   }
 }
-function InitilaizeSection () {
+function InitilaizeSection (setIsSearch) {
 
 
   window.onpopstate = function(event) {
@@ -39,6 +39,9 @@ function InitilaizeSection () {
     document.getElementById('btn-close-CartModal').click()
     if(document.getElementById('btn-close-MyOrderModal'))
     document.getElementById('btn-close-MyOrderModal').click()
+
+    if(setIsSearch)
+    setIsSearch(false)
   };
   setTimeout(() => {        
     navbar = document.querySelector('.navbarr');
@@ -88,6 +91,8 @@ export  function IndexPage({menu}) {
   const [ContainerCartModal,setContainerCartModal]=useState(<></>)
   const [ContainerMyOrderModal,setContainerMyOrderModal]=useState(<></>)
   const [rows,setrows]=useState(<></>)
+  const [Searchrows,setSearchrows]=useState(<></>)
+  const [IsSearch,setIsSearch]=useState(false)
   
   
 
@@ -137,7 +142,7 @@ export  function IndexPage({menu}) {
                 {descriptionO}
               </a></div>
     }
-    InitilaizeSection()
+    InitilaizeSection(setIsSearch)
     
     var NavRows = [] 
     const BtnSectionClicked=(e)=>{      
@@ -192,7 +197,7 @@ export  function IndexPage({menu}) {
         heightsection = menu["staticValue"]["style"]["sectionheight"]
         
         trows.push(
-              <div style={{"min-height":"35rem"}} id={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} className="pt-5 container-fluid text-white" >
+              <div style={{"min-height":"35rem"}} id={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} className="pt-5  text-white" >
                 <div className='a-item  a-item-2' style={{"height":`${heightsection}`,"backgroundImage":`url(Images/${imgg}.jpeg)`}}>
                   <div  class="a-sub">{l}</div>
                   </div>
@@ -222,32 +227,94 @@ export  function IndexPage({menu}) {
      element.classList.add('d-none');
     },[])
     
-   
+    const SearchIsClicked=()=>{
+      setIsSearch(true)
+      setTimeout(() => {
+        if(document.getElementById("SearchNavBar"))
+        {
+          document.getElementById("SearchNavBar").focus()
+          scrollToElement("SearchNavBar")
+        }
+
+      }, 200);
+      
+    }
+    const onKeyUpSearch=(e)=>{
+      
+      scrollToElement("solveshowNav")
+
+      e = e.target.value
+      var trowss = []
+      trowss.push(<>
+        {Object.keys(menu["product"]).map((number) => (
+          <>{
+           (menu["product"][number]["name"].toUpperCase()).includes(e.toUpperCase()) ||
+           (menu["product"][number]["section"].toUpperCase()).includes(e.toUpperCase())? 
+              <>{GetObjItem(menu,number)}</>
+              :<></>
+          } </>                               
+      ))}</>
+      )
+      setSearchrows(trowss)
+    }
+    const CloseSearchIsClicked=()=>{
+      document.getElementById("SearchNavBar").value=""
+      setIsSearch(false)
+    }
     
   return (
     <>
     <MyNavBar menu={menu} setContainerMyOrderModal={setContainerMyOrderModal}/>
     <div id="solveshowNav" className='d-none' style={{"height":"56px"}}></div>
-      <nav style={{"background":"white","fontWeight":"bold","fontSize":"16px"}} id="navbarscroll" class="nav navbarr navbar-nav scroll">
-        <div class="navbar-header p-2">
+    <div className='container-fluid navbarr' >
+    <div style={{"height":"50px"}} className={`${IsSearch?"":"d-none"} row`}>
+      <div  className='col-10' style={{backgroundColor:"white"}}>
+        <input onKeyUp={onKeyUpSearch} id="SearchNavBar" style={{paddingLeft:"18px",marginTop:"5px",width:"100%",height:"79%",fontWeight:"bold"}} type='text' className='rounded-5'></input>
+      </div>
+      <div className='col-2 d-flex justify-content-center' style={{"backgroundColor":"white"}}>
+      <button style={{marginTop:"13px"}} onClick={()=>{CloseSearchIsClicked()}} type="button" class="btn-close " ></button>
+      </div>
+    </div>
+    <div className={`${IsSearch?"d-none":""} row`}>
+    <nav class=" scroll nav  navbar-nav col-10" id="navbarscroll" style={{"background":"white","fontWeight":"bold","fontSize":"16px"}}  >        
+        <div class="p-2">
         {NavRows}
-        </div> 
+        </div>         
     </nav>
+    <div className='col-2' onClick={()=>{SearchIsClicked()}} style={{"backgroundColor":"white","cursor":"pointer"}}>
+      <div style={{marginTop:"12px"}} className='  d-flex justify-content-center'>
+    <svg  width="30" height="23" fill="currentColor"  viewBox="0 0 16 16"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/> </svg>  
+    </div> 
+    </div>
+
+    </div>
+    </div>
+    <div  className={`${IsSearch?"":"d-none"} container mt-5`} style={{minHeight:"150vh"}}>
+    {Searchrows}
+    <div style={{marginTop:"100px"}}/>
+    </div>
+    <div className={`${IsSearch?"d-none":""} container`}>
+    <div className='row'>
     {rows}
-
+    </div>
     <hr  style={{"marginTop":"10rem"}}/>
-
-    <MModal idd="CustomizeModal" contaienrr={ContainerCustimizeModal} />
-    <MModal idd="CartModal" contaienrr={ContainerCartModal} />
-    <MModal idd="MyOrderModal" contaienrr={ContainerMyOrderModal} />
-    <MModal idd="AboutUsModal" contaienrr={<Aboutus menu={menu} />} />
-    <MModal idd="ZusatzModal" contaienrr={<ZusatzStoffe menu={menu} />} />
     <footer class="footer  text-center mt-5 mb-5">
         <div class="container">          
           <p>&copy; 2023 {menu["staticValue"]["logo"]}. All rights reserved. | <a href={langswitch.RouteP("privacypolicy")}>Datenschutz</a></p>
         </div>
       </footer>
       <div style={{marginTop:"100px"}}/>
+    </div>
+
+    
+
+
+    <MModal idd="CustomizeModal" contaienrr={ContainerCustimizeModal} />
+    <MModal idd="CartModal" contaienrr={ContainerCartModal} />
+    <MModal idd="MyOrderModal" contaienrr={ContainerMyOrderModal} />
+    <MModal idd="AboutUsModal" contaienrr={<Aboutus menu={menu} />} />
+    <MModal idd="ZusatzModal" contaienrr={<ZusatzStoffe menu={menu} />} />
+    
       <div className='mb-5 mt-5 container-fluid'/>
     <MButtonCartContainer menu={menu} setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal}/>
       </>

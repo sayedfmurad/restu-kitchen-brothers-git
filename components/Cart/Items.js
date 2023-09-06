@@ -1,6 +1,5 @@
 import { useState,useEffect } from "react";
 import langswitch from "../Utils/langswitch"
-import Sections from "../Index/sections"
 import Cart from "../Index/cart"
 import CustomizeOrder from "../Index/customizeorder"
 export default function Items({setContainerCustimizeModal,setContainerCartModal,mSetContainer,menu,textabohlen}){
