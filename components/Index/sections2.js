@@ -7,6 +7,7 @@ import ButtonCartContainer from "./ButtonCartContainer"
 import CheckAlerts from './CheckAlerts';
 import Aboutus from '@/components/Index/aboutus';
 import ZusatzStoffe from "./zusatzstoffe"
+import Datenschutz from "./privacypolicy"
 let myModal;
 var NavBarTriggerIsClicked=false
 let AddedFlagModal=false
@@ -39,6 +40,8 @@ function InitilaizeSection (setIsSearch) {
     document.getElementById('btn-close-CartModal').click()
     if(document.getElementById('btn-close-MyOrderModal'))
     document.getElementById('btn-close-MyOrderModal').click()
+    if(document.getElementById('btn-close-DatenschutzModal'))
+    document.getElementById('btn-close-DatenschutzModal').click()
 
     if(setIsSearch)
     setIsSearch(false)
@@ -134,7 +137,10 @@ export  function IndexPage({menu}) {
             className="col-lg-8 col-md-12 col-sm-12 col-xs-12 rounded">   
                   <div className='d-flex justify-content-between' style={{"color":"rgb(80 80 80)"}}>
                   <h5>{menu["product"][key]["name"]}&nbsp;
-                  <sup style={{"fontSize":"0.6rem"}}>{menu['product'][key]['zusatz']}</sup>
+                  
+                  <sup style={{"fontSize":"0.6rem"}}>{menu['product'][key]['zusatz']}
+                  &nbsp;<span style={{"fontSize":"8px"}} className='rounded-2 p-1  bg-secondary text-white'>Nr.{key}</span>
+                  </sup>
                   </h5>
                   <h5>{menu["product"][key]["price"][Object.keys(menu["product"][key]["price"])[0]]}&nbsp;&euro;
                   </h5>
@@ -300,7 +306,13 @@ export  function IndexPage({menu}) {
     <hr  style={{"marginTop":"10rem"}}/>
     <footer class="footer  text-center mt-5 mb-5">
         <div class="container">          
-          <p>&copy; 2023 {menu["staticValue"]["logo"]}. All rights reserved. | <a href={langswitch.RouteP("privacypolicy")}>Datenschutz</a></p>
+          <p>&copy; 2023 {menu["staticValue"]["logo"]}. All rights reserved. | <a onClick={()=>{
+            var myModal = new bootstrap.Modal(document.getElementById("DatenschutzModal"), {
+              keyboard: true
+            })    
+            myModal.show()  
+            history.pushState({}, '');
+          }}>Datenschutz</a></p>
         </div>
       </footer>
       <div style={{marginTop:"100px"}}/>
@@ -314,6 +326,7 @@ export  function IndexPage({menu}) {
     <MModal idd="MyOrderModal" contaienrr={ContainerMyOrderModal} />
     <MModal idd="AboutUsModal" contaienrr={<Aboutus menu={menu} />} />
     <MModal idd="ZusatzModal" contaienrr={<ZusatzStoffe menu={menu} />} />
+    <MModal idd="DatenschutzModal" contaienrr={<Datenschutz />} />
     
       <div className='mb-5 mt-5 container-fluid'/>
     <MButtonCartContainer menu={menu} setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal}/>

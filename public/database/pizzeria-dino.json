@@ -3085,8 +3085,8 @@
             "section": "Salate"
         },
         "356": {
-            "name": "Insalata di Broccoli",
-            "desO": "kleiner Broccolisalat",
+            "name": "Überschungssalat",
+            "desO": "für 2-3 Personen",
             "zusatz": "",
             "price": {
                 "stand": "13,99"
@@ -3114,35 +3114,6 @@
             "section": "Salate"
         },
         "358": {
-            "name": "Mozzarella-Salat",
-            "desO": "mit Eisbergsalat, Tomaten, frischem Basiilikum",
-            "zusatz": "",
-            "price": {
-                "stand": "7,99"
-            },
-            "options": {
-                "Ihr Dressing": {
-                    "name": "Ihr Dressing",
-                    "options": {
-                        "mit Dressing, rot": {
-                            "price": "0,00"
-                        },
-                        "mit Dressing, weiß": {
-                            "price": "0,00"
-                        },
-                        "mit Essig-Öl-Dressing": {
-                            "price": "0,00"
-                        },
-                        "ohne Dressing": {
-                            "price": "0,00"
-                        }
-                    },
-                    "showprice": false
-                }
-            },
-            "section": "Salate"
-        },
-        "359": {
             "name": "Insalata Primavera",
             "desO": "gemischter Salat mit Oliven und Zwiebeln, dazu Pizzabrötchen und Kräutercreme",
             "zusatz": "",
@@ -3171,7 +3142,7 @@
             },
             "section": "Salate"
         },
-        "360": {
+        "359": {
             "name": "Insalata Parmigiana",
             "desO": "gemischter Salat mit Gouda, dazu Pizzabrötchen und Kräutercreme",
             "zusatz": "",
@@ -3200,7 +3171,7 @@
             },
             "section": "Salate"
         },
-        "361": {
+        "360": {
             "name": "Insalata di Tonno",
             "desO": "gemischter Salat mit Thunfisch und Zwiebeln, dazu Pizzabrötchen und Kräutercreme",
             "zusatz": "",
@@ -3229,7 +3200,7 @@
             },
             "section": "Salate"
         },
-        "362": {
+        "361": {
             "name": "Insalata Nicoise",
             "desO": "gemischter Salat mit Thunfisch und Ei, dazu Pizzabrötchen und Kräutercreme",
             "zusatz": "",
@@ -3375,7 +3346,7 @@
             "section": "Salate"
         },
         "368": {
-            "name": "Bauernsalat",
+            "name": "Bauern salat",
             "desO": "mit Schafkäse, Oliven, Zwiebeln und milden Peperoni, dazu Pizzabrötchen und Kräutercreme",
             "zusatz": "",
             "price": {
@@ -7523,8 +7494,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Klein": "3,99",
-                "XXL": "6,99"
+                "Klein": "3,99"              
             },
             "section": "Burger"
         },
@@ -7533,8 +7503,8 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Klein": "3,99",
-                "XXL": "6,99"
+                "Klein": "3,99"
+               
             },
             "section": "Burger"
         },
@@ -7543,8 +7513,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Klein": "3,99",
-                "XXL": "6,99"
+                "Klein": "3,99"                
             },
             "section": "Burger"
         },
@@ -7553,7 +7522,42 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Klein": "5,49",
+                "Klein": "5,49"
+            },
+            "section": "Burger"
+        },
+        "471": {
+            "name": "Hamburger XXL",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "Klein": "6,99"
+            },
+            "section": "Burger"
+        },
+        "472": {
+            "name": "Chickenburger XXL",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "XXL": "6,99"
+            },
+            "section": "Burger"
+        },
+        "473": {
+            "name": "Cheeseburger XXL",
+            "desO": "",
+            "zusatz": "",
+            "price": {                
+                "XXL": "8,99"
+            },
+            "section": "Burger"
+        },
+        "474": {
+            "name": "Double Beef Burger XXL",
+            "desO": "",
+            "zusatz": "",
+            "price": {
                 "XXL": "8,99"
             },
             "section": "Burger"
@@ -8022,16 +8026,7 @@
             },
             "section": "",
             "zusatz":""
-        },
-        "474":{
-            "name":"Double Beef Burger xxl",
-            "desO": ""
-            ,"price":{
-                "stand": "8,99"
-            },
-            "section": "",
-            "zusatz":""
-        },
+        },      
         "480":{
             "name":"Vegetarisch",
             "desO": ""
@@ -8131,16 +8126,7 @@
             },
             "section": "",
             "zusatz":""
-        },
-        "473":{
-            "name":"Cheeseburger xxl",
-            "desO": ""
-            ,"price":{
-                "stand": "6,99"
-            },
-            "section": "",
-            "zusatz":""
-        },
+        },       
         "700":{
             "name":"Tiramisu",
             "desO": ""
@@ -8152,12 +8138,31 @@
         },
         "357":{
             "name":"Mozzarella-Salat",
-            "desO": ""
-            ,"price":{
+            "desO": "Eisbergsalat, Tomaten, fr. Basilikum, Olivenöl, Balsamico",
+            "price": {
                 "stand": "7,99"
             },
-            "section": "",
-            "zusatz":""
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "mit Dressing, rot": {
+                            "price": "0,00"
+                        },
+                        "mit Dressing, weiß": {
+                            "price": "0,00"
+                        },
+                        "mit Essig-Öl-Dressing": {
+                            "price": "0,00"
+                        },
+                        "ohne Dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salate"
         }
     },
     "extra": {

@@ -19,7 +19,7 @@ def dev():
       json.dump(package, f, ensure_ascii=False, indent=4)
       f.truncate()
 
-    getObjj()    
+    # getObjj()    
     
     # shutil.copy("./main/database/"+str(key)+".menu.json","public/database/menu.json")
 

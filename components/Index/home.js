@@ -1,27 +1,14 @@
 import { useEffect } from "react"
-import langswitch from "../components/Utils/langswitch"
-import restus from "../public/restus"
+import langswitch from "../Utils/langswitch"
+import restus from "../../public/restus"
 import Head from 'next/head'
 
-export default function A(){
-    useEffect(()=>{
-        const CheckIFOurDomain=()=>{    
-
-            var hostname = window.location.hostname;
-            hostname =  hostname.replace("www.","")
-            hostname = hostname.split(".")[0]
-            for (var ghli in restus)
-            if(hostname == ghli) 
-            return hostname
-      
-            return false
-          } 
-          var hostnamee = CheckIFOurDomain()
-            if(hostnamee !== false)
-            {                  
-          window.location.href = langswitch.RouteP(hostnamee)
-                        return
-            }else{
+export default function A({IsOurDomain}){
+    const buttonClicked=(e)=>{
+        var k = e.target.getAttribute("key-id")
+        IsOurDomain(k)
+    }
+    useEffect(()=>{  
                  // Get the value of the "addr" key
                  var seladdr = window.localStorage.getItem("seladdress");
                  var addr = window.localStorage.getItem("address");
@@ -30,7 +17,7 @@ export default function A(){
                 window.localStorage.setItem("seladdress",seladdr);
                 if(addr != null) 
                 window.localStorage.setItem("address",addr);
-            }
+            
     },[])
     var out = []
     for(var h in restus)
@@ -39,8 +26,10 @@ export default function A(){
     out.push(
             <div className='col-lg-3 col-md-4 col-sm-6 col-xs-6' >
             <a class="a-item a-item-2" 
+                    key-id={restus[h]["key"]}
                     style={{"height":"160px","backgroundImage":`url(${restus[h]["storeimg"]})`}}
-                      href={langswitch.RouteP(restus[h]["key"])}>
+                      onClick={buttonClicked}
+                      >
                 <div class="a-sub2">{langswitch.firstUpper(restus[h]["name"])}</div>
             </a>        
             </div>
@@ -54,7 +43,7 @@ export default function A(){
         <div className="container mt-4" >
         <div className="row mb-5">
             <div className="col-12 text-white">
-            <h2>
+            <h2 style={{"color":"#000"}}>
             Resturant auswählen:
             </h2>
         </div>

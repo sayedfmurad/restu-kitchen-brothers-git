@@ -1,5 +1,15 @@
-export default()=>{
-return <>
+export default function Name() {
+
+return(
+<>
+<div class="modal-header">  
+        <h3 className='m-0'>Datenschutz</h3>                                         
+         <button type="button" class="btn-close " id={`btn-close-DatenschutzModal`} data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body" id="MainIdd">
+<div className="container">
+<div className='row'>
+<div className='col-12'>
 
 Datenschutzerklärung
 
@@ -24,8 +34,10 @@ Wir geben Ihre Daten nicht ohne Ihre ausdrückliche Einwilligung an Dritte weite
 
 Sie haben das Recht, Auskunft über die von uns verarbeiteten personenbezogenen Daten zu erhalten. Darüber hinaus haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung Ihrer Daten. Bitte kontaktieren Sie uns dazu über die oben angegebenen Kontaktdaten.
 
-6. Kontakt
-
-Für Fragen, Anliegen oder Ausübung Ihrer Datenschutzrechte stehen wir Ihnen gerne zur Verfügung. Sie können uns unter [Email-Adresse Ihres Restaurants] kontaktieren.
+</div>
+</div>
+</div>
+</div>
 </>
+)    
 }
