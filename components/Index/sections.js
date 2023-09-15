@@ -165,17 +165,17 @@ export default function Sections({menu})
       url = decodeURIComponent(url)
       if(url == "")
       {
-        langswitch.ChangeGetParameters("Sections")                                   
+        // langswitch.ChangeGetParameters("Sections")                                   
         SetContainer(<Sections menu={menu}/>)
       }
       else if(url == "Sections")
       {
-        langswitch.ChangeGetParameters("Sections")                                   
+        // langswitch.ChangeGetParameters("Sections")                                   
         SetContainer(<Sections menu={menu}/>)
       }
       else if(url == "cart")
       {
-        langswitch.ChangeGetParameters("Sections")                                   
+        // langswitch.ChangeGetParameters("Sections")                                   
         SetContainer(<Sections menu={menu}/>)
       }
       else{

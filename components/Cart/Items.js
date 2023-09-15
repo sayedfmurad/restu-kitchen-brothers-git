@@ -31,7 +31,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
         window.localStorage.setItem("order",JSON.stringify(or));
         if(Object.keys(or).length ==0)
         {
-            langswitch.ChangeGetParameters("Sections")                           
+            // langswitch.ChangeGetParameters("Sections")                           
             document.getElementById("btn-close-CartModal").click()
 
             return 

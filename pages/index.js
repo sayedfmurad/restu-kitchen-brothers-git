@@ -82,7 +82,7 @@ export default()=>{
     }
 
     window.localStorage.setItem("menu",JSON.stringify(data))     
-    langswitch.ChangeGetParameters("Sections")                           
+    // langswitch.ChangeGetParameters("Sections")                           
       SetContainer(
         <>              
         <Sections2 menu={data}/>

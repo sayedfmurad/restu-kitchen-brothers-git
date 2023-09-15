@@ -12,7 +12,27 @@ ChangeGetParameters=(value)=>{
     // Modify the browser URL without reloading the page
     history.pushState({ path: newUrl }, '', newUrl);
 }
+IsPaymentSuccess=()=>{
+    var MainOrders = this.getJson("mainorder")
+    var LastOrderId = this.getValue("lastOrderId")
+    if(LastOrderId in MainOrders)
+    {
+        MainOrders[LastOrderId]["paid"]=true
+    }
 
+
+    if(document.getElementById("btn-close-CartModal"))
+    document.getElementById("btn-close-CartModal").click()
+    if(document.getElementById('fixedendidcart'))
+    document.getElementById('fixedendidcart').classList.add("d-none")
+    window.localStorage.setItem("order","{}");
+    window.localStorage.setItem("sumprice","0,00");
+    var myModal = new bootstrap.Modal(document.getElementById("SuccessModal"), {
+        keyboard: true
+      })    
+      myModal.show()  
+        history.pushState({}, '');
+}
 GetJsonM=(m)=>{
     return new Promise((resolve, reject) => {
         var or = window.localStorage.getItem(m)

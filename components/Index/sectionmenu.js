@@ -58,7 +58,7 @@ export default function Sectionmenu({SetContainer,menu,bnb}) {
     <MyNavbar menu={menu} mSetContainer={SetContainer}  options={                   
     [
     <a onClick={()=>{
-        langswitch.ChangeGetParameters("Sections")                                   
+        // langswitch.ChangeGetParameters("Sections")                                   
         SetContainer(<Sections menu={menu}/>)
     }} className=" btn btn-secondary" id='navbarBack' >Zurück</a>     
     ]

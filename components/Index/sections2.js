@@ -8,6 +8,7 @@ import CheckAlerts from './CheckAlerts';
 import Aboutus from '@/components/Index/aboutus';
 import ZusatzStoffe from "./zusatzstoffe"
 import Datenschutz from "./privacypolicy"
+import Success from "./success"
 let myModal;
 var NavBarTriggerIsClicked=false
 let AddedFlagModal=false
@@ -42,6 +43,8 @@ function InitilaizeSection (setIsSearch) {
     document.getElementById('btn-close-MyOrderModal').click()
     if(document.getElementById('btn-close-DatenschutzModal'))
     document.getElementById('btn-close-DatenschutzModal').click()
+    if(document.getElementById('btn-close-SuccessModal'))
+    document.getElementById('btn-close-SuccessModal').click()
 
     if(setIsSearch)
     setIsSearch(false)
@@ -86,6 +89,8 @@ function InitilaizeSection (setIsSearch) {
             })
           })
     }, 500);
+
+  
 
 }
 
@@ -226,7 +231,13 @@ export  function IndexPage({menu}) {
 
       }   
     }
-    useEffect(()=>{
+    useEffect(()=>{    
+      setTimeout(() => {
+        if(window.location.href.includes("p=success"))
+        {
+          langswitch.IsPaymentSuccess()
+        }
+      }, 1000);  
      PrepairRows() 
      const element = document.getElementById('loadingg');
      if(element !== null)
@@ -327,6 +338,7 @@ export  function IndexPage({menu}) {
     <MModal idd="AboutUsModal" contaienrr={<Aboutus menu={menu} />} />
     <MModal idd="ZusatzModal" contaienrr={<ZusatzStoffe menu={menu} />} />
     <MModal idd="DatenschutzModal" contaienrr={<Datenschutz />} />
+    <MModal idd="SuccessModal" contaienrr={<Success />} />
     
       <div className='mb-5 mt-5 container-fluid'/>
     <MButtonCartContainer menu={menu} setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal}/>

@@ -62,7 +62,10 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
         {
             const hostname = window.location.hostname;
             const isOutPackage= packagee["IsOut"]?".html":""
-            parms["successurl"] = "https://"+hostname+"/success"+isOutPackage
+          
+            parms["successurl"] = "https://"+hostname+"/?p=success"
+            if(! packagee["IsOut"])
+            parms["successurl"] = "http://"+hostname+":3000/?p=success"
             parms["failureurl"] = "https://"+hostname
         }
         if(textabohlen)
@@ -115,7 +118,11 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
           }).then(data => {                                
             window.localStorage.setItem("mainorder",JSON.stringify(MainOrder));
             if(t=="bar")
-            window.location.href=langswitch.RouteP("success");
+            {
+                setTimeout(() => {
+                    langswitch.IsPaymentSuccess()
+                }, 500);
+            }
             else if(t=="paypal")
             {
                 if("paypalurl" in data)

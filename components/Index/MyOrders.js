@@ -1,6 +1,6 @@
 import { useState ,useEffect} from "react";
 import langswitch from "../Utils/langswitch"
-
+let SendFlag = false
 function CheckingIftoSend () {
     var orders = langswitch.getJson("mainorder");
     var objtosend = []
@@ -13,17 +13,11 @@ function CheckingIftoSend () {
       else
       {
         if(orders[dd]["time"]=="")
-        {
-            if(orders[dd]["type"]=="bar")                
-            objtosend.push(orders[dd]["MainId"])
-            else if(orders[dd]["paid"]=="true"||orders[dd]["paid"]==true)
-            objtosend.push(orders[dd]["MainId"])
-
-        }
+            objtosend.push(orders[dd]["MainId"])            
       }         
     }
     window.localStorage.setItem("mainorder",JSON.stringify(orders))
-
+    
     if(Object.keys( objtosend).length==0 )
     return orders
     
@@ -36,7 +30,6 @@ function Fetching (orders,objtosend) {
 
     // grecaptcha.ready(function() {
     //   grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
-    //       // console.log(token)
     //   });
     // });
                 const urll="https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws"
@@ -49,7 +42,7 @@ function Fetching (orders,objtosend) {
                 }).then(response => {
                   if(response.status==400)
                   {
-                  localStorage.setItem("mainorder",JSON.stringify({}))
+                  window.localStorage.setItem("mainorder",JSON.stringify({}))
                   window.location.href=langswitch.RouteP("orders");
                   }
                   else if(response.status==200)
@@ -58,14 +51,14 @@ function Fetching (orders,objtosend) {
                       for(var dl in result)
                       {
                         orders[dl]["time"]=result[dl]["time"]
-                        orders[dl]["paid"]=result[dl]["paid"]
+                        // orders[dl]["paid"]=result[dl]["paid"]
                       }                        
-                      localStorage.setItem("mainorder",JSON.stringify(orders) )
+                      window.localStorage.setItem("mainorder",JSON.stringify(orders) )
                       
                     })
                     .catch(error => {
                       console.error('Error:', error);
-                      localStorage.setItem("mainorder",JSON.stringify({}))
+                      window.localStorage.setItem("mainorder",JSON.stringify({}))
                       
                     })
                   }
@@ -73,53 +66,20 @@ function Fetching (orders,objtosend) {
                 })
                 return orders    
       
-}
-
-function HandleTheTimes () {
-    
-    
-    if(document.getElementById("SpinnerIdMyOrder"))
-    if(document.getElementById("SpinnerIdMyOrder").classList.contains("d-none"))
-    {
-        document.getElementById("SpinnerIdMyOrder").classList.remove("d-none")
-        var or = CheckingIftoSend() 
-        for(var lll in or)
-        {
-            if(or[lll]["time"]!="")
-            {
-            var dgs=document.getElementById("MyorderIdTime"+or[lll]["MainId"])
-            var dgv=document.getElementById("MyorderIdTimeHeader"+or[lll]["MainId"])
-            var dg=document.getElementById("MyorderIdTimeSpan"+or[lll]["MainId"])
-            if(dg)
-            {
-                    dgv.style.backgroundColor= "#00e53075";
-
-                    dgs.classList.remove("text-primary")
-                    dgs.classList.add("text-success")
-                    dg.innerText=or[lll]["time"]
-                }
-            }
-        }
-        document.getElementById("SpinnerIdMyOrder").classList.add("d-none")
-    }
-    }
-    
-export function Orders ({orders,menu}) {  
+}   
+export function Orders ({menu}) {  
     const MyLang = langswitch.langswitchs("orders");
-
-
+        var orders = CheckingIftoSend()
 
         var mrows = []    
-        for(var lll in orders)
-        if("paid" in orders[lll])       
-        if(orders[lll]["paid"])       
+        for(var lll in orders)        
         {        
         var or=orders[lll]   
         var crows = [];
         var sum = 0
 
         crows.push(
-            <li id={`MyorderIdTimeHeader${or["MainId"]}`} className="list-group-item d-flex justify-content-between lh-light">
+            <li style={{"backgroundColor":(or["time"]!=""?"#00e53075":"")}} id={`MyorderIdTimeHeader${or["MainId"]}`} className="list-group-item d-flex justify-content-between lh-light">
             <div className=''><h6 className=''>{"abhol" in or ? "Abholung" : "Lieferung"}</h6></div>
             </li> 
         )
@@ -213,13 +173,13 @@ export function Orders ({orders,menu}) {
                 </li> 
             )
 
-           
             mrows.push(
                 <ul className='list-group mb-3'>
                 {crows}
                 </ul>
             )
         }
+        mrows.reverse()
         
         if(mrows.length == 0)
         mrows.push(
@@ -229,23 +189,27 @@ export function Orders ({orders,menu}) {
             </li>
             </ul>
         )
-
-        if(document.getElementById("SpinnerIdMyOrder"))
-        document.getElementById("SpinnerIdMyOrder").classList.add("d-none")
-        setInterval(() => {
-            HandleTheTimes()
-        }, 5000);
+       
     return <>{mrows}</>
+
 }
 
-export default({menu})=>{
+export default({menu})=>{    
     const [Container,SetContainer] = useState(<></>      
     )
-
-
+    if(document.getElementById("SpinnerIdMyOrder"))
+    document.getElementById("SpinnerIdMyOrder").classList.add("d-none")
     useEffect(()=>{
-        SetContainer(<Orders menu={menu} orders={CheckingIftoSend()}/>)
-        
+        SetContainer(<Orders menu={menu}/>)   
+    setTimeout(() => {
+        SetContainer(<Orders menu={menu}/>)   
+    }, 100);       
+    setInterval(()=>{
+   
+        SetContainer(<Orders menu={menu}/>)
+    }, 5000);
+
+
       },[])
 
     return <>
