@@ -32,7 +32,12 @@ IsPaymentSuccess=()=>{
     var LastOrderId = this.getValue("lastOrderId")
     if(LastOrderId in MainOrders)
     {
+        if(!MainOrders[LastOrderId]["paid"])
+        if(document.getElementById("ShowSuccessMyOrder"))
+        document.getElementById("ShowSuccessMyOrder").classList.remove("d-none")
+
         MainOrders[LastOrderId]["paid"]=true
+        window.localStorage.setItem("mainorder",JSON.stringify(MainOrders))
     }
 
 
@@ -42,8 +47,10 @@ IsPaymentSuccess=()=>{
     document.getElementById('fixedendidcart').classList.add("d-none")
     window.localStorage.setItem("order","{}");
     window.localStorage.setItem("sumprice","0,00");
-    if(document.getElementById("ShowSuccessMyOrder"))
-    document.getElementById("ShowSuccessMyOrder").classList.remove("d-none")
+
+
+    
+    
 
     var myModal = new bootstrap.Modal(document.getElementById("MyOrderModal"), {
             keyboard: true

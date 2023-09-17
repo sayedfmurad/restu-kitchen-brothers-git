@@ -200,11 +200,18 @@ export default({menu})=>{
     )
     if(document.getElementById("SpinnerIdMyOrder"))
     document.getElementById("SpinnerIdMyOrder").classList.add("d-none")
+    
+          
     useEffect(()=>{
         SetContainer(<Orders menu={menu}/>)   
     setTimeout(() => {
         SetContainer(<Orders menu={menu}/>)          
     }, 100);       
+    setTimeout(() => {
+        if (window.history && window.history.replaceState) {
+            window.history.replaceState({}, document.title, window.location.pathname);
+        }
+    }, 2000);       
     setInterval(()=>{
    
         SetContainer(<Orders menu={menu}/>)

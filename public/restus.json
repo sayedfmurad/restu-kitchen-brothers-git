@@ -29,12 +29,6 @@
         "name": "Pezzeria Napoli",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
     },
-    "pizzeria-dino": {
-        "storeimg":"Images/cartoon.jpeg",
-        "key": "pizzeria-dino",
-        "name": "Pizza Dino",
-        "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
-    },
     "westendgrillundpizza": {
         "storeimg":"Images/cartoon.jpeg",
         "key": "westendgrillundpizza",

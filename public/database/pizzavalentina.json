@@ -220,7 +220,7 @@
             "name": "4 Jahreszeiten",
             "price": {
                 "24cm": "7,00",
-                "28cm": ",50",
+                "28cm": "8,50",
                 "38cm": "15,40"
             },
             "desO": "mit Thunfisch, parkia ,schinken, Spinat",
@@ -689,14 +689,14 @@
             },
             "options": {
                 "Ihre Dip": {
-                    "showprice": false,
+                    "showprice": true,
                     "name": "Ihre Dip",
                     "options": {
                         "Kräuterbutter": {
-                            "price": "0,00"
+                            "price": "1,00"
                         },
                         "Aioli": {
-                            "price": "0,00"
+                            "price": "1,00"
                         }
                     }
                 }
@@ -713,14 +713,14 @@
             },
             "options": {
                 "Ihre Dip": {
-                    "showprice": false,
+                    "showprice": true,
                     "name": "Ihre Dip",
                     "options": {
                         "Kräuterbutter": {
-                            "price": "0,00"
+                            "price": "1,00"
                         },
                         "Aioli": {
-                            "price": "0,00"
+                            "price": "1,00"
                         }
                     }
                 }
@@ -737,14 +737,14 @@
             },
             "options": {
                 "Ihre Dip": {
-                    "showprice": false,
+                    "showprice": true,
                     "name": "Ihre Dip",
                     "options": {
                         "Kräuterbutter": {
-                            "price": "0,00"
+                            "price": "1,00"
                         },
                         "Aioli": {
-                            "price": "0,00"
+                            "price": "1,00"
                         }
                     }
                 }
@@ -761,14 +761,14 @@
             },
             "options": {
                 "Ihre Dip": {
-                    "showprice": false,
+                    "showprice": true,
                     "name": "Ihre Dip",
                     "options": {
                         "Kräuterbutter": {
-                            "price": "0,00"
+                            "price": "1,00"
                         },
                         "Aioli": {
-                            "price": "0,00"
+                            "price": "1,00"
                         }
                     }
                 }
@@ -785,14 +785,14 @@
             },
             "options": {
                 "Ihre Dip": {
-                    "showprice": false,
+                    "showprice": true,
                     "name": "Ihre Dip",
                     "options": {
                         "Kräuterbutter": {
-                            "price": "0,00"
+                            "price": "1,00"
                         },
                         "Aioli": {
-                            "price": "0,00"
+                            "price": "1,00"
                         }
                     }
                 }
@@ -809,14 +809,14 @@
             },
             "options": {
                 "Ihre Dip": {
-                    "showprice": false,
+                    "showprice": true,
                     "name": "Ihre Dip",
                     "options": {
                         "Kräuterbutter": {
-                            "price": "0,00"
+                            "price": "1,00"
                         },
                         "Aioli": {
-                            "price": "0,00"
+                            "price": "1,00"
                         }
                     }
                 }
@@ -1934,7 +1934,7 @@
             "zusatz": "A",
             "section": "Kartoffelgerichte"
         },
-        "98": {
+        "97": {
             "name": "Salat Verde",
             "price": {
                 "stand": "4,90"
@@ -1964,7 +1964,7 @@
             "zusatz": "A",
             "section": "SALATE"
         },
-        "99": {
+        "98": {
             "name": "Gemischter Salat",
             "price": {
                 "stand": "5,90"
@@ -1990,6 +1990,36 @@
                 }
             },
             "desO": "mit Eisbergsalat, Rucola, Tomaten, Gurken, Mais, Weißkohl",
+            "desT": "",
+            "zusatz": "",
+            "section": "SALATE"
+        },
+        "99": {
+            "name": "Capricciosa Salat",
+            "price": {
+                "stand": "7,90"
+            },
+            "options": {
+                "Ihr Lieblingsdressing": {
+                    "showprice": false,
+                    "name": "Ihr Lieblingsdressing",
+                    "options": {
+                        "Essig Öl": {
+                            "price": "0,00"
+                        },
+                        "Honig Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Cocktail Dressing": {
+                            "price": "0,00"
+                        },
+                        "Joghurt Dressing": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "mit gemischten Salat, Schinken, Thunfisch, Käse",
             "desT": "",
             "zusatz": "",
             "section": "SALATE"
@@ -2868,11 +2898,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Krabben"
             },
             "28cm": {
-                "price": "1,70",
+                "price": "1,50",
                 "name": "Krabben"
             },
             "38cm": {
@@ -2923,15 +2953,15 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "2,00",
                 "name": "Lachs"
             },
             "28cm": {
-                "price": "4,50",
+                "price": "2,00",
                 "name": "Lachs"
             },
             "38cm": {
-                "price": "1,70",
+                "price": "2,70",
                 "name": "Lachs"
             }
         },
@@ -2940,7 +2970,7 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Käse"
             },
             "28cm": {
@@ -2987,7 +3017,7 @@
                 "Burger"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Mozzarella"
             },
             "28cm": {
@@ -3021,7 +3051,7 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Bolognese"
             },
             "28cm": {
@@ -3106,16 +3136,16 @@
                 "Burgermenu"
             ],
             "24cm": {
-                "price": "0,85",
-                "name": "knoblauch"
+                "price": "1,50",
+                "name": "ananas"
             },
             "28cm": {
-                "price": "1,70",
-                "name": "knoblauch"
+                "price": "1,50",
+                "name": "ananas"
             },
             "38cm": {
                 "price": "1,70",
-                "name": "knoblauch"
+                "name": "ananas"
             }
         },
         "artischocken": {
@@ -3123,11 +3153,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Artischocken"
             },
             "28cm": {
-                "price": "1,70",
+                "price": "1,50",
                 "name": "Artischocken"
             },
             "38cm": {
@@ -3140,11 +3170,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Bacon"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Bacon"
             },
             "38cm": {
@@ -3157,11 +3187,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Barbecuesaucen"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Barbecuesaucen"
             },
             "38cm": {
@@ -3199,11 +3229,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Rucola"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Rucola"
             },
             "38cm": {
@@ -3219,11 +3249,11 @@
                 "Frenchtaocs"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Cherrytomaten"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Cherrytomaten"
             },
             "38cm": {
@@ -3239,11 +3269,11 @@
                 "Frenchtaocs"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Champignons"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Champignons"
             },
             "38cm": {
@@ -3256,11 +3286,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Hollandaise"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Hollandaise"
             },
             "38cm": {
@@ -3362,11 +3392,11 @@
                 "pasta"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Brocoli"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Brocoli"
             },
             "38cm": {
@@ -3403,11 +3433,11 @@
                 "Frenchtaocs"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Ei"
             },
             "28cm": {
-                "price": "1,70",
+                "price": "1,50",
                 "name": "Ei"
             },
             "38cm": {
@@ -3432,11 +3462,11 @@
                 "Frenchtaocs"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "3,50",
                 "name": "Hähnchenbrust"
             },
             "28cm": {
-                "price": "4,30",
+                "price": "3,50",
                 "name": "Hähnchenbrust"
             },
             "38cm": {
@@ -3539,11 +3569,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Jalapenos"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Jalapenos"
             },
             "38cm": {
@@ -3615,11 +3645,11 @@
                 "Frenchtaocs"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Paprika"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Paprika"
             },
             "38cm": {
@@ -3715,11 +3745,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Salami"
             },
             "28cm": {
-                "price": "1,70",
+                "price": "1,50",
                 "name": "Salami"
             },
             "38cm": {
@@ -3789,11 +3819,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Schinken"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,50",
                 "name": "Schinken"
             },
             "38cm": {
@@ -3831,11 +3861,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,50",
                 "name": "Spinat"
             },
             "28cm": {
-                "price": "1,70",
+                "price": "1,50",
                 "name": "Spinat"
             },
             "38cm": {
@@ -3848,15 +3878,15 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "2,00",
                 "name": "Sucuk"
             },
             "28cm": {
-                "price": "1,70",
+                "price": "2,00",
                 "name": "Sucuk"
             },
             "38cm": {
-                "price": "1,70",
+                "price": "2,00",
                 "name": "Sucuk"
             }
         },
@@ -3865,15 +3895,15 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "2,00",
                 "name": "Thunfisch"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "2,00",
                 "name": "Thunfisch"
             },
             "38cm": {
-                "price": "1,70",
+                "price": "2,00",
                 "name": "Thunfisch"
             }
         },
@@ -3905,11 +3935,12 @@
                 "Frenchtaocs"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,5",
                 "name": "Mais"
             },
             "28cm": {
-                "price": "1,70",
+                "price": "1,5",
+
                 "name": "Mais"
             },
             "38cm": {
@@ -3922,11 +3953,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,5",
                 "name": "Sardellen"
             },
             "28cm": {
-                "price": "4,30",
+                "price": "1,5",
                 "name": "Sardellen"
             },
             "38cm": {
@@ -3940,15 +3971,15 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "2,00",
                 "name": "Meeresfrüchten"
             },
             "28cm": {
-                "price": "4,30",
+                "price": "2,00",
                 "name": "Meeresfrüchten"
             },
             "38cm": {
-                "price": "1,70",
+                "price": "2,00",
                 "name": "Meeresfrüchten"
             }
         },
@@ -4012,11 +4043,11 @@
                 "Frenchtaocs"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,5",
                 "name": "Oliven"
             },
             "28cm": {
-                "price": "1,70",
+                "price": "1,5",
                 "name": "Oliven"
             },
             "38cm": {
@@ -4047,11 +4078,11 @@
                 "pizzen"
             ],
             "24cm": {
-                "price": "0,85",
+                "price": "1,5",
                 "name": "Zwiebeln"
             },
             "28cm": {
-                "price": "1,30",
+                "price": "1,5",
                 "name": "Zwiebeln"
             },
             "38cm": {

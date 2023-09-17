@@ -1,0 +1,5042 @@
+{
+    "sections": {
+        "mdesc": {
+            "Company Deal": {
+                "section": "Company Deal",
+                "des": ""
+            },
+            "Deal": {
+                "section": "Deal",
+                "des": ""
+            },
+            "Salads": {
+                "section": "Salads",
+                "des": "All salads are prepared with mixed lettuce and dressing of choice."
+            },
+            "Pizza": {
+                "section": "Pizza",
+                "des": "All pizzas are prepared with tomato sauce and cheese."
+            },
+            "Pizza Buns": {
+                "section": "Pizza Buns",
+                "des": "6 pieces per serving."
+            },
+            "Pasta": {
+                "section": "Pasta",
+                "des": ""
+            },
+            "Penne Rigate": {
+                "section": "Penne Rigate",
+                "des": "All dishes are prepared with garlic and tomato sauce."
+            },
+            "Pasta al Forno": {
+                "section": "Pasta al Forno",
+                "des": ""
+            },
+            "Verdura al Forno": {
+                "section": "Verdura al Forno",
+                "des": ""
+            },
+            "Turkey Breast Dishes": {
+                "section": "Turkey Breast Dishes",
+                "des": ""
+            },
+            "Pork Dishes": {
+                "section": "Pork Dishes",
+                "des": ""
+            },
+            "Baguettes": {
+                "section": "Baguettes",
+                "des": "All baguettes are prepared with lettuce and fresh tomatoes."
+            },
+            "Snacks": {
+                "section": "Snacks",
+                "des": ""
+            },
+            "Side Dishes": {
+                "section": "Side Dishes",
+                "des": ""
+            },
+            "Non-Alcoholic Drinks": {
+                "section": "Non-Alcoholic Drinks",
+                "des": ""
+            },
+            "Alcoholic Drinks": {
+                "section": "Alcoholic Drinks",
+                "des": ""
+            }
+        }
+    },
+    "product": {
+        "1": {
+            "name": "Company Deal - Pizza + Pizza + Pizza",
+            "desO": "• 3 pizzas (Ø 29cm) of choice",
+            "zusatz": "",
+            "price": {
+                "stand": "18,60"
+            },
+            "options": {
+                "your 3rd pizza": {
+                    "name": "your 3rd pizza",
+                    "options": {
+                        "Calzone": {
+                            "price": "0,00"
+                        },
+                        "Calzone Miramonti": {
+                            "price": "0,00"
+                        },
+                        "Pizza 0 Sole mio": {
+                            "price": "0,00"
+                        },
+                        "Pizza 4 Formaggi": {
+                            "price": "0,00"
+                        },
+                        "Pizza allo Chef, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Anna": {
+                            "price": "0,00"
+                        },
+                        "Pizza Bomba Atomica, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Bomba, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Borussia": {
+                            "price": "0,00"
+                        },
+                        "Pizza Calabrese": {
+                            "price": "0,00"
+                        },
+                        "Pizza Capricciosa": {
+                            "price": "0,00"
+                        },
+                        "Pizza Catania": {
+                            "price": "0,00"
+                        },
+                        "Pizza Cipolle": {
+                            "price": "0,00"
+                        },
+                        "Pizza Completa": {
+                            "price": "0,00"
+                        },
+                        "Pizza Cosenza": {
+                            "price": "0,00"
+                        },
+                        "Pizza Del Sud": {
+                            "price": "0,00"
+                        },
+                        "Pizza Diavolo, very spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Don, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Fiorella": {
+                            "price": "0,00"
+                        },
+                        "Pizza Funghi": {
+                            "price": "0,00"
+                        },
+                        "Pizza Giacomo, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Giovanni": {
+                            "price": "0,00"
+                        },
+                        "Pizza Hawaii Special": {
+                            "price": "0,00"
+                        },
+                        "Pizza Inferno": {
+                            "price": "0,00"
+                        },
+                        "Pizza Margherita": {
+                            "price": "0,00"
+                        },
+                        "Pizza Matta": {
+                            "price": "0,00"
+                        },
+                        "Pizza Miramonti 1": {
+                            "price": "0,00"
+                        },
+                        "Pizza Miramonti 2": {
+                            "price": "0,00"
+                        },
+                        "Pizza Miramonti 3, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Mista": {
+                            "price": "0,00"
+                        },
+                        "Pizza Montanara": {
+                            "price": "0,00"
+                        },
+                        "Pizza Napoli": {
+                            "price": "0,00"
+                        },
+                        "Pizza Pescatore": {
+                            "price": "0,00"
+                        },
+                        "Pizza Pirata": {
+                            "price": "0,00"
+                        },
+                        "Pizza Pirata Special": {
+                            "price": "0,00"
+                        },
+                        "Pizza Prosciutto": {
+                            "price": "0,00"
+                        },
+                        "Pizza Quadrifoglio": {
+                            "price": "0,00"
+                        },
+                        "Pizza Roma": {
+                            "price": "0,00"
+                        },
+                        "Pizza Rosa": {
+                            "price": "0,00"
+                        },
+                        "Pizza Rustica": {
+                            "price": "0,00"
+                        },
+                        "Pizza Salame": {
+                            "price": "0,00"
+                        },
+                        "Pizza Spinaci": {
+                            "price": "0,00"
+                        },
+                        "Pizza Stagioni": {
+                            "price": "0,00"
+                        },
+                        "Pizza Tesoro": {
+                            "price": "0,00"
+                        },
+                        "Pizza Tonno": {
+                            "price": "0,00"
+                        },
+                        "Pizza Verdura": {
+                            "price": "0,00"
+                        },
+                        "Pizza Vesuvio": {
+                            "price": "0,00"
+                        },
+                        "Pizza Vulcano, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Welt, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Zingara": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your 2nd pizza": {
+                    "name": "your 2nd pizza",
+                    "options": {
+                        "Calzone": {
+                            "price": "0,00"
+                        },
+                        "Calzone Miramonti": {
+                            "price": "0,00"
+                        },
+                        "Pizza 0 Sole mio": {
+                            "price": "0,00"
+                        },
+                        "Pizza 4 Formaggi": {
+                            "price": "0,00"
+                        },
+                        "Pizza allo Chef, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Anna": {
+                            "price": "0,00"
+                        },
+                        "Pizza Bomba Atomica, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Bomba, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Borussia": {
+                            "price": "0,00"
+                        },
+                        "Pizza Calabrese": {
+                            "price": "0,00"
+                        },
+                        "Pizza Capricciosa": {
+                            "price": "0,00"
+                        },
+                        "Pizza Catania": {
+                            "price": "0,00"
+                        },
+                        "Pizza Cipolle": {
+                            "price": "0,00"
+                        },
+                        "Pizza Completa": {
+                            "price": "0,00"
+                        },
+                        "Pizza Cosenza": {
+                            "price": "0,00"
+                        },
+                        "Pizza Del Sud": {
+                            "price": "0,00"
+                        },
+                        "Pizza Diavolo, very spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Don, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Fiorella": {
+                            "price": "0,00"
+                        },
+                        "Pizza Funghi": {
+                            "price": "0,00"
+                        },
+                        "Pizza Giacomo, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Giovanni": {
+                            "price": "0,00"
+                        },
+                        "Pizza Hawaii Special": {
+                            "price": "0,00"
+                        },
+                        "Pizza Inferno": {
+                            "price": "0,00"
+                        },
+                        "Pizza Margherita": {
+                            "price": "0,00"
+                        },
+                        "Pizza Matta": {
+                            "price": "0,00"
+                        },
+                        "Pizza Miramonti 1": {
+                            "price": "0,00"
+                        },
+                        "Pizza Miramonti 2": {
+                            "price": "0,00"
+                        },
+                        "Pizza Miramonti 3, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Mista": {
+                            "price": "0,00"
+                        },
+                        "Pizza Montanara": {
+                            "price": "0,00"
+                        },
+                        "Pizza Napoli": {
+                            "price": "0,00"
+                        },
+                        "Pizza Pescatore": {
+                            "price": "0,00"
+                        },
+                        "Pizza Pirata": {
+                            "price": "0,00"
+                        },
+                        "Pizza Pirata Special": {
+                            "price": "0,00"
+                        },
+                        "Pizza Prosciutto": {
+                            "price": "0,00"
+                        },
+                        "Pizza Quadrifoglio": {
+                            "price": "0,00"
+                        },
+                        "Pizza Roma": {
+                            "price": "0,00"
+                        },
+                        "Pizza Rosa": {
+                            "price": "0,00"
+                        },
+                        "Pizza Rustica": {
+                            "price": "0,00"
+                        },
+                        "Pizza Salame": {
+                            "price": "0,00"
+                        },
+                        "Pizza Spinaci": {
+                            "price": "0,00"
+                        },
+                        "Pizza Stagioni": {
+                            "price": "0,00"
+                        },
+                        "Pizza Tesoro": {
+                            "price": "0,00"
+                        },
+                        "Pizza Tonno": {
+                            "price": "0,00"
+                        },
+                        "Pizza Verdura": {
+                            "price": "0,00"
+                        },
+                        "Pizza Vesuvio": {
+                            "price": "0,00"
+                        },
+                        "Pizza Vulcano, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Welt, scharf": {
+                            "price": "0,00"
+                        },
+                        "Pizza Zingara": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your 1st pizza": {
+                    "name": "your 1st pizza",
+                    "options": {
+                        "Calzone": {
+                            "price": "0,00"
+                        },
+                        "Calzone Miramonti": {
+                            "price": "0,00"
+                        },
+                        "Pizza 0 Sole mio": {
+                            "price": "0,00"
+                        },
+                        "Pizza 4 Formaggi": {
+                            "price": "0,00"
+                        },
+                        "Pizza allo Chef, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Anna": {
+                            "price": "0,00"
+                        },
+                        "Pizza Bomba Atomica, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Bomba, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Borussia": {
+                            "price": "0,00"
+                        },
+                        "Pizza Calabrese": {
+                            "price": "0,00"
+                        },
+                        "Pizza Capricciosa": {
+                            "price": "0,00"
+                        },
+                        "Pizza Catania": {
+                            "price": "0,00"
+                        },
+                        "Pizza Cipolle": {
+                            "price": "0,00"
+                        },
+                        "Pizza Completa": {
+                            "price": "0,00"
+                        },
+                        "Pizza Cosenza": {
+                            "price": "0,00"
+                        },
+                        "Pizza Del Sud": {
+                            "price": "0,00"
+                        },
+                        "Pizza Diavolo, very spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Don, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Fiorella": {
+                            "price": "0,00"
+                        },
+                        "Pizza Funghi": {
+                            "price": "0,00"
+                        },
+                        "Pizza Giacomo, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Giovanni": {
+                            "price": "0,00"
+                        },
+                        "Pizza Hawaii Special": {
+                            "price": "0,00"
+                        },
+                        "Pizza Inferno": {
+                            "price": "0,00"
+                        },
+                        "Pizza Margherita": {
+                            "price": "0,00"
+                        },
+                        "Pizza Matta": {
+                            "price": "0,00"
+                        },
+                        "Pizza Miramonti 1": {
+                            "price": "0,00"
+                        },
+                        "Pizza Miramonti 2": {
+                            "price": "0,00"
+                        },
+                        "Pizza Miramonti 3, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Mista": {
+                            "price": "0,00"
+                        },
+                        "Pizza Montanara": {
+                            "price": "0,00"
+                        },
+                        "Pizza Napoli": {
+                            "price": "0,00"
+                        },
+                        "Pizza Pescatore": {
+                            "price": "0,00"
+                        },
+                        "Pizza Pirata": {
+                            "price": "0,00"
+                        },
+                        "Pizza Pirata Special": {
+                            "price": "0,00"
+                        },
+                        "Pizza Prosciutto": {
+                            "price": "0,00"
+                        },
+                        "Pizza Quadrifoglio": {
+                            "price": "0,00"
+                        },
+                        "Pizza Roma": {
+                            "price": "0,00"
+                        },
+                        "Pizza Rosa": {
+                            "price": "0,00"
+                        },
+                        "Pizza Rustica": {
+                            "price": "0,00"
+                        },
+                        "Pizza Salame": {
+                            "price": "0,00"
+                        },
+                        "Pizza Spinaci": {
+                            "price": "0,00"
+                        },
+                        "Pizza Stagioni": {
+                            "price": "0,00"
+                        },
+                        "Pizza Tesoro": {
+                            "price": "0,00"
+                        },
+                        "Pizza Tonno": {
+                            "price": "0,00"
+                        },
+                        "Pizza Verdura": {
+                            "price": "0,00"
+                        },
+                        "Pizza Vesuvio": {
+                            "price": "0,00"
+                        },
+                        "Pizza Vulcano, spicy": {
+                            "price": "0,00"
+                        },
+                        "Pizza Welt, scharf": {
+                            "price": "0,00"
+                        },
+                        "Pizza Zingara": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Company Deal"
+        },
+        "2": {
+            "name": "Deal A1",
+            "desO": "• Family pizza (Ø 40cm)",
+            "zusatz": "",
+            "price": {
+                "stand": "20,50"
+            },
+            "section": "Deal"
+        },
+        "3": {
+            "name": "Deal Bruschetta",
+            "desO": "• 6 Bruschetta with fresh tomatoes, onions, basil and olive oil",
+            "zusatz": "",
+            "price": {
+                "stand": "5,70"
+            },
+            "section": "Deal"
+        },
+        "4": {
+            "name": "Deal Pizza Barbecue 1",
+            "desO": "• Pizza Barbecue with barbecue sauce, mozzarella, chicken and fresh tomatoes",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Deal"
+        },
+        "5": {
+            "name": "Deal Pizza Barbecue 2",
+            "desO": "• Pizza barbecue with barbecue sauce, onions, salami, bacon, corn and barbecue sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Deal"
+        },
+        "6": {
+            "name": "Deal Pizza Hicham (spicy)",
+            "desO": "• Pizza Hicham with tuna, broccoli, 5 giant gambas, salmon, aubergine and garlic",
+            "zusatz": "",
+            "price": {
+                "stand": "14,50"
+            },
+            "section": "Deal"
+        },
+        "7": {
+            "name": "Deal Penne Hollandaise",
+            "desO": "• Penne hollandaise with chicken, mushrooms and hollandaise sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,60"
+            },
+            "section": "Deal"
+        },
+        "8": {
+            "name": "Deal Penne Fantasia",
+            "desO": "• Penne Fantasia with broccoli, mushrooms, bell pepper and hollandaise sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,00"
+            },
+            "section": "Deal"
+        },
+        "9": {
+            "name": "Deal Tiramisu",
+            "desO": "• Homemade tiramisu",
+            "zusatz": "",
+            "price": {
+                "stand": "6,00"
+            },
+            "section": "Deal"
+        },
+        "10": {
+            "name": "Insalata Verde",
+            "desO": "green salad, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "6,00"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "11": {
+            "name": "Insalata Pomodori",
+            "desO": "tomato salad, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "6,00"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "12": {
+            "name": "Insalata di Cetrioli",
+            "desO": "cucumber salad, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "6,00"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "13": {
+            "name": "Insalata Mista",
+            "desO": "mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "6,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "14": {
+            "name": "Insalata Broccoli",
+            "desO": "broccoli salad, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "6,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "15": {
+            "name": "Insalata di Tonno",
+            "desO": "tuna salad with onions, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "7,30"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "16": {
+            "name": "Insalata Speciale",
+            "desO": "with artichokes and cheese, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "7,30"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "17": {
+            "name": "Insalata 4 Formaggi",
+            "desO": "with 4 cheeses",
+            "zusatz": "",
+            "price": {
+                "stand": "8,40"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "18": {
+            "name": "Insalata Hawaii",
+            "desO": "with cocktail fruits",
+            "zusatz": "",
+            "price": {
+                "stand": "8,40"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "19": {
+            "name": "Insalata Borussia",
+            "desO": "with ham, onions and egg",
+            "zusatz": "",
+            "price": {
+                "stand": "8,40"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "20": {
+            "name": "Insalata Pasticciata",
+            "desO": "with shoulder of ham, egg and tuna",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "21": {
+            "name": "Insalata della Casa",
+            "desO": "with ham, cheese, egg and artichokes",
+            "zusatz": "",
+            "price": {
+                "stand": "8,40"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "22": {
+            "name": "Insalata America",
+            "desO": "with shoulder ham, shrimp and corn",
+            "zusatz": "",
+            "price": {
+                "stand": "9,30"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "23": {
+            "name": "Insalata Paesana",
+            "desO": "with tuna, corn, egg, tomatoes and cucumber, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "8,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "24": {
+            "name": "Insalata Nicoisa",
+            "desO": "with tuna and egg",
+            "zusatz": "",
+            "price": {
+                "stand": "8,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "25": {
+            "name": "Farmer's Salad",
+            "desO": "with sheep's cheese, olives, onions and chilli pepper",
+            "zusatz": "",
+            "price": {
+                "stand": "8,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "26": {
+            "name": "Insalata Capricciosa",
+            "desO": "with tuna, ham and cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "8,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "27": {
+            "name": "Insalata Forestale",
+            "desO": "with onions, mushrooms and egg",
+            "zusatz": "",
+            "price": {
+                "stand": "8,40"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "28": {
+            "name": "Insalata Mista all'Italiano",
+            "desO": "with bell pepper, onions and olives",
+            "zusatz": "",
+            "price": {
+                "stand": "8,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "29": {
+            "name": "Insalata Miramonti 2",
+            "desO": "with tuna, onions and beans",
+            "zusatz": "",
+            "price": {
+                "stand": "8,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "30": {
+            "name": "Insalata Verdura",
+            "desO": "with vegetables",
+            "zusatz": "",
+            "price": {
+                "stand": "8,80"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "31": {
+            "name": "Insalata Tricolore",
+            "desO": "with ham, mozzarella and egg",
+            "zusatz": "",
+            "price": {
+                "stand": "8,80"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "32": {
+            "name": "Insalata Coppa",
+            "desO": "with shoulder of ham, corn and bell pepper",
+            "zusatz": "",
+            "price": {
+                "stand": "9,00"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "33": {
+            "name": "Insalata Consenza",
+            "desO": "with mozzarella, shrimp, egg and corn",
+            "zusatz": "",
+            "price": {
+                "stand": "8,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "34": {
+            "name": "Insalata Viva",
+            "desO": "with shrimp, cheese, tuna and egg",
+            "zusatz": "",
+            "price": {
+                "stand": "9,00"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "35": {
+            "name": "Insalata Riviera",
+            "desO": "with seafood",
+            "zusatz": "",
+            "price": {
+                "stand": "9,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "36": {
+            "name": "Insalata Mediterrane",
+            "desO": "with shrimp and artichokes",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "37": {
+            "name": "Insalata Campagnola",
+            "desO": "with corn, olives, onions, mushrooms, shrimp, cheese, egg, broccoli and bell pepper",
+            "zusatz": "",
+            "price": {
+                "stand": "9,80"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "38": {
+            "name": "Insalata Maui",
+            "desO": "with shoulder of ham and pineapple",
+            "zusatz": "",
+            "price": {
+                "stand": "8,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "39": {
+            "name": "Insalata Miramonti 3",
+            "desO": "with shrimp, olives, cheese, artichokes and shoulder ham",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "40": {
+            "name": "Insalata Gianni",
+            "desO": "with tuna and beans",
+            "zusatz": "",
+            "price": {
+                "stand": "8,10"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "41": {
+            "name": "Insalata Elmo",
+            "desO": "with tuna, corn, pineapple and shrimp",
+            "zusatz": "",
+            "price": {
+                "stand": "9,30"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "42": {
+            "name": "Insalata Rossini",
+            "desO": "with seafood, tuna and onions",
+            "zusatz": "",
+            "price": {
+                "stand": "9,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "43": {
+            "name": "Insalat Chef",
+            "desO": "with tuna, onions and mushrooms",
+            "zusatz": "",
+            "price": {
+                "stand": "8,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "44": {
+            "name": "Insalata Turkey Strips",
+            "desO": "green salad with cucumbers, tomatoes, onions, turkey, rocket, Parmesan and mushrooms, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "9,80"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "45": {
+            "name": "Insalata Calabrese",
+            "desO": "with tomatoes, mozzarella and rocket, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "9,10"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "46": {
+            "name": "Insalata Gamberoni",
+            "desO": "with rocket and prawns",
+            "zusatz": "",
+            "price": {
+                "stand": "11,40"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "47": {
+            "name": "Insalata Luca",
+            "desO": "with turkey, rocket, onions and mushrooms",
+            "zusatz": "",
+            "price": {
+                "stand": "10,00"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "48": {
+            "name": "Insalata Mamma",
+            "desO": "with turkey, broccoli, rocket and onions",
+            "zusatz": "",
+            "price": {
+                "stand": "10,00"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "49": {
+            "name": "Insalata Sofia",
+            "desO": "with potatoes, corn, shrimp, Parmesan and rocket",
+            "zusatz": "",
+            "price": {
+                "stand": "9,80"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "50": {
+            "name": "Insalata Sonja",
+            "desO": "with chicken breast, mushrooms, sheep's cheese and rocket",
+            "zusatz": "",
+            "price": {
+                "stand": "10,00"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "51": {
+            "name": "Insalata Roma",
+            "desO": "with cheese, corn and chicken breast",
+            "zusatz": "",
+            "price": {
+                "stand": "9,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "52": {
+            "name": "Insalata Eva",
+            "desO": "rocket with cucumbers, turkey, broccoli, mushrooms, onions, sheep's cheese and corn, without mixed salad",
+            "zusatz": "",
+            "price": {
+                "stand": "9,60"
+            },
+            "options": {
+                "your pizza buns - your dips": {
+                    "name": "your pizza buns - your dips",
+                    "options": {
+                        "with aioli": {
+                            "price": "0,00"
+                        },
+                        "with herb cream": {
+                            "price": "0,00"
+                        },
+                        "without dip": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                },
+                "your salad - your dressing": {
+                    "name": "your salad - your dressing",
+                    "options": {
+                        "with cocktail dressing": {
+                            "price": "0,00"
+                        },
+                        "with oil and vinegar dressing": {
+                            "price": "0,00"
+                        },
+                        "with yogurt dressing": {
+                            "price": "0,00"
+                        },
+                        "without dressing": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Salads"
+        },
+        "53": {
+            "name": "Pizza Miramonti 1",
+            "desO": "with artichokes, egg, spinach and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "54": {
+            "name": "Pizza Miramonti 2",
+            "desO": "with shoulder of ham, tuna, onions, egg and salami",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "55": {
+            "name": "Pizza Margherita",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "5,70",
+                "regular, Ø 29cm": "6,70",
+                "familia, Ø 40cm": "11,40"
+            },
+            "section": "Pizza"
+        },
+        "56": {
+            "name": "Pizza Napoli",
+            "desO": "with olives and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "5,90",
+                "regular, Ø 29cm": "6,90",
+                "familia, Ø 40cm": "12,40"
+            },
+            "section": "Pizza"
+        },
+        "57": {
+            "name": "Pizza Salame",
+            "desO": "with salami",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "6,40",
+                "regular, Ø 29cm": "7,40",
+                "familia, Ø 40cm": "12,40"
+            },
+            "section": "Pizza"
+        },
+        "58": {
+            "name": "Pizza Cipolle",
+            "desO": "with onions",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "6,40",
+                "regular, Ø 29cm": "7,40",
+                "familia, Ø 40cm": "12,40"
+            },
+            "section": "Pizza"
+        },
+        "59": {
+            "name": "Pizza Tonno",
+            "desO": "with tuna",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "14,40"
+            },
+            "section": "Pizza"
+        },
+        "60": {
+            "name": "Pizza Funghi",
+            "desO": "with mushrooms",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "6,90",
+                "regular, Ø 29cm": "8,40",
+                "familia, Ø 40cm": "13,40"
+            },
+            "section": "Pizza"
+        },
+        "61": {
+            "name": "Pizza Stagioni",
+            "desO": "with ham, tuna and mushrooms",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "62": {
+            "name": "Pizza Mista",
+            "desO": "with ham, tuna, mushrooms and salami",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "63": {
+            "name": "Pizza Prosciutto",
+            "desO": "with shoulder of ham",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,40",
+                "familia, Ø 40cm": "13,40"
+            },
+            "section": "Pizza"
+        },
+        "64": {
+            "name": "Pizza Rustica",
+            "desO": "with shoulder of ham, mushrooms and bell pepper",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "65": {
+            "name": "Pizza Roma",
+            "desO": "with tuna and bell pepper",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "66": {
+            "name": "Pizza Vulcano (spicy)",
+            "desO": "with bell pepper",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "14,40"
+            },
+            "section": "Pizza"
+        },
+        "67": {
+            "name": "Pizza Capricciosa",
+            "desO": "with shoulder of ham, mushrooms and artichokes",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "68": {
+            "name": "Pizza Zingara",
+            "desO": "with ham, tuna, mushrooms, artichokes and bell pepper",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "9,10",
+                "familia, Ø 40cm": "14,40"
+            },
+            "section": "Pizza"
+        },
+        "69": {
+            "name": "Pizza Pirata",
+            "desO": "with meat sauce",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "6,90",
+                "regular, Ø 29cm": "8,40",
+                "familia, Ø 40cm": "13,40"
+            },
+            "section": "Pizza"
+        },
+        "70": {
+            "name": "Pizza Pirata Special",
+            "desO": "with meat sauce and spaghetti",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "14,40"
+            },
+            "section": "Pizza"
+        },
+        "71": {
+            "name": "Pizza Vesuvio",
+            "desO": "with onions and bell pepper",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,40",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "72": {
+            "name": "Pizza Diavolo (very spicy)",
+            "desO": "with salami",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "6,40",
+                "regular, Ø 29cm": "7,70",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "73": {
+            "name": "Pizza Matta",
+            "desO": "with garlic, anchovies and chilli pepper",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "6,90",
+                "regular, Ø 29cm": "7,70",
+                "familia, Ø 40cm": "12,40"
+            },
+            "section": "Pizza"
+        },
+        "74": {
+            "name": "Calzone",
+            "desO": "with shoulder of ham, tuna and mushrooms",
+            "zusatz": "",
+            "price": {
+                "stand": "9,10"
+            },
+            "section": "Pizza"
+        },
+        "75": {
+            "name": "Calzone Miramonti",
+            "desO": "with spinach, onions, artichokes, bell pepper and garlic",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "section": "Pizza"
+        },
+        "76": {
+            "name": "Pizza Borussia",
+            "desO": "with tuna, mushrooms, shoulder of ham and bell pepper",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "6,40",
+                "regular, Ø 29cm": "7,90",
+                "familia, Ø 40cm": "13,40"
+            },
+            "section": "Pizza"
+        },
+        "77": {
+            "name": "Pizza Verdura",
+            "desO": "with vegetables",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "14,40"
+            },
+            "section": "Pizza"
+        },
+        "78": {
+            "name": "Pizza Fruti die Mare",
+            "desO": "with seafood and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "10,20",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "79": {
+            "name": "Pizza Speziale (for two)",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "14,40"
+            },
+            "section": "Pizza"
+        },
+        "80": {
+            "name": "Pizza Scampi",
+            "desO": "with shrimp and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,40",
+                "regular, Ø 29cm": "10,20",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "81": {
+            "name": "Pizza Inferno",
+            "desO": "with salami and mushrooms",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "6,90",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,40"
+            },
+            "section": "Pizza"
+        },
+        "82": {
+            "name": "Pizza Spinaci",
+            "desO": "with spinach and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,40",
+                "familia, Ø 40cm": "13,40"
+            },
+            "section": "Pizza"
+        },
+        "83": {
+            "name": "Pizza Speck",
+            "desO": "with bacon and onions",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "14,40"
+            },
+            "section": "Pizza"
+        },
+        "84": {
+            "name": "Pizza Bomba (spicy)",
+            "desO": "with tuna, onions and shoulder of ham",
+            "zusatz": "",
+            "price": {
+                "stand": "9,60"
+            },
+            "section": "Pizza"
+        },
+        "85": {
+            "name": "Pizza Bomba Atomica (spicy)",
+            "desO": "with tuna, onions, spinach, mushrooms, shoulder of ham",
+            "zusatz": "",
+            "price": {
+                "stand": "10,00"
+            },
+            "section": "Pizza"
+        },
+        "86": {
+            "name": "Pizza Completa",
+            "desO": "with tuna, bell pepper, shoulder of ham, onions, mushrooms and olives",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "9,20",
+                "familia, Ø 40cm": "14,40"
+            },
+            "section": "Pizza"
+        },
+        "87": {
+            "name": "Pizza Montanara",
+            "desO": "with spinach, mushrooms, garlic and onions",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "88": {
+            "name": "Pizza Pescatore",
+            "desO": "with baby shell, shrimp, anchovies and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "10,20",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "89": {
+            "name": "Pizza Calabrese",
+            "desO": "with tuna and onions",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "90": {
+            "name": "Pizza Hawaii Special",
+            "desO": "with pineapple and shoulder of ham",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "6,90",
+                "regular, Ø 29cm": "8,40",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "91": {
+            "name": "Pizza allo Chef (spicy)",
+            "desO": "with shoulder of ham and tuna, without tomato sauce",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "92": {
+            "name": "Pizza 4 Formaggi",
+            "desO": "with 4 kinds of cheese",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "93": {
+            "name": "Pizza Fabio (spicy)",
+            "desO": "with tuna, shrimp. spinach, onions, double cheese and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,40",
+                "regular, Ø 29cm": "10,20",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "94": {
+            "name": "Pizza 0 Sole mio",
+            "desO": "with onions, spinach and eggs",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "95": {
+            "name": "Pizza Anna",
+            "desO": "with tuna, shoulder of ham and pineapple",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "96": {
+            "name": "Pizza Rosa",
+            "desO": "with salami, onions and pineapple",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "97": {
+            "name": "Pizza Del Sud",
+            "desO": "with tuna, bell pepper and onions",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "98": {
+            "name": "Pizza Cosenza",
+            "desO": "with mushrooms, broccoli, spinach and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "99": {
+            "name": "Pizza Giovanni",
+            "desO": "with mushrooms, tuna and pineapple",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "100": {
+            "name": "Pizza Fiorella",
+            "desO": "with shoulder of ham, onions, spinach, mushrooms and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "101": {
+            "name": "Pizza Tesoro",
+            "desO": "with spinach, tuna and egg",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "102": {
+            "name": "Pizza Catania",
+            "desO": "with mushrooms, onions, bell pepper and shoulder of ham",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "103": {
+            "name": "Pizza Quadrifoglio",
+            "desO": "with spinach, shoulder of ham, onions, egg and salami",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "104": {
+            "name": "Pizza Giacomo (spicy)",
+            "desO": "with broccoli, artichokes, olives and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "105": {
+            "name": "Pizza Welt (spicy)",
+            "desO": "with tuna, shoulder of ham, garlic, mushrooms and anchovies",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "106": {
+            "name": "Pizza Longobucco",
+            "desO": "with tuna, baby shell, shrimp and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,40",
+                "regular, Ø 29cm": "10,20",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "107": {
+            "name": "Pizza Barrafranca",
+            "desO": "with tuna, onions. anchovies, shrimp, capers and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,40",
+                "regular, Ø 29cm": "10,20",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "108": {
+            "name": "Pizza Miramonti 3 (spicy)",
+            "desO": "with tuna, mushrooms, bell pepper and artichokes",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,40",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "13,90"
+            },
+            "section": "Pizza"
+        },
+        "109": {
+            "name": "Pizza Don (spicy)",
+            "desO": "with fresh tomatoes and mozzarella",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "9,40",
+                "familia, Ø 40cm": "15,40"
+            },
+            "section": "Pizza"
+        },
+        "110": {
+            "name": "Pizza Parma",
+            "desO": "with oregano, Parma ham, rocket, Parmesan and tomatoes",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,40",
+                "regular, Ø 29cm": "9,40",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "111": {
+            "name": "Pizza Simona (spicy)",
+            "desO": "with tuna, ham, sheep's cheese and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "9,20",
+                "familia, Ø 40cm": "15,90"
+            },
+            "section": "Pizza"
+        },
+        "112": {
+            "name": "Pizza Mexicana (spicy)",
+            "desO": "with corn, beans, onions, bell pepper and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "9,20",
+                "familia, Ø 40cm": "15,40"
+            },
+            "section": "Pizza"
+        },
+        "113": {
+            "name": "Pizza Gradiosa",
+            "desO": "with mushrooms, spinach, broccoli, shrimp, corn and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,40",
+                "regular, Ø 29cm": "10,20",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "114": {
+            "name": "Pizza Del Sole",
+            "desO": "with spinach, sheep's cheese, shrimps and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,40",
+                "regular, Ø 29cm": "10,20",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "115": {
+            "name": "Pizza Fiocco (spicy)",
+            "desO": "with corn, sheep's cheese, mushrooms, broccoli and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "9,40",
+                "familia, Ø 40cm": "15,40"
+            },
+            "section": "Pizza"
+        },
+        "116": {
+            "name": "Pizza Max",
+            "desO": "with tuna, sheep's cheese, onions, spinach and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "9,40",
+                "familia, Ø 40cm": "15,40"
+            },
+            "section": "Pizza"
+        },
+        "117": {
+            "name": "Pizza Bella",
+            "desO": "with Gorgonzola, sheep's cheese, tuna, baby shell, shrimp and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,70",
+                "regular, Ø 29cm": "9,40",
+                "familia, Ø 40cm": "15,60"
+            },
+            "section": "Pizza"
+        },
+        "118": {
+            "name": "Pizza Ali (spicy)",
+            "desO": "with tuna, sheep's cheese, shrimp and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,40",
+                "regular, Ø 29cm": "9,60",
+                "familia, Ø 40cm": "15,90"
+            },
+            "section": "Pizza"
+        },
+        "119": {
+            "name": "Pizza Stefania (spicy)",
+            "desO": "with scampi, tomatoes, spinach, garlic and double cheese",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "9,50",
+                "regular, Ø 29cm": "12,00",
+                "familia, Ø 40cm": "17,50"
+            },
+            "section": "Pizza"
+        },
+        "120": {
+            "name": "Pizza Monte Bianco (spicy)",
+            "desO": "with sheep's cheese, mushrooms, spinach, corn, tuna, shrimp, double cheese and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,70",
+                "regular, Ø 29cm": "10,50",
+                "familia, Ø 40cm": "17,50"
+            },
+            "section": "Pizza"
+        },
+        "121": {
+            "name": "Pizza Massimo (spicy)",
+            "desO": "with aubergine, potatoes, bell pepper, onions and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,00",
+                "regular, Ø 29cm": "10,50",
+                "familia, Ø 40cm": "17,00"
+            },
+            "section": "Pizza"
+        },
+        "122": {
+            "name": "Pizza Cantinella (spicy)",
+            "desO": "with chicken, mushrooms and corn",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,10",
+                "regular, Ø 29cm": "10,10",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "123": {
+            "name": "Pizza Ferrari (spicy)",
+            "desO": "with tomatoes, bell pepper, rocket, red onions, corn, olives, anchovies and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,00",
+                "regular, Ø 29cm": "10,50",
+                "familia, Ø 40cm": "17,00"
+            },
+            "section": "Pizza"
+        },
+        "124": {
+            "name": "Pizza Casa",
+            "desO": "with mozzarella, tomatoes, sheep's cheese and rocket",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,80",
+                "regular, Ø 29cm": "9,20",
+                "familia, Ø 40cm": "15,00"
+            },
+            "section": "Pizza"
+        },
+        "125": {
+            "name": "Pizza Lara (spicy)",
+            "desO": "with seafood, tuna, onions and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,20",
+                "regular, Ø 29cm": "9,90",
+                "familia, Ø 40cm": "16,40"
+            },
+            "section": "Pizza"
+        },
+        "126": {
+            "name": "Pizza Hollandaise",
+            "desO": "with ham, hollandaise sauce and broccoli, without tomato sauce",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,60",
+                "regular, Ø 29cm": "9,20",
+                "familia, Ø 40cm": "15,40"
+            },
+            "section": "Pizza"
+        },
+        "127": {
+            "name": "Pizza Papa",
+            "desO": "with corn, mushrooms, ham and hollandaise sauce",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,60",
+                "regular, Ø 29cm": "9,20",
+                "familia, Ø 40cm": "15,70"
+            },
+            "section": "Pizza"
+        },
+        "128": {
+            "name": "Pizza Bella Donna",
+            "desO": "with red onions, sheep's cheese, corn and salami",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,50",
+                "regular, Ø 29cm": "8,60",
+                "familia, Ø 40cm": "15,40"
+            },
+            "section": "Pizza"
+        },
+        "129": {
+            "name": "Pizza Francesco",
+            "desO": "with chicken breast, corn and hollandaise sauce",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,10",
+                "regular, Ø 29cm": "9,60",
+                "familia, Ø 40cm": "17,00"
+            },
+            "section": "Pizza"
+        },
+        "130": {
+            "name": "Pizza Anissa",
+            "desO": "with tomatoes, mozzarella, red onions, rocket and Parmesan, without tomato sauce",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,70",
+                "regular, Ø 29cm": "9,40",
+                "familia, Ø 40cm": "16,00"
+            },
+            "section": "Pizza"
+        },
+        "131": {
+            "name": "Pizza America 1",
+            "desO": "with double cheese, bacon, salami, onions, ham and double base",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,70",
+                "regular, Ø 29cm": "10,10",
+                "familia, Ø 40cm": "18,20"
+            },
+            "section": "Pizza"
+        },
+        "132": {
+            "name": "Pizza America 2 (spicy)",
+            "desO": "with double cheese, bacon, chicken breast, bell pepper, garlic and double base",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,90",
+                "regular, Ø 29cm": "10,60",
+                "familia, Ø 40cm": "19,00"
+            },
+            "section": "Pizza"
+        },
+        "133": {
+            "name": "Pizza Sali",
+            "desO": "with double cheese, pineapple, hollandaise sauce and ham",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,00",
+                "regular, Ø 29cm": "9,60",
+                "familia, Ø 40cm": "17,00"
+            },
+            "section": "Pizza"
+        },
+        "134": {
+            "name": "Pizza Sara (spicy)",
+            "desO": "with spinach, bell pepper, onions, sheep's cheese and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,10",
+                "regular, Ø 29cm": "9,60",
+                "familia, Ø 40cm": "17,00"
+            },
+            "section": "Pizza"
+        },
+        "135": {
+            "name": "Pizza Nadine",
+            "desO": "with ham, tuna, rocket, Parmesan and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,20",
+                "regular, Ø 29cm": "9,60",
+                "familia, Ø 40cm": "17,00"
+            },
+            "section": "Pizza"
+        },
+        "136": {
+            "name": "Pizza Sucuk 1 (spicy)",
+            "desO": "with red onions, mild chilli peppers, sucuk and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,70",
+                "regular, Ø 29cm": "8,90",
+                "familia, Ø 40cm": "14,80"
+            },
+            "section": "Pizza"
+        },
+        "137": {
+            "name": "Pizza Sucuk 2 (spicy)",
+            "desO": "with fresh tomatoes, sheep's cheese, sujuk and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "7,90",
+                "regular, Ø 29cm": "9,20",
+                "familia, Ø 40cm": "15,00"
+            },
+            "section": "Pizza"
+        },
+        "138": {
+            "name": "Pizza Sucuk 3 (spicy)",
+            "desO": "with red onions, sheep's cheese, olives, sujuk and garlic",
+            "zusatz": "",
+            "price": {
+                "small, Ø 24cm": "8,00",
+                "regular, Ø 29cm": "9,90",
+                "familia, Ø 40cm": "17,00"
+            },
+            "section": "Pizza"
+        },
+        "139": {
+            "name": "Pizza Bun with Fresh Herb Cream",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "2,50"
+            },
+            "section": "Pizza Buns"
+        },
+        "140": {
+            "name": "Pizza Bun with Aioli",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "2,50"
+            },
+            "section": "Pizza Buns"
+        },
+        "141": {
+            "name": "Pizza Bun with Ingredient of Choice",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "options": {
+                "your ingredient": {
+                    "name": "your ingredient",
+                    "options": {
+                        "with shoulder of ham": {
+                            "price": "0,00"
+                        },
+                        "with tuna": {
+                            "price": "0,00"
+                        },
+                        "without ingredient": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Pizza Buns"
+        },
+        "142": {
+            "name": "Pizza Bun with Spinach and Sheep's Cheese",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "section": "Pizza Buns"
+        },
+        "143": {
+            "name": "Pizza Bun with Sucuk and Cheese",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "section": "Pizza Buns"
+        },
+        "144": {
+            "name": "Spaghetti con Funghi",
+            "desO": "with mushrooms, tomatoes and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta"
+        },
+        "145": {
+            "name": "Spaghetti Napoli",
+            "desO": "with tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "7,90"
+            },
+            "section": "Pasta"
+        },
+        "146": {
+            "name": "Spaghetti Bologna",
+            "desO": "with minced meat sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,50"
+            },
+            "section": "Pasta"
+        },
+        "147": {
+            "name": "Spaghetti Carbonara",
+            "desO": "with bacon, egg, pepper and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,50"
+            },
+            "section": "Pasta"
+        },
+        "148": {
+            "name": "Spaghetti Frutti di Mare",
+            "desO": "with seafood and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,10"
+            },
+            "section": "Pasta"
+        },
+        "149": {
+            "name": "Spaghetti Matriciana (spicy)",
+            "desO": "with bacon, onions and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "150": {
+            "name": "Spaghetti ai Gamberetti",
+            "desO": "with shrimp, white wine and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "section": "Pasta"
+        },
+        "151": {
+            "name": "Spaghetti al Tonno",
+            "desO": "with tuna and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,20"
+            },
+            "section": "Pasta"
+        },
+        "152": {
+            "name": "Spaghetti Borussia",
+            "desO": "with bacon, mushrooms, tuna and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "153": {
+            "name": "Spaghetti Chef",
+            "desO": "with ham, cream sauce, garlic, mushrooms and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "154": {
+            "name": "Spaghetti Rimini",
+            "desO": "with mushrooms, ham and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "155": {
+            "name": "Spaghetti Verdura",
+            "desO": "with courgette, aubergine, garlic and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "156": {
+            "name": "Maccheroni Napoli",
+            "desO": "with tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,50"
+            },
+            "section": "Pasta"
+        },
+        "157": {
+            "name": "Maccheroni Bologna",
+            "desO": "with minced meat sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,20"
+            },
+            "section": "Pasta"
+        },
+        "158": {
+            "name": "Maccheroni Panna",
+            "desO": "with shoulder of ham and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "159": {
+            "name": "Maccheroni Rimini",
+            "desO": "with mushrooms, ham and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "160": {
+            "name": "Rigatoni alla Rabiatta (spicy)",
+            "desO": "with shoulder of ham and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "161": {
+            "name": "Rigatoni Miramonti",
+            "desO": "with chicken, chanterelles and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "section": "Pasta"
+        },
+        "162": {
+            "name": "Rigatoni Broccoli",
+            "desO": "with broccoli, garlic and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "163": {
+            "name": "Rigatoni Verdura",
+            "desO": "with courgette, aubergine and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "164": {
+            "name": "Tortellini Napoli",
+            "desO": "with tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "165": {
+            "name": "Tortellini Bologna",
+            "desO": "with minced meat sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "166": {
+            "name": "Tortellini Rimini",
+            "desO": "with mushrooms, ham and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "167": {
+            "name": "Tortellini Alfredo",
+            "desO": "with ham, peas and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "168": {
+            "name": "Tortellini Hawaii",
+            "desO": "with cocktail fruits",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "169": {
+            "name": "Tortellini Gorgonzola",
+            "desO": "with Gorgonzola",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "170": {
+            "name": "Tortellini Panna",
+            "desO": "with shoulder of ham and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "171": {
+            "name": "Tortellini Carbonara",
+            "desO": "with cream sauce, bacon and egg",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "172": {
+            "name": "Tortellini alla Fabio",
+            "desO": "with bacon, egg, ham and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "173": {
+            "name": "Tortellini Curry",
+            "desO": "with shrimp and curry cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,50"
+            },
+            "section": "Pasta"
+        },
+        "174": {
+            "name": "Tortellini al Funghi",
+            "desO": "with mushroom sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,80"
+            },
+            "section": "Pasta"
+        },
+        "175": {
+            "name": "Tortellini Speciale",
+            "desO": "with ham, peas, mushrooms and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,80"
+            },
+            "section": "Pasta"
+        },
+        "176": {
+            "name": "Tagliatelle alla Romana",
+            "desO": "ribbon noodles with ham, onions, mushrooms, white wine, Parmesan and butter",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "177": {
+            "name": "Tagliatelle Napoli",
+            "desO": "ribbon noodles with tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "178": {
+            "name": "Tagliatelle Bolognese",
+            "desO": "ribbon noodles with minced meat sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "179": {
+            "name": "Tagliatelle Rimini",
+            "desO": "ribbon noodles with mushrooms, ham and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "180": {
+            "name": "Tagliatelle Panna",
+            "desO": "ribbon noodles with ham and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "181": {
+            "name": "Tagliatelle Funghi",
+            "desO": "ribbon noodles with mushrooms and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "182": {
+            "name": "Tagliatelle Miramonti",
+            "desO": "ribbon noodles with chicken, chanterelles and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,10"
+            },
+            "section": "Pasta"
+        },
+        "183": {
+            "name": "Gnocchi Gorgonzola",
+            "desO": "with Gorgonzola and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,10"
+            },
+            "section": "Pasta"
+        },
+        "184": {
+            "name": "Gnocchi Rimini",
+            "desO": "with ham, mushrooms, peas and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,10"
+            },
+            "section": "Pasta"
+        },
+        "185": {
+            "name": "Spaghetti Parmigiana (spicy)",
+            "desO": "with garlic, oil, rocket, pine nuts and Parmesan",
+            "zusatz": "",
+            "price": {
+                "stand": "9,00"
+            },
+            "section": "Pasta"
+        },
+        "186": {
+            "name": "Penne alla Sorrentina",
+            "desO": "with mozzarella, basil and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,20"
+            },
+            "section": "Pasta"
+        },
+        "187": {
+            "name": "Penne alla Verdura",
+            "desO": "with vegetables and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "188": {
+            "name": "Penne Muno",
+            "desO": "with tomatoes, aubergine, basil, mozzarella and Parmesan",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta"
+        },
+        "189": {
+            "name": "Penne alla Boscaiola",
+            "desO": "with mushrooms",
+            "zusatz": "",
+            "price": {
+                "stand": "8,20"
+            },
+            "section": "Pasta"
+        },
+        "190": {
+            "name": "Penne Porcini e Lombo",
+            "desO": "with pork and porcini mushrooms",
+            "zusatz": "",
+            "price": {
+                "stand": "9,70"
+            },
+            "section": "Pasta"
+        },
+        "191": {
+            "name": "Penne Panna Salmone e Rucola",
+            "desO": "with salmon and rocket in cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "section": "Pasta"
+        },
+        "192": {
+            "name": "Tagliatelle Bella Donna",
+            "desO": "with garlic, basil and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "7,70"
+            },
+            "section": "Pasta"
+        },
+        "193": {
+            "name": "Tagliatelle Porcini",
+            "desO": "with porcini mushrooms, cream and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,70"
+            },
+            "section": "Pasta"
+        },
+        "194": {
+            "name": "Tagliatelle al Salmone",
+            "desO": "with salmon and shrimp in cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,20"
+            },
+            "section": "Pasta"
+        },
+        "195": {
+            "name": "Tagliatelle",
+            "desO": "with spinach, mushrooms, tomatoes and gratinated with cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,70"
+            },
+            "section": "Pasta"
+        },
+        "196": {
+            "name": "Spaghetti marinara",
+            "desO": "with small prawns, tomatoes and garlic",
+            "zusatz": "",
+            "price": {
+                "stand": "10,20"
+            },
+            "section": "Pasta"
+        },
+        "197": {
+            "name": "Spaghetti Gambero",
+            "desO": "with large prawns, tomatoes and garlic",
+            "zusatz": "",
+            "price": {
+                "stand": "10,90"
+            },
+            "section": "Pasta"
+        },
+        "198": {
+            "name": "Spaghetti Neo (spicy)",
+            "desO": "with chicken breast, aubergine, pine nuts, rocket, Parmesan and garlic in olive oil",
+            "zusatz": "",
+            "price": {
+                "stand": "10,10"
+            },
+            "section": "Pasta"
+        },
+        "199": {
+            "name": "Rigatoni Zio Franco (spicy)",
+            "desO": "with chicken breast, shrimp, mushrooms and garlic in cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "10,70"
+            },
+            "section": "Pasta"
+        },
+        "200": {
+            "name": "Penne Turkey Strips",
+            "desO": "with broccoli and mushrooms, without garlic",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "section": "Penne Rigate"
+        },
+        "201": {
+            "name": "Penne",
+            "desO": "with turkey strips, peas and mushrooms",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "section": "Penne Rigate"
+        },
+        "202": {
+            "name": "Penne Gamberetti",
+            "desO": "with shrimp and olives",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "section": "Penne Rigate"
+        },
+        "203": {
+            "name": "Penne Calabria",
+            "desO": "with seafood",
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "section": "Penne Rigate"
+        },
+        "204": {
+            "name": "Spaghetti Forno",
+            "desO": "with ham, egg, mushrooms and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "205": {
+            "name": "Spaghetti 4 Formaggio",
+            "desO": "with 4 kinds of cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "206": {
+            "name": "Tagliatelle Forno",
+            "desO": "with ham, mushrooms, egg and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "207": {
+            "name": "Tagliatelle 4 Formaggio",
+            "desO": "with 4 kinds of cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "208": {
+            "name": "Maccheroni 4 Formaggio",
+            "desO": "with 4 kinds of cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "209": {
+            "name": "Maccheroni Forno",
+            "desO": "with ham, cheese, egg, mushrooms and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "210": {
+            "name": "Lasagna",
+            "desO": "with meat sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "211": {
+            "name": "Cannelloni al Forno",
+            "desO": "with meat",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "212": {
+            "name": "Combinazione",
+            "desO": "with tortellini, cannelloni and lasagna",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "213": {
+            "name": "Tortellini Forno",
+            "desO": "with shoulder of ham, egg, mushrooms and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Pasta al Forno"
+        },
+        "214": {
+            "name": "Spinaci Forno",
+            "desO": "with spinach, garlic, tomatoes, cheese and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Verdura al Forno"
+        },
+        "215": {
+            "name": "Funghi al Forno",
+            "desO": "with mushrooms, garlic, tomato sauce and gratinated with cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Verdura al Forno"
+        },
+        "216": {
+            "name": "Broccoli al Forno",
+            "desO": "with broccoli, garlic, tomato cream sauce and gratinated with cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Verdura al Forno"
+        },
+        "217": {
+            "name": "Courgette Forno",
+            "desO": "with cheese, tomatoes, spices, garlic and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Verdura al Forno"
+        },
+        "218": {
+            "name": "Chilli Pepper Forno",
+            "desO": "with bell pepper, cream, tomatoes, cheese, spices and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Verdura al Forno"
+        },
+        "219": {
+            "name": "Combinazione di Verdura",
+            "desO": "with garlic, tomatoes, cheese and spices",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Verdura al Forno"
+        },
+        "220": {
+            "name": "Aubergine al Pescatore",
+            "desO": "with aubergine, garlic, shrimp, cheese and tomato cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,10"
+            },
+            "section": "Verdura al Forno"
+        },
+        "221": {
+            "name": "Aubergine al Forno",
+            "desO": "with aubergine, tomatoes, cream, cheese, garlic and spices",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Verdura al Forno"
+        },
+        "222": {
+            "name": "Patate al Forno",
+            "desO": "with potatoes, tomato cream sauce, spices and ham au gratin",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Verdura al Forno"
+        },
+        "223": {
+            "name": "Patate al Forno 2",
+            "desO": "with potatoes, broccoli, chicken, tomato cream sauce and spices au gratin",
+            "zusatz": "",
+            "price": {
+                "stand": "9,80"
+            },
+            "section": "Verdura al Forno"
+        },
+        "224": {
+            "name": "Turkey Breast al Pepe",
+            "desO": "with green pepper and cream",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Turkey Breast Dishes"
+        },
+        "225": {
+            "name": "Turkey Breast alla Milanese",
+            "desO": "Viennese style",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Turkey Breast Dishes"
+        },
+        "226": {
+            "name": "Turkey Breast Funghi",
+            "desO": "with mushrooms and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Turkey Breast Dishes"
+        },
+        "227": {
+            "name": "Turkey Breast Cipolle",
+            "desO": "with onions",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Turkey Breast Dishes"
+        },
+        "228": {
+            "name": "Turkey Breast Hollandaise",
+            "desO": "with cream sauce, pineapple and gratinated with cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Turkey Breast Dishes"
+        },
+        "229": {
+            "name": "Turkey Breast Miramonti",
+            "desO": "with chanterelles, pink sauce, shrimp and bacon",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Turkey Breast Dishes"
+        },
+        "230": {
+            "name": "Scaloppina al Gorgonzola",
+            "desO": "pork steak with Gorgonzola sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "231": {
+            "name": "Breaded Cotoletta alla Milanese",
+            "desO": "Viennese style",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "232": {
+            "name": "Scaloppina al Limone",
+            "desO": "pork steak with lemon sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "233": {
+            "name": "Scaloppina al Vino Bianco",
+            "desO": "pork steak with white wine and butter",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "234": {
+            "name": "Scaloppina con Funghi",
+            "desO": "pork steak with mushrooms and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "235": {
+            "name": "Scaloppina alla Bolognese",
+            "desO": "pork steak with ham, cheese, white wine and minced meat sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "236": {
+            "name": "Scaloppina Hawaii Speciale",
+            "desO": "pork steak with shoulder ham, pineapple, cheese and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "237": {
+            "name": "Scaloppina Cipolla",
+            "desO": "pork steak with onions, white wine and butter",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "238": {
+            "name": "Scaloppina al Pepe Verde",
+            "desO": "pork steak with green pepper, white wine and cream sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "239": {
+            "name": "Scaloppina La Strada",
+            "desO": "pork steak with shrimp, mushrooms, artichokes, white wine and tomato sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "240": {
+            "name": "Breaded Scaloppina Sarda",
+            "desO": "with mushrooms, cream sauce and gratinated with sheep's cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "241": {
+            "name": "Paniertes Jägerschnitzel",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "242": {
+            "name": "Paniertes Paprikaschnitzel",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "243": {
+            "name": "Paniertes Rahmschnitzel",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "244": {
+            "name": "Paniertes Schnitzel (pikant)",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "245": {
+            "name": "Paniertes Schnitzel mit Sauce Hollandaise",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "section": "Pork Dishes"
+        },
+        "246": {
+            "name": "Baguette Milano",
+            "desO": "with salami",
+            "zusatz": "",
+            "price": {
+                "stand": "4,60"
+            },
+            "section": "Baguettes"
+        },
+        "247": {
+            "name": "Baguette Ham",
+            "desO": "with shoulder of ham",
+            "zusatz": "",
+            "price": {
+                "stand": "4,60"
+            },
+            "section": "Baguettes"
+        },
+        "248": {
+            "name": "Baguette Roma",
+            "desO": "with cheese, salami and egg",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "Baguettes"
+        },
+        "249": {
+            "name": "Baguette Miramonti",
+            "desO": "with shoulder of ham, cheese and egg",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "Baguettes"
+        },
+        "250": {
+            "name": "Baguette Dolomiti",
+            "desO": "with shoulder of ham, tuna and cheese",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "Baguettes"
+        },
+        "251": {
+            "name": "Baguette Michelangelo",
+            "desO": "with tuna, corn, egg and ham, without fresh tomatoes",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "Baguettes"
+        },
+        "252": {
+            "name": "Baguette Dante",
+            "desO": "with tuna, corn and egg, without fresh tomatoes",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "Baguettes"
+        },
+        "253": {
+            "name": "Baguette Pollo",
+            "desO": "with chicken, without fresh tomatoes and salad",
+            "zusatz": "",
+            "price": {
+                "stand": "5,90"
+            },
+            "section": "Baguettes"
+        },
+        "254": {
+            "name": "Baguette Parma",
+            "desO": "with Parma ham, rocket, Parmesan, tomatoes, mozzarella and olive oil, without fresh tomatoes",
+            "zusatz": "",
+            "price": {
+                "stand": "6,10"
+            },
+            "section": "Baguettes"
+        },
+        "255": {
+            "name": "Baguette Abdul",
+            "desO": "with tuna, egg, cheese, corn and red onions",
+            "zusatz": "",
+            "price": {
+                "stand": "5,10"
+            },
+            "section": "Baguettes"
+        },
+        "256": {
+            "name": "Baguette Fritatta Tomato",
+            "desO": "with omelet and sucuk, without fresh tomatoes",
+            "zusatz": "",
+            "price": {
+                "stand": "6,10"
+            },
+            "section": "Baguettes"
+        },
+        "257": {
+            "name": "Baguette Salmon",
+            "desO": "with egg and onions, without fresh tomatoes",
+            "zusatz": "",
+            "price": {
+                "stand": "6,10"
+            },
+            "section": "Baguettes"
+        },
+        "258": {
+            "name": "Chicken Nuggets (spicy)",
+            "desO": "with spicy sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "5,00"
+            },
+            "section": "Snacks"
+        },
+        "259": {
+            "name": "Chicken Wings (spicy)",
+            "desO": "with spicy sauce",
+            "zusatz": "",
+            "price": {
+                "stand": "7,00"
+            },
+            "section": "Snacks"
+        },
+        "260": {
+            "name": "Hamburger XXL",
+            "desO": "with 180g beef patty, tomato slices, onions, iceberg lettuce, Danish pickles, ketchup and mayonnaise",
+            "zusatz": "",
+            "price": {
+                "stand": "7,50"
+            },
+            "section": "Snacks"
+        },
+        "261": {
+            "name": "Cheeseburger XXL",
+            "desO": "with 180g beef patty, cheddar, tomato slices, onions, iceberg lettuce, Danish pickles, ketchup and mayonnaise",
+            "zusatz": "",
+            "price": {
+                "stand": "8,00"
+            },
+            "section": "Snacks"
+        },
+        "262": {
+            "name": "Hamburger XXXXL",
+            "desO": "with 339g beef patty, tomato slices, onions, iceberg lettuce, Danish pickles, ketchup and mayonnaise",
+            "zusatz": "",
+            "price": {
+                "stand": "10,10"
+            },
+            "section": "Snacks"
+        },
+        "263": {
+            "name": "Cheeseburger XXXXL",
+            "desO": "with 339g beef patty, cheddar, tomato slices, onions, iceberg lettuce, Danish pickles, ketchup and mayonnaise",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Snacks"
+        },
+        "264": {
+            "name": "Hamburger XXL with French Fries",
+            "desO": "with 180g beef patty, tomato slices, onions, iceberg lettuce, Danish pickles, ketchup and mayonnaise",
+            "zusatz": "",
+            "price": {
+                "stand": "10,00"
+            },
+            "section": "Snacks"
+        },
+        "265": {
+            "name": "Cheeseburger XXL with French Fries",
+            "desO": "with 180g beef patty, cheddar, tomato slices, onions, iceberg lettuce, Danish pickles, ketchup and mayonnaise",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Snacks"
+        },
+        "266": {
+            "name": "Hamburger XXXXL with French Fries",
+            "desO": "with 339g beef patty, tomato slices, onions, iceberg lettuce, Danish pickles, ketchup and mayonnaise",
+            "zusatz": "",
+            "price": {
+                "stand": "12,10"
+            },
+            "section": "Snacks"
+        },
+        "267": {
+            "name": "Cheeseburger XXXXL with French Fries",
+            "desO": "with 339g beef patty, cheddar, tomato slices, onions, iceberg lettuce, Danish pickles, ketchup and mayonnaise",
+            "zusatz": "",
+            "price": {
+                "stand": "12,50"
+            },
+            "section": "Snacks"
+        },
+        "268": {
+            "name": "French Fries",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,10"
+            },
+            "section": "Side Dishes"
+        },
+        "269": {
+            "name": "Croquettes",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,10"
+            },
+            "section": "Side Dishes"
+        },
+        "270": {
+            "name": "Spinach",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,60"
+            },
+            "section": "Side Dishes"
+        },
+        "271": {
+            "name": "Broccoli",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,60"
+            },
+            "section": "Side Dishes"
+        },
+        "272": {
+            "name": "Spaghetti with Butter",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,60"
+            },
+            "section": "Side Dishes"
+        },
+        "273": {
+            "name": "Baked Potato",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,60"
+            },
+            "section": "Side Dishes"
+        },
+        "274": {
+            "name": "Coca-Cola 0,33l",
+            "desO": "Coca-Cola steht für einzigartigen Geschmack, Erfrischung und Momente voller Lebensfreude. Die 0,33l wiederverschließbare PET Einwegflasche - die richtige Trinkgröße für jeden Anlass.",
+            "zusatz": "",
+            "price": {
+                "stand": "1,70"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "275": {
+            "name": "Coca-Cola 1,0l",
+            "desO": "Coca-Cola steht für einzigartigen Geschmack, Erfrischung und Momente voller Lebensfreude. Die 1,0l PET Mehrwegflasche für die perfekte Erfrischung für jeden Tag - allein oder zu zweit.",
+            "zusatz": "",
+            "price": {
+                "stand": "2,70"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "276": {
+            "name": "Fanta Orange 0,33l",
+            "desO": "Trinke Fanta. Lebe bunter. Spritzig erfrischend begleitet die originale Fanta Orange jede Lebenssituation und macht jetzt noch mehr Spaß.",
+            "zusatz": "",
+            "price": {
+                "stand": "1,70"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "277": {
+            "name": "Fanta Orange 1,0l",
+            "desO": "Trinke Fanta. Lebe bunter. Spritzig erfrischend begleitet die originale Fanta Orange jede Lebenssituation und macht jetzt noch mehr Spaß.",
+            "zusatz": "",
+            "price": {
+                "stand": "2,70"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "278": {
+            "name": "Sprite 0,33l",
+            "desO": "Bist du bereit für Sprite? Die einzigartige Formel aus grünen Limetten und sonnengelben Zitronen erfrischt dich maximal.",
+            "zusatz": "",
+            "price": {
+                "stand": "1,70"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "279": {
+            "name": "Sprite 1,0l",
+            "desO": "Bist du bereit für Sprite? Die einzigartige Formel aus grünen Limetten und sonnengelben Zitronen erfrischt dich maximal.",
+            "zusatz": "",
+            "price": {
+                "stand": "2,70"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "280": {
+            "name": "Water 0,33l",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "1,70"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "281": {
+            "name": "Water 1,0l",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "2,70"
+            },
+            "section": "Non-Alcoholic Drinks"
+        },
+        "282": {
+            "name": "Beer 0,5l",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "1,90"
+            },
+            "section": "Alcoholic Drinks"
+        },
+        "283": {
+            "name": "Lambrusco 0,25l",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,00"
+            },
+            "section": "Alcoholic Drinks"
+        },
+        "284": {
+            "name": "Lambrusco 0,75l",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "6,50"
+            },
+            "section": "Alcoholic Drinks"
+        },
+        "285": {
+            "name": "Regaleali White Wine 0,75l",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "10,90"
+            },
+            "section": "Alcoholic Drinks"
+        },
+        "286": {
+            "name": "Regaleali Red Wine 0,75l",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "10,90"
+            },
+            "section": "Alcoholic Drinks"
+        },
+        "287": {
+            "name": "Regaleali Rose Wine 0,75l",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "10,90"
+            },
+            "section": "Alcoholic Drinks"
+        },
+        "288": {
+            "name": "Prosecco 0,75l",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "8,30"
+            },
+            "section": "Alcoholic Drinks"
+        }
+    },
+    "extra": {
+        "Company Deal prepared spicy": {
+            "section": [
+                "Company Deal"
+            ],
+            "stand": {
+                "price": "0,70",
+                "name": "prepared spicy"
+            }
+        },
+        "Company Deal with garlic": {
+            "section": [
+                "Company Deal"
+            ],
+            "stand": {
+                "price": "0,70",
+                "name": "with garlic"
+            }
+        },
+        "Company Deal with garlic, separately": {
+            "section": [
+                "Company Deal"
+            ],
+            "stand": {
+                "price": "1,00",
+                "name": "with garlic, separately"
+            }
+        },
+        "Deal prepared spicy": {
+            "section": [
+                "Deal"
+            ],
+            "stand": {
+                "price": "0,70",
+                "name": "prepared spicy"
+            }
+        },
+        "Deal with garlic": {
+            "section": [
+                "Deal"
+            ],
+            "stand": {
+                "price": "0,70",
+                "name": "with garlic"
+            }
+        },
+        "Deal with garlic, separately": {
+            "section": [
+                "Deal"
+            ],
+            "stand": {
+                "price": "1,00",
+                "name": "with garlic, separately"
+            }
+        },
+        "Pizza prepared spicy": {
+            "section": [
+                "Pizza"
+            ],
+            "small, Ø 24cm": {
+                "price": "0,70",
+                "name": "prepared spicy"
+            },
+            "regular, Ø 29cm": {
+                "price": "0,70",
+                "name": "prepared spicy"
+            },
+            "familia, Ø 40cm": {
+                "price": "0,70",
+                "name": "prepared spicy"
+            },
+            "stand": {
+                "price": "0,70",
+                "name": "prepared spicy"
+            }
+        },
+        "Pizza with garlic": {
+            "section": [
+                "Pizza"
+            ],
+            "small, Ø 24cm": {
+                "price": "0,70",
+                "name": "with garlic"
+            },
+            "regular, Ø 29cm": {
+                "price": "0,70",
+                "name": "with garlic"
+            },
+            "familia, Ø 40cm": {
+                "price": "0,70",
+                "name": "with garlic"
+            },
+            "stand": {
+                "price": "0,70",
+                "name": "with garlic"
+            }
+        },
+        "Pizza with garlic, separately": {
+            "section": [
+                "Pizza"
+            ],
+            "small, Ø 24cm": {
+                "price": "1,00",
+                "name": "with garlic, separately"
+            },
+            "regular, Ø 29cm": {
+                "price": "1,00",
+                "name": "with garlic, separately"
+            },
+            "familia, Ø 40cm": {
+                "price": "1,00",
+                "name": "with garlic, separately"
+            },
+            "stand": {
+                "price": "1,00",
+                "name": "with garlic, separately"
+            }
+        }
+    },
+    "rabat": "5",
+    "staticValue": {
+        "logo": "Miramonti",
+        "key": "miramonti",
+        "b": {
+            "c": "-4086394016"
+        },
+        "rabat": "",
+        "impressum": {
+            "name": "Ahmad Nasir"
+        },
+        "minpriceorder": [
+            {
+                "distance": {
+                    "min": 0,
+                    "max": 4.1
+                },
+                "price": 10,
+                "lieferkosten": 1
+            },
+            {
+                "distance": {
+                    "min": 4,
+                    "max": 7.1
+                },
+                "price": 15,
+                "lieferkosten": 2
+            }
+        ],
+        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/miramonti.json",
+        "zusatzStoffe": "",
+        "latlng": {
+            "lat": 51.197517,
+            "lng": 6.4514356
+        },
+        "kontakt": {
+            "name": "Miramonti",
+            "street": "Breitenbachstraße 53",
+            "zipc": "41065",
+            "city": "Mönchengladbach",
+            "tel": "021619926500"
+        },
+        "opendays": {
+            "sunday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 0
+                }
+            },
+            "monday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 0
+                }
+            },
+            "wednesday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 0
+                }
+            },
+            "thursday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 0
+                }
+            },
+            "friday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 0,
+                    "min": 0
+                }
+            },
+            "saturday": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 0,
+                    "min": 0
+                }
+            }
+        }
+    }
+}
