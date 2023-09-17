@@ -40,9 +40,6 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
             className="collapse navbar-collapse justify-content-center"
             id="navbarNavDropdown">
             <ul className="navbar-nav">
-                <li className="homenavItem nav-item">
-                    <a className={`nav-link ${router=="/"?"active":""}`} aria-current="page" href={langswitch.RouteP("")}>{MyLang["home"]}</a>
-                </li>
                 {/* <li className="nav-item">
                     <a className={`nav-link ${router=="/selectadd"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("selectadd")}>{MyLang["addresses"]}</a>
                 </li>                 */}

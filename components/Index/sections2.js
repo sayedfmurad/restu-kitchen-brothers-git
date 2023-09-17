@@ -9,28 +9,15 @@ import Aboutus from '@/components/Index/aboutus';
 import ZusatzStoffe from "./zusatzstoffe"
 import Datenschutz from "./privacypolicy"
 import Success from "./success"
+import MyOrders from './MyOrders';
 let myModal;
 var NavBarTriggerIsClicked=false
 let AddedFlagModal=false
 
 
 
-var navbar,solveshowNav,navbardistance=10000
-function scrollToElement(elementId) {
-  const element = document.getElementById(elementId);
+var navbar,solveshowNav,navbardistance=10000,scrolltoupbutton
 
-  if (element) {
-      // Get the target element's position relative to the document
-      const elementRect = element.getBoundingClientRect();
-
-      // Scroll to the element instantly without animation
-      window.scrollTo({
-          left: elementRect.left + window.scrollX,
-          top: elementRect.top + window.scrollY,
-          behavior: 'instant' // 'auto' or 'instant' will work here
-      });
-  }
-}
 function InitilaizeSection (setIsSearch) {
 
 
@@ -40,17 +27,26 @@ function InitilaizeSection (setIsSearch) {
     if(document.getElementById('btn-close-CartModal'))
     document.getElementById('btn-close-CartModal').click()
     if(document.getElementById('btn-close-MyOrderModal'))
-    document.getElementById('btn-close-MyOrderModal').click()
+    {
+      document.getElementById('btn-close-MyOrderModal').click()
+      if(document.getElementById("ShowSuccessMyOrder"))
+        document.getElementById("ShowSuccessMyOrder").classList.remove("d-none") 
+    }
     if(document.getElementById('btn-close-DatenschutzModal'))
     document.getElementById('btn-close-DatenschutzModal').click()
     if(document.getElementById('btn-close-SuccessModal'))
     document.getElementById('btn-close-SuccessModal').click()
+    if(document.getElementById('btn-close-AboutUsModal'))
+    document.getElementById('btn-close-AboutUsModal').click()
+    if(document.getElementById('btn-close-ZusatzModal'))
+    document.getElementById('btn-close-ZusatzModal').click()
 
     if(setIsSearch)
     setIsSearch(false)
   };
   setTimeout(() => {        
     navbar = document.querySelector('.navbarr');
+    scrolltoupbutton= document.getElementById("scrolltoupbutton")
     if(navbar)
     {
       solveshowNav = document.querySelector('#solveshowNav');
@@ -62,11 +58,15 @@ function InitilaizeSection (setIsSearch) {
       {
         navbar.classList.add('fixed-top');
         solveshowNav.classList.remove('d-none');
+        if(scrolltoupbutton)
+        scrolltoupbutton.classList.remove('d-none');
       }
     } else {
       if(navbar){
         navbar.classList.remove('fixed-top');      
       solveshowNav.classList.add('d-none');
+      if(scrolltoupbutton)
+      scrolltoupbutton.classList.add('d-none');
       }      
     }
   });
@@ -158,7 +158,7 @@ export  function IndexPage({menu}) {
     var NavRows = [] 
     const BtnSectionClicked=(e)=>{      
       // e.preventdefault()
-      scrollToElement(e.target.getAttribute("data-l"))
+      langswitch.scrollToElement(e.target.getAttribute("data-l"))
       NavBarTriggerIsClicked=true
       var l = document.getElementById("navbarscroll")
       var g = document.getElementsByClassName('active')
@@ -178,7 +178,9 @@ export  function IndexPage({menu}) {
       {              
           NavRows.push(<>
             <li className="nav-item">
-              <a className="nav-link" data-l={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} 
+              <a className="nav-link" 
+              
+              data-l={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} 
               href={`#section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`}
               onClick={BtnSectionClicked}>
               &nbsp;&nbsp;{l}&nbsp;&nbsp;
@@ -238,6 +240,7 @@ export  function IndexPage({menu}) {
           langswitch.IsPaymentSuccess()
         }
       }, 1000);  
+    setContainerMyOrderModal(<MyOrders menu={menu}/>) 
      PrepairRows() 
      const element = document.getElementById('loadingg');
      if(element !== null)
@@ -250,7 +253,7 @@ export  function IndexPage({menu}) {
         if(document.getElementById("SearchNavBar"))
         {
           document.getElementById("SearchNavBar").focus()
-          scrollToElement("SearchNavBar")
+          langswitch.scrollToElement("SearchNavBar")
         }
 
       }, 200);
@@ -258,7 +261,7 @@ export  function IndexPage({menu}) {
     }
     const onKeyUpSearch=(e)=>{
       
-      scrollToElement("solveshowNav")
+      langswitch.scrollToElement("solveshowNav")
 
       e = e.target.value
       var trowss = []
@@ -277,8 +280,8 @@ export  function IndexPage({menu}) {
     const CloseSearchIsClicked=()=>{
       document.getElementById("SearchNavBar").value=""
       setIsSearch(false)
-    }
-    
+    }    
+                                                  
   return (
     <>
     <MyNavBar menu={menu} setContainerMyOrderModal={setContainerMyOrderModal}/>
@@ -292,7 +295,7 @@ export  function IndexPage({menu}) {
       <button style={{marginTop:"13px"}} onClick={()=>{CloseSearchIsClicked()}} type="button" class="btn-close " ></button>
       </div>
     </div>
-    <div className={`${IsSearch?"d-none":""} row`}>
+    <div style={{boxShadow:"0px 0px 4px rgba(0, 0, 0, 0.3)"}} className={`${IsSearch?"d-none":""} row`}>
     <nav class=" scroll nav  navbar-nav col-10" id="navbarscroll" style={{"background":"white","fontWeight":"bold","fontSize":"16px"}}  >        
         <div class="p-2">
         {NavRows}
@@ -341,6 +344,9 @@ export  function IndexPage({menu}) {
     <MModal idd="SuccessModal" contaienrr={<Success />} />
     
       <div className='mb-5 mt-5 container-fluid'/>
+    
+
+
     <MButtonCartContainer menu={menu} setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal}/>
       </>
       

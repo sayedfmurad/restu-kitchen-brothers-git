@@ -4,7 +4,6 @@
     /* border-color: #00ff89!important; */
 }
 .fixed-bottom {
-    height: 4rem;
     font-size: 1.5rem;
     position: fixed;    
     z-index: 1000; /* Adjust the value as per your needs */

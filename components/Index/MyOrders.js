@@ -79,8 +79,9 @@ export function Orders ({menu}) {
         var sum = 0
 
         crows.push(
-            <li style={{"backgroundColor":(or["time"]!=""?"#00e53075":"")}} id={`MyorderIdTimeHeader${or["MainId"]}`} className="list-group-item d-flex justify-content-between lh-light">
-            <div className=''><h6 className=''>{"abhol" in or ? "Abholung" : "Lieferung"}</h6></div>
+            <li style={{"backgroundColor":(or["time"]!=""?"#00e53075":"")}} id={`MyorderIdTimeHeader${or["MainId"]}`} className="list-group-item d-flex justify-content-between lh-light ">
+                <h6 className=''>{"abhol" in or ? "Abholung" : "Lieferung"}</h6>
+                <h6 className=''>Heute&nbsp;{langswitch.getStringFormTimefromTimeStamp(new Date(or["createtime"]) ) }</h6>
             </li> 
         )
 
@@ -202,7 +203,7 @@ export default({menu})=>{
     useEffect(()=>{
         SetContainer(<Orders menu={menu}/>)   
     setTimeout(() => {
-        SetContainer(<Orders menu={menu}/>)   
+        SetContainer(<Orders menu={menu}/>)          
     }, 100);       
     setInterval(()=>{
    
@@ -212,7 +213,7 @@ export default({menu})=>{
 
       },[])
 
-    return <>
+    return <>    
     <div class="modal-header ">  
        <h3 className='m-0'>Meine Bestellungen</h3>                                        
         <button type="button" class="btn-close " id={`btn-close-MyOrderModal`} data-bs-dismiss="modal" aria-label="Close"></button>
@@ -222,7 +223,10 @@ export default({menu})=>{
         <div class="spinner-border text-primary" style={{"width":"5rem","height":"5rem"}} role="status">
             <span class="visually-hidden">Loading...</span>
         </div>   
-        </div>     
+        </div>
+        <div id="ShowSuccessMyOrder" className="alert alert-success rounded-0 d-none">
+            Ihre Bestellung wurde übermittelt. Sie erhalten in Kürze eine SMS mit der voraussichtlichen Ankunftszeit Ihrer Bestellung. Alternativ können Sie diese unter „Meine Bestellungen“ selber überprüfen.
+        </div>        
         {Container}
     </div>
     </>

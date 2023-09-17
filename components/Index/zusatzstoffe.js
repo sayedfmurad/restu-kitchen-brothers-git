@@ -6,7 +6,7 @@ return(
 <>
 <div class="modal-header">  
         <h3 className='m-0'>Zusatzstoffe</h3>                                         
-         <button type="button" class="btn-close " id={`btn-close-MyOrderModal`} data-bs-dismiss="modal" aria-label="Close"></button>
+         <button type="button" class="btn-close " id={`btn-close-ZusatzModal`} data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
 <div class="modal-body" id="MainIdd">
 <div className="container">

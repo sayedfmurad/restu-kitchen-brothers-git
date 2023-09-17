@@ -12,6 +12,21 @@ ChangeGetParameters=(value)=>{
     // Modify the browser URL without reloading the page
     history.pushState({ path: newUrl }, '', newUrl);
 }
+ scrollToElement(elementId) {
+    const element = document.getElementById(elementId);
+  
+    if (element) {
+        // Get the target element's position relative to the document
+        const elementRect = element.getBoundingClientRect();
+  
+        // Scroll to the element instantly without animation
+        window.scrollTo({
+            left: elementRect.left + window.scrollX,
+            top: elementRect.top + window.scrollY,
+            behavior: 'instant' // 'auto' or 'instant' will work here
+        });
+    }
+  }
 IsPaymentSuccess=()=>{
     var MainOrders = this.getJson("mainorder")
     var LastOrderId = this.getValue("lastOrderId")
@@ -27,10 +42,13 @@ IsPaymentSuccess=()=>{
     document.getElementById('fixedendidcart').classList.add("d-none")
     window.localStorage.setItem("order","{}");
     window.localStorage.setItem("sumprice","0,00");
-    var myModal = new bootstrap.Modal(document.getElementById("SuccessModal"), {
-        keyboard: true
-      })    
-      myModal.show()  
+    if(document.getElementById("ShowSuccessMyOrder"))
+    document.getElementById("ShowSuccessMyOrder").classList.remove("d-none")
+
+    var myModal = new bootstrap.Modal(document.getElementById("MyOrderModal"), {
+            keyboard: true
+          })    
+          myModal.show()  
         history.pushState({}, '');
 }
 GetJsonM=(m)=>{

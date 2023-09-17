@@ -20,7 +20,7 @@
             "Baguettes": {
                 "section": "Baguettes",
                 "des": "Alle Baguettes sind mit Salat, Tomaten, Gurken und Zwiebeln belegt und mit Käse überbacken.",
-                "img":"BAGUETTE"
+                "img": "BAGUETTE"
             },
             "Baked Potatoes": {
                 "section": "Baked Potatoes",
@@ -29,17 +29,17 @@
             "Pizzabrötchen": {
                 "section": "Pizzabrötchen",
                 "des": "Alle Pizzabrötchen werden mit Käse zubereitet.",
-                "img":"PIZZABROTCHEN"
+                "img": "PIZZABROTCHEN"
             },
             "Pizza": {
                 "section": "Pizza",
                 "des": "Alle Pizzen werden mit Tomatensauce und Käse zubereitet.",
-                "img":"PIZZEN"                
+                "img": "PIZZEN"
             },
             "Amerikanische Pizza": {
                 "section": "Amerikanische Pizza",
                 "des": "Alle Pizzen werden mit Tomatensauce, doppelt Käse und doppeltem Teigboden zubereitet.",
-                "img":"PIZZEN"                                
+                "img": "PIZZEN"
             },
             "Calzone": {
                 "section": "Calzone",
@@ -100,7 +100,7 @@
             "Döner": {
                 "section": "Döner",
                 "des": "",
-                "img":"DREHSPIESS"
+                "img": "DREHSPIESS"
             },
             "Spare Ribs": {
                 "section": "Spare Ribs",
@@ -116,12 +116,12 @@
             },
             "Fingerfood": {
                 "section": "Fingerfood",
-                "img":"FINGER_FOODs",
+                "img": "FINGER_FOODs",
                 "des": "Alle Gerichte werden mit American Potatoes und einem Dip nach Wahl serviert."
             },
             "Beilagen": {
                 "section": "Beilagen",
-                "img":"POMMESFRITES",
+                "img": "POMMESFRITES",
                 "des": ""
             },
             "Saucen": {
@@ -3890,7 +3890,6 @@
                 "Familie, Ø 41cm": "16,99"
             },
             "options": {
-                                
                 "Ihre 1. Zutat": {
                     "name": "Ihre 1. Pizza - Ihre 1. Zutat",
                     "options": {
@@ -3983,7 +3982,7 @@
                         }
                     },
                     "showprice": false
-                },                
+                },
                 "Ihre 2. Zutat": {
                     "name": "Ihre 1. Pizza - Ihre 2. Zutat",
                     "options": {
@@ -7494,7 +7493,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Klein": "3,99"              
+                "stand": "3,99"
             },
             "section": "Burger"
         },
@@ -7503,8 +7502,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Klein": "3,99"
-               
+                "stand": "3,99"
             },
             "section": "Burger"
         },
@@ -7513,7 +7511,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Klein": "3,99"                
+                "stand": "3,99"
             },
             "section": "Burger"
         },
@@ -7522,7 +7520,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Klein": "5,49"
+                "stand": "5,49"
             },
             "section": "Burger"
         },
@@ -7531,7 +7529,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Klein": "6,99"
+                "stand": "6,99"
             },
             "section": "Burger"
         },
@@ -7540,7 +7538,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "XXL": "6,99"
+                "stand": "6,99"
             },
             "section": "Burger"
         },
@@ -7548,8 +7546,8 @@
             "name": "Cheeseburger XXL",
             "desO": "",
             "zusatz": "",
-            "price": {                
-                "XXL": "8,99"
+            "price": {
+                "stand": "8,99"
             },
             "section": "Burger"
         },
@@ -7558,7 +7556,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "XXL": "8,99"
+                "stand": "8,99"
             },
             "section": "Burger"
         },
@@ -7964,180 +7962,179 @@
             },
             "section": "Alkoholische Getränke"
         },
-        "401":{
-            "name":"Cola, Fanta, Sprite, Mezzo Mix 1,0L",
-            "desO": ""
-            ,"price":{
+        "401": {
+            "name": "Cola, Fanta, Sprite, Mezzo Mix 1,0L",
+            "desO": "",
+            "price": {
                 "stand": "2,40"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "402":{
-            "name":"Cola, Fanta 0,33L",
-            "desO": ""
-            ,"price":{
+        "402": {
+            "name": "Cola, Fanta 0,33L",
+            "desO": "",
+            "price": {
                 "stand": "1,60"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "408":{
-            "name":"Bier 0,5L",
-            "desO": ""
-            ,"price":{
+        "408": {
+            "name": "Bier 0,5L",
+            "desO": "",
+            "price": {
                 "stand": "1,49"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "451":{
-            "name":"Lambrusco 1,0L",
-            "desO": ""
-            ,"price":{
+        "451": {
+            "name": "Lambrusco 1,0L",
+            "desO": "",
+            "price": {
                 "stand": "6,99"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "454":{
-            "name":"Chianti 0,75L",
-            "desO": ""
-            ,"price":{
+        "454": {
+            "name": "Chianti 0,75L",
+            "desO": "",
+            "price": {
                 "stand": "6,99"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "455":{
-            "name":"Vodka 0,7L",
-            "desO": ""
-            ,"price":{
+        "455": {
+            "name": "Vodka 0,7L",
+            "desO": "",
+            "price": {
                 "stand": "13,99"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "456":{
-            "name":"Whisky 0.7L",
-            "desO": ""
-            ,"price":{
+        "456": {
+            "name": "Whisky 0.7L",
+            "desO": "",
+            "price": {
                 "stand": "13,99"
             },
             "section": "",
-            "zusatz":""
-        },      
-        "480":{
-            "name":"Vegetarisch",
-            "desO": ""
-            ,"price":{
+            "zusatz": ""
+        },
+        "480": {
+            "name": "Vegetarisch",
+            "desO": "",
+            "price": {
                 "stand": "6,99"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "482":{
-            "name":"Rindfleisch",
-            "desO": "mit Ei & Gemüse"
-            ,"price":{
+        "482": {
+            "name": "Rindfleisch",
+            "desO": "mit Ei & Gemüse",
+            "price": {
                 "stand": "8,49"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "483":{
-            "name":"Schweinefleisch",
-            "desO": "mit Ei & Gemüse"
-            ,"price":{
+        "483": {
+            "name": "Schweinefleisch",
+            "desO": "mit Ei & Gemüse",
+            "price": {
                 "stand": "8,49"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "484":{
-            "name":"Shrimps",
-            "desO": "mit Ei & Gemüse"
-            ,"price":{
+        "484": {
+            "name": "Shrimps",
+            "desO": "mit Ei & Gemüse",
+            "price": {
                 "stand": "9,50"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "485":{
-            "name":"Hummerkrabben",
-            "desO": "mit Ei & Gemüse"
-            ,"price":{
+        "485": {
+            "name": "Hummerkrabben",
+            "desO": "mit Ei & Gemüse",
+            "price": {
                 "stand": "10,49"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "487":{
-            "name":"Hühnerfleisch",
-            "desO": "mit Ei, Curry & Gemüse"
-            ,"price":{
+        "487": {
+            "name": "Hühnerfleisch",
+            "desO": "mit Ei, Curry & Gemüse",
+            "price": {
                 "stand": "8,49"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "495":{
-            "name":"Pekingsuppe",
-            "desO": "sauer, scharf"
-            ,"price":{
+        "495": {
+            "name": "Pekingsuppe",
+            "desO": "sauer, scharf",
+            "price": {
                 "stand": "3,99"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "350":{
-            "name":"Verde",
-            "desO": "grüner Salat"
-            ,"price":{
+        "350": {
+            "name": "Verde",
+            "desO": "grüner Salat",
+            "price": {
                 "stand": "4,99"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "308":{
-            "name":"Funghi",
-            "desO": "Champignons, Knoblauch, Tomaten-Sahnesauce"
-            ,"price":{
+        "308": {
+            "name": "Funghi",
+            "desO": "Champignons, Knoblauch, Tomaten-Sahnesauce",
+            "price": {
                 "stand": "7,99"
             },
             "section": "",
-            "zusatz":""
-        }
-        ,
-        "200":{
-            "name":"Wunschpasta",
-            "desO": "mit 3 Zutaten nach Wahl"
-            ,"price":{
-                "stand": "8,49"
-            },
-            "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "1000":{
-            "name":"Marix",
-            "desO": ""
-            ,"price":{
+        "200": {
+            "name": "Wunschpasta",
+            "desO": "mit 3 Zutaten nach Wahl",
+            "price": {
                 "stand": "8,49"
             },
             "section": "",
-            "zusatz":""
-        },       
-        "700":{
-            "name":"Tiramisu",
-            "desO": ""
-            ,"price":{
+            "zusatz": ""
+        },
+        "1000": {
+            "name": "Marix",
+            "desO": "",
+            "price": {
+                "stand": "8,49"
+            },
+            "section": "",
+            "zusatz": ""
+        },
+        "700": {
+            "name": "Tiramisu",
+            "desO": "",
+            "price": {
                 "stand": "4,49"
             },
             "section": "",
-            "zusatz":""
+            "zusatz": ""
         },
-        "357":{
-            "name":"Mozzarella-Salat",
+        "357": {
+            "name": "Mozzarella-Salat",
             "desO": "Eisbergsalat, Tomaten, fr. Basilikum, Olivenöl, Balsamico",
             "price": {
                 "stand": "7,99"
@@ -8479,9 +8476,9 @@
             }
         }
     },
-    "staticValue": {        
-        "pc":"ATPr8UMYbltteSs4yLUR_NUam6vDh8Mg0ao3A8B5wWad9oE_mMIsnesfh0l18EduIbZi6wmsD4dHxUmC",
-        "ps":"wrjCtMOowq3Do8Kyw4bCn8Ocwr_DncKlwrnDkcOHwpvDiMOiw6PDk8K3wqvDnsKdwp7DoMOQw5LDksOVw4XDg8Odw4DDgcK4w6LDjMOGwq_CvMKpw5PDpcKuw5XDlcK2wpbDlsKowrvDlMKowqTCnsK9wq_Cu8K4w6fDmMOHwrfDisOQwpbDpcOKwrXDqcKqw5fCqMOBwp3DpsOew5jDlw==",
+    "staticValue": {
+        "pc": "ATPr8UMYbltteSs4yLUR_NUam6vDh8Mg0ao3A8B5wWad9oE_mMIsnesfh0l18EduIbZi6wmsD4dHxUmC",
+        "ps": "wrjCtMOowq3Do8Kyw4bCn8Ocwr_DncKlwrnDkcOHwpvDiMOiw6PDk8K3wqvDnsKdwp7DoMOQw5LDksOVw4XDg8Odw4DDgcK4w6LDjMOGwq_CvMKpw5PDpcKuw5XDlcK2wpbDlsKowrvDlMKowqTCnsK9wq_Cu8K4w6fDmMOHwrfDisOQwpbDpcOKwrXDqcKqw5fCqMOBwp3DpsOew5jDlw==",
         "logo": "Pizzeria Dino",
         "key": "pizzeria-dino",
         "rabat": "",
@@ -8554,7 +8551,7 @@
                 },
                 "closetime": {
                     "hour": 22,
-                    "min":50
+                    "min": 50
                 }
             },
             "thursday": {
