@@ -208,7 +208,13 @@ export  function IndexPage({menu}) {
         if("style" in menu["staticValue"])
         if("sectionheight" in menu["staticValue"]["style"])
         heightsection = menu["staticValue"]["style"]["sectionheight"]
-        
+        function getSortedKeys(jsonObject) {
+          return Object.keys(jsonObject).sort((a, b) => {
+            if (a < b) return -1;
+            if (a > b) return 1;
+            return 0;
+          });
+        }
         trows.push(
               <div style={{"min-height":"35rem"}} id={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} className="pt-5  text-white" >
                 <div className='a-item  a-item-2' style={{"height":`${heightsection}`,"backgroundImage":`url(Images/${imgg}.jpeg)`}}>
@@ -216,7 +222,7 @@ export  function IndexPage({menu}) {
                   </div>
                   <div className='mb-2' style={{"fontSize":"0.8rem","color":"rgb(110 107 107)"}}>{menu["sections"]["mdesc"][l]["des"]}</div>
   
-               {Object.keys(menu["product"]).map((number) => (
+               {getSortedKeys(menu["product"]).map((number) => (
                   <>{
                     menu["sections"]["mdesc"][l]["section"].toUpperCase() == menu["product"][number]["section"].toUpperCase() ? 
                       <>{GetObjItem(menu,number)}</>

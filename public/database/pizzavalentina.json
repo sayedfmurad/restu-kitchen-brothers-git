@@ -2355,10 +2355,33 @@
             "section": "SALATE"
         },
         "111": {
-            "name": "Hamburger",
+            "name": "Hamburger Einzeln",
             "price": {
-                "einzeln": "8,90",
-                "menü": "9,90"
+                "stand": "8,90"
+            },
+            "desO": "180g mit Burgersauce, Ketchup, Tomaten, Gurken, Salat",
+            "desT": "",
+            "zusatz": "",
+            "section": "American Big Burger"
+        },
+        "111M": {
+            "name": "Hamburger Menü",
+            "price": {
+                "stand": "9,90"
+            },
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
             },
             "desO": "180g mit Burgersauce, Ketchup, Tomaten, Gurken, Salat",
             "desT": "",
@@ -2366,10 +2389,33 @@
             "section": "American Big Burger"
         },
         "112": {
-            "name": "Cheeseburger",
+            "name": "Cheeseburger Einzeln",
             "price": {
-                "einzeln": "8,90",
-                "menü": "9,90"
+                "stand": "8,90"
+            },
+            "desO": "180g mit Cheddarkäse, Ketchup, Burgersauce, Tomaten, Gurken, Salat",
+            "desT": "",
+            "zusatz": "",
+            "section": "American Big Burger"
+        },
+        "112M": {
+            "name": "Cheeseburger Menü",
+            "price": {
+                "stand": "9,90"
+            },
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
             },
             "desO": "180g mit Cheddarkäse, Ketchup, Burgersauce, Tomaten, Gurken, Salat",
             "desT": "",
@@ -2377,21 +2423,67 @@
             "section": "American Big Burger"
         },
         "113": {
-            "name": "Bacon Chili Cheeseburger",
+            "name": "Bacon Chili Cheeseburger Einzeln",
             "price": {
-                "einzeln": "9,90",
-                "menü": "10,90"
+                "stand": "9,90"
             },
             "desO": "180g mit Cheddarkäse, Bacon, Burgersauce, Jalapenos, Salat",
             "desT": "",
             "zusatz": "",
             "section": "American Big Burger"
         },
-        "114": {
-            "name": "Acadran burger",
+        "113M": {
+            "name": "Bacon Chili Cheeseburger Menü",
             "price": {
-                "einzeln": "8,90",
-                "menü": "9,90"
+                "stand": "10,90"
+            },
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "180g mit Cheddarkäse, Bacon, Burgersauce, Jalapenos, Salat",
+            "desT": "",
+            "zusatz": "",
+            "section": "American Big Burger"
+        },
+        "114M": {
+            "name": "Acadran burger Menü",
+            "price": {
+                "stand": "9,90"
+            },
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "desO": "180g mit Barbecuesauce, Käse, Salat",
+            "desT": "",
+            "zusatz": "",
+            "section": "American Big Burger"
+        },
+        "114": {
+            "name": "Acadran burger Einzeln",
+            "price": {
+                "stand": "8,90"
             },
             "desO": "180g mit Barbecuesauce, Käse, Salat",
             "desT": "",
@@ -2399,10 +2491,33 @@
             "section": "American Big Burger"
         },
         "115": {
-            "name": "Spicy American",
+            "name": "Spicy American Einzeln",
             "price": {
-                "einzeln": "8,90",
-                "menü": "9,90"
+                "stand": "8,90"
+            },
+            "desO": "180g mit Cheddarkäse, Röstzwiebeln, Salat",
+            "desT": "",
+            "zusatz": "",
+            "section": "American Big Burger"
+        },
+        "115M": {
+            "name": "Spicy American Menü",
+            "price": {
+                "stand": "9,90"
+            },
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
             },
             "desO": "180g mit Cheddarkäse, Röstzwiebeln, Salat",
             "desT": "",
@@ -2410,10 +2525,33 @@
             "section": "American Big Burger"
         },
         "116": {
-            "name": "Switzerland",
+            "name": "Switzerland Einzeln",
             "price": {
-                "einzeln": "8,90",
-                "menü": "9,90"
+                "stand": "8,90"
+            },           
+            "desO": "180g mit Cheddarkäse, gegrillte Zwiebeln, Champignons",
+            "desT": "",
+            "zusatz": "",
+            "section": "American Big Burger"
+        },
+        "116M": {
+            "name": "Switzerland Menü",
+            "price": {
+                "stand": "9,90"
+            },
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Twister": {
+                            "price": "0,00"
+                        }
+                    }
+                }
             },
             "desO": "180g mit Cheddarkäse, gegrillte Zwiebeln, Champignons",
             "desT": "",
@@ -2786,6 +2924,40 @@
         }
     },
     "extra": {
+        "saucesharf": {
+            "section": [
+                "pizzen"
+            ],
+            "24cm": {
+                "price": "0,00",
+                "name": "Sauce scharf"
+            },
+            "28cm": {
+                "price": "0,00",
+                "name": "Sauce scharf"
+            },
+            "38cm": {
+                "price": "0,00",
+                "name": "Sauce scharf"
+            }
+        },
+        "knoblauch": {
+            "section": [
+                "pizzen"
+            ],
+            "24cm": {
+                "price": "0,00",
+                "name": "knoblauch"
+            },
+            "28cm": {
+                "price": "0,00",
+                "name": "knoblauch"
+            },
+            "38cm": {
+                "price": "0,00",
+                "name": "knoblauch"
+            }
+        },
         "160gbeefpatty": {
             "section": [
                 "Burger",
@@ -2823,22 +2995,11 @@
                 "price": "0,0",
                 "name": "Bruschetta"
             }
-        },
-        "uberbacken": {
-            "section": [
-                "pasta"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "Überbacken"
-            }
-        },
+        },       
         "fettdreh": {
             "section": [
-                "DREHSPIEß",
-                "pasta",
-                "Frenchtaocs",
-                "pizzen"
+                "DREHSPIEß",                
+                "Frenchtaocs"
             ],
             "stand": {
                 "price": "1,50",
@@ -2862,7 +3023,7 @@
                 "PASTA"
             ],
             "stand": {
-                "price": "1,00",
+                "price": "1,50",
                 "name": "Käse Überbacken"
             }
         },
@@ -2930,22 +3091,12 @@
             }
         },
         "gemuse": {
-            "section": [
-                "pasta",
+            "section": [               
                 "salate"
             ],
             "stand": {
                 "price": "2,00",
                 "name": "Gemüse, gebraten"
-            }
-        },
-        "grillgemuse": {
-            "section": [
-                "pizzen"
-            ],
-            "60cm": {
-                "price": "0,0",
-                "name": "Grillgemüse"
             }
         },
         "lachs": {
@@ -3011,8 +3162,7 @@
         },
         "mozzarella": {
             "section": [
-                "pizzen",
-                "pasta",
+                "pizzen",            
                 "salate",
                 "Burger"
             ],
@@ -3063,31 +3213,8 @@
                 "name": "Bolognese"
             }
         },
-        "scampifleisch": {
-            "section": [
-                "pizzen",
-                "salate"
-            ],
-            "stand": {
-                "price": "2,00",
-                "name": "Scampi"
-            },
-            "24cm": {
-                "price": "2,00",
-                "name": "extra Scampi Fleisch"
-            },
-            "30cm": {
-                "price": "3,00",
-                "name": "extra Scampi Fleisch"
-            },
-            "40cm": {
-                "price": "4,00",
-                "name": "extra Scampi Fleisch"
-            }
-        },
         "schinken.": {
-            "section": [
-                "pasta",
+            "section": [              
                 "salate",
                 "Frenchtaocs"
             ],
@@ -3096,30 +3223,8 @@
                 "name": "schinken."
             }
         },
-        "garnelenfleisch": {
-            "section": [
-                "pizzen"
-            ],
-            "stand": {
-                "price": "0,80",
-                "name": "extra Garnelen"
-            },
-            "24cm": {
-                "price": "1,50",
-                "name": "extra Garnelen"
-            },
-            "30cm": {
-                "price": "2,50",
-                "name": "extra Garnelen"
-            },
-            "40cm": {
-                "price": "4,50",
-                "name": "extra Garnelen"
-            }
-        },
         "pastirma": {
-            "section": [
-                "pasta",
+            "section": [               
                 "Frenchtaocs"
             ],
             "stand": {
@@ -3130,7 +3235,7 @@
         "ananas": {
             "section": [
                 "pizzen",
-                "pasta",
+                
                 "salate",
                 "Burger",
                 "Burgermenu"
@@ -3164,66 +3269,7 @@
                 "price": "1,70",
                 "name": "Artischocken"
             }
-        },
-        "Bacon": {
-            "section": [
-                "pizzen"
-            ],
-            "24cm": {
-                "price": "1,50",
-                "name": "Bacon"
-            },
-            "28cm": {
-                "price": "1,50",
-                "name": "Bacon"
-            },
-            "38cm": {
-                "price": "1,70",
-                "name": "Bacon"
-            }
-        },
-        "barbecuesaucen": {
-            "section": [
-                "pizzen"
-            ],
-            "24cm": {
-                "price": "1,50",
-                "name": "Barbecuesaucen"
-            },
-            "28cm": {
-                "price": "1,50",
-                "name": "Barbecuesaucen"
-            },
-            "38cm": {
-                "price": "1,70",
-                "name": "Barbecuesaucen"
-            }
-        },
-        "Basilikum-Pesto": {
-            "section": [
-                "pizzen"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "basilikum-Pesto"
-            },
-            "24cm": {
-                "price": "1,50",
-                "name": "basilikum-Pesto"
-            },
-            "30cm": {
-                "price": "2,00",
-                "name": "basilikum-Pesto"
-            },
-            "40cm": {
-                "price": "3,00",
-                "name": "basilikum-Pesto"
-            },
-            "60cm": {
-                "price": "0,00",
-                "name": "basilikum-Pesto"
-            }
-        },
+        },    
         "Rucola": {
             "section": [
                 "pizzen"
@@ -3244,7 +3290,7 @@
         "Cherrytomaten": {
             "section": [
                 "pizzen",
-                "pasta",
+                
                 "salate",
                 "Frenchtaocs"
             ],
@@ -3264,7 +3310,7 @@
         "Champignons": {
             "section": [
                 "pizzen",
-                "pasta",
+                
                 "salate",
                 "Frenchtaocs"
             ],
@@ -3318,9 +3364,7 @@
             }
         },
         "Cheddar": {
-            "section": [
-                "pizzen",
-                "Frenchtaocs",
+            "section": [                
                 "Frenchtaocs"
             ],
             "stand": {
@@ -3340,56 +3384,9 @@
                 "name": "Cheddar"
             }
         },
-        "Cranberry": {
-            "section": [
-                "pizzen"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "Cranberry"
-            },
-            "24cm": {
-                "price": "1,50",
-                "name": "Cranberry"
-            },
-            "30cm": {
-                "price": "2,00",
-                "name": "Cranberry"
-            },
-            "40cm": {
-                "price": "3,00",
-                "name": "Cranberry"
-            }
-        },
-        "Currysauce": {
-            "section": [
-                "pizzen"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "Currysauce"
-            },
-            "24cm": {
-                "price": "1,50",
-                "name": "Currysauce"
-            },
-            "30cm": {
-                "price": "2,00",
-                "name": "Currysauce"
-            },
-            "40cm": {
-                "price": "3,00",
-                "name": "Currysauce"
-            },
-            "60cm": {
-                "price": "0,0",
-                "name": "Currysauce"
-            }
-        },
         "brocoli": {
             "section": [
-                "pizzen",
-                "pasta"
+                "pizzen"
             ],
             "24cm": {
                 "price": "1,50",
@@ -3404,31 +3401,10 @@
                 "name": "Brocoli"
             }
         },
-        "dönerfleisch": {
-            "section": [
-                "pizzen"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "dönerfleisch"
-            },
-            "24cm": {
-                "price": "1,50",
-                "name": "dönerfleisch"
-            },
-            "30cm": {
-                "price": "2,00",
-                "name": "dönerfleisch"
-            },
-            "40cm": {
-                "price": "3,00",
-                "name": "dönerfleisch"
-            }
-        },
         "ei": {
             "section": [
                 "pizzen",
-                "pasta",
+                
                 "salate",
                 "Frenchtaocs"
             ],
@@ -3501,15 +3477,6 @@
                 "name": "Tabasco"
             }
         },
-        "teriyakisauce": {
-            "section": [
-                "pizzen"
-            ],
-            "60cm": {
-                "price": "0,0",
-                "name": "Teriyaki Sauce"
-            }
-        },
         "sweetchilisauce": {
             "section": [
                 "pizzen"
@@ -3537,50 +3504,6 @@
                 "name": "Sauce Hollandaise"
             }
         },
-        "sesam": {
-            "section": [
-                "pizzen"
-            ],
-            "60cm": {
-                "price": "0,0",
-                "name": "Sesam"
-            }
-        },
-        "pestosahnesauce": {
-            "section": [
-                "pizzen"
-            ],
-            "60cm": {
-                "price": "0,0",
-                "name": "Pesto-Sahnesauce"
-            }
-        },
-        "limette": {
-            "section": [
-                "pizzen"
-            ],
-            "60cm": {
-                "price": "0,0",
-                "name": "Limette"
-            }
-        },
-        "jalapenos": {
-            "section": [
-                "pizzen"
-            ],
-            "24cm": {
-                "price": "1,50",
-                "name": "Jalapenos"
-            },
-            "28cm": {
-                "price": "1,50",
-                "name": "Jalapenos"
-            },
-            "38cm": {
-                "price": "1,70",
-                "name": "Jalapenos"
-            }
-        },
         "jalapenosBM": {
             "section": [
                 "Burgermenu"
@@ -3590,23 +3513,7 @@
                 "name": "Jalapenos"
             }
         },
-        "knoblauch": {
-            "section": [
-                "pizzen"
-            ],
-            "24cm": {
-                "price": "0,00",
-                "name": "knoblauch"
-            },
-            "28cm": {
-                "price": "0,00",
-                "name": "knoblauch"
-            },
-            "38cm": {
-                "price": "0,00",
-                "name": "knoblauch"
-            }
-        },
+    
         "muscheln": {
             "section": [
                 ""
@@ -3640,7 +3547,7 @@
         "paprika": {
             "section": [
                 "pizzen",
-                "pasta",
+                
                 "salate",
                 "Frenchtaocs"
             ],
@@ -3669,7 +3576,7 @@
         "peperoni": {
             "section": [
                 "pizzen",
-                "pasta",
+                
                 "salate"
             ],
             "stand": {
@@ -3687,27 +3594,6 @@
             "40cm": {
                 "price": "3,00",
                 "name": "peperoni"
-            }
-        },
-        "pilzen": {
-            "section": [
-                "pizzen"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "pilzen"
-            },
-            "24cm": {
-                "price": "1,50",
-                "name": "pilzen"
-            },
-            "30cm": {
-                "price": "2,00",
-                "name": "pilzen"
-            },
-            "40cm": {
-                "price": "3,00",
-                "name": "pilzen"
             }
         },
         "rahmsauce": {
@@ -3757,15 +3643,6 @@
                 "name": "Salami"
             }
         },
-        "rinderhackfleisch": {
-            "section": [
-                "pasta"
-            ],
-            "stand": {
-                "price": "2,00",
-                "name": "Rinderhackfleisch"
-            }
-        },
         "rinderhack": {
             "section": [
                 "Frenchtaocs"
@@ -3777,8 +3654,7 @@
         },
         "saucehallandaise": {
             "section": [
-                "pizzen",
-                "pasta"
+                "pizzen"                
             ],
             "stand": {
                 "price": "1,50",
@@ -3797,23 +3673,7 @@
                 "name": "Sauce Hallandaise"
             }
         },
-        "saucesharf": {
-            "section": [
-                "pizzen"
-            ],
-            "24cm": {
-                "price": "0,00",
-                "name": "Sauce scharf"
-            },
-            "28cm": {
-                "price": "0,00",
-                "name": "Sauce scharf"
-            },
-            "38cm": {
-                "price": "0,00",
-                "name": "Sauce scharf"
-            }
-        },
+       
         "schinken": {
             "section": [
                 "pizzen"
@@ -3829,31 +3689,6 @@
             "38cm": {
                 "price": "1,70",
                 "name": "Schinken"
-            }
-        },
-        "Spaghetti": {
-            "section": [
-                "pizzen"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "Spaghetti"
-            },
-            "24cm": {
-                "price": "1,50",
-                "name": "Spaghetti"
-            },
-            "30cm": {
-                "price": "2,00",
-                "name": "Spaghetti"
-            },
-            "40cm": {
-                "price": "3,00",
-                "name": "Spaghetti"
-            },
-            "60cm": {
-                "price": "0,0",
-                "name": "Spaghetti"
             }
         },
         "spinat": {
@@ -3967,7 +3802,7 @@
         },
         "meeresfrüchten": {
             "section": [
-                "pasta",
+                
                 "pizzen"
             ],
             "24cm": {
@@ -3995,7 +3830,7 @@
         "tomaten": {
             "section": [
                 "pizzen",
-                "pasta",
+                
                 "Frenchtaocs"
             ],
             "stand": {
@@ -4026,15 +3861,6 @@
             "stand": {
                 "price": "1,00",
                 "name": "Tomaten"
-            }
-        },
-        "Tomatensauce": {
-            "section": [
-                "pasta"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "Tomatensauce"
             }
         },
         "oliven": {
@@ -4100,60 +3926,12 @@
                 "name": "Zwiebeln, rot"
             }
         },
-        "möhren": {
-            "section": [
-                "pasta"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "Möhren"
-            }
-        },
-        "gorgonzola": {
-            "section": [
-                "pasta"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "Gorgonzola"
-            }
-        },
-        "gouda": {
-            "section": [
-                "salate",
-                "Frenchtaocs",
-                "pizzen"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "Gouda"
-            },
-            "60cm": {
-                "price": "0,0",
-                "name": "Gouda"
-            }
-        },
         "gurkenBM": {
             "section": [
                 "Burgermenu"
             ],
             "stand": {
                 "price": "1,00",
-                "name": "Gurken"
-            }
-        },
-        "gurken": {
-            "section": [
-                "Frenchtaocs",
-                "Burger",
-                "pizzen"
-            ],
-            "stand": {
-                "price": "1,50",
-                "name": "Gurken"
-            },
-            "60cm": {
-                "price": "0,0",
                 "name": "Gurken"
             }
         },
