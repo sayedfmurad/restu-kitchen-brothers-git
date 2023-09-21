@@ -3974,6 +3974,10 @@
             "lat": 51.2653205,
             "lng": 6.5348426
         },
+        "impressum": {
+            "name": "Saadi Rashid Haji Alkondour"
+        },
+       
         "opendays": {
             "sunday": {
                 "opentime": {
