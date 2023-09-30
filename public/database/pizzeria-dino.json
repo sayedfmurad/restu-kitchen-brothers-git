@@ -142,7 +142,8 @@
             }
         }
     },
-    "product": {
+    "product": {},
+    "product-": {
         "AA": {
             "name": "Angebot A - Pizza",
             "desO": "• 2 italienische Pizzen (Ø 26cm) mit jeweils 4 Zutaten nach Wahl",

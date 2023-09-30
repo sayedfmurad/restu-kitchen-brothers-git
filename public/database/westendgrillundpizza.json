@@ -2709,8 +2709,8 @@
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 23,
-                    "min": 0
+                    "hour": 22,
+                    "min": 45
                 }
             },
             "tuesday": {
@@ -2719,8 +2719,8 @@
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 23,
-                    "min": 0
+                    "hour": 22,
+                    "min": 45
                 }
             },
             "wednesdayy": {
@@ -2739,8 +2739,8 @@
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 23,
-                    "min": 0
+                    "hour": 22,
+                    "min": 45
                 }
             },
             "friday": {
@@ -2750,7 +2750,7 @@
                 },
                 "closetime": {
                     "hour": 23,
-                    "min": 59
+                    "min": 45
                 }
             },
             "saturday": 
@@ -2761,7 +2761,7 @@
                     },
                     "closetime": {
                         "hour": 23,
-                        "min": 59
+                        "min": 45
                     }
                 }
             
