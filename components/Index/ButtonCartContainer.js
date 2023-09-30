@@ -15,13 +15,13 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
     sum = langswitch.ftos(sum)                       
     return <div style={{"height":""}}  className={`fixed-bottom fixed-end d-flex justify-content-center row`} >    
     <div   className={`col-12 d-flex justify-content-end d-none`} id="scrolltoupbutton">
-    <span style={{"box-shadow":"0px 0px 10px rgba(0, 0, 0, 0.3)","backgroundColor":"#fff","borderRadius":"50%"}} className=" p-2 m-4"
+    <span style={{"box-shadow":"0px 3px 20px rgba(0, 0, 0, 0.3)","backgroundColor":"#fff","borderRadius":"50%"}} className=" p-2 m-4"
     onClick={()=>{langswitch.scrollToElement("bodydoc")}}
     >
     <svg style={{width:"36px",marginBottom:"6px"}} viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M13.18 10.97L8 5.615l-5.18 5.399-.962-.875 5.346-5.565a1.164 1.164 0 011.671 0l5.25 5.495-.945.901z"></path></svg>
     </span>
     </div>
-     <div style={{"backgroundColor":"#fff",boxShadow:"0px 0px 4px rgba(0, 0, 0, 0.3)"}}  className={`col-12 d-flex justify-content-center p-3 ${Object.keys(or).length==0?"d-none":""}`} id="fixedendidcart">
+     <div style={{"backgroundColor":"#fff",boxShadow:"0px -2px 4px rgba(0, 0, 0, 0.3)"}}  className={`col-12 d-flex justify-content-center p-3 ${Object.keys(or).length==0?"d-none":""}`} id="fixedendidcart">
       <button  type="button"   
     onClick={()=>{
         setContainerCartModal(<></>)

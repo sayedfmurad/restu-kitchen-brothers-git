@@ -274,7 +274,7 @@ export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,t
                       window.localStorage.setItem("seladdress","")
                       setMainContainer(<UserHasNoData menu={menu} mSetContainer={mSetContainer} setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
                   }}
-                  >Adresse ändern</button>
+                  >ändern</button>
                   </span>
           </div>
           </div>

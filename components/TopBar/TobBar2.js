@@ -16,14 +16,14 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
         <Head>
         <link   href={"./mystyles/global.css"} rel="stylesheet" />
         </Head>
-    <nav id="mynavb" className=" navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="mynavb" style={{backgroundColor:'rgb(233, 116, 0) '}}  className=" navbar navbar-expand-lg navbar-dark ">
     <div className="container-fluid">
-    <a className="navbar-brand " style={{"padding":"6px 0px 0px 0px"}}>                        
+    <a className="navbar-brand btn" style={{"padding":"6px 0px 0px 0px"}}>                        
                 {
                 "logoimg" in menu["staticValue"]?
                 <img src={"/Images/"+menu["staticValue"]["key"]+"logo.png"} height="40px"/>
                 :
-                <h5><a href='./' className='text-white'>{menu["staticValue"]["logo"]}</a></h5> 
+                <h5><a style={{paddingLeft:"0px"}} href='./' className='text-white '>{menu["staticValue"]["logo"]}</a></h5> 
                 }
                 </a>                    
         <button
@@ -41,10 +41,10 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
             id="navbarNavDropdown">
             <ul className="navbar-nav">
                 {/* <li className="nav-item">
-                    <a className={`nav-link ${router=="/selectadd"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("selectadd")}>{MyLang["addresses"]}</a>
+                    <a className={`nav-link activee ${router=="/selectadd"?"active":"gg"}`} aria-current="page" href={langswitch.RouteP("selectadd")}>{MyLang["addresses"]}</a>
                 </li>                 */}
                 <li className="nav-item">
-                    <a className={`nav-link `} aria-current="page" onClick={()=>{
+                    <a className={`nav-link activee `} aria-current="page" onClick={()=>{
                         setContainerMyOrderModal(<></>)
                         setTimeout(() => {
                             setContainerMyOrderModal(<MyOrders menu={menu}/>) 
@@ -57,7 +57,7 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
                     }}>{MyLang["myorders"]}</a>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link `} aria-current="page" onClick={(e)=>{
+                    <a className={`nav-link activee `} aria-current="page" onClick={(e)=>{
                         e.preventDefault()
                         var myModal = new bootstrap.Modal(document.getElementById("AboutUsModal"), {
                             keyboard: true
@@ -67,7 +67,7 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
                     }}>{MyLang["about us"]}</a>
                 </li>
                 <li className="nav-item">
-                    <a className={`nav-link `} aria-current="page" onClick={(e)=>{
+                    <a className={`nav-link activee `} aria-current="page" onClick={(e)=>{
                         e.preventDefault()
                         var myModal = new bootstrap.Modal(document.getElementById("ZusatzModal"), {
                             keyboard: true

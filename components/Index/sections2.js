@@ -301,7 +301,7 @@ export  function IndexPage({menu}) {
       <button style={{marginTop:"13px"}} onClick={()=>{CloseSearchIsClicked()}} type="button" class="btn-close " ></button>
       </div>
     </div>
-    <div style={{boxShadow:"0px 0px 4px rgba(0, 0, 0, 0.3)"}} className={`${IsSearch?"d-none":""} row`}>
+    <div style={{boxShadow:"0px 2px 6px rgba(0, 0, 0, 0.3)"}} className={`${IsSearch?"d-none":""} row`}>
     <nav class=" scroll nav  navbar-nav col-10" id="navbarscroll" style={{"background":"white","fontWeight":"bold","fontSize":"16px"}}  >        
         <div class="p-2">
         {NavRows}
