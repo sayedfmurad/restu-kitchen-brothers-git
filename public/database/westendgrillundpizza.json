@@ -2671,7 +2671,8 @@
     "staticValue": {   
         "printer":{
             "style":{
-                "font-table":"0.75rem"
+                "font-table":"0.8rem",
+                "print-version":"1"
             }
         },
         "impressum":{
@@ -2695,8 +2696,7 @@
             "lng": 6.4261498
         },
         "opendays": {
-            "sunday": 
-                
+            "sunday":                 
                 {
                     "opentime": {
                         "hour": 12,
@@ -2706,8 +2706,7 @@
                         "hour": 22,
                         "min": 0
                     }
-                }
-            ,
+                },
             "monday": {
                 "opentime": {
                     "hour": 12,
@@ -2715,7 +2714,7 @@
                 },
                 "closetime": {
                     "hour": 22,
-                    "min": 45
+                    "min": 0
                 }
             },
             "tuesday": {
@@ -2725,7 +2724,7 @@
                 },
                 "closetime": {
                     "hour": 22,
-                    "min": 45
+                    "min": 0
                 }
             },
             "wednesdayy": {
@@ -2745,7 +2744,7 @@
                 },
                 "closetime": {
                     "hour": 22,
-                    "min": 45
+                    "min": 0
                 }
             },
             "friday": {
@@ -2754,8 +2753,8 @@
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 23,
-                    "min": 45
+                    "hour": 22,
+                    "min": 0
                 }
             },
             "saturday": 
@@ -2765,8 +2764,8 @@
                         "min": 0
                     },
                     "closetime": {
-                        "hour": 23,
-                        "min": 45
+                        "hour": 22,
+                        "min": 0
                     }
                 }
             

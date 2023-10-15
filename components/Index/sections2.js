@@ -58,15 +58,15 @@ function InitilaizeSection (setIsSearch) {
       {
         navbar.classList.add('fixed-top');
         solveshowNav.classList.remove('d-none');
-        if(scrolltoupbutton)
-        scrolltoupbutton.classList.remove('d-none');
+        // if(scrolltoupbutton)
+        // scrolltoupbutton.classList.remove('d-none');
       }
     } else {
       if(navbar){
         navbar.classList.remove('fixed-top');      
       solveshowNav.classList.add('d-none');
-      if(scrolltoupbutton)
-      scrolltoupbutton.classList.add('d-none');
+      // if(scrolltoupbutton)
+      // scrolltoupbutton.classList.add('d-none');
       }      
     }
   });
