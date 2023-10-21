@@ -25,7 +25,7 @@ def dev():
 
 import hashlib
 restuses={}
-def PrepairDB2(folder_path,filename):
+def PrepairDB2_Old(folder_path,filename):
     objj = filename.split(".")[0]  
     with open(folder_path+"/"+ filename, 'r+',encoding='utf-8') as f:
       data = json.load(f)  
@@ -60,6 +60,28 @@ def PrepairDB2(folder_path,filename):
     with open("./public/restus.json", 'r+',encoding='utf-8') as f:
         # Write the dictionary to the file as JSON data
         json.dump(restuses, f, ensure_ascii=False, indent=4)
+
+def PrepairDB3(data):
+    
+    return data
+def PrepairDB2(folder_path,filename):
+    objj = filename.split(".")[0]  
+    with open(folder_path+"/"+ filename, 'r+',encoding='utf-8') as f:
+      data = json.load(f)  
+      PrepairDB3(data)
+      
+    #   # Move the file pointer back to the beginning of the file
+    #   f.seek(0)
+
+    #   # Write the updated data back to the file
+    #   json.dump(data, f, ensure_ascii=False, indent=4)
+
+    #   # Truncate any remaining data in the file
+    #   f.truncate()
+
+    # with open("./public/restus.json", 'r+',encoding='utf-8') as f:
+    #     # Write the dictionary to the file as JSON data
+    #     json.dump(restuses, f, ensure_ascii=False, indent=4)
 def PrepairDB():
     folder_path = "./public/database"  
     for filename in os.listdir(folder_path):
@@ -92,12 +114,12 @@ def KillProcess():
       print("No process found with the specified port.")
 
 
+
 def main(args):
     if args[1] == "dev":
         dev()
     elif args[1] == "kill":
         KillProcess()
     elif args[1] == "prepairdb":
-        pass
-        # PrepairDB()
+        PrepairDB()
     

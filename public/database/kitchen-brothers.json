@@ -212,7 +212,7 @@
                 "30cm": "9,50",
                 "40cm": "18,00"
             },
-            "desO": "Champignon, Gouda, Tomatensauce",
+            "desO": "mit Jalapeno, Mais, karamellisierten Zwiebeln, Rinderhackfleisch und Barbecuesauce",
             "desT": "",
             "zusatz": "1,7",
             "section": "PIZZEN"
@@ -308,7 +308,7 @@
                 "30cm": "9,50",
                 "40cm": "18,00"
             },
-            "desO": "Hähnchenbrust, Broccoli, Zwiebeln, Gouda, Tomatensauce",
+            "desO": "mit Hähnchenbrustfilet, Broccoli, Zwiebeln, Sesam und Teriyaki-Sauce",
             "desT": "",
             "zusatz": "1,2,7,A,B,E",
             "section": "PIZZEN"
@@ -1352,7 +1352,7 @@
             "price": {
                 "stand": "6,40"
             },
-            "desO": "Spinat, Feta",
+            "desO": "Spinat, Feta, Gouda",
             "desT": "",
             "options": {
                 "Ihre Dip": {
@@ -1379,7 +1379,7 @@
             "price": {
                 "stand": "6,00"
             },
-            "desO": "",
+            "desO": "Gouda und Tomatensauce",
             "desT": "",
             "options": {
                 "Ihre Dip": {
@@ -1513,7 +1513,7 @@
             "price": {
                 "stand": "8,40"
             },
-            "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Salat, Tomaten, Gurken, Ketchup und Burgersauce",
+            "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Salat, Tomaten, Gurken, Burgersauce",
             "desT": "",
             "zusatz": "1,7,A,B,E",
             "section": "Burger"

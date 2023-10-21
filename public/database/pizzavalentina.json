@@ -1,5 +1,25 @@
 {
     "product": {
+        "Z1": {
+            "name": "Angebot für Selbstabholer !!",
+            "price": {
+                "stand": "7,35"
+            },
+            "options": {
+                "Ihre Wahl": {
+                    "showprice": false,
+                    "name": "Ihre Wahl",
+                    "options": {
+                        "Pizza - Margherita": {"price": "0,00"}, "Pizza - Prosciutto": {"price": "0,00"}, "Pizza - Salami": {"price": "0,00"}, "Pizza - Cipolla": {"price": "0,00"}, "Pizza - Spinaci": {"price": "0,00"}, "Pizza - Funghi": {"price": "0,00"}, "Pizza - Broccoli": {"price": "0,00"}, "Pizza - Tonno": {"price": "0,00"}, "Pizza - Tonno Spezial": {"price": "0,00"}, "Pizza - Napoli": {"price": "0,00"}, "Pizza - Prosciutto Funghi": {"price": "0,00"}, "Pizza - Bacon": {"price": "0,00"}, "Pizza - Tonno Paprika": {"price": "0,00"}, "Pizza - Valentina": {"price": "0,00"}, "Pizza - Diavolo": {"price": "0,00"}, "Pizza - Inferno": {"price": "0,00"}, "Pizza - Hawaii": {"price": "0,00"}, "Pizza - Mista": {"price": "0,00"}, "Pizza - 4 Jahreszeiten": {"price": "0,00"}, "Pizza - Bari": {"price": "0,00"}, "Pizza - Calzone": {"price": "0,00"}, "Pizza - Scampi": {"price": "0,00"}, "Pizza - Salmone": {"price": "0,00"}, "Pizza - Frutti di Mare": {"price": "0,00"}, "Pizza - Grotta di Mare": {"price": "0,00"}, "Pizza - Mozzarella": {"price": "0,00"}, "Pizza - Vegetaria": {"price": "0,00"}, "Pizza - Romantika": {"price": "0,00"}, "Pizza - Italia": {"price": "0,00"}, "Pizza - Toscana": {"price": "0,00"}, "Pizza - Bolognese": {"price": "0,00"}, "Pizza - Bolognese Spezial": {"price": "0,00"}, "Pizza - Capricciosa": {"price": "0,00"}, "Pizza - Quattro-Formaggi": {"price": "0,00"}, "Pizza - Sucuk": {"price": "0,00"}, "Pizza - Hollandaise": {"price": "0,00"}, "Pizza - Ala-Turka": {"price": "0,00"}, "Pizza - Chef": {"price": "0,00"}, "Pizza - Gyros": {"price": "0,00"}, "Pizza - Deluxe": {"price": "0,00"}, "Pizza - Serrano": {"price": "0,00"}, "Pizza - Pollo Verdura": {"price": "0,00"}, "Pizza - Indiana": {"price": "0,00"}, "Pizza - Numex": {"price": "0,00"}, "Pizza - Rustika": {"price": "0,00"}, "Pizza - Boston": {"price": "0,00"}, "Pizza - Ufo": {"price": "0,00"}, "Pizza - Borussia": {"price": "0,00"}, "Pizza - Rex": {"price": "0,00"}, "Pizza - Verna": {"price": "0,00"}, "Pizza - Siciliana": {"price": "0,00"}, "Pizza - Kabara": {"price": "0,00"}, "Pizza - Mafia": {"price": "0,00"}, "Pizza - Milano": {"price": "0,00"}, "Pizza - Carciofini": {"price": "0,00"},
+                        "PASTA - Sauce Vedura": {"price": "0,00"}, "PASTA - sauce Bolognese": {"price": "0,00"}, "PASTA - Napolisauce": {"price": "0,00"}, "PASTA - Funghi": {"price": "0,00"}, "PASTA - Sauce Carbonara": {"price": "0,00"}, "PASTA - Frutti di Mare": {"price": "0,00"}, "PASTA - Matriciana": {"price": "0,00"}, "PASTA - AL Gamberetti": {"price": "0,00"}, "PASTA - AL Tonno": {"price": "0,00"}, "PASTA - Borussia": {"price": "0,00"}, "PASTA - Valentina": {"price": "0,00"}, "PASTA - Rimini": {"price": "0,00"}, "PASTA - Alla Panna": {"price": "0,00"}, "PASTA - Stella": {"price": "0,00"}, "PASTA - Broccoli": {"price": "0,00"}, "PASTA - Salmone": {"price": "0,00"}, "PASTA - Gorgonzola": {"price": "0,00"}, "PASTA - Curry": {"price": "0,00"}, "PASTA - Di Pollo": {"price": "0,00"}, "PASTA - Hawaii": {"price": "0,00"}, "PASTA - Paesana": {"price": "0,00"}, "PASTA - Hähnchen-Broccoli": {"price": "0,00"}, "PASTA - Alla Fiorentina": {"price": "0,00"}, "PASTA - Lasagne": {"price": "0,00"}, "SALATE - Salat Verde": {"price": "0,00"}, "SALATE - Gemischter Salat": {"price": "0,00"}, "SALATE - Capricciosa Salat": {"price": "0,00"}, "SALATE - Lachsfilet Salat": {"price": "0,00"}, "SALATE - Emiri Salat": {"price": "0,00"}, "SALATE - Salat Tonno": {"price": "0,00"}, "SALATE - Italia Salat": {"price": "0,00"}, "SALATE - Hawaii Salat": {"price": "0,00"}, "SALATE - Pescator Salat": {"price": "0,00"}, "SALATE - Bella Salat": {"price": "0,00"}, "SALATE - Paesana Salat": {"price": "0,00"}, "SALATE - Valentina Salat": {"price": "0,00"}, "SALATE - Kabara Salat": {"price": "0,00"}, "SALATE - Roma Salat": {"price": "0,00"}
+                    }
+                }
+            },
+            "desO": "Jede Pizze 28cm, Nudeln oder Salat",
+            "desT": "",
+            "zusatz": "",
+            "section": "ANGEBOTE"
+        },
         "1": {
             "name": "Margherita",
             "price": {
@@ -4072,6 +4092,7 @@
     },
     "sections": {
         "mdesc": {  
+         
             "PASTA": {
                 "section": "PASTA",
                 "des": "",
@@ -4130,6 +4151,11 @@
                 "section": "Beilagen und Desserts",
                 "des": "",
                 "img": "DESSERTS"
+            },
+            "ANGEBOTE": {
+                "section": "ANGEBOTE",
+                "des": "",
+                "img": "ANGEBOTE"
             }
         }
     },

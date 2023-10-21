@@ -38,6 +38,8 @@ const CheckIfSomeFieldsAreEmpty=()=>{
     alert("Bitte tragen Sie einen Handynummer ein")
     return false
   }    
+  
+  
 }
 const GotPlace=(place,textabohlen,mSetContainer,setMsgError,setMainContainer,menu)=> {
    const  setCursorAfterWord=(word)=> {
@@ -60,6 +62,7 @@ const GotPlace=(place,textabohlen,mSetContainer,setMsgError,setMainContainer,men
        // Move the cursor one position after the whitespace
        input.setSelectionRange(cursorPosition + 1, cursorPosition + 1);
        const notification = document.getElementById('notification');
+       notification.innerText="Bitte tragen Sie Eine Hausenummer ein, und dann wählen Sie die gewünschte Adresse"
        notification.style.display = 'block';
  
        
@@ -111,7 +114,7 @@ const GotPlace=(place,textabohlen,mSetContainer,setMsgError,setMainContainer,men
                              case "postal_code":
                                obj["zipc"]=place.address_components[ii].long_name;
                              break;
-                             case "administrative_area_level_3":
+                             case "locality":
                                obj["city"]=place.address_components[ii].long_name;
                                  break;
                      }
@@ -145,6 +148,9 @@ const GotPlace=(place,textabohlen,mSetContainer,setMsgError,setMainContainer,men
              {
                  if(!isAllowedDistance)
                  {
+                  const notification = document.getElementById('notification');
+                  notification.innerText="Die eingetragene Adresse hat mehr als "+lastAvailabeDistance +"km abstand, Tragen Sie bitte eine andere Adresse"
+                  notification.style.display = 'block';
                    setMsgError("Die eingetragene Adresse hat mehr als "+lastAvailabeDistance +"km abstand, Tragen Sie bitte eine andere Adresse");
                    return false
                  }

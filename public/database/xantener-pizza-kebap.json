@@ -2623,9 +2623,17 @@
             }
         }
     },
-    "staticValue": {
+    "staticValue": {        
+        "printer":{
+            "count":1,
+            "style":{
+                "font-table":"0.8rem",
+                "font-table-detail":"0.7rem",
+                "print-version":"1"
+            }
+        },
         "logo": "Xantener Pizza & Kebap",
-        "logoimg":"",
+        "logoimgg":"",
         "key": "xantener-pizza-kebap",
         "paymentmethod":{"bar":{"name":"Bar","id":"bar"}},
         "rabat": "",
@@ -2671,7 +2679,7 @@
                     "min": 0
                 }
             },
-            "monday": {
+            "mondayy": {
                 "opentime": {
                     "hour": 12,
                     "min": 30

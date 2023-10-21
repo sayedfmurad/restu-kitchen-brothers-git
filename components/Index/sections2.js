@@ -216,7 +216,7 @@ export  function IndexPage({menu}) {
           });
         }
         trows.push(
-              <div style={{"min-height":"35rem"}} id={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} className="pt-5  text-white" >
+              <div  id={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} className="pt-5  text-white" >
                 <div className='a-item  a-item-2' style={{"height":`${heightsection}`,"backgroundImage":`url(Images/${imgg}.jpeg)`}}>
                   <div  class="a-sub">{l}</div>
                   </div>
