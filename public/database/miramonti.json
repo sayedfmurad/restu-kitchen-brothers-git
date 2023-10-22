@@ -4949,6 +4949,13 @@
     },
     "rabat": "5",
     "staticValue": {
+        "printer":{
+            "style":{
+                "font-table":"0.8rem",
+                "font-table-detail":"0.7rem",
+                "print-version":"1"
+            }
+        }, 
         "logo": "Miramonti",
         "key": "miramonti",
         "pc":"AW5aDBSoIkAJhNDqaIHqZnaICRg-NXolWA3z0OjxWrxipeS0XUFOalpi89vg_VhkGOHXi3uvIXVgdsQQ",

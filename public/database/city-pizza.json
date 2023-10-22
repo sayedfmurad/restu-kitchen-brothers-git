@@ -7944,6 +7944,13 @@
         }
     },
     "staticValue": {
+        "printer":{
+            "style":{
+                "font-table":"0.8rem",
+                "font-table-detail":"0.7rem",
+                "print-version":"1"
+            }
+        },
         "ps":"wrjCrMOhwpvCusKzw53Cp8OgwrTClcOdwrTDkMK6wqLCucOHw5LDh8ODw4vDh8Kqw4DDksOWw6vCv8Ojw5nCtMKXw4LDoMOfwqnCmsOVwpTCt8K4w6HDlsOCwrTDj8OVwpTDmcK5w5fDp8OvwrTCl8Okwr7CscOLw6PCnMOcw4nDhsOawqfCpcOewqDDhcKow4XCksKwwpTDnsOHwrnDqA==",
         "pc":"AUKB9t9A4S7XimlCOOXpP-7hLyAGpjwVEg2ULF123jGP2SIL9dl82RpoRhdMkoD-eVaNjjGRoXeLQW33",
         "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/city-pizza.json",

@@ -980,6 +980,13 @@
         }
     },
     "staticValue": {
+        "printer":{
+            "style":{
+                "font-table":"0.8rem",
+                "font-table-detail":"0.7rem",
+                "print-version":"1"
+            }
+        },
         "ac": "iahkt304zbv5emp",
         "logo": "Sushi Kayo",
         "key": "sushi-kayo",    

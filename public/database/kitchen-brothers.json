@@ -5025,6 +5025,13 @@
         }
     },
     "staticValue": {
+        "printer":{
+            "style":{
+                "font-table-detail":"0.6rem",
+                "font-table":"0.8rem",
+                "print-version":"1"
+            }
+        },
         "alerts":[
                 {"text":"Kitchen Brothers, Konstantinstraße 87, 41238 Mönchengladbach",
                  "class":"alert alert-warning"}

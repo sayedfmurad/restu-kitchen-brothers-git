@@ -11352,6 +11352,13 @@
         }
     },
     "staticValue": {
+        "printer":{
+            "style":{
+                "font-table":"0.8rem",
+                "font-table-detail":"0.7rem",
+                "print-version":"1"
+            }
+        },
         "logo": "Pizzeria Mira Mare 1",
         "key": "miramare1",   
         "taxid":"121/5248/6784",

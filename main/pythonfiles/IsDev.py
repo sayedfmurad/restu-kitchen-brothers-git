@@ -62,8 +62,19 @@ def PrepairDB2_Old(folder_path,filename):
         json.dump(restuses, f, ensure_ascii=False, indent=4)
 
 def PrepairDB3(data):
-    
-    return data
+    for m in data["product"]:
+        if "options" in data["product"][m]:            
+            for j in data["product"][m]["options"]:
+                if j != data["product"][m]["options"][j]["name"]:
+                    raise   ValueError(data["staticValue"]["key"],"   Nr ",m,"  Error Option Matching")
+    try:
+        data["b"]["c"]
+        data["staticValue"]["printer"]["style"]
+        data["staticValue"]["printer"]["style"]["font-table"]
+        data["staticValue"]["printer"]["style"]["font-table-detail"]
+        data["staticValue"]["printer"]["style"]["print-version"]
+    except Exception as ee:
+        raise ValueError(data["staticValue"]["key"],ee)
 def PrepairDB2(folder_path,filename):
     objj = filename.split(".")[0]  
     with open(folder_path+"/"+ filename, 'r+',encoding='utf-8') as f:
