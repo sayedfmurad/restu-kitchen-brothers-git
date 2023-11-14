@@ -23,9 +23,9 @@
         "1": {
             "name": "Margherita",
             "price": {
-                "24cm": "5,00",
-                "28cm": "6,00",
-                "38cm": "12,50"
+                "24cm": "7,00",
+                "28cm": "8,00",
+                "38cm": "14,00"
             },
             "desO": "Tomatensoße mit Käse",
             "desT": "",
@@ -35,9 +35,9 @@
         "2": {
             "name": "Prosciutto",
             "price": {
-                "24cm": "5,50",
-                "28cm": "7,00",
-                "38cm": "14,00"
+                "24cm": "7,50",
+                "28cm": "9,00",
+                "38cm": "15,50"
             },
             "desO": "Formfleischvorderschinken",
             "desT": "",
@@ -47,9 +47,9 @@
         "3": {
             "name": "Salami",
             "price": {
-                "24cm": "5,50",
-                "28cm": "7,00",
-                "38cm": "14,00"
+                "24cm": "7,50",
+                "28cm": "9,00",
+                "38cm": "15,50"
             },
             "desO": "Salami",
             "desT": "",
@@ -59,9 +59,9 @@
         "4": {
             "name": "Cipolla",
             "price": {
-                "24cm": "5,50",
-                "28cm": "7,00",
-                "38cm": "13,50"
+                "24cm": "7,50",
+                "28cm": "9,00",
+                "38cm": "15,00"
             },
             "desO": "mit Zwiebeln",
             "desT": "",
@@ -71,9 +71,9 @@
         "5": {
             "name": "Spinaci",
             "price": {
-                "24cm": "5,50",
-                "28cm": "7,00",
-                "38cm": "14,00"
+                "24cm": "7,50",
+                "28cm": "9,00",
+                "38cm": "15,50"
             },
             "desO": "mit Spinat",
             "desT": "",
@@ -83,9 +83,9 @@
         "6": {
             "name": "Funghi",
             "price": {
-                "24cm": "5,50",
-                "28cm": "7,00",
-                "38cm": "14,00"
+                "24cm": "7,50",
+                "28cm": "9,00",
+                "38cm": "15,50"
             },
             "desO": "mit Champignons",
             "desT": "",
@@ -95,9 +95,9 @@
         "7": {
             "name": "Broccoli",
             "price": {
-                "24cm": "5,50",
-                "28cm": "7,00",
-                "38cm": "14,00"
+                "24cm": "7,50",
+                "28cm": "9,00",
+                "38cm": "15,50"
             },
             "desO": "mit Broccoli",
             "desT": "",
@@ -107,9 +107,9 @@
         "8": {
             "name": "Tonno",
             "price": {
-                "24cm": "6,50",
-                "28cm": "7,50",
-                "38cm": "16,00"
+                "24cm": "8,50",
+                "28cm": "9,50",
+                "38cm": "17,50"
             },
             "desO": "mit Thunfisch",
             "desT": "",
@@ -119,9 +119,9 @@
         "9": {
             "name": "Tonno Spezial",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "mit Thunfisch & Zwiebeln",
             "desT": "",
@@ -131,9 +131,9 @@
         "10": {
             "name": "Napoli",
             "price": {
-                "24cm": "6,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "8,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "mit Sardellen,Oliven & Knoblauch",
             "desT": "",
@@ -143,9 +143,9 @@
         "11": {
             "name": "Prosciutto Funghi",
             "price": {
-                "24cm": "6,00",
-                "28cm": "7,50",
-                "38cm": "15,40"
+                "24cm": "8,00",
+                "28cm": "9,50",
+                "38cm": "16,90"
             },
             "desO": "mit Formfleischvorderschinken, Champignons",
             "desT": "",
@@ -155,9 +155,9 @@
         "12": {
             "name": "Bacon",
             "price": {
-                "24cm": "6,50",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "8,50",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Bacon, Zweibeln",
             "desT": "",
@@ -167,9 +167,9 @@
         "13": {
             "name": "Tonno Paprika",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Thunfisch & Paprika",
             "desT": "",
@@ -179,9 +179,9 @@
         "14": {
             "name": "Valentina",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Formfleischvorderschinken Rührei",
             "desT": "",
@@ -191,9 +191,9 @@
         "15": {
             "name": "Diavolo",
             "price": {
-                "24cm": "6,00",
-                "28cm": "7,50",
-                "38cm": "15,40"
+                "24cm": "8,00",
+                "28cm": "9,50",
+                "38cm": "16,90"
             },
             "desO": "Salami, Peperoni",
             "desT": "",
@@ -203,9 +203,9 @@
         "16": {
             "name": "Inferno",
             "price": {
-                "24cm": "7,50",
-                "28cm": "8,50",
-                "38cm": "17,40"
+                "24cm": "9,50",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Champignons, Salami",
             "desT": "",
@@ -215,9 +215,9 @@
         "17": {
             "name": "Hawaii",
             "price": {
-                "24cm": "6,00",
-                "28cm": "7,50",
-                "38cm": "15,40"
+                "24cm": "8,00",
+                "28cm": "9,50",
+                "38cm": "16,90"
             },
             "desO": "Formfleischvorderschinken, Annans",
             "desT": "",
@@ -227,9 +227,9 @@
         "18": {
             "name": "Mista",
             "price": {
-                "24cm": "7,50",
-                "28cm": "8,50",
-                "38cm": "17,40"
+                "24cm": "9,50",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Formfleischvorderschinken, Salami, Thunfisch, Champignons",
             "desT": "",
@@ -239,9 +239,9 @@
         "19": {
             "name": "4 Jahreszeiten",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,50",
-                "38cm": "15,40"
+                "24cm": "9,00",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "mit Thunfisch, parkia ,schinken, Spinat",
             "desT": "",
@@ -251,9 +251,9 @@
         "20": {
             "name": "Bari",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,50",
-                "38cm": "17,40"
+                "24cm": "9,00",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Formfleischvorderschinken, Salami, Thunfisch, Artischocken",
             "desT": "",
@@ -263,7 +263,7 @@
         "21": {
             "name": "Calzone",
             "price": {
-                "stand": "8,00"
+                "stand": "10,00"
             },
             "desO": "Käse, Thunfisch, Champignons, Formfleischvorderschinken",
             "desT": "",
@@ -273,9 +273,9 @@
         "22": {
             "name": "Scampi",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Krabben",
             "desT": "",
@@ -285,9 +285,9 @@
         "23": {
             "name": "Salmone",
             "price": {
-                "24cm": "7,50",
-                "28cm": "8,50",
-                "38cm": "17,40"
+                "24cm": "9,50",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Spinat, Lachsfilet",
             "desT": "",
@@ -297,9 +297,9 @@
         "24": {
             "name": "Frutti di Mare",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,50",
-                "38cm": "17,40"
+                "24cm": "9,00",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Meeresfrüchte, Knoblauch",
             "desT": "",
@@ -309,9 +309,9 @@
         "25": {
             "name": "Grotta di Mare",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,50",
-                "38cm": "17,40"
+                "24cm": "9,00",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Meeresfrüchte, Thunfisch, Krabben",
             "desT": "",
@@ -321,9 +321,9 @@
         "26": {
             "name": "Mozzarella",
             "price": {
-                "24cm": "6,00",
-                "28cm": "7,50",
-                "38cm": "15,40"
+                "24cm": "8,00",
+                "28cm": "9,50",
+                "38cm": "16,90"
             },
             "desO": "Tomaten, Mozzarella",
             "desT": "",
@@ -333,9 +333,9 @@
         "27": {
             "name": "Vegetaria",
             "price": {
-                "24cm": "7,50",
-                "28cm": "8,50",
-                "38cm": "17,40"
+                "24cm": "9,50",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Champignons, Zwiebeln, Spinat, Broccoli",
             "desT": "",
@@ -345,9 +345,9 @@
         "28": {
             "name": "Romantika",
             "price": {
-                "24cm": "6,50",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "8,50",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Oliven, Krabben, Gorgonzolakäse",
             "desT": "",
@@ -357,9 +357,9 @@
         "29": {
             "name": "Italia",
             "price": {
-                "24cm": "6,00",
-                "28cm": "7,00",
-                "38cm": "14,40"
+                "24cm": "8,00",
+                "28cm": "9,00",
+                "38cm": "15,90"
             },
             "desO": "Salami, Zwiebeln, Spinat",
             "desT": "",
@@ -369,9 +369,9 @@
         "30": {
             "name": "Toscana",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Formfleischvorderschinken, Champions, Artischocken",
             "desT": "",
@@ -381,9 +381,9 @@
         "31": {
             "name": "Bolognese",
             "price": {
-                "24cm": "6,50",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "8,50",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Bolognesesauce, Käse",
             "desT": "",
@@ -393,9 +393,9 @@
         "32": {
             "name": "Bolognese Spezial",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Bolognesesauce, Spaghetti, Käse",
             "desT": "",
@@ -405,9 +405,9 @@
         "33": {
             "name": "Capricciosa",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,50",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Salami, Formfleischvorderschinken, Champignons, Spinat",
             "desT": "",
@@ -417,9 +417,9 @@
         "34": {
             "name": "Quattro-Formaggi",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Tomatensauce und 4 Käsesorten",
             "desT": "",
@@ -429,9 +429,9 @@
         "35": {
             "name": "Sucuk",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Knoblauchwurst",
             "desT": "",
@@ -441,9 +441,9 @@
         "36": {
             "name": "Hollandaise",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Formfleischvorderschinken, Broccoli, Hollandaisesauce",
             "desT": "",
@@ -453,9 +453,9 @@
         "37": {
             "name": "Ala-Turka",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,50",
-                "38cm": "17,40"
+                "24cm": "10,00",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Champignons, Broccoli, Hähnchenbrust",
             "desT": "",
@@ -465,9 +465,9 @@
         "38": {
             "name": "Chef",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Spinat, Oliven, Hirtenkäse",
             "desT": "",
@@ -477,9 +477,9 @@
         "39": {
             "name": "Gyros",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Schweinefleisch, Hirtenkäse",
             "desT": "",
@@ -489,9 +489,9 @@
         "40": {
             "name": "Deluxe",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Hähnchenbrustfilets, Ananas",
             "desT": "",
@@ -501,9 +501,9 @@
         "41": {
             "name": "Serrano",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Serrano-Schinken, Rucola, Parmesan",
             "desT": "",
@@ -513,9 +513,9 @@
         "42": {
             "name": "Pollo Verdura",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Hähnchenbrust, Spinat, Champignons",
             "desT": "",
@@ -525,9 +525,9 @@
         "43": {
             "name": "Indiana",
             "price": {
-                "24cm": "8,00",
-                "28cm": "8,40",
-                "38cm": "16,40"
+                "24cm": "10,00",
+                "28cm": "10,40",
+                "38cm": "17,90"
             },
             "desO": "Rinderhackfl., BBQ-Sauce, Zwiebeln, Mozzarella",
             "desT": "",
@@ -537,9 +537,9 @@
         "44": {
             "name": "Numex",
             "price": {
-                "24cm": "8,40",
-                "28cm": "9,40",
-                "38cm": "17,40"
+                "24cm": "10,40",
+                "28cm": "11,40",
+                "38cm": "18,90"
             },
             "desO": "BBQ-Sauce, Mozzarella, Rinderhackfleisch, Zwiebeln, Bacon",
             "desT": "",
@@ -549,9 +549,9 @@
         "45": {
             "name": "Rustika",
             "price": {
-                "24cm": "6,40",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "8,40",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Thunfisch, Paprika, Oliven",
             "desT": "",
@@ -561,9 +561,9 @@
         "46": {
             "name": "Boston",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Hähnchenbrust, Zwiebeln, Paprika, Mais",
             "desT": "",
@@ -573,9 +573,9 @@
         "47": {
             "name": "Ufo",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "17,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "18,90"
             },
             "desO": "Thunfisch, Paprika, Zwiebeln",
             "desT": "",
@@ -585,9 +585,9 @@
         "48": {
             "name": "Borussia",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "8,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Spinat, Zwiebeln",
             "desT": "",
@@ -597,9 +597,9 @@
         "49": {
             "name": "Rex",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Gyros, Zwiebeln, Hirtenkäse",
             "desT": "",
@@ -609,9 +609,9 @@
         "50": {
             "name": "Verna",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Thunfisch, Paprika, Krabben",
             "desT": "",
@@ -621,9 +621,9 @@
         "51": {
             "name": "Siciliana",
             "price": {
-                "24cm": "6,50",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "8,50",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Sardellen, Oiliven, Kapern",
             "desT": "",
@@ -633,9 +633,9 @@
         "52": {
             "name": "Kabara",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Spinat, Lachs, Zwiebeln",
             "desT": "",
@@ -645,9 +645,9 @@
         "53": {
             "name": "Mafia",
             "price": {
-                "24cm": "7,00",
-                "28cm": "8,00",
-                "38cm": "16,40"
+                "24cm": "9,00",
+                "28cm": "10,00",
+                "38cm": "17,90"
             },
             "desO": "Salami, Thunfisch, Zwiebeln",
             "desT": "",
@@ -657,9 +657,9 @@
         "54": {
             "name": "Milano",
             "price": {
-                "24cm": "7,50",
-                "28cm": "8,50",
-                "38cm": "17,40"
+                "24cm": "9,50",
+                "28cm": "10,50",
+                "38cm": "18,90"
             },
             "desO": "Thunfisch, Krabben, Artischocken",
             "desT": "",
@@ -669,9 +669,9 @@
         "55": {
             "name": "Carciofini",
             "price": {
-                "24cm": "5,50",
-                "28cm": "6,50",
-                "38cm": "13,40"
+                "24cm": "7,50",
+                "28cm": "8,50",
+                "38cm": "14,90"
             },
             "desO": "Artischocken",
             "desT": "",
@@ -681,7 +681,7 @@
         "56": {
             "name": "Pizzabrötchen",
             "price": {
-                "stand": "3,00"
+                "stand": "3,50"
             },
             "options": {
                 "Ihre Dip": {
@@ -705,7 +705,7 @@
         "57": {
             "name": "Gefüllte Pizzabrötchen",
             "price": {
-                "stand": "5,50"
+                "stand": "7,00"
             },
             "options": {
                 "Ihre Dip": {
@@ -729,7 +729,7 @@
         "58": {
             "name": "Gefüllte Pizzabrötchen",
             "price": {
-                "stand": "5,50"
+                "stand": "7,00"
             },
             "options": {
                 "Ihre Dip": {
@@ -753,7 +753,7 @@
         "59": {
             "name": "Gefüllte Pizzabrötchen",
             "price": {
-                "stand": "5,50"
+                "stand": "7,00"
             },
             "options": {
                 "Ihre Dip": {
@@ -777,7 +777,7 @@
         "60": {
             "name": "Gefüllte Pizzabrötchen",
             "price": {
-                "stand": "6,00"
+                "stand": "7,50"
             },
             "options": {
                 "Ihre Dip": {
@@ -801,7 +801,7 @@
         "61": {
             "name": "Gefüllte Pizzabrötchen",
             "price": {
-                "stand": "6,00"
+                "stand": "7,50"
             },
             "options": {
                 "Ihre Dip": {
@@ -825,7 +825,7 @@
         "62": {
             "name": "Gefüllte Pizzabrötchen",
             "price": {
-                "stand": "6,00"
+                "stand": "7,50"
             },
             "options": {
                 "Ihre Dip": {
@@ -849,7 +849,7 @@
         "63": {
             "name": "Käse Baguette",
             "price": {
-                "stand": "5,00"
+                "stand": "7,00"
             },
             "desO": "mit Salat, Tomaten, Gurken und Mais",
             "desT": "",
@@ -859,7 +859,7 @@
         "64": {
             "name": "Thunfisch Baguette",
             "price": {
-                "stand": "5,90"
+                "stand": "7,90"
             },
             "desO": "mit Salat, Tomaten, Ei und Mais",
             "desT": "",
@@ -869,7 +869,7 @@
         "65": {
             "name": "Salami Baguette",
             "price": {
-                "stand": "5,00"
+                "stand": "7,00"
             },
             "desO": "mit Salat, Tomaten und Mais",
             "desT": "",
@@ -879,7 +879,7 @@
         "66": {
             "name": "Formfleischvorderschinken Baguette",
             "price": {
-                "stand": "5,00"
+                "stand": "7,00"
             },
             "desO": "mit Salat, Tomaten und Mais",
             "desT": "",
@@ -889,7 +889,7 @@
         "67": {
             "name": "Hähnchen Baguette",
             "price": {
-                "stand": "5,90"
+                "stand": "7,90"
             },
             "desO": "mit Salat, Tomaten und Mais",
             "desT": "",
@@ -899,7 +899,7 @@
         "68": {
             "name": "Mozzarella Baguette",
             "price": {
-                "stand": "5,90"
+                "stand": "7,90"
             },
             "desO": "mit Salat, Tomaten und Mais",
             "desT": "",
@@ -909,7 +909,7 @@
         "69": {
             "name": "Sauce Vedura",
             "price": {
-                "stand": "6,90"
+                "stand": "8,90"
             },
             "desO": "mit Champignons, Broccoli, Paprika, Sahne- oder Napolisauce",
             "desT": "",
@@ -951,7 +951,7 @@
         "70": {
             "name": "sauce Bolognese",
             "price": {
-                "stand": "6,90"
+                "stand": "8,90"
             },
             "desO": "mit Rindergehacktes",
             "desT": "",
@@ -993,7 +993,7 @@
         "71": {
             "name": "Napolisauce",
             "price": {
-                "stand": "5,90"
+                "stand": "7,90"
             },
             "desO": "mit Tomatensauce",
             "desT": "",
@@ -1035,7 +1035,7 @@
         "72": {
             "name": "Funghi",
             "price": {
-                "stand": "6,50"
+                "stand": "8,50"
             },
             "desO": "mit Champignons, Sahnessauce",
             "desT": "",
@@ -1077,7 +1077,7 @@
         "73": {
             "name": "Sauce Carbonara",
             "price": {
-                "stand": "7,00"
+                "stand": "9,00"
             },
             "desO": "mit Formfleischvorderschinken, Ei, Sahnesauce",
             "desT": "",
@@ -1119,7 +1119,7 @@
         "74": {
             "name": "Frutti di Mare",
             "price": {
-                "stand": "9,90"
+                "stand": "11,90"
             },
             "desO": "mit Meeresfrüchte, Napolisauce",
             "desT": "",
@@ -1161,7 +1161,7 @@
         "75": {
             "name": "Matriciana",
             "price": {
-                "stand": "7,00"
+                "stand": "9,00"
             },
             "desO": "mit Formfleischvorderschinken, Zwiebeln, Napolisauce",
             "desT": "",
@@ -1203,7 +1203,7 @@
         "76": {
             "name": "AL Gamberetti",
             "price": {
-                "stand": "9,90"
+                "stand": "11,90"
             },
             "desO": "mit Krabben, Sahnesauce",
             "desT": "",
@@ -1245,7 +1245,7 @@
         "77": {
             "name": "AL Tonno",
             "price": {
-                "stand": "7,00"
+                "stand": "9,00"
             },
             "desO": "mit Thunfisch, Napolisahnesauce",
             "desT": "",
@@ -1287,7 +1287,7 @@
         "78": {
             "name": "Borussia",
             "price": {
-                "stand": "7,50"
+                "stand": "9,50"
             },
             "desO": "mit Champignons, Thunfisch, Spinat, Napolisauce",
             "desT": "",
@@ -1329,7 +1329,7 @@
         "79": {
             "name": "Valentina",
             "price": {
-                "stand": "6,90"
+                "stand": "8,90"
             },
             "desO": "mit Formfleischvorderschinken, Champignons, Napolisahnesauce",
             "desT": "",
@@ -1371,7 +1371,7 @@
         "80": {
             "name": "Rimini",
             "price": {
-                "stand": "6,90"
+                "stand": "8,90"
             },
             "desO": "mit Champignons, formfleischvorderschinken, Sahnesauce",
             "desT": "",
@@ -1413,7 +1413,7 @@
         "81": {
             "name": "Alla Panna",
             "price": {
-                "stand": "6,50"
+                "stand": "8,90"
             },
             "desO": "mit Formfleischvorderschinken, Paprika, Broccoli, Sahne- oder Napolisauce",
             "desT": "",
@@ -1455,7 +1455,7 @@
         "82": {
             "name": "Stella",
             "price": {
-                "stand": "8,90"
+                "stand": "10,90"
             },
             "desO": "mit Hähnchen, Champignons, Napolisahnesauce",
             "desT": "",
@@ -1497,7 +1497,7 @@
         "83": {
             "name": "Broccoli",
             "price": {
-                "stand": "6,50"
+                "stand": "8,50"
             },
             "desO": "mit Brokkoli, Knoblauch, sahnesauce",
             "desT": "",
@@ -1539,7 +1539,7 @@
         "84": {
             "name": "Salmone",
             "price": {
-                "stand": "9,90"
+                "stand": "11,90"
             },
             "desO": "mit Lachsstück, Sahnesauce",
             "desT": "",
@@ -1581,7 +1581,7 @@
         "85": {
             "name": "Gorgonzola",
             "price": {
-                "stand": "6,90"
+                "stand": "9,90"
             },
             "desO": "mit Gorgonzola-Käse, Sahnesauce",
             "desT": "",
@@ -1623,7 +1623,7 @@
         "86": {
             "name": "Curry",
             "price": {
-                "stand": "8,90"
+                "stand": "10,90"
             },
             "desO": "mit Hähnchenfleisch & Curry-Sahnesauce",
             "desT": "",
@@ -1665,7 +1665,7 @@
         "87": {
             "name": "Di Pollo",
             "price": {
-                "stand": "8,90"
+                "stand": "10,90"
             },
             "desO": "mit Hähnchenfleisch, Spinat, Sahnesauce",
             "desT": "",
@@ -1707,7 +1707,7 @@
         "88": {
             "name": "Hawaii",
             "price": {
-                "stand": "7,50"
+                "stand": "9,50"
             },
             "desO": "mit Formfleischvorderschinken, Ananas, Sahnesauce, mit Käse überbacken",
             "desT": "",
@@ -1749,7 +1749,7 @@
         "89": {
             "name": "Paesana",
             "price": {
-                "stand": "6,90"
+                "stand": "8,90"
             },
             "desO": "mit Paprika, Zwiebeln, Bolognese",
             "desT": "",
@@ -1791,7 +1791,7 @@
         "90": {
             "name": "Hähnchen-Broccoli",
             "price": {
-                "stand": "8,90"
+                "stand": "10,90"
             },
             "desO": "mit Hähnchen, Broccoli, Sahnesauce",
             "desT": "",
@@ -1833,7 +1833,7 @@
         "91": {
             "name": "Alla Fiorentina",
             "price": {
-                "stand": "7,50"
+                "stand": "9,50"
             },
             "desO": "mit Spinat, Gorgonzola, Sahnesauce",
             "desT": "",
@@ -1875,7 +1875,7 @@
         "92": {
             "name": "Lasagne",
             "price": {
-                "stand": "6,90"
+                "stand": "10,90"
             },
             "desO": "mit Fleischsauce, überbacken",
             "desT": "",
@@ -1917,7 +1917,7 @@
         "93": {
             "name": "Kartoffelauflauf",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "mit Broccoli, fr. Champignons, Sahnesauce, überbacken",
             "desT": "",
@@ -1927,7 +1927,7 @@
         "94": {
             "name": "Kartoffelauflauf Della Casa",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "mit Formfleischvorderschinken, Paprika, Bolognese",
             "desT": "",
@@ -1937,7 +1937,7 @@
         "95": {
             "name": "Kartoffelauflauf Hollandaise",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "mit Hähnchenbrust, Broccoli, Paprika, Käse, überbacken",
             "desT": "",
@@ -1947,7 +1947,7 @@
         "96": {
             "name": "Lachs-Kartoffelauflauf",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "mit Lachs, Kartoffeln, Zwiebeln, Sahnesauce, Käse, überbacken",
             "desT": "",
@@ -1957,7 +1957,7 @@
         "97": {
             "name": "Salat Verde",
             "price": {
-                "stand": "4,90"
+                "stand": "6,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -1987,7 +1987,7 @@
         "98": {
             "name": "Gemischter Salat",
             "price": {
-                "stand": "5,90"
+                "stand": "7,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2017,7 +2017,7 @@
         "99": {
             "name": "Capricciosa Salat",
             "price": {
-                "stand": "7,90"
+                "stand": "9,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2047,7 +2047,7 @@
         "100": {
             "name": "Lachsfilet Salat",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2077,7 +2077,7 @@
         "101": {
             "name": "Emiri Salat",
             "price": {
-                "stand": "7,50"
+                "stand": "9,00"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2107,7 +2107,7 @@
         "102": {
             "name": "Salat Tonno",
             "price": {
-                "stand": "7,50"
+                "stand": "9,00"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2137,7 +2137,7 @@
         "103": {
             "name": "Italia Salat",
             "price": {
-                "stand": "7,50"
+                "stand": "9,00"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2167,7 +2167,7 @@
         "104": {
             "name": "Hawaii Salat",
             "price": {
-                "stand": "6,90"
+                "stand": "8,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2197,7 +2197,7 @@
         "105": {
             "name": "Pescator Salat",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2227,7 +2227,7 @@
         "106": {
             "name": "Bella Salat",
             "price": {
-                "stand": "7,90"
+                "stand": "9,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2257,7 +2257,7 @@
         "107": {
             "name": "Paesana Salat",
             "price": {
-                "stand": "7,90"
+                "stand": "9,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2287,7 +2287,7 @@
         "108": {
             "name": "Valentina Salat",
             "price": {
-                "stand": "7,50"
+                "stand": "9,00"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2317,7 +2317,7 @@
         "109": {
             "name": "Kabara Salat",
             "price": {
-                "stand": "8,90"
+                "stand": "10,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2347,7 +2347,7 @@
         "110": {
             "name": "Roma Salat",
             "price": {
-                "stand": "8,90"
+                "stand": "10,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -3975,7 +3975,7 @@
         }
     },
     "staticValue": { 
-        "printer":{
+       "printer":{
             "style":{
                 "font-table":"0.8rem",
                 "font-table-detail":"0.7rem",

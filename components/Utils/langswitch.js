@@ -125,17 +125,45 @@ ftos = (s)=>{
 }
 firstUpper =(s)=>
 {
-    return s.charAt(0).toUpperCase() + s.slice(1);
+    try {        
+        return s.charAt(0).toUpperCase() + s.slice(1);
+    } catch (error) {
+        return s
+    }
 }
 ClearAllData = ()=>
 {
     window.localStorage.clear()
 }
+checkOpenCloseStoreV2=(menu)=>{
+    if(process.browser)
+    {
+        var TimeN = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));
+        const day = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][TimeN.getDay()]      
+        for(var sections in menu["staticValue"]["opendaysV2"])
+        {
+        if(menu["staticValue"]["opendaysV2"][sections]["days"].includes(day))
+        for( var time in menu["staticValue"]["opendaysV2"][sections]["times"])
+        {
+            let daydd = menu["staticValue"]["opendaysV2"][sections]["times"][time]
+            var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),daydd["opentime"]["hour"],daydd["opentime"]["min"],0);    
+            var closeTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),daydd["closetime"]["hour"],daydd["closetime"]["min"],0);    
+            if(closeTime > TimeN && openTime < TimeN)      
+            return true;    
+        }
+      }    
+ return false;    
+}
+}
 checkOpenCloseStore=(menu)=>{
     if(process.browser)
     {
+        if("opendaysV2" in menu["staticValue"])
+        return this.checkOpenCloseStoreV2(menu)
+
       var TimeN = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));
       const day = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][TimeN.getDay()]      
+      
       for(var daydd in menu["staticValue"]["opendays"])
       if(day == daydd)
       {        
@@ -166,6 +194,8 @@ checkOpenCloseStore=(menu)=>{
 NextOpenTimeMsg=(menu)=>{
 if(process.browser)
     {
+        if("opendaysV2" in menu["staticValue"])
+        return this.NextOpenTimeMsgV2(menu)
 
         var TimeN = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));
         const listday=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
@@ -225,7 +255,7 @@ if(process.browser)
        if(out==="")
        {
         var datee = getNextDayOpen()
-        console.log(datee)
+        // console.log(datee)
         if(datee !== "")
         {            
             var hjkl = listdayD[datee.getDay()]
@@ -238,6 +268,73 @@ if(process.browser)
       }
       return ""
 }
+NextOpenTimeMsgV2=(menu)=>{
+    if(process.browser)
+        {            
+            var TimeN = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));
+            const listday=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+            const listdayD=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"]
+            const day = listday[TimeN.getDay()]      
+          const checkIfTimeisBeforeOpenTime=()=>{
+            for(var sections in menu["staticValue"]["opendaysV2"])
+            {
+            if(menu["staticValue"]["opendaysV2"][sections]["days"].includes(day))
+                for( var time in menu["staticValue"]["opendaysV2"][sections]["times"])
+                {
+                    let daydd = menu["staticValue"]["opendaysV2"][sections]["times"][time]
+                    var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),daydd["opentime"]["hour"],daydd["opentime"]["min"],0);                        
+                    if(openTime > TimeN) 
+                    {
+                        return "öffnet um "+this.getStringFormTimefromTimeStamp(openTime)+" Uhr"
+
+                    }
+                }
+            }
+           
+            return ""
+          }
+          const getNextDayOpen=()=>{
+            var DayFound = false
+            var addeddays = 0
+            for(var d=0;d<listday.length;d++)
+            {            
+                if(DayFound)        
+                {
+                    addeddays = addeddays+1
+                    if(listday[d] in menu["staticValue"]["opendays"]) 
+                    {
+                        var h = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][listday[d]]["opentime"]["hour"],menu["staticValue"]["opendays"][listday[d]]["opentime"]["min"],0)
+                        h.setDate(h.getDate() + addeddays);
+                        return h
+                    }           
+                }      
+    
+    
+                if(day==listday[d])
+                DayFound=true            
+                if(listday.length==(d+1))
+                d=0
+            }
+            return ""
+          }
+           var out = checkIfTimeisBeforeOpenTime()
+    
+           if(out==="")
+           {
+            var datee = getNextDayOpen()
+            // console.log(datee)
+            if(datee !== "")
+            {            
+                var hjkl = listdayD[datee.getDay()]
+                out = "öffnet am "+hjkl.substring(0,2)+" um "+this.getStringFormTimefromTimeStamp(datee)+" Uhr"            
+            }
+           }
+    
+    
+           return out
+          }
+          return ""
+    }
 getStringOpenCloseTimeStore=(type)=>
 {
     return menu["staticValue"][type]["hour"]+":"+

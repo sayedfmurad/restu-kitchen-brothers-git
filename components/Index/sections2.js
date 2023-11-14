@@ -40,7 +40,7 @@ function InitilaizeSection (setIsSearch) {
     document.getElementById('btn-close-AboutUsModal').click()
     if(document.getElementById('btn-close-ZusatzModal'))
     document.getElementById('btn-close-ZusatzModal').click()
-
+   
     if(setIsSearch)
     setIsSearch(false)
   };

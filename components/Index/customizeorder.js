@@ -284,8 +284,8 @@ export function IDisReady ({menu, id, orderid , orders}) {
 
         if(orderid in orders)
         setTimeout(() => {            
-            document.getElementById('fixedendidcart').click()   
-        }, 500);
+            document.getElementById('IdButtonCartFooter').click()   
+        }, 300);
                      
     }
     

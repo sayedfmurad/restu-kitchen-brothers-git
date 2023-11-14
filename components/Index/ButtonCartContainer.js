@@ -22,7 +22,8 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
     </span>
     </div>
      <div style={{"backgroundColor":"#fff",boxShadow:"0px -2px 4px rgba(0, 0, 0, 0.3)"}}  className={`col-12 d-flex justify-content-center p-3 ${Object.keys(or).length==0?"d-none":""}`} id="fixedendidcart">
-      <button  type="button"   
+      <button  type="button" 
+      id="IdButtonCartFooter"  
     onClick={()=>{
         setContainerCartModal(<></>)
       setTimeout(() => {
