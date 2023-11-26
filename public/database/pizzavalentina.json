@@ -1957,7 +1957,7 @@
         "97": {
             "name": "Salat Verde",
             "price": {
-                "stand": "6,40"
+                "stand": "5,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -1987,7 +1987,7 @@
         "98": {
             "name": "Gemischter Salat",
             "price": {
-                "stand": "7,40"
+                "stand": "6,40"
             },
             "options": {
                 "Ihr Lieblingsdressing": {
@@ -2377,7 +2377,7 @@
         "111": {
             "name": "Hamburger Einzeln",
             "price": {
-                "stand": "8,90"
+                "stand": "10,90"
             },
             "desO": "180g mit Burgersauce, Ketchup, Tomaten, Gurken, Salat",
             "desT": "",
@@ -2387,7 +2387,7 @@
         "111M": {
             "name": "Hamburger Menü",
             "price": {
-                "stand": "9,90"
+                "stand": "11,90"
             },
             "options": {
                 "Ihre Wahl": {
@@ -2411,7 +2411,7 @@
         "112": {
             "name": "Cheeseburger Einzeln",
             "price": {
-                "stand": "8,90"
+                "stand": "10,90"
             },
             "desO": "180g mit Cheddarkäse, Ketchup, Burgersauce, Tomaten, Gurken, Salat",
             "desT": "",
@@ -2421,7 +2421,7 @@
         "112M": {
             "name": "Cheeseburger Menü",
             "price": {
-                "stand": "9,90"
+                "stand": "11,90"
             },
             "options": {
                 "Ihre Wahl": {
@@ -2445,7 +2445,7 @@
         "113": {
             "name": "Bacon Chili Cheeseburger Einzeln",
             "price": {
-                "stand": "9,90"
+                "stand": "10,90"
             },
             "desO": "180g mit Cheddarkäse, Bacon, Burgersauce, Jalapenos, Salat",
             "desT": "",
@@ -2455,7 +2455,7 @@
         "113M": {
             "name": "Bacon Chili Cheeseburger Menü",
             "price": {
-                "stand": "10,90"
+                "stand": "11,90"
             },
             "options": {
                 "Ihre Wahl": {
@@ -2479,7 +2479,7 @@
         "114M": {
             "name": "Acadran burger Menü",
             "price": {
-                "stand": "9,90"
+                "stand": "11,90"
             },
             "options": {
                 "Ihre Wahl": {
@@ -2503,7 +2503,7 @@
         "114": {
             "name": "Acadran burger Einzeln",
             "price": {
-                "stand": "8,90"
+                "stand": "10,90"
             },
             "desO": "180g mit Barbecuesauce, Käse, Salat",
             "desT": "",
@@ -2513,7 +2513,7 @@
         "115": {
             "name": "Spicy American Einzeln",
             "price": {
-                "stand": "8,90"
+                "stand": "10,90"
             },
             "desO": "180g mit Cheddarkäse, Röstzwiebeln, Salat",
             "desT": "",
@@ -2523,7 +2523,7 @@
         "115M": {
             "name": "Spicy American Menü",
             "price": {
-                "stand": "9,90"
+                "stand": "11,90"
             },
             "options": {
                 "Ihre Wahl": {
@@ -2547,7 +2547,7 @@
         "116": {
             "name": "Switzerland Einzeln",
             "price": {
-                "stand": "8,90"
+                "stand": "10,90"
             },           
             "desO": "180g mit Cheddarkäse, gegrillte Zwiebeln, Champignons",
             "desT": "",
@@ -2557,7 +2557,7 @@
         "116M": {
             "name": "Switzerland Menü",
             "price": {
-                "stand": "9,90"
+                "stand": "11,90"
             },
             "options": {
                 "Ihre Wahl": {
@@ -2581,7 +2581,7 @@
         "117": {
             "name": "Schnitzel Wiener Art",
             "price": {
-                "stand": "8,90"
+                "stand": "10,40"
             },
             "options": {
                 "Ihre Wahl": {
@@ -2605,7 +2605,7 @@
         "118": {
             "name": "Schnitzel Jäger Art",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "",
             "desT": "",
@@ -2629,7 +2629,7 @@
         "119": {
             "name": "Schnitzel Zigeuner Art",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "",
             "desT": "",
@@ -2653,7 +2653,7 @@
         "120": {
             "name": "Schnitzel Zwiebel Art",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "",
             "desT": "",
@@ -2677,7 +2677,7 @@
         "121": {
             "name": "Schnitzel Hawaii Art",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "",
             "desT": "",
@@ -2701,7 +2701,7 @@
         "122": {
             "name": "Schnitzel Funghi Art",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "",
             "desT": "",
@@ -2725,7 +2725,7 @@
         "123": {
             "name": "Beef Chili Cheese Fries",
             "price": {
-                "stand": "8,90"
+                "stand": "10,40"
             },
             "desO": "mit Rinderhackfleisch, Jalapenos, Cheddarkäse, überbacken",
             "desT": "",
@@ -2735,7 +2735,7 @@
         "124": {
             "name": "Chicken Chili Cheese Fries",
             "price": {
-                "stand": "8,90"
+                "stand": "10,40"
             },
             "desO": "mit saftigen Hähnchenbrustfilet, Jalapenos, Cheddarkäse, überbacken",
             "desT": "",
@@ -2745,7 +2745,7 @@
         "125": {
             "name": "Vegetarier Chili Cheese Fries",
             "price": {
-                "stand": "8,90"
+                "stand": "10,40"
             },
             "desO": "mit Paprika, Champignons, Broccoli, Jalapenos, Cheddarkäse, überbacken",
             "desT": "",
@@ -2755,7 +2755,7 @@
         "126": {
             "name": "6 Chicken Nuggets",
             "price": {
-                "stand": "5,90"
+                "stand": "7,40"
             },
             "desO": "mit Pommes und Süß-Sauersauce",
             "desT": "",
@@ -2765,7 +2765,7 @@
         "127": {
             "name": "13 Chicken Nuggets",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "mit Pommes und Süß-Sauersauce",
             "desT": "",
@@ -2775,7 +2775,7 @@
         "128": {
             "name": "7 Chicken Wings",
             "price": {
-                "stand": "7,90"
+                "stand": "9,40"
             },
             "desO": "",
             "desT": "",
@@ -2785,7 +2785,7 @@
         "129": {
             "name": "7 Chicken wings",
             "price": {
-                "stand": "9,90"
+                "stand": "11,40"
             },
             "desO": "mit Pommes",
             "desT": "",
@@ -2944,6 +2944,56 @@
         }
     },
     "extra": {
+        "aioli": {
+            "section": [
+                "pizzen","salate"
+            ],
+            "stand": {
+                "price": "1,00",
+                "name": "Aioli"
+            },
+            "20cm": {
+                "price": "1,00",
+                "name": "Aioli"
+            },
+            "24cm": {
+                "price": "1,00",
+                "name": "Aioli"
+            },
+            "28cm": {
+                "price": "1,00",
+                "name": "Aioli"
+            },
+            "38cm": {
+                "price": "1,00",
+                "name": "Aioli"
+            }
+        },
+        "krauterbutter": {
+            "section": [
+                "pizzen","salate"
+            ],
+            "stand": {
+                "price": "1,00",
+                "name": "Kräuterbutter"
+            },
+            "20cm": {
+                "price": "1,00",
+                "name": "Kräuterbutter"
+            },
+            "24cm": {
+                "price": "1,00",
+                "name": "Kräuterbutter"
+            },
+            "28cm": {
+                "price": "1,00",
+                "name": "Kräuterbutter"
+            },
+            "38cm": {
+                "price": "1,00",
+                "name": "Kräuterbutter"
+            }
+        },
         "saucesharf": {
             "section": [
                 "pizzen"

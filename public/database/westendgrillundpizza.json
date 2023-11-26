@@ -955,7 +955,46 @@
             "desO": "sechs Sorten Ihrer Wahl",
             "desT": "",
             "zusatz": "A,G,C,1,2,8,11",
-            "section": "PIZZEN"
+            "section": "PIZZEN",
+            "options": {
+                "Ihrer 1 Wahl": {
+                    "showprice": false,
+                    "name": "Ihrer 1 Wahl",
+                    "options": 
+                    {"Ananas": {"price": "0,00"}, "Brocoli": {"price": "0,00"}, "Dönerfleisch": {"price": "0,00"}, "Ei": {"price": "0,00"}, "Hähnchenbrust": {"price": "0,00"}, "Knoblauch": {"price": "0,00"}, "Mozzarella": {"price": "0,00"}, "Paprika": {"price": "0,00"}, "Peperoni": {"price": "0,00"}, "Pilzen": {"price": "0,00"}, "Salami": {"price": "0,00"}, "Saucehallandaise": {"price": "0,00"}, "Schinken": {"price": "0,00"}, "Spaghetti": {"price": "0,00"}, "Spinat": {"price": "0,00"}, "Sucuk": {"price": "0,00"}, "Thunfisch": {"price": "0,00"}, "Tomaten": {"price": "0,00"}, "Käse": {"price": "0,00"}, "Zwiebeln": {"price": "0,00"}}
+                 },
+                "Ihrer 2 Wahl": {
+                    "showprice": false,
+                    "name": "Ihrer 2 Wahl",
+                    "options": 
+                    {"Ananas": {"price": "0,00"}, "Brocoli": {"price": "0,00"}, "Dönerfleisch": {"price": "0,00"}, "Ei": {"price": "0,00"}, "Hähnchenbrust": {"price": "0,00"}, "Knoblauch": {"price": "0,00"}, "Mozzarella": {"price": "0,00"}, "Paprika": {"price": "0,00"}, "Peperoni": {"price": "0,00"}, "Pilzen": {"price": "0,00"}, "Salami": {"price": "0,00"}, "Saucehallandaise": {"price": "0,00"}, "Schinken": {"price": "0,00"}, "Spaghetti": {"price": "0,00"}, "Spinat": {"price": "0,00"}, "Sucuk": {"price": "0,00"}, "Thunfisch": {"price": "0,00"}, "Tomaten": {"price": "0,00"}, "Käse": {"price": "0,00"}, "Zwiebeln": {"price": "0,00"}}
+                 },
+                "Ihrer 3 Wahl": {
+                    "showprice": false,
+                    "name": "Ihrer 3 Wahl",
+                    "options": 
+                    {"Ananas": {"price": "0,00"}, "Brocoli": {"price": "0,00"}, "Dönerfleisch": {"price": "0,00"}, "Ei": {"price": "0,00"}, "Hähnchenbrust": {"price": "0,00"}, "Knoblauch": {"price": "0,00"}, "Mozzarella": {"price": "0,00"}, "Paprika": {"price": "0,00"}, "Peperoni": {"price": "0,00"}, "Pilzen": {"price": "0,00"}, "Salami": {"price": "0,00"}, "Saucehallandaise": {"price": "0,00"}, "Schinken": {"price": "0,00"}, "Spaghetti": {"price": "0,00"}, "Spinat": {"price": "0,00"}, "Sucuk": {"price": "0,00"}, "Thunfisch": {"price": "0,00"}, "Tomaten": {"price": "0,00"}, "Käse": {"price": "0,00"}, "Zwiebeln": {"price": "0,00"}}
+                 },
+                "Ihrer 4 Wahl": {
+                    "showprice": false,
+                    "name": "Ihrer 4 Wahl",
+                    "options": 
+                    {"Ananas": {"price": "0,00"}, "Brocoli": {"price": "0,00"}, "Dönerfleisch": {"price": "0,00"}, "Ei": {"price": "0,00"}, "Hähnchenbrust": {"price": "0,00"}, "Knoblauch": {"price": "0,00"}, "Mozzarella": {"price": "0,00"}, "Paprika": {"price": "0,00"}, "Peperoni": {"price": "0,00"}, "Pilzen": {"price": "0,00"}, "Salami": {"price": "0,00"}, "Saucehallandaise": {"price": "0,00"}, "Schinken": {"price": "0,00"}, "Spaghetti": {"price": "0,00"}, "Spinat": {"price": "0,00"}, "Sucuk": {"price": "0,00"}, "Thunfisch": {"price": "0,00"}, "Tomaten": {"price": "0,00"}, "Käse": {"price": "0,00"}, "Zwiebeln": {"price": "0,00"}}
+                 },
+                "Ihrer 5 Wahl": {
+                    "showprice": false,
+                    "name": "Ihrer 5 Wahl",
+                    "options": 
+                    {"Ananas": {"price": "0,00"}, "Brocoli": {"price": "0,00"}, "Dönerfleisch": {"price": "0,00"}, "Ei": {"price": "0,00"}, "Hähnchenbrust": {"price": "0,00"}, "Knoblauch": {"price": "0,00"}, "Mozzarella": {"price": "0,00"}, "Paprika": {"price": "0,00"}, "Peperoni": {"price": "0,00"}, "Pilzen": {"price": "0,00"}, "Salami": {"price": "0,00"}, "Saucehallandaise": {"price": "0,00"}, "Schinken": {"price": "0,00"}, "Spaghetti": {"price": "0,00"}, "Spinat": {"price": "0,00"}, "Sucuk": {"price": "0,00"}, "Thunfisch": {"price": "0,00"}, "Tomaten": {"price": "0,00"}, "Käse": {"price": "0,00"}, "Zwiebeln": {"price": "0,00"}}
+                 },
+                "Ihrer 6 Wahl": {
+                    "showprice": false,
+                    "name": "Ihrer 6 Wahl",
+                    "options": 
+                    {"Ananas": {"price": "0,00"}, "Brocoli": {"price": "0,00"}, "Dönerfleisch": {"price": "0,00"}, "Ei": {"price": "0,00"}, "Hähnchenbrust": {"price": "0,00"}, "Knoblauch": {"price": "0,00"}, "Mozzarella": {"price": "0,00"}, "Paprika": {"price": "0,00"}, "Peperoni": {"price": "0,00"}, "Pilzen": {"price": "0,00"}, "Salami": {"price": "0,00"}, "Saucehallandaise": {"price": "0,00"}, "Schinken": {"price": "0,00"}, "Spaghetti": {"price": "0,00"}, "Spinat": {"price": "0,00"}, "Sucuk": {"price": "0,00"}, "Thunfisch": {"price": "0,00"}, "Tomaten": {"price": "0,00"}, "Käse": {"price": "0,00"}, "Zwiebeln": {"price": "0,00"}}
+                 }
+            }
+
         },
         "96": {
             "name": "Pizza Sucuk",
