@@ -45,7 +45,7 @@ const OpeningTimes = (scheduleData) => {
               </td>
             </tr>:<>
                 <tr key={day}>
-                    <td>{day.charAt(0).toUpperCase() + day.slice(1)}</td>
+                    <td>{daysOfWeekGerman[day]}</td>
                     <td className='text-danger'>Geschlossen</td>
                     <td></td>
                 </tr>

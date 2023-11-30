@@ -2189,27 +2189,27 @@
                 "pizzen"
             ],
             "stand": {
-                "price": "0,80",
+                "price": "0,00",
                 "name": "knoblauch"
             },
             "20cm": {
-                "price": "0,80",
+                "price": "0,00",
                 "name": "knoblauch"
             },
             "24cm": {
-                "price": "1,00",
+                "price": "0,00",
                 "name": "knoblauch"
             },
             "30cm": {
-                "price": "1,50",
+                "price": "0,00",
                 "name": "knoblauch"
             },
             "34cm": {
-                "price": "2,00",
+                "price": "0,00",
                 "name": "knoblauch"
             },
             "50cm": {
-                "price": "5,00",
+                "price": "0,00",
                 "name": "knoblauch"
             }
         },

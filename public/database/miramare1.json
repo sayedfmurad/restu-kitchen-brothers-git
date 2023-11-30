@@ -11477,7 +11477,8 @@
             "style":{
                 "font-table":"0.8rem",
                 "font-table-detail":"0.7rem",
-                "print-version":"1"
+                "print-version":"1",
+                "notshowfooter":""
             }
         },
         "logo": "Pizzeria Mira Mare 1",

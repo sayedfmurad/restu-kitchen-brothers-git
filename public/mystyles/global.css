@@ -30,8 +30,7 @@
 a{
     text-decoration: none !important;
 }
-.mbackground{
-    background-image: url("../Images/background.jpg");
+.mbackground{    
 }
 .specially{
     opacity: 0.7;
