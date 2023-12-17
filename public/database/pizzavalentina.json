@@ -4208,17 +4208,12 @@
                 "section": "Beilagen und Desserts",
                 "des": "",
                 "img": "DESSERTS"
-            },
-            "ANGEBOTE": {
-                "section": "ANGEBOTE",
-                "des": "",
-                "img": "ANGEBOTE"
             }
         }
     },
     "b": {
         "c": "-1001762084889"
     },
-    "rabat": "5",
+    "rabat": "10",
     "v": "4d92fa8f5b706e8cb6b1a62184310b1e5f615dac45ebccfe0ca7cd77cfc4537a"
 }
