@@ -515,6 +515,66 @@
             "zusatz": "1,7",
             "section": "PIZZEN"
         },
+        "pb2": {
+            "name": "Pizza Barbecue Bacon",
+            "price": {
+                "24cm": "7,00",
+                "30cm": "9,00",
+                "40cm": "17,00"
+            },
+            "desO": "mit knusprigem Bacon, Paprika und Barbecuesauce",
+            "desT": "",
+            "zusatz": "1,7",
+            "section": "PIZZEN"
+        },
+        "pb3": {
+            "name": "Pizza China",
+            "price": {
+                "24cm": "9,00",
+                "30cm": "11,00",
+                "40cm": "17,00"
+            },
+            "desO": "mit Hähnchenbrustfilet, Broccoli, Zwiebeln, Sesam und Teriyaki-Sauce",
+            "desT": "",
+            "zusatz": "1,7",
+            "section": "PIZZEN"
+        },
+        "pb4": {
+            "name": "Pizza Schinken",
+            "price": {
+                "24cm": "6,50",
+                "30cm": "9,00",
+                "40cm": "14,00"
+            },
+            "desO": "Wahl aus: Ø 24cm, Ø 30cm oder Ø 40cm.",
+            "desT": "",
+            "zusatz": "1,7",
+            "section": "PIZZEN"
+        },
+        "pb5": {
+            "name": "Calzone",
+            "price": {
+                "24cm": "7,50",
+                "30cm": "9,50",
+                "40cm": "14,50"
+            },
+            "desO": "Wahl aus: mit Ananas, mit Artischocken, mit Barbecuesauce, mit Basilikum-Pesto, mit Champignons und mehr.",
+            "desT": "",
+            "zusatz": "1,7",
+            "section": "PIZZEN"
+        },
+        "pb6": {
+            "name": "Pizza New York",
+            "price": {
+                "24cm": "6,50",
+                "30cm": "8,50",
+                "40cm": "13,50"
+            },
+            "desO": "mit Peperonisalami",
+            "desT": "",
+            "zusatz": "1,7",
+            "section": "PIZZEN"
+        },
         "P1": {
             "name": "Pasta Bolognese",
             "price": {
@@ -1133,6 +1193,7 @@
         },
         "R1": {
             "name": "Normal",
+            "showextra":"false",
             "price": {
                 "stand": "2,80"
             },

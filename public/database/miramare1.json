@@ -11590,6 +11590,7 @@
         },
         "opendaysV2":[
             {
+                
                 "days":["monday","tuesday","wednesday","thursday","friday"],
                 "times":[{
                             "opentime": {

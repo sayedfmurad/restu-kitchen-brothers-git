@@ -1,33 +1,33 @@
 {
-  "name": "restu-kitchen-brothers",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
-    "@react-google-maps/api": "^2.18.1",
-    "next": "^11.1.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-google-autocomplete": "^2.7.3",
-    "react-google-places-autocomplete": "^4.0.1",
-    "react-load-script": "^0.0.6"
-  },
-  "scripts": {
-    "kill": "python3 s.py kill",
-    "dev": "python3 s.py prepairdb && python3 s.py dev && next dev",
-    "build": "yarn config-static && npx next build && npx next export  ",
-    "start": "next start",
-    "cloud": "aws cloudfront create-invalidation --distribution-id EW42NP988OU7X --paths '/*'",
-    "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\"",
-    "db": "python3 s.py prepairdb && aws s3 sync ./public/database/ s3://angebote-restu/database/ --profile my",
-    "pf": "aws s3 sync ./public/ s3://angebote-restu/ --profile my",
-    "pindex": "aws s3 sync ./out/ s3://angebote-restu --profile my",
-    "pub": " yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
-  },
-  "s3path": "http://angebote-restu.s3-website.eu-central-1.amazonaws.com",
-  "server": {
-    "url": "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws"
-  },
-  "lang": "de-de",
-  "IsOut": true
+    "name": "restu-kitchen-brothers",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/free-solid-svg-icons": "^6.4.0",
+        "@react-google-maps/api": "^2.18.1",
+        "next": "^11.1.4",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-google-autocomplete": "^2.7.3",
+        "react-google-places-autocomplete": "^4.0.1",
+        "react-load-script": "^0.0.6"
+    },
+    "scripts": {
+        "kill": "python3 s.py kill",
+        "dev": "python3 s.py prepairdb && python3 s.py dev && next dev",
+        "build": "yarn config-static && npx next build && npx next export  ",
+        "start": "next start",
+        "cloud": "aws cloudfront create-invalidation --distribution-id EW42NP988OU7X --paths '/*'",
+        "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\"",
+        "db": "python3 s.py prepairdb && aws s3 sync ./public/database/ s3://angebote-restu/database/ --profile my",
+        "pf": "aws s3 sync ./public/ s3://angebote-restu/ --profile my",
+        "pindex": "aws s3 sync ./out/ s3://angebote-restu --profile my",
+        "pub": " yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
+    },
+    "s3path": "http://angebote-restu.s3-website.eu-central-1.amazonaws.com",
+    "server": {
+        "url": "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws"
+    },
+    "lang": "de-de",
+    "IsOut": false
 }

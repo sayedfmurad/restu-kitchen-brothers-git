@@ -227,7 +227,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     var [spaterodernow,setspaterodernow] = useState(IsStoreOpenClose_Var?"d-none":"");
     const onChangeToAbohlen=()=>{
         document.getElementById("success-outlined-abholen").checked=true;
-        setdeliverytimes(<>{getTimesForDelivery(0)}</>) 
+        setdeliverytimes(<>{getTimesForDelivery(15)}</>) 
         settextabohlen(true)
         setspaterodernow("")
     }
@@ -235,7 +235,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
         if(IsStoreOpenClose_Var)
         setspaterodernow("d-none")
 
-        setdeliverytimes(<>{getTimesForDelivery(1)}</>) 
+        setdeliverytimes(<>{getTimesForDelivery(45)}</>) 
         settextabohlen(false)
         
         //TODO setItemsContainer(<Items mSetContainer={mSetContainer} textabohlen={textabohlen} menu={menu} />)
@@ -292,8 +292,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
         
        datee= ConvertToMinuten_0_15_30_45(datee)
 
-        datee.setHours(datee.getHours()+plustime)
-        
+        datee.setMinutes(datee.getMinutes()+plustime)
         ///////Prepair CloseTime
         var closeTime = new Date()  
         var openTime = new Date()    
@@ -333,15 +332,17 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
                 }   
              }
              else{
-                openTime.setHours(menu["staticValue"]["opendays"][day]["opentime"]["hour"]+1)
+                openTime.setHours(menu["staticValue"]["opendays"][day]["opentime"]["hour"])
                 openTime.setMinutes(menu["staticValue"]["opendays"][day]["opentime"]["min"])
                 closeTime.setHours(menu["staticValue"]["opendays"][day]["closetime"]["hour"])
                 closeTime.setMinutes(menu["staticValue"]["opendays"][day]["closetime"]["min"])
              }            
-        }   
-
+        }           
         if(openTime>datee)
-        datee = openTime;                    
+        {            
+            datee = openTime;                    
+            datee.setMinutes(datee.getMinutes()+plustime)            
+        }
     closeTime= ConvertToMinuten_0_15_30_45_ForCloseTime(closeTime)
 
     if (closeTime.getFullYear() === datee.getFullYear() && 
@@ -361,7 +362,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     times.pop()
        return times
     }
-    var [deliverytimes,setdeliverytimes] = useState(getTimesForDelivery(1));            
+    var [deliverytimes,setdeliverytimes] = useState(getTimesForDelivery(45));            
      
     
     return <>

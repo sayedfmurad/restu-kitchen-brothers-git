@@ -289,7 +289,6 @@ export function IDisReady ({menu, id, orderid , orders}) {
                      
     }
     
-
     return <>
        <div class="modal-header text-whitee">  
        <h3 className='m-0'>{menu["product"][id]["name"]}</h3>                                
@@ -304,7 +303,9 @@ export function IDisReady ({menu, id, orderid , orders}) {
 
 <div className='row' style={{"backgroundColor":"rgb(242 242 242)",padding:"30px 15px 30px 15px"}}>
 <OptionsComponent updatePrice={updatePrice} menu={menu} id={id} orderid={orderid} or={orders}/>
-<ExtraComponent MyLang={MyLang} setextra={setextra} extra={extra} updatePrice={updatePrice} type={type} menu={menu} id={id} orderid={orderid} or={orders}/>
+{!("showextra" in menu["product"][id])&&
+    <ExtraComponent MyLang={MyLang} setextra={setextra} extra={extra} updatePrice={updatePrice} type={type} menu={menu} id={id} orderid={orderid} or={orders}/>}
+
 <MsgComponent MyLang={MyLang} orderid={orderid} orders={orders}/>
 </div>
 <br/>

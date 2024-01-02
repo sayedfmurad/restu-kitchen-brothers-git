@@ -36,7 +36,7 @@ IsPaymentSuccess=()=>{
         if(document.getElementById("ShowSuccessMyOrder"))
         document.getElementById("ShowSuccessMyOrder").classList.remove("d-none")
 
-        MainOrders[LastOrderId]["paid"]=true
+        MainOrders[LastOrderId]["showBrowserPaid"]=true
         window.localStorage.setItem("mainorder",JSON.stringify(MainOrders))
     }
 

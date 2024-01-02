@@ -72,7 +72,8 @@ export function Orders ({menu}) {
         var orders = CheckingIftoSend()
 
         var mrows = []    
-        for(var lll in orders)        
+        for(var lll in orders)   
+        if("showBrowserPaid" in orders[lll] || orders[lll]["paid"])     
         {        
         var or=orders[lll]   
         var crows = [];
