@@ -109,6 +109,7 @@ export  function IndexPage({menu}) {
   const [Searchrows,setSearchrows]=useState(<></>)
   const [IsSearch,setIsSearch]=useState(false)
   menu["setContainerCartModal"]=setContainerCartModal
+  menu["setContainerCustimizeModal"]=setContainerCustimizeModal
   
 
   
@@ -348,8 +349,8 @@ export  function IndexPage({menu}) {
     
 
 
-    <MModal idd="CustomizeModal" contaienrr={ContainerCustimizeModal} />
     <MModal idd="CartModal" contaienrr={ContainerCartModal} />
+    <MModal idd="CustomizeModal" contaienrr={ContainerCustimizeModal} />
     <MModal idd="MyOrderModal" contaienrr={ContainerMyOrderModal} />
     <MModal idd="AboutUsModal" contaienrr={<Aboutus menu={menu} />} />
     <MModal idd="ZusatzModal" contaienrr={<ZusatzStoffe menu={menu} />} />

@@ -1,11 +1,7 @@
-import Head from 'next/head'
 import langswitch from '../Utils/langswitch'
-import MyNavbar from "../TopBar/TobBar"
 import hash from "../Utils/object_hash"
 import React, { useState, useEffect } from 'react';
-import Sectionmenu from './sectionmenu';
-import Cart from '@/components/Index/cart';
-import ButtonCartContainer from "./ButtonCartContainer"
+import Cart from './cart';
 
 
 export function TypesComponent ({type, settype, menu, id}) {
@@ -193,11 +189,7 @@ export function OrderIDisReady ({id,menu,orders,MyLang,SetContainer}) {
     useEffect(()=>{
             if (id in orders)      
             {                                 
-                setid(orders[id]["id"])
-                // document.getElementById("navbarBack").onclick = () => {
-                //     langswitch.ChangeGetParameters("cart")                                           
-                //     SetContainer(<Cart mSetContainer={SetContainer} />)
-                //   };
+                setid(orders[id]["id"])                
                 setorderid(id)
                 return
             }
@@ -280,12 +272,15 @@ export function IDisReady ({menu, id, orderid , orders}) {
         var hashs = hash(order);                            
         orders[(orderid in orders?orderid:hashs)]=order
         window.localStorage.setItem("order",JSON.stringify(orders))
-        document.getElementById('btn-close-CustomizeModal').click()   
-
-        if(orderid in orders)
-        setTimeout(() => {            
-            document.getElementById('IdButtonCartFooter').click()   
+        
+        menu.setContainerCartModal(<></>)            
+        setTimeout(() => {
+            menu.setContainerCartModal(<Cart menu={menu}/>)
+        }, 150);
+        setTimeout(() => {
+            menu.setContainerCartModal(<Cart menu={menu}/>)
         }, 300);
+        document.getElementById('btn-close-CustomizeModal').click()   
                      
     }
     

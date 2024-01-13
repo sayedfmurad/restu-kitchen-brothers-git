@@ -27,7 +27,7 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
     onClick={()=>{
         setContainerCartModal(<></>)
       setTimeout(() => {
-        setContainerCartModal(<Cart setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal}/>)        
+        menu.setContainerCartModal(<Cart menu={menu}/>)        
         var myModal = new bootstrap.Modal(document.getElementById("CartModal"), {
           keyboard: true
         })    
@@ -61,7 +61,7 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
     </div>
     </div>
   }
-  export default function ButtonCartContainer ({menu,setContainerCartModal,setContainerCustimizeModal}) {  
+export default function ButtonCartContainer ({menu,setContainerCartModal,setContainerCustimizeModal}) {  
 
     const [orders, setorder] = useState("")
     useEffect(()=>{

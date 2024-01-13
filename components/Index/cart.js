@@ -146,26 +146,27 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
                 alert(MsgError)
                 return 
             }   
-            if(seladd != "")
-            {
-            var addobj = langswitch.getJson("address")
-            if(addobj.hasOwnProperty(seladd))  
-            startpay()
-            else
-            {
-                var elementt = document.getElementById("address-input")
-                elementt.scrollIntoView({ behavior: "smooth", block: "start" });
-                elementt.focus()   
-                alert(MyLang["Please Select an Address"])
-            }
-            }
-            else
-            {
 
-                var elementt = document.getElementById("address-input")
-                elementt.scrollIntoView({ behavior: "smooth", block: "start" });
-                elementt.focus()   
-                alert(MyLang["Please Select an Address"])
+
+            try {
+                var addobj = langswitch.getJson("address")
+                if(addobj.hasOwnProperty(seladd))
+                startpay()
+                else{
+                    throw new Error("No Address Found");
+                }
+            } catch (error) {
+                if(error.toLocaleString()=="Error: No Address Found")
+                {
+                    var elementt = document.getElementById("address-input")
+                    elementt.scrollIntoView({ behavior: "smooth", block: "start" });
+                    elementt.focus()   
+                    alert(MyLang["Please Select an Address"])
+                }
+                else{
+                    console.log(error);
+                }
+                
             }
         }
         if(document.getElementById("success-outlined-abholen").checked)  
@@ -238,7 +239,6 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
         setdeliverytimes(<>{getTimesForDelivery(45)}</>) 
         settextabohlen(false)
         
-        //TODO setItemsContainer(<Items mSetContainer={mSetContainer} textabohlen={textabohlen} menu={menu} />)
 
     }
     
@@ -406,12 +406,12 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     <PaymentMethods spaterodernow={spaterodernow} textabohlen={textabohlen} MsgError={MsgError} menu={menu} />
     </>
 }
-export function Container({setContainerCartModal,setContainerCustimizeModal,mSetContainer,or,menu}){
+export default function Container({menu}){
     const [MsgError,setMsgError] = useState("")
     var [textabohlen,settextabohlen] = useState(false);
-    const [AddAddressComponent,SetAddAddressComponent]=useState(<AddAddress textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMsgError={setMsgError}/>)
+    const [AddAddressComponent,SetAddAddressComponent]=useState(<AddAddress textabohlen={textabohlen} menu={menu} setMsgError={setMsgError}/>)
     useEffect(()=>{
-        SetAddAddressComponent(<AddAddress setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMsgError={setMsgError}/>)
+        SetAddAddressComponent(<AddAddress setContainerCustimizeModal={menu.setContainerCustimizeModal} setContainerCartModal={menu.setContainerCartModal} textabohlen={textabohlen} menu={menu} setMsgError={setMsgError}/>)
     },[textabohlen])
     
     return  <>   
@@ -440,38 +440,5 @@ export function Container({setContainerCartModal,setContainerCustimizeModal,mSet
 
 
 
-export function MenuIsReady ({mSetContainer,menu,setContainerCartModal,setContainerCustimizeModal}) {
-    const [mContainer,SetContainer] = useState(<></>)
-    useEffect(()=>{
-        langswitch.GetJsonM("order").then((orders)=>{
-            try {
-                SetContainer(<Container setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal} or={orders} menu={menu} mSetContainer={mSetContainer}/>)
-            } catch (error) {
-            console.log(error)    
-            window.location.href=langswitch.RouteP("")
-            }})
-    },[])
-    return (
-    <>
-    {mContainer}   
-    </>
-    );
-}
 
-export default function Cart({mSetContainer,setContainerCartModal,setContainerCustimizeModal}) {  
-    const [Container,SetContainer] = useState(<></>)
-    useEffect(()=>{
-        langswitch.GetJsonM("menu").then((menu)=>{
-            try {
-                SetContainer(<MenuIsReady setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu} mSetContainer={mSetContainer}/>)
-            } catch (error) {
-            console.log(error)    
-            window.location.href=langswitch.RouteP("")
-            }})
-    },[])
-    return (
-    <>    
-    {Container}   
-    </>
-    );
-}
+

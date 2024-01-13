@@ -1,12 +1,10 @@
-import React, { Component, useEffect } from 'react';
-import Script from 'react-load-script'
+import React, { useEffect } from 'react';
 import langswitch from "../Utils/langswitch"
 import hash from "../Utils/object_hash"
 import Items from "./Items"
-import Autocomplete from "react-google-autocomplete";
 import MModal from "../Index/mModal"
 import packagee from "../../package.json"
-
+import Cart from "../Index/cart"
 import { useState } from 'react';
 
 const CheckIfSomeFieldsAreEmpty=()=>{
@@ -41,7 +39,7 @@ const CheckIfSomeFieldsAreEmpty=()=>{
   
   return true
 }
-const GotPlace=(place,textabohlen,mSetContainer,setMsgError,setMainContainer,menu)=> {
+const GotPlace=(place,textabohlen,setMsgError,setMainContainer,menu)=> {
    const  setCursorAfterWord=(word)=> {
      const input = document.getElementById('address-input');
      const value = input.value;
@@ -182,7 +180,7 @@ const GotPlace=(place,textabohlen,mSetContainer,setMsgError,setMainContainer,men
                  addr[hashs] = obj;
                  window.localStorage.setItem("seladdress", hashs);
                  window.localStorage.setItem("address", JSON.stringify(addr));
-                 setMainContainer(<UserHasData textabohlen={textabohlen} menu={menu} setMainContainer={setMainContainer} setMsgError={setMsgError} mSetContainer={mSetContainer}/>)
+                 setMainContainer(<UserHasData textabohlen={textabohlen} menu={menu} setMainContainer={setMainContainer} setMsgError={setMsgError} />)
                return true
           
  
@@ -249,15 +247,21 @@ export function SearchforAddressModal ({menu}) {
                 window.localStorage.setItem("seladdress", hashs);
                 window.localStorage.setItem("address", JSON.stringify(addr));             
                 document.getElementById('btn-close-SearchforAddressModal').click()
-                setTimeout(() => {      
-                  document.getElementById('btn-close-CartModal').click()
+
+                menu.setContainerCartModal(<></>)
+                setTimeout(() => {                  
+                  menu.setContainerCartModal(<Cart menu={menu}/>)
                 }, 200);
-                setTimeout(() => {      
-                  document.getElementById('IdButtonCartFooter').click()
-                }, 400);
-                setTimeout(() => {      
-                  document.getElementById("MainIdd").scrollIntoView({ behavior: "instant", block: "end" });
-                }, 600);
+                
+                // setTimeout(() => {      
+                //   document.getElementById('btn-close-CartModal').click()
+                // }, 200);
+                // setTimeout(() => {      
+                //   document.getElementById('IdButtonCartFooter').click()
+                // }, 400);
+                // setTimeout(() => {      
+                //   document.getElementById("MainIdd").scrollIntoView({ behavior: "instant", block: "end" });
+                // }, 600);
  }
   const OnClickItem = (e)=>{ 
     try {
@@ -439,7 +443,7 @@ export function SearchforAddressModal ({menu}) {
 </>
 }
 
-export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer,mSetContainer}) {
+export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer}) {
   const MyLang = langswitch.langswitchs("addaddress");      
 
 
@@ -470,6 +474,7 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer,
   <div className='col-12'>
   <input className='input-group form-control form-select'
   placeholder='Such für eine Addresse'
+  id="address-input"
   // onFocus={CheckIfSomeFieldsAreEmpty}
   onClick={()=>{
   
@@ -501,7 +506,7 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer,
   }}
   apiKey="AIzaSyDmGxjz66ljEkb7bGc6zoD9iXYrZS0m_t4"
   onPlaceSelected={(place) => {
-    GotPlace(place,textabohlen,mSetContainer,setMsgError,setMainContainer,menu);
+    GotPlace(place,textabohlen,setMsgError,setMainContainer,menu);
   }}
 /> */}
 <div class="alert alert-danger mt-3" role="alert" id="notification" style={{display:"none"}}>
@@ -514,25 +519,25 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer,
   
 }
 
-export function UserHasNoData ({setContainerCustimizeModal,setContainerCartModal,textabohlen,menu,setMsgError,setMainContainer,mSetContainer}) {
+export function UserHasNoData ({setContainerCustimizeModal,setContainerCartModal,textabohlen,menu,setMsgError,setMainContainer}) {
   
   return <>
-  <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>  
+  <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} />  
   <div className={`list-group `}>                
   <div className='list-group-item mb-3 backgroundcart'>
-  <GotJsonDataMenu textabohlen={textabohlen} mSetContainer={mSetContainer} setMainContainer={setMainContainer}  setMsgError={setMsgError} menu={menu}/>
+  <GotJsonDataMenu textabohlen={textabohlen}  setMainContainer={setMainContainer}  setMsgError={setMsgError} menu={menu}/>
   </div>
   </div>
   </>
 }
 
-export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,textabohlen,menu,mSetContainer,setMainContainer,setMsgError}) {
+export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,textabohlen,menu,setMainContainer,setMsgError}) {
 
   var addresses = langswitch.getJson("address")
   var seladd = langswitch.getValue("seladdress")
 
       return<>
-          <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer}/>
+          <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} />
           <div className={`list-group`}>                
           <div className='list-group-item justify-content-between d-flex'>                      
           <div className="row">
@@ -553,7 +558,7 @@ export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,t
                   onClick={()=>{
                       window.localStorage.setItem("seladdress","")
                       window.localStorage.setItem("address","{}")
-                      setMainContainer(<UserHasNoData menu={menu} mSetContainer={mSetContainer} setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
+                      setMainContainer(<UserHasNoData menu={menu}  setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
                   }}
                   >ändern</button>
                   </span>
@@ -564,17 +569,17 @@ export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,t
           
 }
 
-export default ({setContainerCartModal,setContainerCustimizeModal,textabohlen,setMsgError,mSetContainer,menu})=>{  
+export default ({setContainerCartModal,setContainerCustimizeModal,textabohlen,setMsgError,menu})=>{  
   const [MainContainer, setMainContainer]=useState(<></>)
   var addresses = langswitch.getJson("address")
   var seladd = langswitch.getValue("seladdress")  
     if(seladd in addresses)
     {
-      return (<UserHasData setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} setMsgError={setMsgError} mSetContainer={mSetContainer} setMainContainer={setMainContainer}/>)
+      return (<UserHasData setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} setMsgError={setMsgError}  setMainContainer={setMainContainer}/>)
     }
     else
     {
-      return(<UserHasNoData setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} mSetContainer={mSetContainer} setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
+      return(<UserHasNoData setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu}  setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
     }
   
   

@@ -7,9 +7,9 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
         var tt = e.target.getAttribute("data-ordid");            
         var section = e.target.getAttribute("data-section");    
         // langswitch.ChangeGetParameters("CustomizeOrder:::"+section+":::"+tt)
-        document.getElementById("btn-close-CartModal").click()
+        // document.getElementById("btn-close-CartModal").click()
         setContainerCustimizeModal(<></>)
-      setTimeout(() => {
+        setTimeout(() => {        
         setContainerCustimizeModal(          
           <CustomizeOrder  menu={menu} id={tt} bnb={section}/>
         )
@@ -38,8 +38,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
         }else{
             setContainerCartModal(<></>)
             setTimeout(() => {
-                langswitch.ChangeGetParameters("cart")                                           
-                setContainerCartModal(<Cart setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal}/>)    
+                menu.setContainerCartModal(<Cart menu={menu}/>)    
             }, 50);    
         }                
     } 
