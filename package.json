@@ -14,7 +14,7 @@
     },
     "scripts": {
         "kill": "python3 s.py kill",
-        "dev": "python3 s.py prepairdb && python3 s.py dev && next dev",
+        "dev": "python3 s.py prepairdb && python3 s.py dev && next dev -p 3001",
         "build": "yarn config-static && npx next build && npx next export  ",
         "start": "next start",
         "cloud": "aws cloudfront create-invalidation --distribution-id EW42NP988OU7X --paths '/*'",

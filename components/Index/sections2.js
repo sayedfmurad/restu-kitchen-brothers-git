@@ -22,6 +22,13 @@ function InitilaizeSection (setIsSearch) {
 
 
   window.onpopstate = function(event) {
+    console.log(event);
+    try {      
+      document.getElementById('btn-close-AndroidInstallationModalLabel').click()
+      document.getElementById('btn-close-IOSInstallationModal').click()
+    } catch (error) {
+      console.log(error)
+    }
     if(document.getElementById('btn-close-CustomizeModal'))
     document.getElementById('btn-close-CustomizeModal').click()
     if(document.getElementById('btn-close-CartModal'))
@@ -101,7 +108,7 @@ export  function IndexPage({menu}) {
   const [rows,setrows]=useState(<></>)
   const [Searchrows,setSearchrows]=useState(<></>)
   const [IsSearch,setIsSearch]=useState(false)
-  
+  menu["setContainerCartModal"]=setContainerCartModal
   
 
   
