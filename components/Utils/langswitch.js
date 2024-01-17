@@ -1,3 +1,4 @@
+
 const staticVar = require("../../package.json");
 class langswitch{
 IsOutt = staticVar.IsOut ? ".html":"";
@@ -27,37 +28,7 @@ ChangeGetParameters=(value)=>{
         });
     }
   }
-IsPaymentSuccess=()=>{
-    var MainOrders = this.getJson("mainorder")
-    var LastOrderId = this.getValue("lastOrderId")
-    if(LastOrderId in MainOrders)
-    {
-        if(!MainOrders[LastOrderId]["paid"])
-        if(document.getElementById("ShowSuccessMyOrder"))
-        document.getElementById("ShowSuccessMyOrder").classList.remove("d-none")
 
-        MainOrders[LastOrderId]["showBrowserPaid"]=true
-        window.localStorage.setItem("mainorder",JSON.stringify(MainOrders))
-    }
-
-
-    if(document.getElementById("btn-close-CartModal"))
-    document.getElementById("btn-close-CartModal").click()
-    if(document.getElementById('fixedendidcart'))
-    document.getElementById('fixedendidcart').classList.add("d-none")
-    window.localStorage.setItem("order","{}");
-    window.localStorage.setItem("sumprice","0,00");
-
-
-    
-    
-
-    var myModal = new bootstrap.Modal(document.getElementById("MyOrderModal"), {
-            keyboard: true
-          })    
-          myModal.show()  
-        history.pushState({}, '');
-}
 GetJsonM=(m)=>{
     return new Promise((resolve, reject) => {
         var or = window.localStorage.getItem(m)

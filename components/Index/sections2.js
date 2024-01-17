@@ -9,7 +9,8 @@ import Aboutus from '@/components/Index/aboutus';
 import ZusatzStoffe from "./zusatzstoffe"
 import Datenschutz from "./privacypolicy"
 import Success from "./success"
-import MyOrders from './MyOrders';
+import MyOrders from "./MyOrders"
+import {IsPaymentSuccess} from "./MyOrders"
 let myModal;
 var NavBarTriggerIsClicked=false
 let AddedFlagModal=false
@@ -100,68 +101,106 @@ function InitilaizeSection (setIsSearch) {
   
 
 }
+const GetObjItem=(menu,key)=>{
+  var descriptionO = menu["product"][key]["desO"] !=undefined?<div className="col-12 ">{menu["product"][key]["desO"]}</div>:"";
+      return <div onClick={menu.ItemClicked} data-key={key}  className='rounded p-2 mb-2' style={{"min-height":"5rem",border:"0.7px solid rgb(77 77 77 / 40%)","cursor":"pointer",backgroundColor:"rgb(245 245 245)"}}>
+        <a                                                
+      className="col-lg-8 col-md-12 col-sm-12 col-xs-12 rounded">   
+            <div className='d-flex justify-content-between' style={{"color":"rgb(80 80 80)"}}>
+            <h5>{menu["product"][key]["name"]}&nbsp;
+            
+            <sup style={{"fontSize":"0.6rem"}}>{menu['product'][key]['zusatz']}
+            &nbsp;<span style={{"fontSize":"8px"}} className='rounded-2 p-1  bg-secondary text-white'>Nr.{key}</span>
+            </sup>
+            </h5>
+            <h5>{menu["product"][key]["price"][Object.keys(menu["product"][key]["price"])[0]]}&nbsp;&euro;
+            </h5>
+            </div>                                   
+          {descriptionO}
+        </a></div>
+}
 
-export  function IndexPage({menu}) {
+export function ModalsComponent ({menu}) {
   const [ContainerCustimizeModal,setContainerCustimizeModal]=useState(<></>)
   const [ContainerCartModal,setContainerCartModal]=useState(<></>)
-  const [ContainerMyOrderModal,setContainerMyOrderModal]=useState(<></>)
-  const [rows,setrows]=useState(<></>)
-  const [Searchrows,setSearchrows]=useState(<></>)
-  const [IsSearch,setIsSearch]=useState(false)
   menu["setContainerCartModal"]=setContainerCartModal
   menu["setContainerCustimizeModal"]=setContainerCustimizeModal
-  
+  menu.ItemClicked = (e)=>{
+    let a = e.currentTarget; // This will always give you the anchor element
 
-  
-
-    const ItemClicked = (e)=>{
-      let a = e.currentTarget; // This will always give you the anchor element
-
-      // Check if the clicked element is a child of the anchor
-      if (e.target !== a) {
-        // If it's a child, find the anchor element by traversing up the DOM hierarchy
-        while (e.target.parentNode !== a) {
-          e.target = e.target.parentNode;
-        }
-        // Update the event.currentTarget to the anchor element
-        e.currentTarget = a;
+    // Check if the clicked element is a child of the anchor
+    if (e.target !== a) {
+      // If it's a child, find the anchor element by traversing up the DOM hierarchy
+      while (e.target.parentNode !== a) {
+        e.target = e.target.parentNode;
       }
-      // a.getAttribute("data-key")
-      setContainerCustimizeModal(<></>)
-      setTimeout(() => {
-        setContainerCustimizeModal(          
-          <CustimzieOrder  menu={menu} id={a.getAttribute("data-key")}/>
-        )
-        
-         myModal = new bootstrap.Modal(document.getElementById("CustomizeModal"), {
-          keyboard: true
-        })    
-        myModal.show()  
-      history.pushState({}, '');
-
-      }, 50);
+      // Update the event.currentTarget to the anchor element
+      e.currentTarget = a;
+    }
+    // a.getAttribute("data-key")
+    menu.setContainerCustimizeModal(<></>)
+    setTimeout(() => {
+      menu.setContainerCustimizeModal(          
+        <CustimzieOrder  menu={menu} id={a.getAttribute("data-key")}/>
+      )
       
+       myModal = new bootstrap.Modal(document.getElementById("CustomizeModal"), {
+        keyboard: true
+      })    
+      myModal.show()  
+    history.pushState({}, '');
 
-    }
-    const GetObjItem=(menu,key)=>{
-        var descriptionO = menu["product"][key]["desO"] !=undefined?<div className="col-12 ">{menu["product"][key]["desO"]}</div>:"";
-            return <div onClick={ItemClicked} data-key={key}  className='rounded p-2 mb-2' style={{"min-height":"5rem",border:"0.7px solid rgb(77 77 77 / 40%)","cursor":"pointer",backgroundColor:"rgb(245 245 245)"}}>
-              <a                                                
-            className="col-lg-8 col-md-12 col-sm-12 col-xs-12 rounded">   
-                  <div className='d-flex justify-content-between' style={{"color":"rgb(80 80 80)"}}>
-                  <h5>{menu["product"][key]["name"]}&nbsp;
-                  
-                  <sup style={{"fontSize":"0.6rem"}}>{menu['product'][key]['zusatz']}
-                  &nbsp;<span style={{"fontSize":"8px"}} className='rounded-2 p-1  bg-secondary text-white'>Nr.{key}</span>
-                  </sup>
-                  </h5>
-                  <h5>{menu["product"][key]["price"][Object.keys(menu["product"][key]["price"])[0]]}&nbsp;&euro;
-                  </h5>
-                  </div>                                   
-                {descriptionO}
-              </a></div>
-    }
-    InitilaizeSection(setIsSearch)
+    }, 50);
+    
+
+  }
+
+  return <>
+   <MModal idd="CartModal" contaienrr={ContainerCartModal} />
+    <MModal idd="CustomizeModal" contaienrr={ContainerCustimizeModal} />
+    <MModal idd="MyOrderModal" contaienrr={<MyOrders menu={menu}/>} />
+    <MModal idd="AboutUsModal" contaienrr={<Aboutus menu={menu} />} />
+    <MModal idd="ZusatzModal" contaienrr={<ZusatzStoffe menu={menu} />} />
+    <MModal idd="DatenschutzModal" contaienrr={<Datenschutz />} />
+    <MModal idd="SuccessModal" contaienrr={<Success />} />    
+      <div className='mb-5 mt-5 container-fluid'/>    
+    <MButtonCartContainer menu={menu} setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal}/></>
+}
+export function SearchComponent ({menu}) {
+  const [Searchrows,setSearchrows]=useState(<></>)
+  menu.onKeyUpSearch=(e)=>{
+      
+    langswitch.scrollToElement("solveshowNav")
+
+    e = e.target.value
+    var trowss = []
+    trowss.push(<>
+      {Object.keys(menu["product"]).map((number) => (
+        <>{
+         (menu["product"][number]["name"].toUpperCase()).includes(e.toUpperCase()) ||
+         (menu["product"][number]["section"].toUpperCase()).includes(e.toUpperCase())? 
+            <>{GetObjItem(menu,number)}</>
+            :<></>
+        } </>                               
+    ))}</>
+    )
+    setSearchrows(trowss)
+  }
+  
+  return <>
+    <div  className={`${menu.IsSearch?"":"d-none"} container mt-5`} style={{minHeight:"150vh"}}>
+    {Searchrows}
+    <div style={{marginTop:"100px"}}/>
+    </div>
+    </>
+}
+export  function IndexPage({menu}) {
+  
+  const [rows,setrows]=useState(<></>)
+
+  
+
+    InitilaizeSection(menu.setIsSearch)
     
     var NavRows = [] 
     const BtnSectionClicked=(e)=>{      
@@ -251,10 +290,9 @@ export  function IndexPage({menu}) {
       setTimeout(() => {
         if(window.location.href.includes("p=success"))
         {
-          langswitch.IsPaymentSuccess()
+          IsPaymentSuccess(menu)
         }
       }, 1000);  
-    setContainerMyOrderModal(<MyOrders menu={menu}/>) 
      PrepairRows() 
      const element = document.getElementById('loadingg');
      if(element !== null)
@@ -262,7 +300,7 @@ export  function IndexPage({menu}) {
     },[])
     
     const SearchIsClicked=()=>{
-      setIsSearch(true)
+      menu.setIsSearch(true)
       setTimeout(() => {
         if(document.getElementById("SearchNavBar"))
         {
@@ -273,43 +311,26 @@ export  function IndexPage({menu}) {
       }, 200);
       
     }
-    const onKeyUpSearch=(e)=>{
-      
-      langswitch.scrollToElement("solveshowNav")
-
-      e = e.target.value
-      var trowss = []
-      trowss.push(<>
-        {Object.keys(menu["product"]).map((number) => (
-          <>{
-           (menu["product"][number]["name"].toUpperCase()).includes(e.toUpperCase()) ||
-           (menu["product"][number]["section"].toUpperCase()).includes(e.toUpperCase())? 
-              <>{GetObjItem(menu,number)}</>
-              :<></>
-          } </>                               
-      ))}</>
-      )
-      setSearchrows(trowss)
-    }
+   
     const CloseSearchIsClicked=()=>{
       document.getElementById("SearchNavBar").value=""
-      setIsSearch(false)
+      menu.setIsSearch(false)
     }    
                                                   
   return (
     <>
-    <MyNavBar menu={menu} setContainerMyOrderModal={setContainerMyOrderModal}/>
+    <MyNavBar menu={menu} />
     <div id="solveshowNav" className='d-none' style={{"height":"56px"}}></div>
     <div className='container-fluid navbarr' >
-    <div style={{"height":"50px"}} className={`${IsSearch?"":"d-none"} row`}>
+    <div style={{"height":"50px"}} className={`${menu.IsSearch?"":"d-none"} row`}>
       <div  className='col-10' style={{backgroundColor:"white"}}>
-        <input onKeyUp={onKeyUpSearch} id="SearchNavBar" style={{paddingLeft:"18px",marginTop:"5px",width:"100%",height:"79%",fontWeight:"bold"}} type='text' className='rounded-5'></input>
+        <input onKeyUp={menu.onKeyUpSearch} id="SearchNavBar" style={{paddingLeft:"18px",marginTop:"5px",width:"100%",height:"79%",fontWeight:"bold"}} type='text' className='rounded-5'></input>
       </div>
       <div className='col-2 d-flex justify-content-center' style={{"backgroundColor":"white"}}>
       <button style={{marginTop:"13px"}} onClick={()=>{CloseSearchIsClicked()}} type="button" class="btn-close " ></button>
       </div>
     </div>
-    <div style={{boxShadow:"0px 2px 6px rgba(0, 0, 0, 0.3)"}} className={`${IsSearch?"d-none":""} row`}>
+    <div style={{boxShadow:"0px 2px 6px rgba(0, 0, 0, 0.3)"}} className={`${menu.IsSearch?"d-none":""} row`}>
     <nav class=" scroll nav  navbar-nav col-10" id="navbarscroll" style={{"background":"white","fontWeight":"bold","fontSize":"16px"}}  >        
         <div class="p-2">
         {NavRows}
@@ -323,11 +344,8 @@ export  function IndexPage({menu}) {
 
     </div>
     </div>
-    <div  className={`${IsSearch?"":"d-none"} container mt-5`} style={{minHeight:"150vh"}}>
-    {Searchrows}
-    <div style={{marginTop:"100px"}}/>
-    </div>
-    <div className={`${IsSearch?"d-none":""} container`}>
+    <SearchComponent menu={menu}/>
+    <div className={`${menu.IsSearch?"d-none":""} container`}>
     <div className='row'>
     {rows}
     </div>
@@ -345,29 +363,16 @@ export  function IndexPage({menu}) {
       </footer>
       <div style={{marginTop:"100px"}}/>
     </div>
-
-    
-
-
-    <MModal idd="CartModal" contaienrr={ContainerCartModal} />
-    <MModal idd="CustomizeModal" contaienrr={ContainerCustimizeModal} />
-    <MModal idd="MyOrderModal" contaienrr={ContainerMyOrderModal} />
-    <MModal idd="AboutUsModal" contaienrr={<Aboutus menu={menu} />} />
-    <MModal idd="ZusatzModal" contaienrr={<ZusatzStoffe menu={menu} />} />
-    <MModal idd="DatenschutzModal" contaienrr={<Datenschutz />} />
-    <MModal idd="SuccessModal" contaienrr={<Success />} />
-    
-      <div className='mb-5 mt-5 container-fluid'/>
-    
-
-
-    <MButtonCartContainer menu={menu} setContainerCartModal={setContainerCartModal} setContainerCustimizeModal={setContainerCustimizeModal}/>
+    <ModalsComponent menu={menu}/>
       </>
       
   );
 }
 
 export default({menu})=>{
+  const [IsSearch,setIsSearch]=useState(false)
+  menu["IsSearch"]=IsSearch
+  menu["setIsSearch"]=setIsSearch
 const Componenett = "closed" in menu["staticValue"]?<></>:<IndexPage menu={menu}/>
 return <>
 <CheckAlerts menu={menu}/>

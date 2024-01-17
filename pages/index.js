@@ -82,12 +82,7 @@ export default()=>{
     }
 
     window.localStorage.setItem("menu",JSON.stringify(data))     
-    // langswitch.ChangeGetParameters("Sections")                           
-      SetContainer(
-        <>              
-        <Sections2 menu={data}/>
-        </>
-      )                             
+      SetContainer(<Sections2 menu={data}/>)                             
 }
 const GotJsonData = (data)=>{
 var hostname = CheckIFOurDomain()      

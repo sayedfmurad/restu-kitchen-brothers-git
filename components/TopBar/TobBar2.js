@@ -1,16 +1,9 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 import langswitch from "../Utils/langswitch"
-import { useEffect, useState } from 'react'
-import packagee from "../../package.json"
-import MyOrders from '../Index/MyOrders'
+import {CheckingIftoSend} from '../Index/MyOrders'
 
-export default function adsf({nextEle,setContainerMyOrderModal,menu}){
-    if(!menu||!setContainerMyOrderModal)
-    return<></>
-    const MyLang = langswitch.langswitchs("navbar");
-    var router = useRouter();
-    router = router.pathname;                  
+export default function adsf({menu}){
+    const MyLang = langswitch.langswitchs("navbar");            
 
     return <>
         <Head>
@@ -45,15 +38,12 @@ export default function adsf({nextEle,setContainerMyOrderModal,menu}){
                 </li>                 */}
                 <li className="nav-item">
                     <a className={`nav-link activee `} aria-current="page" onClick={()=>{
-                        setContainerMyOrderModal(<></>)
-                        setTimeout(() => {
-                            setContainerMyOrderModal(<MyOrders menu={menu}/>) 
+                            CheckingIftoSend(menu)
                             var myModal = new bootstrap.Modal(document.getElementById("MyOrderModal"), {
                                 keyboard: true
                               })    
                               myModal.show()  
                             history.pushState({}, '');
-                        }, 500);
                     }}>{MyLang["myorders"]}</a>
                 </li>
                 <li className="nav-item">

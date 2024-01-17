@@ -191,6 +191,7 @@ export function SearchforAddressModal ({menu}) {
   const [ShowResult, setShowResult] = useState(<></>);
   useEffect(()=>{
     setTimeout(() => {
+      if(document.getElementById("inputmodalSearchforAddressModal"))
       document.getElementById("inputmodalSearchforAddressModal").style.display="block"
       setShowResult(<></>)
     }, 300);

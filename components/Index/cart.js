@@ -3,6 +3,7 @@ import langswitch from '../Utils/langswitch'
 import hash from "../Utils/object_hash"
 import packagee from "../../package.json"
 import AddAddress from "../Cart/addaddress"
+import {IsPaymentSuccess} from "./MyOrders"
 export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
     const MyLang = langswitch.langswitchs("cart")
     const startpay= ()=>{
@@ -120,7 +121,7 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
             if(t=="bar")
             {
                 setTimeout(() => {
-                    langswitch.IsPaymentSuccess()
+                    IsPaymentSuccess(menu)
                 }, 500);
             }
             else if(t=="paypal")

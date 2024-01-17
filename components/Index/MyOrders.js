@@ -1,7 +1,50 @@
 import { useState ,useEffect} from "react";
 import langswitch from "../Utils/langswitch"
 let SendFlag = false
-function CheckingIftoSend () {
+
+export function IsPaymentSuccess(menu){
+    var MainOrders = langswitch.getJson("mainorder")
+    var LastOrderId = langswitch.getValue("lastOrderId")
+    if(LastOrderId in MainOrders)
+    {
+        if(!MainOrders[LastOrderId]["paid"])
+        if(document.getElementById("ShowSuccessMyOrder"))
+        document.getElementById("ShowSuccessMyOrder").classList.remove("d-none")
+        MainOrders[LastOrderId]["showBrowserPaid"]=true
+        window.localStorage.setItem("mainorder",JSON.stringify(MainOrders))
+    }
+
+
+    if(document.getElementById("btn-close-CartModal"))
+    document.getElementById("btn-close-CartModal").click()
+    if(document.getElementById('fixedendidcart'))
+    document.getElementById('fixedendidcart').classList.add("d-none")
+    window.localStorage.setItem("order","{}");
+    window.localStorage.setItem("sumprice","0,00");
+
+
+    
+    
+    CheckingIftoSend(menu)
+    var myModal = new bootstrap.Modal(document.getElementById("MyOrderModal"), {
+            keyboard: true
+          })    
+          myModal.show()  
+        history.pushState({}, '');
+
+}
+
+export function CheckingIftoSend (menu) {
+    menu.StartFetchingOrders = true
+    StartChecking(menu)
+    setInterval(() => {
+    if(menu.StartFetchingOrders)
+    StartChecking(menu)        
+    }, 3000);
+}
+
+function StartChecking (menu) {
+    document.getElementById("SpinnerIdMyOrder").classList.remove("d-none")
     var orders = langswitch.getJson("mainorder");
     var objtosend = []
     for(var dd in orders)
@@ -19,13 +62,13 @@ function CheckingIftoSend () {
     window.localStorage.setItem("mainorder",JSON.stringify(orders))
     
     if(Object.keys( objtosend).length==0 )
-    return orders
-    
-    return Fetching(orders,objtosend)
+    LastStep(menu,orders)
+    else
+    Fetching(menu,orders,objtosend)
 
 }
-function Fetching (orders,objtosend) {
-    
+function Fetching (menu,orders,objtosend) {
+    menu.StartFetchingOrders = false
     
 
     // grecaptcha.ready(function() {
@@ -43,7 +86,7 @@ function Fetching (orders,objtosend) {
                   if(response.status==400)
                   {
                   window.localStorage.setItem("mainorder",JSON.stringify({}))
-                  window.location.href=langswitch.RouteP("orders");
+                  LastStep(menu,orders)
                   }
                   else if(response.status==200)
                   {
@@ -54,22 +97,23 @@ function Fetching (orders,objtosend) {
                         // orders[dl]["paid"]=result[dl]["paid"]
                       }                        
                       window.localStorage.setItem("mainorder",JSON.stringify(orders) )
-                      
+                      LastStep(menu,orders)
                     })
                     .catch(error => {
                       console.error('Error:', error);
                       window.localStorage.setItem("mainorder",JSON.stringify({}))
-                      
+                        window.location.reload()                      
                     })
                   }
                   
-                })
-                return orders    
+                }).catch(error => {
+                    console.error('Error:', error);
+                    window.localStorage.setItem("mainorder",JSON.stringify({}))
+                      window.location.reload()                      
+                  })
       
 }   
-export function Orders ({menu}) {  
-    const MyLang = langswitch.langswitchs("orders");
-        var orders = CheckingIftoSend()
+function LastStep(menu,orders) {      
 
         var mrows = []    
         for(var lll in orders)   
@@ -97,7 +141,7 @@ export function Orders ({menu}) {
         for(var ke in or["orders"]  )
         { 
                         sum = parseFloat(sum) + parseFloat(langswitch.stof(or["orders"][ke]["price"])) 
-                        var countI = <div className="mt-1 mb-1 col-4">{MyLang["count"]+": "+or["orders"][ke]["count"]}</div>;
+                        var countI = <div className="mt-1 mb-1 col-4">{menu.MyLang["orders"]["count"]+": "+or["orders"][ke]["count"]}</div>;
                         var typee = or["orders"][ke]["type"] == "stand"?"":"("+or["orders"][ke]["type"]+") "
                         var descriptionO = menu["product"][or["orders"][ke]["id"]]["desO"] !=undefined?menu["product"][or["orders"][ke]["id"]]["desO"]:"";                        
                         var extras = ""
@@ -133,7 +177,7 @@ export function Orders ({menu}) {
                     crows.push(
                         <>
                         <li className="list-group-item d-flex justify-content-between lh-light">
-                            <div className=''><h6 className=''>{MyLang['delivery cost']}</h6></div>
+                            <div className=''><h6 className=''>{menu.MyLang["orders"]['delivery cost']}</h6></div>
                             <span className=' '>{or["address"]['kosten']}&nbsp;&euro;                </span>                        
                             </li>
                               <li className="list-group-item d-flex justify-content-between lh-light">
@@ -170,7 +214,7 @@ export function Orders ({menu}) {
             sum = langswitch.ftos(sum)                     
             crows.push(
                 <li className="list-group-item d-flex justify-content-between lh-light">
-                <div className=''><h6 className=''>{MyLang["total including var"]}</h6></div>
+                <div className=''><h6 className=''>{menu.MyLang["orders"]["total including var"]}</h6></div>
                 <span className=' '>{sum}&nbsp;&euro;                </span>                        
                 </li> 
             )
@@ -192,50 +236,33 @@ export function Orders ({menu}) {
             </ul>
         )
        
-    return <>{mrows}</>
-
+    menu.SetmOrders(mrows)
+    menu.StartFetchingOrders = true
+    document.getElementById("SpinnerIdMyOrder").classList.add("d-none")
 }
 
-export default({menu})=>{    
-    const [Container,SetContainer] = useState(<></>      
-    )
-    if(document.getElementById("SpinnerIdMyOrder"))
-    document.getElementById("SpinnerIdMyOrder").classList.add("d-none")
-    
-          
-    useEffect(()=>{
-        SetContainer(<Orders menu={menu}/>)   
-    setTimeout(() => {
-        SetContainer(<Orders menu={menu}/>)          
-    }, 100);       
-    setTimeout(() => {
-        if (window.history && window.history.replaceState) {
-            window.history.replaceState({}, document.title, window.location.pathname);
-        }
-    }, 2000);       
-    setInterval(()=>{
-   
-        SetContainer(<Orders menu={menu}/>)
-    }, 5000);
 
-
-      },[])
-
-    return <>    
-    <div class="modal-header ">  
-       <h3 className='m-0'>Meine Bestellungen</h3>                                        
-        <button type="button" class="btn-close " id={`btn-close-MyOrderModal`} data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-      <div class="modal-body" style={{"backgroundColor":"#fff"}}> 
-        <div class="text-center d-flex justify-content-center mb-4" id="SpinnerIdMyOrder">
-        <div class="spinner-border text-primary" style={{"width":"5rem","height":"5rem"}} role="status">
-            <span class="visually-hidden">Loading...</span>
-        </div>   
+export default function Show({menu}){ 
+    const [mOrders,SetmOrders]=useState(<></>)
+    const MyLang = langswitch.langswitchs("orders");
+    menu.MyLang={}
+    menu.MyLang["orders"]=MyLang
+    menu["SetmOrders"]=SetmOrders
+    return <>
+    <div class="modal-header " style={{"height":"4rem"}}>  
+           <h3 className='m-0' style={{fontSize:"1.2rem"}}>Meine Bestellungen</h3>  
+           &nbsp;&nbsp;                                      
+            <div id="SpinnerIdMyOrder" class="spinner-border text-primary"  role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>               
+            <button type="button" class="btn-close " id={`btn-close-MyOrderModal`} data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div id="ShowSuccessMyOrder" className="alert alert-success rounded-0 d-none">
-            Ihre Bestellung wurde übermittelt. Sie erhalten in Kürze eine SMS mit der voraussichtlichen Ankunftszeit Ihrer Bestellung. Alternativ können Sie diese unter „Meine Bestellungen“ selber überprüfen.
-        </div>        
-        {Container}
-    </div>
-    </>
+        <div class="modal-body" style={{"backgroundColor":"#fff"}}> 
+        
+            <div id="ShowSuccessMyOrder" className="alert alert-success rounded-0 d-none">
+                Ihre Bestellung wurde übermittelt. Sie erhalten in Kürze eine SMS mit der voraussichtlichen Ankunftszeit Ihrer Bestellung. Alternativ können Sie diese unter „Meine Bestellungen“ selber überprüfen.
+            </div>        
+            {mOrders}
+        </div>
+        </>    
 }
