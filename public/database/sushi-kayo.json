@@ -98,7 +98,7 @@
             "desO": "4 inside our mit Fischeiern und Wasaol",
             "zusatz": "",
             "price": {
-                "stand": "5,50"
+                "stand": "6,99"
             },
             "section": "Sushi Box"
         },
@@ -107,7 +107,7 @@
             "desO": "3 Thunfisch Maki. 3 Lachs Maki, 3 Gurken Maki, 3 Rettich Maki",
             "zusatz": "",
             "price": {
-                "stand": "6,90"
+                "stand": "7,90"
             },
             "section": "Sushi Box"
         },
@@ -116,7 +116,7 @@
             "desO": "3 Inside Out mit Sesam, 2 japanische Omelettes, 4 Gurken Maki, 4 Rettich Maki",
             "zusatz": "",
             "price": {
-                "stand": "8,90"
+                "stand": "9,90"
             },
             "section": "Sushi Box"
         },
@@ -125,7 +125,7 @@
             "desO": "3 Inside Out 3 Thunfisch Maki, 3 Lachs Maki, 3 Gurken Maki, 4 Rettich Maki",
             "zusatz": "",
             "price": {
-                "stand": "9,90"
+                "stand": "10,90"
             },
             "section": "Sushi Box"
         },
@@ -134,7 +134,7 @@
             "desO": "6 Inside Out mit Fischeiern. 3 Inside Out mit 3 Wasabi California Rollen",
             "zusatz": "",
             "price": {
-                "stand": "12,90"
+                "stand": "13,90"
             },
             "section": "Sushi Box"
         },
@@ -143,7 +143,7 @@
             "desO": "2 Lachs, 2 Lachs Maki, 2 Rettich Maki, 3 Inside Out 2 Thunfisch Maki, 2 Gurken Maki",
             "zusatz": "",
             "price": {
-                "stand": "10,90"
+                "stand": "11,90"
             },
             "section": "Sushi Box"
         },
@@ -152,7 +152,7 @@
             "desO": "3 California Rollen, 3 Thunfisch Maki, 3 Lachs Maki, Lachs",            
             "zusatz": "",
             "price": {
-                "stand": "9,90"
+                "stand": "10,90"
             },
             "section": "Sushi Box"
         },
@@ -161,7 +161,7 @@
             "desO": "4 Thunfisch Maki, 4 Lachs Maki, 1 Maguro, 1 Lachs, 1 Ebi, 1 lka",
             "zusatz": "",
             "price": {
-                "stand": "11,90"
+                "stand": "12,90"
             },
             "section": "Sushi Box"
         },
@@ -170,7 +170,7 @@
             "desO": "1 Ebi, 1 Lachs, 1 Thunfisch, 1 Lka, 2 Thunfisch Maki, 2 Gurken Maki, 2 Rettich Maki, 2 Lachs Maki, 3 inside Out",
             "zusatz": "",
             "price": {
-                "stand": "13,90"
+                "stand": "14,90"
             },
             "section": "Sushi Box"
         },
@@ -179,7 +179,7 @@
             "desO": "4 Inside Out, 2 Thunfisch, 2 Lachs, 2 Ebi",
             "zusatz": "",
             "price": {
-                "stand": "14,90"
+                "stand": "15,90"
             },
             "section": "Sushi Box"
         },
@@ -188,7 +188,7 @@
             "desO": "2 Lachs, 1 Thunfisch, 1 Ebi, 1 Lka, 1 Tai, 1 Jakobamuschel, 1 Takko, 1 Ama Ebi, 1 Shimesba",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "16,90"
             },
             "section": "Sushi Box"
         },
@@ -197,7 +197,7 @@
             "desO": "mit Thunfisch, Surimi, Ebi, Lachs",
             "zusatz": "",
             "price": {
-                "stand": "20,90"
+                "stand": "22,50"
             },
             "section": "Sushi Box"
         },
@@ -206,7 +206,7 @@
             "desO": "3 Baked Tuna, 4 Tekka Maki, 4 Shaki Maki, Nigiri 1 Unagi, 1 Lachs, 1 Magora",
             "zusatz": "",
             "price": {
-                "stand": "15,90"
+                "stand": "17,90"
             },
             "section": "Sushi Box"
         },
@@ -215,7 +215,7 @@
             "desO": "7 Nigiri Sush, 11 Pollo Cuchi, 30 Maki Sushi",
             "zusatz": "",
             "price": {
-                "stand": "41,90"
+                "stand": "43,90"
             },
             "section": "Sushi Box"
         },
@@ -224,7 +224,7 @@
             "desO": "10 Nigiri Sushi, 10 Rolle Sushi, 14 Maki Sushi",
             "zusatz": "",
             "price": {
-                "stand": "46,90"
+                "stand": "48,90"
             },
             "section": "Sushi Box"
         },
@@ -233,13 +233,13 @@
             "desO": "1 Baked Shake Roll, 2 Unagi, 2 Ebi Nigiri, 2 Magura, 2 Shake Lachs, 2 Inari, 3 Ebi Tempura, 2 Nigiri S, 9 Rolle Sushi, 12 Maki S",
             "zusatz": "",
             "price": {
-                "stand": "56,90"
+                "stand": "57,90"
             },
             "section": "Sushi Box"
         },
         "17": {
-            "name": "Gyoza Chicken (4 pieces)",
-            "desO": "with chicken, vegetables and sauce",
+            "name": "Gyoza Vegan",
+            "desO": "Gefüllt mit Gemüse und Soße",
             "zusatz": "",
             "price": {
                 "stand": "4,20"
@@ -247,57 +247,75 @@
             "section": "VORSPEISEN"
         },
         "18": {
-            "name": "Yakitori",
-            "desO": "with Japanese style chicken skewers with teriyaki sauce",
+            "name": "Gyoza Huhn",
+            "desO": "Gefüllt mit Hühnchen und Gemüse, Soße",
             "zusatz": "",
             "price": {
-                "stand": "5,50"
+                "stand": "4,80"
             },
             "section": "VORSPEISEN"
         },
         "19": {
-            "name": "Mozzarella Rolls (4 pieces)",
-            "desO": "",
+            "name": "Yakitori",
+            "desO": "Hähnchen spieße nach Japanischer Art, Teriyaki Soße",
             "zusatz": "",
             "price": {
-                "stand": "4,50"
+                "stand": "5,90"
             },
             "section": "VORSPEISEN"
         },
         "20": {
-            "name": "Karaage",
-            "desO": "chicken with dough coat",
+            "name": "Ebi Tempura",
+            "desO": "in Tempura Mehi Frittierte Gamelen mit Soße",
             "zusatz": "",
             "price": {
-                "stand": "6,00"
+                "stand": "5,90"
             },
             "section": "VORSPEISEN"
         },
         "21": {
-            "name": "Edamame",
-            "desO": "salted soybeans",
+            "name": "Mozzarella Rollen",
+            "desO": "Gefüllt mit Mozzarella",
             "zusatz": "",
             "price": {
-                "stand": "3,95"
+                "stand": "4,90"
             },
             "section": "VORSPEISEN"
         },
-        "22": {
-            "name": "Seaweed Salad",
-            "desO": "",
+        "a63": {
+            "name": "Karaage",
+            "desO": "Hühnerfleisch mit Teigmantel",
             "zusatz": "",
             "price": {
-                "small": "2,00",
-                "large": "3,90"
+                "stand": "6,60"
             },
-            "section": "Salads"
+            "section": "VORSPEISEN"
+        },
+        "66a": {
+            "name": "Uden Suppe",
+            "desO": "Nudeln und Lachs",
+            "zusatz": "",
+            "price": {
+                "stand": "4,00"
+            },
+            "section": "VORSPEISEN"
+        },
+        "67a": {
+            "name": "Seetang Salat",
+            "desO": "mit Sesam",
+            "zusatz": "",
+            "price": {
+                "stand": "3,90"
+            },
+            "section": "VORSPEISEN"
         },
         "23": {
             "name": "Kappa Philadelphia Maki",
             "desO": "with cucumber and cream cheese",
             "zusatz": "",
             "price": {
-                "stand": "2,70"
+                "normal": "2,95",
+                "gebraten":"3,95"
             },
             "section": "Sushi Maki"
         },
@@ -306,7 +324,8 @@
             "desO": "with cucumber",
             "zusatz": "",
             "price": {
-                "stand": "2,50"
+                "normal": "2,80",
+                "gebraten":"3,95"
             },
             "section": "Sushi Maki"
         },
@@ -315,7 +334,8 @@
             "desO": "with salmon",
             "zusatz": "",
             "price": {
-                "stand": "3,50"
+                "normal": "3,90",
+                "gebraten":"4,90"
             },
             "section": "Sushi Maki"
         },
@@ -324,7 +344,8 @@
             "desO": "with tuna",
             "zusatz": "",
             "price": {
-                "stand": "4,00"
+                "normal": "4,30",
+                "gebraten":"5,30"
             },
             "section": "Sushi Maki"
         },
@@ -333,7 +354,8 @@
             "desO": "with salmon and avocado",
             "zusatz": "",
             "price": {
-                "stand": "4,00"
+                "normal": "4,20",
+                "gebraten":"5,20"
             },
             "section": "Sushi Maki"
         },
@@ -342,25 +364,8 @@
             "desO": "with Japanese radish",
             "zusatz": "",
             "price": {
-                "stand": "2,50"
-            },
-            "section": "Sushi Maki"
-        },
-        "29": {
-            "name": "Kanppyo Maki",
-            "desO": "with Japanese pumpkin",
-            "zusatz": "",
-            "price": {
-                "stand": "2,50"
-            },
-            "section": "Sushi Maki"
-        },
-        "30": {
-            "name": "Bell Pepper Maki",
-            "desO": "with red bell pepper",
-            "zusatz": "",
-            "price": {
-                "stand": "2,50"
+                "normal": "2,70",
+                "gebraten":"3,70"
             },
             "section": "Sushi Maki"
         },
@@ -369,7 +374,8 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "2,80"
+                "normal": "3,20",
+                "gebraten":"4,20"
             },
             "section": "Sushi Maki"
         },
@@ -378,16 +384,18 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "2,60"
+                "normal": "2,90",
+                "gebraten":"3,90"
             },
             "section": "Sushi Maki"
         },
         "33": {
             "name": "Uhagi Maki",
-            "desO": "with eel",
+            "desO": "UAal Rolle",
             "zusatz": "",
             "price": {
-                "stand": "5,50"
+                "normal": "5,85",
+                "gebraten":"6,85"
             },
             "section": "Sushi Maki"
         },
@@ -396,16 +404,8 @@
             "desO": "with prawns",
             "zusatz": "",
             "price": {
-                "stand": "5,00"
-            },
-            "section": "Sushi Maki"
-        },
-        "35": {
-            "name": "Inari Maki",
-            "desO": "with tofu",
-            "zusatz": "",
-            "price": {
-                "stand": "3,00"
+                "normal": "5,40",
+                "gebraten":"6,40"
             },
             "section": "Sushi Maki"
         },
@@ -414,7 +414,8 @@
             "desO": "with tuna and Japanese mayonnaise",
             "zusatz": "",
             "price": {
-                "stand": "4,50"
+                "normal": "4,70",
+                "gebraten":"5,70"
             },
             "section": "Sushi Maki"
         },
@@ -423,7 +424,8 @@
             "desO": "with salmon",
             "zusatz": "",
             "price": {
-                "stand": "5,00"
+                "normal": "5,30",
+                "gebraten":"6,30"
             },
             "section": "Sushi Maki"
         },
