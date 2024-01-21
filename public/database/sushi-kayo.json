@@ -434,34 +434,35 @@
             "desO": "with tuna",
             "zusatz": "",
             "price": {
-                "stand": "5,50"
+                "normal": "5,80",
+                "gebraten":"6,80"
             },
             "section": "Sushi Maki"
         },
         "39": {
             "name": "Sake Nigiri",
-            "desO": "with salmon",
-            "zusatz": "",
-            "price": {
-                "stand": "4,00"
-            },
-            "section": "Sushi Nigiri"
-        },
-        "40": {
-            "name": "Maguro Nigiri",
-            "desO": "with tuna",
+            "desO": "Lachs",
             "zusatz": "",
             "price": {
                 "stand": "4,20"
             },
             "section": "Sushi Nigiri"
         },
-        "41": {
-            "name": "Ebi Nigiri",
-            "desO": "with king prawns",
+        "40": {
+            "name": "Maguro Nigiri",
+            "desO": "Thunfisch",
             "zusatz": "",
             "price": {
-                "stand": "4,00"
+                "stand": "4,45"
+            },
+            "section": "Sushi Nigiri"
+        },
+        "41": {
+            "name": "Ebi Nigiri",
+            "desO": "Riesen Garmelen",
+            "zusatz": "",
+            "price": {
+                "stand": "4,25"
             },
             "section": "Sushi Nigiri"
         },
@@ -470,52 +471,52 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "3,70"
+                "stand": "3,90"
             },
             "section": "Sushi Nigiri"
         },
         "43": {
             "name": "Ika Nigiri",
-            "desO": "",
+            "desO": "Sepia",
             "zusatz": "",
             "price": {
-                "stand": "3,70"
+                "stand": "3,99"
             },
             "section": "Sushi Nigiri"
         },
         "44": {
             "name": "Tai Nigiri",
-            "desO": "with sea bream",
+            "desO": "Meerbrasse",
             "zusatz": "",
             "price": {
-                "stand": "3,15"
+                "stand": "4,45"
             },
             "section": "Sushi Nigiri"
         },
         "45": {
             "name": "Uhagi Nigiri",
-            "desO": "with grilled eel",
+            "desO": "Gegrillter Aal",
             "zusatz": "",
             "price": {
-                "stand": "4,90"
+                "stand": "4,99"
             },
             "section": "Sushi Nigiri"
         },
         "46": {
             "name": "Takko Nigiri",
-            "desO": "with octopus",
+            "desO": "Octopus",
             "zusatz": "",
             "price": {
-                "stand": "4,90"
+                "stand": "4,99"
             },
             "section": "Sushi Nigiri"
         },
         "47": {
             "name": "Tamago Nigiri",
-            "desO": "with Japanese omelet",
+            "desO": "Japansches omelet",
             "zusatz": "",
             "price": {
-                "stand": "3,40"
+                "stand": "3,70"
             },
             "section": "Sushi Nigiri"
         },
@@ -524,142 +525,169 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "3,45"
+                "stand": "3,75"
             },
             "section": "Sushi Nigiri"
         },
         "49": {
             "name": "Inari Nigiri",
-            "desO": "baked tofu pocket",
+            "desO": "Gebackene Tofutasche",
             "zusatz": "",
             "price": {
-                "stand": "2,60"
+                "stand": "3,80"
             },
             "section": "Sushi Nigiri"
         },
         "50": {
             "name": "Ikura Gunkan",
-            "desO": "with salmon caviar",
+            "desO": "Lachs Kaviar",
             "zusatz": "",
             "price": {
-                "stand": "4,10"
+                "stand": "4,60"
             },
             "section": "Sushi Gunkan"
         },
         "51": {
             "name": "Tuna Gunkan",
-            "desO": "with tuna cream",
+            "desO": "Thunfisch Kreme",
             "zusatz": "",
             "price": {
-                "stand": "2,20"
+                "stand": "2,45"
             },
             "section": "Sushi Gunkan"
         },
         "52": {
-            "name": "Maguro Gunkan (spicy)",
-            "desO": "with tuna tartar",
+            "name": "Maguro",
+            "desO": "Thunfisch tatar Pikant",
             "zusatz": "",
             "price": {
-                "stand": "2,30"
+                "stand": "2,50"
             },
             "section": "Sushi Gunkan"
         },
         "53": {
-            "name": "Sake Gunkan (spicy)",
-            "desO": "with salmon tartar",
+            "name": "Sake Gunkan",
+            "desO": "Lachstatar Pikant",
             "zusatz": "",
             "price": {
-                "stand": "2,20"
+                "stand": "2,50"
+            },
+            "section": "Sushi Gunkan"
+        },
+        "53a": {
+            "name": "Seetangsalat",
+            "desO": "Lachstatar Pikant",
+            "zusatz": "",
+            "price": {
+                "stand": "2,50"
             },
             "section": "Sushi Gunkan"
         },
         "54": {
             "name": "Aburi Sushi Sake",
-            "desO": "with grilled salmon",
+            "desO": "mit Grilltem Lachs",
             "zusatz": "",
             "price": {
-                "stand": "5,00"
+                "stand": "5,20"
             },
             "section": "Sushi Aburi"
         },
         "55": {
             "name": "Aburi Sushi Maguro",
-            "desO": "with grilled tuna",
+            "desO": "mit Grilltem Thunfisch",
             "zusatz": "",
             "price": {
-                "stand": "5,00"
+                "stand": "5,20"
             },
             "section": "Sushi Aburi"
         },
         "56": {
             "name": "Aburi Sushi Unagi",
-            "desO": "with grilled eel and teriyaki sauce",
+            "desO": "mit Gegrilltem Aal und Teriyaki",
             "zusatz": "",
             "price": {
-                "stand": "5,90"
+                "stand": "5,99"
+            },
+            "section": "Sushi Aburi"
+        },
+        "56a": {
+            "name": "Aburi Sushi Ebi",
+            "desO": "mit Gegrilltem Riesengarnelen",
+            "zusatz": "",
+            "price": {
+                "stand": "5,99"
             },
             "section": "Sushi Aburi"
         },
         "57": {
-            "name": "Temaki Salmon",
-            "desO": "with salmon and avocado",
+            "name": "Temaki Lachs",
+            "desO": "Lachs mit Avocado",
             "zusatz": "",
             "price": {
-                "stand": "3,90"
+                "stand": "4,40"
             },
             "section": "Sushi Temaki"
         },
         "58": {
-            "name": "Temaki Tuna",
-            "desO": "with tuna and avocado",
+            "name": "Temaki Thunfisch",
+            "desO": "Lachs mit Avocado",
             "zusatz": "",
             "price": {
-                "stand": "3,90"
+                "stand": "4,40"
             },
             "section": "Sushi Temaki"
         },
         "59": {
             "name": "Inside Out Roll",
-            "desO": "with surimi, avocado and sesame seeds",
+            "desO": "Surimi Avocado außen mit Masago",
             "zusatz": "",
             "price": {
-                "stand": "4,90"
+                "stand": "4,99"
+            },
+            "section": "Sushi Inside Out Rolls"
+        },
+        "60a": {
+            "name": "Seekh Kebap",
+            "desO": "Gewürziges Lamm Fleisch Gurken, Sesam",
+            "zusatz": "",
+            "price": {
+                "stand": "5,90"
             },
             "section": "Sushi Inside Out Rolls"
         },
         "60": {
             "name": "California",
-            "desO": "mt surimi, avocado and sesame seeds",
+            "desO": "Surimi Avocado außen mit sesam",
             "zusatz": "",
             "price": {
-                "stand": "4,90"
+                "stand": "4,99"
             },
             "section": "Sushi Inside Out Rolls"
         },
         "61": {
             "name": "Tuna Mayo",
-            "desO": "with cucumber, avocado and sesame seeds",
+            "desO": "Gurke Avocado außen mit Sesam",
             "zusatz": "",
             "price": {
-                "stand": "5,50"
+                "stand": "5,70"
             },
             "section": "Sushi Inside Out Rolls"
         },
         "62": {
-            "name": "Chicken Roll",
-            "desO": "chicken with teriyaki sauce and sesame seeds",
+            "name": "Hähnchen Rolle",
+            "desO": "Hähnchen fleisch mit Teriyaki außen mit Sesam",
             "zusatz": "",
             "price": {
-                "stand": "5,00"
+                "stand": "5,20"
             },
             "section": "Sushi Inside Out Rolls"
         },
         "63": {
             "name": "Unagi Dragon Roll",
-            "desO": "with tempura, cucumber, teriyaki sauce, sesame and unagi sauce",
+            "desO": "Tempura Gurke außen mit Teriyaki, Sesam, unagi soße",
             "zusatz": "",
             "price": {
-                "stand": "6,10"
+                "stand": "6,35"
             },
             "section": "Sushi Inside Out Rolls"
         },
