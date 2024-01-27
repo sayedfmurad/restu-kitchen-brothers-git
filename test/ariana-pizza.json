@@ -1,4 +1,4 @@
-{
+{    
     "product":{
          "1": {
             "name": "Margherita",
@@ -592,8 +592,54 @@
             "name": "Ariana Salat",
             "desO": "Salat gem. Salat, Käse, Schinken, Hahnchenbrustfilet",
             "zusatz": "",
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
             "price": {
                 "stand": "11,00"
+            },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
             },
             "section": "Salat"
         }      
@@ -604,6 +650,29 @@
             "price": {
                 "stand": "5,90"
             },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
             "section": "Salat"
         }      
         ,"72": {
@@ -612,6 +681,29 @@
             "zusatz": "",
             "price": {
                 "stand": "6,50"
+            },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
             },
             "section": "Salat"
         }      
@@ -622,6 +714,29 @@
             "price": {
                 "stand": "5,90"
             },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
             "section": "Salat"
         }      
         ,"74": {
@@ -630,6 +745,29 @@
             "zusatz": "",
             "price": {
                 "stand": "8,90"
+            },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
             },
             "section": "Salat"
         }      
@@ -640,6 +778,29 @@
             "price": {
                 "stand": "9,90"
             },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
             "section": "Salat"
         }      
         ,"76": {
@@ -648,6 +809,29 @@
             "zusatz": "",
             "price": {
                 "stand": "11,00"
+            },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
             },
             "section": "Salat"
         }      
@@ -658,6 +842,29 @@
             "price": {
                 "stand": "11,00"
             },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
             "section": "Salat"
         }      
         ,"78": {
@@ -666,6 +873,29 @@
             "zusatz": "",
             "price": {
                 "stand": "11,00"
+            },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
             },
             "section": "Salat"
         }      
@@ -676,6 +906,29 @@
             "price": {
                 "stand": "10,90"
             },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
             "section": "Salat"
         }      
         ,"80": {
@@ -684,6 +937,29 @@
             "zusatz": "",
             "price": {
                 "stand": "10,90"
+            },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
             },
             "section": "Salat"
         }      
@@ -694,6 +970,29 @@
             "price": {
                 "stand": "10,90"
             },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
             "section": "Salat"
         }      
         ,"82": {
@@ -702,6 +1001,29 @@
             "zusatz": "",
             "price": {
                 "stand": "12,50"
+            },
+            "options": {
+                "Ihr Dressing": {
+                    "name": "Ihr Dressing",
+                    "options": {
+                        "Joghurt": {
+                            "price": "0,00"
+                        },
+                        "Cocktail": {
+                            "price": "0,00"
+                        },
+                        "Hausdressing": {
+                            "price": "0,00"
+                        },
+                        "Balsamico": {
+                            "price": "0,00"
+                        },
+                        "Essig & Öl": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
             },
             "section": "Salat"
         }      
@@ -1548,6 +1870,1779 @@
             },
             "section": "PASTA"
         }      
-        
+        ,"300": {
+            "name": "Wiener Schnitzel",
+            "desO": "paniert",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Beilage",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Amerikanische Pommes": {
+                            "price": "0,00"
+                        },
+                        "Bratkartoffeln": {
+                            "price": "0,00"
+                        },
+                        "Kroketten": {
+                            "price": "0,00"
+                        },
+                        "Kartoffelsalat": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Schnitzel"
+        }      
+        ,"301": {
+            "name": "Jägerschnitze",
+            "desO": "mit Jagersauce",
+            "zusatz": "",
+            "price": {
+                "stand": "12,90"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Beilage",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Amerikanische Pommes": {
+                            "price": "0,00"
+                        },
+                        "Bratkartoffeln": {
+                            "price": "0,00"
+                        },
+                        "Kroketten": {
+                            "price": "0,00"
+                        },
+                        "Kartoffelsalat": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Schnitzel"
+        }      
+        ,"302": {
+            "name": "Hawaii Schnitzel",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "12,50"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Beilage",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Amerikanische Pommes": {
+                            "price": "0,00"
+                        },
+                        "Bratkartoffeln": {
+                            "price": "0,00"
+                        },
+                        "Kroketten": {
+                            "price": "0,00"
+                        },
+                        "Kartoffelsalat": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Schnitzel"
+        }      
+        ,"303": {
+            "name": "Rahmschnitzel",
+            "desO": "mit Rahmsauce",
+            "zusatz": "",
+            "price": {
+                "stand": "12,50"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Beilage",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Amerikanische Pommes": {
+                            "price": "0,00"
+                        },
+                        "Bratkartoffeln": {
+                            "price": "0,00"
+                        },
+                        "Kroketten": {
+                            "price": "0,00"
+                        },
+                        "Kartoffelsalat": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Schnitzel"
+        }      
+        ,"304": {
+            "name": "Paprika Schnitzel",
+            "desO": "mit Sahne, Paprikasauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,00"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Beilage",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Amerikanische Pommes": {
+                            "price": "0,00"
+                        },
+                        "Bratkartoffeln": {
+                            "price": "0,00"
+                        },
+                        "Kroketten": {
+                            "price": "0,00"
+                        },
+                        "Kartoffelsalat": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Schnitzel"
+        }      
+        ,"305": {
+            "name": "Zigeunerschnitzel",
+            "desO": "mit scharfer Zigeunersauce",
+            "zusatz": "",
+            "price": {
+                "stand": "13,50"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Beilage",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Amerikanische Pommes": {
+                            "price": "0,00"
+                        },
+                        "Bratkartoffeln": {
+                            "price": "0,00"
+                        },
+                        "Kroketten": {
+                            "price": "0,00"
+                        },
+                        "Kartoffelsalat": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Schnitzel"
+        }      
+        ,"308": {
+            "name": "Schnitzel Gorgonzola",
+            "desO": "mit Gorgonzolasauce",
+            "zusatz": "",
+            "price": {
+                "stand": "11,90"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Beilage",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Amerikanische Pommes": {
+                            "price": "0,00"
+                        },
+                        "Bratkartoffeln": {
+                            "price": "0,00"
+                        },
+                        "Kroketten": {
+                            "price": "0,00"
+                        },
+                        "Kartoffelsalat": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Schnitzel"
+        }      
+        ,"309": {
+            "name": "Schnitzel Bernaise al Forno",
+            "desO": "mit Sauce Bernaise, Käse überbacken",
+            "zusatz": "",
+            "price": {
+                "stand": "12,90"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Beilage",
+                    "options": {
+                        "Pommes": {
+                            "price": "0,00"
+                        },
+                        "Amerikanische Pommes": {
+                            "price": "0,00"
+                        },
+                        "Bratkartoffeln": {
+                            "price": "0,00"
+                        },
+                        "Kroketten": {
+                            "price": "0,00"
+                        },
+                        "Kartoffelsalat": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Schnitzel"
+        }      
+        ,"310": {
+            "name": "Calamaris",
+            "desO": "gebacken",
+            "zusatz": "",
+            "price": {
+                "stand": "11,90"
+            },
+            "section": "Fisch"
+        }      
+        ,"311": {
+            "name": "Seelachs",
+            "desO": "mit Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "12,90"
+            },
+            "section": "Fisch"
+        }      
+        ,"480": {
+            "name": "10er Wings",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "9,50"
+            },
+            "section": "Chicken Wings"
+        }       
+        ,"481": {
+            "name": "20er Wings",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "15,50"
+            },
+            "section": "Chicken Wings"
+        }       
+        ,"482": {
+            "name": "40er Wings",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "25,90"
+            },
+            "section": "Chicken Wings"
+        }       
+        ,"490": {
+            "name": "Chicken Nuggets",
+            "desO": "6 Stück",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "Currysauce": {
+                            "price": "0,00"
+                        },
+                        "BBQ-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Süß-Sauer": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Chicken Nuggets"
+        }  
+        ,"491": {
+            "name": "Chicken Nuggets",
+            "desO": "12 Stück mit Pommes frites",
+            "zusatz": "",
+            "price": {
+                "stand": "11,50"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "Currysauce": {
+                            "price": "0,00"
+                        },
+                        "BBQ-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Süß-Sauer": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Chicken Nuggets"
+        }  
+        ,"492": {
+            "name": "Mozzarella Sticks",
+            "desO": "6 Stück",
+            "zusatz": "",
+            "price": {
+                "stand": "7,50"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "Currysauce": {
+                            "price": "0,00"
+                        },
+                        "BBQ-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Süß-Sauer": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Chicken Nuggets"
+        }  
+        ,"495": {
+            "name": "Chicken Strips",
+            "desO": "6 Stück mit Pommes frites",
+            "zusatz": "",
+            "price": {
+                "stand": "9,90"
+            },
+            "options": {
+                "Ihre Beilage": {
+                    "name": "Ihre Sauce",
+                    "options": {
+                        "Currysauce": {
+                            "price": "0,00"
+                        },
+                        "BBQ-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Süß-Sauer": {
+                            "price": "0,00"
+                        }
+                    },
+                    "showprice": false
+                }
+            },
+            "section": "Chicken Nuggets"
+        }  
+        ,"450": {
+            "name": "Amern Auflauf",
+            "desO": "Kartoffeln, Tomaten-Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "9,50"
+            },
+            "section": "Kartoffelauflauf"
+        }    
+        ,"451": {
+            "name": "Mexican Auflauf",
+            "desO": "Kartoffeln, Chilisauce, Hackfleisch.",
+            "zusatz": "",
+            "price": {
+                "stand": "9,50"
+            },
+            "section": "Kartoffelauflauf"
+        }    
+        ,"452": {
+            "name": "Sicilia Auflauf",
+            "desO": "Kartoffeln, Broccoli, Zucchini, Spinat, Tomaten-Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Kartoffelauflauf"
+        }    
+        ,"454": {
+            "name": "Spezial Auflauf",
+            "desO": "Kartoffeln, Shrimps, Schinken, Tomaten-Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "10,90"
+            },
+            "section": "Kartoffelauflauf"
+        }    
+        ,"455": {
+            "name": "Ariana Auflauf",
+            "desO": "Kartoffeln. Sauce-Hollandaise. Broccoli, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Kartoffelauflauf"
+        }    
+        ,"456": {
+            "name": "Bernaise Auflauf",
+            "desO": "Kartoffeln, Sauce-Bernaise, Broccoli, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Kartoffelauflauf"
+        }    
+        ,"460": {
+            "name": "Spinaci al Forno",
+            "desO": "Spinat, Tomaten-Sahnesauce, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Gemüseauflauf"
+        }    
+        ,"462": {
+            "name": "Broccoli al Forno",
+            "desO": "Broccoli. Tomaten-Sahnesauce",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Gemüseauflauf"
+        }    
+        ,"463": {
+            "name": "Kartoffeln al Forno",
+            "desO": "Kartoffeln, Tomaten-Sahnesauce, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Gemüseauflauf"
+        }    
+        ,"468": {
+            "name": "Vegetarischer Auflauf",
+            "desO": "Broccoli, Auberginen, Spinat, Zucchini, Paprika, Tomaten-Sahnesauce, Knoblauch",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Gemüseauflauf"
+        }    
+        ,"469": {
+            "name": "Broccoli Auflauf",
+            "desO": "Sauce Hollandaise, Broccoli, Kartoffeln, Schinken",
+            "zusatz": "",
+            "price": {
+                "stand": "10,50"
+            },
+            "section": "Gemüseauflauf"
+        }    
+        ,"500": {
+            "name": "Hamburger",
+            "desO": "100g",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "section": "Hamburger"
+        }    
+        ,"501": {
+            "name": "Cheeseburger",
+            "desO": "100g",
+            "zusatz": "",
+            "price": {
+                "stand": "6,50"
+            },
+            "section": "Hamburger"
+        }    
+        ,"502": {
+            "name": "Chickenburger",
+            "desO": "100g",
+            "zusatz": "",
+            "price": {
+                "stand": "5,50"
+            },
+            "section": "Hamburger"
+        }    
+        ,"503": {
+            "name": "Hamburger XL",
+            "desO": "180g",
+            "zusatz": "",
+            "price": {
+                "stand": "8,90"
+            },
+            "section": "Hamburger"
+        }    
+        ,"504": {
+            "name": "Cheeseburger XL",
+            "desO": "180g",
+            "zusatz": "",
+            "price": {
+                "stand": "9,90"
+            },
+            "section": "Hamburger"
+        }    
+        ,"510": {
+            "name": "Pommes / Hot Potatoes / Kroketten",
+            "desO": "180g",
+            "zusatz": "",
+            "price": {
+                "stand": "3,00"
+            },
+            "section": "Internationales"
+        }    
+        ,"513": {
+            "name": "Pommes / Hot Potatoes / Kroketten",
+            "desO": "180g",
+            "zusatz": "",
+            "price": {
+                "stand": "3,00"
+            },
+            "section": "Internationales"
+        }    
+        ,"520": {
+            "name": "Coca Cola",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "2,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"521": {
+            "name": "Coca Light",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "2,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"522": {
+            "name": "Coca Cola zero",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "2,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"523": {
+            "name": "Fanta",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "2,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"524": {
+            "name": "Mezzo-Mix",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "2,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"525": {
+            "name": "Sprite",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "2,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"526": {
+            "name": "Red Bull",
+            "desO": "0,25L",
+            "zusatz": "",
+            "price": {
+                "stand": "2,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"527": {
+            "name": "Apfelschorle",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "2,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"528": {
+            "name": "Apfelsaft(100%)",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "3,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"529": {
+            "name": "Orangensaft(100%)",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "3,50"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"530": {
+            "name": "Mineralwasser",
+            "desO": "0,7L",
+            "zusatz": "",
+            "price": {
+                "stand": "3,50"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"531": {
+            "name": "Mineralwasser still",
+            "desO": "1L",
+            "zusatz": "",
+            "price": {
+                "stand": "2,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"532": {
+            "name": "Durstlöscher Multi",
+            "desO": "0,5L",
+            "zusatz": "",
+            "price": {
+                "stand": "1,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"533": {
+            "name": "Durstlöscher Pfirisch",
+            "desO": "0,5L",
+            "zusatz": "",
+            "price": {
+                "stand": "1,90"
+            },
+            "section": "GETRANKE"
+        }    
+        ,"600": {
+            "name": "Mövenpick",
+            "desO": "1,000ml",
+            "zusatz": "",
+            "price": {
+                "stand": "8,50"
+            },
+            "section": "DESSERTS"
+        }    
+        ,"601": {
+            "name": "Magnum",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "2,50"
+            },
+            "section": "DESSERTS"
+        }    
+        ,"602": {
+            "name": "Ben & Jerry's",
+            "desO": "150ml",
+            "zusatz": "",
+            "price": {
+                "stand": "5,90"
+            },
+            "section": "DESSERTS"
+        }    
+        ,"603": {
+            "name": "Ben & Jerry's",
+            "desO": "5000ml",
+            "zusatz": "",
+            "price": {
+                "stand": "10,90"
+            },
+            "section": "DESSERTS"
+        }    
+        ,"610": {
+            "name": "Tiramisu",
+            "desO": "hausgemacht",
+            "zusatz": "",
+            "price": {
+                "stand": "4,50"
+            },
+            "section": "DESSERTS"
+        }    
+        ,"611": {
+            "name": "Mouse chocolat",
+            "desO": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,50"
+            },
+            "section": "DESSERTS"
+        }    
+        ,"612": {
+            "name": "Obsttorte",
+            "desO": "hausgemacht",
+            "zusatz": "",
+            "price": {
+                "stand": "4,90"
+            },
+            "section": "DESSERTS"
+        }   
+    }
+    ,"extra": {
+        "Salami": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Salami"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Salami"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Salami"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Salami"
+            }
+        },
+        "Schinken": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Schinken"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Schinken"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Schinken"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Schinken"
+            }
+        },
+        "Champignons": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Champignons"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Champignons"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Champignons"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Champignons"
+            }
+        },
+        "Peperoni": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Peperoni"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Peperoni"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Peperoni"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Peperoni"
+            }
+        },
+        "Paprika": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Paprika"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Paprika"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Paprika"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Paprika"
+            }
+        },
+        "Arischocken": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Arischocken"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Arischocken"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Arischocken"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Arischocken"
+            }
+        },
+        "Hackfeisch": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Hackfeisch"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Hackfeisch"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Hackfeisch"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Hackfeisch"
+            }
+        },
+        "Mais": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Mais"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Mais"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Mais"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Mais"
+            }
+        },
+        "Broccoli": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Broccoli"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Broccoli"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Broccoli"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Broccoli"
+            }
+        },
+        "Spinat": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Spinat"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Spinat"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Spinat"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Spinat"
+            }
+        },
+        "Weichkäse": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Weichkäse"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Weichkäse"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Weichkäse"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Weichkäse"
+            }
+        },
+        "Zwiebeln": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Zwiebeln"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Zwiebeln"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Zwiebeln"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Zwiebeln"
+            }
+        },
+        "Mozzarella": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Mozzarella"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Mozzarella"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Mozzarella"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Mozzarella"
+            }
+        },
+        "Kapem": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Kapem"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Kapem"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Kapem"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Kapem"
+            }
+        },
+        "Ei": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Ei"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Ei"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Ei"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Ei"
+            }
+        },
+        "Oliven": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Oliven"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Oliven"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Oliven"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Oliven"
+            }
+        },
+        "fr. Tomaten": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "fr. Tomaten"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "fr. Tomaten"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "fr. Tomaten"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "fr. Tomaten"
+            }
+        },
+        "Ananas": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Ananas"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Ananas"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Ananas"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Ananas"
+            }
+        },
+        "Speck": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Speck"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Speck"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Speck"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Speck"
+            }
+        },
+        "Sucuk": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Sucuk"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Sucuk"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Sucuk"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Sucuk"
+            }
+        },
+        "Auberginen": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Auberginen"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Auberginen"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Auberginen"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Auberginen"
+            }
+        },
+        "Zucchini": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Zucchini"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Zucchini"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Zucchini"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Zucchini"
+            }
+        },
+        "Parmesankäse": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "1,50",
+                "name": "Parmesankäse"
+            },
+            "26cm": {
+                "price": "1,50",
+                "name": "Parmesankäse"                
+            },
+            "32cm": {
+                "price": "1,90",
+                "name": "Parmesankäse"            
+            },
+            "45cm": {
+                "price": "3,00",
+                "name": "Parmesankäse"
+            }
+        }
+        ,"Meeresfrüchte": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Meeresfrüchte"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Meeresfrüchte"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Meeresfrüchte"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Meeresfrüchte"
+            }
+        }
+        ,"Krabben": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Krabben"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Krabben"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Krabben"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Krabben"
+            }
+        }
+        ,"Lachs": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Lachs"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Lachs"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Lachs"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Lachs"
+            }
+        }
+        ,"Thunfisch": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Thunfisch"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Thunfisch"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Thunfisch"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Thunfisch"
+            }
+        }
+        ,"Garnelen": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Garnelen"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Garnelen"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Garnelen"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Garnelen"
+            }
+        }
+        ,"Sauce Hollandaise": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Sauce Hollandaise"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Sauce Hollandaise"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Sauce Hollandaise"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Sauce Hollandaise"
+            }
+        }
+        ,"Gorgonzolakäse": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Gorgonzolakäse"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Gorgonzolakäse"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Gorgonzolakäse"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Gorgonzolakäse"
+            }
+        }
+        ,"Parmaschinken": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Parmaschinken"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Parmaschinken"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Parmaschinken"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Parmaschinken"
+            }
+        }
+        ,"Sardellen": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Sardellen"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Sardellen"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Sardellen"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Sardellen"
+            }
+        }
+        ,"Sauce Bernaise": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Sauce Bernaise"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Sauce Bernaise"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Sauce Bernaise"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Sauce Bernaise"
+            }
+        }
+        ,"BBQ-Sauce": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "BBQ-Sauce"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "BBQ-Sauce"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "BBQ-Sauce"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "BBQ-Sauce"
+            }
+        }
+        ,"Jalapenos": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Jalapenos"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Jalapenos"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Jalapenos"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Jalapenos"
+            }
+        }
+        ,"Rucola": {
+            "section": [
+                "PIZZEN",
+                "Amerikanische Pizzen"
+            ],
+            "stand": {
+                "price": "2,50",
+                "name": "Rucola"
+            },
+            "26cm": {
+                "price": "2,50",
+                "name": "Rucola"                
+            },
+            "32cm": {
+                "price": "3,00",
+                "name": "Rucola"            
+            },
+            "45cm": {
+                "price": "4,00",
+                "name": "Rucola"
+            }
+        }        
+    },
+    "b": {
+        "c": "-4146448605"
+    },
+    "sections": {
+        "mdesc": {
+            "DESSERTS": {
+                "section": "DESSERTS",
+                "des": "",
+                "img":"KITCHEN-BROTHERS-STORE"
+            },
+            "PASTA": {
+                "section": "PASTA",
+                "des": "Alle Nudelgerichte werden mit einer Nudelsorte nach Wahl zubereitet, Alle Nudelgerichte werden mit 4 Paninis und Kräuterbutter serviert.",
+                "img": "Spaghetti"
+            },
+            "MEATLOVERS": {
+                "section": "MEATLOVERS",
+                "des": "",
+                "img": "meatlovers"
+            },
+            "POMMESFRITES": {
+                "section": "POMMESFRITES",
+                "des": "Alle Fritten werden mit einem Dip nach Wahl serviert.",
+                "img": "POMMESFRITES"
+            },
+            "SAUCEN": {
+                "section": "SAUCEN",
+                "des": "",
+                "img": "SAUCEN"
+            },
+            "FRENCHTACOS": {
+                "section": "FRENCHTACOS",
+                "des": "Alle French-Tacos werden mit Pommes frites, Gouda und Spezialsauce zubereitet.",
+                "img": "FRENCHTACOS"
+            },
+            "Hamburger": {
+                "section": "Hamburger",
+                "des": "Alle Burger werden mit 100% handmade Halal Beef zubereitet.",
+                "img": "BURGER"
+            },
+            "BURGERMENU": {
+                "section": "BURGERMENU",
+                "des": "Alle Menüs werden mit Pommes frites, Dip nach Wahl und einem alkoholfreien Getränk 0,33l nach Wahl serviert.",
+                "img": "BURGERMENU"
+            },
+            "PIZZEN": {
+                "section": "PIZZEN",
+                "des": "Alle Pizzen sind mit Tomatensoße, Gouda und oregano belegt"
+            },
+            "Amerikanische Pizzen": {
+                "section": "Amerikanische Pizzen",
+                "img": "PIZZEN",
+                "des": "Alle Pizzen sind mit Tomatensoße, Gouda und oregano belegt"
+            },
+            "PIZZABRÖTCHEN": {
+                "section": "PIZZABRÖTCHEN",
+                "des": "Alle Pizzabrötchen werden mit einem Dip nach Wahl serviert"
+            },
+            "Salat": {
+                "section": "Salat",
+                "img": "SALATE",
+                "des": "Alle Salate mit unserem hausgemachten Dressing"
+            },        
+            "GETRANKE": {
+                "section": "GETRANKE",
+                "des": ""
+            },
+            "BAGUETTE": {
+                "section": "BAGUETTE",
+                "des": ""
+            },
+            "Chicken Wings": {
+                "section": "Chicken Wings",
+                "des": "",
+                "img":"HAMBURGER"
+            },
+            "Chicken Nuggets": {
+                "section": "Chicken Nuggets",
+                "des": "",
+                "img":"HAMBURGER"
+            },
+            "Gemüseauflauf": {
+                "section": "Gemüseauflauf",
+                "des": "",
+                "img":"AUFLAUFE"
+            },
+            "Schnitzel": {
+                "section": "Schnitzel",
+                "des": ""
+            }
+            ,"Internationales": {
+                "section": "Internationales",
+                "des": "",
+                "img":"MEXIKANISCHE_BURRITOS"
+            }
+            ,"Fisch": {
+                "section": "Fisch",
+                "des": "",
+                "img":"FISCHGERICHTE"
+            }
+        }
+    },
+    "rabat": "",
+    "staticValue": {
+        "printer":{
+            "style":{
+                "font-table-detail":"0.6rem",
+                "font-table":"0.8rem",
+                "print-version":"1"
+            }
+        },
+        "alerts":[                
+        ],
+        "pc": "",
+        "ps": "",
+        "logo": "Kitchen Brothers",
+        "kontakt": {
+            "name": "Ariana Pizza",
+            "street": "Hauptstraße 10",
+            "zipc": "41366",
+            "city": "Schwalmtal",
+            "tel": "021639516611",
+            "zusatzStoffe": ""
+        },
+        "impressum":{
+            "name":"Neval Beyazoglu"
+        },
+        "key": "ariana-pizza",
+        "zusatzStoffe": "",
+        "latlng": {
+            "lat": 51.1570961,
+            "lng": 6.4813593
+        },
+        "opendays": {
+            "sunday": {
+                "opentime": {
+                    "hour": 15,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 45
+                }
+            },
+            "mondayy": {
+                "opentime": {
+                    "hour": 15,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 21,
+                    "min": 45
+                }
+            },
+            "tuesday": {
+                "opentime": {
+                    "hour": 15,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 21,
+                    "min": 45
+                }
+            },
+            "wednesday": {
+                "opentime": {
+                    "hour": 15,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 21,
+                    "min": 45
+                }
+            },
+            "thursday": {
+                "opentime": {
+                    "hour": 15,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 21,
+                    "min": 45
+                }
+            },
+            "friday": {
+                "opentime": {
+                    "hour": 14,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 45
+                }
+            },
+            "saturday": {
+                "opentime": {
+                    "hour": 15,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 45
+                }
+            }
+        },
+        "minpriceorder": [
+            {
+                "distance": {
+                    "min": 0,
+                    "max": 4.1
+                },
+                "price": 10,
+                "lieferkosten": 1
+            },
+            {
+                "distance": {
+                    "min": 4,
+                    "max": 7.1
+                },
+                "price": 20,
+                "lieferkosten": 2
+            }
+        ]
     }
 }

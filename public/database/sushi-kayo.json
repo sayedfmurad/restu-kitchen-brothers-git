@@ -693,55 +693,55 @@
         },
         "64": {
             "name": "Fritt Inside Out Sesame Roll",
-            "desO": "with fried bell peppers, avocado and sesame seeds",
+            "desO": "gebratene Paprika Avocado außen mit sesam",
             "zusatz": "",
             "price": {
-                "stand": "5,00"
+                "stand": "5,25"
             },
             "section": "Sushi Inside Out Rolls"
         },
         "65": {
             "name": "Ebi Inside Out",
-            "desO": "deep fried shrimps with cucumber and sesame seeds",
+            "desO": "Frittierte Garnelen Gurken außen Sesam",
             "zusatz": "",
             "price": {
-                "stand": "5,90"
+                "stand": "5,99"
             },
             "section": "Sushi Inside Out Rolls"
         },
         "66": {
-            "name": "Miami Roll",
-            "desO": "with salmon, avocado, cream cheese and masago",
+            "name": "Miami Rolle",
+            "desO": "Lachs Avocado Frischkäse außen mit Masago",
             "zusatz": "",
             "price": {
-                "stand": "4,80"
+                "stand": "4,99"
             },
             "section": "Sushi Inside Out Rolls"
         },
         "67": {
             "name": "Power Roll",
-            "desO": "with avocado, surimi, cucumber and salmon",
+            "desO": "Avocado Surimi Gurke außen mit Lachs",
             "zusatz": "",
             "price": {
-                "stand": "6,10"
+                "stand": "6,50"
             },
             "section": "Sushi Inside Out Rolls"
         },
         "68": {
             "name": "Avocado Roll",
-            "desO": "with avocado and sesame",
+            "desO": "mit Avocado außen Sesam",
             "zusatz": "",
             "price": {
-                "stand": "3,50"
+                "stand": "3,80"
             },
             "section": "Sushi Inside Out Rolls"
         },
         "69": {
             "name": "Philacheese",
-            "desO": "deep fried salmon with cucumber and masago",
+            "desO": "Frittierte Lachs Gurke außen mit Sesam",
             "zusatz": "",
             "price": {
-                "stand": "4,00"
+                "stand": "4,40"
             },
             "section": "Sushi Inside Out Rolls"
         },
@@ -867,7 +867,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "4,40"
+                "stand": "4,99"
             },
             "section": "Extras"
         },
@@ -876,7 +876,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "3,00"
+                "stand": "3,99"
             },
             "section": "Extras"
         },
@@ -885,7 +885,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "1,50"
+                "stand": "1,80"
             },
             "section": "Extras"
         },
@@ -903,16 +903,7 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "stand": "0,70"
-            },
-            "section": "Extras"
-        },
-        "108": {
-            "name": "Cocktail Sauce",
-            "desO": "",
-            "zusatz": "",
-            "price": {
-                "stand": "1,50"
+                "stand": "0,85"
             },
             "section": "Extras"
         },
@@ -921,7 +912,7 @@
             "desO": "Japanischer Reis Kuchen",
             "zusatz": "",
             "price": {
-                "stand": "3,20"
+                "stand": "3,60"
             },
             "section": "Desserts"
         },
@@ -930,7 +921,7 @@
             "desO": "Gefüllt mit süßem Bohnen muß",
             "zusatz": "",
             "price": {
-                "stand": "3,20"
+                "stand": "3,65"
             },
             "section": "Desserts"
         },
@@ -939,7 +930,7 @@
             "desO": "with Banana",
             "zusatz": "",
             "price": {
-                "stand": "3,20"
+                "stand": "3,55"
             },
             "section": "Desserts"
         },
@@ -948,7 +939,7 @@
             "desO": "Coca-Cola steht für einzigartigen Geschmack, Erfrischung und Momente voller Lebensfreude. Die 1,0l PET Mehrwegflasche für die perfekte Erfrischung für jeden Tag - allein oder zu zweit.",
             "zusatz": "",
             "price": {
-                "stand": "2,75"
+                "stand": "2,99"
             },
             "section": "Non-Alcoholic Drinks"
         },
@@ -957,7 +948,7 @@
             "desO": "Light taste: Leichter als das Original und in stylischem Design überzeugt Cola Light nicht nur die eigene Fangemeinschaft - und das komplett zucker- und kalorienfrei.",
             "zusatz": "",
             "price": {
-                "stand": "2,75"
+                "stand": "2,99"
             },
             "section": "Non-Alcoholic Drinks"
         },
@@ -966,7 +957,7 @@
             "desO": "Trinke Fanta. Lebe bunter. Spritzig erfrischend begleitet die originale Fanta Orange jede Lebenssituation und macht jetzt noch mehr Spaß.",
             "zusatz": "",
             "price": {
-                "stand": "2,75"
+                "stand": "2,99"
             },
             "section": "Non-Alcoholic Drinks"
         },
@@ -975,7 +966,7 @@
             "desO": "Mixt euch eine gute Zeit mit Mezzo Mix, dem erfrischend-leckeren Kuss aus Cola und Orange.",
             "zusatz": "",
             "price": {
-                "stand": "2,75"
+                "stand": "2,99"
             },
             "section": "Non-Alcoholic Drinks"
         },
@@ -984,7 +975,7 @@
             "desO": "Bist du bereit für Sprite? Die einzigartige Formel aus grünen Limetten und sonnengelben Zitronen erfrischt dich maximal.",
             "zusatz": "",
             "price": {
-                "stand": "2,75"
+                "stand": "2,99"
             },
             "section": "Non-Alcoholic Drinks"
         },
@@ -993,7 +984,7 @@
             "desO": "Die Lift Apfelschorle begeistert mit ihrem einmaligen Geschmack und maximaler Erfrischung.",
             "zusatz": "",
             "price": {
-                "stand": "2,75"
+                "stand": "2,99"
             },
             "section": "Non-Alcoholic Drinks"
         }

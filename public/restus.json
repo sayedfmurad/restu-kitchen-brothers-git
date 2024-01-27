@@ -56,7 +56,8 @@
         "storeimg":"Images/KITCHEN-BROTHERS-STORE.jpeg",
         "key": "kitchen-brothers",
         "name": "Kitchenbrothers",
-        "v": "346c4a4ef8f99cd79436233ebd0e50e398b68050dc9066619d06e6b0df1e4d1e"
+        "v": "346c4a4ef8f99cd79436233ebd0e50e398b68050dc9066619d06e6b0df1e4d1e",
+        "part":[5850629710]
     },
     "pizzeria-dino": {
         "storeimg":"Images/KITCHEN-BROTHERS-STORE.jpeg",
