@@ -2179,7 +2179,7 @@
                 "stand": "4,90"
             },
             "options": {
-                "Ihre Beilage": {
+                "Ihre Sauce": {
                     "name": "Ihre Sauce",
                     "options": {
                         "Currysauce": {
@@ -2205,7 +2205,7 @@
                 "stand": "11,50"
             },
             "options": {
-                "Ihre Beilage": {
+                "Ihre Sauce": {
                     "name": "Ihre Sauce",
                     "options": {
                         "Currysauce": {
@@ -2231,7 +2231,7 @@
                 "stand": "7,50"
             },
             "options": {
-                "Ihre Beilage": {
+                "Ihre Sauce": {
                     "name": "Ihre Sauce",
                     "options": {
                         "Currysauce": {
@@ -2257,7 +2257,7 @@
                 "stand": "9,90"
             },
             "options": {
-                "Ihre Beilage": {
+                "Ihre Sauce": {
                     "name": "Ihre Sauce",
                     "options": {
                         "Currysauce": {
@@ -3436,11 +3436,6 @@
                 "des": "Alle Nudelgerichte werden mit einer Nudelsorte nach Wahl zubereitet, Alle Nudelgerichte werden mit 4 Paninis und Kräuterbutter serviert.",
                 "img": "Spaghetti"
             },
-            "MEATLOVERS": {
-                "section": "MEATLOVERS",
-                "des": "",
-                "img": "meatlovers"
-            },
             "POMMESFRITES": {
                 "section": "POMMESFRITES",
                 "des": "Alle Fritten werden mit einem Dip nach Wahl serviert.",
@@ -3451,20 +3446,10 @@
                 "des": "",
                 "img": "SAUCEN"
             },
-            "FRENCHTACOS": {
-                "section": "FRENCHTACOS",
-                "des": "Alle French-Tacos werden mit Pommes frites, Gouda und Spezialsauce zubereitet.",
-                "img": "FRENCHTACOS"
-            },
             "Hamburger": {
                 "section": "Hamburger",
                 "des": "Alle Burger werden mit 100% handmade Halal Beef zubereitet.",
                 "img": "BURGER"
-            },
-            "BURGERMENU": {
-                "section": "BURGERMENU",
-                "des": "Alle Menüs werden mit Pommes frites, Dip nach Wahl und einem alkoholfreien Getränk 0,33l nach Wahl serviert.",
-                "img": "BURGERMENU"
             },
             "PIZZEN": {
                 "section": "PIZZEN",
@@ -3495,12 +3480,12 @@
             "Chicken Wings": {
                 "section": "Chicken Wings",
                 "des": "",
-                "img":"HAMBURGER"
+                "img":"CHICKENWINGS"
             },
             "Chicken Nuggets": {
                 "section": "Chicken Nuggets",
                 "des": "",
-                "img":"HAMBURGER"
+                "img":"CHICKENWINGS"
             },
             "Gemüseauflauf": {
                 "section": "Gemüseauflauf",
@@ -3525,6 +3510,7 @@
     },
     "rabat": "",
     "staticValue": {
+        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/ariana-pizza.json",
         "printer":{
             "style":{
                 "font-table-detail":"0.6rem",
@@ -3536,7 +3522,7 @@
         ],
         "pc": "",
         "ps": "",
-        "logo": "Kitchen Brothers",
+        "logo": "Ariana Pizza",
         "kontakt": {
             "name": "Ariana Pizza",
             "street": "Hauptstraße 10",
@@ -3546,33 +3532,33 @@
             "zusatzStoffe": ""
         },
         "impressum":{
-            "name":"Neval Beyazoglu"
+            "name":""
         },
         "key": "ariana-pizza",
         "zusatzStoffe": "",
         "latlng": {
-            "lat": 51.1570961,
-            "lng": 6.4813593
+            "lat": 51.2209675,
+            "lng": 6.1795204
         },
         "opendays": {
             "sunday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "monday": {
                 "opentime": {
                     "hour": 15,
                     "min": 0
                 },
                 "closetime": {
                     "hour": 22,
-                    "min": 45
-                }
-            },
-            "mondayy": {
-                "opentime": {
-                    "hour": 15,
                     "min": 0
-                },
-                "closetime": {
-                    "hour": 21,
-                    "min": 45
                 }
             },
             "tuesday": {
@@ -3581,8 +3567,8 @@
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 21,
-                    "min": 45
+                    "hour": 22,
+                    "min": 0
                 }
             },
             "wednesday": {
@@ -3591,8 +3577,8 @@
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 21,
-                    "min": 45
+                    "hour": 22,
+                    "min": 0
                 }
             },
             "thursday": {
@@ -3601,18 +3587,18 @@
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 21,
-                    "min": 45
+                    "hour": 22,
+                    "min": 0
                 }
             },
             "friday": {
                 "opentime": {
-                    "hour": 14,
+                    "hour": 15,
                     "min": 0
                 },
                 "closetime": {
                     "hour": 22,
-                    "min": 45
+                    "min": 0
                 }
             },
             "saturday": {
@@ -3621,8 +3607,8 @@
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
-                    "min": 45
+                    "hour": 23,
+                    "min": 50
                 }
             }
         },
@@ -3633,15 +3619,15 @@
                     "max": 4.1
                 },
                 "price": 10,
-                "lieferkosten": 1
+                "lieferkosten": 0
             },
             {
                 "distance": {
                     "min": 4,
-                    "max": 7.1
+                    "max": 9
                 },
-                "price": 20,
-                "lieferkosten": 2
+                "price": 15,
+                "lieferkosten": 0
             }
         ]
     }

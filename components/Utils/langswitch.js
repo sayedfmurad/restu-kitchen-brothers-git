@@ -305,7 +305,7 @@ NextOpenTimeMsgV2=(menu)=>{
            return out
           }
           return ""
-    }
+}
 getStringOpenCloseTimeStore=(type)=>
 {
     return menu["staticValue"][type]["hour"]+":"+

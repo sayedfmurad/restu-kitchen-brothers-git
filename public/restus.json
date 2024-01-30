@@ -64,6 +64,12 @@
         "key": "pizzeria-dino",
         "name": "pizzeria-dino",
         "v": "346c4a4ef8f99cd79436233ebd0e50e398b68050dc9066619d06e6b0df1e4d1e"
+
+    }
+    ,"ariana-pizza": {
+        "storeimg":"Images/cartoon.jpeg",
+        "key": "ariana-pizza",
+        "name": "Ariana Pizza"
         ,"part":[1222685097]
 
     }
