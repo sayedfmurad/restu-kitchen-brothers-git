@@ -319,6 +319,16 @@ getStringFormTimefromTimeStamp=(t)=>
 getDateBerlin=()=>{
     return new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Berlin' }))   
 }
+ReturnGetPar=()=>{
+    var currentUrl = window.location.href;
+
+// Parse the query parameters
+return new URLSearchParams(new URL(currentUrl).search);
+
+// Get the value associated with the key "name"
+// var nameValue = urlParams.get("name");
+
+}
 }
 
 const f= new langswitch()

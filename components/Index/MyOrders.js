@@ -1,8 +1,32 @@
 import { useState ,useEffect} from "react";
 import langswitch from "../Utils/langswitch"
 let SendFlag = false
+import packagee from "../../package.json"
 
+const SendToServerToConfiremThePaypalOrder = (menu)=>{
+    let mObj= langswitch.ReturnGetPar()
+    let payid = mObj.get("paymentId")
+    let payerid = mObj.get("PayerID")
+    if(payid==""||payid==null||payerid==""||payerid==null)
+    return false
+    
+
+
+    const urll="https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws"
+                let mheaders = new Headers();
+                mheaders.append('Origin','*');
+                fetch(urll, {
+                  method: 'POST', // or 'PUT'
+                  headers: mheaders,
+                  body: JSON.stringify(
+                    !packagee["IsOut"]?
+                    {"test":"","payerid":payerid,"payid":payid,"key":menu["staticValue"]["key"]}:
+                    {"payerid":payerid,"payid":payid,"key":menu["staticValue"]["key"]}
+                    )
+                })                  
+}
 export function IsPaymentSuccess(menu){
+    SendToServerToConfiremThePaypalOrder(menu)
     var MainOrders = langswitch.getJson("mainorder")
     var LastOrderId = langswitch.getValue("lastOrderId")
     if(LastOrderId in MainOrders)

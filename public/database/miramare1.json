@@ -8822,6 +8822,23 @@
                 "name": "mit Schafskäse"
             }
         },
+        "käse": {
+            "section": [
+                "Mittagsangebote","Pizza"
+            ],
+            "Klein, Ø 24cm": {
+                "price": "1,50",
+                "name": "käse"
+            },
+            "Groß, Ø 29cm": {
+                "price": "2,00",
+                "name": "käse"
+            },
+            "stand": {
+                "price": "0,90",
+                "name": "Käse"
+            }
+        },
         "Mittagsangebote mit Schinken": {
             "section": [
                 "Mittagsangebote"
