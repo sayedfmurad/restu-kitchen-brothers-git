@@ -3,7 +3,10 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@emotion/react": "^11.11.3",
+        "@emotion/styled": "^11.11.0",
         "@fortawesome/free-solid-svg-icons": "^6.4.0",
+        "@mui/material": "^5.15.10",
         "@react-google-maps/api": "^2.18.1",
         "next": "^11.1.4",
         "react": "17.0.2",
@@ -14,7 +17,7 @@
     },
     "scripts": {
         "kill": "python3 s.py kill",
-        "dev": "python3 s.py prepairdb && python3 s.py dev && next dev -p 3001",
+        "dev": "python3 s.py prepairdb && python3 s.py dev && next dev -p 3000",
         "build": "yarn config-static && npx next build && npx next export  ",
         "start": "next start",
         "cloud": "aws cloudfront create-invalidation --distribution-id EW42NP988OU7X --paths '/*'",

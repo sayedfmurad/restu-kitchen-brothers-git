@@ -6,7 +6,8 @@ import MModal from "../Index/mModal"
 import packagee from "../../package.json"
 import Cart from "../Index/cart"
 import { useState } from 'react';
-
+import TextField from '@mui/material/TextField';
+import InputAdornment from '@mui/material/InputAdornment';
 const CheckIfSomeFieldsAreEmpty=()=>{
   var obj={}
   obj["fname"] = document.getElementById("fname").value
@@ -451,70 +452,46 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer}
 
       
   return<div className="container mt-4">
-  <div className="row p-3 g-2">            
+  <div className="row p-3 g-3">            
   <div class="form-group col-md-6 col-sm-12">
-      <label for="fname">{MyLang["First Name"]}</label>
-      <input  type="text" class="form-control form-select" id="fname" aria-describedby="fnameHelp" placeholder="Vorname" required/>
+  <TextField id="fname" style={{width:"100%"}} label={MyLang["First Name"]} variant="outlined" />
   </div>
   <div class="form-group col-md-6 col-sm-12">
-      <label for="lname">{MyLang["Last Name"]}</label>
-      <input  type="text" class="form-control form-select" id="lname" aria-describedby="lnameHelp" placeholder="Nachname" required/>
+      <TextField id="lname" style={{width:"100%"}} label={MyLang["Last Name"]} variant="outlined" />
   </div>            
   <br/>
-  <div class="form-group col-md-6 col-sm-12">
-      <label for="firma">Anmerkung</label>
-      <input type="text" class="form-control form-select" id="firma" aria-describedby="firmHelp" placeholder="(freiwillig)"/>                
-  </div>
-  <div class="form-group col-md-6 col-sm-12 ">
-      <label for="phonen">Handynummer</label>
-  <div className='input-group'>
-      <span class="input-group-text form-select2" id="inputGroup-sizing-default">+49</span>            
-      <input type="text"class="form-control form-select" aria-describedby="inputGroup-sizing-default" aria-label="Sizing example input" id="phonen"  placeholder=" Handynummer" required/>
-  </div>            
-  </div>            
-  <div className='col-12'>
-  <input className='input-group form-control form-select'
-  placeholder='Such für eine Addresse'
-  id="address-input"
-  // onFocus={CheckIfSomeFieldsAreEmpty}
-  onClick={()=>{
   
-
-    if(CheckIfSomeFieldsAreEmpty())
-  {let myModal = new bootstrap.Modal(document.getElementById("SearchforAddressModal"), {
-        keyboard: true
-      })    
-      myModal.show()  
-    history.pushState({}, '');
-    setTimeout(() => {
-      if(document.getElementById("inputmodalSearchforAddressModal"))
-      document.getElementById("inputmodalSearchforAddressModal").focus()
-    }, 700);
-    }
-  }}
-  />
-  {/* <Autocomplete
-  placeholder='Such für eine Addresse'
-  id="address-input"
-  class="input-group form-control form-select"
-  // onFocus={CheckIfSomeFieldsAreEmpty}
-  options={{
-    types: ["geocode", "establishment"],
-    componentRestrictions: { country: "de"},
-    location: new google.maps.LatLng(51.2024612, 6.4540167),
-    radius:4000
-    
-  }}
-  apiKey="AIzaSyDmGxjz66ljEkb7bGc6zoD9iXYrZS0m_t4"
-  onPlaceSelected={(place) => {
-    GotPlace(place,textabohlen,setMsgError,setMainContainer,menu);
-  }}
-/> */}
-<div class="alert alert-danger mt-3" role="alert" id="notification" style={{display:"none"}}>
-                 Bitte tragen Sie Eine Hausenummer ein, und dann wählen Sie die gewünschte Adresse
-                 </div>
-  </div>            
-  </div>  
+  <div class="form-group col-md-6 col-sm-12 ">
+        <TextField
+          label="Handynummer"
+          id="phonen"
+          style={{width:"100%"}}
+          InputProps={{
+            startAdornment: <InputAdornment position="start">+49</InputAdornment>,
+          }}
+        />          
+  </div>      
+  <div class="form-group col-md-6 col-sm-12 ">
+    <TextField id="address-input" style={{width:"100%"}} label="Such für eine Addresse"
+    onClick={()=>{
+      if(CheckIfSomeFieldsAreEmpty())
+    {let myModal = new bootstrap.Modal(document.getElementById("SearchforAddressModal"), {
+          keyboard: true
+        })    
+        myModal.show()  
+      history.pushState({}, '');
+      setTimeout(() => {
+        if(document.getElementById("inputmodalSearchforAddressModal"))
+        document.getElementById("inputmodalSearchforAddressModal").focus()
+      }, 700);
+      }
+    }}
+    variant="outlined" />
+    </div>
+    <div class="form-group col-md-6 col-sm-12">
+        <TextField id="firma" style={{width:"100%"}} label="Anmerkung (freiwillig)" variant="outlined" />
+    </div>
+    </div>            
   <MModal idd="SearchforAddressModal" contaienrr={<SearchforAddressModal menu={menu}/>} />
 </div>
   
