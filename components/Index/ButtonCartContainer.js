@@ -1,18 +1,24 @@
 import { useState, useEffect } from "react"
 import langswitch from "../Utils/langswitch"
 import Cart from "./cart"
-export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimizeModal,menu,or}) {  
-    var sum = 0
-    for(var ke in or)
-    { 
-      sum = parseFloat(sum) + parseFloat(langswitch.stof(or[ke]["price"]))                   
-      if(menu["rabat"]!="")
-              {
-                  var rabb = sum*(parseInt(menu["rabat"]))/100
-                  sum = sum - rabb
-              } 
-    }  
-    sum = langswitch.ftos(sum)                       
+function ButtonCartContainer3(menu){
+  langswitch.GetJsonM("order").then((or)=>{
+    menu.setorder(or)
+  let sum = langswitch.getValue("sumprice")
+    // for(var ke in or)
+    // { 
+    //   sum = parseFloat(sum) + parseFloat(langswitch.stof(or[ke]["price"]))                   
+    //   if(menu["rabat"]!="")
+    //           {
+    //               var rabb = sum*(parseInt(menu["rabat"]))/100
+    //               sum = sum - rabb
+    //           } 
+    // }  
+    menu.setsum(sum)
+  }) 
+  
+}
+export function ButtonCartContainer2 ({sum, setContainerCartModal,setContainerCustimizeModal,menu,or}) {  
     return <div style={{"height":""}}  className={`fixed-bottom fixed-end d-flex justify-content-center row`} >    
     <div   className={`col-12 d-flex justify-content-end d-none`} id="scrolltoupbutton">
     <span style={{"box-shadow":"0px 3px 20px rgba(0, 0, 0, 0.3)","backgroundColor":"#fff","borderRadius":"50%"}} className=" p-2 m-4"
@@ -64,10 +70,20 @@ export function ButtonCartContainer2 ({setContainerCartModal,setContainerCustimi
 export default function ButtonCartContainer ({menu,setContainerCartModal,setContainerCustimizeModal}) {  
 
     const [orders, setorder] = useState("")
+    const [sum, setsum] = useState("")
+    useEffect(()=>{
+      if("updateFooterButtonCart" in menu)
+      menu.updateFooterButtonCart(menu)
+    },[setsum, setorder])
     useEffect(()=>{
         langswitch.GetJsonM("order").then((m)=>{
-            setorder(m)
+            menu["setorder"]=setorder
+            menu["setsum"]=setsum     
+            menu["updateFooterButtonCart"]=ButtonCartContainer3     
+            ButtonCartContainer3(menu)
         }) 
     },[])    
-    return <>{orders !== "" && <ButtonCartContainer2 setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu} or={orders} />}</>  
+    return <>{orders !== "" && (
+      langswitch.stof(sum)>0 && <ButtonCartContainer2 sum={sum}  setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu} or={orders} />
+    )}</>  
   }

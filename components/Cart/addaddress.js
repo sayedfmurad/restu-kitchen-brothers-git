@@ -465,12 +465,16 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer}
         <TextField
           label="Handynummer"
           id="phonen"
+          type='number'
           style={{width:"100%"}}
           InputProps={{
             startAdornment: <InputAdornment position="start">+49</InputAdornment>,
           }}
         />          
   </div>      
+  <div class="form-group col-md-6 col-sm-12">
+        <TextField id="firma" style={{width:"100%"}} label="Anmerkung (freiwillig)" variant="outlined" />
+    </div>
   <div class="form-group col-md-6 col-sm-12 ">
     <TextField id="address-input" style={{width:"100%"}} label="Such für eine Addresse"
     onClick={()=>{
@@ -488,9 +492,7 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer}
     }}
     variant="outlined" />
     </div>
-    <div class="form-group col-md-6 col-sm-12">
-        <TextField id="firma" style={{width:"100%"}} label="Anmerkung (freiwillig)" variant="outlined" />
-    </div>
+
     </div>            
   <MModal idd="SearchforAddressModal" contaienrr={<SearchforAddressModal menu={menu}/>} />
 </div>
@@ -528,6 +530,7 @@ export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,t
               {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
               {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
               {addresses[seladd]["phonen"]}
+              {"firma" in addresses[seladd]?<><br/>{addresses[seladd]["firma"]}</>:<></>}
               </p>
               </div>              
           </div>

@@ -1892,7 +1892,15 @@
             "desO": "",
             "zusatz": "",
             "price": {
-                "Mittel": "3,50",
+                "Mittel": "3,50"
+            },
+            "section": "Beilagen und Saucen"
+        },
+        "24": {
+            "name": "Pommes frites",
+            "desO": "",
+            "zusatz": "",
+            "price": {
                 "Groß": "3,90"
             },
             "section": "Beilagen und Saucen"

@@ -197,8 +197,9 @@ export function SearchComponent ({menu}) {
 export  function IndexPage({menu}) {
   
   const [rows,setrows]=useState(<></>)
+  const [MainModal,setMainModal]=useState(<></>)
 
-  
+    menu["setMainModal"]= setMainModal
 
     InitilaizeSection(menu.setIsSearch)
     
@@ -363,6 +364,7 @@ export  function IndexPage({menu}) {
       </footer>
       <div style={{marginTop:"100px"}}/>
     </div>
+    {MainModal}
     <ModalsComponent menu={menu}/>
       </>
       
@@ -384,10 +386,11 @@ export function MButtonCartContainer ({menu,setContainerCartModal,setContainerCu
   const [ButtonFixedCart,setButtonFixedCart]=useState(<ButtonCartContainer setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu}/>)
   useEffect(()=>{  
     function ModalisClosed () {    
-      setButtonFixedCart(<></>)
-          setTimeout(() => {  
-              setButtonFixedCart(<ButtonCartContainer setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu}/>)
-          }, 100);
+      menu.updateFooterButtonCart(menu)
+      // setButtonFixedCart(<></>)
+      //     setTimeout(() => {  
+      //         setButtonFixedCart(<ButtonCartContainer setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu}/>)
+      //     }, 100);
     }
     setTimeout(() => {
       var myModalElCustomizeModal = document.getElementById('CustomizeModal')

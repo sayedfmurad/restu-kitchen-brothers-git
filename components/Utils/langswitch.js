@@ -330,6 +330,9 @@ return new URLSearchParams(new URL(currentUrl).search);
 
 }
 }
-
+export function RandomTimestamp () {
+    let mId = new Date();
+    return mId.getTime()+""
+}
 const f= new langswitch()
 export default f

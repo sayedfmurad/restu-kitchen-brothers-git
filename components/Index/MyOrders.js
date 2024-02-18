@@ -41,11 +41,9 @@ export function IsPaymentSuccess(menu){
 
     if(document.getElementById("btn-close-CartModal"))
     document.getElementById("btn-close-CartModal").click()
-    if(document.getElementById('fixedendidcart'))
-    document.getElementById('fixedendidcart').classList.add("d-none")
     window.localStorage.setItem("order","{}");
     window.localStorage.setItem("sumprice","0,00");
-
+    menu.setsum("0,00")
 
     
     
@@ -118,7 +116,9 @@ function Fetching (menu,orders,objtosend) {
                       for(var dl in result)
                       {
                         orders[dl]["time"]=result[dl]["time"]
-                        // orders[dl]["paid"]=result[dl]["paid"]
+                        orders[dl]["paid"]=result[dl]["paid"]
+                        if("islate" in result[dl])
+                        orders[dl]["islate"]=result[dl]["islate"]
                       }                        
                       window.localStorage.setItem("mainorder",JSON.stringify(orders) )
                       LastStep(menu,orders)
@@ -143,6 +143,7 @@ function LastStep(menu,orders) {
         for(var lll in orders)   
         if("showBrowserPaid" in orders[lll] || orders[lll]["paid"])     
         {        
+        
         var or=orders[lll]   
         var crows = [];
         var sum = 0
@@ -158,7 +159,14 @@ function LastStep(menu,orders) {
             <li className="list-group-item d-flex justify-content-between lh-light">
             <div className="row mb-4">
                         <div className='col-12'><h6 className=''>Bestätigte Zeit:</h6></div>
-                        <div  id={`MyorderIdTime${or["MainId"]}`} className={`col-12 ${or["time"]==""?"text-primary":"text-success"}`} style={{"fontSize":"1rem"}}><strong id={`MyorderIdTimeSpan${or["MainId"]}`}>{or["time"]==""?"Ihre bestellung wurde entgegengenommen, wir melden uns in kürze":or["time"]}</strong></div>
+                        <div  id={`MyorderIdTime${or["MainId"]}`} className={`col-12 ${or["time"]==""?"text-primary":"text-success"}`} style={{"fontSize":"1rem"}}>
+                            <strong id={`MyorderIdTimeSpan${or["MainId"]}`}>
+                                {or["time"]==""?"Ihre bestellung wurde entgegengenommen, wir melden uns in kürze":
+                                (
+                                  "islate" in or ? "Bestellung verzögert bis "+or["time"]+". Entschuldigung.":or["time"]
+                                )
+                                }
+                            </strong></div>
                         </div>
             </li>
         )

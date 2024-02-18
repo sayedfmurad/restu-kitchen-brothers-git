@@ -121,7 +121,8 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
             )
         }
         window.localStorage.setItem("sumprice",sum);
-     
+        menu.setsum(sum)
+        
 
    
     return     <ul className='list-group mb-3'>

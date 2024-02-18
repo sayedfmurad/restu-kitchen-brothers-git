@@ -1,6 +1,6 @@
 import langswitch from '../Utils/langswitch'
 import hash from "../Utils/object_hash"
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Cart from './cart';
 
 
@@ -25,7 +25,7 @@ export function TypesComponent ({type, settype, menu, id}) {
   
       return (
         <>              
-              <div className="col-12 mt-3">
+              <div className="col-12 mt-3 mb-1">
                 <select className="form-select" onChange={(e)=>{settype(e.target.value)}}>
                   {types}
                 </select>              
@@ -36,6 +36,109 @@ export function TypesComponent ({type, settype, menu, id}) {
       return <></>
     }
 }  
+
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+export function ShowExtrasOptions({extrarow,setMainModal}){
+    const [show, setShow] = useState(true);
+    const handleClose = () => {setShow(false);
+        setTimeout(() => {setMainModal(<></>)}, 500);
+    }
+    useEffect(() => {
+        // Add event listener for browser's back button or mobile device's back button
+        window.onpopstate = handleClose;
+      }, []);
+    return (
+      <>
+        <Modal fullscreen="md-down" show={show} onHide={handleClose} animation={false} >
+          <Modal.Header closeButton>
+            <Modal.Title>Extra hinzufügen</Modal.Title>
+          </Modal.Header>
+          <Modal.Body  style={{height:"1000px",backgroundColor:"rgb(242, 242, 242)"}}>
+            {extrarow}
+          </Modal.Body>
+          <Modal.Footer>
+            <Button className='col-12 rounded-5' variant="secondary" onClick={handleClose}>
+              Schließen
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </>
+    ); 
+}
+export function ExtraComponentV2 ({MyLang, setextra,extra,menu,id,type,orderid,or,updatePrice}) {
+    var extrarow=[]
+    var extrarow5=[]
+    let LenOfExtra = 0
+    var ok = menu["extra"];
+    var ion=0;
+ var addextra=(e)=>{
+        if(e.target.checked)
+        {
+            var go = extra
+            go[e.target.getAttribute("key-data")]=ok[e.target.getAttribute("key-data")];
+            setextra(go)
+        }              
+        else
+        {
+            var go = extra
+            delete extra[e.target.getAttribute("key-data")]
+            setextra(go)
+        }
+
+        updatePrice();         
+    }
+
+    for(var jjj in menu["extra"])
+    for(var ttt in menu["extra"][jjj]["section"])    
+    if(menu["product"][id]["section"].toUpperCase()==menu["extra"][jjj]["section"][ttt].toUpperCase())        
+    {
+        LenOfExtra++
+        var addextrasub = true;
+        if("extraexcept" in menu["product"][id])
+        if(jjj in menu["product"][id]["extraexcept"])
+        addextrasub=false
+        
+        if(addextrasub && (type in menu["extra"][jjj]))
+        { 
+        let mobiji = <>                
+            <div className={`row`} >            
+            <div className={`col-12`} >            
+            <input style={{cursor:"pointer"}} type="checkbox" class="form-check-input" key-data={jjj}  id={jjj} autocomplete="off" onChange={addextra} defaultChecked={(jjj in extra?true:false)}/>
+            &nbsp;&nbsp;
+            <label style={{cursor:"pointer"}} class="form-check-label pt-2 " key-data={jjj} for={jjj}>
+                {(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;(+{menu["extra"][jjj][type]["price"]})&nbsp;&euro;</label>
+            </div>            
+            </div>            
+         </>
+        if(!(jjj in extra))
+        extrarow.push(mobiji)
+        
+        if(ion<=4)
+        extrarow5.push(mobiji)
+        ion++;
+        }
+    }
+    if(LenOfExtra <= 5)
+    return extrarow5
+    return <>
+        {Object.keys(extra).map((key, index) => {
+            return <>            
+            <div className={`row mb-2`} >            
+            <div className={`col-12`} >            
+            <input style={{cursor:"pointer"}} type="checkbox" class="form-check-input" key-data={key} id={key+"setted"} onChange={addextra} checked={true}/>
+            &nbsp;&nbsp;
+            <label style={{cursor:"pointer"}} class="form-check-label pt-2 " key-data={key} for={key+"setted"}>
+                {(menu["extra"][key][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][key][type]["name"].charAt(0).toUpperCase() + menu["extra"][key][type]["name"].slice(1)}&nbsp;&nbsp;(+{menu["extra"][key][type]["price"]})&nbsp;&euro;</label>
+            </div>            
+            </div>            
+            </>
+        })}
+        {extrarow.length>0&&<button onClick={()=>{
+            menu.setMainModal(<ShowExtrasOptions extrarow={extrarow} setMainModal={menu.setMainModal}/>)
+        }} className=" mt-2 btn btn-lg btn-outline-secondary" >Extra hinzufügen</button>}
+    </>
+}
 export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,updatePrice}) {
     var extrarow=[]
     var editordercheck = orderid in or? true:false
@@ -298,8 +401,11 @@ export function IDisReady ({menu, id, orderid , orders}) {
 
 <div className='row' style={{"backgroundColor":"rgb(242 242 242)",padding:"30px 15px 30px 15px"}}>
 <OptionsComponent updatePrice={updatePrice} menu={menu} id={id} orderid={orderid} or={orders}/>
+{!("showextra" in menu["product"][id])&&false&&
+    <ExtraComponent MyLang={MyLang} setextra={setextra} extra={extra} updatePrice={updatePrice} type={type} menu={menu} id={id} orderid={orderid} or={orders}/>
+}
 {!("showextra" in menu["product"][id])&&
-    <ExtraComponent MyLang={MyLang} setextra={setextra} extra={extra} updatePrice={updatePrice} type={type} menu={menu} id={id} orderid={orderid} or={orders}/>}
+<ExtraComponentV2 MyLang={MyLang} setextra={setextra} extra={extra} updatePrice={updatePrice} type={type} menu={menu} id={id} orderid={orderid} or={orders}/>}
 
 <MsgComponent MyLang={MyLang} orderid={orderid} orders={orders}/>
 </div>
