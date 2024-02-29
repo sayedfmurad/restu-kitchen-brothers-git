@@ -17,13 +17,10 @@ let AddedFlagModal=false
 
 
 
-var navbar,solveshowNav,navbardistance=10000,scrolltoupbutton
-
 function InitilaizeSection (setIsSearch) {
 
 
   window.onpopstate = function(event) {
-    console.log(event);
     try {      
       document.getElementById('btn-close-AndroidInstallationModalLabel').click()
       document.getElementById('btn-close-IOSInstallationModal').click()
@@ -52,51 +49,8 @@ function InitilaizeSection (setIsSearch) {
     if(setIsSearch)
     setIsSearch(false)
   };
-  setTimeout(() => {        
-    navbar = document.querySelector('.navbarr');
-    scrolltoupbutton= document.getElementById("scrolltoupbutton")
-    if(navbar)
-    {
-      solveshowNav = document.querySelector('#solveshowNav');
-      navbardistance = navbar.getBoundingClientRect().top
-    }
-  }, 1500);
-  window.addEventListener('scroll', function() {  
-    if (window.pageYOffset > navbardistance) {
-      {
-        navbar.classList.add('fixed-top');
-        solveshowNav.classList.remove('d-none');
-        // if(scrolltoupbutton)
-        // scrolltoupbutton.classList.remove('d-none');
-      }
-    } else {
-      if(navbar){
-        navbar.classList.remove('fixed-top');      
-      solveshowNav.classList.add('d-none');
-      // if(scrolltoupbutton)
-      // scrolltoupbutton.classList.add('d-none');
-      }      
-    }
-  });
   
-    setTimeout(()=>{        
-        var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
-        dataSpyList.forEach(function (dataSpyEl) {
-          bootstrap.ScrollSpy.getInstance(dataSpyEl)
-            .refresh()    
-          })
-          
-        var l = document.getElementById("navbarscroll")
-        var g = document.getElementsByClassName('active')
-        var firstScrollSpyEl = document.querySelector('[data-bs-spy="scroll"]')
-          firstScrollSpyEl.addEventListener('activate.bs.scrollspy', function () {            
-            if(!NavBarTriggerIsClicked)            
-            l.scrollTo({
-              left: g[0].offsetLeft-5,
-              behavior: 'smooth'
-            })
-          })
-    }, 500);
+  
 
   
 
@@ -204,33 +158,44 @@ export  function IndexPage({menu}) {
     InitilaizeSection(menu.setIsSearch)
     
     var NavRows = [] 
-    const BtnSectionClicked=(e)=>{      
+    const BtnSectionClicked=(e)=>{  
+      e = e.target.closest(".nav-item");
       // e.preventdefault()
-      langswitch.scrollToElement(e.target.getAttribute("data-l"))
-      NavBarTriggerIsClicked=true
-      var l = document.getElementById("navbarscroll")
-      var g = document.getElementsByClassName('active')
-      setTimeout(() => {
-        NavBarTriggerIsClicked=false
-      if(typeof g[0] !== "undefined" && typeof l !== "undefined")
-        l.scrollTo({
-          left: g[0].offsetLeft-5,
-          behavior: 'auto'
-        })
-      }, 100);
-      // window.location.href = "./#section"+Object.keys(menu["sections"]["mdesc"]).indexOf(e.getAttribute("data-l"))
-
-
+      langswitch.scrollToElement(e.getAttribute("data-l"),100)
+      // NavBarTriggerIsClicked=true
+      // var l = document.getElementById("navbarscroll")
+      // var g = document.getElementsByClassName('active')
+      // setTimeout(() => {
+      //   NavBarTriggerIsClicked=false
+      // if(typeof g[0] !== "undefined" && typeof l !== "undefined")
+      //   l.scrollTo({
+      //     left: g[0].offsetLeft-5,
+      //     behavior: 'auto'
+      //   })
+      // }, 100);
     }
     for(var l in menu["sections"]["mdesc"])
       {              
+        var imgg = l.toUpperCase().replace(" ","_");
+        imgg = imgg.replace(" ","_");
+        imgg = imgg.replace("Ö","O")
+        imgg = imgg.replace("Ä","A")
+        imgg = imgg.replace("Ü","U")    
+        if("img" in menu["sections"]["mdesc"][l])
+        {
+          imgg = menu["sections"]["mdesc"][l]["img"].toUpperCase()
+        }  
           NavRows.push(<>
-            <li className="nav-item">
-              <a className="nav-link" 
-              
-              data-l={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} 
-              href={`#section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`}
-              onClick={BtnSectionClicked}>
+            <li className="nav-item" style={{marginRight:"10px"}}
+            data-l={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} 
+            onClick={BtnSectionClicked}
+            >
+              <div className="d-flex justify-content-center">
+                <img style={{padding:"5px",width:"70px",height:"70px",borderRadius:"50%"}} src={`./Images/${imgg}.jpeg`} height="30px" width="30px"/>
+              </div>
+              <a 
+              id={`nav-link-section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} 
+              className="nav-link">
               &nbsp;&nbsp;{l}&nbsp;&nbsp;
               </a>
             </li>
@@ -264,11 +229,12 @@ export  function IndexPage({menu}) {
           });
         }
         trows.push(
-              <div  id={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} className="pt-5  text-white" >
-                <div className='a-item  a-item-2' style={{"height":`${heightsection}`,"backgroundImage":`url(Images/${imgg}.jpeg)`}}>
+              <div  id={`section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} className="pt-5  text-white IsSection" >
+                {/* <div className='a-item  a-item-2' style={{"height":`${heightsection}`,"backgroundImage":`url(Images/${imgg}.jpeg)`}}>
                   <div  class="a-sub">{l}</div>
-                  </div>
-                  <div className='mb-2' style={{"fontSize":"0.8rem","color":"rgb(110 107 107)"}}>{menu["sections"]["mdesc"][l]["des"]}</div>
+                  </div> */}
+                  <h3 style={{color:"rgb(80, 80, 80)"}}>&nbsp;{l}</h3>
+                  {menu["sections"]["mdesc"][l]["des"]!=""&&<div className='mb-2' style={{"fontSize":"0.8rem","color":"rgb(110 107 107)"}}>&nbsp;{menu["sections"]["mdesc"][l]["des"]}</div>}
   
                {getSortedKeys(menu["product"]).map((number) => (
                   <>{
@@ -322,7 +288,7 @@ export  function IndexPage({menu}) {
     <>
     <MyNavBar menu={menu} />
     <div id="solveshowNav" className='d-none' style={{"height":"56px"}}></div>
-    <div className='container-fluid navbarr' >
+    <div className='container-fluid sticky-top' >
     <div style={{"height":"50px"}} className={`${menu.IsSearch?"":"d-none"} row`}>
       <div  className='col-10' style={{backgroundColor:"white"}}>
         <input onKeyUp={menu.onKeyUpSearch} id="SearchNavBar" style={{paddingLeft:"18px",marginTop:"5px",width:"100%",height:"79%",fontWeight:"bold"}} type='text' className='rounded-5'></input>
@@ -338,7 +304,7 @@ export  function IndexPage({menu}) {
         </div>         
     </nav>
     <div className='col-2' onClick={()=>{SearchIsClicked()}} style={{"backgroundColor":"white","cursor":"pointer"}}>
-      <div style={{marginTop:"12px"}} className='  d-flex justify-content-center'>
+      <div style={{marginTop:"50px"}} className='  d-flex justify-content-center'>
     <svg  width="30" height="23" fill="currentColor"  viewBox="0 0 16 16"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/> </svg>  
     </div> 
     </div>
@@ -382,15 +348,36 @@ return <>
 </>
 }
 
+
 export function MButtonCartContainer ({menu,setContainerCartModal,setContainerCustimizeModal}) {
   const [ButtonFixedCart,setButtonFixedCart]=useState(<ButtonCartContainer setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu}/>)
   useEffect(()=>{  
+    menu["currentNav"]="section0"
+    document.getElementById("nav-link-section0").classList.add("active")
+    window.addEventListener('scroll', function() {
+      
+      let el = document.elementFromPoint(100, 120).closest(".IsSection")
+      if(el)
+      if(menu["currentNav"]!=el.id)
+      {
+        document.getElementById("nav-link-"+menu["currentNav"]).classList.remove("active")
+        menu["currentNav"]=el.id
+        document.getElementById("nav-link-"+menu["currentNav"]).classList.add("active")
+        var l = document.getElementById("navbarscroll")
+        l.scrollTo({
+          left: document.getElementById("nav-link-"+menu["currentNav"]).offsetLeft-5,
+          behavior: 'smooth'
+        })
+        if(el.id!="section0")
+        {document.getElementById("scrollupbtn").classList.remove("d-none")}
+        else{
+          document.getElementById("scrollupbtn").classList.add("d-none")
+        }
+      }
+      // console.log(el.id);
+    });
     function ModalisClosed () {    
       menu.updateFooterButtonCart(menu)
-      // setButtonFixedCart(<></>)
-      //     setTimeout(() => {  
-      //         setButtonFixedCart(<ButtonCartContainer setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu}/>)
-      //     }, 100);
     }
     setTimeout(() => {
       var myModalElCustomizeModal = document.getElementById('CustomizeModal')

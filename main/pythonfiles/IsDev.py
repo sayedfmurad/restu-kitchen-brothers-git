@@ -22,6 +22,17 @@ def dev():
     # getObjj()    
     
     # shutil.copy("./main/database/"+str(key)+".menu.json","public/database/menu.json")
+def pub():    
+    with open('package.json', 'r+',encoding='utf-8') as f:
+      package = json.load(f)
+      package["IsOut"]=True
+      f.seek(0)
+      json.dump(package, f, ensure_ascii=False, indent=4)
+      f.truncate()
+
+    # getObjj()    
+    
+    # shutil.copy("./main/database/"+str(key)+".menu.json","public/database/menu.json")
 
 import hashlib
 restuses={}
@@ -67,6 +78,9 @@ def PrepairDB3(data):
             for j in data["product"][m]["options"]:
                 if j != data["product"][m]["options"][j]["name"]:
                     raise   ValueError(data["staticValue"]["key"],"   Nr ",m,"  Error Option Matching")
+        # for k in data["product"][m]["price"]:
+        #     if "," not in data["product"][m]["price"][k]:
+        #         raise   ValueError(data["staticValue"]["key"],"   Nr ",m,"  Error Price Matching")
     try:
         data["b"]["c"]
         data["staticValue"]["printer"]["style"]
@@ -129,6 +143,8 @@ def KillProcess():
 def main(args):
     if args[1] == "dev":
         dev()
+    elif args[1] == "pub":
+        pub()
     elif args[1] == "kill":
         KillProcess()
     elif args[1] == "prepairdb":

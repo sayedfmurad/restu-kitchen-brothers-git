@@ -1,0 +1,375 @@
+{
+    "sections": {
+        "mdesc": {              
+            "Burgers": {
+                "section": "Burgers",
+                "des": "Unser frisierter Hähnchen-Burger ist ein Geschmackserlebnis, knusprig panierte und saftige Hähnchenbrust",
+                "img":"BURGER"
+            }
+        }
+    },    
+    "product": {
+        "1": {
+            "name": "Nashville's Signature Burger",
+            "price": {
+                "Ohne Menü": "10,30",
+                "Mit Menü": "13,80"
+            },
+            "desO": "frisches Drehsoießbrot. Salate und Sauce",
+            "desT": "",
+            "zusatz": "",
+            "section": "Burgers",
+            "options": {
+                "Getränk": {
+                    "typeinclude": ["Mit Menü"],
+                    "showprice": false,
+                    "name": "Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Pommes": {
+                    "showprice": false,
+                    "name": "Pommes",
+                    "typeinclude": ["Mit Menü"],
+                    "options": {
+                        "Ohne Pommes": {
+                            "price": "0,00"
+                        },
+                        "Mit Pommes": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "extra": {
+        "Thunfisch": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Thunfisch"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Thunfisch"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Thunfisch"
+            }
+        },
+        "Champignons": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Champignons"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Champignons"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Champignons"
+            }
+        },
+        "Salami": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Salami"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Salami"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Salami"
+            }
+        },
+        "Spinat": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Spinat"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Spinat"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Spinat"
+            }
+        },
+        "Putenschinken": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Putenschinken"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Putenschinken"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Putenschinken"
+            }
+        },
+        "Drehsnieß": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Drehsnieß"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Drehsnieß"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Drehsnieß"
+            }
+        },
+        "Ketchup": {
+            "section": [
+                "pommes"
+            ],
+            "stand": {
+                "price": "0,50",
+                "name": "Ketchup"
+            }
+        },
+        "Mayonnaise": {
+            "section": [
+                "pommes"
+            ],
+            "stand": {
+                "price": "0,50",
+                "name": "Mayonnaise"
+            }
+        }
+    },
+    "staticValue": {
+        "pc":"AV_hWGfbnVmFi6JT9A407pEPiaXf0CyBRzDb_iF_XxJob9Hl9utLY03cmAch1Z3oaug64ZyBDvn4o5eZ",
+        "ps":"wrjCrMKbwqvDmMKew5PDgsKtwqXDlsK4wrrDpcKZwp7DqMOFwqrCqMKnwqnDlsKrwqHDkcOCwr3CvMOUw4nDosKvwr_CucOYwqzDnsK2w5DDmsK7wp_DpcOkw6bCu8KvwrHCusONw4TCucOnw6TDh8OfwpfCs8Kcw6bDocKow5jCssKlwpbCr8OGwrTCvsKtw5fCvsOjw4PCvsOawqfDlw==",
+        "printer":{
+            "style":{
+                "showdate":"true",
+                "font-table":"0.8rem",
+                "font-table-detail":"0.7rem",
+                "print-version":"1",
+                "notshowfooter":""
+            }
+        },
+        "logo": "Wing Menu",
+        "key": "wing-me",   
+        "taxid":"",
+        "rabat": "10",
+        "minpriceorder": [
+            {
+                "distance": {
+                    "min": 0,
+                    "max": 3
+                },
+                "price": 10,
+                "lieferkosten": 0
+            },
+            {
+                "distance": {
+                    "min": 2.9,
+                    "max": 5
+                },
+                "price": 10,
+                "lieferkosten": 1
+            },
+            {
+                "distance": {
+                    "min": 4.9,
+                    "max": 8
+                },
+                "price": 15,
+                "lieferkosten": 3
+            },
+            {
+                "distance": {
+                    "min": 7.9,
+                    "max": 12
+                },
+                "price": 20,
+                "lieferkosten": 3.5
+            }
+        ],
+        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/wing-me.json",
+        "zusatzStoffe": "",
+        "latlng": {
+            "lat": 51.34903,
+            "lng": 6.6241951
+        },
+        "kontakt": {
+            "name": "Wing Me",
+            "street": "Ruhrfelder Str. 37",
+            "zipc": "41199",
+            "city": "Mönchengladbach",
+            "tel": "021666399864"
+        },
+        "opendays": {
+            "sunday": {
+                "opentime": {
+                    "hour": 13,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "mondayy": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 30
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 0
+                }
+            },
+            "tuesday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "wednesday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "thursday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "friday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "saturday": {
+                "opentime": {
+                    "hour": 13,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            }
+        },
+        "opendaysV2":[
+            {
+                
+                "days":["monday","tuesday","wednesday","thursday","friday"],
+                "times":[{
+                            "opentime": {
+                                "hour": 11,
+                                "min": 30
+                            },
+                            "closetime": {
+                                "hour": 14,
+                                "min": 30
+                            }
+                        },
+                        {
+                            "opentime": {
+                                "hour": 17,
+                                "min": 0
+                            },
+                            "closetime": {
+                                "hour": 23,
+                                "min": 0
+                            }
+                        }
+                        ]
+            },
+            {
+                "days":["saturday"],
+                "times":[{
+                            "opentime": {
+                                "hour": 17,
+                                "min": 0
+                            },
+                            "closetime": {
+                                "hour": 23,
+                                "min": 0
+                            }
+                        }
+                        ]
+            },
+            {
+                "days":["sunday"],
+                "times":[{
+                            "opentime": {
+                                "hour": 16,
+                                "min": 0
+                            },
+                            "closetime": {
+                                "hour": 23,
+                                "min": 0
+                            }
+                        }
+                        ]
+            }
+        ]
+    },
+    "b": {
+        "c": "-4192159075"
+    },
+    "rabat": "10"
+}

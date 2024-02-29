@@ -453,6 +453,7 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer}
       
   return<div className="container mt-4">
   <div className="row p-3 g-3">            
+  <h6 style={{color:"#000"}}>Ihre Daten :</h6>
   <div class="form-group col-md-6 col-sm-12">
   <TextField id="fname" style={{width:"100%"}} label={MyLang["First Name"]} variant="outlined" />
   </div>
@@ -521,8 +522,8 @@ export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,t
           <div className={`list-group`}>                
           <div className='list-group-item justify-content-between d-flex'>                      
           <div className="row">
+              <h6 style={{color:"#000"}}>Ihre Daten :</h6>
               <div className='col-12'>
-              <h6>Ihre Daten :</h6>
               </div>
               <div className='col-12'>
               <p style={{"color":"#000"}}>

@@ -26,7 +26,7 @@ export function TypesComponent ({type, settype, menu, id}) {
       return (
         <>              
               <div className="col-12 mt-3 mb-1">
-                <select className="form-select" onChange={(e)=>{settype(e.target.value)}}>
+                <select className="form-select-lg form-select" onChange={(e)=>{settype(e.target.value)}}>
                   {types}
                 </select>              
               </div>         
@@ -39,7 +39,35 @@ export function TypesComponent ({type, settype, menu, id}) {
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-export function ShowExtrasOptions({extrarow,setMainModal}){
+export function ShowExtrasOptions({ok,extra,setextra,updatePrice, extrarow, setMainModal }) {
+    const [selectedOption, setSelectedOption] = useState("");
+  
+    const handleOptionChange = (event) => {
+        var go = extra
+        go[event.target.value]=ok[event.target.value]
+        console.log(go);
+        setextra(go)
+
+        updatePrice();  
+        // console.log(event.target.value);
+    //   setSelectedOption(event.target.value);
+      setSelectedOption("");
+    };
+  
+    return (
+      <select
+        className="form-select form-select-lg mb-3"
+        aria-label=".form-select-lg example"
+        value={selectedOption}
+        onChange={handleOptionChange}
+      >
+        <option value="">Deine Extra</option>
+        {extrarow}
+      </select>
+    );
+  }
+
+export function ShowExtrasOptionsV2({extrarow,setMainModal}){
     const [show, setShow] = useState(true);
     const handleClose = () => {setShow(false);
         setTimeout(() => {setMainModal(<></>)}, 500);
@@ -107,12 +135,13 @@ export function ExtraComponentV2 ({MyLang, setextra,extra,menu,id,type,orderid,o
             <input style={{cursor:"pointer"}} type="checkbox" class="form-check-input" key-data={jjj}  id={jjj} autocomplete="off" onChange={addextra} defaultChecked={(jjj in extra?true:false)}/>
             &nbsp;&nbsp;
             <label style={{cursor:"pointer"}} class="form-check-label pt-2 " key-data={jjj} for={jjj}>
-                {(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;(+{menu["extra"][jjj][type]["price"]})&nbsp;&euro;</label>
+                {(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;(+{menu["extra"][jjj][type]["price"]})&nbsp;&euro;
+                </label>
             </div>            
             </div>            
          </>
         if(!(jjj in extra))
-        extrarow.push(mobiji)
+        extrarow.push(<option key-data={jjj} id={jjj} value={jjj}>{(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;(+{menu["extra"][jjj][type]["price"]})&nbsp;&euro;</option>)
         
         if(ion<=4)
         extrarow5.push(mobiji)
@@ -122,6 +151,7 @@ export function ExtraComponentV2 ({MyLang, setextra,extra,menu,id,type,orderid,o
     if(LenOfExtra <= 5)
     return extrarow5
     return <>
+        {extrarow.length>0&&<ShowExtrasOptions ok={ok} extra={extra} setextra={setextra} updatePrice={updatePrice} extrarow={extrarow} setMainModal={menu.setMainModal}/>}
         {Object.keys(extra).map((key, index) => {
             return <>            
             <div className={`row mb-2`} >            
@@ -134,9 +164,9 @@ export function ExtraComponentV2 ({MyLang, setextra,extra,menu,id,type,orderid,o
             </div>            
             </>
         })}
-        {extrarow.length>0&&<button onClick={()=>{
+        {/* {extrarow.length>0&&<button onClick={()=>{
             menu.setMainModal(<ShowExtrasOptions extrarow={extrarow} setMainModal={menu.setMainModal}/>)
-        }} className=" mt-2 btn btn-lg btn-outline-secondary" >Extra hinzufügen</button>}
+        }} className=" mt-2 btn btn-lg btn-outline-secondary" >Extra hinzufügen</button>} */}
     </>
 }
 export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,updatePrice}) {
@@ -211,7 +241,7 @@ export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,
     {extrarow} 
     </>
 }
-export function OptionsComponent ({menu,id,orderid,or,updatePrice}) {
+export function OptionsComponent ({type,menu,id,orderid,or,updatePrice}) {
     var options = [];
  const OptionsElement=(e)=>{    
         var tempsubobj= []       
@@ -245,9 +275,9 @@ export function OptionsComponent ({menu,id,orderid,or,updatePrice}) {
         });
         for(var objo in sortedJsonObject)
     {
-        var tempobj=[]
-          
+            var tempobj=[]
             tempobj.push(OptionsElement(menu["product"][id]["options"][objo]))
+            if(menu["product"][id]["options"][objo]["typeinclude"].includes(type))
             options.push(tempobj)                
     } 
     }  
@@ -339,7 +369,13 @@ export function IDisReady ({menu, id, orderid , orders}) {
     const [price,setprice]=useState(updatePriceM())    
     const UpdateAddButtonText = (ppp)=>{
         if(orderid in orders)
-        return <> <img src="/Images/edit-svgrepo-com.svg" width="20" />&nbsp;&nbsp;<strong>{ppp}</strong>{" €"}</>
+        return <> 
+        <svg width="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+            <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8477 1.87868C19.6761 0.707109 17.7766 0.707105 16.605 1.87868L2.44744 16.0363C2.02864 16.4551 1.74317 16.9885 1.62702 17.5692L1.03995 20.5046C0.760062 21.904 1.9939 23.1379 3.39334 22.858L6.32868 22.2709C6.90945 22.1548 7.44285 21.8693 7.86165 21.4505L22.0192 7.29289C23.1908 6.12132 23.1908 4.22183 22.0192 3.05025L20.8477 1.87868ZM18.0192 3.29289C18.4098 2.90237 19.0429 2.90237 19.4335 3.29289L20.605 4.46447C20.9956 4.85499 20.9956 5.48815 20.605 5.87868L17.9334 8.55027L15.3477 5.96448L18.0192 3.29289ZM13.9334 7.3787L3.86165 17.4505C3.72205 17.5901 3.6269 17.7679 3.58818 17.9615L3.00111 20.8968L5.93645 20.3097C6.13004 20.271 6.30784 20.1759 6.44744 20.0363L16.5192 9.96448L13.9334 7.3787Z" fill="#ffffff"/> </g>
+            </svg>
+        &nbsp;&nbsp;<strong>{ppp}</strong>&nbsp;&euro;</>
         else 
         return <> 
         {/* <img src="/Images/plus-svgrepo-com.svg" width="20" /> */}
@@ -399,8 +435,8 @@ export function IDisReady ({menu, id, orderid , orders}) {
 
 <TypesComponent type={type} settype={settype} menu={menu} id={id} />
 
-<div className='row' style={{"backgroundColor":"rgb(242 242 242)",padding:"30px 15px 30px 15px"}}>
-<OptionsComponent updatePrice={updatePrice} menu={menu} id={id} orderid={orderid} or={orders}/>
+<div className='col-12 mt-4' style={{"backgroundColor":"rgb(242 242 242)"}}>
+<OptionsComponent type={type} updatePrice={updatePrice} menu={menu} id={id} orderid={orderid} or={orders}/>
 {!("showextra" in menu["product"][id])&&false&&
     <ExtraComponent MyLang={MyLang} setextra={setextra} extra={extra} updatePrice={updatePrice} type={type} menu={menu} id={id} orderid={orderid} or={orders}/>
 }

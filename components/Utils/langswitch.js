@@ -13,7 +13,7 @@ ChangeGetParameters=(value)=>{
     // Modify the browser URL without reloading the page
     history.pushState({ path: newUrl }, '', newUrl);
 }
- scrollToElement(elementId) {
+ scrollToElement(elementId,marginTop=0) {
     const element = document.getElementById(elementId);
   
     if (element) {
@@ -23,7 +23,7 @@ ChangeGetParameters=(value)=>{
         // Scroll to the element instantly without animation
         window.scrollTo({
             left: elementRect.left + window.scrollX,
-            top: elementRect.top + window.scrollY,
+            top: elementRect.top + window.scrollY-marginTop,
             behavior: 'instant' // 'auto' or 'instant' will work here
         });
     }

@@ -1,20 +1,34 @@
 {
+    "wing-me": {
+        "storeimg":"Images/cartoon.jpeg",
+        "key": "wing-me",
+        "name": "Wing Me",
+        "website":"wing-me.foodieway.de",
+        "search":"https://www.google.com/search?q=miramonti+Mönchengladbach",
+        "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
+    },
     "miramonti": {
         "storeimg":"Images/cartoon.jpeg",
         "key": "miramonti",
         "name": "Miramonti",
+        "website":"miramonti.foodieway.de",
+        "search":"https://www.google.com/search?q=miramonti+Mönchengladbach",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
     },
     "miramare1": {
         "storeimg":"Images/cartoon.jpeg",
         "key": "miramare1",
         "name": "Mira Mare 1",
+        "website":"miramare1.com",
+        "search":"https://www.google.com/search?q=miramare1+Mönchengladbach",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
     },
     "city-pizza": {
         "storeimg":"Images/cartoon.jpeg",
         "key": "city-pizza",
         "name": "City Pizza",
+        "website":"citypizza.foodieway.de",
+        "search":"https://www.google.com/search?q=city+pizza+express+mönchengladbach",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2",
         "part":[5898976395]
         
@@ -24,12 +38,16 @@
         "storeimg":"Images/cartoon.jpeg",
         "key": "sushi-kayo",
         "name": "Sushi Kayo",
+        "website":"sushi-kayo.foodieway.de",
+        "search":"https://www.google.com/search?q=sushi+kayo+mönchengladbach",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
     },
     "xantener-pizza-kebap": {
         "storeimg":"Images/cartoon.jpeg",
         "key": "xantener-pizza-kebap",
         "name": "Xanter Pizza Kebap",
+        "website":"xantener-pizza-kebap.foodieway.de",
+        "search":"https://www.google.com/search?q=xantener+pizza+und+döner+kebab",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2",
         "part":[6880386843,1222685097]
     },
@@ -43,6 +61,8 @@
         "storeimg":"Images/cartoon.jpeg",
         "key": "westendgrillundpizza",
         "name": "Westend Grill & Pizza",
+        "website":"westendgrillundpizza.com",
+        "search":"https://www.google.com/search?q=westendgrillundpizza+mönchengladbach",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
         ,"part":[5342998035]
     },
@@ -50,6 +70,8 @@
         "storeimg":"Images/cartoon.jpeg",
         "key": "pizzavalentina",
         "name": "Pizzavalentina",
+        "website":"pizzavalentina.de",
+        "search":"https://www.google.com/search?q=Pizzeria+Valentina+Willich",
         "v": "c7e459d1f12d5d6228dcaead470cf08016c8ff3ffba48aa9cf17def381d06ab1"
 
     },
@@ -57,6 +79,8 @@
         "storeimg":"Images/KITCHEN-BROTHERS-STORE.jpeg",
         "key": "kitchen-brothers",
         "name": "Kitchenbrothers",
+        "website":"kitchen-brothers.de",
+        "search":"https://www.google.com/search?q=Kitchenbrothers",
         "v": "346c4a4ef8f99cd79436233ebd0e50e398b68050dc9066619d06e6b0df1e4d1e",
         "part":[5850629710]
     },
@@ -67,10 +91,18 @@
         "v": "346c4a4ef8f99cd79436233ebd0e50e398b68050dc9066619d06e6b0df1e4d1e"
 
     }
+    ,"bockumer": {
+        "storeimg":"Images/cartoon.jpeg",
+        "key": "bockumer",
+        "name": "Bockumer DÖNER & PIZZA",
+        "search":"https://www.google.com/search?q=Bockumer+D%C3%B6ner+%26+Pizza",
+        "website":"bockumer.foodieway.de"
+    }
     ,"ariana-pizza": {
         "storeimg":"Images/cartoon.jpeg",
         "key": "ariana-pizza",
-        "name": "Ariana Pizza"
-
+        "name": "Ariana Pizza",
+        "search":"https://www.google.com/search?q=ariana+pizza+und+döner+kebab+schwalmtal",
+        "website":"ariana-pizza.foodieway.de"
     }
 }

@@ -1,0 +1,1636 @@
+{
+    "sections": {
+        "mdesc": {              
+            "Angebote": {
+                "section": "Angebote",
+                "des": "",
+                "img":"ANGEBOTE"
+            },
+            "Salate": {
+                "section": "Salate",
+                "des": "Alle Salate werden mit einem Dressing nach Wahl zubereitet, dazu werden Pizzabrötchen mit Kräuterbutter serviert.",
+                "img":"SALATE"
+            },
+            "Pizzabrötchen": {
+                "section": "Pizzabrötchen",
+                "des": "",
+                "img":"PIZZABROTCHEN"
+            },
+            "Pizza": {
+                "section": "Pizza",
+                "des": "Alle Pizzen werden mit Tomatensauce, Käse und Oregano zubereitet.",
+                "img":"PIZZEN"
+            },
+            "DREHSPIESS": {
+                "section": "DREHSPIESS",
+                "des": ""
+            },
+            "Durum": {
+                "section": "Durum",
+                "des": "",
+                "img":"DREHSPIESS"
+            },
+            "Lahmacun": {
+                "section": "Lahmacun",
+                "des": "",
+                "img":"DREHSPIESS"
+            },
+            "Schnitzel": {
+                "section": "Schnitzel",
+                "des": "Alle Schnitzel werden mit 180g paniertem Fleisch zubereitet, dazu wird eine Beilage nach Wahl zubereitet.",
+                "img":"SCHNITZEL"
+            },
+            "Burger": {
+                "section": "Burger",
+                "des": "",
+                "img":"BURGER"
+            },
+            "Kids Menu": {
+                "section": "Kids Menu",
+                "des": "",
+                "img":"BURGER"
+            },
+            "Getränke": {
+                "section": "Getränke",
+                "des": "",
+                "img":"ALKOHOLFREIE_GETRANKE"
+
+            }
+        }
+    },    
+    "product": {
+        "1P": {
+            "name": "Pizzabrötchen",
+            "price": {
+                "stand": "3,50"
+            },
+            "desO": "mit Kräuterbutter 8 Stück",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrötchen"
+        },
+        "2P": {
+            "name": "Gefüllte Pizzabrötchen je 8 Stück",
+            "price": {
+                "stand": "7,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrötchen"
+        },
+        "A1": {
+            "name": "Angebot 1",
+            "price": {
+                "stand": "20,00"
+            },
+            "desO": "3x Drehspieß frisches Drehsoießbrot. Salat und Sauce 3x Getränk 0.33L (nach Wah)",
+            "desT": "",
+            "options": {
+                "Getränk 1": {
+                    "showprice": false,
+                    "name": "Getränk 1",
+                    "options": {
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Getränk 2": {
+                    "showprice": false,
+                    "name": "Getränk 2",
+                    "options": {
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Getränk 3": {
+                    "showprice": false,
+                    "name": "Getränk 3",
+                    "options": {
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz": "",
+            "section": "Angebote"
+        },
+        "A3": {
+            "name": "Angebot 3",
+            "price": {
+                "stand": "9,50"
+            },
+            "desO": "1x Lahmacun (Salat und Sauce My mmere Pommes 1x Getränk (nach Wahl)",
+            "desT": "",
+            "options": {
+                "Getränk": {
+                    "showprice": false,
+                    "name": "Getränk",
+                    "options": {
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz": "",
+            "section": "Angebote"
+        },
+        "1": {
+            "name": "Drehspieß (Kalb oder Hähnchen)",
+            "price": {
+                "kalb": "6,00",
+                "Hähnchen": "6,00"
+            },
+            "desO": "frisches Drehsoießbrot. Salate und Sauce",
+            "desT": "",
+            "zusatz": "",
+            "section": "DREHSPIESS"
+        },
+        "2": {
+            "name": "Drehspieß groß",
+            "price": {
+                "stand": "8,00"
+            },
+            "desO": "frisches Drehsoießbrot. Salate und Sauce",
+            "desT": "",
+            "zusatz": "",
+            "section": "DREHSPIESS"
+        },
+        "3": {
+            "name": "Drehspieß Teller",
+            "price": {
+                "stand": "10,50"
+            },
+            "desO": "(Drehspeßfleisch. Pommes. Salate und Sauce)",
+            "desT": "",
+            "zusatz": "",
+            "section": "DREHSPIESS"
+        },
+        "4": {
+            "name": "Döner Box",
+            "price": {
+                "Klein": "5,00",
+                "Groß": "6,50"
+            },
+            "desO": "(Drehsnießfleisch mit Pommes und Salat)",
+            "desT": "",
+            "zusatz": "",
+            "section": "DREHSPIESS"
+        },
+        "5": {
+            "name": "Salat Tasche",
+            "price": {
+                "stand": "4,00"
+            },
+            "desO": "(mit gemischtem Salat und Sauce)",
+            "desT": "",
+            "zusatz": "",
+            "section": "DREHSPIESS"
+        },
+        "6": {
+            "name": "Portion Drehspießfleisch",
+            "price": {
+                "Klein": "7,00",
+                "Mittlere": "10,00"
+            },
+            "desO": "(Kalb oder Hähnchenfleisch und Sauce)",
+            "desT": "",
+            "zusatz": "",
+            "section": "DREHSPIESS"
+        },
+        "7": {
+            "name": "Falafel Tasche",
+            "price": {
+                "stand": "5,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "DREHSPIESS"
+        },
+        "8": {
+            "name": "Falafel Teller",
+            "price": {
+                "stand": "11,00"
+            },
+            "desO": "mit Pommes, Drehspießfleisch, gem. Salat & Soße",
+            "desT": "",
+            "zusatz": "",
+            "section": "DREHSPIESS"
+        },
+        "9": {
+            "name": "Falafel Teller",
+            "price": {
+                "stand": "9,00"
+            },
+            "desO": "(mit Pommes, gem. Salat & Soße)",
+            "desT": "",
+            "zusatz": "",
+            "section": "DREHSPIESS"
+        },
+        "10": {
+            "name": "Salat Dürüm",
+            "price": {
+                "stand": "5,50"
+            },
+            "desO": "(mit gemischtem Salat und Saucen: scharf-süß-Tzatziki)",
+            "desT": "",
+            "zusatz": "",
+            "section": "Durum"
+        },
+        "11": {
+            "name": "Dürüm Drehspieß",
+            "price": {
+                "stand": "7,00"
+            },
+            "desO": "(mit Drehspießfleisch, Salat, Saucen: scharf-süß-Tzatziki)",
+            "desT": "",
+            "zusatz": "",
+            "section": "Durum"
+        },
+        "12": {
+            "name": "Dürum Pom",
+            "price": {
+                "stand": "7,50"
+            },
+            "desO": "(dem, Salat, Pommes, Drehspießfleisch, Saucen: scharf-süß-Tzatziki)",
+            "desT": "",
+            "zusatz": "",
+            "section": "Durum"
+        },
+        "13": {
+            "name": "Dürum Falafel",
+            "price": {
+                "stand": "6,50"
+            },
+            "desO": "(gemischter Salat, Pommes, Saucen: scharf-süß-Tzatziki)",
+            "desT": "",
+            "zusatz": "",
+            "section": "Durum"
+        },
+        "14": {
+            "name": "Margherita",
+            "price": {
+                "26cm": "6,00",
+                "32cm": "8,50",
+                "40cm": "13,00"
+            },
+            "desO": "(Tomatensauce und Gouda)",
+            "desT": "",
+            "zusatz": "12ACGI",
+            "section": "Pizza"
+        },
+        "15": {
+            "name": "Tonno",
+            "price": {
+                "26cm": "6,50",
+                "32cm": "9,00",
+                "40cm": "16,00"
+            },
+            "desO": "(Thunfisch)",
+            "desT": "",
+            "zusatz": "1,2 ACDGIJ",
+            "section": "Pizza"
+        },
+        "16": {
+            "name": "Salami Halal",
+            "price": {
+                "26cm": "7,00",
+                "32cm": "9,50",
+                "40cm": "16,00"
+            },
+            "desO": "(Salami Halal)",
+            "desT": "",
+            "zusatz": "1,2,3,4 ACGNJ",
+            "section": "Pizza"
+        },
+        "17": {
+            "name": "Gepetto",
+            "price": {
+                "26cm": "8,50",
+                "32cm": "10,50",
+                "40cm": "18,00"
+            },
+            "desO": "(Champignons, Thunfisch, Zwiebel)",
+            "desT": "",
+            "zusatz": "1",
+            "section": "Pizza"
+        },
+        "18": {
+            "name": "Peperoni",
+            "price": {
+                "26cm": "6,50",
+                "32cm": "9,00",
+                "40cm": "15,50"
+            },
+            "desO": "(Peperoni)",
+            "desT": "",
+            "zusatz": "1,2,3,4 ACGI",
+            "section": "Pizza"
+        },
+        "19": {
+            "name": "Funghi & Salami",
+            "price": {
+                "26cm": "8,00",
+                "32cm": "10,50",
+                "40cm": "18,00"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizza"
+        },
+        "20": {
+            "name": "Hawaii",
+            "price": {
+                "26cm": "8,50",
+                "32cm": "10,00",
+                "40cm": "17,50"
+            },
+            "desO": "(Champignons und Salami Halal, Putenschinken, Ananas)",
+            "desT": "",
+            "zusatz": "12ACGIJ",
+            "section": "Pizza"
+        },
+        "21": {
+            "name": "Mozzarella",
+            "price": {
+                "26cm": "7,50",
+                "32cm": "10,00",
+                "40cm": "18,00"
+            },
+            "desO": "(Tomatenscheibe, Mozzarella)",
+            "desT": "",
+            "zusatz": "1,2",
+            "section": "Pizza"
+        },
+        "22": {
+            "name": "Funghi",
+            "price": {
+                "26cm": "7,00",
+                "32cm": "9,00",
+                "40cm": "15,50"
+            },
+            "desO": "(Champignons)",
+            "desT": "",
+            "zusatz": "1,2",
+            "section": "Pizza"
+        },
+        "23": {
+            "name": "Vulcano",
+            "price": {
+                "26cm": "8,00",
+                "32cm": "10,50",
+                "40cm": "18,00"
+            },
+            "desO": "(Champignons, Zwiebeln, Paprika)",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizza"
+        },
+        "24": {
+            "name": "Sucuk",
+            "price": {
+                "26cm": "7,50",
+                "32cm": "11,00",
+                "40cm": "18,00"
+            },
+            "desO": "(türk. Knoblauchwurst)",
+            "desT": "",
+            "zusatz": "1,2 ABCGIMN",
+            "section": "Pizza"
+        },
+        "25": {
+            "name": "Romana",
+            "price": {
+                "26cm": "7,50",
+                "32cm": "10,50",
+                "40cm": "18,00"
+            },
+            "desO": "(Thunfisch und Paprika)",
+            "desT": "",
+            "zusatz": "1,2 ACDGIJ",
+            "section": "Pizza"
+        },
+        "26": {
+            "name": "Genovese",
+            "price": {
+                "26cm": "8,00",
+                "32cm": "10,50",
+                "40cm": "18,50"
+            },
+            "desO": "(Thunfisch, Champignons und Paprika)",
+            "desT": "",
+            "zusatz": "12 ACDCU",
+            "section": "Pizza"
+        },
+        "27": {
+            "name": "Longobucco",
+            "price": {
+                "26cm": "7,50",
+                "32cm": "9,50",
+                "40cm": "17,50"
+            },
+            "desO": "(Zwiebeln und Champignons)",
+            "desT": "",
+            "zusatz": "12AC",
+            "section": "Pizza"
+        },
+        "28": {
+            "name": "Vegetarisch",
+            "price": {
+                "26cm": "7,50",
+                "32cm": "9,50",
+                "40cm": "17,50"
+            },
+            "desO": "(Paprika, Zwiebeln, Peperoni)",
+            "desT": "",
+            "zusatz": "12ACG",
+            "section": "Pizza"
+        },
+        "29": {
+            "name": "Pizza Döner",
+            "price": {
+                "26cm": "8,50",
+                "32cm": "11,00",
+                "40cm": "19,00"
+            },
+            "desO": "(Drehspießfl., Zwiebeln, Peperoni)",
+            "desT": "",
+            "zusatz": "2346678ACFGU",
+            "section": "Pizza"
+        },
+        "30": {
+            "name": "Spezial",
+            "price": {
+                "26cm": "8,50",
+                "32cm": "11,00",
+                "40cm": "19,00"
+            },
+            "desO": "(Drehspießfleisch, Thunfisch und Peperoni)",
+            "desT": "",
+            "zusatz": "123.456.7.8 ACFGNJ",
+            "section": "Pizza"
+        },
+        "31": {
+            "name": "Spinaci",
+            "price": {
+                "26cm": "7,50",
+                "32cm": "9,50",
+                "40cm": "16,00"
+            },
+            "desO": "(Spinat, Knoblauch, scharf)",
+            "desT": "",
+            "zusatz": "12 ACGI",
+            "section": "Pizza"
+        },
+        "32": {
+            "name": "Pizza Mafia",
+            "price": {
+                "26cm": "8,50",
+                "32cm": "11,00",
+                "40cm": "19,00"
+            },
+            "desO": "(Thunfisch, Salami, Peperoni, Knobl)",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizza"
+        },
+        "33": {
+            "name": "Broccoli",
+            "price": {
+                "26cm": "7,00",
+                "32cm": "9,00",
+                "40cm": "16,00"
+            },
+            "desO": "(Brokkoll, Knoblauch)",
+            "desT": "",
+            "zusatz": "1,2 ACC",
+            "section": "Pizza"
+        },
+        "34": {
+            "name": "Classic",
+            "price": {
+                "26cm": "8,00",
+                "32cm": "10,50",
+                "40cm": "17,50"
+            },
+            "desO": "(Schafskäse, Tomaten, milde Peperoni)",
+            "desT": "",
+            "zusatz": "1,2 ACC",
+            "section": "Pizza"
+        },
+        "35": {
+            "name": "Artischocke",
+            "price": {
+                "26cm": "7,50",
+                "32cm": "10,00",
+                "40cm": "17,00"
+            },
+            "desO": "(Artischocken)",
+            "desT": "",
+            "zusatz": "12ACG",
+            "section": "Pizza"
+        },
+        "36": {
+            "name": "Pizza Hollandaise",
+            "price": {
+                "26cm": "8,00",
+                "32cm": "10,50",
+                "40cm": "18,00"
+            },
+            "desO": "(Hähnchenbrust)",
+            "desT": "",
+            "zusatz": "12ACG",
+            "section": "Pizza"
+        },
+        "37": {
+            "name": "Pizza Olive",
+            "price": {
+                "26cm": "7,50",
+                "32cm": "10,00",
+                "40cm": "17,00"
+            },
+            "desO": "(Oliven, Zwiebeln)",
+            "desT": "",
+            "zusatz": "1,2 ACG",
+            "section": "Pizza"
+        },
+        "38": {
+            "name": "Calzone",
+            "price": {
+                "40cm": "10,50"
+            },
+            "desO": "(Putenschinken, Thunfisch, Salami)",
+            "desT": "",
+            "zusatz": "12.34 ACDG",
+            "section": "Pizza"
+        },
+        "39": {
+            "name": "Calzone Spezial",
+            "price": {
+                "40cm": "10,00"
+            },
+            "desO": "(Drehspieß, Paprika, Zwiebeln)",
+            "desT": "",
+            "zusatz": "1234.6678 ACFGH",
+            "section": "Pizza"
+        },
+        "40": {
+            "name": "Basic Salat",
+            "price": {
+                "stand": "6,00"
+            },
+            "desO": "Mais, Rucola, Zwiebeln, frische Paprika",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "41": {
+            "name": "Capricciosa Salat",
+            "price": {
+                "stand": "9,50"
+            },
+            "desO": "Käse, Thunfisch, Ei, Truthahnschinken",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "42": {
+            "name": "Bauernsalat",
+            "price": {
+                "stand": "7,90"
+            },
+            "desO": "Rote Zwiebeln, frische Paprika, Oliven, Hirtenkäse, Peperoni",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "43": {
+            "name": "Florida Salat",
+            "price": {
+                "stand": "8,50"
+            },
+            "desO": "Käse, Ananas, Hähnchen",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "44": {
+            "name": "Venezzia Salat",
+            "price": {
+                "stand": "8,50"
+            },
+            "desO": "Truthahnschinken, Mais, Ei",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "45": {
+            "name": "Gambas Salat",
+            "price": {
+                "stand": "8.50"
+            },
+            "desO": "Gebratene Gambas mit Pestosauce",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "46": {
+            "name": "Bockumer Spezial Salat",
+            "price": {
+                "stand": "9.50"
+            },
+            "desO": "Frische Mangostücke, Crispy, Hähnchen, Cashew-Kerne",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "47": {
+            "name": "Shrimps Salat",
+            "price": {
+                "stand": "9.50"
+            },
+            "desO": "Mit Truthahnschinken, Shrimps, Mais, Ei",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "48": {
+            "name": "Kräutersalat",
+            "price": {
+                "stand": "3.50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "49": {
+            "name": "Bohnensalat",
+            "price": {
+                "stand": "3.00"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "50": {
+            "name": "Gurkensalat",
+            "price": {
+                "stand": "3.50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "51": {
+            "name": "Gemischter Salat",
+            "price": {
+                "stand": "4.50"
+            },
+            "desO": "Mit Eisbergsalat, Tomaten, Gurken",
+            "desT": "Wahlweise Haus-Dressing oder Joghurtdressing",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "52": {
+            "name": "Salat mit Putenstreifen, Champignons und Mais",
+            "price": {
+                "stand": "9.90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "53": {
+            "name": "Bauernsalat",
+            "price": {
+                "stand": "7.90"
+            },
+            "desO": "Mit Weichkäse, Tomaten, Gurken, Peperoni und Zwiebeln",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "54": {
+            "name": "Thunfischsalat",
+            "price": {
+                "stand": "9.50"
+            },
+            "desO": "Thunfisch, Oliven, Ei, Käse",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "55": {
+            "name": "Gambas-Salat",
+            "price": {
+                "stand": "10.50"
+            },
+            "desO": "Eisbergsalat, Gambas, Ei",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "56": {
+            "name": "Lahmacun",
+            "price": {
+                "stand": "3.50"
+            },
+            "desO": "(ohne alles)",
+            "desT": "",
+            "zusatz": "AGGN",
+            "section": "Lahmacun"
+        },
+        "57": {
+            "name": "Lahmacun",
+            "price": {
+                "stand": "6.50"
+            },
+            "desO": "(Salat und Sauce)",
+            "desT": "",
+            "zusatz": "AcG.",
+            "section": "Lahmacun"
+        },
+        "58": {
+            "name": "Lahmacun",
+            "price": {
+                "stand": "8.00"
+            },
+            "desO": "(Drehspießfleisch, Salat und Sauce)",
+            "desT": "",
+            "zusatz": "",
+            "section": "Lahmacun"
+        },
+        "59": {
+            "name": "Pommes Frites klein",
+            "price": {
+                "stand": "2,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "60": {
+            "name": "Pommes Frites groß",
+            "price": {
+                "stand": "3,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "61": {
+            "name": "Pommes Frites Spezial",
+            "price": {
+                "stand": "5,00"
+            },
+            "desO": "mit Mayo, Ketchup und Zwiebeln",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "62": {
+            "name": "Cheese Pommes Frites",
+            "price": {
+                "stand": "5,50"
+            },
+            "desO": "mit Käse überbacken",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "63": {
+            "name": "Chili Cheese Pommes",
+            "price": {
+                "stand": "6.00"
+            },
+            "desO": "mit Käse überbacken",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "64": {
+            "name": "Kartoffelkroketten 6 Stück",
+            "price": {
+                "stand": ""
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "65": {
+            "name": "Fleischkroketten 1 Stück",
+            "price": {
+                "stand": ""
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "66": {
+            "name": "Bami-Scheibe",
+            "price": {
+                "stand": ""
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "67": {
+            "name": "Kipkorn",
+            "price": {
+                "stand": ""
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "68": {
+            "name": "Bratrolle",
+            "price": {
+                "stand": ""
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "69": {
+            "name": "Bratrolle Spezial",
+            "price": {
+                "stand": "3,00"
+            },
+            "desO": "mit Mayo, Ketchup und Zwiebeln",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "70": {
+            "name": "Currywurs",
+            "price": {
+                "stand": "2,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "71": {
+            "name": "Currywurst mit Pommes",
+            "price": {
+                "stand": "6,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "72": {
+            "name": "Chicken Wings",
+            "price": {
+                "stand": "6,00"
+            },
+            "desO": "6 Stück mit Asia-Sauce",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "73": {
+            "name": "Chicken Wings",
+            "price": {
+                "stand": "10,50"
+            },
+            "desO": "12 Stück mit Asia-Sauce",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "74": {
+            "name": "Chicken Nuggets",
+            "price": {
+                "stand": "16,50"
+            },
+            "desO": "6 Stück mit Pommes, Mayo",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "75": {
+            "name": "Chicken Nuggets",
+            "price": {
+                "stand": "7,90"
+            },
+            "desO": "12 Stück mit Pommes, Mayo",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "76": {
+            "name": "Samosa",
+            "price": {
+                "stand": ""
+            },
+            "desO": "2 Teigtaschen gefüllt mit Gemüse und Kartoffeln",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "77": {
+            "name": "Chicken Samosa",
+            "price": {
+                "stand": ""
+            },
+            "desO": "2 Teigtaschen gefüllt mit Gemüse und Hähnchen",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "78": {
+            "name": "Mini Frühlingsrollen",
+            "price": {
+                "stand": "6,50",
+                "stand": "7,50",
+                "stand": "4,50"
+            },
+            "desO": "",
+            "desT": "10 Stück vegetarisch",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "79": {
+            "name": "Chicken Strips 6 Stück",
+            "price": {
+                "stand": ""
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "80": {
+            "name": "Halbes Hähnchen mit Pommes",
+            "price": {
+                "stand": "8,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "81": {
+            "name": "Halbes Hähnchen mit Asia Sauce",
+            "price": {
+                "stand": "6,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "82": {
+            "name": "Ganzes Hähnchen",
+            "price": {
+                "stand": "13,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "83": {
+            "name": "Ganzes Hähnchen mit Pommes, Mayo und Getränk 0,33l",
+            "price": {
+                "stand": "18,90"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "pommes"
+        },
+        "84": {
+            "name": "Hamburger",
+            "price": {
+                "Klein": "4,00",
+                "Groß": "5,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Burger"
+        },
+        "85": {
+            "name": "Cheeseburger",
+            "price": {
+                "Klein": "4,50",
+                "Groß": "6,00"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Burger"
+        },
+        "86": {
+            "name": "Chili Burger mit Jalapenos",
+            "price": {
+                "Klein": "4,50",
+                "Groß": "6,00"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Burger"
+        },
+        "87": {
+            "name": "Chili Cheeseburger mit Jalapenos",
+            "price": {
+                "Klein": "5,00",
+                "Groß": "6,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Burger"
+        },
+        "88": {
+            "name": "Chickenburger",
+            "price": {
+                "Klein": "4,50",
+                "Groß": "5,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Burger"
+        },
+        "89": {
+            "name": "Cheese Chickenburger",
+            "price": {
+                "Klein": "5,00",
+                "Groß": "6,00"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Burger"
+        },
+        "90": {
+            "name": "Mafia Burger",
+            "price": {
+                "stand": "6,50"
+            },
+            "desO": "",
+            "desT": "mit einem Rindfleisch Patty, Ei, Schinken und Käse",
+            "zusatz": "",
+            "section": "Burger"
+        },
+        "91": {
+            "name": "Hamburger Menü",
+            "price": {
+                "stand": "9,90"
+            },
+            "desO": "mit Pommes und Getränk 0,33l",
+            "desT": "",
+            "zusatz": "",
+            "section": "Burger"
+        },
+        "92": {
+            "name": "Schnitzel Wiener Art",
+            "price": {
+            "stand": "9,50"
+            },
+            "desO": "mit Pommes und Getränk 0,33l",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "93": {
+            "name": "Schnitzel mit Champignonsauce",
+            "price": {
+            "stand": "11,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "94": {
+            "name": "Schnitzel mit Zwiebelrahmsauce",
+            "price": {
+            "stand": "11,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "95": {
+            "name": "Schnitzel mit Broccoli, Spinat, Sauce Hollandaise, Käse überbacken",
+            "price": {
+            "stand": "12,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "96": {
+            "name": "Schnitzel mit Sauce Hollandaise",
+            "price": {
+            "stand": "11,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "97": {
+            "name": "Schnitzel Hawaii mit Käse überbacken",
+            "price": {
+            "stand": "12,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "98": {
+            "name": "Schnitzel mit Jägersauce",
+            "price": {
+            "stand": "11,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "99": {
+            "name": "Holzfäller-Schnitzel mit Bacon, Spiegelei",
+            "price": {
+            "stand": "12,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "100": {
+            "name": "Schnitzel mit Zigeunersauce",
+            "price": {
+            "stand": "11,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "101": {
+            "name": "Schnitzel Bockumer mit Zwiebeln, Champignons, Sauce Hollandaise, Käse überbacken",
+            "price": {
+            "stand": "12,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Schnitzel"
+            },
+            "102": {
+            "name": "6 chicken Nuggets + kleine Pommes 6 Stück mit Pommes, Mavo 1 Capri -Sonne + Lutscher",
+            "price": {
+            "stand": "6,50"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Kids Menu"
+            },
+            "103": {
+                "name": "Coca-Cola",
+                "price": {
+                "0.33L": "1,75",
+                "0.5L": "2,00"
+                },
+                "desO": "",
+                "desT": "",
+                "zusatz": "",
+                "section": "Getränke"
+                },
+            "104": {
+                "name": "Fanta",
+                "price": {
+                "0.33L": "1,75",
+                "0.5L": "2,00"
+                },
+                "desO": "",
+                "desT": "",
+                "zusatz": "",
+                "section": "Getränke"
+                },
+            "105": {
+                "name": "Sprite",
+                "price": {
+                "0.33L": "1,75",
+                "0.5L": "2,00"
+                },
+                "desO": "",
+                "desT": "",
+                "zusatz": "",
+                "section": "Getränke"
+                },
+            "106": {
+                "name": "Capri Sonne",
+                "price": {
+                "0.2L": "1,00"
+                },
+                "desO": "",
+                "desT": "",
+                "zusatz": "",
+                "section": "Getränke"
+                },
+            "107": {
+                "name": "Ayran",
+                "price": {
+                "0.25L": "1,50"
+                },
+                "desO": "",
+                "desT": "",
+                "zusatz": "",
+                "section": "Getränke"
+                },
+            "108": {
+                "name": "Durstlöscher",
+                "price": {
+                "0.5L": "1,50"
+                },
+                "desO": "",
+                "desT": "",
+                "zusatz": "",
+                "section": "Getränke"
+                },
+            "109": {
+                "name": "Red Bul",
+                "price": {
+                "0.25L": "2,75"
+                },
+                "desO": "",
+                "desT": "",
+                "zusatz": "",
+                "section": "Getränke"
+                }
+    },
+    "extra": {
+        "Thunfisch": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Thunfisch"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Thunfisch"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Thunfisch"
+            }
+        },
+        "Champignons": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Champignons"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Champignons"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Champignons"
+            }
+        },
+        "Salami": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Salami"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Salami"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Salami"
+            }
+        },
+        "Spinat": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Spinat"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Spinat"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Spinat"
+            }
+        },
+        "Putenschinken": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Putenschinken"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Putenschinken"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Putenschinken"
+            }
+        },
+        "Drehsnieß": {
+            "section": [
+                "Pizza"
+            ],
+            "26cm": {
+                "price": "1,50",
+                "name": "Drehsnieß"
+            },
+            "32cm": {
+                "price": "1,50",
+                "name": "Drehsnieß"
+            },
+            "40cm": {
+                "price": "1,50",
+                "name": "Drehsnieß"
+            }
+        },
+        "Ketchup": {
+            "section": [
+                "pommes"
+            ],
+            "stand": {
+                "price": "0,50",
+                "name": "Ketchup"
+            }
+        },
+        "Mayonnaise": {
+            "section": [
+                "pommes"
+            ],
+            "stand": {
+                "price": "0,50",
+                "name": "Mayonnaise"
+            }
+        }
+    },
+    "staticValue": {
+        "pc":"AV_hWGfbnVmFi6JT9A407pEPiaXf0CyBRzDb_iF_XxJob9Hl9utLY03cmAch1Z3oaug64ZyBDvn4o5eZ",
+        "ps":"wrjCrMKbwqvDmMKew5PDgsKtwqXDlsK4wrrDpcKZwp7DqMOFwqrCqMKnwqnDlsKrwqHDkcOCwr3CvMOUw4nDosKvwr_CucOYwqzDnsK2w5DDmsK7wp_DpcOkw6bCu8KvwrHCusONw4TCucOnw6TDh8OfwpfCs8Kcw6bDocKow5jCssKlwpbCr8OGwrTCvsKtw5fCvsOjw4PCvsOawqfDlw==",
+        "printer":{
+            "style":{
+                "showdate":"true",
+                "font-table":"0.8rem",
+                "font-table-detail":"0.7rem",
+                "print-version":"1",
+                "notshowfooter":""
+            }
+        },
+        "logo": "Bockumer DÖNER & PIZZA",
+        "key": "bockumer",   
+        "taxid":"",
+        "rabat": "10",
+        "minpriceorder": [
+            {
+                "distance": {
+                    "min": 0,
+                    "max": 3
+                },
+                "price": 10,
+                "lieferkosten": 0
+            },
+            {
+                "distance": {
+                    "min": 2.9,
+                    "max": 5
+                },
+                "price": 10,
+                "lieferkosten": 1
+            },
+            {
+                "distance": {
+                    "min": 4.9,
+                    "max": 8
+                },
+                "price": 15,
+                "lieferkosten": 3
+            },
+            {
+                "distance": {
+                    "min": 7.9,
+                    "max": 12
+                },
+                "price": 20,
+                "lieferkosten": 3.5
+            }
+        ],
+        "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/bockumer.json",
+        "zusatzStoffe": "",
+        "latlng": {
+            "lat": 51.34903,
+            "lng": 6.6241951
+        },
+        "kontakt": {
+            "name": "Bockumer DÖNER & PIZZA",
+            "street": "Uerdinger Str. 715A",
+            "zipc": "47829",
+            "city": "Krefeld",
+            "tel": "021519674328"
+        },
+        "opendays": {
+            "sunday": {
+                "opentime": {
+                    "hour": 13,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "mondayy": {
+                "opentime": {
+                    "hour": 11,
+                    "min": 30
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 0
+                }
+            },
+            "tuesday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "wednesday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "thursday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "friday": {
+                "opentime": {
+                    "hour": 12,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            },
+            "saturday": {
+                "opentime": {
+                    "hour": 13,
+                    "min": 0
+                },
+                "closetime": {
+                    "hour": 22,
+                    "min": 0
+                }
+            }
+        },
+        "opendaysV2":[
+            {
+                
+                "days":["monday","tuesday","wednesday","thursday","friday"],
+                "times":[{
+                            "opentime": {
+                                "hour": 11,
+                                "min": 30
+                            },
+                            "closetime": {
+                                "hour": 14,
+                                "min": 30
+                            }
+                        },
+                        {
+                            "opentime": {
+                                "hour": 17,
+                                "min": 0
+                            },
+                            "closetime": {
+                                "hour": 23,
+                                "min": 0
+                            }
+                        }
+                        ]
+            },
+            {
+                "days":["saturday"],
+                "times":[{
+                            "opentime": {
+                                "hour": 17,
+                                "min": 0
+                            },
+                            "closetime": {
+                                "hour": 23,
+                                "min": 0
+                            }
+                        }
+                        ]
+            },
+            {
+                "days":["sunday"],
+                "times":[{
+                            "opentime": {
+                                "hour": 16,
+                                "min": 0
+                            },
+                            "closetime": {
+                                "hour": 23,
+                                "min": 0
+                            }
+                        }
+                        ]
+            }
+        ]
+    },
+    "b": {
+        "c": "-4192159075"
+    },
+    "rabat": "10"
+}

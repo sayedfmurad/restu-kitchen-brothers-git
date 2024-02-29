@@ -1,0 +1,28 @@
+"R1": {
+            "name": "Normal",
+            "showextra":"false",
+            "price": {
+                "stand": "2,80"
+            },
+            "desO": "Kräuterbutter oder Aoli",
+            "desT": "",
+            "options": {
+                "Ihre Dip": {
+                    "showprice": false,
+                    "name": "Ihre Dip",
+                    "options": {
+                        "Aioli": {
+                            "price": "0,00"
+                        },
+                        "Kräuterbutter": {
+                            "price": "0,00"
+                        },
+                        "Ohne Dip": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz": "1,7",
+            "section": "PIZZABRÖTCHEN"
+        }

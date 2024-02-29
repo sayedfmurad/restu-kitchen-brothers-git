@@ -19,14 +19,13 @@
     "scripts": {
         "kill": "python3 s.py kill",
         "dev": "export NODE_OPTIONS=--openssl-legacy-provider && python3 s.py prepairdb && python3 s.py dev && next dev -p 3000",
-        "build": "yarn config-static && npx next build && npx next export  ",
+        "build": "export NODE_OPTIONS=--openssl-legacy-provider && npx next build && npx next export  ",
         "start": "next start",
         "cloud": "aws cloudfront create-invalidation --distribution-id EW42NP988OU7X --paths '/*'",
-        "config-static": "node -e \"let pkg=require('./package.json'); pkg.IsOut=true; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\"",
         "db": "python3 s.py prepairdb && aws s3 sync ./public/database/ s3://angebote-restu/database/ --profile my",
         "pf": "aws s3 sync ./public/ s3://angebote-restu/ --profile my",
         "pindex": "aws s3 sync ./out/ s3://angebote-restu --profile my",
-        "pub": " yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
+        "pub": "python3 s.py pub && yarn build && aws s3 sync ./out/ s3://angebote-restu --profile my"
     },
     "s3path": "http://angebote-restu.s3-website.eu-central-1.amazonaws.com",
     "server": {

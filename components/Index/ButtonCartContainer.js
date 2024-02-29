@@ -20,13 +20,7 @@ function ButtonCartContainer3(menu){
 }
 export function ButtonCartContainer2 ({sum, setContainerCartModal,setContainerCustimizeModal,menu,or}) {  
     return <div style={{"height":""}}  className={`fixed-bottom fixed-end d-flex justify-content-center row`} >    
-    <div   className={`col-12 d-flex justify-content-end d-none`} id="scrolltoupbutton">
-    <span style={{"box-shadow":"0px 3px 20px rgba(0, 0, 0, 0.3)","backgroundColor":"#fff","borderRadius":"50%"}} className=" p-2 m-4"
-    onClick={()=>{langswitch.scrollToElement("bodydoc")}}
-    >
-    <svg style={{width:"36px",marginBottom:"6px"}} viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M13.18 10.97L8 5.615l-5.18 5.399-.962-.875 5.346-5.565a1.164 1.164 0 011.671 0l5.25 5.495-.945.901z"></path></svg>
-    </span>
-    </div>
+
      <div style={{"backgroundColor":"#fff",boxShadow:"0px -2px 4px rgba(0, 0, 0, 0.3)"}}  className={`col-12 d-flex justify-content-center p-3 ${Object.keys(or).length==0?"d-none":""}`} id="fixedendidcart">
       <button  type="button" 
       id="IdButtonCartFooter"  
@@ -67,6 +61,7 @@ export function ButtonCartContainer2 ({sum, setContainerCartModal,setContainerCu
     </div>
     </div>
   }
+  
 export default function ButtonCartContainer ({menu,setContainerCartModal,setContainerCustimizeModal}) {  
 
     const [orders, setorder] = useState("")
@@ -83,7 +78,16 @@ export default function ButtonCartContainer ({menu,setContainerCartModal,setCont
             ButtonCartContainer3(menu)
         }) 
     },[])    
-    return <>{orders !== "" && (
+    return <>
+    <div id="scrollupbtn" className="d-none" style={{position:"fixed",bottom:Object.keys(orders).length==0?"5vh":"120px",zIndex:"1000",right:"5vw"}}>
+        <span style={{display:"block",height:"60px",width:"60px","box-shadow":"0px 3px 20px rgba(0, 0, 0, 0.3)","backgroundColor":"#fff","borderRadius":"50%"}} 
+        onClick={()=>{document.getElementById("scrollupbtn").classList.add("d-none");document.getElementById("nav-link-section0").click();      }}
+        >
+        <svg style={{fontSize:"2rem",marginLeft:"15px",marginTop:"13px"}} viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path d="M13.18 10.97L8 5.615l-5.18 5.399-.962-.875 5.346-5.565a1.164 1.164 0 011.671 0l5.25 5.495-.945.901z"></path></svg>
+        </span>
+    </div>
+    {orders !== "" && (
       langswitch.stof(sum)>0 && <ButtonCartContainer2 sum={sum}  setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} menu={menu} or={orders} />
-    )}</>  
+    )}
+    </>  
   }
