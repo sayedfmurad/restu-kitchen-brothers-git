@@ -3,7 +3,7 @@
         "pp1": {
             "name": "Party-Pizza",
             "price": {
-                "60cm": "34,,90"
+                "60cm": "35,90"
             },
             "desO": "mit 4 Zutaten nach Wahl",
             "desT": "",
@@ -13,9 +13,9 @@
         "1": {
             "name": "Margherita",
             "price": {
-                "24cm": "4,50",
-                "30cm": "5,50",
-                "40cm": "11,50"
+                "24cm": "5,50",
+                "30cm": "6,50",
+                "40cm": "12,50"
             },
             "desO": "Gouda, Tomatensauce",
             "desT": "",
@@ -25,9 +25,9 @@
         "2": {
             "name": "Tuna",
             "price": {
-                "24cm": "6,50",
-                "30cm": "8,00",
-                "40cm": "15,00"
+                "24cm": "7,50",
+                "30cm": "9,00",
+                "40cm": "16,00"
             },
             "desO": "Gouda, Thunfisch, rote Zwiebeln, Tomatensauce",
             "desT": "",
@@ -37,9 +37,9 @@
         "3": {
             "name": "Onion",
             "price": {
-                "24cm": "5,00",
-                "30cm": "6,50",
-                "40cm": "13,00"
+                "24cm": "6,00",
+                "30cm": "7,50",
+                "40cm": "14,00"
             },
             "desO": "Zwiebel, Gouda, Tomatensauce",
             "desT": "",
@@ -52,9 +52,9 @@
         "4": {
             "name": "Champignon",
             "price": {
-                "24cm": "5,50",
-                "30cm": "7,00",
-                "40cm": "13,50"
+                "24cm": "6,50",
+                "30cm": "8,00",
+                "40cm": "14,50"
             },
             "desO": "Champignon, Gouda, Tomatensauce",
             "desT": "",
@@ -64,9 +64,9 @@
         "5": {
             "name": "Caprese",
             "price": {
-                "24cm": "6,50",
-                "30cm": "8,00",
-                "40cm": "15,00"
+                "24cm": "7,50",
+                "30cm": "9,00",
+                "40cm": "16,00"
             },
             "desO": "frische Tomaten, Mozzarella, Gouda, Basilikumpesto, Tomatensauce",
             "desT": "",
@@ -76,9 +76,9 @@
         "6": {
             "name": "Cheese Lovers",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "16,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "17,00"
             },
             "desO": "Hirtenkäse, Cheddar, Gouda, Mozzarella, Tomatensauce",
             "desT": "",
@@ -88,9 +88,9 @@
         "7": {
             "name": "Salami",
             "price": {
-                "24cm": "5,50",
-                "30cm": "7,00",
-                "40cm": "13,50"
+                "24cm": "6,50",
+                "30cm": "8,00",
+                "40cm": "14,50"
             },
             "desO": "Salami, Gouda, Tomatensauce",
             "desT": "",
@@ -100,9 +100,9 @@
         "8": {
             "name": "Hawaii",
             "price": {
-                "24cm": "6,00",
-                "30cm": "8,00",
-                "40cm": "15,00"
+                "24cm": "7,00",
+                "30cm": "9,00",
+                "40cm": "16,00"
             },
             "desO": "Putenschicken, Ananas, Gouda, Tomatensauce",
             "desT": "",
@@ -112,9 +112,9 @@
         "9": {
             "name": "Curry",
             "price": {
-                "24cm": "7,00",
-                "30cm": "9,00",
-                "40cm": "17,00"
+                "24cm": "8,00",
+                "30cm": "10,00",
+                "40cm": "18,00"
             },
             "desO": "Hähnchenbrust, Rote Zwiebeln, Gouda, Currysauce",
             "desT": "",
@@ -124,9 +124,9 @@
         "10": {
             "name": "Mista",
             "price": {
-                "24cm": "7,00",
-                "30cm": "9,00",
-                "40cm": "17,50"
+                "24cm": "8,00",
+                "30cm": "10,00",
+                "40cm": "18,50"
             },
             "desO": "Salami, Putenschicken, Tonno, Champignons, Tomatensauce",
             "desT": "",
@@ -136,9 +136,9 @@
         "11": {
             "name": "Texas",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,50",
-                "40cm": "18,00"
+                "24cm": "8,50",
+                "30cm": "10,50",
+                "40cm": "19,00"
             },
             "desO": "Doppelte Teig, Salami, Speck, Peperoni, Zwiebeln, Gouda, BBQ Sauce",
             "desT": "",
@@ -148,9 +148,9 @@
         "12": {
             "name": "Gambilli",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,50",
-                "40cm": "18,00"
+                "24cm": "8,50",
+                "30cm": "10,50",
+                "40cm": "19,00"
             },
             "desO": "Baby Garnelle, Champignons, Tuna, Gouda, Tomatensauce",
             "desT": "",
@@ -160,9 +160,9 @@
         "13": {
             "name": "Dumme Ziege",
             "price": {
-                "24cm": "9,00",
-                "30cm": "11,00",
-                "40cm": "19,00"
+                "24cm": "10,00",
+                "30cm": "12,00",
+                "40cm": "20,00"
             },
             "desO": "Ziegenkäse, Lachs, Rucola, Parmesan, Cranberry, Honig, Tomatensauce",
             "desT": "",
@@ -172,9 +172,9 @@
         "14": {
             "name": "Parma",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,00",
-                "40cm": "18,00"
+                "24cm": "8,50",
+                "30cm": "10,00",
+                "40cm": "19,00"
             },
             "desO": "Rinderschinken, Gouda, Rucola, Parmesan, Tomatensauce",
             "desT": "",
@@ -184,9 +184,9 @@
         "15": {
             "name": "Sucuk",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "15,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "16,00"
             },
             "desO": "Knoblauchwurst, Gouda, Tomatensauce",
             "desT": "",
@@ -196,9 +196,9 @@
         "16": {
             "name": "BBQ Bacon",
             "price": {
-                "24cm": "6,50",
-                "30cm": "8,00",
-                "40cm": "15,00"
+                "24cm": "7,50",
+                "30cm": "9,00",
+                "40cm": "16,00"
             },
             "desO": "Knuspriger Bacon, Paprika, Gouda, BBQ Sauce",
             "desT": "",
@@ -208,9 +208,9 @@
         "17": {
             "name": "KitchenBrothers",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,50",
-                "40cm": "18,00"
+                "24cm": "8,50",
+                "30cm": "10,50",
+                "40cm": "19,00"
             },
             "desO": "mit Jalapeno, Mais, karamellisierten Zwiebeln, Rinderhackfleisch und Barbecuesauce",
             "desT": "",
@@ -220,9 +220,9 @@
         "18": {
             "name": "Philadelphia",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "17,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "18,00"
             },
             "desO": "Frischkäse, Spinat, Rote Zwiebeln",
             "desT": "",
@@ -232,9 +232,9 @@
         "19": {
             "name": "Don Pablo",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "17,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "18,00"
             },
             "desO": "Rote Bohnen, Mais, Paprika, Zwieblen, Rinderhack, Gouda, Tomatensauce",
             "desT": "",
@@ -244,9 +244,9 @@
         "20": {
             "name": "Capricciosa",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "17,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "18,00"
             },
             "desO": "Putenschicken, Champignons, Artisch, Tonno, Gouda, Tomatensauce",
             "desT": "",
@@ -256,9 +256,9 @@
         "21": {
             "name": "Perla",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,00",
-                "40cm": "17,00"
+                "24cm": "8,50",
+                "30cm": "10,00",
+                "40cm": "18,00"
             },
             "desO": "Rucola, Tomaten, Mozzarella, Rindenschinken, Gouda, Tomatensauce",
             "desT": "",
@@ -268,9 +268,9 @@
         "22": {
             "name": "Regina",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "16,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "17,00"
             },
             "desO": "fr, Champignons, Putenschicken, Tomatensauce, Käse",
             "desT": "",
@@ -280,9 +280,9 @@
         "23": {
             "name": "Diabolo",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "17,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "18,00"
             },
             "desO": "Pepperoni, Salami, Jalapenos, Gouda, Tomatensauce",
             "desT": "",
@@ -292,9 +292,9 @@
         "24": {
             "name": "Sweet Ling Ling",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,00",
-                "40cm": "17,50"
+                "24cm": "8,50",
+                "30cm": "10,00",
+                "40cm": "18,50"
             },
             "desO": "Hähnchenbrust, Sweet Chili Sauce, Zwiebeln, Paprika",
             "desT": "",
@@ -304,9 +304,9 @@
         "25": {
             "name": "Böser Chinese",
             "price": {
-                "24cm": "8,00",
-                "30cm": "9,50",
-                "40cm": "18,00"
+                "24cm": "9,00",
+                "30cm": "10,50",
+                "40cm": "19,00"
             },
             "desO": "mit Hähnchenbrustfilet, Broccoli, Zwiebeln, Sesam und Teriyaki-Sauce",
             "desT": "",
@@ -316,9 +316,9 @@
         "26": {
             "name": "Lili Shrimp",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,00",
-                "40cm": "18,00"
+                "24cm": "8,50",
+                "30cm": "10,00",
+                "40cm": "19,00"
             },
             "desO": "Garnelen, Zwiebeln, Gouda, Tomatensauce",
             "desT": "",
@@ -328,9 +328,9 @@
         "27": {
             "name": "Pirata",
             "price": {
-                "24cm": "7,00",
-                "30cm": "9,00",
-                "40cm": "18,00"
+                "24cm": "8,00",
+                "30cm": "10,00",
+                "40cm": "19,00"
             },
             "desO": "Bolognese, Spaghetti, Gouda, Tomatensauce",
             "desT": "",
@@ -340,9 +340,9 @@
         "28": {
             "name": "Konstantin",
             "price": {
-                "24cm": "7,00",
-                "30cm": "9,00",
-                "40cm": "18,00"
+                "24cm": "8,00",
+                "30cm": "10,00",
+                "40cm": "19,00"
             },
             "desO": "Tuna, Paprika, Zwiebel, Spinat, Gouda, Tomatensauce",
             "desT": "",
@@ -352,9 +352,9 @@
         "29": {
             "name": "Mafia",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "17,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "18,00"
             },
             "desO": "Salami, Pepperoni, Paprika, Zwiebel, Gouda, Tomatensauce",
             "desT": "",
@@ -364,9 +364,9 @@
         "30": {
             "name": "Pesto Spinaci",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,00",
-                "40cm": "17,00"
+                "24cm": "8,50",
+                "30cm": "10,00",
+                "40cm": "18,00"
             },
             "desO": "Pesto, Sahnesauce, Feta, Spinat, Gouda, Tomatensauce",
             "desT": "",
@@ -376,9 +376,9 @@
         "31": {
             "name": "Gorgonzola",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "16,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "17,00"
             },
             "desO": "Gorgonzola, Spinat, Gouda, Tomatensauce",
             "desT": "",
@@ -388,9 +388,9 @@
         "32": {
             "name": "Scampi",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,50",
-                "40cm": "18,00"
+                "24cm": "8,50",
+                "30cm": "10,50",
+                "40cm": "19,00"
             },
             "desO": "Krabben, Gouda, Tomatensauce",
             "desT": "",
@@ -400,9 +400,9 @@
         "33": {
             "name": "Gamba Rucola",
             "price": {
-                "24cm": "8,00",
-                "30cm": "10,00",
-                "40cm": "18,00"
+                "24cm": "9,00",
+                "30cm": "11,00",
+                "40cm": "19,00"
             },
             "desO": "Krabben, Rucola, Parmesan, Oliven, Gouda, Tomatensauce",
             "desT": "",
@@ -412,9 +412,9 @@
         "34": {
             "name": "Borussia",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "16,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "17,00"
             },
             "desO": "Paprika, Spinat, Champignons, Gouda, Tomatensauce",
             "desT": "",
@@ -424,9 +424,9 @@
         "35": {
             "name": "Veggieterano",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "16,50"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "17,50"
             },
             "desO": "gebratene Gemüse, Gouda, Tomatensauce",
             "desT": "",
@@ -436,9 +436,9 @@
         "36": {
             "name": "MG - Spezial",
             "price": {
-                "24cm": "9,00",
-                "30cm": "11,00",
-                "40cm": "19,50"
+                "24cm": "10,00",
+                "30cm": "12,00",
+                "40cm": "20,50"
             },
             "desO": "Käserand, Tonno, Paprika, Spinat, Feta, Hollandaise, Gouda, Tomatensauce",
             "desT": "",
@@ -448,9 +448,9 @@
         "37": {
             "name": "Holly",
             "price": {
-                "24cm": "7,00",
-                "30cm": "8,50",
-                "40cm": "17,00"
+                "24cm": "8,00",
+                "30cm": "9,50",
+                "40cm": "18,00"
             },
             "desO": "Schinken, Hollandaise, Gouda, Tomatensauce",
             "desT": "",
@@ -460,9 +460,9 @@
         "38": {
             "name": "Frutty Di Mare",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,00",
-                "40cm": "18,00"
+                "24cm": "8,50",
+                "30cm": "10,00",
+                "40cm": "19,00"
             },
             "desO": "Meerfrüchte, Gouda, Tomatensauce",
             "desT": "",
@@ -472,9 +472,9 @@
         "39": {
             "name": "India",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,00",
-                "40cm": "18,00"
+                "24cm": "8,50",
+                "30cm": "10,00",
+                "40cm": "19,00"
             },
             "desO": "Ananas, Hähnchen, Paprika, Currysauce, Gouda, Tomatensauce",
             "desT": "",
@@ -484,9 +484,9 @@
         "40": {
             "name": "Brokkoli",
             "price": {
-                "24cm": "5,50",
-                "30cm": "7,00",
-                "40cm": "14,00"
+                "24cm": "6,50",
+                "30cm": "8,00",
+                "40cm": "15,00"
             },
             "desO": "Brokkoli, Gouda, Tomatensauce",
             "desT": "",
@@ -496,9 +496,9 @@
         "41": {
             "name": "Türkische Mista",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,50",
-                "40cm": "17,50"
+                "24cm": "8,50",
+                "30cm": "10,50",
+                "40cm": "18,50"
             },
             "desO": "Thunfisch, Champignon, Sucuk, Pastirma, Gouda, Tomatensauce",
             "desT": "",
@@ -508,7 +508,7 @@
         "XS": {
             "name": "Kinder pizza in Hasenform",
             "price": {
-                "stand": "4,90"
+                "stand": "5,90"
             },
             "desO": "mit Gouda und Tomatensauce",
             "desT": "",
@@ -518,9 +518,9 @@
         "pb2": {
             "name": "Pizza Barbecue Bacon",
             "price": {
-                "24cm": "7,00",
-                "30cm": "9,00",
-                "40cm": "17,00"
+                "24cm": "8,00",
+                "30cm": "10,00",
+                "40cm": "18,00"
             },
             "desO": "mit knusprigem Bacon, Paprika und Barbecuesauce",
             "desT": "",
@@ -530,9 +530,9 @@
         "pb3": {
             "name": "Pizza China",
             "price": {
-                "24cm": "9,00",
-                "30cm": "11,00",
-                "40cm": "17,00"
+                "24cm": "10,00",
+                "30cm": "12,00",
+                "40cm": "18,00"
             },
             "desO": "mit Hähnchenbrustfilet, Broccoli, Zwiebeln, Sesam und Teriyaki-Sauce",
             "desT": "",
@@ -542,9 +542,9 @@
         "pb4": {
             "name": "Pizza Schinken",
             "price": {
-                "24cm": "6,50",
-                "30cm": "9,00",
-                "40cm": "14,00"
+                "24cm": "7,50",
+                "30cm": "10,00",
+                "40cm": "15,00"
             },
             "desO": "Wahl aus: Ø 24cm, Ø 30cm oder Ø 40cm.",
             "desT": "",
@@ -554,9 +554,9 @@
         "pb5": {
             "name": "Calzone",
             "price": {
-                "24cm": "7,50",
-                "30cm": "9,50",
-                "40cm": "14,50"
+                "24cm": "8,50",
+                "30cm": "10,50",
+                "40cm": "15,50"
             },
             "desO": "Wahl aus: mit Ananas, mit Artischocken, mit Barbecuesauce, mit Basilikum-Pesto, mit Champignons und mehr.",
             "desT": "",
@@ -566,9 +566,9 @@
         "pb6": {
             "name": "Pizza New York",
             "price": {
-                "24cm": "6,50",
-                "30cm": "8,50",
-                "40cm": "13,50"
+                "24cm": "7,50",
+                "30cm": "9,50",
+                "40cm": "14,50"
             },
             "desO": "mit Peperonisalami",
             "desT": "",
@@ -578,7 +578,7 @@
         "P1": {
             "name": "Pasta Bolognese",
             "price": {
-                "stand": "8,30"
+                "stand": "8,80"
             },
             "desO": "Rinderhackfleischsoße, fr. Parmsesan",
             "desT": "",
@@ -605,7 +605,7 @@
         "P2": {
             "name": "Pasta Carbonara",
             "price": {
-                "stand": "8,30"
+                "stand": "8,80"
             },
             "desO": "Putenschicken, Sahnesauce",
             "desT": "",
@@ -632,7 +632,7 @@
         "P3": {
             "name": "Pasta Chickasta",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "desO": "Hähnchenbrust, Champignons, Zwiebeln, Sahnesauce",
             "desT": "",
@@ -659,7 +659,7 @@
         "P4": {
             "name": "Pasta Mumbai",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "desO": "Hähnchenbrust, Zwiebeln, Möhren, Brokkoli, Curry, Sahnesauce",
             "desT": "",
@@ -686,7 +686,7 @@
         "P5": {
             "name": "Pasta Verdura",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "desO": "Auberginen, Zuccini, Brokkoli, fr. Paprika, Knoblauch, Tomatensauce",
             "desT": "",
@@ -713,7 +713,7 @@
         "P6": {
             "name": "Pasta Scampi",
             "price": {
-                "stand": "9,00"
+                "stand": "9,50"
             },
             "desO": "Krabben, Knoblauch, Tomatensauce",
             "desT": "",
@@ -740,7 +740,7 @@
         "P7": {
             "name": "Pasta Napoli",
             "price": {
-                "stand": "7,50"
+                "stand": "8,00"
             },
             "desO": "Tomatensauce",
             "desT": "",
@@ -767,7 +767,7 @@
         "P8": {
             "name": "Pasta Fruttie De Mare",
             "price": {
-                "stand": "9,50"
+                "stand": "10,00"
             },
             "desO": "Meerfrüchte, Knoblauch, Tomatensauce",
             "desT": "",
@@ -1064,7 +1064,7 @@
         "T1": {
             "name": "Chicken",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "desO": "Hähnchenbrust, Pommes, Gouda, Spezialsauce",
             "desT": "",
@@ -1074,7 +1074,7 @@
         "T2": {
             "name": "Beef",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "desO": "Rindhackfleisch, Pommes, Gouda, Spezialsauce",
             "desT": "",
@@ -1084,7 +1084,7 @@
         "T3": {
             "name": "Merguez",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "desO": "Merguezwurst, Pommes, Gouda, Spezialsauce",
             "desT": "",
@@ -1094,7 +1094,7 @@
         "T4": {
             "name": "Veggie",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "desO": "Veggiepatty, Fetta, Pommes, Gouda, Spezialsauce",
             "desT": "",
@@ -1104,7 +1104,7 @@
         "T5": {
             "name": "Tuna",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "desO": "Thunfisch, Mais, Pommes, Gouda, Spezialsauce",
             "desT": "",
@@ -1114,7 +1114,7 @@
         "T6": {
             "name": "Falafel Veggie",
             "price": {
-                "stand": "8,00"
+                "stand": "8,50"
             },
             "desO": "Falafel, Pommes, Gouda, Spezialsauce",
             "desT": "",
@@ -1124,7 +1124,7 @@
         "T7": {
             "name": "French Taco The El Patron",
             "price": {
-                "stand": "9,00"
+                "stand": "9,50"
             },
             "desO": "Rindhackfleisch, gebr, Zwiebeln, Tomaten, Jalapenos, Hotcreme, Pommes, Gouda",
             "desT": "",
@@ -1134,7 +1134,7 @@
         "T8": {
             "name": "French Taco Nuggets",
             "price": {
-                "stand": "8,30"
+                "stand": "8,80"
             },
             "desO": "Nuggets, Pommes, Gouda, BBQ",
             "desT": "",
@@ -1144,7 +1144,7 @@
         "T9": {
             "name": "French Taco Chilli Cheese",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "desO": "Rindhackfleisch, Jalapenos, Pommes, Gouda",
             "desT": "",
@@ -1154,7 +1154,7 @@
         "T10": {
             "name": "French Taco Lyon",
             "price": {
-                "stand": "9,50"
+                "stand": "10,00"
             },
             "desO": "Hähnchenbrust, Salatmischung, Avocado-Creme, Gouda, Pommes",
             "desT": "",
@@ -1164,7 +1164,7 @@
         "T11": {
             "name": "French Taco Kitchen Brothers XXL",
             "price": {
-                "stand": "14,20"
+                "stand": "14,70"
             },
             "desO": "Rindhackfleisch, Salatmischung, Avocado-Creme, Gouda, Pommes",
             "desT": "",
@@ -1174,7 +1174,7 @@
         "T12": {
             "name": "French Taco Vegetables",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "desO": "gebratene Gemüse, Gouda, Pommes, Pesto-Creme",
             "desT": "",
@@ -1184,7 +1184,7 @@
         "T13": {
             "name": "French Taco Lavin",
             "price": {
-                "stand": "9,50"
+                "stand": "10,00"
             },
             "desO": "gebr. Gemüse, Rindhackfleisch, Gouda, Pommes, Spezialsauce",
             "desT": "",
@@ -1193,9 +1193,9 @@
         },
         "R1": {
             "name": "Normal",
-            "showextra":"false",
+            "showextra": "false",
             "price": {
-                "stand": "2,80"
+                "stand": "3,30"
             },
             "desO": "Kräuterbutter oder Aoli",
             "desT": "",
@@ -1222,7 +1222,7 @@
         "R2": {
             "name": "Cheese",
             "price": {
-                "stand": "5,00"
+                "stand": "5,50"
             },
             "desO": "Tomatensauce, Gouda",
             "desT": "",
@@ -1249,7 +1249,7 @@
         "R3": {
             "name": "Tuna",
             "price": {
-                "stand": "6,00"
+                "stand": "6,50"
             },
             "desO": "Thunfisch, Tomatensauce, Gouda",
             "desT": "",
@@ -1276,7 +1276,7 @@
         "R4": {
             "name": "Schinken",
             "price": {
-                "stand": "6,00"
+                "stand": "6,50"
             },
             "desO": "Putenschicken, Tomatensauce, Gouda",
             "desT": "",
@@ -1303,7 +1303,7 @@
         "R5": {
             "name": "Hawaii",
             "price": {
-                "stand": "6,20"
+                "stand": "6,70"
             },
             "desO": "Putenschicken, Ananas, Gouda, Tomatensauce",
             "desT": "",
@@ -1330,7 +1330,7 @@
         "R6": {
             "name": "Caprese",
             "price": {
-                "stand": "6,00"
+                "stand": "6,50"
             },
             "desO": "Frische Tomaten, Tomatensauce, Gouda, Basilikumpesto",
             "desT": "",
@@ -1357,7 +1357,7 @@
         "R7": {
             "name": "Holly",
             "price": {
-                "stand": "6,40"
+                "stand": "6,90"
             },
             "desO": "Hähnchenbrust, Holondaise, Gouda",
             "desT": "",
@@ -1384,7 +1384,7 @@
         "R8": {
             "name": "Sucuk",
             "price": {
-                "stand": "6,00"
+                "stand": "6,50"
             },
             "desO": "Sucuk, Gouda",
             "desT": "",
@@ -1411,7 +1411,7 @@
         "R9": {
             "name": "Spinat Feta",
             "price": {
-                "stand": "6,40"
+                "stand": "6,90"
             },
             "desO": "Spinat, Feta, Gouda",
             "desT": "",
@@ -1438,7 +1438,7 @@
         "R10": {
             "name": "Salami",
             "price": {
-                "stand": "6,00"
+                "stand": "6,50"
             },
             "desO": "Gouda und Tomatensauce",
             "desT": "",
@@ -1572,7 +1572,7 @@
         "B1": {
             "name": "Cheeseburger",
             "price": {
-                "stand": "8,40"
+                "stand": "8,90"
             },
             "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Salat, Tomaten, Gurken, Burgersauce",
             "desT": "",
@@ -1582,7 +1582,7 @@
         "B2": {
             "name": "Chili Cheeseburger",
             "price": {
-                "stand": "8,40"
+                "stand": "8,90"
             },
             "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, jalapenos Chili Sauce",
             "desT": "",
@@ -1592,7 +1592,7 @@
         "B3": {
             "name": "Bacon Barbecue Egg Burger",
             "price": {
-                "stand": "8,90"
+                "stand": "9,40"
             },
             "desO": "mit 160g Beef Patty, Cheddar, Karamell-Zwiebeln, Bacon, BBQ Sauce, Ei",
             "desT": "",
@@ -1602,7 +1602,7 @@
         "B4": {
             "name": "Hot Philadelphia Burger",
             "price": {
-                "stand": "8,40"
+                "stand": "8,90"
             },
             "desO": "mit 160g Beef Patty, Philadelphiacreme, Cheddar, Rote Zwiebeln, Salat, Tomate, Gurke",
             "desT": "",
@@ -1612,7 +1612,7 @@
         "B5": {
             "name": "Feuerwerk X-Treme Burger",
             "price": {
-                "stand": "8,40"
+                "stand": "8,90"
             },
             "desO": "mit 160g Beef Patty, frisch gegrillter Chilischote, Cheddar, Jalapeno, rote Zwiebeln, Salat, Tomate, Gurke und Chilisauce",
             "desT": "",
@@ -1622,7 +1622,7 @@
         "B6": {
             "name": "Big Bacon Boss X-Treme Burger",
             "price": {
-                "stand": "10,90"
+                "stand": "11,40"
             },
             "desO": "mit 320g Beef Patty, 2 Spiegeleiern, Cheddar, Bacon und Karamell-Zwiebeln",
             "desT": "",
@@ -1632,7 +1632,7 @@
         "B7": {
             "name": "Crispy Chickenburger",
             "price": {
-                "stand": "8,90"
+                "stand": "9,40"
             },
             "desO": "mit Crispi, Cheddar,Chili-Sauce, Salat, Tomaten und Gurken",
             "desT": "",
@@ -1642,7 +1642,7 @@
         "B8": {
             "name": "Italian Burger",
             "price": {
-                "stand": "8,80"
+                "stand": "9,30"
             },
             "desO": "mit 160g Beef Patty, Parmesan, Mozzarella, gebratener Paprika, Pesto-Creme, Rucola, Tomaten und Gurken",
             "desT": "",
@@ -1652,7 +1652,7 @@
         "B9": {
             "name": "Veggie Burger",
             "price": {
-                "stand": "8,40"
+                "stand": "8,90"
             },
             "desO": "mit Veggie Patty, Cheddar, Salat, Tomaten, Gurken und Pesto-Creme",
             "desT": "",
@@ -1662,7 +1662,7 @@
         "B10": {
             "name": "Joppie Burger",
             "price": {
-                "stand": "8,90"
+                "stand": "9,40"
             },
             "desO": "mit 160g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Joppiesauce",
             "desT": "",
@@ -1672,7 +1672,7 @@
         "B11": {
             "name": "Kitchenbrother Burger",
             "price": {
-                "stand": "11,90"
+                "stand": "12,40"
             },
             "desO": "mit 320g Beef Patty, roten Zwiebeln, Bacon, Salat, Tomaten, Gurken und Spezialsauce",
             "desT": "",
@@ -1682,7 +1682,7 @@
         "B12": {
             "name": "Sydney Burger",
             "price": {
-                "stand": "8,90"
+                "stand": "9,40"
             },
             "desO": "mit 160g Beef Patty, gegrillter Ananas, Bacon, Cheddar und Pesto-Creme",
             "desT": "",
@@ -1692,7 +1692,7 @@
         "B13": {
             "name": "Sindbad Burger",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "desO": "mit 160g Beef Patty, Avocado-Cream, Salat, Zwiebeln, Cheddar, Gurken und Tomaten",
             "desT": "",
@@ -1702,7 +1702,7 @@
         "B14": {
             "name": "Big Boss Triple Extreme",
             "price": {
-                "stand": "13,80"
+                "stand": "14,30"
             },
             "desO": "mit 480g Beef Patty, Bacon, Cheddar, Jalapenos, Zwiebeln und Barbecuesauce",
             "desT": "",
@@ -1712,7 +1712,7 @@
         "B15": {
             "name": "Chicken Crispy Avocado Burger",
             "price": {
-                "stand": "8,90"
+                "stand": "9,40"
             },
             "desO": "mit Hähnchenbrustfilet, Rucola, Tomaten, Gurken, Tomaten, Avocado-Cream, roten Zwiebeln und Mozzarella",
             "desT": "",
@@ -1722,7 +1722,7 @@
         "B16": {
             "name": "Hamburger",
             "price": {
-                "stand": "8,50"
+                "stand": "9,00"
             },
             "desO": "mit einem 160g Beef-Patty, Salat, Tomaten, Gurken und Burgersauce",
             "desT": "",
@@ -1732,7 +1732,7 @@
         "B17": {
             "name": "London Burger",
             "price": {
-                "stand": "8,90"
+                "stand": "9,40"
             },
             "desO": "mit einem 160g Beef-Patty, Cheddar, Salat, Tomaten, Gurken, roten Zwiebeln und Pink-Creme",
             "desT": "",
@@ -1742,7 +1742,7 @@
         "B18": {
             "name": "Chicken Tropical Burger",
             "price": {
-                "stand": "9,90"
+                "stand": "10,40"
             },
             "desO": "mit Crispy Chicken-Patty, Salat, Tomaten, Gurken, Mozzarella und Mango-Creme",
             "desT": "",
@@ -1752,7 +1752,7 @@
         "B19": {
             "name": "Honky Tonk Burger",
             "price": {
-                "stand": "12,50"
+                "stand": "13,00"
             },
             "desO": "mit 320g Beef-Patty, Cheddar, gebratenem Gemüse und Hot-Creme",
             "desT": "",
@@ -1762,7 +1762,7 @@
         "B20": {
             "name": "Smash Burger",
             "price": {
-                "stand": "12,50"
+                "stand": "13,00"
             },
             "desO": "mit 320g Beef-Patty, doppelt Cheddar und Spezialsauce",
             "desT": "",
@@ -5086,16 +5086,18 @@
         }
     },
     "staticValue": {
-        "printer":{
-            "style":{
-                "font-table-detail":"0.6rem",
-                "font-table":"0.8rem",
-                "print-version":"1"
+        "printer": {
+            "style": {
+                "font-table-detail": "0.6rem",
+                "font-table": "0.8rem",
+                "print-version": "1"
             }
         },
-        "alerts":[
-                {"text":"Kitchen Brothers, Konstantinstraße 87, 41238 Mönchengladbach",
-                 "class":"alert alert-warning"}
+        "alerts": [
+            {
+                "text": "Kitchen Brothers, Konstantinstraße 87, 41238 Mönchengladbach",
+                "class": "alert alert-warning"
+            }
         ],
         "pc": "Adry9vq8GYiagTwNC6I32XDRIYtDpHEIUCmoe14Kd7ujPsIUv2i6EPUTsVqV47rOuJJhh5Xdj4-nCnlN",
         "ps": "wrjCtcKiwr3Dj8K4wqHCscOgwrbDksOiwrvCssKcwr3Dh8OKw4TCtsKlw4fDlMOawqXCvMOcw4HDhsOBwrfDk8KSw6fCocOFw4TDnMK_wqXDn8OSw53DncObwrjDhsOlwrPCoMOSwqHCo8Orw6PCksKhw5HDmsKqw6XDgsKkwqvCqsOAwq7CrsKnw5XCtsOnwqrDhsOXwpbDpMOSw5_Dpw==",
@@ -5108,8 +5110,8 @@
             "tel": "021662781117",
             "zusatzStoffe": "1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan"
         },
-        "impressum":{
-            "name":"Neval Beyazoglu"
+        "impressum": {
+            "name": "Neval Beyazoglu"
         },
         "key": "kitchen-brothers",
         "zusatzStoffe": "1. Weizengluten 2. Krebstiere 4. Fisch /Erzeugnisse 6. Sojabohnen /Erzeugnisse 7. Milch 8. Ei 9. Schalenfrüchte 10. Sellerie 11. Sesamsamen 12. Schwefeloxid 13. Weichtier 14. Weizen A. Farbstoff B. Konservierungsstoff C. Antioxidationsmittel E. Süßungsmittel G. Aspartan",
@@ -5214,7 +5216,7 @@
             "DESSERTS": {
                 "section": "DESSERTS",
                 "des": "",
-                "img":"KITCHEN-BROTHERS-STORE"
+                "img": "KITCHEN-BROTHERS-STORE"
             },
             "PASTA": {
                 "section": "PASTA",
@@ -5262,7 +5264,7 @@
             "SALATE": {
                 "section": "SALATE",
                 "des": "Alle Salate mit unserem hausgemachten Dressing"
-            },        
+            },
             "GETRANKE": {
                 "section": "GETRANKE",
                 "des": ""

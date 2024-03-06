@@ -83,6 +83,8 @@ def PrepairDB3(data):
                 pass
             else:
                 raise   ValueError(data["staticValue"]["key"],data["product"][m]["price"][g],"   Nr ",m,"  Error Price Matching")
+            if ",," in data["product"][m]["price"][g] or ".." in data["product"][m]["price"][g]:
+                raise   ValueError(data["staticValue"]["key"],data["product"][m]["price"][g],"   Nr ",m,"  Error Price Matching2")
         # for k in data["product"][m]["price"]:
         #     if "," not in data["product"][m]["price"][k]:
         #         raise   ValueError(data["staticValue"]["key"],"   Nr ",m,"  Error Price Matching")
