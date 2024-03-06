@@ -277,8 +277,15 @@ export function OptionsComponent ({type,menu,id,orderid,or,updatePrice}) {
     {
             var tempobj=[]
             tempobj.push(OptionsElement(menu["product"][id]["options"][objo]))
-            if(menu["product"][id]["options"][objo]["typeinclude"].includes(type))
-            options.push(tempobj)                
+            if("typeinclude" in menu["product"][id]["options"][objo])
+            {
+                if(menu["product"][id]["options"][objo]["typeinclude"].includes(type))
+                options.push(tempobj)
+            }
+            else{
+                options.push(tempobj)
+            }
+
     } 
     }  
     if (options.length==0) {

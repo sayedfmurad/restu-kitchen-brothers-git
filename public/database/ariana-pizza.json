@@ -3505,6 +3505,7 @@
     },
     "rabat": "10",
     "staticValue": {
+        "closed":"",
         "paymentmethod":{"bar":{"name":"Bar","id":"bar"}},
         "ps":"wrjCr8OUw4bDmcOXwqTDlMKqw5XCuMOewrTCvcOLwqPCs8Kpw6rDn8Kkw5LCusORwrLCp8ONwqTCucKiwr7CtMOYwp7DpcKow4bCscKjwrDDnsKew6PCucOWw4PCucKmwrPDpsKww5nCpcOrwrjDj8OTwrPDpsKVw4XCn8KowqfCscK8w5rDksOdw5_CvMODwrbDi8Oew5zDpMKmwq_CvA==",
         "pc": "AQyi8YbSgBG9dYqmEiGQG0Ta8xUCU6DawPmiwqq3TfAQTh9DT7zSK9GTjMJsg-GSwE_oeENn9ZlaLEER",

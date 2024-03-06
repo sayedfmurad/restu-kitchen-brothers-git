@@ -2855,53 +2855,53 @@
             },
             "WARME VORSPEISEN": {
                 "section": "WARME VORSPEISEN",
-                "des": "Alle mit Remoulade"
+                "des": ""
             },
             "KALTE VORSPEISEN": {
                 "section": "KALTE VORSPEISEN",
-                "des": "Alle mit Remoulade"
+                "des": ""
             },
             "HAMBURGER": {
                 "section": "HAMBURGER",
-                "des": "Alle mit Remoulade"
+                "des": ""
             },
             "FINGER FOODS": {
                 "section": "FINGER FOODS",
-                "des": "Alle mit Remoulade"
+                "des": ""
             },
             "SUPPEN": {
                 "section": "SUPPEN",
-                "des": "Alle mit Remoulade"
+                "des": ""
             },
             "DREHSPIESS": {
                 "section": "DREHSPIESS",
-                "des": "Alle mit Remoulade"
+                "des": ""
             },
             "SPAGHETTI": {
                 "section": "SPAGHETTI",
-                "des": "Alle mit Remoulade"
+                "des": ""
             },
             "GETRÄNKE": {
                 "section": "GETRÄNKE",
-                "des": "Alle mit Remoulade",
+                "des": "",
                 "GETRÄNKE":"GETRANKE"
             },
             "DESSERTS": {
                 "section": "DESSERTS",
-                "des": "Alle mit Remoulade"
+                "des": ""
             },
             "PENNE NUDELN": {
                 "section": "PENNE NUDELN",
-                "des": "Alle mit Remoulade",
+                "des": "",
                 "img":"PENNE_NUDELN"
             },
             "PFANNEGERICHTE": {
                 "section": "PFANNEGERICHTE",
-                "des": "Alle mit Remoulade"
+                "des": ""
             },
             "AUFLÄUFE": {
                 "section": "AUFLÄUFE",
-                "des": "Alle mit Remoulade",
+                "des": "",
                 "img":"AUFLAUFE"
             },
             "PIZZEN": {

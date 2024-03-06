@@ -233,9 +233,10 @@ export  function IndexPage({menu}) {
                 {/* <div className='a-item  a-item-2' style={{"height":`${heightsection}`,"backgroundImage":`url(Images/${imgg}.jpeg)`}}>
                   <div  class="a-sub">{l}</div>
                   </div> */}
-                  <h3 style={{color:"rgb(80, 80, 80)"}}>&nbsp;{l}</h3>
-                  {menu["sections"]["mdesc"][l]["des"]!=""&&<div className='mb-2' style={{"fontSize":"0.8rem","color":"rgb(110 107 107)"}}>&nbsp;{menu["sections"]["mdesc"][l]["des"]}</div>}
-  
+                  <div style={{marginLeft:"5px",marginRight:"5px"}}>
+                  <h3 style={{color:"rgb(80, 80, 80)"}}>{l}</h3>
+                  {menu["sections"]["mdesc"][l]["des"]!=""&&<div className='mb-2' style={{"fontSize":"0.8rem","color":"rgb(110 107 107)"}}>{menu["sections"]["mdesc"][l]["des"]}</div>}
+                  </div>
                {getSortedKeys(menu["product"]).map((number) => (
                   <>{
                     menu["sections"]["mdesc"][l]["section"].toUpperCase() == menu["product"][number]["section"].toUpperCase() ? 
@@ -316,7 +317,7 @@ export  function IndexPage({menu}) {
     <div className='row'>
     {rows}
     </div>
-    <hr  style={{"marginTop":"10rem"}}/>
+    <hr  style={{"marginTop":"15vh"}}/>
     <footer class="footer  text-center mt-5 mb-5">
         <div class="container">          
           <p>&copy; 2023 {menu["staticValue"]["logo"]}. All rights reserved. | <a onClick={()=>{
