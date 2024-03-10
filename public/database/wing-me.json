@@ -1,58 +1,58 @@
 {
     "sections": {
-        "mdesc": {              
+        "mdesc": {
             "Beilagen": {
                 "section": "Beilagen",
                 "des": "Von klassischen Pommes Fritten bis hin zum Coleslaw sind unsere Beilagen die perfekte Ergänzung zu jedem Hauptgericht.",
-                "img":"BURGER"
+                "img": "GNOCCHI"
             },
             "Kids Menü": {
                 "section": "Kids Menü",
                 "des": "Alle Gerichte werden mit Pommes frites und einer Sauce nach Wahl serviert.",
-                "img":"BURGER"
+                "img": "BURGERMENU"
             },
             "Strips and Wings": {
                 "section": "Strips and Wings",
                 "des": "",
-                "img":"BURGER"
+                "img": "CHICKENNUGGETS"
             },
             "Burgers": {
                 "section": "Burgers",
                 "des": "Unser frisierter Hähnchen-Burger ist ein Geschmackserlebnis, knusprig panierte und saftige Hähnchenbrust",
-                "img":"BURGER"
+                "img": "BURGER"
             },
             "Strips": {
                 "section": "Strips",
                 "des": "Alle Gerichte werden mit Hähnchenstreifen mit knuspriger Panade zubereitet.",
-                "img":"BURGER"
+                "img": "CHICKENNUGGETS"
             },
             "Wings": {
                 "section": "Wings",
                 "des": "Unsere saftigen und knusprigen Hähnchenflügel sind perfekt zum Teilen oder alleine genießen. Alle Gerichte werden mit einem Schärfegrad ihrer Wahl zubereitet.",
-                "img":"BURGER"
+                "img": "CHICKENNUGGETS"
             },
             "Saucen": {
                 "section": "Saucen",
                 "des": "Bringen Sie Ihre Mahlzeit auf die nächste Stufe mit unseren würzig bis herzhaft und scharf Saucen.",
-                "img":"BURGER"
+                "img": "SAUCEN"
             },
             "Extras": {
                 "section": "Extras",
                 "des": "",
-                "img":"BURGER"
+                "img": "KALTE_VORSPEISEN"
             },
             "Alkoholfreie Getränke": {
                 "section": "Alkoholfreie Getränke",
                 "des": "",
-                "img":"BURGER"
+                "img": "ALKOHOLFREIE_GETRANKE"
             },
             "Menü": {
                 "section": "Menü",
                 "des": "",
-                "img":"BURGER"
+                "img": "BURGERMENU"
             }
         }
-    },    
+    },
     "product": {
         "1": {
             "name": "Nashville's Signature Burger",
@@ -66,7 +66,10 @@
             "section": "Burgers",
             "options": {
                 "Ihr Schärfegrad": {
-                    "typeinclude": ["Mit Menü","Ohne Menü"],
+                    "typeinclude": [
+                        "Mit Menü",
+                        "Ohne Menü"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -79,7 +82,9 @@
                     }
                 },
                 "Getränk": {
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "showprice": false,
                     "name": "Getränk",
                     "options": {
@@ -100,7 +105,9 @@
                 "Pommes": {
                     "showprice": false,
                     "name": "Pommes",
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "options": {
                         "Ohne Pommes": {
                             "price": "0,00"
@@ -110,7 +117,8 @@
                         }
                     }
                 }
-            }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
         "2b": {
             "name": "Mozzarella Burger",
@@ -119,12 +127,15 @@
                 "Mit Menü": "16,59"
             },
             "desO": "Essiggurken, Coleslaw Salat, Brustfilet, Hausgemachte Burgersauce, Mozzarella Sticks",
-            "desT": "", 
+            "desT": "",
             "zusatz": "",
             "section": "Burgers",
             "options": {
                 "Ihr Schärfegrad": {
-                    "typeinclude": ["Mit Menü","Ohne Menü"],
+                    "typeinclude": [
+                        "Mit Menü",
+                        "Ohne Menü"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -137,7 +148,9 @@
                     }
                 },
                 "Getränk": {
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "showprice": false,
                     "name": "Getränk",
                     "options": {
@@ -158,7 +171,9 @@
                 "Pommes": {
                     "showprice": false,
                     "name": "Pommes",
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "options": {
                         "Ohne Pommes": {
                             "price": "0,00"
@@ -168,7 +183,8 @@
                         }
                     }
                 }
-            }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
         "3b": {
             "name": "Onion King Burger",
@@ -177,12 +193,15 @@
                 "Mit Menü": "16,04"
             },
             "desO": "Essiggurken, Coleslaw Salat, Brustfilet, Hausgemachte Burgersauce, Zwiebelringe",
-            "desT": "", 
+            "desT": "",
             "zusatz": "",
             "section": "Burgers",
             "options": {
                 "Ihr Schärfegrad": {
-                    "typeinclude": ["Mit Menü","Ohne Menü"],
+                    "typeinclude": [
+                        "Mit Menü",
+                        "Ohne Menü"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -195,7 +214,9 @@
                     }
                 },
                 "Getränk": {
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "showprice": false,
                     "name": "Getränk",
                     "options": {
@@ -216,7 +237,9 @@
                 "Pommes": {
                     "showprice": false,
                     "name": "Pommes",
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "options": {
                         "Ohne Pommes": {
                             "price": "0,00"
@@ -226,7 +249,8 @@
                         }
                     }
                 }
-            }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
         "4b": {
             "name": "Chili Cheese Burger",
@@ -235,12 +259,15 @@
                 "Mit Menü": "16,48"
             },
             "desO": "Essiggurken, Coleslaw Salat, Brustfilet, Käsesauce, Jalapeños, geröstete Zwiebeln",
-            "desT": "", 
+            "desT": "",
             "zusatz": "",
             "section": "Burgers",
             "options": {
                 "Ihr Schärfegrad": {
-                    "typeinclude": ["Mit Menü","Ohne Menü"],
+                    "typeinclude": [
+                        "Mit Menü",
+                        "Ohne Menü"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -253,7 +280,9 @@
                     }
                 },
                 "Getränk": {
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "showprice": false,
                     "name": "Getränk",
                     "options": {
@@ -274,7 +303,9 @@
                 "Pommes": {
                     "showprice": false,
                     "name": "Pommes",
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "options": {
                         "Ohne Pommes": {
                             "price": "0,00"
@@ -284,7 +315,8 @@
                         }
                     }
                 }
-            }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
         "5b": {
             "name": "Veggy Burger",
@@ -293,12 +325,15 @@
                 "Mit Menü": "19,69"
             },
             "desO": "Veganes Patty, Rucola, Tomaten, Zwiebeln, Gurken, Burgersauce",
-            "desT": "", 
+            "desT": "",
             "zusatz": "",
             "section": "Burgers",
             "options": {
                 "Ihr Schärfegrad": {
-                    "typeinclude": ["Mit Menü","Ohne Menü"],
+                    "typeinclude": [
+                        "Mit Menü",
+                        "Ohne Menü"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -311,7 +346,9 @@
                     }
                 },
                 "Getränk": {
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "showprice": false,
                     "name": "Getränk",
                     "options": {
@@ -332,7 +369,9 @@
                 "Pommes": {
                     "showprice": false,
                     "name": "Pommes",
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "options": {
                         "Ohne Pommes": {
                             "price": "0,00"
@@ -342,7 +381,8 @@
                         }
                     }
                 }
-            }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
         "6b": {
             "name": "Holy Burger",
@@ -351,12 +391,15 @@
                 "Mit Menü": "23,08"
             },
             "desO": "Avocado, Spiegelei, Essiggurken, Coleslaw Salat, Brustfilet, Burgersauce",
-            "desT": "", 
+            "desT": "",
             "zusatz": "",
             "section": "Burgers",
             "options": {
                 "Ihr Schärfegrad": {
-                    "typeinclude": ["Mit Menü","Ohne Menü"],
+                    "typeinclude": [
+                        "Mit Menü",
+                        "Ohne Menü"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -369,7 +412,9 @@
                     }
                 },
                 "Getränk": {
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "showprice": false,
                     "name": "Getränk",
                     "options": {
@@ -390,7 +435,9 @@
                 "Pommes": {
                     "showprice": false,
                     "name": "Pommes",
-                    "typeinclude": ["Mit Menü"],
+                    "typeinclude": [
+                        "Mit Menü"
+                    ],
                     "options": {
                         "Ohne Pommes": {
                             "price": "0,00"
@@ -400,20 +447,23 @@
                         }
                     }
                 }
-            }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
-        "2":{
-            "name":"Strips",
-            "section":"Strips",
+        "2": {
+            "name": "Strips",
+            "section": "Strips",
             "desT": "",
             "zusatz": "",
-            "price":{
-                "stand":"9,40"
+            "price": {
+                "stand": "9,40"
             },
-            "desO":"3-4 stk., min 200g, Brustfilet, innen zart und saftig außen knusprig",
+            "desO": "3-4 stk., min 200g, Brustfilet, innen zart und saftig außen knusprig",
             "options": {
                 "Ihr Schärfegrad": {
-                    "typeinclude": ["stand"],
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -426,10 +476,13 @@
                     }
                 },
                 "Ihr 1. Sauce": {
-                    "typeinclude": ["stand"],
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr 1. Sauce",
-                    "options": {"ohne weitere Sauce": {
+                    "options": {
+                        "ohne weitere Sauce": {
                             "price": "0,00"
                         },
                         "Ketchup": {
@@ -452,20 +505,23 @@
                         }
                     }
                 }
-            }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
-        "2s":{
-            "name":"Strips XL",
-            "section":"Strips",
+        "2s": {
+            "name": "Strips XL",
+            "section": "Strips",
             "desT": "",
             "zusatz": "",
-            "price":{
-                "stand":"17,29"
+            "price": {
+                "stand": "17,29"
             },
-            "desO":"7-8 stk., min 330g, Brustfilet, innen zart und saftig, außen knusprig",
+            "desO": "7-8 stk., min 330g, Brustfilet, innen zart und saftig, außen knusprig",
             "options": {
                 "Ihr Schärfegrad": {
-                    "typeinclude": ["stand"],
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -478,323 +534,9 @@
                     }
                 },
                 "Ihr 1. Sauce": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr 1. Sauce",
-                    "options": {"ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 2. Sauce": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr 2. Sauce",
-                    "options": {"ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
-                }
-            }
-        },
-        "3s":{
-            "name":"Strips Deluxe",
-            "section":"Strips",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"17,29"
-            },
-            "desO":"10-11 stk., min 450g, Brustfilet, innen zart und saftig, außen knusprig",
-            "options": {
-                "Ihr Schärfegrad": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr Schärfegrad",
-                    "options": {
-                        "Scharf": {
-                            "price": "0,00"
-                        },
-                        "Mild": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 1. Sauce": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr 1. Sauce",
-                    "options": {"ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 2. Sauce": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr 2. Sauce",
-                    "options": {"ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 3. Sauce": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr 3. Sauce",
-                    "options": {"ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
-                }
-            }
-        },
-        "3":{
-            "name":"Wings (8 Stück)",
-            "section":"Wings",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"9,40"
-            },
-            "desO":"",
-            "options": {
-                "Ihr Schärfegrad": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr Schärfegrad",
-                    "options": {
-                        "Scharf": {
-                            "price": "0,00"
-                        },
-                        "Mild": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 1. Sauce": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr 1. Sauce",
-                    "options": {"ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
-                }
-            }
-        },
-        "4w":{
-            "name":"Wings (12 Stück)",
-            "section":"Wings",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"15,60"
-            },
-            "desO":"",
-            "options": {
-                "Ihr Schärfegrad": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr Schärfegrad",
-                    "options": {
-                        "Scharf": {
-                            "price": "0,00"
-                        },
-                        "Mild": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 1. Sauce": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr 1. Sauce",
-                    "options": {"ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 2. Sauce": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr 2. Sauce",
-                    "options": {"ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
-                }
-            }
-        },
-        "5w":{
-            "name":"Wings (18 Stück)",
-            "section":"Wings",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"21,60"
-            },
-            "desO":"",
-            "options": {
-                "Ihr Schärfegrad": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr Schärfegrad",
-                    "options": {
-                        "Scharf": {
-                            "price": "0,00"
-                        },
-                        "Mild": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 1. Sauce": {
-                    "typeinclude": ["stand"],
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr 1. Sauce",
                     "options": {
@@ -822,7 +564,97 @@
                     }
                 },
                 "Ihr 2. Sauce": {
-                    "typeinclude": ["stand"],
+                    "typeinclude": [
+                        "stand"
+                    ],
+                    "showprice": false,
+                    "name": "Ihr 2. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "3s": {
+            "name": "Strips Deluxe",
+            "section": "Strips",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "17,29"
+            },
+            "desO": "10-11 stk., min 450g, Brustfilet, innen zart und saftig, außen knusprig",
+            "options": {
+                "Ihr Schärfegrad": {
+                    "typeinclude": [
+                        "stand"
+                    ],
+                    "showprice": false,
+                    "name": "Ihr Schärfegrad",
+                    "options": {
+                        "Scharf": {
+                            "price": "0,00"
+                        },
+                        "Mild": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 1. Sauce": {
+                    "typeinclude": [
+                        "stand"
+                    ],
+                    "showprice": false,
+                    "name": "Ihr 1. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 2. Sauce": {
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr 2. Sauce",
                     "options": {
@@ -850,7 +682,9 @@
                     }
                 },
                 "Ihr 3. Sauce": {
-                    "typeinclude": ["stand"],
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr 3. Sauce",
                     "options": {
@@ -877,313 +711,23 @@
                         }
                     }
                 }
-            }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
-        "sw":{
-            "name":"Strips and Wings",
-            "section":"Strips and Wings",
+        "3": {
+            "name": "Wings (8 Stück)",
+            "section": "Wings",
             "desT": "",
             "zusatz": "",
-            "price":{
-                "stand":"13,84"
+            "price": {
+                "stand": "9,40"
             },
-            "desO":"150g Brustfilet mit 4 Wings",
+            "desO": "",
             "options": {
                 "Ihr Schärfegrad": {
-                    "typeinclude": ["stand"],
-                    "showprice": false,
-                    "name": "Ihr Schärfegrad",
-                    "options": {
-                        "Scharf": {
-                            "price": "0,00"
-                        },
-                        "Mild": {
-                            "price": "0,00"
-                        }
-                    }
-                }
-            }
-        },
-        "sw2":{
-            "name":"Strips and Wings More",
-            "section":"Strips and Wings",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"21,49"
-            },
-            "desO":"250g Brustfilet mit 6 Wings",
-            "options": {
-                "Ihr Schärfegrad": {
-                    "showprice": false,
-                    "name": "Ihr Schärfegrad",
-                    "options": {
-                        "Scharf": {
-                            "price": "0,00"
-                        },
-                        "Mild": {
-                            "price": "0,00"
-                        }
-                    }
-                }
-            }
-        },
-        "km":{
-            "name":"Chicken Pops mit Pommes",
-            "section":"Kids Menü",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"9,40"
-            },
-            "desO":"130g Hähnchenbällchen, Ketchup o. Mayo"
-        },
-        "km2":{
-            "name":"Mini Burger mit Pommes",
-            "section":"Kids Menü",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"11,99"
-            },
-            "desO":"100g Brustfilet, Brioche Bun, Coleslaw, Burgersauce, Ketchup o. Mayo"
-        },
-        "b1":{
-            "name":"Loaded Dirty Fries",
-            "section":"Beilagen",
-            "desT": "",
-            "zusatz": "",
-            "showextra":false,
-            "price":{
-                "stand":"10,99"
-            },
-            "desO":"100g Brustfilet, Cheese Sauce, Jalapeños und Röstzwiebeln"
-        },
-        "b2":{
-            "name":"Dirty Fries",
-            "section":"Beilagen",
-            "desT": "",
-            "zusatz": "",
-            "showextra":false,
-            "price":{
-                "stand":"5,00"
-            },
-            "desO":"mit Cheese und Jalapenos"
-        },
-        "b3":{
-            "name":"Pommes Frites",
-            "section":"Beilagen",
-            "desT": "",
-            "zusatz": "",
-            "showextra":false,
-            "price":{
-                "stand":"3,80"
-            },
-            "desO":""
-        },
-        "b4":{
-            "name":"Mozzarellasticks",
-            "section":"Beilagen",
-            "desT": "",
-            "zusatz": "",
-            "showextra":false,
-            "price":{
-                "stand":"5,50"
-            },
-            "desO":"Panierte Mozzarella Sticks, 6 Stück"
-        },
-        "b6":{
-            "name":"Coleslaw",
-            "section":"Beilagen",
-            "desT": "",
-            "zusatz": "",
-            "showextra":false,
-            "price":{
-                "stand":"3,90"
-            },
-            "desO":"süßlicher Krautsalat"
-        },
-        "b7":{
-            "name":"Wing Me Salad",
-            "section":"Beilagen",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"12,99"
-            },
-            "desO":"mit Brustfilet, Salat, Wing-Me-Dressing, Balsamico, Granatapfel und Parmesan"
-        },
-        "b8":{
-            "name":"Caesar Salad",
-            "section":"Beilagen",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"11,39"
-            },
-            "desO":"mit Brust-Filet Romana-Salat, Croutons, Parmesan und Caesar-Dressing"
-        },
-        "s1":{
-            "name":"Cheesy-Sauce",
-            "section":"Saucen",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"1,00"
-            },
-            "desO":""
-        },
-        "s2":{
-            "name":"Honey-Chilisauce",
-            "section":"Saucen",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"1,00"
-            },
-            "desO":""
-        },
-        "s3":{
-            "name":"Sweet-Chilisauce",
-            "section":"Saucen",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"0,50"
-            },
-            "desO":""
-        },
-        "s4":{
-            "name":"Ketchup",
-            "section":"Saucen",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"0,50"
-            },
-            "desO":""
-        },
-        "s5":{
-            "name":"Mayonnaise",
-            "section":"Saucen",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"0,50"
-            },
-            "desO":""
-        },
-        "s6":{
-            "name":"Joppie Sauce",
-            "section":"Saucen",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"0,80"
-            },
-            "desO":""
-        },
-        "e1":{
-            "name":"Jalapenos",
-            "section":"Extras",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"1,00"
-            },
-            "desO":""
-        },
-        "e2":{
-            "name":"Eingelegte Gurken",
-            "section":"Extras",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"1,00"
-            },
-            "desO":""
-        },
-        "d1":{
-            "name":"Fuze Tea Schwarzer Tee Pfirsich 0,4l (Mehrweg)",
-            "section":"Alkoholfreie Getränke",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"3,42"
-            },
-            "desO":""
-        },
-        "d2":{
-            "name":"Fuze Tea Schwarzer Tee Zitrone 0,4l",
-            "section":"Alkoholfreie Getränke",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"3,42"
-            },
-            "desO":""
-        },
-        "d3":{
-            "name":"Coca-Cola 0,33l (MEHRWEG)",
-            "section":"Alkoholfreie Getränke",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"3,05"
-            },
-            "desO":""
-        },
-        "d4":{
-            "name":"Coca-Cola Zero Sugar 0,33l",
-            "section":"Alkoholfreie Getränke",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"3,05"
-            },
-            "desO":""
-        },
-        "d5":{
-            "name":"Fanta Orange 0,33l (MEHRWEG)",
-            "section":"Alkoholfreie Getränke",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"3,05"
-            },
-            "desO":""
-        },
-        "d6":{
-            "name":"Mezzo Mix 0,33l (MEHRWEG)",
-            "section":"Alkoholfreie Getränke",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"3,05"
-            },
-            "desO":""
-        },
-        "d7":{
-            "name":"Sprite 0,33l (MEHRWEG)",
-            "section":"Alkoholfreie Getränke",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"3,05"
-            },
-            "desO":""
-        },
-        "m1":{
-            "name":"Wings für 2",
-            "section":"Menü",
-            "desO":"18 Wings, 2 Pommes frites, 2 Coleslaw, 4 Saucen nach Wahl, 1 Softgetränk 1,0l nach Wahl",
-            "desT": "",
-            "zusatz": "",
-            "price":{
-                "stand":"31,90"
-            },
-            "options": {
-                "Ihr Schärfegrad": {
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -1195,25 +739,68 @@
                         }
                     }
                 },
-                "Getränk": {
+                "Ihr 1. Sauce": {
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
-                    "name": "Getränk",
+                    "name": "Ihr 1. Sauce",
                     "options": {
-                        "Ohne Getränk": {
+                        "ohne weitere Sauce": {
                             "price": "0,00"
                         },
-                        "Coca-Cola": {
+                        "Ketchup": {
                             "price": "0,00"
                         },
-                        "Fanta": {
+                        "Mayonnaise": {
                             "price": "0,00"
                         },
-                        "Sprite": {
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "4w": {
+            "name": "Wings (12 Stück)",
+            "section": "Wings",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "15,60"
+            },
+            "desO": "",
+            "options": {
+                "Ihr Schärfegrad": {
+                    "typeinclude": [
+                        "stand"
+                    ],
+                    "showprice": false,
+                    "name": "Ihr Schärfegrad",
+                    "options": {
+                        "Scharf": {
+                            "price": "0,00"
+                        },
+                        "Mild": {
                             "price": "0,00"
                         }
                     }
                 },
-                "Ihr 1. Sauce":{
+                "Ihr 1. Sauce": {
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr 1. Sauce",
                     "options": {
@@ -1240,7 +827,10 @@
                         }
                     }
                 },
-                "Ihr 2. Sauce":{
+                "Ihr 2. Sauce": {
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr 2. Sauce",
                     "options": {
@@ -1266,76 +856,24 @@
                             "price": "0,00"
                         }
                     }
-                },
-                "Ihr 3. Sauce":{
-                    "showprice": false,
-                    "name": "Ihr 3. Sauce",
-                    "options": {
-                        "ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 4. Sauce":{
-                    "showprice": false,
-                    "name": "Ihr 4. Sauce",
-                    "options": {
-                        "ohne weitere Sauce": {
-                            "price": "0,00"
-                        },
-                        "Ketchup": {
-                            "price": "0,00"
-                        },
-                        "Mayonnaise": {
-                            "price": "0,00"
-                        },
-                        "Cheesy-Sauce": {
-                            "price": "0,00"
-                        },
-                        "Honey-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Sweet-Chilisauce": {
-                            "price": "0,00"
-                        },
-                        "Joppie-Sauce": {
-                            "price": "0,00"
-                        }
-                    }
                 }
-                
-            }
-
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
-        "m2":{
-            "name":"Burger für 3",
-            "section":"Menü",
-            "desO":"3 Burger nach Wahl, 3 Strips, 6 Wings, 3 Pommes frites, 3 Saucen nach Wahl, 3 Coleslaw, 1 Softgetränk 1,0l nach Wahl",
+        "5w": {
+            "name": "Wings (18 Stück)",
+            "section": "Wings",
             "desT": "",
             "zusatz": "",
-            "price":{
-                "stand":"53,99"
+            "price": {
+                "stand": "21,60"
             },
+            "desO": "",
             "options": {
                 "Ihr Schärfegrad": {
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr Schärfegrad",
                     "options": {
@@ -1347,88 +885,10 @@
                         }
                     }
                 },
-                "Getränk": {
-                    "showprice": false,
-                    "name": "Getränk",
-                    "options": {
-                        "Ohne Getränk": {
-                            "price": "0,00"
-                        },
-                        "Coca-Cola": {
-                            "price": "0,00"
-                        },
-                        "Fanta": {
-                            "price": "0,00"
-                        },
-                        "Sprite": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 1. Burger":{
-                    "showprice": false,
-                    "name": "Ihr 1. Burger",
-                    "options": {
-                        "mit Chili Cheese Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Mozzarella Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Nashville's Signature Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Onion King Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Veganer Burger": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 2. Burger":{
-                    "showprice": false,
-                    "name": "Ihr 2. Burger",
-                    "options": {
-                        "mit Chili Cheese Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Mozzarella Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Nashville's Signature Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Onion King Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Veganer Burger": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 3. Burger":{
-                    "showprice": false,
-                    "name": "Ihr 3. Burger",
-                    "options": {
-                        "mit Chili Cheese Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Mozzarella Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Nashville's Signature Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Onion King Burger": {
-                            "price": "0,00"
-                        },
-                        "mit Veganer Burger": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Ihr 1. Sauce":{
+                "Ihr 1. Sauce": {
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr 1. Sauce",
                     "options": {
@@ -1455,7 +915,10 @@
                         }
                     }
                 },
-                "Ihr 2. Sauce":{
+                "Ihr 2. Sauce": {
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr 2. Sauce",
                     "options": {
@@ -1482,7 +945,10 @@
                         }
                     }
                 },
-                "Ihr 3. Sauce":{
+                "Ihr 3. Sauce": {
+                    "typeinclude": [
+                        "stand"
+                    ],
                     "showprice": false,
                     "name": "Ihr 3. Sauce",
                     "options": {
@@ -1509,17 +975,502 @@
                         }
                     }
                 }
-            }
-
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         },
-        "m3":{
-            "name":"Maxi Combo",
-            "section":"Menü",
-            "desO":"30 Wings, 10 Strips, 3 große Pommes frites, 3 große Coleslaw, 6 Saucen nach Wahl, 2 Softgetränke 1,0l nach Wahl",
+        "sw": {
+            "name": "Strips and Wings",
+            "section": "Strips and Wings",
             "desT": "",
             "zusatz": "",
-            "price":{
-                "stand":"69,99"
+            "price": {
+                "stand": "13,84"
+            },
+            "desO": "150g Brustfilet mit 4 Wings",
+            "options": {
+                "Ihr Schärfegrad": {
+                    "typeinclude": [
+                        "stand"
+                    ],
+                    "showprice": false,
+                    "name": "Ihr Schärfegrad",
+                    "options": {
+                        "Scharf": {
+                            "price": "0,00"
+                        },
+                        "Mild": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 1. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 1. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 2. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 2. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "sw2": {
+            "name": "Strips and Wings More",
+            "section": "Strips and Wings",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "21,49"
+            },
+            "desO": "250g Brustfilet mit 6 Wings",
+            "options": {
+                "Ihr Schärfegrad": {
+                    "showprice": false,
+                    "name": "Ihr Schärfegrad",
+                    "options": {
+                        "Scharf": {
+                            "price": "0,00"
+                        },
+                        "Mild": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 1. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 1. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 2. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 2. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 3. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 3. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "km": {
+            "name": "Chicken Pops mit Pommes",
+            "section": "Kids Menü",
+            "desT": "",
+            "options": {
+                "Ihr Sauce": {
+                    "showprice": false,
+                    "name": "Ihr Sauce",
+                    "options": {
+                        "Mit Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mit Mayonnaise": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz": "",
+            "price": {
+                "stand": "9,40"
+            },
+            "desO": "130g Hähnchenbällchen, Ketchup o. Mayo",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "km2": {
+            "name": "Mini Burger mit Pommes",
+            "section": "Kids Menü",
+            "desT": "",
+            "options": {
+                "Ihr Sauce": {
+                    "showprice": false,
+                    "name": "Ihr Sauce",
+                    "options": {
+                        "Mit Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mit Mayonnaise": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz": "",
+            "price": {
+                "stand": "11,99"
+            },
+            "desO": "100g Brustfilet, Brioche Bun, Coleslaw, Burgersauce, Ketchup o. Mayo",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "b1": {
+            "name": "Loaded Dirty Fries",
+            "section": "Beilagen",
+            "desT": "",
+            "zusatz": "",
+            "showextra": false,
+            "price": {
+                "stand": "10,99"
+            },
+            "desO": "100g Brustfilet, Cheese Sauce, Jalapeños und Röstzwiebeln",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "b2": {
+            "name": "Dirty Fries",
+            "section": "Beilagen",
+            "desT": "",
+            "zusatz": "",
+            "showextra": false,
+            "price": {
+                "stand": "5,00"
+            },
+            "desO": "mit Cheese und Jalapenos",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "b3": {
+            "name": "Pommes Frites",
+            "section": "Beilagen",
+            "desT": "",
+            "zusatz": "",
+            "showextra": false,
+            "price": {
+                "stand": "3,80"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "b4": {
+            "name": "Mozzarellasticks",
+            "section": "Beilagen",
+            "desT": "",
+            "zusatz": "",
+            "showextra": false,
+            "price": {
+                "stand": "5,50"
+            },
+            "desO": "Panierte Mozzarella Sticks, 6 Stück",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "b6": {
+            "name": "Coleslaw",
+            "section": "Beilagen",
+            "desT": "",
+            "zusatz": "",
+            "showextra": false,
+            "price": {
+                "stand": "3,90"
+            },
+            "desO": "süßlicher Krautsalat",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "b7": {
+            "name": "Wing Me Salad",
+            "section": "Beilagen",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "12,99"
+            },
+            "desO": "mit Brustfilet, Salat, Wing-Me-Dressing, Balsamico, Granatapfel und Parmesan",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "b8": {
+            "name": "Caesar Salad",
+            "section": "Beilagen",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "11,39"
+            },
+            "desO": "mit Brust-Filet Romana-Salat, Croutons, Parmesan und Caesar-Dressing",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "s1": {
+            "name": "Cheesy-Sauce",
+            "section": "Saucen",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "1,00"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "s2": {
+            "name": "Honey-Chilisauce",
+            "section": "Saucen",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "1,00"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "s3": {
+            "name": "Sweet-Chilisauce",
+            "section": "Saucen",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,50"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "s4": {
+            "name": "Ketchup",
+            "section": "Saucen",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,50"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "s5": {
+            "name": "Mayonnaise",
+            "section": "Saucen",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,50"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "s6": {
+            "name": "Joppie Sauce",
+            "section": "Saucen",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "0,80"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "e1": {
+            "name": "Jalapenos",
+            "section": "Extras",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "1,00"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "e2": {
+            "name": "Eingelegte Gurken",
+            "section": "Extras",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "1,00"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "d1": {
+            "name": "Fuze Tea Schwarzer Tee Pfirsich 0,4l (Mehrweg)",
+            "section": "Alkoholfreie Getränke",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,42"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "d2": {
+            "name": "Fuze Tea Schwarzer Tee Zitrone 0,4l",
+            "section": "Alkoholfreie Getränke",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,42"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "d3": {
+            "name": "Coca-Cola 0,33l (MEHRWEG)",
+            "section": "Alkoholfreie Getränke",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,05"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "d4": {
+            "name": "Coca-Cola Zero Sugar 0,33l",
+            "section": "Alkoholfreie Getränke",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,05"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "d5": {
+            "name": "Fanta Orange 0,33l (MEHRWEG)",
+            "section": "Alkoholfreie Getränke",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,05"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "d6": {
+            "name": "Mezzo Mix 0,33l (MEHRWEG)",
+            "section": "Alkoholfreie Getränke",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,05"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "d7": {
+            "name": "Sprite 0,33l (MEHRWEG)",
+            "section": "Alkoholfreie Getränke",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "3,05"
+            },
+            "desO": "",
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "m1": {
+            "name": "Wings für 2",
+            "section": "Menü",
+            "desO": "18 Wings, 2 Pommes frites, 2 Coleslaw, 4 Saucen nach Wahl, 2 Getränke nach Wahl",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "31,90"
             },
             "options": {
                 "Ihr Schärfegrad": {
@@ -1570,7 +1521,7 @@
                         }
                     }
                 },
-                "Ihr 1. Sauce":{
+                "Ihr 1. Sauce": {
                     "showprice": false,
                     "name": "Ihr 1. Sauce",
                     "options": {
@@ -1597,7 +1548,7 @@
                         }
                     }
                 },
-                "Ihr 2. Sauce":{
+                "Ihr 2. Sauce": {
                     "showprice": false,
                     "name": "Ihr 2. Sauce",
                     "options": {
@@ -1624,7 +1575,7 @@
                         }
                     }
                 },
-                "Ihr 3. Sauce":{
+                "Ihr 3. Sauce": {
                     "showprice": false,
                     "name": "Ihr 3. Sauce",
                     "options": {
@@ -1651,7 +1602,471 @@
                         }
                     }
                 },
-                "Ihr 4. Sauce":{
+                "Ihr 4. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 4. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "m2": {
+            "name": "Burger für 3",
+            "section": "Menü",
+            "desO": "3 Burger nach Wahl, 3 Strips, 6 Wings, 3 Pommes frites, 3 Saucen nach Wahl, 3 Coleslaw,  3 Getränke nach Wahl",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "53,99"
+            },
+            "options": {
+                "Ihr Schärfegrad": {
+                    "showprice": false,
+                    "name": "Ihr Schärfegrad",
+                    "options": {
+                        "Scharf": {
+                            "price": "0,00"
+                        },
+                        "Mild": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 1. Getränk": {
+                    "showprice": false,
+                    "name": "Ihr 1. Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 2. Getränk": {
+                    "showprice": false,
+                    "name": "Ihr 2. Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 3. Getränk": {
+                    "showprice": false,
+                    "name": "Ihr 3. Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 1. Burger": {
+                    "showprice": false,
+                    "name": "Ihr 1. Burger",
+                    "options": {
+                        "mit Chili Cheese Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Mozzarella Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Nashville's Signature Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Onion King Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Veganer Burger": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 2. Burger": {
+                    "showprice": false,
+                    "name": "Ihr 2. Burger",
+                    "options": {
+                        "mit Chili Cheese Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Mozzarella Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Nashville's Signature Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Onion King Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Veganer Burger": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 3. Burger": {
+                    "showprice": false,
+                    "name": "Ihr 3. Burger",
+                    "options": {
+                        "mit Chili Cheese Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Mozzarella Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Nashville's Signature Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Onion King Burger": {
+                            "price": "0,00"
+                        },
+                        "mit Veganer Burger": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 1. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 1. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 2. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 2. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 3. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 3. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
+        },
+        "m3": {
+            "name": "Maxi Combo",
+            "section": "Menü",
+            "desO": "30 Wings, 10 Strips, 3 große Pommes frites, 3 große Coleslaw, 6 Saucen nach Wahl, 6 Getränke nach Wahl",
+            "desT": "",
+            "zusatz": "",
+            "price": {
+                "stand": "69,99"
+            },
+            "options": {
+                "Ihr Schärfegrad": {
+                    "showprice": false,
+                    "name": "Ihr Schärfegrad",
+                    "options": {
+                        "Scharf": {
+                            "price": "0,00"
+                        },
+                        "Mild": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 1. Getränk": {
+                    "showprice": false,
+                    "name": "Ihr 1. Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 2. Getränk": {
+                    "showprice": false,
+                    "name": "Ihr 2. Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 3. Getränk": {
+                    "showprice": false,
+                    "name": "Ihr 3. Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 4. Getränk": {
+                    "showprice": false,
+                    "name": "Ihr 4. Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 5. Getränk": {
+                    "showprice": false,
+                    "name": "Ihr 5. Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 6. Getränk": {
+                    "showprice": false,
+                    "name": "Ihr 6. Getränk",
+                    "options": {
+                        "Ohne Getränk": {
+                            "price": "0,00"
+                        },
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 1. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 1. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 2. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 2. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 3. Sauce": {
+                    "showprice": false,
+                    "name": "Ihr 3. Sauce",
+                    "options": {
+                        "ohne weitere Sauce": {
+                            "price": "0,00"
+                        },
+                        "Ketchup": {
+                            "price": "0,00"
+                        },
+                        "Mayonnaise": {
+                            "price": "0,00"
+                        },
+                        "Cheesy-Sauce": {
+                            "price": "0,00"
+                        },
+                        "Honey-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Sweet-Chilisauce": {
+                            "price": "0,00"
+                        },
+                        "Joppie-Sauce": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Ihr 4. Sauce": {
                     "showprice": false,
                     "name": "Ihr 4. Sauce",
                     "options": {
@@ -1678,7 +2093,7 @@
                         }
                     }
                 },
-                "Ihr 6. Sauce":{
+                "Ihr 6. Sauce": {
                     "showprice": false,
                     "name": "Ihr 6. Sauce",
                     "options": {
@@ -1705,8 +2120,8 @@
                         }
                     }
                 }
-            }
-
+            },
+            "ExtraNameAddName": "Extra Sauce für Sie"
         }
     },
     "extra": {
@@ -1715,7 +2130,7 @@
                 "Beilagen"
             ],
             "stand": {
-                "price": "0,00",
+                "price": "4,00",
                 "name": "Filet Streifen"
             }
         },
@@ -1724,13 +2139,13 @@
                 "Beilagen"
             ],
             "stand": {
-                "price": "4,00",
-                "name": "ohne Dressing"
+                "price": "0,00",
+                "name": "ohne Dressing",
+                "showWithText": false
             }
         },
         "Coleslaw": {
             "section": [
-                "Strips and Wings"
             ],
             "stand": {
                 "price": "2,00",
@@ -1739,7 +2154,6 @@
         },
         "Pommes Frites": {
             "section": [
-                "Strips and Wings"
             ],
             "stand": {
                 "price": "2,00",
@@ -1748,7 +2162,6 @@
         },
         "Ketchup": {
             "section": [
-                "Kids Menü",
                 "Burgers",
                 "Strips",
                 "Wings"
@@ -1768,7 +2181,6 @@
         },
         "Mayonnaise": {
             "section": [
-                "Kids Menü",
                 "Burgers",
                 "Strips",
                 "Wings"
@@ -1864,20 +2276,20 @@
         }
     },
     "staticValue": {
-        "pc":"AV_hWGfbnVmFi6JT9A407pEPiaXf0CyBRzDb_iF_XxJob9Hl9utLY03cmAch1Z3oaug64ZyBDvn4o5eZ",
-        "ps":"wrjCrMKbwqvDmMKew5PDgsKtwqXDlsK4wrrDpcKZwp7DqMOFwqrCqMKnwqnDlsKrwqHDkcOCwr3CvMOUw4nDosKvwr_CucOYwqzDnsK2w5DDmsK7wp_DpcOkw6bCu8KvwrHCusONw4TCucOnw6TDh8OfwpfCs8Kcw6bDocKow5jCssKlwpbCr8OGwrTCvsKtw5fCvsOjw4PCvsOawqfDlw==",
-        "printer":{
-            "style":{
-                "showdate":"true",
-                "font-table":"0.8rem",
-                "font-table-detail":"0.7rem",
-                "print-version":"1",
-                "notshowfooter":""
+        "pc": "",
+        "ps": "",
+        "printer": {
+            "style": {
+                "showdate": "true",
+                "font-table": "0.8rem",
+                "font-table-detail": "0.7rem",
+                "print-version": "1",
+                "notshowfooter": ""
             }
         },
-        "logo": "Wing Menu",
-        "key": "wing-me",   
-        "taxid":"",
+        "logo": "Wing Me",
+        "key": "wing-me",
+        "taxid": "",
         "rabat": "10",
         "minpriceorder": [
             {
@@ -1916,8 +2328,8 @@
         "menuurl": "https://angebote-restu.s3.eu-central-1.amazonaws.com/database/wing-me.json",
         "zusatzStoffe": "",
         "latlng": {
-            "lat": 51.34903,
-            "lng": 6.6241951
+            "lat": 51.1360191,
+            "lng": 6.3656404
         },
         "kontakt": {
             "name": "Wing Me",
@@ -1929,128 +2341,108 @@
         "opendays": {
             "sunday": {
                 "opentime": {
-                    "hour": 13,
+                    "hour": 0,
                     "min": 0
-                },
-                "closetime": {
-                    "hour": 22,
-                    "min": 0
-                }
-            },
-            "mondayy": {
-                "opentime": {
-                    "hour": 11,
-                    "min": 30
                 },
                 "closetime": {
                     "hour": 23,
+                    "min": 59
+                }
+            },
+            "monday": {
+                "opentime": {
+                    "hour": 0,
                     "min": 0
+                },
+                "closetime": {
+                    "hour": 23,
+                    "min": 59
                 }
             },
             "tuesday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 0,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
-                    "min": 0
+                    "hour": 23,
+                    "min": 59
                 }
             },
             "wednesday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 0,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
-                    "min": 0
+                    "hour": 23,
+                    "min": 59
                 }
             },
             "thursday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 0,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
-                    "min": 0
+                    "hour": 23,
+                    "min": 59
                 }
             },
             "friday": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 0,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
-                    "min": 0
+                    "hour": 23,
+                    "min": 59
                 }
             },
             "saturday": {
                 "opentime": {
-                    "hour": 13,
+                    "hour": 0,
                     "min": 0
                 },
                 "closetime": {
-                    "hour": 22,
-                    "min": 0
+                    "hour": 23,
+                    "min": 59
                 }
             }
         },
-        "opendaysV2":[
+        "opendaysV2": [
             {
-                
-                "days":["monday","tuesday","wednesday","thursday","friday"],
-                "times":[{
-                            "opentime": {
-                                "hour": 11,
-                                "min": 30
-                            },
-                            "closetime": {
-                                "hour": 14,
-                                "min": 30
-                            }
+                "days": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"
+                ],
+                "times": [
+                    {
+                        "opentime": {
+                            "hour": 16,
+                            "min": 0
                         },
-                        {
-                            "opentime": {
-                                "hour": 17,
-                                "min": 0
-                            },
-                            "closetime": {
-                                "hour": 23,
-                                "min": 0
-                            }
+                        "closetime": {
+                            "hour": 23,
+                            "min": 59
                         }
-                        ]
-            },
-            {
-                "days":["saturday"],
-                "times":[{
-                            "opentime": {
-                                "hour": 17,
-                                "min": 0
-                            },
-                            "closetime": {
-                                "hour": 23,
-                                "min": 0
-                            }
+                    },
+                    {
+                        "opentime": {
+                            "hour": 0,
+                            "min": 0
+                        },
+                        "closetime": {
+                            "hour": 3,
+                            "min": 0
                         }
-                        ]
-            },
-            {
-                "days":["sunday"],
-                "times":[{
-                            "opentime": {
-                                "hour": 16,
-                                "min": 0
-                            },
-                            "closetime": {
-                                "hour": 23,
-                                "min": 0
-                            }
-                        }
-                        ]
+                    }
+                ]
             }
         ]
     },

@@ -48,11 +48,22 @@ export function IsPaymentSuccess(menu){
     
     
     CheckingIftoSend(menu)
-    var myModal = new bootstrap.Modal(document.getElementById("MyOrderModal"), {
-            keyboard: true
-          })    
-          myModal.show()  
-        history.pushState({}, '');
+
+    if(LastOrderId in MainOrders)
+    {       
+        var dmd = new Date(MainOrders[LastOrderId]['createtime'])
+        var ndmd =  new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }))
+        //check the different between the time of the order and the current time in min
+        var diff = (ndmd - dmd) / 60000;
+        if(diff<5)
+        {
+            var myModal = new bootstrap.Modal(document.getElementById("MyOrderModal"), {
+                    keyboard: true
+                  })    
+                  myModal.show()  
+                history.pushState({}, '');
+        }
+    }
 
 }
 

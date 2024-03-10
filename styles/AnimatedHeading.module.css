@@ -1,0 +1,13 @@
+.animate {
+    display: inline-block;
+    animation: scaleAnimation 0.3s;
+    }
+
+    @keyframes scaleAnimation {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.35);
+    }
+    }

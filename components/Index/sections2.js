@@ -191,7 +191,7 @@ export  function IndexPage({menu}) {
             onClick={BtnSectionClicked}
             >
               <div className="d-flex justify-content-center">
-                <img style={{padding:"5px",width:"70px",height:"70px",borderRadius:"50%"}} src={`./Images/${imgg}.jpeg`} height="30px" width="30px"/>
+                <img style={{padding:"5px",width:"70px",height:"70px",borderRadius:"50%"}} src={`./Images/sections/${imgg}.jpeg`} height="30px" width="30px"/>
               </div>
               <a 
               id={`nav-link-section${Object.keys(menu["sections"]["mdesc"]).indexOf(l)}`} 
@@ -342,6 +342,7 @@ export default({menu})=>{
   const [IsSearch,setIsSearch]=useState(false)
   menu["IsSearch"]=IsSearch
   menu["setIsSearch"]=setIsSearch
+  menu["order"]={type:"Liefern"}
 const Componenett = "closed" in menu["staticValue"]?<></>:<IndexPage menu={menu}/>
 return <>
 <CheckAlerts menu={menu}/>

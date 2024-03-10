@@ -65,7 +65,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
                         crows.push(
                         <li className="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
-                                <h6 className=''>{menu["product"][or[ke]["id"]]["name"]}&nbsp;({menu["product"][or[ke]["id"]]["section"]})&nbsp;{typee}</h6>
+                                <h6 className='' style={{wordBreak:"break-word"}}>{menu["product"][or[ke]["id"]]["name"]}&nbsp;({menu["product"][or[ke]["id"]]["section"]})&nbsp;{typee}</h6>
                                 <small className=''>
                                 {descriptionO==""?"":<>{descriptionO}<br/></>}
                                 {countI}                         

@@ -26,3 +26,14 @@
             "zusatz": "1,7",
             "section": "PIZZABRÖTCHEN"
         }
+    
+
+if "showWithText" is added then this means it will not add Mit text to the extra name
+"stand": {
+                "price": "0,00",
+                "name": "ohne Dressing",
+                "showWithText":false
+            }
+
+ExtraNameAddName if add to an Artikel then this define the Extra name like
+Dein Extra Sauce

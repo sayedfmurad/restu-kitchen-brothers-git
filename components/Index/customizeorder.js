@@ -39,7 +39,7 @@ export function TypesComponent ({type, settype, menu, id}) {
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-export function ShowExtrasOptions({ok,extra,setextra,updatePrice, extrarow, setMainModal }) {
+export function ShowExtrasOptions({NameExtraOutput,ok,extra,setextra,updatePrice, extrarow, setMainModal }) {
     const [selectedOption, setSelectedOption] = useState("");
   
     const handleOptionChange = (event) => {
@@ -61,7 +61,7 @@ export function ShowExtrasOptions({ok,extra,setextra,updatePrice, extrarow, setM
         value={selectedOption}
         onChange={handleOptionChange}
       >
-        <option value="">Deine Extra</option>
+        <option value="">{NameExtraOutput}</option>
         {extrarow}
       </select>
     );
@@ -135,7 +135,7 @@ export function ExtraComponentV2 ({MyLang, setextra,extra,menu,id,type,orderid,o
             <input style={{cursor:"pointer"}} type="checkbox" class="form-check-input" key-data={jjj}  id={jjj} autocomplete="off" onChange={addextra} defaultChecked={(jjj in extra?true:false)}/>
             &nbsp;&nbsp;
             <label style={{cursor:"pointer"}} class="form-check-label pt-2 " key-data={jjj} for={jjj}>
-                {(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :"Mit ") +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;(+{menu["extra"][jjj][type]["price"]})&nbsp;&euro;
+                {(menu["extra"][jjj][type]["name"].toUpperCase().includes("mit".toUpperCase())  ? "" :("showWithText" in menu["extra"][jjj][type]?"":"Mit ")) +menu["extra"][jjj][type]["name"].charAt(0).toUpperCase() + menu["extra"][jjj][type]["name"].slice(1)}&nbsp;&nbsp;(+{menu["extra"][jjj][type]["price"]})&nbsp;&euro;
                 </label>
             </div>            
             </div>            
@@ -148,10 +148,11 @@ export function ExtraComponentV2 ({MyLang, setextra,extra,menu,id,type,orderid,o
         ion++;
         }
     }
+    const NameExtraOutput = "ExtraNameAddName" in menu["product"][id]?menu["product"][id]["ExtraNameAddName"]:"Deine Extras"
     if(LenOfExtra <= 5)
     return extrarow5
     return <>
-        {extrarow.length>0&&<ShowExtrasOptions ok={ok} extra={extra} setextra={setextra} updatePrice={updatePrice} extrarow={extrarow} setMainModal={menu.setMainModal}/>}
+        {extrarow.length>0&&<ShowExtrasOptions NameExtraOutput={NameExtraOutput} ok={ok} extra={extra} setextra={setextra} updatePrice={updatePrice} extrarow={extrarow} setMainModal={menu.setMainModal}/>}
         {Object.keys(extra).map((key, index) => {
             return <>            
             <div className={`row mb-2`} >            
@@ -233,11 +234,11 @@ export function ExtraComponent ({MyLang, setextra,extra,menu,id,type,orderid,or,
        </div> 
        </>
     ) 
-
+    
     if(extrarow.length==0)
     return <></>
     return <>
-    <div className='col-12 p-0 mb-2' style={{fontSize:"15px"}}><strong>Deine Extras:</strong></div>
+    <div className='col-12 p-0 mb-2' style={{fontSize:"15px"}}><strong>{}Deine Extras:</strong></div>
     {extrarow} 
     </>
 }
@@ -259,10 +260,16 @@ export function OptionsComponent ({type,menu,id,orderid,or,updatePrice}) {
                     key = key.replace("options-options","")
                     updatePrice()
                 }
-                return <><strong className='col-12 p-0'>{e["name"]}</strong>
+                let ToShow = ""
+                if("typeinclude" in menu["product"][id]["options"][objo])
+                if(!menu["product"][id]["options"][objo]["typeinclude"].includes(type))
+                ToShow = "d-none"
+                return <div className={ToShow}><strong 
+                className={`col-12 p-0`}
+                >{e["name"]}</strong>
                     <select className="form-select form-select-lg mb-1" defaultValue={defaultoption} onChange={getoption} id={e["name"]}  name={`options-options${e["name"]}`} >
                     {tempsubobj}
-                    </select></>
+                    </select></div>
     }
     const jsonObject = menu["product"][id]["options"]
     if(jsonObject != undefined)
@@ -277,14 +284,7 @@ export function OptionsComponent ({type,menu,id,orderid,or,updatePrice}) {
     {
             var tempobj=[]
             tempobj.push(OptionsElement(menu["product"][id]["options"][objo]))
-            if("typeinclude" in menu["product"][id]["options"][objo])
-            {
-                if(menu["product"][id]["options"][objo]["typeinclude"].includes(type))
-                options.push(tempobj)
-            }
-            else{
-                options.push(tempobj)
-            }
+            options.push(tempobj)
 
     } 
     }  
@@ -456,18 +456,18 @@ export function IDisReady ({menu, id, orderid , orders}) {
 <br/>
 
 </div> 
-<div style={{"backgroundColor":"#533b3b"}} class="modal-footer d-flex justify-content-md-center justify-content-between justify-content-lg-center border-0">
+<div style={{"backgroundColor":"#533b3b"}} class="modal-footer d-flex  align-items-center justify-content-between  border-0">
     {/* {MyLang["count"]} */}
-    <div  className='text-white fs-3'>
-        <a onClick={()=>{var g=count==1?1:count-1;setCount(g+"");}} className='btn-md btn btn-secondary rounded-5'>
-        <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path fill="white" d="M14.125 7.344H1.875v1.312h12.25V7.344z"></path></svg>        
+    <div  className='text-white fs-3 align-items-center d-flex'>
+        <a style={{borderRadius:"30px",fontSize:"22px"}} onClick={()=>{var g=count==1?1:count-1;setCount(g+"");}} className='btn-lg btn btn-secondary '>
+        <svg viewBox="0 0 16 16" width="1em" height="1.66em" role="presentation" focusable="false" aria-hidden="true"><path fill="white" d="M14.125 7.344H1.875v1.312h12.25V7.344z"></path></svg>        
         </a>
-        &nbsp;&nbsp;<strong>{count}</strong>&nbsp;&nbsp;
-        <a onClick={()=>{var g=parseInt(count) +1;setCount(g+"");}} className='btn-md btn btn-secondary rounded-5'>                    
-        <svg viewBox="0 0 16 16" width="1em" height="1em" role="presentation" focusable="false" aria-hidden="true"><path fill="white" d="M14.125 7.344H8.656V1.875H7.344v5.469H1.875v1.312h5.469v5.469h1.312V8.656h5.469V7.344z"></path></svg>
+        &nbsp;&nbsp;<strong className='text-center' style={{minWidth:"40px",fontSize:"30px"}}>{count}</strong>&nbsp;&nbsp;
+        <a style={{borderRadius:"30px",fontSize:"22px"}}  onClick={()=>{var g=parseInt(count) +1;setCount(g+"");}} className='btn-lg btn btn-secondary '>                    
+        <svg viewBox="0 0 16 16" width="1em" height="1.66em" role="presentation" focusable="false" aria-hidden="true"><path fill="white" d="M14.125 7.344H8.656V1.875H7.344v5.469H1.875v1.312h5.469v5.469h1.312V8.656h5.469V7.344z"></path></svg>
             </a>
         </div>
-<button style={{"minWidth":'200px'}} onClick={addOrder} class="border-success rounded-5 btn btn-success btn-lg ">
+<button style={{minHeight:"56px","minWidth":'150px',fontSize:"24px"}} onClick={addOrder} class="border-success rounded-5 btn btn-success btn-lg ">
    {addButtonText}</button>
 </div>
 

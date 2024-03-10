@@ -4,6 +4,7 @@ import hash from "../Utils/object_hash"
 import packagee from "../../package.json"
 import AddAddress from "../Cart/addaddress"
 import {IsPaymentSuccess} from "./MyOrders"
+import {UnstyledTabsIntroductionTimes,UnstyledTabsIntroduction} from '../Cart/Tabs';
 export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
     const MyLang = langswitch.langswitchs("cart")
     const startpay= ()=>{
@@ -170,10 +171,16 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
                 
             }
         }
-        if(document.getElementById("success-outlined-abholen").checked)  
-        PassedSomeRules()      
-        else if(langswitch.CheckMinPriceOrder(langswitch.getNum("sumprice")  ,menu))
-        PassedSomeRules()            
+        try {
+            if(menu.order.type=="Abholen")  
+            PassedSomeRules()  
+            else if(langswitch.CheckMinPriceOrder(langswitch.getNum("sumprice")  ,menu))
+            PassedSomeRules()
+        } catch (error) {
+            console.log(error);
+        }
+           
+                    
     }
     const CheckPaymentsTypes=(menu)=>{
 
@@ -228,7 +235,7 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
 export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohlen,IsStoreOpenClose_Var}) {
     var [spaterodernow,setspaterodernow] = useState(IsStoreOpenClose_Var?"d-none":"");
     const onChangeToAbohlen=()=>{
-        document.getElementById("success-outlined-abholen").checked=true;
+        // document.getElementById("success-outlined-abholen").checked=true;
         setdeliverytimes(<>{getTimesForDelivery(15)}</>) 
         settextabohlen(true)
         setspaterodernow("")
@@ -281,9 +288,81 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
         //  }
         return datee
     }
+    function isInOpenHours(date, openTimesV2) {
+        // Parse the date to get day, hour, and minute
+        const openDays = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+        const day = openDays[date.getDay()]
+        const hour = date.getHours();
+        const minute = date.getMinutes();
 
+    
+        for(let s in openTimesV2)
+        {
+            if(openTimesV2[s]["days"].includes(day))
+            for(let g in openTimesV2[s]["times"])
+            {
+                const { opentime, closetime } = openTimesV2[s]["times"][g];
+                const openHour = opentime.hour;
+                const openMinute = opentime.min;
+                const closeHour = closetime.hour;
+                const closeMinute = closetime.min;
+                if (
+                    (hour > openHour || (hour === openHour && minute >= openMinute)) &&
+                    (hour < closeHour || (hour === closeHour && minute <= closeMinute))
+                ) {
+                    return true; // Date is within an open time range
+                }
+            }
+        }
+    
+        return false; // Date is not within any open time range
+    }
+    const getTimesForDeliveryV2 = (plustime) => {
+        var times = [];
+        times.push(
+            <option value="" selected disabled>Gewünchte Zeit Wählen</option>
+        );
+    
+        var DateNow = langswitch.getDateBerlin();
+        var dateeStart = langswitch.getDateBerlin();
+        dateeStart = ConvertToMinuten_0_15_30_45(dateeStart);
+        dateeStart.setMinutes(dateeStart.getMinutes() + plustime);
+        var dateeEnd = new Date(dateeStart.getTime() + (20 * 60 * 60 * 1000));
+        dateeEnd = ConvertToMinuten_0_15_30_45(dateeEnd);  
+        dateeEnd.setMinutes(dateeEnd.getMinutes() + plustime);
+        let ShouldToRemoveLastItems = false
+        while(dateeStart < dateeEnd)
+        {
+            if(isInOpenHours(dateeStart, menu["staticValue"]["opendaysV2"]))
+            {times.push(
+                <option value={dateeStart.getTime()}>
+                {dateeStart.getHours()+":"+(dateeStart.getMinutes()<10?"0"+dateeStart.getMinutes():dateeStart.getMinutes())}
+                {DateNow.getDay() == dateeStart.getDay()?"":"   ("+dateeStart.getDay()+"."+dateeStart.getMonth()+"."+dateeStart.getFullYear()+")"}
+                </option>
+                )
+                ShouldToRemoveLastItems=true
+            }
+            else{
+            if(ShouldToRemoveLastItems){
+            for(let n in [1,2])
+            if(times.length > 0)
+            times.pop()
+
+            ShouldToRemoveLastItems=false
+            }
+            }
+        
+            dateeStart.setMinutes(dateeStart.getMinutes()+15)
+        } 
+        
+        return times;
+    }
+    
+    
     const getTimesForDelivery=(plustime)=>
-    {
+    {   
+        if("opendaysV2" in menu["staticValue"])
+        return getTimesForDeliveryV2(plustime)
         var times = []
 
         times.push(
@@ -369,39 +448,30 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     return <>
     <div className={`${"notshowabholdetails" in menu["staticValue"]?"d-none":""} list-group`}>                
     <div className='list-group-item backgroundcart'>  
-    <div className="row mb-4 mt-2">
-    <div className='col-12'>
-            <h6>Möchten Sie:</h6>                        
-            </div>                        
-    <div className="col-12">                
-                <input type="radio" class="btn-check" onClick={onChangeToLiefern} name="options-outlined-abholen" id="success-outlined-liefern"  checked/>
-                <label style={{"minWidth":"95px", "borderRadius":"24px 0px 0px 24px"}} class="btn btn-outline-warning" for="success-outlined-liefern">Liefern</label>
-                <input type="radio" class="btn-check" name="options-outlined-abholen" id="success-outlined-abholen"  />
-                <label style={{"minWidth":"95px","borderRadius":"0px 24px 24px 0px"}} class="btn btn-outline-warning" onClick={onChangeToAbohlen} for="success-outlined-abholen">Abholen</label>                        
+    <div className='d-flex jusify-content-start col-12'>
+        <h6>Möchten Sie:</h6>
     </div>
+    <div className='d-flex jusify-content-start col-12'>
+    <UnstyledTabsIntroduction setspaterodernow={setspaterodernow} obj={menu} onChangeToLiefern={onChangeToLiefern} onChangeToAbohlen={onChangeToAbohlen}/>             
     </div>
-    <div className="row mb-4 mt-2">
-            <div className={textabohlen?"d-none":""}>
-            <div className='col-12'>
-            <h6>Lieferzeit wählen:</h6>                        
-            </div>
-            {IsStoreOpenClose_Var?<>
-            <div className="col-12">                
-                <input type="radio" class="btn-check" onClick={()=>{setspaterodernow("d-none")}} name="options-outlined-zeit" id="success-outlined-jetzt" autocomplete="off" checked/>
-                <label style={{"minWidth":"95px", "borderRadius":"24px 0px 0px 24px"}} class="btn btn-outline-warning" for="success-outlined-jetzt">Jetzt</label>
-                <input type="radio" class="btn-check" name="options-outlined-zeit" id="success-outlined-spater" autocomplete="off" checked={IsStoreOpenClose_Var?(spaterodernow==""?true:false):true}/>
-                <label style={{"minWidth":"95px","borderRadius":"0px 24px 24px 0px"}} class="btn btn-outline-warning" onClick={()=>{onChangeToDeliveryTime()}} id="success-outlined-spater-label" for="success-outlined-spater">Später</label>                        
-            </div>
-                </>:<></>}
-            </div>
-            <div className={`col-12 mt-2 ${spaterodernow}`}>
-            <select class="form-select" id='selectedtimedelivery'>
-                    {deliverytimes}
-                    </select>         
-                    
-            </div>
-    </div>
-    </div>
+        <div className={textabohlen?"d-none":""}>
+        <div className='d-flex jusify-content-start col-12'>
+                <h6>Lieferzeit wählen:</h6>                        
+        </div>
+        <div className='d-flex jusify-content-start col-12'>
+                {IsStoreOpenClose_Var&&
+                <> <UnstyledTabsIntroductionTimes obj={menu} setspaterodernow={setspaterodernow} onChangeToDeliveryTime={onChangeToDeliveryTime}/>
+                </>}
+        </div>
+        </div>       
+        <div className='d-flex jusify-content-start col-12'>
+                <div className={`mt-2 ${spaterodernow}`} style={{width:"245px"}}>
+                <select class="form-select" id='selectedtimedelivery'>
+                        {deliverytimes}
+                </select>         
+                </div>
+        </div>                
+    </div>           
     </div>
     <br/>
     <PaymentMethods spaterodernow={spaterodernow} textabohlen={textabohlen} MsgError={MsgError} menu={menu} />

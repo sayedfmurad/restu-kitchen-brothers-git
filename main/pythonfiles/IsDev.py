@@ -72,6 +72,20 @@ def PrepairDB2_Old(folder_path,filename):
         # Write the dictionary to the file as JSON data
         json.dump(restuses, f, ensure_ascii=False, indent=4)
 
+def PrepairDBSections(data):
+    # pass
+    for m in data["sections"]["mdesc"]:
+        found = False
+        d = m
+        if "img" in data["sections"]["mdesc"][m]:
+            d = data["sections"]["mdesc"][m]["img"]
+        for file in os.listdir("./public/Images/sections"):
+            if file.startswith(d.upper()):
+                found = True
+        if not found:
+            print("Not Found ",d)
+            # raise   ValueError(data["staticValue"]["key"],"   Nr ",m,"  Error Section Matching")
+                # os.rename("./public/Images/sections/"+file, "./public/Images/sections/"+m+file.split(".")[1])
 def PrepairDB3(data):
     for m in data["product"]:
         if "options" in data["product"][m]:            
@@ -96,6 +110,7 @@ def PrepairDB3(data):
         data["staticValue"]["printer"]["style"]["print-version"]
     except Exception as ee:
         raise ValueError(data["staticValue"]["key"],ee)
+    # PrepairDBSections(data)
 def PrepairDB2(folder_path,filename):
     objj = filename.split(".")[0]  
     with open(folder_path+"/"+ filename, 'r+',encoding='utf-8') as f:
