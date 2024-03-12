@@ -11488,6 +11488,10 @@
         }
     },
     "staticValue": {
+        "paymentmethod":{
+            "bar":{"name":"Bar","avail":true},
+            "paypal":{"name":"Paypal","avail":true}
+        },
         "pc":"AQRlBp466PiFeLlTgly7wVjgqOYishSYT5xxClQnfzrb2ZZMiq3hlOm9Rir27pNkcwwv8JG-cPp368O1",
         "ps":"wrjCsMKkw5zDg8Kww6LCt8K8w5XCpsK4wqbDpsK7wrLCv8K_wqPCp8OkwrTDoMKcwrTCoMOww63CvcK-w4jDgMObw6PCocOsw5XCtMOYw4zDlMK6w4bDlcOhw6PCv8K4w5bDk8K-w4bDl8OIw5rCqsK6wpbCnsKaw5fDg8OCw6PCnMK3wrjCvMOHwq_Cs8K_w6jDnMKmwrrDpsOcw5zDoQ==",
         "printer":{

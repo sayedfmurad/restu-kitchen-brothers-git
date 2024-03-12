@@ -2644,7 +2644,10 @@
         "logo": "Xantener Pizza & Kebap",
         "logoimgg":"",
         "key": "xantener-pizza-kebap",
-        "paymentmethod":{"bar":{"name":"Bar","id":"bar"}},
+        "paymentmethod":{
+            "bar":{"name":"Bar","avail":true},
+            "Kartenzahlung beim Fahrer":{"name":"Kartenzahlung beim Fahrer","avail":true,"showreciept":""}
+        },
         "rabat": "",
         "minpriceorder": [
             {
@@ -2690,7 +2693,7 @@
             },
             "mondayy": {
                 "opentime": {
-                    "hour": 12,
+                    "hour": 19,
                     "min": 30
                 },
                 "closetime": {

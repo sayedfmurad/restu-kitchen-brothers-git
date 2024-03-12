@@ -23,7 +23,7 @@ export function UnstyledTabsIntroductionTimes({obj,setspaterodernow,onChangeToDe
         obj.order.type = value===0?"Jetzt":"Später"
     }, [value]);
   return (
-    <Tabs  defaultValue={value} onChange={(e)=>setValue(parseInt(e.target.getAttribute("tabindex")))}>
+    <Tabs  defaultValue={value} onChange={(e)=>setValue(parseInt(e.target.closest(".parentbtn").getAttribute("tabindex")))}>
       <TabsList>
         <Tab id="jetztBtn" value={0} tabIndex={0} >Jetzt&nbsp;</Tab>
         <Tab value={1} tabIndex={1} >Später&nbsp;<IoTimeOutline style={{paddingTop:"0px",height:"1.3rem",width:"1.5rem"}} /></Tab>
@@ -36,6 +36,7 @@ export  function UnstyledTabsIntroduction({obj,setspaterodernow,onChangeToLiefer
     React.useEffect(() => {
         if(value===0){
             onChangeToLiefern()
+            if(document.getElementById("jetztBtn"))
             document.getElementById("jetztBtn").click()
         }else{  
             onChangeToAbohlen()

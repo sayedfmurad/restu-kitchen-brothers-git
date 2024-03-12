@@ -4957,6 +4957,10 @@
             }
         }, 
         "logo": "Miramonti",
+        "paymentmethod":{
+            "bar":{"name":"Bar","avail":true},
+            "paypal":{"name":"Paypal","avail":true}
+        },
         "key": "miramonti",
         "pc":"AW5aDBSoIkAJhNDqaIHqZnaICRg-NXolWA3z0OjxWrxipeS0XUFOalpi89vg_VhkGOHXi3uvIXVgdsQQ",
         "ps":"wrjCtMKxwqvCmsK5w5nDncOIw53ClsOnw5rDjsKow53CoMOiw4nDlcKxwpHCn8K9wrTCo8OewrnCrsOowqfCt8KWw6fCtsKnwqXClsOew4jCoMOdwrjDjsOiw6rCv8Kgw5HDkMKowp7DocK8wrTDj8K_w4fCrsKtw6fCs8Kuw6LCksOkw57DksOVwrfCpsOmw53CmsORw5rDh8K7wqDDpg==",        

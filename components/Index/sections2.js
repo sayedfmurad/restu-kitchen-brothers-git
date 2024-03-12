@@ -342,7 +342,7 @@ export default({menu})=>{
   const [IsSearch,setIsSearch]=useState(false)
   menu["IsSearch"]=IsSearch
   menu["setIsSearch"]=setIsSearch
-  menu["order"]={type:"Liefern"}
+  menu["order"]={type:"Liefern",paymentmethod:"none"}
 const Componenett = "closed" in menu["staticValue"]?<></>:<IndexPage menu={menu}/>
 return <>
 <CheckAlerts menu={menu}/>

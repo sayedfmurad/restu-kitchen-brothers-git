@@ -4025,6 +4025,10 @@
         }
     },
     "staticValue": { 
+        "paymentmethod":{
+            "bar":{"name":"Bar","avail":true},
+            "paypal":{"name":"Paypal","avail":true}
+        },
        "printer":{
             "style":{
                 "font-table":"0.8rem",

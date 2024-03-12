@@ -108,6 +108,8 @@ def PrepairDB3(data):
         data["staticValue"]["printer"]["style"]["font-table"]
         data["staticValue"]["printer"]["style"]["font-table-detail"]
         data["staticValue"]["printer"]["style"]["print-version"]
+        data["staticValue"]["paymentmethod"]
+        len(data["staticValue"]["paymentmethod"])==0
     except Exception as ee:
         raise ValueError(data["staticValue"]["key"],ee)
     # PrepairDBSections(data)

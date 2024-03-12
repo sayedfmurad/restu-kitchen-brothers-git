@@ -5,32 +5,18 @@ import packagee from "../../package.json"
 import AddAddress from "../Cart/addaddress"
 import {IsPaymentSuccess} from "./MyOrders"
 import {UnstyledTabsIntroductionTimes,UnstyledTabsIntroduction} from '../Cart/Tabs';
+import PaymentMethods2 from '../Cart/PaymentMethods2';
 export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
     const MyLang = langswitch.langswitchs("cart")
     const startpay= ()=>{
             
             
         const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
-        let t = false;
         // if(typeof document.getElementById("bar-outlined") !== "undefined")
-        if(typeof document.getElementById("bar-outlined") !== 'undefined' && document.getElementById("bar-outlined") !== null && document.getElementById("bar-outlined").checked)
-        t="bar";
-        else if (
-            (typeof document.getElementById("paypal-outlined") !== 'undefined' && document.getElementById("paypal-outlined") !== null && document.getElementById("paypal-outlined").checked) ||
-            (typeof document.getElementById("DCcard-outlined") !== 'undefined' && document.getElementById("DCcard-outlined") !== null && document.getElementById("DCcard-outlined").checked) ||
-            (typeof document.getElementById("spea-outlined") !== 'undefined' && document.getElementById("spea-outlined") !== null && document.getElementById("spea-outlined").checked) ||
-            (typeof document.getElementById("giropay-outlined") !== 'undefined' && document.getElementById("giropay-outlined") !== null && document.getElementById("giropay-outlined").checked) ||
-            (typeof document.getElementById("sofort-outlined") !== 'undefined' && document.getElementById("sofort-outlined") !== null && document.getElementById("sofort-outlined").checked)
-          )
-        t="paypal";
-        else 
-        {
-            alert("bitte wählen Sie eine Zahlungsmethode");
-            return false;
-        }            
-
-        
-        
+        let paymenttypeSelect = menu["order"]["paymentmethod"];
+        if(!(paymenttypeSelect in menu["staticValue"]["paymentmethod"]))
+        {alert("bitte wählen Sie eine Zahlungsmethode");return false;}
+                
         
         var parms = {}
         var orders = langswitch.getJson("order")
@@ -59,8 +45,8 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
         var address = langswitch.getJson("address")
         var seladd = langswitch.getValue("seladdress")
         var time =  new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));           
-        parms["type"] = t;
-        if(t=="paypal")
+        parms["type"] = paymenttypeSelect;
+        if(parms["type"]=="paypal")
         {
             const hostname = window.location.hostname;
             const isOutPackage= packagee["IsOut"]?".html":""
@@ -117,21 +103,16 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
             if(response.status != 200)
             throw new Error("Error");
             return response.json();
-          }).then(data => {                                
+          }).then(data => {                                                      
             window.localStorage.setItem("mainorder",JSON.stringify(MainOrder));
-            if(t=="bar")
-            {
-                setTimeout(() => {
-                    IsPaymentSuccess(menu)
-                }, 500);
-            }
-            else if(t=="paypal")
+            if(paymenttypeSelect=="paypal")
             {
                 if("paypalurl" in data)
                 window.location.href=data["paypalurl"] 
-                else
-                window.location.href=langswitch.RouteP(menu["staticValue"]["key"]+"-paypal");                    
-            }                
+            }else                
+                setTimeout(() => {
+                    IsPaymentSuccess(menu)
+                }, 500);
         })
         .catch((error) => {            
           window.location.href=langswitch.RouteP("failure");
@@ -181,55 +162,8 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
         }
            
                     
-    }
-    const CheckPaymentsTypes=(menu)=>{
-
-        if("paymentmethod" in menu["staticValue"])
-        {
-            for(var d in menu["staticValue"]["paymentmethod"])
-            {
-                var rows=[]
-                rows.push(    
-                    <>
-                    <input type="radio" class="btn-check" name="options-outlined" id={d+"-outlined"}  />
-                    <label class="btn btn-outline-warning " for={d+"-outlined"}>{menu["staticValue"]["paymentmethod"][d]["name"]}</label>
-                    &nbsp;
-                    </>               
-                )
-            }    
-            return <div className="d-flex justify-content-start mb-4">     
-                    {rows}
-                   </div>     
-        }
-        return <div className="d-flex justify-content-start mb-4">                
-        <input type="radio" class="btn-check" name="options-outlined" id="bar-outlined"  />
-        <label class="btn btn-outline-warning " for="bar-outlined">Bar</label>
-        &nbsp;
-        <input type="radio" class="btn-check" name="options-outlined" id="paypal-outlined" />
-        <label class="btn btn-outline-warning" for="paypal-outlined">Paypal</label>
-        &nbsp;
-        <input type="radio" class="btn-check " name="options-outlined" id="DCcard-outlined" />
-        <label style={{"fontSize":"0.6rem;"}}  class="btn btn-outline-warning " for="DCcard-outlined">Debit Card</label>
-        &nbsp;
-        <input type="radio" class="btn-check d-none" name="options-outlined" id="spea-outlined" />
-        <label class="btn btn-outline-warning d-none" for="spea-outlined"></label>
-    </div> 
-    }    
-    return <> <div className='list-group'>                
-    <div className='list-group-item backgroundcart'>                
-    <div className="d-flex justify-content-start mb-4">                
-    Bezahlen mit:
-    </div> 
-    {CheckPaymentsTypes(menu)}                              
-    </div>
-    </div>
-    <br/> 
-    <button onClick={CheckOutBtn} className="btn btn-success col-12">      
-      <span class="sr-only">
-          Bezahlen
-      </span>
-      </button>                 
-   </>    
+    } 
+    return <PaymentMethods2 CheckOutBtn={CheckOutBtn} menu={menu} />  
 
 }
 export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohlen,IsStoreOpenClose_Var}) {
@@ -317,6 +251,22 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     
         return false; // Date is not within any open time range
     }
+    function getFormattedDate(currentDate) {
+    
+        // Extract day, month, and year
+        var day = currentDate.getDate();
+        var month = currentDate.getMonth() + 1; // Months are zero-indexed, so we add 1
+        var year = currentDate.getFullYear();
+    
+        // Pad single-digit day and month with leading zero if needed
+        day = (day < 10 ? '0' : '') + day;
+        month = (month < 10 ? '0' : '') + month;
+    
+        // Construct the formatted date string
+        var formattedDate = day + '.' + month + '.' + year;
+    
+        return formattedDate;
+    }
     const getTimesForDeliveryV2 = (plustime) => {
         var times = [];
         times.push(
@@ -325,6 +275,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     
         var DateNow = langswitch.getDateBerlin();
         var dateeStart = langswitch.getDateBerlin();
+
         dateeStart = ConvertToMinuten_0_15_30_45(dateeStart);
         dateeStart.setMinutes(dateeStart.getMinutes() + plustime);
         var dateeEnd = new Date(dateeStart.getTime() + (20 * 60 * 60 * 1000));
@@ -337,7 +288,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
             {times.push(
                 <option value={dateeStart.getTime()}>
                 {dateeStart.getHours()+":"+(dateeStart.getMinutes()<10?"0"+dateeStart.getMinutes():dateeStart.getMinutes())}
-                {DateNow.getDay() == dateeStart.getDay()?"":"   ("+dateeStart.getDay()+"."+dateeStart.getMonth()+"."+dateeStart.getFullYear()+")"}
+                {DateNow.getDay() == dateeStart.getDay()?"":" ("+getFormattedDate(dateeStart)+")"}
                 </option>
                 )
                 ShouldToRemoveLastItems=true
@@ -351,10 +302,8 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
             ShouldToRemoveLastItems=false
             }
             }
-        
             dateeStart.setMinutes(dateeStart.getMinutes()+15)
         } 
-        
         return times;
     }
     

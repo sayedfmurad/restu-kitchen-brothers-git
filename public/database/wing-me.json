@@ -2276,6 +2276,9 @@
         }
     },
     "staticValue": {
+        "paymentmethod":{
+            "bar":{"name":"Bar","avail":true}
+        },
         "pc": "",
         "ps": "",
         "printer": {
@@ -2447,7 +2450,7 @@
         ]
     },
     "b": {
-        "c": "-4192159075"
+        "c": "-4124542199"
     },
     "rabat": "10"
 }
