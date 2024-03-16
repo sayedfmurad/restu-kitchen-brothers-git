@@ -23,10 +23,14 @@ export function UnstyledTabsIntroductionTimes({obj,setspaterodernow,onChangeToDe
         obj.order.type = value===0?"Jetzt":"Später"
     }, [value]);
   return (
-    <Tabs  defaultValue={value} onChange={(e)=>setValue(parseInt(e.target.closest(".parentbtn").getAttribute("tabindex")))}>
+    <Tabs  defaultValue={value} onChange={(e)=>
+        {
+            setValue(parseInt(e.target.closest(".parentbtn").getAttribute("tabindex")))
+        }
+        }>
       <TabsList>
-        <Tab id="jetztBtn" value={0} tabIndex={0} >Jetzt&nbsp;</Tab>
-        <Tab value={1} tabIndex={1} >Später&nbsp;<IoTimeOutline style={{paddingTop:"0px",height:"1.3rem",width:"1.5rem"}} /></Tab>
+        <Tab id="jetztBtn" className='parentbtn' value={0} tabIndex={0} >Jetzt&nbsp;</Tab>
+        <Tab value={1} className='parentbtn' tabIndex={1} >Später&nbsp;<IoTimeOutline style={{paddingTop:"0px",height:"1.3rem",width:"1.5rem"}} /></Tab>
       </TabsList>
     </Tabs>
   );
@@ -44,7 +48,12 @@ export  function UnstyledTabsIntroduction({obj,setspaterodernow,onChangeToLiefer
         obj.order.type = value===0?"Liefern":"Abholen"
     }, [value]);
   return (
-    <Tabs defaultValue={value} onChange={(e)=>setValue(parseInt(e.target.closest(".parentbtn").getAttribute("tabindex")))}>
+    <Tabs defaultValue={value} onChange={
+        (e)=>
+        {
+            setValue(parseInt(e.target.closest(".parentbtn").getAttribute("tabindex")))
+        }
+    }>
       <TabsList>
         <Tab value={0} tabIndex={0} className='parentbtn' >Liefern&nbsp;<MdDeliveryDining style={{paddingTop:"0px",height:"1.4em",width:"1.5rem"}} /></Tab>
         <Tab value={1} tabIndex={1} className='parentbtn' >Abholen&nbsp;<PiBag style={{paddingTop:"0px",height:"1.4em",width:"1.5rem"}} /></Tab>

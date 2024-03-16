@@ -4025,6 +4025,13 @@
         }
     },
     "staticValue": { 
+        "style":{
+            "navbar":{
+                "color":"#fff",
+                "iconpath":"./icons/pizzavalentina.png",
+                "iconstyle":{"height":"70px"}
+            }
+        },
         "paymentmethod":{
             "bar":{"name":"Bar","avail":true},
             "paypal":{"name":"Paypal","avail":true}

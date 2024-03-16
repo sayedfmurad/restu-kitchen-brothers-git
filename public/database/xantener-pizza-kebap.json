@@ -2631,7 +2631,14 @@
             }
         }
     },
-    "staticValue": {        
+    "staticValue": {   
+        "style":{
+            "navbar":{
+                "color":"#fff",
+                "iconpath":"./icons/xantener-pizza-kebap.png",
+                "iconstyle":{"height":"70px"}
+            }
+        },     
         "printer":{
             "count":1,
             "style":{

@@ -1,0 +1,951 @@
+{
+    "product":{
+        "1": {
+            "name": "Original",
+            "price": {
+                "26cm": "7,50",
+                "30cm":"10,00",
+                "40cm":"14,50"
+            },
+            "desO": "Mouarella, Cherry-Tomaten, Basilikum oder Rucola",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "2": {
+            "name": "Regina",
+            "price": {
+                "26cm": "8,50",
+                "30cm":"12,50",
+                "40cm":"17,50"
+            },
+            "desO": "Schrimps, Zwiebeln, Thunfisch, Blattspinat Rindersalami",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "3": {
+            "name": "Frutti di Mare",
+            "price": {
+                "26cm": "8,50",
+                "30cm":"12,50",
+                "40cm":"17,50"
+            },
+            "desO": "Thunfisched, Meeresfruchted. Sardellen",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "4": {
+            "name": "BBQ",
+            "price": {
+                "26cm": "8,50",
+                "30cm":"12,50",
+                "40cm":"17,50"
+            },
+            "desO": "BBQ-Sauce, Hahnchen, rote Zwiebeln, Mais",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "5": {
+            "name": "Spezial",
+            "price": {
+                "26cm": "9,00",
+                "30cm":"13,50",
+                "40cm":"17,50"
+            },
+            "desO": "Sauce Hollandaise J.4.n.a.i.a, Hiihnchen, , Mais, Broccoli, Paprika, Salapenos",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "6": {
+            "name": "OHLER Spezial",
+            "price": {
+                "26cm": "10,50",
+                "30cm":"14,50",
+                "40cm":"19,50"
+            },
+            "desO": "Scampi, Rindersalami, rote Zwiebeln, Hiihnchen, Sauce Hollandaise",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "7": {
+            "name": "Roll",
+            "price": {
+                "26cm": "9,50",
+                "30cm":"12,50",
+                "40cm":"17,50"
+            },
+            "desO": "Hirtenkiise, rote Zwiebeln, Hiihnchen, Gyros, Peperoni",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "8": {
+            "name": "Vier Kase",
+            "price": {
+                "26cm": "8,50",
+                "30cm":"12,50",
+                "40cm":"17,50"
+            },
+            "desO": "Gouda Kase 9, Mozzarella 9, Hirtenkiise •, Gorgonzola",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "9": {
+            "name": "Margherita",
+            "price": {
+                "26cm": "5,00",
+                "30cm":"6,50",
+                "40cm":"11,00"
+            },
+            "desO": "mit Tomatensauce, Kase 9, Oregano",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "10": {
+            "name": "Salami",
+            "price": {
+                "26cm": "6,50",
+                "30cm":"7,50",
+                "40cm":"14,00"
+            },
+            "desO": "mit Tomatensauce, Kase 9, Oregano",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "11": {
+            "name": "Funghi",
+            "price": {
+                "26cm": "6,50",
+                "30cm":"7,50",
+                "40cm":"14,00"
+            },
+            "desO": "mit Champignons, Kase•, Oregano",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "12": {
+            "name": "Rustika",
+            "price": {
+                "26cm": "7,00",
+                "30cm":"8,50",
+                "40cm":"16,00"
+            },
+            "desO": "mit Formfleischv6rderschinkenu paprika, Champignons, Tomatensauce, tase",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "13": {
+            "name": "Tonno",
+            "price": {
+                "26cm": "6,50",
+                "30cm":"8,50",
+                "40cm":"15,00"
+            },
+            "desO": "mit Thunfisch ,'romaten'sauctKase und Oregano",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "14": {
+            "name": "Mista",
+            "price": {
+                "26cm": "7,50",
+                "30cm":"8,00",
+                "40cm":"16,00"
+            },
+            "desO": "mit Formfteischvorde1schinkeJtu,'Salami, Thunfisch d, Champignons",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "15": {
+            "name": "Hawaii",
+            "price": {
+                "26cm": "7,00",
+                "30cm":"8,00",
+                "40cm":"15,00"
+            },
+            "desO": "mit Formfteischvor Salami,Ananas, Tomatensauce Kase",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "16": {
+            "name": "Sucuk-Pizza",
+            "price": {
+                "26cm": "6,50",
+                "30cm":"8,00",
+                "40cm":"14,00"
+            },
+            "desO": "mit türk Knoblauchwurst  Tomatensauce Kase und Oregano",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "17": {
+            "name": "Broccoli- Spinat",
+            "price": {
+                "26cm": "6,50",
+                "30cm":"8,50",
+                "40cm":"15,00"
+            },
+            "desO": "mit Broccoli, Spinat, Sauce Hollandaise, kase, Oregano",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "18": {
+            "name": "Doner - Pizza",
+            "price": {
+                "26cm": "7,50",
+                "30cm":"9,00",
+                "40cm":"16,00"
+            },
+            "desO": "mit Donerfleisch, Tomatensauce, Kase I und Oregano",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "19": {
+            "name": "Prosciutto",
+            "price": {
+                "26cm": "6,50",
+                "30cm":"8,50",
+                "40cm":"15,00"
+            },
+            "desO": "mit Formfleischvorderschinken , Schinken, Tomatensauce, Kase und Oregano",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "20": {
+            "name": "Vegelaria",
+            "price": {
+                "26cm": "7,50",
+                "30cm":"9,00",
+                "40cm":"15,00"
+            },
+            "desO": "mit Artischocken, Champignons, Paprika, Spinal, Kase",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "21": {
+            "name": "Scampi",
+            "price": {
+                "26cm": "7,50",
+                "30cm":"9,00",
+                "40cm":"16,00"
+            },
+            "desO": "mit Scampis,Spinat,Tomatensauce,Kase undOregano",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "22": {
+            "name": "Pide",
+            "price": {
+                "26cm": "5,00",
+                "30cm":"8,00",
+                "40cm":"15,00"
+            },
+            "desO": "türkischer Art mit Hackfleisch",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "23": {
+            "name": "Calzone OHLER",
+            "price": {
+                "stand":"10,50"
+            },
+            "desO": "Hähnchen,Spinat,rote Zwiebeln,gek.Ei",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "24": {
+            "name": "Calzone Lovers",
+            "price": {
+                "stand":"10,00"
+            },
+            "desO": "Truthanschenken,Thunfischd, Champignons",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "25": {
+            "name": "Calzone Gyros",
+            "price": {
+                "stand":"10,50"
+            },
+                "desO": "Hiihnchen-Gyros,rotezwiebeln,Salapenos,Hirtenkase,SauceHollandaise",
+            "desT": "",
+            "zusatz": "",
+            "section": "PIZZEN"
+        },
+        "26": {
+            "name": "Pizzabrotchen",
+            "price": {
+                "stand":"5,00"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrotchen"
+        },
+        "27": {
+            "name": "Pizzabrotchen",
+            "price": {
+                "stand":"5,50"
+            },
+                "desO": "mit Käse",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrotchen"
+        },
+        "28": {
+            "name": "Pizzabrotchen",
+            "price": {
+                "stand":"6,00"
+            },
+                "desO": "mit Salami und Käse",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrotchen"
+        },
+        "29": {
+            "name": "Pizzabrotchen",
+            "price": {
+                "stand":"6,00"
+            },
+                "desO": "mit Formfleischvorderschinken und Kase",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrotchen"
+        },
+        "30": {
+            "name": "Pizzabrotchen",
+            "price": {
+                "stand":"6,00"
+            },
+                "desO": "mit Spinat und Kase",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrotchen"
+        },
+        "31": {
+            "name": "Pizzabrotchen",
+            "price": {
+                "stand":"6,00"
+            },
+                "desO": "mit Donerfleisch und Käse",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrotchen"
+        },
+        "32": {
+            "name": "Pizzabrotchen",
+            "price": {
+                "stand":"6,00"
+            },
+                "desO": "mit Sucuk und Kase",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrotchen"
+        },
+        "33": {
+            "name": "Pizzabrotchen",
+            "price": {
+                "stand":"6,00"
+            },
+                "desO": "mit Thunfisch und Kase",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrotchen"
+        },
+        "34": {
+            "name": "Lahmacun",
+            "price": {
+                "stand":"3,00"
+            },
+                "desO": "mit Hackfleisch",
+            "desT": "",
+            "zusatz": "",
+            "section": "Lahmacun"
+        },
+        "35": {
+            "name": "Lahmacun",
+            "price": {
+                "stand":"4,50"
+            },
+                "desO": "mit Hackfleisch und Salat Cocktailsauce",
+            "desT": "",
+            "zusatz": "",
+            "section": "Lahmacun"
+        },
+        "36": {
+            "name": "Lahmacun",
+            "price": {
+                "stand":"7,00"
+            },
+                "desO": "mit Hackfleisch und Dönerfleisch mit Salat Cocktailsauce",
+            "desT": "",
+            "zusatz": "",
+            "section": "Lahmacun"
+        },
+        "37": {
+            "name": "Falafel",
+            "price": {
+                "stand":"5,99"
+            },
+                "desO": "( 6 Stück) mit Hummus",
+            "desT": "",
+            "zusatz": "",
+            "section": "Vorspeisen"
+        },
+        "38": {
+            "name": "Falafel",
+            "price": {
+                "stand":"7,50"
+            },
+                "desO": "(8 Stück) mit Salat",
+            "desT": "",
+            "zusatz": "",
+            "section": "Vorspeisen"
+        },
+        "39": {
+            "name": "Basic Salat",
+            "price": {
+                "stand":"6,00"
+            },
+                "desO": "Mais, Rucola, rote Zwiebeln, fr. Paprika",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "40": {
+            "name": "Capricciosa Salat",
+            "price": {
+                "stand":"9,50"
+            },
+                "desO": "Kase, Thunfisch, Ei, Truthahnschinken",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "41": {
+            "name": "Bauernsalal",
+            "price": {
+                "stand":"8,50"
+            },
+                "desO": "rote Zwiebeln, fr. Paprika, Oliven, Hirtenkase, Peperoni",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "42": {
+            "name": "Florida Salat ",
+            "price": {
+                "stand":"8,50"
+            },
+                "desO": "Kase, Ananas, Hahnchen",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "43": {
+            "name": "Venezzia Salat",
+            "price": {
+                "stand":"8,50"
+            },
+                "desO": "Truthanschenken, Mais, Ei",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "44": {
+            "name": "Gambas Salat",
+            "price": {
+                "stand":"9,50"
+            },
+                "desO": "gebratene Gambas mil Pestosauce",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "45": {
+            "name": "Ohler Spezial Salat",
+            "price": {
+                "stand":"9,50"
+            },
+                "desO": "fr.Mangostücke, Crispy, Hahnchen",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "46": {
+            "name": "Schrimps Satat",
+            "price": {
+                "stand":"9,50"
+            },
+                "desO": "Trulhahnschinken, Scfirimps, Mais,Ei",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "47": {
+            "name": "Krautersalat",
+            "price": {
+                "stand":"3,50"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "48": {
+            "name": "Krautersalat",
+            "price": {
+                "stand":"3,00"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "49": {
+            "name": "Gurkensalat",
+            "price": {
+                "stand":"3,00"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "50": {
+            "name": "Gemischter Salat",
+            "price": {
+                "stand":"4,50"
+            },
+                "desO": "mit Eisbergsalat,Tomaten, Gurken, wahlweise Haus-Oressig",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "51": {
+            "name": "Salat m1t Putenstreifen",
+            "price": {
+                "stand":"9,90"
+            },
+                "desO": "mit Champignons und Meis",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "52": {
+            "name": "Bauernsalat",
+            "price": {
+                "stand":"7,90"
+            },
+                "desO": "mil Weichkase, Tomaten, Gurken, Peperoni und Zwiebeln",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "53": {
+            "name": "Thunfischsalat",
+            "price": {
+                "stand":"9,50"
+            },
+                "desO": "mit Thunfisch, Oliven, Ei, Kase",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "54": {
+            "name": "Gambas Salat",
+            "price": {
+                "stand":"10,50"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Salate"
+        },
+        "55": {
+            "name": "Dönertasche",
+            "price": {
+                "stand":"6,00"
+            },
+                "desO": "Kalbfleisch",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "56": {
+            "name": "Dönertasche",
+            "price": {
+                "stand":"6,00"
+            },
+                "desO": "Hahnchenfleisch",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "57": {
+            "name": "Döner Dürum",
+            "price": {
+                "stand":"7,99"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "58": {
+            "name": "Pom Döner-Box",
+            "price": {
+                "stand":"5,00"
+            },
+                "desO": "mit Donefleisch und Pommes Frites",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "59": {
+            "name": "Döner Teller",
+            "price": {
+                "stand":"8,00"
+            },
+                "desO": "klein mil Pommes Frites",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "60": {
+            "name": "Döner Teller",
+            "price": {
+                "stand":"11,50"
+            },
+                "desO": "groß mil Pommes Frites",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "61": {
+            "name": "Vegetarische Tasche",
+            "price": {
+                "stand":"5,00"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "62": {
+            "name": "Falafel Tasche",
+            "price": {
+                "stand":"5,50"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "63": {
+            "name": "3x Doner mit 1L CocaCola, Pornmes groß",
+            "price": {
+                "stand":"20,99"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "64": {
+            "name": "2x Doner mit 33ml CocaCola, Pornmes klein",
+            "price": {
+                "stand":"13,00"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        },
+        "65": {
+            "name": "Döner Teller groß mit 33ml CocaCola, Pornmes klein",
+            "price": {
+                "stand":"15,00"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Doner"
+        }
+        ,"67": {
+            "name": "Pommes Frites klein",
+            "price": {
+                "stand":"2,50"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"68": {
+            "name": "Pommes Frites groß",
+            "price": {
+                "stand":"3,50"
+            },
+                "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"69": {
+            "name": "Pommes Frites Spezial",
+            "desO": "mit Mayonaise, Ketchup und Zwiebeln",
+            "price": {
+                "stand":"5,00"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"70": {
+            "name": "Cheese Pornmes Frites",
+            "desO": "mit Käse uberbacken",
+            "price": {
+                "stand":"5,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"71": {
+            "name": "Chili Cheese Pornmes",
+            "desO": "mit Käse uberbacken",
+            "price": {
+                "stand":"6,00"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"72": {
+            "name": "Kartoffelkroketten",
+            "desO": "6 stück",
+            "price": {
+                "stand":"3,00"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"73": {
+            "name": "Fleischkroketten",
+            "desO": "1 stück",
+            "price": {
+                "stand":"2,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"74": {
+            "name": "Bami-Scheibe",
+            "desO": "",
+            "price": {
+                "stand":"2,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"75": {
+            "name": "Kipkorn",
+            "desO": "",
+            "price": {
+                "stand":"2,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"76": {
+            "name": "Bratrolle",
+            "desO": "",
+            "price": {
+                "stand":"2,00"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"77": {
+            "name": "Bratrolle",
+            "desO": " Spezial mit Mayonaise Ketchup und Zwiebeln",
+            "price": {
+                "stand":"3,00"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"78": {
+            "name": "Currywurst",
+            "desO": "",
+            "price": {
+                "stand":"3,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"79": {
+            "name": "Currywurst",
+            "desO": "mit Pommes Frites",
+            "price": {
+                "stand":"6,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"80": {
+            "name": "Chicken Wings",
+            "desO": "6 stück mit Asia-Sauce",
+            "price": {
+                "stand":"6,00"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"81": {
+            "name": "Chicken Wings",
+            "desO": "12 stück mit Asia-Sauce",
+            "price": {
+                "stand":"10,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"82": {
+            "name": "Chicken Nuggets",
+            "desO": "6 stück mit Pommes Frites und Mayonaise",
+            "price": {
+                "stand":"6,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"83": {
+            "name": "Chicken Nuggets",
+            "desO": "12 stück mit Pommes Frites und Mayonaise",
+            "price": {
+                "stand":"7,99"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"84": {
+            "name": "Samosa",
+            "desO": "2 Teigtaschen gefiillt mit Gemiise und Kartoffeln",
+            "price": {
+                "stand":"6,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"85": {
+            "name": "Chicken Samosa",
+            "desO": "2 Teigtaschen gefiillt mit Gemiise und Hähnchenfleisch",
+            "price": {
+                "stand":"7,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"86": {
+            "name": "Mini Frühlingsrollen",
+            "desO": "10 stück, Vegetarisch",
+            "price": {
+                "stand":"4,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"87": {
+            "name": "Chicken Strips",
+            "desO": "6 stück",
+            "price": {
+                "stand":"5,50"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"88": {
+            "name": "Halbes Hähnchen",
+            "desO": "mit Pommes Frites",
+            "price": {
+                "stand":"8,90"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"89": {
+            "name": "Halbes Hähnchen",
+            "desO": "mit Asia Sauce",
+            "price": {
+                "stand":"6,90"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"90": {
+            "name": "Ganzes Hähnchen",
+            "desO": "",
+            "price": {
+                "stand":"12,99"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+        ,"91": {
+            "name": "Ganzes Hähnchen",
+            "desO": "mit Pommes, Mayo, Getränk 0,33L",
+            "price": {
+                "stand":"18,90"
+            },
+            "desT": "",
+            "zusatz": "",
+            "section": "imbiss"
+        }
+    }
+}
+
+
+

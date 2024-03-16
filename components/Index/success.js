@@ -14,7 +14,7 @@ return(
     <div class="modal-body"> 
 
             <div className='d-flex justify-content-center'>
-            <img alt="" height="60px" src='./Images/accepted.png'/>
+            {/* <img alt="" height="60px" src='./Images/accepted.png'/> */}
             </div>
             <div className='container'>
             <div className='row'>

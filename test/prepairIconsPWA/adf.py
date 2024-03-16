@@ -30,7 +30,7 @@ p = {
     "apple-icon-120x120.png": {"height": 120, "width": 120},
     "favicon-32x32.png": {"height": 32, "width": 32},
     "ms-icon-70x70.png": {"height": 70, "width": 70}}
-key="kitchen-brothers"
+key="wing-me"
 output_path = "./"+key+"/"
 mfile="./t/"+key+".png"
 

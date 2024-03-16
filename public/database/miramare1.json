@@ -11488,6 +11488,13 @@
         }
     },
     "staticValue": {
+        "style":{
+            "navbar":{
+                "color":"#fff",
+                "iconpath":"./icons/miramare1.png",
+                "iconstyle":{"height":"100px","margin-left": "20px"}
+            }
+        },
         "paymentmethod":{
             "bar":{"name":"Bar","avail":true},
             "paypal":{"name":"Paypal","avail":true}

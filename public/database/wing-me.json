@@ -2281,6 +2281,13 @@
         },
         "pc": "",
         "ps": "",
+        "style":{
+            "navbar":{
+                "color":"#FFE8D2",
+                "iconpath":"./icons/wing-me.svg",
+                "iconstyle":{}
+            }
+        },
         "printer": {
             "style": {
                 "showdate": "true",
