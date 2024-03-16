@@ -296,7 +296,11 @@ export function OptionsComponent ({type,menu,id,orderid,or,updatePrice}) {
     <div className='col-12 mt-4'></div>                
     </>
 }
-export function MsgComponent ({MyLang,orderid,orders}) {
+export function MsgComponent ({menu,MyLang,orderid,orders}) {
+    if("customizeorder" in menu["staticValue"])
+    if("availnote" in menu["staticValue"]["customizeorder"])
+    if(!menu["staticValue"]["customizeorder"]["availnote"])
+    return <></>
     var msg = ""
     if(orderid in orders)
     if("msg" in orders[orderid])
@@ -407,7 +411,7 @@ export function IDisReady ({menu, id, orderid , orders}) {
         order["type"]=type
         order["count"]=count
         order["price"]=price;
-        order["msg"]=document.getElementById("textareamsg").value
+        order["msg"]=document.getElementById("textareamsg")?document.getElementById("textareamsg").value:""
         order["extra"]=extra
         var mOption={}
 
@@ -450,7 +454,7 @@ export function IDisReady ({menu, id, orderid , orders}) {
 {!("showextra" in menu["product"][id])&&
 <ExtraComponentV2 MyLang={MyLang} setextra={setextra} extra={extra} updatePrice={updatePrice} type={type} menu={menu} id={id} orderid={orderid} or={orders}/>}
 
-<MsgComponent MyLang={MyLang} orderid={orderid} orders={orders}/>
+<MsgComponent menu={menu} MyLang={MyLang} orderid={orderid} orders={orders}/>
 </div>
 <br/>
 <br/>

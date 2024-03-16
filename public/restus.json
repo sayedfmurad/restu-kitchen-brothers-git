@@ -7,6 +7,12 @@
         "search":"https://www.google.com/search?q=miramonti+Mönchengladbach",
         "v": "d9398db8d1366c91ffff754fa1aa51cb56bae019e8f5c8b97d782eaf03ae99d2"
     },
+    "ohler-grill": {
+        "storeimg":"Images/cartoon.jpeg",
+        "key": "ohler-grill",
+        "name": "ohler-grill",
+        "website":"ohler-grill.foodieway.de"
+    },
     "miramonti": {
         "storeimg":"Images/cartoon.jpeg",
         "key": "miramonti",

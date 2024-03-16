@@ -86,6 +86,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
     
         if(Object.keys(or).length > 0)
         {
+            if("rabat" in menu)
             if(menu["rabat"]!="")
             {
                 var rabb = sum*(parseInt(menu["rabat"]))/100
@@ -101,6 +102,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
                     </li>
                     )
             }  
+
             if(!textabohlen)
             if(Object.keys(addre).length !=0 && addre[seladdre]!=undefined)
             {
@@ -112,6 +114,7 @@ export default function Items({setContainerCustimizeModal,setContainerCartModal,
                         </li>
                         )
             }   
+
             sum = langswitch.ftos(sum)                     
             crows.push(
                 <li className="list-group-item d-flex justify-content-between lh-light">

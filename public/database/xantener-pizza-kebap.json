@@ -2643,7 +2643,7 @@
             "count":1,
             "style":{
                 "width":"300",
-                "font-table":"0.8rem",
+                "font-table":"1rem",
                 "font-table-detail":"0.7rem",
                 "print-version":"1"
             }

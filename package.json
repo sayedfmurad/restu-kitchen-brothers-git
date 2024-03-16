@@ -31,8 +31,9 @@
     },
     "s3path": "http://angebote-restu.s3-website.eu-central-1.amazonaws.com",
     "server": {
-        "url": "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws"
+        "url": "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws",
+        "payment": "https://f52vhrbr4fl26wa6xlxlwz4k6q0xmbhl.lambda-url.eu-central-1.on.aws"
     },
     "lang": "de-de",
-    "IsOut": false
+    "IsOut": true
 }

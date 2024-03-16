@@ -11492,7 +11492,7 @@
             "navbar":{
                 "color":"#fff",
                 "iconpath":"./icons/miramare1.png",
-                "iconstyle":{"height":"100px","margin-left": "20px"}
+                "iconstyle":{"height":"70px","margin-left": "10px"}
             }
         },
         "paymentmethod":{

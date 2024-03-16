@@ -4025,6 +4025,9 @@
         }
     },
     "staticValue": { 
+        "customizeorder":{
+            "availnote":false
+        },
         "style":{
             "navbar":{
                 "color":"#fff",

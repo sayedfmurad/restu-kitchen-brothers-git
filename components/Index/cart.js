@@ -11,7 +11,6 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
     const startpay= ()=>{
             
             
-        const urll = "https://7tk2kesgdvajrowlgn6cpgzepi0ryuvj.lambda-url.eu-central-1.on.aws";
         // if(typeof document.getElementById("bar-outlined") !== "undefined")
         let paymenttypeSelect = menu["order"]["paymentmethod"];
         if(!(paymenttypeSelect in menu["staticValue"]["paymentmethod"]))
@@ -95,7 +94,7 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
         window.localStorage.setItem("lastOrderId",MainOrderId);            
         let mheaders = new Headers();
         mheaders.append('Origin','*');
-        fetch(urll, {
+        fetch(packagee["server"]["payment"], {
           method: 'POST', // or 'PUT'
           headers: mheaders,
           body: parms
@@ -224,12 +223,10 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     }
     function isInOpenHours(date, openTimesV2) {
         // Parse the date to get day, hour, and minute
-        const openDays = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+        const openDays = ["sunday","monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
         const day = openDays[date.getDay()]
         const hour = date.getHours();
         const minute = date.getMinutes();
-
-    
         for(let s in openTimesV2)
         {
             if(openTimesV2[s]["days"].includes(day))
@@ -240,11 +237,17 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
                 const openMinute = opentime.min;
                 const closeHour = closetime.hour;
                 const closeMinute = closetime.min;
-                if (
-                    (hour > openHour || (hour === openHour && minute >= openMinute)) &&
-                    (hour < closeHour || (hour === closeHour && minute <= closeMinute))
-                ) {
-                    return true; // Date is within an open time range
+                const OpenDate = new Date(date.getFullYear(),
+                                       date.getMonth(),
+                                       date.getDate(),
+                                       openHour,openMinute)
+                const CloseDate = new Date(date.getFullYear(),
+                                       date.getMonth(),
+                                       date.getDate(),
+                                       closeHour,closeMinute)
+                if(date >= OpenDate && date <= CloseDate)
+                {
+                    return true
                 }
             }
         }
@@ -267,43 +270,51 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     
         return formattedDate;
     }
-    const getTimesForDeliveryV2 = (plustime) => {
+    const getTimesForDeliveryV2 = (plustime,opendaysV2) => {
         var times = [];
+        let CountCheckPlusTime = 0
+        plustime = parseFloat(plustime/15)
         times.push(
             <option value="" selected disabled>Gewünchte Zeit Wählen</option>
-        );
-    
-        var DateNow = langswitch.getDateBerlin();
-        var dateeStart = langswitch.getDateBerlin();
+            );
+            
+            var DateNow = langswitch.getDateBerlin();
+            var dateeStart = langswitch.getDateBerlin();
+            let DayCheckPlusTime = dateeStart.getDate()
 
-        dateeStart = ConvertToMinuten_0_15_30_45(dateeStart);
-        dateeStart.setMinutes(dateeStart.getMinutes() + plustime);
-        var dateeEnd = new Date(dateeStart.getTime() + (20 * 60 * 60 * 1000));
-        dateeEnd = ConvertToMinuten_0_15_30_45(dateeEnd);  
-        dateeEnd.setMinutes(dateeEnd.getMinutes() + plustime);
-        let ShouldToRemoveLastItems = false
-        while(dateeStart < dateeEnd)
+        const openDays = ["sunday","monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+        for(let sm in opendaysV2)
+        if(opendaysV2[sm]["days"].includes(openDays[dateeStart.getDay()]))
         {
-            if(isInOpenHours(dateeStart, menu["staticValue"]["opendaysV2"]))
-            {times.push(
-                <option value={dateeStart.getTime()}>
-                {dateeStart.getHours()+":"+(dateeStart.getMinutes()<10?"0"+dateeStart.getMinutes():dateeStart.getMinutes())}
-                {DateNow.getDay() == dateeStart.getDay()?"":" ("+getFormattedDate(dateeStart)+")"}
-                </option>
-                )
-                ShouldToRemoveLastItems=true
-            }
-            else{
-            if(ShouldToRemoveLastItems){
-            for(let n in [1,2])
-            if(times.length > 0)
-            times.pop()
+                dateeStart = ConvertToMinuten_0_15_30_45(dateeStart);
+                dateeStart.setMinutes(dateeStart.getMinutes());
+                var dateeEnd = new Date(dateeStart.getTime() + (20 * 60 * 60 * 1000));
+                dateeEnd = ConvertToMinuten_0_15_30_45(dateeEnd);  
+                while(dateeStart < dateeEnd)
+                {
+                    if(DayCheckPlusTime<dateeStart.getDate())
+                    {CountCheckPlusTime = 0;DayCheckPlusTime = dateeStart.getDate();}
+                    let checkk = isInOpenHours(dateeStart, menu["staticValue"]["opendaysV2"])
+                    if(checkk)
+                    {
+                        if(CountCheckPlusTime < plustime)
+                        CountCheckPlusTime++
+                        else
+                        {   
 
-            ShouldToRemoveLastItems=false
-            }
-            }
-            dateeStart.setMinutes(dateeStart.getMinutes()+15)
-        } 
+                            times.push(
+                            <option value={dateeStart.getTime()}>
+                            {dateeStart.getHours()+":"+(dateeStart.getMinutes()<10?"0"+dateeStart.getMinutes():dateeStart.getMinutes())}
+                            {DateNow.getDay() == dateeStart.getDay()?"":" ("+getFormattedDate(dateeStart)+")"}
+                            </option>
+                            )
+                        }
+                    }
+
+                    
+                    dateeStart.setMinutes(dateeStart.getMinutes()+15)
+                } 
+        }        
         return times;
     }
     
@@ -311,7 +322,7 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
     const getTimesForDelivery=(plustime)=>
     {   
         if("opendaysV2" in menu["staticValue"])
-        return getTimesForDeliveryV2(plustime)
+        return getTimesForDeliveryV2(plustime, menu["staticValue"]["opendaysV2"])
         var times = []
 
         times.push(
