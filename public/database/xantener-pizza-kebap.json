@@ -2643,8 +2643,8 @@
             "count":1,
             "style":{
                 "width":"300",
-                "font-table":"1rem",
-                "font-table-detail":"0.7rem",
+                "font-table":"1.2rem",
+                "font-table-detail":"0.9rem",
                 "print-version":"1"
             }
         },
