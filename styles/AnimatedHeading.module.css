@@ -2,7 +2,7 @@
     display: inline-block;
     animation: scaleAnimation 0.3s;
     }
-
+    
     @keyframes scaleAnimation {
     0%, 100% {
         transform: scale(1);
@@ -10,4 +10,19 @@
     50% {
         transform: scale(1.35);
     }
+    }
+
+.mHideelement {
+    animation: Hideelement 0.3s ease 0s 1 normal forwards;
+    }
+    @keyframes Hideelement {
+        0% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    
+        100% {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
     }

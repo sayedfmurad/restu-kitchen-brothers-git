@@ -6,6 +6,8 @@ import AddAddress from "../Cart/addaddress"
 import {IsPaymentSuccess} from "./MyOrders"
 import {UnstyledTabsIntroductionTimes,UnstyledTabsIntroduction} from '../Cart/Tabs';
 import PaymentMethods2 from '../Cart/PaymentMethods2';
+import Items from '../Cart/Items';
+import {CheckIfSomeFieldsAreEmpty} from '../Cart/addaddress';
 export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
     const MyLang = langswitch.langswitchs("cart")
     const startpay= ()=>{
@@ -133,7 +135,10 @@ export function PaymentMethods ({spaterodernow,textabohlen,menu,MsgError}) {
             try {
                 var addobj = langswitch.getJson("address")
                 if(addobj.hasOwnProperty(seladd))
-                startpay()
+                {
+                    if(CheckIfSomeFieldsAreEmpty())
+                    startpay()
+                }
                 else{
                     throw new Error("No Address Found");
                 }
@@ -440,10 +445,6 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
 export default function Container({menu}){
     const [MsgError,setMsgError] = useState("")
     var [textabohlen,settextabohlen] = useState(false);
-    const [AddAddressComponent,SetAddAddressComponent]=useState(<AddAddress textabohlen={textabohlen} menu={menu} setMsgError={setMsgError}/>)
-    useEffect(()=>{
-        SetAddAddressComponent(<AddAddress setContainerCustimizeModal={menu.setContainerCustimizeModal} setContainerCartModal={menu.setContainerCartModal} textabohlen={textabohlen} menu={menu} setMsgError={setMsgError}/>)
-    },[textabohlen])
     
     return  <>   
             <div class="modal-header"> 
@@ -452,7 +453,8 @@ export default function Container({menu}){
     </div>
     <div class="modal-body" > 
     <div id="MainIdd">
-    {AddAddressComponent}    
+    <Items menu={menu} textabohlen={textabohlen} setContainerCustimizeModal={menu.setContainerCustimizeModal}/>
+    <AddAddress setMsgError={setMsgError} MsgError={MsgError} menu={menu} />
     <CheckOptionsofDelivery MsgError={MsgError} IsStoreOpenClose_Var={langswitch.checkOpenCloseStore(menu)} textabohlen={textabohlen} menu={menu} settextabohlen={settextabohlen}/>  
     </div>
     <div className={`loadingg  container mt-3 d-none`} id="SpinnerId">

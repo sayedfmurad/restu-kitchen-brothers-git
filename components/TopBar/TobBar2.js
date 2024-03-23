@@ -38,9 +38,6 @@ export default function adsf({menu}){
     const MyLang = langswitch.langswitchs("navbar");            
 
     return <>
-        <Head>
-        <link   href={"./mystyles/global.css"} rel="stylesheet" />
-        </Head>
    <CustNav menu={menu} children={
 
    

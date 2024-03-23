@@ -1,14 +1,13 @@
 import React, { useEffect } from 'react';
 import langswitch from "../Utils/langswitch"
 import hash from "../Utils/object_hash"
-import Items from "./Items"
 import MModal from "../Index/mModal"
 import packagee from "../../package.json"
 import Cart from "../Index/cart"
 import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
-const CheckIfSomeFieldsAreEmpty=()=>{
+export function CheckIfSomeFieldsAreEmpty(){
   var obj={}
   obj["fname"] = document.getElementById("fname").value
   obj["lname"] = document.getElementById("lname").value 
@@ -445,25 +444,23 @@ export function SearchforAddressModal ({menu}) {
 </>
 }
 
-export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer}) {
-  const MyLang = langswitch.langswitchs("addaddress");      
-
-
-
-      
+export function GotJsonDataMenu ({menu,user}) {
+  const MyLang = langswitch.langswitchs("addaddress");   
+  console.log("user",user);   
   return<div className="container mt-4">
   <div className="row p-3 g-3">            
   <h6 style={{color:"#000"}}>Ihre Daten :</h6>
   <div class="form-group col-md-6 col-sm-12">
-  <TextField id="fname" style={{width:"100%"}} label={MyLang["First Name"]} variant="outlined" />
+  <TextField defaultValue={"fname" in user?user.fname :""} id="fname" style={{width:"100%"}} label={MyLang["First Name"]} variant="outlined" />
   </div>
   <div class="form-group col-md-6 col-sm-12">
-      <TextField id="lname" style={{width:"100%"}} label={MyLang["Last Name"]} variant="outlined" />
+  <TextField defaultValue={"lname" in user?user.lname :""} id="lname" style={{width:"100%"}} label={MyLang["Last Name"]} variant="outlined" />
   </div>            
   <br/>
   
   <div class="form-group col-md-6 col-sm-12 ">
         <TextField
+          defaultValue={"phonen" in user?user.phonen :""}
           label="Handynummer"
           id="phonen"
           type='number'
@@ -474,10 +471,22 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer}
         />          
   </div>      
   <div class="form-group col-md-6 col-sm-12">
-        <TextField id="firma" style={{width:"100%"}} label="Anmerkung (freiwillig)" variant="outlined" />
+        <TextField 
+        multiline
+        maxRows={4}
+          defaultValue={"firma" in user?user.firma :""}
+        id="firma" style={{width:"100%"}} label="Anmerkung (freiwillig)" />
     </div>
   <div class="form-group col-md-6 col-sm-12 ">
-    <TextField id="address-input" style={{width:"100%"}} label="Such für eine Addresse"
+    <TextField id="address-input"
+    multiline
+    maxRows={5}
+          defaultValue={"street" in user?
+          user.street+" "+user.housenumber+", "+
+          user.city+" "+user.zipc
+          :""}
+    
+     style={{width:"100%",color:"black"}} label="Such für eine Addresse"
     onClick={()=>{
       if(CheckIfSomeFieldsAreEmpty())
     {let myModal = new bootstrap.Modal(document.getElementById("SearchforAddressModal"), {
@@ -491,7 +500,7 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer}
       }, 700);
       }
     }}
-    variant="outlined" />
+     />
     </div>
 
     </div>            
@@ -500,69 +509,13 @@ export function GotJsonDataMenu ({textabohlen,menu,setMsgError,setMainContainer}
   
 }
 
-export function UserHasNoData ({setContainerCustimizeModal,setContainerCartModal,textabohlen,menu,setMsgError,setMainContainer}) {
-  
-  return <>
-  <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} />  
-  <div className={`list-group `}>                
-  <div className='list-group-item mb-3 backgroundcart'>
-  <GotJsonDataMenu textabohlen={textabohlen}  setMainContainer={setMainContainer}  setMsgError={setMsgError} menu={menu}/>
-  </div>
-  </div>
-  </>
-}
 
-export function UserHasData ({setContainerCustimizeModal,setContainerCartModal,textabohlen,menu,setMainContainer,setMsgError}) {
-
-  var addresses = langswitch.getJson("address")
-  var seladd = langswitch.getValue("seladdress")
-
-      return<>
-          <Items setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} />
-          <div className={`list-group`}>                
-          <div className='list-group-item justify-content-between d-flex'>                      
-          <div className="row">
-              <h6 style={{color:"#000"}}>Ihre Daten :</h6>
-              <div className='col-12'>
-              </div>
-              <div className='col-12'>
-              <p style={{"color":"#000"}}>
-              {langswitch.firstUpper(addresses[seladd]["fname"])}&nbsp;{langswitch.firstUpper(addresses[seladd]["lname"])}<br/>
-              {addresses[seladd]["street"]}&nbsp;{addresses[seladd]["housenumber"]}<br/>
-              {addresses[seladd]["city"]}&nbsp;{addresses[seladd]["zipc"]}<br/>
-              {addresses[seladd]["phonen"]}
-              {"firma" in addresses[seladd]?<><br/>{addresses[seladd]["firma"]}</>:<></>}
-              </p>
-              </div>              
-          </div>
-          <span>
-                  <button className='btn btn-secondary'
-                  onClick={()=>{
-                      window.localStorage.setItem("seladdress","")
-                      window.localStorage.setItem("address","{}")
-                      setMainContainer(<UserHasNoData menu={menu}  setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
-                  }}
-                  >ändern</button>
-                  </span>
-          </div>
-          </div>
-          <br/>
-          </>
-          
-}
-
-export default ({setContainerCartModal,setContainerCustimizeModal,textabohlen,setMsgError,menu})=>{  
-  const [MainContainer, setMainContainer]=useState(<></>)
+export default ({menu})=>{  
   var addresses = langswitch.getJson("address")
   var seladd = langswitch.getValue("seladdress")  
-    if(seladd in addresses)
-    {
-      return (<UserHasData setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu} setMsgError={setMsgError}  setMainContainer={setMainContainer}/>)
-    }
-    else
-    {
-      return(<UserHasNoData setContainerCustimizeModal={setContainerCustimizeModal} setContainerCartModal={setContainerCartModal} textabohlen={textabohlen} menu={menu}  setMainContainer={setMainContainer} setMsgError={setMsgError}/>)  
-    }
-  
-  
+  return <div className={`list-group `}>                
+  <div className='list-group-item mb-3 backgroundcart'>
+  <GotJsonDataMenu user={seladd in addresses ? addresses[seladd]:{}} menu={menu}/>
+  </div>
+  </div>
 }

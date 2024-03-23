@@ -20,18 +20,17 @@ def ftos(v):
     return str(v)
 
 
-json_file_path = './public/database/wing-me.json'
+json_file_path = './public/database/bockumer.json'
 # Open and read the JSON file
 with open(json_file_path, 'r') as file:
     g = set()
     data = json.load(file)    
     for n in data["product"]:
-        data["product"][n]["ExtraNameAddName"] = "Ihr Extra Sauce"
-        # if data["product"][n]["section"] == "PIZZABRÖTCHEN":
-        #     for m in data["product"][n]["price"]:
-        #         data["product"][n]["price"][m] = stof(data["product"][n]["price"][m])
-        #         data["product"][n]["price"][m] += 0.5
-        #         data["product"][n]["price"][m] = ftos(data["product"][n]["price"][m])
+        if data["product"][n]["section"] != "Angebote":
+            for m in data["product"][n]["price"]:
+                data["product"][n]["price"][m] = stof(data["product"][n]["price"][m])
+                data["product"][n]["price"][m] += 0.5
+                data["product"][n]["price"][m] = ftos(data["product"][n]["price"][m])
 
 # Write to the JSON file with utf-8 encoding                
 with open(json_file_path, 'w', encoding='utf-8') as file:
