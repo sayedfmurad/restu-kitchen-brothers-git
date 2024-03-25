@@ -446,6 +446,19 @@ export function SearchforAddressModal ({menu}) {
 
 export function GotJsonDataMenu ({menu,user}) {
   const MyLang = langswitch.langswitchs("addaddress");   
+  const AddressSearchIsClicked=()=>{
+    if(CheckIfSomeFieldsAreEmpty())
+    {let myModal = new bootstrap.Modal(document.getElementById("SearchforAddressModal"), {
+          keyboard: true
+        })    
+        myModal.show()  
+      history.pushState({}, '');
+      setTimeout(() => {
+        if(document.getElementById("inputmodalSearchforAddressModal"))
+        document.getElementById("inputmodalSearchforAddressModal").focus()
+      }, 700);
+      }
+    }
   return<div className="container mt-4">
   <div className="row p-3 g-3">            
   <h6 style={{color:"#000"}}>Ihre Daten :</h6>
@@ -486,18 +499,10 @@ export function GotJsonDataMenu ({menu,user}) {
           :""}
     
      style={{width:"100%",color:"black"}} label="Such für eine Addresse"
+     onKeyDown={(e)=>{AddressSearchIsClicked()}}
+     onKeyUp={(e)=>{AddressSearchIsClicked()}}
     onClick={()=>{
-      if(CheckIfSomeFieldsAreEmpty())
-    {let myModal = new bootstrap.Modal(document.getElementById("SearchforAddressModal"), {
-          keyboard: true
-        })    
-        myModal.show()  
-      history.pushState({}, '');
-      setTimeout(() => {
-        if(document.getElementById("inputmodalSearchforAddressModal"))
-        document.getElementById("inputmodalSearchforAddressModal").focus()
-      }, 700);
-      }
+      AddressSearchIsClicked()
     }}
      />
     </div>
