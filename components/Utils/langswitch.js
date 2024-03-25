@@ -239,13 +239,11 @@ if(process.browser)
       }
       return ""
 }
-NextOpenTimeMsgV2=(menu)=>{
-    if(process.browser)
-        {            
-            var TimeN = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));
-            const listday=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
-            const listdayD=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"]
-            const day = listday[TimeN.getDay()]      
+NextOpenTimeMsgV2=(menu)=>{   
+    var TimeN = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Berlin" }));
+    const listday=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+    const listdayD=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"]
+    const day = listday[TimeN.getDay()]      
           const checkIfTimeisBeforeOpenTime=()=>{
             for(var sections in menu["staticValue"]["opendaysV2"])
             {
@@ -265,34 +263,30 @@ NextOpenTimeMsgV2=(menu)=>{
             return ""
           }
           const getNextDayOpen=()=>{
-            var DayFound = false
-            var addeddays = 0
-            for(var d=0;d<listday.length;d++)
-            {            
-                if(DayFound)        
-                {
-                    addeddays = addeddays+1
-                    if(listday[d] in menu["staticValue"]["opendays"]) 
-                    {
-                        var h = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),menu["staticValue"]["opendays"][listday[d]]["opentime"]["hour"],menu["staticValue"]["opendays"][listday[d]]["opentime"]["min"],0)
-                        h.setDate(h.getDate() + addeddays);
-                        return h
-                    }           
-                }      
-    
-    
-                if(day==listday[d])
-                DayFound=true            
-                if(listday.length==(d+1))
-                d=0
+            let listOpenDays = []
+            for(let xmii in menu["staticValue"]["opendaysV2"])
+            {
+                listOpenDays = listOpenDays.concat(menu["staticValue"]["opendaysV2"][xmii]["days"])
             }
-            return ""
+            while(!(listOpenDays.includes(listday[TimeN.getDay()])))
+            TimeN.setDate(TimeN.getDate() + 1);
+            
+            for(let xmii in menu["staticValue"]["opendaysV2"])
+            if(menu["staticValue"]["opendaysV2"][xmii]["days"].includes(listday[TimeN.getDay()]))
+            {
+                let daydd = menu["staticValue"]["opendaysV2"][xmii]["times"][0]
+                var openTime = new Date(TimeN.getFullYear(),TimeN.getMonth(),TimeN.getDate(),daydd["opentime"]["hour"],daydd["opentime"]["min"],0);    
+                return openTime
+            }
+            TimeN.setHours()
+            return TimeN
           }
            var out = checkIfTimeisBeforeOpenTime()
     
            if(out==="")
            {
             var datee = getNextDayOpen()
+
             // console.log(datee)
             if(datee !== "")
             {            
@@ -303,8 +297,6 @@ NextOpenTimeMsgV2=(menu)=>{
     
     
            return out
-          }
-          return ""
 }
 getStringOpenCloseTimeStore=(type)=>
 {

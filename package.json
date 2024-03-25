@@ -35,5 +35,5 @@
         "payment": "https://f52vhrbr4fl26wa6xlxlwz4k6q0xmbhl.lambda-url.eu-central-1.on.aws"
     },
     "lang": "de-de",
-    "IsOut": true
+    "IsOut": false
 }

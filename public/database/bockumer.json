@@ -58,110 +58,6 @@
         }
     },
     "product": {
-        "1P": {
-            "name": "Pizzabrötchen",
-            "price": {
-                "stand": "4,00"
-            },
-            "desO": "mit Kräuterbutter 8 Stück",
-            "desT": "",
-            "zusatz": "",
-            "section": "Pizzabrötchen"
-        },
-        "2P": {
-            "name": "Gefüllte Pizzabrötchen je 8 Stück",
-            "price": {
-                "stand": "8,00"
-            },
-            "desO": "",
-            "desT": "",
-            "zusatz": "",
-            "section": "Pizzabrötchen"
-        },
-        "A1": {
-            "name": "Angebot 1",
-            "price": {
-                "stand": "20,00"
-            },
-            "desO": "3x Drehspieß frisches Drehsoießbrot. Salat und Sauce 3x Getränk 0.33L (nach Wah)",
-            "desT": "",
-            "options": {
-                "Getränk 1": {
-                    "showprice": false,
-                    "name": "Getränk 1",
-                    "options": {
-                        "Coca-Cola": {
-                            "price": "0,00"
-                        },
-                        "Fanta": {
-                            "price": "0,00"
-                        },
-                        "Sprite": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Getränk 2": {
-                    "showprice": false,
-                    "name": "Getränk 2",
-                    "options": {
-                        "Coca-Cola": {
-                            "price": "0,00"
-                        },
-                        "Fanta": {
-                            "price": "0,00"
-                        },
-                        "Sprite": {
-                            "price": "0,00"
-                        }
-                    }
-                },
-                "Getränk 3": {
-                    "showprice": false,
-                    "name": "Getränk 3",
-                    "options": {
-                        "Coca-Cola": {
-                            "price": "0,00"
-                        },
-                        "Fanta": {
-                            "price": "0,00"
-                        },
-                        "Sprite": {
-                            "price": "0,00"
-                        }
-                    }
-                }
-            },
-            "zusatz": "",
-            "section": "Angebote"
-        },
-        "A3": {
-            "name": "Angebot 3",
-            "price": {
-                "stand": "9,50"
-            },
-            "desO": "1x Lahmacun (Salat und Sauce My mmere Pommes 1x Getränk (nach Wahl)",
-            "desT": "",
-            "options": {
-                "Getränk": {
-                    "showprice": false,
-                    "name": "Getränk",
-                    "options": {
-                        "Coca-Cola": {
-                            "price": "0,00"
-                        },
-                        "Fanta": {
-                            "price": "0,00"
-                        },
-                        "Sprite": {
-                            "price": "0,00"
-                        }
-                    }
-                }
-            },
-            "zusatz": "",
-            "section": "Angebote"
-        },
         "1": {
             "name": "Drehspieß (Kalb oder Hähnchen)",
             "price": {
@@ -1311,6 +1207,110 @@
             "desT": "",
             "zusatz": "",
             "section": "Getränke"
+        },
+        "1P": {
+            "name": "Pizzabrötchen",
+            "price": {
+                "stand": "4,00"
+            },
+            "desO": "mit Kräuterbutter 8 Stück",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrötchen"
+        },
+        "2P": {
+            "name": "Gefüllte Pizzabrötchen je 8 Stück",
+            "price": {
+                "stand": "8,00"
+            },
+            "desO": "",
+            "desT": "",
+            "zusatz": "",
+            "section": "Pizzabrötchen"
+        },
+        "A1": {
+            "name": "Angebot 1",
+            "price": {
+                "stand": "20,00"
+            },
+            "desO": "3x Drehspieß frisches Drehsoießbrot. Salat und Sauce 3x Getränk 0.33L (nach Wah)",
+            "desT": "",
+            "options": {
+                "Getränk 1": {
+                    "showprice": false,
+                    "name": "Getränk 1",
+                    "options": {
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Getränk 2": {
+                    "showprice": false,
+                    "name": "Getränk 2",
+                    "options": {
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                },
+                "Getränk 3": {
+                    "showprice": false,
+                    "name": "Getränk 3",
+                    "options": {
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz": "",
+            "section": "Angebote"
+        },
+        "A3": {
+            "name": "Angebot 3",
+            "price": {
+                "stand": "9,50"
+            },
+            "desO": "1x Lahmacun (Salat und Sauce My mmere Pommes 1x Getränk (nach Wahl)",
+            "desT": "",
+            "options": {
+                "Getränk": {
+                    "showprice": false,
+                    "name": "Getränk",
+                    "options": {
+                        "Coca-Cola": {
+                            "price": "0,00"
+                        },
+                        "Fanta": {
+                            "price": "0,00"
+                        },
+                        "Sprite": {
+                            "price": "0,00"
+                        }
+                    }
+                }
+            },
+            "zusatz": "",
+            "section": "Angebote"
         }
     },
     "extra": {
@@ -1540,105 +1540,21 @@
             "city": "Krefeld",
             "tel": "021519674328"
         },
-        "opendays": {
-            "sunday": {
-                "opentime": {
-                    "hour": 13,
-                    "min": 0
-                },
-                "closetime": {
-                    "hour": 22,
-                    "min": 0
-                }
-            },
-            "mondayy": {
-                "opentime": {
-                    "hour": 11,
-                    "min": 30
-                },
-                "closetime": {
-                    "hour": 23,
-                    "min": 0
-                }
-            },
-            "tuesday": {
-                "opentime": {
-                    "hour": 12,
-                    "min": 0
-                },
-                "closetime": {
-                    "hour": 22,
-                    "min": 0
-                }
-            },
-            "wednesday": {
-                "opentime": {
-                    "hour": 12,
-                    "min": 0
-                },
-                "closetime": {
-                    "hour": 22,
-                    "min": 0
-                }
-            },
-            "thursday": {
-                "opentime": {
-                    "hour": 12,
-                    "min": 0
-                },
-                "closetime": {
-                    "hour": 22,
-                    "min": 0
-                }
-            },
-            "friday": {
-                "opentime": {
-                    "hour": 12,
-                    "min": 0
-                },
-                "closetime": {
-                    "hour": 22,
-                    "min": 0
-                }
-            },
-            "saturday": {
-                "opentime": {
-                    "hour": 13,
-                    "min": 0
-                },
-                "closetime": {
-                    "hour": 22,
-                    "min": 0
-                }
-            }
-        },
         "opendaysV2": [
             {
                 "days": [
-                    "monday",
                     "tuesday",
                     "wednesday",
-                    "thursday",
-                    "friday"
+                    "thursday"
                 ],
                 "times": [
                     {
                         "opentime": {
                             "hour": 11,
-                            "min": 30
-                        },
-                        "closetime": {
-                            "hour": 14,
-                            "min": 30
-                        }
-                    },
-                    {
-                        "opentime": {
-                            "hour": 17,
                             "min": 0
                         },
                         "closetime": {
-                            "hour": 23,
+                            "hour": 22,
                             "min": 0
                         }
                     }
@@ -1646,12 +1562,13 @@
             },
             {
                 "days": [
+                    "friday",
                     "saturday"
                 ],
                 "times": [
                     {
                         "opentime": {
-                            "hour": 17,
+                            "hour": 11,
                             "min": 0
                         },
                         "closetime": {
@@ -1668,11 +1585,11 @@
                 "times": [
                     {
                         "opentime": {
-                            "hour": 16,
+                            "hour": 11,
                             "min": 0
                         },
                         "closetime": {
-                            "hour": 23,
+                            "hour": 22,
                             "min": 0
                         }
                     }
