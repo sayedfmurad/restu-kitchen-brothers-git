@@ -293,7 +293,10 @@ export function CheckOptionsofDelivery ({MsgError,menu,settextabohlen,textabohle
         {
                 dateeStart = ConvertToMinuten_0_15_30_45(dateeStart);
                 dateeStart.setMinutes(dateeStart.getMinutes());
-                var dateeEnd = new Date(dateeStart.getTime() + (20 * 60 * 60 * 1000));
+                var dateeEnd = new Date();
+                dateeEnd.setHours(opendaysV2[sm]["times"][opendaysV2[sm]["times"].length-1]["closetime"]["hour"]);
+                dateeEnd.setMinutes(opendaysV2[sm]["times"][opendaysV2[sm]["times"].length-1]["closetime"]["min"]);
+                dateeEnd.setDate(dateeStart.getDate() + 2);
                 dateeEnd = ConvertToMinuten_0_15_30_45(dateeEnd);  
                 while(dateeStart < dateeEnd)
                 {

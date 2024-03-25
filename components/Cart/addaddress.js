@@ -446,7 +446,6 @@ export function SearchforAddressModal ({menu}) {
 
 export function GotJsonDataMenu ({menu,user}) {
   const MyLang = langswitch.langswitchs("addaddress");   
-  console.log("user",user);   
   return<div className="container mt-4">
   <div className="row p-3 g-3">            
   <h6 style={{color:"#000"}}>Ihre Daten :</h6>
