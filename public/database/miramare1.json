@@ -11636,7 +11636,32 @@
         "opendaysV2":[
             {
                 
-                "days":["monday","tuesday","wednesday","thursday","friday"],
+                "days":["monday","friday"],
+                "times":[{
+                            "opentime": {
+                                "hour": 11,
+                                "min": 30
+                            },
+                            "closetime": {
+                                "hour": 14,
+                                "min": 30
+                            }
+                        },
+                        {
+                            "opentime": {
+                                "hour": 16,
+                                "min": 0
+                            },
+                            "closetime": {
+                                "hour": 23,
+                                "min": 0
+                            }
+                        }
+                        ]
+            },
+            {
+                
+                "days":["tuesday","wednesday","thursday"],
                 "times":[{
                             "opentime": {
                                 "hour": 11,

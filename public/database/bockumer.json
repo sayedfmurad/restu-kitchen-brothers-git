@@ -1436,6 +1436,13 @@
         }
     },
     "staticValue": {
+        "style":{
+            "navbar":{
+                "color":"#fff",
+                "iconpath":"./icons/bockumer.png",
+                "iconstyle":{"height":"70px"}
+            }
+        },
         "paymentmethod": {
             "bar": {
                 "name": "Bar",
@@ -1543,6 +1550,7 @@
         "opendaysV2": [
             {
                 "days": [
+                    "monday",
                     "tuesday",
                     "wednesday",
                     "thursday"
@@ -1562,7 +1570,7 @@
             },
             {
                 "days": [
-                    "friday",
+                    "fridayy",
                     "saturday"
                 ],
                 "times": [

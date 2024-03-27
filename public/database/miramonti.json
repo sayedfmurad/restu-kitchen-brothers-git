@@ -4949,6 +4949,13 @@
     },
     "rabat": "5",
     "staticValue": {
+        "style":{
+            "navbar":{
+                "color":"#fff",
+                "iconpath":"./icons/miramonti.avif",
+                "iconstyle":{"height":"70px"}
+            }
+        },
         "printer":{
             "style":{
                 "font-table":"0.8rem",
